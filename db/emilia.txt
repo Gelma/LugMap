@@ -1,0 +1,12 @@
+Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/
+Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
+Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/
+Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/
+Imola|ImoLug|Imola|http://www.imolug.org/
+Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/
+Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/
+Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
+Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/
+Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/
+Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/
+Rimini|RiminiLug|Rimini|http://www.riminilug.it/
