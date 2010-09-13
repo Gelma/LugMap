@@ -1,15 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="it">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="language" content="italian">
-<link href="/community/linuxit2.css" rel="stylesheet" type="text/css">
-<title>Mappa dei Linux User Group e Free Software User Group Italiani</title>
-</head>
-<body bgcolor="#FFFFFF" text="#000000" link="#FF0000" vlink="#AA0000" alink="#00AA00">
-<h2 align=center>LUG presenti in Valle d'Aosta</h2><div align=right>&raquo; <a href="index.phtml">torna alla LUGmap</a></div><br>
-<table width="100%" border=0 cellspacing=0 cellpadding=1 bgcolor="black"><tr><td>
-<table width="100%" border=0 cellspacing=0 cellpadding=4 bgcolor="#00659c">
+<?php
+function header_html($regione){
+print <<<END
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+	<html lang="it">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta name="language" content="italian">
+		<link href="/community/linuxit2.css" rel="stylesheet" type="text/css">
+		<title>LUG presenti in $regione</title>
+	</head>
+
+	<body bgcolor="#FFFFFF" text="#000000" link="#FF0000" vlink="#AA0000" alink="#00AA00">
+		<h2 align=center>LUG presenti in Valle d'Aosta</h2><div align=right>&raquo; <a href="index.phtml">torna alla LUGmap</a></div><br>
+		<table width="100%" border=0 cellspacing=0 cellpadding=1 bgcolor="black"><tr><td>
+		<table width="100%" border=0 cellspacing=0 cellpadding=4 bgcolor="#00659c">
+END;
+}
+?>
+
+
+
+
 <tr class=menubox><th>Denominazione</th><th>Tipo</th><th>Area di attivit&agrave;</th><th>Fondazione</th><th>Homepage</th><th>Informazioni</th></tr>
 <tr bgcolor="#dddddd">
 <td align=center>SLAG</td>
