@@ -78,7 +78,7 @@ while (list ($nriga,$linea) = each ($db_regione)) {
 	$campi = explode("|",$linea);
 	$denominazione	= $campi[0];
 	$zona			= $campi[1];
-	$contatti		= $campi[2];
+	$contatti		= $campi[2]; # al momento sara' solo il sito, ma l'idea sarebbe quella di avere anche delle informazioni più dirette
 	# stampa dei campi
 	print "<tr $colore><td align=center>".$denominazione."</td><td>".$zona."</td><td>".$contatti."</td>";
 	}
