@@ -1,2 +1,3 @@
 Bolzano|Lug Bolzano|Alto Adige - Südtirol|http://www.lugbz.org/
 Trento|LinuxTrent|Trentino|http://www.linuxtrent.it/
+Treno|Gnucchi|Riva del Garda|http://www.gnucchi.org/
