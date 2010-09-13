@@ -12,13 +12,21 @@ scrivendo a lugmap@linux.it, oppure contattando Andrea Gelmini
 al numero 328/7296628.
 
 == Obiettivi ===
+a) fornire agli interessati le informazioni *essenziali* per
+   il raggiungimento dei Lug eventualmente vicini
+b) fornire ai Lug la possibilita' di aggiornare facilmente
+   i dati stessi (numero di telefono e email in primis, ma fornendo
+   anche l'accesso github)
+
+== Obiettivi tecnici===
 a) aggiornare i dati esistenti (in particolare eliminado gli errori
    gia' individuati)
 b) rendere agevolmente fruibile il tutto (fare in modo che il Dalla
    debba solo fare un "git pull", senza cozzare con l'infrastruttura
    pre-esistente)
 c) poter aggiornare i dati agevolmente, mantenendo traccia delle
-   modifiche (un file di testo per ogni regione in RCS)
+   modifiche (un file di testo per ogni regione in RCS), e in modo
+   distribuito
 d) mantenere la struttura delle informazioni (in modo da non rovinare
    eventuali link esterni e/o indicizzazioni)
 
