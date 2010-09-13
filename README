@@ -10,3 +10,17 @@ la lista di cui sopra.
 Qualsiasi aggiunta/correzione/rimozione può essere segnalata
 scrivendo a lugmap@linux.it, oppure contattando Andrea Gelmini
 al numero 328/7296628.
+
+== Obiettivi ===
+a) aggiornare i dati esistenti (in particolare eliminado gli errori
+   gia' individuati)
+b) rendere agevolmente fruibile il tutto (fare in modo che il Dalla
+   debba solo fare un "git pull", senza cozzare con l'infrastruttura
+   pre-esistente)
+c) poter aggiornare i dati agevolmente, mantenendo traccia delle
+   modifiche (un file di testo per ogni regione in RCS)
+d) mantenere la struttura delle informazioni (in modo da non rovinare
+   eventuali link esterni e/o indicizzazioni)
+
+== Modus operandi ===
+Per ogni critica, una proposta propositiva. Astenersi perditempo.
