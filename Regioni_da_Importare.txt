@@ -4,9 +4,9 @@ calabria	Gelma - 13/09
 campania	Gelma - 13/09
 emilia		Gelma - 13/09
 friuli		Gelma - 13/09
-"lazio"			=> "Lazio",
+lazio		Gelma - 13/09
 liguria		Gelma - 13/09
-"lombardia"		=> "Lombardia",
+lombardia	Gelma - 13/09
 "marche"		=> "Marche",
 molise		Gelma - 13/09
 piemonte	Gelma - 13/09

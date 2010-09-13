@@ -1,0 +1,16 @@
+Bergamo|BGLug|Bergamo e provincia|http://www.bglug.it/
+Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/
+Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/
+Brescia|LugOB|Cologne e ovest bresciano|http://www.lugob.org/
+Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/
+Crema|LugCR|Cremona e provincia|http://www.lugcr.it/
+Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/
+Lodi|LoLug|Lodi e provincia|http://www.lolug.org/
+Mantova|LugMan|Mantova e provincia|http://www.lugman.org/
+Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/
+Milano|OpenLabs|Milano|http://www.openlabs.it/
+Milano|POuL|Milano|http://www.poul.org/
+Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/
+Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/
+Varese|LIFO|Varese|http://www.lifos.org/
+Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/
