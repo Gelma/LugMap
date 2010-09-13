@@ -9,7 +9,7 @@ calabria"		=> "Calabria",
 "lombardia"		=> "Lombardia",
 "marche"		=> "Marche",
 "molise"		=> "Molise",
-"piemonte"		=> "Piemonte",
+piemonte	Gelma - 13/09
 "puglia"		=> "Puglia",
 "sardegna"		=> "Sardegna",
 "sicilia"		=> "Sicilia",
