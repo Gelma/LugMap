@@ -5,7 +5,7 @@ calabria"		=> "Calabria",
 "emilia"		=> "Emilia Romagna",
 "friuli"		=> "Friuli Venezia Giulia",
 "lazio"			=> "Lazio",
-"liguria"		=> "Liguria",
+liguria		Gelma - 13/09
 "lombardia"		=> "Lombardia",
 "marche"		=> "Marche",
 "molise"		=> "Molise",
