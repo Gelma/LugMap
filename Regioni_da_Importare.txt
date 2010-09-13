@@ -10,7 +10,7 @@ liguria		Gelma - 13/09
 "marche"		=> "Marche",
 molise		Gelma - 13/09
 piemonte	Gelma - 13/09
-"puglia"		=> "Puglia",
+puglia		Gelma - 13/09
 sardegna	Gelma - 13/09
 "sicilia"		=> "Sicilia",
 "toscana"		=> "Toscana",

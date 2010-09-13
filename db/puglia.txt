@@ -1,0 +1,4 @@
+Bari|LugBari|Bari e provincia|http://lugbari.org/
+Brindisi|BriLug|Brindisi e provincia|http://www.brilug.it/
+Brindisi|LatLug|Latiano e limitrofi|http://www.latlug.org/
+Lecce/Brindisi/Taranto|SaLug|Salento|http://salug.it/
