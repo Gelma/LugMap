@@ -1,5 +1,5 @@
 "abruzzo"		=> "Abruzzo",
-"basilicata"	=> "Basilicata",
+basilicata	Gelma - 13/09
 calabria"		=> "Calabria",
 "campania"		=> "Campania",
 "emilia"		=> "Emilia Romagna",
