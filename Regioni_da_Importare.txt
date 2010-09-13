@@ -11,7 +11,7 @@ liguria		Gelma - 13/09
 "molise"		=> "Molise",
 piemonte	Gelma - 13/09
 "puglia"		=> "Puglia",
-"sardegna"		=> "Sardegna",
+sardegna	Gelma - 13/09
 "sicilia"		=> "Sicilia",
 "toscana"		=> "Toscana",
 "trentino"		=> "Trentino Alto Adige",
