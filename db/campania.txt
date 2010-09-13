@@ -1,0 +1,8 @@
+Benevento|GLUS|Sant'Agata dei Goti, Airola|http://www.liberarete.it/glus
+Benevento|SannioLug|Benevento e provincia|http://www.sanniolug.org/
+Caserta|Hackaserta 81100|Caserta|http://www.81100.eu.org/
+Napoli|IGLUG|Napoli e provincia|http://www.iglug.org/
+Napoli|Lug Ischia|Ischia|http://www.lug-ischia.org/
+Napoli|NaLug|Napoli e provincia|http://www.nalug.net/
+Salerno|GuruLug|Sapri|http://gurulug.wordpress.com/
+Salerno|HCSSLUG|Salerno e provincia|http://www.hcsslug.org/

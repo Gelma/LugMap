@@ -1,7 +1,7 @@
 abruzzo		Gelma - 13/09
 basilicata	Gelma - 13/09
 calabria	Gelma - 13/09
-"campania"		=> "Campania",
+campania	Gelma - 13/09
 "emilia"		=> "Emilia Romagna",
 friuli		Gelma - 13/09
 "lazio"			=> "Lazio",
