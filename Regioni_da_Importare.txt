@@ -15,6 +15,6 @@ sardegna	Gelma - 13/09
 "sicilia"		=> "Sicilia",
 "toscana"		=> "Toscana",
 trentino	Gelma - 13/09
-"umbria"		=> "Umbria",
+umbria		Gelma - 13/09
 valle		Gelma - 13/09
 "veneto"		=> "Veneto");
