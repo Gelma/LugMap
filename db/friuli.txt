@@ -1,0 +1,5 @@
+Gorizia|GoLug|Gorizia|http://www.golug.it/
+Pordenone|Lug Pordenone|Pordenone|http://www.pordenone.linux.it/
+Trieste|Lug Trieste|Trieste|http://trieste.linux.it/
+Udine|IGLU|Udine|http://iglu.cc.uniud.it/
+Udine|Lug ALP|Aquileia|http://www.alproject.org/

@@ -3,7 +3,7 @@ basilicata	Gelma - 13/09
 calabria"		=> "Calabria",
 "campania"		=> "Campania",
 "emilia"		=> "Emilia Romagna",
-"friuli"		=> "Friuli Venezia Giulia",
+friuli		Gelma - 13/09
 "lazio"			=> "Lazio",
 liguria		Gelma - 13/09
 "lombardia"		=> "Lombardia",
