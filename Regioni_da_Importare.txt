@@ -8,7 +8,7 @@ friuli		Gelma - 13/09
 liguria		Gelma - 13/09
 "lombardia"		=> "Lombardia",
 "marche"		=> "Marche",
-"molise"		=> "Molise",
+molise		Gelma - 13/09
 piemonte	Gelma - 13/09
 "puglia"		=> "Puglia",
 sardegna	Gelma - 13/09
