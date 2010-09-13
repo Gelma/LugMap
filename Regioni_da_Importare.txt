@@ -1,4 +1,4 @@
-"abruzzo"		=> "Abruzzo",
+abruzzo		Gelma - 13/09
 basilicata	Gelma - 13/09
 calabria"		=> "Calabria",
 "campania"		=> "Campania",
