@@ -42,24 +42,26 @@ print <<<END
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<meta name="language" content="italian">
+		<meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, $regione">
 		<link href="/community/linuxit2.css" rel="stylesheet" type="text/css">
 		<title>LUG presenti nella regione $regione</title>
 	</head>
 
 	<body bgcolor="#FFFFFF" text="#000000" link="#FF0000" vlink="#AA0000" alink="#00AA00">
-		<h2 align=center>LUG presenti nella regione $regione</h2>
-		<div align=right>&raquo; <a href="index.phtml">torna alla LUGmap</a></div><br>
-		<table width="100%" border=0 cellspacing=0 cellpadding=1 bgcolor="black"><tr><td>
-			<table width="100%" border=0 cellspacing=0 cellpadding=4 bgcolor="#00659c">
-			<tr class=menubox><th>Denominazione</th><th>Tipo</th><th>Area di attivit&agrave;</th><th>Fondazione</th><th>Homepage</th><th>Informazioni</th></tr>
+		<h2 align=center>Linux User Groups in $regione</h2>
+		<div align="right">&raquo; <a href="index.phtml">torna alla LUGmap</a></div><br>
+		<table width="100%" border="0" cellspacing="0" cellpadding="1" bgcolor="black"><tr><td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="4" bgcolor="#00659c">
+			<tr class="menubox"><th>Denominazione</th><th>Area di attivit&agrave;</th><th>Homepage</th></tr>
 END;
 }
 
 function footer_html(){
 print <<<END
 		</table>
-		<p align=right>&raquo; <a href="index.phtml">torna alla LUGmap</a></p>
-		<p><hr size=1 noshade>
+		</table>
+		<p align="right">&raquo; <a href="index.phtml">torna alla LUGmap</a></p>
+		<p><hr size="1" noshade>
 	</body>
 	</html>
 END;
@@ -71,9 +73,9 @@ header_html($regione);
 
 $db_regione = file('./db/'.$db_file.'.txt');
 $colore='bgcolor="#ecfb86"';
-print '<table>'; # la table in realta' è gia' aperta, vedi header
+# print '<table>'; # la table in realta' è gia' aperta, vedi header
 while (list ($nriga,$linea) = each ($db_regione)) {
-	if ($colore == 'bgcolor="#ecfb86"') {$colore='bgcolor="#c8c8ea"';} else {$colore='bgcolor="#ecfb86"';} # questa è robaccia che ho scritto per un altro sito. Da adattare con i colori del caso
+	if ($colore == 'bgcolor="#dddddd"') {$colore='bgcolor="#eeeeee"';} else {$colore='bgcolor="#dddddd"';}
 	# estrazione variabili
 	$campi = explode("|",$linea);
 	$provincia		= $campi[0];
@@ -81,20 +83,8 @@ while (list ($nriga,$linea) = each ($db_regione)) {
 	$zona			= $campi[2];
 	$contatti		= $campi[3]; # al momento sara' solo il sito, ma l'idea sarebbe quella di avere anche delle informazioni più dirette
 	# stampa dei campi
-	print "<tr $colore><td align=center>".$denominazione."</td><td>".$zona."</td><td>".$contatti."</td>";
+	print "<tr $colore><td align=\"center\">$denominazione</td><td align=\"center\">$zona</td><td align=\"center\"><a href=\"$contatti\">$contatti</a></td>";
 	}
-
-#<tr bgcolor="#dddddd">
-#<td align=center>SLAG</td>
-#<td align=center>Associazione</td>
-#<td align=center>Valle d'Aosta</td>
-#<td align=center>Novembre 2003</td>
-#<td align=center><a href="http://www.slag.it">www.slag.it</a></td>
-#<td width=300>Associazione culturale SLAG - Software Libero Aosta GLUG</td>
-#</tr>
-#</table>
-#</td></tr>
-#
 
 footer_html();
 ?>
