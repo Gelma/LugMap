@@ -1,0 +1,13 @@
+Empoli|GOLEM|Empoli|http://golem.linux.it/
+Firenze|Flug|Firenze|http://www.firenze.linux.it/
+Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/
+Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/
+Livorno|GuIP!|Piombino e dintorni|http://gulp.perlmonk.org/
+Livorno|Gulli|Livorno e provincia|http://www.livorno.linux.it/
+Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://www.lug-acros.org/
+Lucca|Lucca Lug|Lucca|http://luccalug.it/
+Pisa|Gulp|Pisa|http://www.gulp.linux.it/
+Pistoia|PTLug|Pistoia|http://www.ptlug.org/
+Prato|Plug|Prato|http://www.prato.linux.it/
+Siena - Firenze|ElsaGLUG|Valdelsa|http://www.elsaglug.org/
+Siena|SLUG|Siena e provincia|http://www.siena.linux.it/

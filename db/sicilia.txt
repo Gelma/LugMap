@@ -1,0 +1,4 @@
+Caltanisetta|VPLug|Provincia di Caltanisetta|http://www.vplug.it/
+Messina|Lug Messina|Messina e provincia|http://www.messinalug.org/
+Palermo|SputniX|Palermo|http://www.sputnix.it/
+Ragusa|Lug Ragusa|Ragusa e provincia|http://www.solira.org/

@@ -7,14 +7,14 @@ friuli		Gelma - 13/09
 lazio		Gelma - 13/09
 liguria		Gelma - 13/09
 lombardia	Gelma - 13/09
-"marche"		=> "Marche",
+marche		Gelma - 14/09
 molise		Gelma - 13/09
 piemonte	Gelma - 13/09
 puglia		Gelma - 13/09
 sardegna	Gelma - 13/09
-"sicilia"		=> "Sicilia",
-"toscana"		=> "Toscana",
+sicilia		Gelma - 14/09
+toscana		Gelma - 14/09
 trentino	Gelma - 13/09
 umbria		Gelma - 13/09
 valle		Gelma - 13/09
-"veneto"		=> "Veneto");
+veneto		Gelma - 14/09
