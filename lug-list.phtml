@@ -4,6 +4,7 @@ error_reporting(E_ALL);
 # l'array utilizza come chiave la richiesta in input
 # (utilizzata anche per identificare il file da leggere)
 # e come valore la stringa da visualizzare
+
 $elenco_regioni = array("abruzzo"		=> "Abruzzo",
 						"basilicata"	=> "Basilicata",
 						"calabria"		=> "Calabria",
@@ -34,7 +35,6 @@ if ( isset($_REQUEST["reg"]) && array_key_exists( $_REQUEST["reg"], $elenco_regi
 	header("location: http://www.linux.it/LUG/");
 }
 
-#definizione delle funzioni
 function header_html($regione){
 print <<<END
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
@@ -47,43 +47,59 @@ print <<<END
 	</head>
 
 	<body bgcolor="#FFFFFF" text="#000000" link="#FF0000" vlink="#AA0000" alink="#00AA00">
-		<h2 align=center>Linux User Groups in $regione</h2>
+		<h1 align="center"><img src="ilsheader-wide.png"></h1>
+		<h2 align=center>Linux User Group della regione $regione</h2>
 		<div align="right">&raquo; <a href="index.phtml">torna alla LUGmap</a></div><br>
-		<table width="100%" border="0" cellspacing="0" cellpadding="1" bgcolor="black"><tr><td>
-			<table width="100%" border="0" cellspacing="0" cellpadding="4" bgcolor="#00659c">
-			<tr class="menubox"><th>Denominazione</th><th>Area di attivit&agrave;</th><th>Homepage</th></tr>
+		<table align="center" width="80%" border="0" cellspacing="0" cellpadding="1" bgcolor="black"><tr><td>
+			<table width="100%" border="1" cellspacing="0" cellpadding="4" bgcolor="#00659c">
+			<tr class="menubox"><th>Provincia</th><th>Denominazione</th><th>Zona</th><th>Contatti</th></tr>
 END;
 }
 
-function footer_html(){
+function footer_html($db_file){
+	$db_file = 'db/'.$db_file.'.txt';
 print <<<END
 		</table>
 		</table>
-		<p align="right">&raquo; <a href="index.phtml">torna alla LUGmap</a></p>
+		<p align="right">&raquo; <a href="$db_file">Elenco in formato CSV</a></p>
 		<p><hr size="1" noshade>
-	</body>
-	</html>
 END;
 }
+function chiusura(){
+	$testo="Aiutaci a mantenere la LugMap aggiornata!<p>Segnalaci nuovi/vecchi Lug, cos&igrave; come eventuali correzioni/errori, mandando
+			una mail a <a href=\"mailto:lugmap@linux.it\">lugmap@linux.it</a>, oppure telefonando direttamente ad
+			<a href=\"mailto:andrea.gelmini@lugbs.linux.it\">Andrea Gelmini</a> al 328/7296628. Agli stessi recapiti
+			puoi richiedere l'accesso in scrittura al relativo <a href=\"http://github.com/Gelma/LugMap\">repository GitHub.</a>
+			<p>Te ne saremo eternamente grati!";
+	print '<table align="left" width="25%">';
+	print '<tr><td><i>'.$testo.'</i></td></tr>';
+	print '</table>';
+	print "</body></html>";
+}
 
+function stampa_db($db_file){
+	$db_regione = file('./db/'.$db_file.'.txt');
+	$colore='bgcolor="#ecfb86"';
+	while (list ($nriga,$linea) = each ($db_regione)) {
+		if ($colore == 'bgcolor="#dddddd"') {$colore='bgcolor="#eeeeee"';} else {$colore='bgcolor="#dddddd"';}
+		# estrazione variabili
+		$campi = explode("|",$linea);
+		$provincia		= $campi[0];
+		$denominazione	= $campi[1];
+		$zona			= $campi[2];
+		$contatti		= $campi[3];
+		# stampa dei campi
+		print "<tr $colore>
+				<td align=\"left\"><b>$provincia</b></td>
+				<td align=\"center\">$denominazione</td>
+				<td align=\"center\">$zona</td>
+				<td align=\"right\"><a href=\"$contatti\">$contatti</a></td>";
+		}
+}
+
+#main();
 header_html($regione);
-
-# recupero e stampa dei dati dal file della regione
-
-$db_regione = file('./db/'.$db_file.'.txt');
-$colore='bgcolor="#ecfb86"';
-# print '<table>'; # la table in realta' è gia' aperta, vedi header
-while (list ($nriga,$linea) = each ($db_regione)) {
-	if ($colore == 'bgcolor="#dddddd"') {$colore='bgcolor="#eeeeee"';} else {$colore='bgcolor="#dddddd"';}
-	# estrazione variabili
-	$campi = explode("|",$linea);
-	$provincia		= $campi[0];
-	$denominazione	= $campi[1];
-	$zona			= $campi[2];
-	$contatti		= $campi[3]; # al momento sara' solo il sito, ma l'idea sarebbe quella di avere anche delle informazioni più dirette
-	# stampa dei campi
-	print "<tr $colore><td align=\"center\">$denominazione</td><td align=\"center\">$zona</td><td align=\"center\"><a href=\"$contatti\">$contatti</a></td>";
-	}
-
-footer_html();
+stampa_db($db_file);
+footer_html($db_file);
+chiusura();
 ?>
