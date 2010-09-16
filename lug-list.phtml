@@ -34,7 +34,7 @@ if ( isset($_REQUEST["reg"]) && array_key_exists( $_REQUEST["reg"], $elenco_regi
 	header("location: http://www.linux.it/LUG/");
 }
 
-#definizione delle funzione
+#definizione delle funzioni
 function header_html($regione){
 print <<<END
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
@@ -42,7 +42,6 @@ print <<<END
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<meta name="language" content="italian">
-		<meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, $regione">
 		<link href="/community/linuxit2.css" rel="stylesheet" type="text/css">
 		<title>LUG presenti nella regione $regione</title>
 	</head>
