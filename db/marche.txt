@@ -3,5 +3,5 @@ Ancona|Lug-Jesi|Jesi|http://www.lugjesi.net/
 Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/
 Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/
 Macerata|CMlug|Civitanova Marche e dintorni|http://www.cmlug.org/
-Macerata|Gruppo Linux Macerata|http://www.gruppolinuxmc.it
+Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it
 Pesaro-Urbino|FanoLug|Fano e dintorni|http://www.fanolug.org/
