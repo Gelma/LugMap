@@ -32,3 +32,17 @@ d) mantenere la struttura delle informazioni (in modo da non rovinare
 
 == Modus operandi ===
 Per ogni critica, una proposta propositiva. Astenersi perditempo.
+
+== Note per gli sviluppatori ==
+I dati sono contenuti in file CSV discriminati per regione.
+Il separatore è il simbolo di pipe (|).
+I campi sono:
+I) Provincia
+II) Denominazione
+III) Zona di azione
+IV) Email di contatto
+
+Per estrarre solo le mail di contatto è sufficiente definire un alias:
+   alias estrai_email='perl -wne'\''while(/[\w\.\-]+@[\w\.\-]+\w+/g){print "$&\n"}'\'''
+da invocare nel seguente modo:
+   cat db/*|estrai_email
