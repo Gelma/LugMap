@@ -13,6 +13,7 @@ if True: # import dei moduli
 		import os
 		import random
 		import re
+		import shelve
 		import shlex
 		import subprocess
 		import socket
@@ -24,25 +25,41 @@ if True: # import dei moduli
 		sys.exit(-1)
 
 def controllo_dominio_dns(url):
-	"""Ricevo un URL, estraggo il dominio, torno True/False a seconda della mappatura o meno dello stesso nel DNS"""
+	"""Ricevo un URL, estraggo il dominio, torno True se tutto torna. Diversamente emetto il messaggio da segnalare"""
 	
-	# estraggo solo il nome di dominio
-	# TODO: una regexp sarebbe più elegante
-	url = url.split('/')[2]
+	global archivio, url_completo
 
-	# TODO: si potrebbe utilizzare una libreria specifica come DNS client.
-	# 		Ma in questo modo ci basta una riga
-	#		Tenere traccia dei cambiamenti degli IP può avere senso? E con i servizi in round robin?
+	url = url.split('/')[2] # estraggo solo il nome di dominio	# TODO: una regexp sarebbe più elegante
+
 	try:
-		risultati=socket.getaddrinfo(url, 80, 0, 0, socket.SOL_TCP)
+		info_url = socket.getaddrinfo(url, 80, 0, 0, socket.SOL_TCP)
 	except:
-		return False
-	return True
+		return "Errore: problema sul dominio (esistenza/mappatura)"
+
+	IP_nuovo = info_url[0][4][0] # Inizio controllo IP cambiato. Possono esserci dei falsi positivi in caso di round robin.
+	
+	try: # Pesco il vecchio iP
+		IP_vecchi = archivio[url_completo]['IP']
+	except: # Non esiste ancora una voce relativa, la creiamo
+		archivio[url_completo] = {'IP': set([IP_nuovo])}
+		return True
+
+	if IP_nuovo in IP_vecchi: # se è gia' presente, me ne fotto
+		return True
+	else: # diversamente segnalo e aggiungo
+		archivio[url_completo]['IP'].add(IP_nuovo)
+		return 'Errore: cambiato IP del server (Vecchio: %s, Nuovo: %s)' % (IP_vecchi, IP_nuovo)
 
 def controllo_whois(url):
 	"""Ricevo un URL, estraggo il dominio, torno True/False in caso di cambiamento del whois"""
-
 	pass
+
+def richiedi_controllo(errore):
+	"""Ricevo un errore, e invio una mail di richiesta di controllo"""
+	
+	global riga
+	
+	print errore, riga
 
 if __name__ == "__main__":
 	#TODO: portare come demone
@@ -50,12 +67,19 @@ if __name__ == "__main__":
 	#      mettere parser per config
 	#      scrivere test whois
 	#      scrivere test contenuto
+	
+	# La struttura dell'archivio è:
+	# dizionario archivio[url_completo come chiave]:
+	#												dizionario ['IP'] = Set degli IP
+	archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
+	
 	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
-			url = riga[3]
+			url_completo = riga[3]
 			
-			if not controllo_dominio_dns(url): # inizio il ciclo di controlli
-				print 'Non ci siamo -------->', url
-				continue
-			else:
-				print 'Ok:', url
+			risultato = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
+			if risultato is not True:
+				richiedi_controllo(risultato)
+
+	archivio.sync()
+	archivio.close
