@@ -5,7 +5,7 @@
 
 if True: # import dei moduli
 	try:
-		import ConfigParser, csv, glob, os, shelve, socket, subprocess, sys, syslog, urllib
+		import ConfigParser, csv, glob, os, shelve, shlex, socket, subprocess, sys, syslog, time, urllib
 	except:
 		import sys
 		print "Errore nell'import dei moduli standard. Versione troppo vecchia dell'interprete?"
@@ -13,8 +13,6 @@ if True: # import dei moduli
 
 def controllo_dominio_dns(url):
 	"""Ricevo un URL, estraggo il dominio, torno True se tutto torna. Diversamente emetto il messaggio da segnalare"""
-	
-	global archivio, url_completo
 
 	url = url.split('/')[2] # estraggo solo il nome di dominio	# TODO: una regexp sarebbe più elegante
 
@@ -39,9 +37,7 @@ def controllo_dominio_dns(url):
 
 def controllo_contenuto(url):
 	"""Ricevo un URL, estraggo la pagina, ne valuto la differenza rispetto alla lettura precedente. Torno True se tutto a posto."""
-	
-	global archivio, url_completo
-	
+
 	try: # pesco la pagina
 		pagina_html = urllib.urlopen(url_completo).read()
 	except:
@@ -84,19 +80,24 @@ if __name__ == "__main__":
 	#															['IP'] = Set degli IP
 	#															['TerminiPrecedenti'] = Set dei Termini delle pagine HTML
 
-	archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
-	
-	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
-		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
-			url_completo = riga[3]
-			
-			responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
-			if responso is not True:
-				richiedi_controllo(responso)
+	while True:
+		print 'Nuovo giro'
+		syslog.syslog(syslog.LOG_ERR, 'Spazzino: Nuovo giro')
 
-			responso = controllo_contenuto(url_completo)
-			if responso is not True:
-				richiedi_controllo(responso)
+		archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
+		
+		for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
+			for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
+				url_completo = riga[3]
 				
-	archivio.sync()
-	archivio.close()
+				responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
+				if responso is not True:
+					richiedi_controllo(responso)
+	
+				responso = controllo_contenuto(url_completo)
+				if responso is not True:
+					richiedi_controllo(responso)
+					
+		archivio.sync()
+		archivio.close()
+		time.sleep(60 * 60 * 24)
