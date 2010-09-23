@@ -4,21 +4,8 @@
    Se qualcosa non torna, avverto chi di dovere"""
 
 if True: # import dei moduli
-	try: # quelli builtin
-		import ConfigParser
-		import csv
-		import datetime
-		import glob
-		import multiprocessing
-		import os
-		import random
-		import re
-		import shelve
-		import shlex
-		import subprocess
-		import socket
-		import sys
-		import time
+	try:
+		import ConfigParser, csv, glob, os, shelve, socket, subprocess, sys, syslog, urllib
 	except:
 		import sys
 		print "Errore nell'import dei moduli standard. Versione troppo vecchia dell'interprete?"
@@ -37,7 +24,7 @@ def controllo_dominio_dns(url):
 		return "Errore: problema sul dominio (esistenza/mappatura)"
 
 	IP_nuovo = info_url[0][4][0] # Inizio controllo IP cambiato. Possono esserci dei falsi positivi in caso di round robin.
-	
+
 	try: # Pesco il vecchio iP
 		IP_vecchi = archivio[url_completo]['IP']
 	except: # Non esiste ancora una voce relativa, la creiamo
@@ -50,36 +37,66 @@ def controllo_dominio_dns(url):
 		archivio[url_completo]['IP'].add(IP_nuovo)
 		return 'Errore: cambiato IP del server (Vecchio: %s, Nuovo: %s)' % (IP_vecchi, IP_nuovo)
 
-def controllo_whois(url):
-	"""Ricevo un URL, estraggo il dominio, torno True/False in caso di cambiamento del whois"""
-	pass
+def controllo_contenuto(url):
+	"""Ricevo un URL, estraggo la pagina, ne valuto la differenza rispetto alla lettura precedente. Torno True se tutto a posto."""
+	
+	global archivio, url_completo
+	
+	try: # pesco la pagina
+		pagina_html = urllib.urlopen(url_completo).read()
+	except:
+		return 'Errore: impossibile leggere la pagina html.'
+	
+	Termini_Attuali = set(pagina_html.split()) # Estrapolo subito i termini presenti
+	
+	try: # Leggo i termini precedenti
+		Termini_Precedenti = archivio[url_completo]['TerminiPrecedenti']
+	except: # Non esiste la voce, la creo
+		archivio[url_completo]['TerminiPrecedenti'] = Termini_Attuali
+		return True
+	
+	valore_magico = float(len(Termini_Precedenti.intersection(Termini_Attuali))*1.0/len(Termini_Precedenti.union(Termini_Attuali)))
+	archivio[url_completo] = {'TerminiPrecedenti': Termini_Attuali}
 
+	if valore_magico <= 0.8:
+		return 'Errore: troppa differenza di contenuto:'+str(valore_magico)
+	else:
+		return True
+	
 def richiedi_controllo(errore):
 	"""Ricevo un errore, e invio una mail di richiesta di controllo"""
 	
-	global riga
+	email_alert = 'andrea.gelmini@gmail.com'
 	
-	print errore, riga
+	if os.path.exists('/usr/bin/mail'):
+		echo_command = shlex.split("echo '"+'\n'.join(list(errore)+riga)+"'")
+		mail_command = shlex.split("mail -s 'LugMap check: %s' %s" % (riga[3], email_alert))
+		subprocess.Popen(mail_command, stdin=subprocess.Popen(echo_command, stdout=subprocess.PIPE).stdout, stdout=subprocess.PIPE).wait()
+
+	print errore, riga[3]
+	syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+riga[3]+' '+errore)
 
 if __name__ == "__main__":
 	#TODO: portare come demone
-	#      mettere segnalazioni
-	#      mettere parser per config
-	#      scrivere test whois
-	#      scrivere test contenuto
-	
+	#      mettere parser per config	
 	# La struttura dell'archivio è:
-	# dizionario archivio[url_completo come chiave]:
-	#												dizionario ['IP'] = Set degli IP
+	# dizionario archivio[url_completo come chiave]: dizionario
+	#															['IP'] = Set degli IP
+	#															['TerminiPrecedenti'] = Set dei Termini delle pagine HTML
+
 	archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
 	
 	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
 			url_completo = riga[3]
 			
-			risultato = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
-			if risultato is not True:
-				richiedi_controllo(risultato)
+			responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
+			if responso is not True:
+				richiedi_controllo(responso)
 
+			responso = controllo_contenuto(url_completo)
+			if responso is not True:
+				richiedi_controllo(responso)
+				
 	archivio.sync()
-	archivio.close
+	archivio.close()
