@@ -1,4 +1,3 @@
-Catanzaro|CzLug|Catanzaro e provincia|http://www.czlug.it/
 Cosenza|3BYlug|Trebisacce|http://www.3bylug.tk/
 Cosenza|Bogomips Lug|Bisignano e dintorni|http://www.blug.it/
 Cosenza|CSLug|Cosenza|http://cslug.linux.it/
