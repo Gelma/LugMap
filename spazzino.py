@@ -33,10 +33,10 @@ def controllo_dominio_dns(url):
 		return True
 	else: # diversamente segnalo e aggiungo
 		archivio[url_completo]['IP'].add(IP_nuovo)
-		return 'Errore: cambiato IP del server (Vecchio: %s, Nuovo: %s)' % (IP_vecchi, IP_nuovo)
+		return 'Attenzione: cambiato IP del server (Vecchio: %s, Nuovo: %s)' % (IP_vecchi, IP_nuovo)
 
-def controllo_contenuto(url):
-	"""Ricevo un URL, estraggo la pagina, ne valuto la differenza rispetto alla lettura precedente. Torno True se tutto a posto."""
+def controllo_contenuto():
+	"""Leggo lo URL elaborato, estraggo la pagina, ne valuto la differenza rispetto alla lettura precedente. Torno True se tutto a posto."""
 
 	try: # pesco la pagina
 		pagina_html = urllib.urlopen(url_completo).read()
@@ -65,7 +65,7 @@ def richiedi_controllo(errore):
 	email_alert = 'andrea.gelmini@gmail.com'
 	
 	if os.path.exists('/usr/bin/mail'):
-		echo_command = shlex.split("echo '"+'\n'.join(list(errore)+riga)+"'")
+		echo_command = shlex.split("echo '"+'\n'.join([errore]+riga)+"'")
 		mail_command = shlex.split("mail -s 'LugMap check: %s' %s" % (riga[3], email_alert))
 		subprocess.Popen(mail_command, stdin=subprocess.Popen(echo_command, stdout=subprocess.PIPE).stdout, stdout=subprocess.PIPE).wait()
 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
 				if responso is not True:
 					richiedi_controllo(responso)
 	
-				responso = controllo_contenuto(url_completo)
+				responso = controllo_contenuto()
 				if responso is not True:
 					richiedi_controllo(responso)
 					
