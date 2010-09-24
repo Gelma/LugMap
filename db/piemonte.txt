@@ -2,7 +2,7 @@ Alessandria|AlLug|Alessandria e provincia|http://www.allug.it
 Alessandria|FaSoLi|Alessandria e provincia|http://softwarelibero.al.it/
 Biella|BiLug|Provincia di Biella|http://www.bilug.linux.it/
 Cuneo/Torino|ABC Lug|Alba/Bra/Carmagnola|http://abc.linux.it
-Cuneo|GlugCN|Cuneo e provincia|http://cuneo.linux.it/
+Cuneo|GlugCN|Cuneo e provincia|http://cuneo.linux.it/|mellano@gmail.com
 Novara|Gallug|Galliate|http://www.gallug.it/
 Torino|Canavese Lug|Canavese|http://www.clug.tk/
 Torino|GlugTO|Torino e provincia|http://www.torino.linux.it/
