@@ -1,44 +1,63 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html lang="it">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="italian">
   <meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, $regione">
-  <link href="/community/linuxit2.css" rel="stylesheet" type="text/css">
-  <title>LUG presenti nella regione $regione</title>
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+  <title>LUG presenti nella regione <?php echo $regione ?></title>
 </head>
+<body>
 
-<body bgcolor="#FFFFFF" text="#000000" link="#FF0000" vlink="#AA0000" alink="#00AA00">
-  <h2 align=center>Linux User Groups in $regione</h2>
-  <div align="right">&raquo; <a href="index.phtml">torna alla LUGmap</a></div>
-  <br>
-  <table width="100%" border="0" cellspacing="0" cellpadding="1" bgcolor="black">
-    <tr>
-      <td>
-      <table width="100%" border="0" cellspacing="0" cellpadding="4" bgcolor="#00659c">
-      <tr class="menubox">
-        <th>Denominazione</th>
-        <th>Area di attivit&agrave;</th>
-        <th>Homepage</th>
-      </tr>
-      <?php 
-      # recupero e stampa dei dati dal file della regione
-      # print '<table>'; # la table in realta' è gia' aperta, vedi header
-		  while (list ($nriga,$linea) = each ($db_regione)) {
-			  if ($colore == 'bgcolor="#dddddd"') {$colore='bgcolor="#eeeeee"';} else {$colore='bgcolor="#dddddd"';}
-			  # estrazione variabili
-			  $campi = explode("|",$linea);
-			  $provincia    = $campi[0];
-			  $denominazione  = $campi[1];
-			  $zona     = $campi[2];
-			  $contatti   = $campi[3]; # al momento sara' solo il sito, ma l'idea sarebbe quella di avere anche delle informazioni più dirette
-			  # stampa dei campi
-			  print "<tr $colore><td align=\"center\">$denominazione</td><td align=\"center\">$zona</td><td align=\"center\"><a href=\"$contatti\">$contatti</a></td>";
-		  }
-    ?>
-      </table>
+<div id="header">
+  <img src="ilsheader-wide.png" alt="Italian Linux Society">
+  <h2 id="title">Linux User Group della regione <?php echo $regione ?></h2>
+</div>
+
+<div id="center">
+  <a id="backLugMapLink" href="index.phtml">&raquo; torna alla LUGmap</a>
+  <table id="lugListTable">
+	  <thead>
+	      <tr>
+	        <th>Provincia</th>
+	        <th>Denominazione</th>
+	        <th>Zona</th>
+	        <th>Contatti</th>
+	      </tr>
+	   </thead>
+		  <?php while (list ($nriga, $linea) = each ($db_regione)): ?>
+			  <?php # estrazione variabili
+					  $campi = explode("|",$linea);
+					  $provincia    = $campi[0];
+					  $denominazione  = $campi[1];
+					  $zona     = $campi[2];
+					  $contatti   = $campi[3]; 
+			  # stampa dei campi ?>
+			  <tr class="row_<?php echo ($nriga % 2); ?>">
+			   <td class="province"><?php echo $provincia ?></td>
+			   <td><?php echo $denominazione ?></td>
+			   <td><?php echo $zona ?></td>
+			   <td class="contactUrl"><a href="<?php echo $contatti?>"><?php echo $contatti ?></a></td>
+			  </tr>
+		  <?php endwhile;?>
+    
    </table>
-   <p align="right">&raquo; <a href="index.phtml">torna alla LUGmap</a></p>
-   <hr size="1" noshade>
+   <a id="csvLink" href="db/<?php echo $db_file ?>.txt">&raquo; Elenco in formato CSV</a>
+</div>
+
+<div id="footer">
+      <p class="helpMessage">Aiutaci a mantenere la LugMap aggiornata!</p> 
+      <p class="helpMessage">
+	      Segnalaci nuovi/vecchi Lug, cos&igrave; come eventuali correzioni/errori, mandando
+	      una mail a <a class="generalink" href="mailto:lugmap@linux.it">lugmap@linux.it</a>, oppure telefonando direttamente ad
+	      <a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">Andrea Gelmini</a> al 328/7296628.
+	    </p> 
+	    <p class="helpMessage">
+	      Agli stessi recapiti
+	      puoi richiedere l'accesso in scrittura al relativo <a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub.</a>
+	      Te ne saremo eternamente grati!
+      </p>
+</div>
+
 </body>
 </html>

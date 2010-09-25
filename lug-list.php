@@ -11,7 +11,6 @@ if ( isset($_REQUEST["reg"]) && array_key_exists( $_REQUEST["reg"], $elenco_regi
 }
 
 $db_regione = file('./db/'.$db_file.'.txt');
-$colore='bgcolor="#ecfb86"';
 
 include_once 'lugMapListView.php';
 
