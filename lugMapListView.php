@@ -1,16 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="it">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="italian">
-  <meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, $regione">
-  <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="language" content="italian" />
+  <meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, $regione" />
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
   <title>LUG presenti nella regione <?php echo $regione ?></title>
 </head>
 <body>
 
 <div id="header">
-  <img src="ilsheader-wide.png" alt="Italian Linux Society">
+  <img src="ilsheader-wide.png" alt="Italian Linux Society" />
   <h2 id="title">Linux User Group della regione <?php echo $regione ?></h2>
 </div>
 
