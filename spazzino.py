@@ -54,7 +54,7 @@ def controllo_contenuto():
 	valore_magico = float(len(Termini_Precedenti.intersection(Termini_Attuali))*1.0/len(Termini_Precedenti.union(Termini_Attuali)))
 	archivio[url_completo] = {'TerminiPrecedenti': Termini_Attuali}
 
-	if valore_magico <= 0.8:
+	if valore_magico <= 0.7:
 		return 'Errore: troppa differenza di contenuto:'+str(valore_magico)
 	else:
 		return True
