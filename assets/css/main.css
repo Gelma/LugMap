@@ -45,7 +45,7 @@ img{
   
 }
 
-#lugListTable thead{
+#lugListTable thead, #lugListTable tfoot{
   background-color: #000080;
   color: #fff;	
 }

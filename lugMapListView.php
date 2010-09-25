@@ -25,6 +25,12 @@
 	        <th>Contatti</th>
 	      </tr>
 	   </thead>
+	   <tfoot>
+	    <tr>
+	      <td colspan="4"></td>	    
+	      </tr>
+    </tfoot>
+    <tbody>
 		  <?php while (list ($nriga, $linea) = each ($db_regione)): ?>
 			  <?php # estrazione variabili
 					  $campi = explode("|",$linea);
@@ -40,7 +46,7 @@
 			   <td class="contactUrl"><a href="<?php echo $contatti?>"><?php echo $contatti ?></a></td>
 			  </tr>
 		  <?php endwhile;?>
-    
+    </tbody>
    </table>
    <a id="csvLink" href="db/<?php echo $db_file ?>.txt">&raquo; Elenco in formato CSV</a>
 </div>
