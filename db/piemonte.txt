@@ -6,3 +6,4 @@ Novara|Gallug|Galliate|http://www.gallug.it/|info@gallug.it
 Torino|Canavese Lug|Canavese|http://www.clug.tk/
 Torino|GlugTO|Torino e provincia|http://www.torino.linux.it/
 Torino|SLIP|Pinerolo|http://pinerolo.linux.it/
+Torino|ValSusinux|Val Susa e Val Sangone|http://www.valsusinux.it/|info@valsusinux.it
