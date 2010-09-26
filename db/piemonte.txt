@@ -1,5 +1,5 @@
 Alessandria|AlLug|Alessandria e provincia|http://www.allug.it
-Alessandria|FaSoLi|Alessandria e provincia|http://softwarelibero.al.it/
+Alessandria|FASoLi|Alessandria e provincia|http://softwarelibero.al.it/
 Biella|BiLug|Provincia di Biella|http://www.bilug.linux.it/
 Cuneo/Torino|ABC Lug|Alba/Bra/Carmagnola|http://abc.linux.it
 Novara|Gallug|Galliate|http://www.gallug.it/|info@gallug.it
