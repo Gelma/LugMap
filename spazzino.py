@@ -32,7 +32,9 @@ def controllo_dominio_dns(url):
 	if IP_nuovo in IP_vecchi: # se è gia' presente, me ne fotto
 		return True
 	else: # diversamente segnalo e aggiungo
-		archivio[url_completo]['IP'].add(IP_nuovo)
+		IP_vecchi.add(IP_nuovo)
+		archivio[url_completo]['IP'] = IP_vecchi
+		archivio.sync()
 		return 'Attenzione: cambiato IP del server (Vecchio: %s, Nuovo: %s)' % (IP_vecchi, IP_nuovo)
 
 def controllo_contenuto():
@@ -100,4 +102,5 @@ if __name__ == "__main__":
 					
 		archivio.sync()
 		archivio.close()
+		print 'Fine giro'
 		time.sleep(60 * 60 * 24)
