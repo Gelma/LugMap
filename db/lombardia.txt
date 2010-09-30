@@ -14,5 +14,5 @@ Milano|POuL|Milano|http://www.poul.org/
 Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/
 Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
-Varese|LIFO|Varese|http://www.lifos.org/
+Varese|LIFO|Varese|http://www.lifolab.org/
 Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/
