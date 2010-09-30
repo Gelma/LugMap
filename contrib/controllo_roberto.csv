@@ -1,19 +1,6 @@
-NomeGruppo	CollaboraLugMap		LinuxDay1	Risposta1	LinuxDay2	Risposta2
-
-LUG Pluto	Si			Si		No
-LUG Pippo	Si			Null		No
-Scuola Sarcazzo	No			No		Si
-
-
-
-Prima colonna: nome del LUG, o dell'ente che fa il Linux Day ma non e' un LUG
-Seconda Colonna: "Si" se e' un LUG e gli e' stato chiesto di collaborare alla LugMap, "No" se e' un ente esterno che incidentalmente fa il Linux Day
-Terza Colonna: "Null" se non fa il Linux Day e/o non appare in linuxday.it, "Si" se fa il Linux Day ed il sito e' in regola, "No" se fa il Linux Day ed il sito non e' in regola
-Quarta Colonna: "Si" se ha risposto alla prima mail, "No" se non ha risposto
-
-17 lombardia.txt
-8 campania.txt
-7 lazio.txt
-4 sicilia.txt
-3 trentino.txt
-3 umbria.txt
+NOME		LUG?	SitoLD	Risp
+BGLug		Si	No	-	-	-
+Lug Castegnato	Si	No	-	-	-
+LugBS		Si	Si	-	-	-
+LugOB		Si	Null	-	-	-
+GL-Como		Si	Si	-	-	-
