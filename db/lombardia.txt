@@ -1,4 +1,4 @@
-Bergamo|BGLug|Bergamo e provincia|http://www.bglug.it/
+Bergamo|BGLug|Bergamo e provincia|http://www.bglug.it/|info@bglug.it
 Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/
 Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/
 Brescia|LugOB|Cologne e ovest bresciano|http://www.lugob.org/
