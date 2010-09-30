@@ -11,6 +11,7 @@ Mantova|LugMan|Mantova e provincia|http://www.lugman.org/
 Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/
 Milano|OpenLabs|Milano|http://www.openlabs.it/
 Milano|POuL|Milano|http://www.poul.org/
+Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
 Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/
 Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
