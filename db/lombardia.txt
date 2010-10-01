@@ -3,17 +3,18 @@ Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/
 Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|vips@lugbs.linux.it
 Brescia|LugOB|Cologne e ovest bresciano|http://www.lugob.org/
 Como|GL-Como|Como|http://www.gl-como.it/
-Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/
-Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/
-Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/
-Lodi|LoLug|Lodi e provincia|http://www.lolug.org/
-Mantova|LugMan|Mantova e provincia|http://www.lugman.org/
-Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/
-Milano|OpenLabs|Milano|http://www.openlabs.it/
-Milano|POuL|Milano|http://www.poul.org/
+Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/|pioniere@gmail.com
+Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/|info@lugcr.it
+Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|glux@lecco.linux.it
+Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|info@lolug.net
+Mantova|LugMan|Mantova e provincia|http://www.lugman.org/|info@lugman.org
+Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/|boccolinux@gmail.com
+Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
+Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
-Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/
-Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/
+Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/|info@bubblesfactory.it
+Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|tilug@lists.linux.it
+Pavia|LUGDucale|Vigevano|http://sites.google.com/site/lugducale/
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
-Varese|LIFO|Varese|http://www.lifolab.org/
-Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/
+Varese|LIFO|Varese|http://www.lifolab.org/|info@lifolab.org
+Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|info@linuxvar.it
