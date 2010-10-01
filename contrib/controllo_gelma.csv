@@ -10,19 +10,16 @@
 NomeGruppo		CollaboraLugMap		LinuxDay1	Risposta1	LinuxDay2	Risposta2
 Blug			Si					No/Null											Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|info@belluno.linux.it
 LugAnegA		Si					Si												Belluno|LugAnegA|Belluno|http://www.luganega.org/|gherardo@luganega.org
-
-
-12 veneto.txt
-Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
-Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
-Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/
-Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
-Venezia|VELug|Provincia di Venezia|http://www.velug.it/
-Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/
-Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
-Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/
-Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com
-Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
+FSUG			Si					No/Null											Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
+MonteLug		Si					Null											Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
+TVLug			Si					Si												Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
+0421ug			Si					Null											Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
+VELug			Si					Null											Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
+LinuxLudus		Si					No												Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
+LugVR			Si					Null											Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
+AVi Lug			Si					Si												Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/|lucamarcante1969@gmail.com
+GrappaFSD		Si					Null											Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|grappafsd@gmail.com
+Lug Vicenza		Si					Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
 
 12 emilia.txt
 6 abruzzo.txt
