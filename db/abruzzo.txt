@@ -1,6 +1,6 @@
 Aquila|MarsicaLug|Marsica|http://www.marsicalug.it/
 Aquila|SulmonaLug|Sulmona|http://www.sulmonalug.it/
 Chieti|AnxaLug|Lanciano e dintorni|http://www.anxalug.org/
-Pescara|PescaraLug|Pescara|http://www.pescaralug.org/|info@pescaralug.org
+Pescara|PescaraLug|Pescara|http://www.pescaralug.org/
 Teramo|PinetoLUG|Pineto e dintorni|http://www.pilug.org/|info@pilug.org
 Teramo|TeLug|Teramo|http://www.telug.it/
