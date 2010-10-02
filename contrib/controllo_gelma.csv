@@ -10,22 +10,56 @@
 NomeGruppo		CollaboraLugMap		LinuxDay1	Risposta1	LinuxDay2	Risposta2
 Blug			Si					No/Null											Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|info@belluno.linux.it
 LugAnegA		Si					Si												Belluno|LugAnegA|Belluno|http://www.luganega.org/|gherardo@luganega.org
-
-
-12 veneto.txt
-Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
-Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
-Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/
-Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
-Venezia|VELug|Provincia di Venezia|http://www.velug.it/
-Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/
-Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
-Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/
-Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com
-Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
+FSUG			Si					No/Null											Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
+MonteLug		Si					Null											Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
+TVLug			Si					Si												Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
+0421ug			Si					Null											Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
+VELug			Si					Null											Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
+LinuxLudus		Si					No												Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
+LugVR			Si					Null											Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
+AVi Lug			Si					Si												Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/|lucamarcante1969@gmail.com
+GrappaFSD		Si					Null											Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|grappafsd@gmail.com
+Lug Vicenza		Si					Si												Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
+PescaraLug		Si					No												Pescara|PescaraLug|Pescara|http://www.pescaralug.org/|no mail/usato form
+Pilug			Si					Null											Teramo|PinetoLUG|Pineto e dintorni|http://www.pilug.org/|info@pilug.org
+SulmonaLug		Si					Si												Aquila|SulmonaLug|Sulmona|http://www.sulmonalug.it/|Contattato via Form
+MarsicaLug		Si					Null											Aquila|MarsicaLug|Marsica|http://www.marsicalug.it/|Form
+TeLug			Si					No												Teramo|TeLug|Teramo|http://www.telug.it/|maury@maury.it
+AnxaLug			Si					Null											Chieti|AnxaLug|Lanciano e dintorni|http://www.anxalug.org/|dercolenicola@gmail.com
+ErLug			Si					Si												Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 
 12 emilia.txt
-6 abruzzo.txt
+
+Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
+Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
+Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/
+Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/
+Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/
+Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/
+Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
+Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/
+Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/
+Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/
+Rimini|RiminiLug|Rimini|http://www.riminilug.it/
+
 5 friuli.txt
+
+Gorizia|GoLug|Gorizia|http://www.golug.it/
+Pordenone|Lug Pordenone|Pordenone|http://www.pordenone.linux.it/
+Trieste|Lug Trieste|Trieste|http://trieste.linux.it/
+Udine|IGLU|Udine|http://iglu.cc.uniud.it/
+Udine|Lug ALP|Aquileia|http://www.alproject.org/
+
 5 liguria.txt
+
+Genova|Genuense Lug|Genova e d'intorni|http://genova.linux.it/
+Genova|LugGe|Genova e provincia|http://www.lugge.net/
+Genova|TLug-TSL|Tigullio Ligure|http://tlug.linux.it/
+Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/
+Savona|SavonaLug|Savona|http://savona.linux.it/
+
 3 basilicata.txt
+
+Matera|LUGania|Matera e provincia|http://www.lugania.org/|info@lugania.org
+Matera|MateraLinux|Matera|http://materalinux.mixxt.com/
+Potenza-Matera|Baslug|Potenza e Matera|http://www.baslug.org/

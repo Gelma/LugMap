@@ -2,11 +2,11 @@ Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|info@belluno.linux.it
 Belluno|LugAnegA|Belluno|http://www.luganega.org/|gherardo@luganega.org
 Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
 Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
-Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/
+Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
 Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
-Venezia|VELug|Provincia di Venezia|http://www.velug.it/
-Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/
+Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
+Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
 Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
-Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/
-Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com
+Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/|lucamarcante1969@gmail.com
+Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com grappafsd@gmail.com
 Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
