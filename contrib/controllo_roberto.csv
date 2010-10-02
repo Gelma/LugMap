@@ -1,4 +1,5 @@
 NOME		LUG?	SitoLD	Risp
+
 BGLug		Si	No	-	-	-
 Lug Castegnato	Si	No	-	-	-
 LugBS		Si	Si	-	-	-
@@ -20,3 +21,14 @@ LUGDucale	Si	No	Si	-	-
 GULLP		Si	Null	Si	-	-
 LIFO		Si	Null	-	-	-
 LinuxVar	Si	Null	-	-	-
+
+GLUS		Si	Null	-	-	-
+PaduLUG		Si	No	-	-	-
+SannioLUG	Si	Null	-	-	-
+Hackaserta	Si	Null	-	-	-
+IGLUG		Si	Null	-	-	-
+LUG Ischia	Si	Null	-	-	-
+NaLUG		Si	Null	-	-	-
+OpenMind	Si	Si	-	-	-
+HCSSLUG		Si	Si	-	-	-
+GuruLUG		Si	Si	-	-	-
