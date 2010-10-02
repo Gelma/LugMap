@@ -1,7 +1,7 @@
 NOME		LUG?	SitoLD	Risp
 
-BGLug		Si	No	-	-	-
-Lug Castegnato	Si	No	-	-	-
+BGLug		Si	No	Si	-	-
+Lug Castegnato	Si	No	Si	-	-
 LugBS		Si	Si	-	-	-
 LugOB		Si	Null	-	-	-
 GL-Como		Si	Si	Si	-	-
@@ -23,12 +23,12 @@ LIFO		Si	Null	-	-	-
 LinuxVar	Si	Null	-	-	-
 
 GLUS		Si	Null	-	-	-
-PaduLUG		Si	No	-	-	-
+PaduLUG		Si	No	Si	-	-
 SannioLUG	Si	Null	-	-	-
 Hackaserta	Si	Null	-	-	-
 IGLUG		Si	Null	-	-	-
 LUG Ischia	Si	Null	-	-	-
-NaLUG		Si	Null	-	-	-
+NaLUG		Si	Null	Si	-	-
 OpenMind	Si	Si	-	-	-
 HCSSLUG		Si	Si	-	-	-
 GuruLUG		Si	Si	-	-	-
@@ -39,5 +39,5 @@ LUG Rieti	Si	Null	-	-	-
 CiLUG		Si	Null	-	-	-
 LaSapienzaLUG	Si	Si	-	-	-
 LUG Roma 3	Si	Null	-	-	-
-SabaziaLUG	Si	Null	-	-	-
+SabaziaLUG	Si	Null	Si	-	-
 TuLUG		Si	Si	-	-	-
