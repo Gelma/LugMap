@@ -1,12 +1,13 @@
 Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
 Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
-Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/
-Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/
-Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/
-Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/
+Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|info@ferrara.linux.it
+Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/|folug-cons@lists.linux.it
+Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/|webmaster@conoscerelinux.net
+Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|g.ciotti@tirrenide.net
 Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
-Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/
-Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/
-Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/
-Rimini|RiminiLug|Rimini|http://www.riminilug.it/
+Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/|info@ravennalug.org
+Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/|fabio.casolari@ripartodazero.it
+Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/|presidente@relug.linux.it
+Rimini|RiminiLug|Rimini|http://www.riminilug.it/|info@riminilug.it
+Rimini|ValLUG|Val Conca|http://www.vallug.net/|info@vallug.net

@@ -8,39 +8,42 @@
 #					"No" se non ha risposto
 
 NomeGruppo		CollaboraLugMap		LinuxDay1	Risposta1	LinuxDay2	Risposta2
-Blug			Si					No/Null											Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|info@belluno.linux.it
-LugAnegA		Si					Si												Belluno|LugAnegA|Belluno|http://www.luganega.org/|gherardo@luganega.org
-FSUG			Si					No/Null											Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
-MonteLug		Si					Null											Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
-TVLug			Si					Si												Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
-0421ug			Si					Null											Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
-VELug			Si					Null											Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
-LinuxLudus		Si					No												Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
-LugVR			Si					Null											Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
-AVi Lug			Si					Si												Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/|lucamarcante1969@gmail.com
-GrappaFSD		Si					Null											Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|grappafsd@gmail.com
-Lug Vicenza		Si					Si												Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
-PescaraLug		Si					No												Pescara|PescaraLug|Pescara|http://www.pescaralug.org/|no mail/usato form
-Pilug			Si					Null											Teramo|PinetoLUG|Pineto e dintorni|http://www.pilug.org/|info@pilug.org
-SulmonaLug		Si					Si												Aquila|SulmonaLug|Sulmona|http://www.sulmonalug.it/|Contattato via Form
-MarsicaLug		Si					Null											Aquila|MarsicaLug|Marsica|http://www.marsicalug.it/|Form
-TeLug			Si					No												Teramo|TeLug|Teramo|http://www.telug.it/|maury@maury.it
-AnxaLug			Si					Null											Chieti|AnxaLug|Lanciano e dintorni|http://www.anxalug.org/|dercolenicola@gmail.com
-ErLug			Si					Si												Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
+Blug			Si			No								Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|info@belluno.linux.it
+LugAnegA		Si			Si								Belluno|LugAnegA|Belluno|http://www.luganega.org/|gherardo@luganega.org
+FSUG			Si			No								Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
+MonteLug		Si			Null								Treviso|MontelLug|Treviso|http://www.montellug.it/|info@montellug.it
+TVLug			Si			Si								Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
+0421ug			Si			Null								Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
+VELug			Si			Null								Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
+LinuxLudus		Si			No								Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
+LugVR			Si			Null								Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
+AVi Lug			Si			Si								Vicenza|AVi Lug|Alto Vicentino|http://avilug.zapto.org/|lucamarcante1969@gmail.com
+GrappaFSD		Si			Null								Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|grappafsd@gmail.com
+Lug Vicenza		Si			Si								Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
+PescaraLug		Si			No								Pescara|PescaraLug|Pescara|http://www.pescaralug.org/|no mail/usato form
+Pilug			Si			Null								Teramo|PinetoLUG|Pineto e dintorni|http://www.pilug.org/|info@pilug.org
+SulmonaLug		Si			Si								Aquila|SulmonaLug|Sulmona|http://www.sulmonalug.it/|Contattato via Form
+MarsicaLug		Si			Null								Aquila|MarsicaLug|Marsica|http://www.marsicalug.it/|Form
+TeLug			Si			No		Si						Teramo|TeLug|Teramo|http://www.telug.it/|maury@maury.it
+AnxaLug			Si			Null								Chieti|AnxaLug|Lanciano e dintorni|http://www.anxalug.org/|dercolenicola@gmail.com
+ErLug			Si			Si								Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 
-12 emilia.txt
 
-Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
-Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
-Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/
-Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/
-Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/
-Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/
-Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
-Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/
-Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/
-Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/
-Rimini|RiminiLug|Rimini|http://www.riminilug.it/
+S.P.R.I.T.e.		No			No
+NetGarage		No			No
+ImoLUG			Si			Si								Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
+UIELinux		Si			Si								Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
+FerraraLUG		Si			Null								Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|info@ferrara.linux.it
+FoLUG			Si			Null								Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/|folug-cons@lists.linux.it
+ConoscereLinux		Si			Null								Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/|webmaster@conoscerelinux.net
+ParmaLUG		Si			Si								Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|g.ciotti@tirrenide.net
+AlfLUG			Si			Null								Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
+RavennaLUG		Si			Null								Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/|info@ravennalug.org
+Lug Scandiano		Si			Si								Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/|fabio.casolari@ripartodazero.it
+ReLUG			Si			Si								Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/|presidente@relug.linux.it
+RiminiLUG		Si			Si								Rimini|RiminiLug|Rimini|http://www.riminilug.it/|info@riminilug.it
+ValLUG			Si			No
+
 
 5 friuli.txt
 
