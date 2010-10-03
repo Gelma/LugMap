@@ -1,8 +1,8 @@
-"Ancona"	"FreeGLOO"	"Ancona"	"http://freegloo.wordpress.com/"		
-"Ancona"	"Lug-Jesi"	"Jesi"	"http://www.lugjesi.net/"		
-"Ancona"	"PDP FSUG"	"Fabriano e dintorni"	"http://pdp.linux.it/"	"info@ pdp.linux.it"	"x"
-"Fermo"	"Fermo Lug"	"Fermo e dintorni"	"http://www.linuxfm.org/"		"x"
-"Macerata"	"CMlug"	"Civitanova Marche e dintorni"	"http://www.cmlug.org/"	"info@cmlug.org."	"x"
-"Macerata"	"Gruppo Linux Macerata"	"Macerata e provincia"	"http://www.gruppolinuxmc.it"	"associazione@gruppolinuxmc.it"	"x"
-"Ancona"	"Senalug"	"Senigallia"	"http://www.senalug.org/"	"info@senalug.org"	"x"
-"Macerata"	"Camelug"	"Camerino"	"http://camelug.it"	"ryuw@camelug.it"	"x"
+Ancona|FreeGLOO|Ancona|http://freegloo.wordpress.com/|
+Ancona|Lug-Jesi|Jesi|http://www.lugjesi.net/|
+Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/|info@ pdp.linux.it
+Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|
+Macerata|CMlug|Civitanova Marche e dintorni|http://www.cmlug.org/
+Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it|associazione@gruppolinuxmc.it
+Ancona|Senalug|Senigallia|http://www.senalug.org/|info@senalug.org
+Macerata|Camelug|Camerino|http://camelug.it|ryuw@camelug.it
