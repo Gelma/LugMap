@@ -44,14 +44,11 @@ ReLUG			Si			Si								Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/|
 RiminiLUG		Si			Si								Rimini|RiminiLug|Rimini|http://www.riminilug.it/|info@riminilug.it
 ValLUG			Si			No
 
-
-5 friuli.txt
-
-Gorizia|GoLug|Gorizia|http://www.golug.it/
-Pordenone|Lug Pordenone|Pordenone|http://www.pordenone.linux.it/
-Trieste|Lug Trieste|Trieste|http://trieste.linux.it/
-Udine|IGLU|Udine|http://iglu.cc.uniud.it/
-Udine|Lug ALP|Aquileia|http://www.alproject.org/
+GoLUG			Si			Null
+PordenoneLUG		Si			No
+LUG Trieste		Si			Si
+IGLU			Si			Null
+LugALP			Si			Null
 
 5 liguria.txt
 
