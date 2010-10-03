@@ -50,13 +50,12 @@ LUG Trieste		Si			Si
 IGLU			Si			Null
 LugALP			Si			Null
 
-5 liguria.txt
-
-Genova|Genuense Lug|Genova e d'intorni|http://genova.linux.it/
-Genova|LugGe|Genova e provincia|http://www.lugge.net/
-Genova|TLug-TSL|Tigullio Ligure|http://tlug.linux.it/
-Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/
-Savona|SavonaLug|Savona|http://savona.linux.it/
+OpenLAB			No			Si
+GenuenseLUG		Si			Null
+LUGGe			Si			Null
+TLUG-TSL		Si			Null
+Govonis			Si			Si
+SavonaLUG		Si			Null
 
 3 basilicata.txt
 
