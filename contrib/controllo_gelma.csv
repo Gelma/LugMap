@@ -21,7 +21,7 @@ ErLug			Si			Si
 
 
 S.P.R.I.T.e.	No			No		Si
-NetGarage		No			No
+NetGarage		No			No		Si
 ImoLUG			Si			Si
 UIELinux		Si			Si
 FerraraLUG		Si			Null
@@ -45,9 +45,9 @@ OpenLAB			No			Si
 GenuenseLUG		Si			Null
 LUGGe			Si			Null
 TLUG-TSL		Si			Null
-Govonis			Si			Si
+Govonis			Si			Si		Si
 SavonaLUG		Si			Null
 
 LUGania			Si			Null		Si
-MateraLinux		Si			No
+MateraLinux		Si			No		Si
 BasLUG			Si			Null
