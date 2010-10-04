@@ -15,12 +15,12 @@ PescaraLug		Si			No
 Pilug			Si			Null
 SulmonaLug		Si			Si
 MarsicaLug		Si			Null
-TeLug			Si			No
+TeLug			Si			No		Si
 AnxaLug			Si			Null
 ErLug			Si			Si
 
 
-S.P.R.I.T.e.	No			No
+S.P.R.I.T.e.	No			No		Si
 NetGarage		No			No
 ImoLUG			Si			Si
 UIELinux		Si			Si
@@ -33,11 +33,11 @@ RavennaLUG		Si			Null
 Lug Scandiano	Si			Si
 ReLUG			Si			Si
 RiminiLUG		Si			Si
-ValLUG			Si			No
+ValLUG			Si			No		Si
 
 GoLUG			Si			Null
 PordenoneLUG	Si			No
-LUG Trieste		Si			Si
+LUG Trieste		Si			Si		Si
 IGLU			Si			Null
 LugALP			Si			Null
 
@@ -48,6 +48,6 @@ TLUG-TSL		Si			Null
 Govonis			Si			Si
 SavonaLUG		Si			Null
 
-LUGania			Si			Null
+LUGania			Si			Null		Si
 MateraLinux		Si			No
 BasLUG			Si			Null
