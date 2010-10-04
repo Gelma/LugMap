@@ -1,4 +1,5 @@
 Latina|Lug Privernum Volsca|Priverno e dintorni|http://lugpv.netsons.org/
+Latina|LLG|Latina|http://www.llg.it/|info@llg.it
 Rieti|Lug Rieti|Rieti e provincia|http://www.lugrieti.net/
 Roma|CiLug|Ciociaria|http://www.cilug.org/
 Roma|LSLug - La Sapienza Linux User Group|Roma|http://www.ls-lug.org/|sapienzalug@gmail.com
