@@ -2,7 +2,7 @@ Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
 Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
 Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|info@ferrara.linux.it
-Forlì|FoLug|Forlì-Cesena|http://folug.linux.it/|folug-cons@lists.linux.it
+Forl&igrave;|FoLug|Forlì-Cesena|http://folug.linux.it/|folug-cons@lists.linux.it
 Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/|webmaster@conoscerelinux.net
 Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|g.ciotti@tirrenide.net
 Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
