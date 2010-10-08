@@ -8,3 +8,4 @@ Napoli|NaLug|Napoli e provincia|http://www.nalug.net/|info@nalug.net
 Napoli|OpenMind|San Giorgio a Cremano|http://www.tavernadelpinguino.org/
 Salerno|GuruLug|Sapri|http://gurulug.wordpress.com/|v.celano@gmail.com
 Salerno|HCSSLUG|Salerno e provincia|http://www.hcsslug.org/|info@hcsslug.org
+Salerno|XaLUG|Salerno|http://xalug.tuxlab.org/
