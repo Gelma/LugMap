@@ -5,7 +5,7 @@
 
 if True: # import dei moduli
 	try:
-		import ConfigParser, csv, glob, os, shelve, shlex, socket, subprocess, sys, syslog, time, urllib
+		import ConfigParser, copy, csv, glob, os, shelve, shlex, socket, subprocess, sys, syslog, time, urllib
 	except:
 		import sys
 		print "Errore nell'import dei moduli standard. Versione troppo vecchia dell'interprete?"
@@ -27,7 +27,7 @@ def controllo_dominio_dns(url):
 	if Debug: print "controllo_dominio_dns: IP_nuovo", IP_nuovo
 
 	try: # Pesco i vecchi iP
-		IP_vecchi = archivio[url_completo]['IP']
+		IP_vecchi = copy.deepcopy(archivio[url_completo]['IP'])
 		if Debug: print "controllo_dominio_dns: IP_vecchi",IP_vecchi
 	except: # Non esiste ancora una voce relativa, la creiamo
 		archivio[url_completo] = {'IP': set([IP_nuovo])}
