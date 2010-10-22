@@ -77,8 +77,10 @@ def richiedi_controllo(errore):
 	email_alert = 'andrea.gelmini@gmail.com'
 	
 	if os.path.exists('/usr/bin/mail'):
-		#echo_command = shlex.split("echo '"+'\n'.join([errore]+riga)+"'")
-		echo_command = shlex.split("echo '"+errore+"'")
+		try:
+			echo_command = shlex.split("echo '"+'\n'.join([errore]+riga)+"'")
+		except:
+			echo_command = shlex.split("echo '"+errore+'\n'.join(riga)+"'")
 		mail_command = shlex.split("mail -s 'LugMap check: %s' %s" % (riga[3], email_alert))
 		subprocess.Popen(mail_command, stdin=subprocess.Popen(echo_command, stdout=subprocess.PIPE).stdout, stdout=subprocess.PIPE).wait()
 
