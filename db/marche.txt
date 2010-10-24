@@ -7,3 +7,4 @@ Macerata|CMlug|Civitanova Marche e dintorni|http://www.cmlug.org/
 Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it|associazione@gruppolinuxmc.it
 Macerata|Camelug|Camerino|http://camelug.it|ryuw@camelug.it
 Pesaro-Urbino|Urbino-LUG|Urbino e Montefeltro|http://urbino-lug.tumblr.com/
+Pesaro-Urbino|Fortunae Lug|Fano e dintorni|http://www.fanolug.org
