@@ -13,6 +13,7 @@ Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/|boccolinux@gmail.com
 Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
 Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
+Milano|ViGLug|Vignate|http://www.viglug.org|fraph24@gmail.com
 Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/|info@bubblesfactory.it
 Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|tilug@lists.linux.it
 Pavia|LUGDucale|Vigevano|http://www.lugducale.it|fulvio.restelli@faswebnet.it
