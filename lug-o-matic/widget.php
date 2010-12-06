@@ -4,77 +4,7 @@
 
 <html>
 	<head>
-		<style type="text/css">
-		<!--
-			body {
-				font-family: Helvetica;
-				font-size: 12px;
-				margin: 0px;
-				padding: 0px;
-				border: 3px solid #000000;
-			}
-
-			a {
-				text-decoration: none;
-			}
-
-			.error {
-				margin: 5px;
-				padding: 3px;
-				background-color: #F54B4B;
-				text-align: center;
-			}
-
-			.title {
-				font-weight: bold;
-				background-color: #000080;
-				color: #FFFFFF;
-				border: 1px solid black;
-				font-size: 12px;
-				padding: 5px;
-				text-align: center;
-			}
-
-			.list {
-				border-collapse: collapse;
-				margin: auto;
-				padding: 10px;
-				width: 100%;
-			}
-
-			.list tr > td:first-child {
-				font-weight: bold;
-			}
-
-			.list tr.row_0 td {
-				background-color: #EEEEEE;
-			}
-
-			.list tr.row_1 td {
-				background-color: #DDDDDD;
-			}
-
-			.list td {
-				border: 1px solid black;
-				font-size: 12px;
-				padding: 5px;
-				text-align: center;
-			}
-
-			.link {
-				margin-top: 5px;
-				text-align: center;
-				font-style: italic;
-				color: #000000;
-				font-weight: bold;
-			}
-
-			.link a {
-				color: #FF0000;
-				text-decoration: none;
-			}
-		-->
-		</style>
+		<link href="<?php echo $app_url . 'widget.css' ?>" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
@@ -92,35 +22,24 @@
 			<?php
 		}
 		else {
-			/*
-				Attualmente e' implementato il caching dei files raw, si potrebbero usare
-				direttamente quelli della LugMap (se il widget viene hostato insieme ad essa)
-			*/
-			$cachepath = 'db/' . ($_GET ['region']) . '.txt';
-			if (file_exists ($cachepath) == false || filemtime ($cachepath) < (time () - (60 * 60 * 24))) {
-				$contents = file_get_contents ('http://github.com/Gelma/LugMap/raw/master/db/' . ($_GET ['region']) . '.txt');
-				file_put_contents ($cachepath, $contents);
-			}
-
-			$lugs = file ($cachepath, FILE_IGNORE_NEW_LINES);
+			$lugs = file ('../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
+			$regionname = $elenco_regioni [$_GET ['region']];
 
 			if ($lugs == false || count ($lugs) == 0) {
 				?>
 
 				<div class="error">
 					<p>
-						Oops, elenco dei LUG non trovato online.
+						Non sembrano esserci LUG in <?php echo $regionname; ?>.
 					</p>
 					<p>
-						Sicuro di aver specificato una regione corretta?
+						<a href="http://www.badpenguin.org/italian-lug-howto" target="_blank">Creane uno!</a>
 					</p>
 				</div>
 
 				<?php
 			}
 			else {
-				$regionname = $elenco_regioni [$_GET ['region']];
-
 				?>
 
 				<div class="title">
@@ -141,7 +60,7 @@
 
 							<tr class="row_<?php echo ($nriga % 2); ?>">
 								<td><?php echo $data [0]; ?></td>
-								<td><a href="<?php echo $data [3]; ?>"><?php echo $data [1]; ?></a></td>
+								<td><a href="<?php echo $data [3]; ?>" target="_blank"><?php echo $data [1]; ?></a></td>
 							</tr>
 
 							<?php

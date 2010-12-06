@@ -1,0 +1,67 @@
+body {
+	font-family: Helvetica;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	border: 3px solid #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.error {
+	margin: 5px;
+	padding: 3px;
+	background-color: #F54B4B;
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+	background-color: #000080;
+	color: #FFFFFF;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
+}
+
+.list {
+	border-collapse: collapse;
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+.list tr > td:first-child {
+	font-weight: bold;
+}
+
+.list tr.row_0 td {
+	background-color: #EEEEEE;
+}
+
+.list tr.row_1 td {
+	background-color: #DDDDDD;
+}
+
+.list td {
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
+}
+
+.link {
+	margin-top: 5px;
+	text-align: center;
+	font-style: italic;
+	color: #000000;
+	font-weight: bold;
+}
+
+.link a {
+	color: #FF0000;
+	text-decoration: none;
+}
