@@ -1,90 +1,109 @@
-body{
-  font-family: Helvetica;	
+body {
+  font-family: Helvetica;
   font-size: 12px;
 }
 
-img{
+img {
   display:block;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-#center{
+#introTabel {
+  width: 800px;
+  margin: auto;
+  border: 0px;
+}
+
+#introTabel td {
+  width: 400px;
+  vertical-align: middle;
+}
+
+#italymap {
+  border: 0px;
+}
+
+#center {
   max-width: 1280px;
   margin: 0 auto;
 }
 
-#lugListTable th, #lugListTable td{
+#lugListTable th, #lugListTable td {
   border: 1px solid black;
   font-size: 12px;
   padding: 5px;
   text-align: center;
 }
 
-#lugListTable table, #lugListTable th, #lugListTable td{
+#lugListTable table, #lugListTable th, #lugListTable td {
   border: 1px solid black;
   font-size: 12px;
 }
 
-#lugListTable td.province{
+#lugListTable td.province {
   font-weight: bold;
-  text-align: left; 
+  text-align: left;
 }
 
-#lugListTable td.contactUrl a{
+#lugListTable td.contactUrl a {
   font-weight: bold;
-  color: #f00; 
+  color: #f00;
 }
 
-#lugListTable td.contactUrl{
-  text-align: right;	
+#lugListTable td.contactUrl {
+  text-align: right;
 }
 
-#lugListTable{
+#lugListTable {
   border-collapse:collapse;
   width:100%;
-  
+
 }
 
-#lugListTable thead, #lugListTable tfoot{
+#lugListTable thead, #lugListTable tfoot {
   background-color: #000080;
-  color: #fff;	
+  color: #fff;
 }
 
 #lugListTable tr.row_0 td {
-  background-color: #eee; 
+  background-color: #eee;
 }
 
 #lugListTable tr.row_1 td {
   background-color: #ddd;
 }
 
-#title{
+#lugListTable tr.row_special td {
+  border: 0px;
+  background-color: #fff;
+}
+
+#title {
   color: #000080;
   text-align: center;
 }
 
-#backLugMapLink, #csvLink{
+#backLugMapLink, #csvLink {
   display: block;
-  text-align: right;	
+  text-align: right;
   color: #f00;
   font-weight: bold;
   text-decoration: none;
   margin: 10px 0;
 }
 
-.generalink{
+.generalink {
   color: #f00;
   font-weight: bold;
   text-decoration: none;
 }
 
 
-#footer{
-	border-top: 1px solid #000;
-	padding-top: 10px;
-	
+#footer {
+  border-top: 1px solid #000;
+  padding-top: 10px;
 }
 
-.helpMessage{
-	font-style: italic;
+.helpMessage {
+  font-style: italic;
 }
