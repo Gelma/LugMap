@@ -58,7 +58,7 @@ img {
 
 #lugListTable td.contactUrl a {
   font-weight: bold;
-  color: #f00;
+  color: #00f;
 }
 
 #lugListTable td.contactUrl {
@@ -97,14 +97,14 @@ img {
 #backLugMapLink, #csvLink {
   display: block;
   text-align: right;
-  color: #f00;
+  color: #00f;
   font-weight: bold;
   text-decoration: none;
   margin: 10px 0;
 }
 
 .generalink {
-  color: #f00;
+  color: #00f;
   font-weight: bold;
   text-decoration: none;
 }

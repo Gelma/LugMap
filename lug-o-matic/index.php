@@ -32,7 +32,7 @@ lugheader ('LUG-o-matic', 'LUG-o-matic', array ('generator.css'), array ('jquery
 
     <br />
 
-    <textarea class="code"><?php echo htmlentities (
+    <textarea class="code" cols="45" rows="15"><?php echo htmlentities (
 '<script language="JavaScript"><!--
 function calcSize () { document.getElementById(\'lugmap\').height = document.getElementById(\'lugmap\').contentWindow.document.body.scrollHeight;
 }
