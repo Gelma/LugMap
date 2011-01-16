@@ -1,9 +1,0 @@
-Alessandria|AlLug|Alessandria e provincia|http://www.allug.it|info@allug.it
-Alessandria|FASoLi|Alessandria e provincia|http://softwarelibero.al.it/|
-Biella|BiLug|Provincia di Biella|http://www.bilug.linux.it/|
-Cuneo/Torino|ABC Lug|Alba/Bra/Carmagnola|http://abc.linux.it|
-Novara|Gallug|Galliate|http://www.gallug.it/|info@gallug.it
-Torino|GlugTO|Torino e provincia|http://www.torino.linux.it/|
-Torino|SLIP|Pinerolo|http://pinerolo.linux.it/|info@pinerolo.linux.it
-Torino|ValSusinux|Val Susa e Val Sangone|http://www.valsusinux.it/|info@valsusinux.it
-Ivrea|IvLug|Ivrea Linux User Group|http://www.ivlug.it/|

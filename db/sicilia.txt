@@ -1,9 +1,0 @@
-Caltanisetta|VPLug|Provincia di Caltanisetta|http://www.vplug.it/|infovplug@gmail.com
-Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|
-Catania|EtnaLUG|Provincia di Catania|http://sites.google.com/site/etnalug/|gmarzioz@gmail.com
-Enna|EnnaLUG|Enna|http://leonforte.linux.it/|
-Messina|Lug Messina|Messina e provincia|http://www.messinalug.org/|melug@messinalug.org
-Palermo|SputniX|Palermo|http://www.sputnix.it/|info@sputnix.it
-Ragusa|SoLiRa|Ragusa e provincia|http://www.solira.org/|info@solira.org
-Siracusa|Lug Siracusa|Siracusa e provincia|http://www.siracusa.linux.it/|lug@siracusa.linux.it
-Trapani|S.L.U.R.P.|SantaNinfa (sede), Partanna, Gibellina, Castelvetrano, Mazara, Marsala|http://www.slurp.joomlafree.it/|slurp2010@gmail.com
