@@ -53,15 +53,15 @@ def controllo_contenuto():
 		pagina_html = urllib.urlopen(url_completo).read()
 	except:
 		return 'Errore: impossibile leggere la pagina html.'
-	
+
 	Termini_Attuali = set(pagina_html.split()) # Estrapolo subito i termini presenti
-	
+
 	try: # Leggo i termini precedenti
 		Termini_Precedenti = archivio[url_completo]['TerminiPrecedenti']
 	except: # Non esiste la voce, la creo
 		archivio[url_completo]['TerminiPrecedenti'] = Termini_Attuali
 		return True
-	
+
 	valore_magico = float(len(Termini_Precedenti.intersection(Termini_Attuali))*1.0/len(Termini_Precedenti.union(Termini_Attuali)))
 	archivio[url_completo] = {'TerminiPrecedenti': Termini_Attuali}
 
@@ -70,12 +70,12 @@ def controllo_contenuto():
 		return 'Errore: troppa differenza di contenuto:',str(valore_magico)
 	else:
 		return True
-	
+
 def richiedi_controllo(errore):
 	"""Ricevo un errore, e invio una mail di richiesta di controllo"""
-	
+
 	email_alert = 'andrea.gelmini@gmail.com'
-	
+
 	if os.path.exists('/usr/bin/mail'):
 		try:
 			echo_command = shlex.split("echo '"+'\n'.join([errore]+riga)+"'")
@@ -89,11 +89,11 @@ def richiedi_controllo(errore):
 
 if __name__ == "__main__":
 	#TODO: portare come demone
-	#      mettere parser per config	
+	#      mettere parser per config
 	# La struttura dell'archivio è:
 	# dizionario archivio[url_completo come chiave]: dizionario
-	#															['IP'] = Set degli IP
-	#															['TerminiPrecedenti'] = Set dei Termini delle pagine HTML
+	#		['IP'] = Set degli IP
+	#		['TerminiPrecedenti'] = Set dei Termini delle pagine HTML
 
 	Debug = True
 	while True:
@@ -101,11 +101,11 @@ if __name__ == "__main__":
 		syslog.syslog(syslog.LOG_ERR, 'Spazzino: Nuovo giro')
 
 		archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
-		
+
 		for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 			for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
 				url_completo = riga[3]
-				
+
 				responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
 				if responso is not True:
 					richiedi_controllo(responso)
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 					responso = controllo_contenuto()
 					if responso is not True:
 						richiedi_controllo(responso)
-					
+
 		archivio.sync()
 		archivio.close()
 		print 'Fine giro'
