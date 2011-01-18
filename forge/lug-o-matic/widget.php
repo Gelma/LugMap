@@ -1,5 +1,5 @@
 <?php
-require_once ('utils.php');
+require_once ('varie.php');
 ?>
 <html>
   <head>

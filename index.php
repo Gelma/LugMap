@@ -9,7 +9,7 @@ if ($_SERVER['HTTP_HOST'] != 'lugmap.it' AND $_SERVER['HTTP_HOST'] != 'www.lugma
 
 # Diversamente continuo proponendo l'homepage
 
-require_once ('utils.php');
+require_once ('varie.php');
 lugheader ('Mappa dei Linux User Group italiani', 'homepage');
 
 ?>

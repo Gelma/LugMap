@@ -1,6 +1,6 @@
 <?php
 
-require_once ('utils.php');
+require_once ('varie.php');
 
 function do_row ($nriga, $region, $tot, $perc) {
   global $elenco_regioni;

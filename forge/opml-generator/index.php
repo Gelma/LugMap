@@ -1,6 +1,6 @@
 <?php
 
-require_once ('../../utils.php');
+require_once ('../../varie.php');
 lugheader ('OPML Generator', 'OPML, RSS');
 
 ?>
