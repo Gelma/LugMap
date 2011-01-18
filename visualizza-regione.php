@@ -1,6 +1,6 @@
 <?php
 
-require_once ('utils.php');
+require_once ('varie.php');
 
 # leggo il terzo livello per recuperare la regione richiesta
 $livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
