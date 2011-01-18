@@ -32,6 +32,7 @@ $rows = array ("lat\tlon\ttitle\tdescription\ticonSize\ticonOffset\ticon");
 foreach ($elenco_regioni as $region => $name) {
         $lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	$cities = file ('liste_comuni/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+	$found_cities = array ();
 
         foreach ($lugs as $lug) {
 		$found = false;
@@ -69,6 +70,19 @@ foreach ($elenco_regioni as $region => $name) {
 				$lat = (log (tan ((90 + $lat) * pi () / 360)) / (pi () / 180)) * 20037508.34 / 180;
 				$lon = $node->getAttribute ('lon');
 				$lon = $lon * 20037508.34 / 180;
+
+				/*
+					Questo e' per evitare che due punti si sovrappongano, quelli che vengono
+					trovati nella stessa citta' (e dunque alle stesse coordinate) vengono
+					arbitrariamente shiftati
+				*/
+				if (in_array ($city, $found_cities) == true) {
+					$lat = $lat + rand (-20000, 20000);
+					$lon = $lon + rand (-20000, 20000);
+				}
+				else {
+					$found_cities [] = $city;
+				}
 
 				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/forge/map-generator/icon.png";
 				$found = true;
