@@ -21,7 +21,7 @@ require_once ('utils.php');
       <?php
     }
     else {
-      $lugs = file ('../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
+      $lugs = file ('../../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
       $regionname = $elenco_regioni [$_GET ['region']];
 
       if ($lugs == false || count ($lugs) == 0) {
