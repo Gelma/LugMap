@@ -77,5 +77,6 @@ lugheader ($title, $regione);
 </div>
 
 <?php
-  lugfooter ();
+	lugfooter ();
+	exit();
 ?>
