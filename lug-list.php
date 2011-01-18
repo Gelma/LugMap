@@ -2,18 +2,20 @@
 
 require_once ('utils.php');
 
-# parsing della richiesta per individuare
-if (isset ($_REQUEST["reg"])) {
-  if (array_key_exists ($_REQUEST["reg"], $elenco_regioni)) {
-    $regione = $elenco_regioni[$_REQUEST["reg"]];
-    $db_file = $_REQUEST["reg"];
-    $db_regione = file ('./db/'.$db_file.'.txt');
+# leggo il terzo livello per recuperare la regione richiesta
+$livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
+$regione_richiesta = $livelli_del_dominio[0];
+
+if (array_key_exists ($regione_richiesta, $elenco_regioni)) {
+    $regione = $elenco_regioni[$regione_richiesta];
+    $db_regione = file ('./db/'.$regione_richiesta.'.txt');
     $title = 'LUG presenti nella regione ' . $regione;
-  }
-  else {
-    header("location: http://lugmap.it/");
-  }
-}
+} else { header("location: http://lugmap.it/"); }
+
+# nella versione precedente il gruppo commentato veniva innescato
+# se il valore della regione non era valido
+# Roberto, vedi tu come comportarti ora.
+/*
 else {
   $db_regione = array ();
 
@@ -26,13 +28,14 @@ else {
   $regione = 'Italia';
   $title = 'LUG presenti in Italia';
 }
+*/
 
 lugheader ($title, $regione);
 
 ?>
 
 <div id="center">
-  <a id="backLugMapLink" href="index.php">&raquo; torna alla LUGmap</a>
+  <a id="backLugMapLink" href="http://lugmap.it/">&raquo; torna alla LUGmap</a>
   <table id="lugListTable">
     <thead>
         <tr>
@@ -67,7 +70,7 @@ lugheader ($title, $regione);
    </table>
 
    <?php if ($db_file != null) { ?>
-   <a id="csvLink" href="db/<?php echo $db_file ?>.txt">&raquo; Elenco in formato CSV</a>
+   <a id="csvLink" href="http://lugmap.it/db/<?php echo $db_file ?>.txt">&raquo; Elenco in formato CSV</a>
    <?php } else { ?>
    <br />
    <?php } ?>

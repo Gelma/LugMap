@@ -1,5 +1,14 @@
 <?php
 
+# Se ho una probabile richiesta di regione, innesco il vecchio render
+# Todo: fatto così è una porcata, andrebbe integrato in un unico blocco
+
+if ($_SERVER['HTTP_HOST'] != 'lugmap.it' AND $_SERVER['HTTP_HOST'] != 'www.lugmap.it') {
+	include('lug-list.php');
+}
+
+# Diversamente continuo proponendo l'homepage
+
 require_once ('utils.php');
 lugheader ('Mappa dei Linux User Group italiani', 'homepage');
 
