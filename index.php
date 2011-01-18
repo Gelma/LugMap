@@ -4,7 +4,7 @@
 # Todo: fatto così è una porcata, andrebbe integrato in un unico blocco
 
 if ($_SERVER['HTTP_HOST'] != 'lugmap.it' AND $_SERVER['HTTP_HOST'] != 'www.lugmap.it') {
-	include('lug-list.php');
+	include('visualizza-regione.php');
 }
 
 # Diversamente continuo proponendo l'homepage
