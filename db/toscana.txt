@@ -9,5 +9,5 @@ Lucca|Lucca Lug|Lucca|http://luccalug.it/|info@luccalug.it
 Pisa|Gulp|Pisa|http://www.gulp.linux.it/|gulp@gulp.linux.it
 Pistoia|PtLug|Pistoia|http://www.ptlug.org/|
 Prato|Plug|Prato|http://www.prato.linux.it/|info@prato.linux.it
-Siena - Firenze|ElsaGLUG|Valdelsa|http://www.elsaglug.org/|
+Siena - Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|
 Siena|SLUG|Siena e provincia|http://www.siena.linux.it/|webmaster@siena.linux.it

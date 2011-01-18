@@ -1,6 +1,6 @@
 Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
-Cesena|UIELinux|Valle del Rubicone|http://www.uielinux.org/
+Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/
 Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|info@ferrara.linux.it
 Forl&igrave;|FoLug|Forlì-Cesena|http://folug.linux.it/|folug-cons@lists.linux.it
 Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.it/|webmaster@conoscerelinux.net
@@ -11,4 +11,4 @@ Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/|info@ravennalug.org
 Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/|fabio.casolari@ripartodazero.it
 Reggio Emilia|RElug|Reggio nell'Emilia|http://relug.linux.it/|presidente@relug.linux.it
 Rimini|RiminiLug|Rimini|http://www.riminilug.it/|info@riminilug.it
-Rimini|ValLUG|Val Conca|http://www.vallug.net/|info@vallug.net
+Rimini|ValLUG|Cattolica, Val Conca|http://www.vallug.net/|info@vallug.net
