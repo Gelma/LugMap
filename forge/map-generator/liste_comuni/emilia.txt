@@ -1,0 +1,348 @@
+Agazzano
+Alseno
+Besenzone
+Bettola
+Bobbio
+Borgonovo Val Tidone
+Cadeo
+Calendasco
+Caminata
+Caorso
+Carpaneto Piacentino
+Castel San Giovanni
+Castell'Arquato
+Castelvetro Piacentino
+Cerignale
+Coli
+Corte Brugnatella
+Cortemaggiore
+Farini
+Ferriere
+Fiorenzuola d'Arda
+Gazzola
+Gossolengo
+Gragnano Trebbiense
+Gropparello
+Lugagnano Val d'Arda
+Monticelli d'Ongina
+Morfasso
+Nibbiano
+Ottone
+Pecorara
+Piacenza
+Pianello Val Tidone
+Piozzano
+Podenzano
+Ponte dell'Olio
+Pontenure
+Rivergaro
+Rottofreno
+San Giorgio Piacentino
+San Pietro in Cerro
+Sarmato
+Travo
+Vernasca
+Vigolzone
+Villanova sull'Arda
+Zerba
+Ziano Piacentino
+Albareto
+Bardi
+Bedonia
+Berceto
+Bore
+Borgo Val di Taro
+Busseto
+Calestano
+Collecchio
+Colorno
+Compiano
+Corniglio
+Felino
+Fidenza
+Fontanellato
+Fontevivo
+Fornovo di Taro
+Langhirano
+Lesignano de' Bagni
+Medesano
+Mezzani
+Monchio delle Corti
+Montechiarugolo
+Neviano degli Arduini
+Noceto
+Palanzano
+Parma
+Pellegrino Parmense
+Polesine Parmense
+Roccabianca
+Sala Baganza
+Salsomaggiore Terme
+San Secondo Parmense
+Sissa
+Solignano
+Soragna
+Sorbolo
+Terenzo
+Tizzano Val Parma
+Tornolo
+Torrile
+Traversetolo
+Trecasali
+Valmozzola
+Varano de' Melegari
+Varsi
+Zibello
+Albinea
+Bagnolo in Piano
+Baiso
+Bibbiano
+Boretto
+Brescello
+Busana
+Cadelbosco di Sopra
+Campagnola Emilia
+Campegine
+Canossa
+Carpineti
+Casalgrande
+Casina
+Castellarano
+Castelnovo di Sotto
+Castelnovo ne' Monti
+Cavriago
+Collagna
+Correggio
+Fabbrico
+Gattatico
+Gualtieri
+Guastalla
+Ligonchio
+Luzzara
+Montecchio Emilia
+Novellara
+Poviglio
+Quattro Castella
+Ramiseto
+Reggio nell'Emilia
+Reggiolo
+Rio Saliceto
+Rolo
+Rubiera
+San Martino in Rio
+San Polo d'Enza
+Sant'Ilario d'Enza
+Scandiano
+Toano
+Vetto
+Vezzano sul Crostolo
+Viano
+Villa Minozzo
+Bastiglia
+Bomporto
+Campogalliano
+Camposanto
+Carpi
+Castelfranco Emilia
+Castelnuovo Rangone
+Castelvetro di Modena
+Cavezzo
+Concordia sulla Secchia
+Fanano
+Finale Emilia
+Fiorano Modenese
+Fiumalbo
+Formigine
+Frassinoro
+Guiglia
+Lama Mocogno
+Maranello
+Marano sul Panaro
+Medolla
+Mirandola
+Modena
+Montecreto
+Montefiorino
+Montese
+Nonantola
+Novi di Modena
+Palagano
+Pavullo nel Frignano
+Pievepelago
+Polinago
+Prignano sulla Secchia
+Ravarino
+Riolunato
+San Cesario sul Panaro
+San Felice sul Panaro
+San Possidonio
+San Prospero
+Sassuolo
+Savignano sul Panaro
+Serramazzoni
+Sestola
+Soliera
+Spilamberto
+Vignola
+Zocca
+Anzola dell'Emilia
+Argelato
+Baricella
+Bazzano
+Bentivoglio
+Bologna
+Borgo Tossignano
+Budrio
+Calderara di Reno
+Camugnano
+Casalecchio di Reno
+Casalfiumanese
+Castel d'Aiano
+Castel del Rio
+Castel di Casio
+Castel Guelfo di Bologna
+Castel Maggiore
+Castel San Pietro Terme
+Castello d'Argile
+Castello di Serravalle
+Castenaso
+Castiglione dei Pepoli
+Crespellano
+Crevalcore
+Dozza
+Fontanelice
+Gaggio Montano
+Galliera
+Granaglione
+Granarolo dell'Emilia
+Grizzana Morandi
+Imola
+Lizzano in Belvedere
+Loiano
+Malalbergo
+Marzabotto
+Medicina
+Minerbio
+Molinella
+Monghidoro
+Monte San Pietro
+Monterenzio
+Monteveglio
+Monzuno
+Mordano
+Ozzano dell'Emilia
+Pianoro
+Pieve di Cento
+Porretta Terme
+Sala Bolognese
+San Benedetto Val di Sambro
+San Giorgio di Piano
+San Giovanni in Persiceto
+San Lazzaro di Savena
+San Pietro in Casale
+Sant'Agata Bolognese
+Sasso Marconi
+Savigno
+Vergato
+Zola Predosa
+Argenta
+Berra
+Bondeno
+Cento
+Codigoro
+Comacchio
+Copparo
+Ferrara
+Formignana
+Goro
+Jolanda di Savoia
+Lagosanto
+Masi Torello
+Massa Fiscaglia
+Mesola
+Migliarino
+Migliaro
+Mirabello
+Ostellato
+Poggio Renatico
+Portomaggiore
+Ro
+Sant'Agostino
+Tresigallo
+Vigarano Mainarda
+Voghiera
+Alfonsine
+Bagnacavallo
+Bagnara di Romagna
+Brisighella
+Casola Valsenio
+Castel Bolognese
+Cervia
+Conselice
+Cotignola
+Faenza
+Fusignano
+Lugo
+Massa Lombarda
+Ravenna
+Riolo Terme
+Russi
+Sant'Agata sul Santerno
+Solarolo
+Bagno di Romagna
+Bertinoro
+Borghi
+Castrocaro Terme e Terra del Sole
+Cesena
+Cesenatico
+Civitella di Romagna
+Dovadola
+Forlì
+Forlimpopoli
+Galeata
+Gambettola
+Gatteo
+Longiano
+Meldola
+Mercato Saraceno
+Modigliana
+Montiano
+Portico e San Benedetto
+Predappio
+Premilcuore
+Rocca San Casciano
+Roncofreddo
+San Mauro Pascoli
+Santa Sofia
+Sarsina
+Savignano sul Rubicone
+Sogliano al Rubicone
+Tredozio
+Verghereto
+Bellaria-Igea Marina
+Casteldelci
+Cattolica
+Coriano
+Gemmano
+Maiolo
+Misano Adriatico
+Mondaino
+Monte Colombo
+Montefiore Conca
+Montegridolfo
+Montescudo
+Morciano di Romagna
+Novafeltria
+Pennabilli
+Poggio Berni
+Riccione
+Rimini
+Saludecio
+San Clemente
+San Giovanni in Marignano
+San Leo
+Sant'Agata Feltria
+Santarcangelo di Romagna
+Talamello
+Torriana
+Verucchio

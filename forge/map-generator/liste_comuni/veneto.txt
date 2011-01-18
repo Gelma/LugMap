@@ -1,0 +1,581 @@
+Affi
+Albaredo d'Adige
+Angiari
+Arcole
+Badia Calavena
+Bardolino
+Belfiore
+Bevilacqua
+Bonavigo
+Boschi Sant'Anna
+Bosco Chiesanuova
+Bovolone
+Brentino Belluno
+Brenzone
+Bussolengo
+Buttapietra
+Caldiero
+Caprino Veronese
+Casaleone
+Castagnaro
+Castel d'Azzano
+Castelnuovo del Garda
+Cavaion Veronese
+Cazzano di Tramigna
+Cerea
+Cerro Veronese
+Cologna Veneta
+Colognola ai Colli
+Concamarise
+Costermano
+Dolcè
+Erbè
+Erbezzo
+Ferrara di Monte Baldo
+Fumane
+Garda
+Gazzo Veronese
+Grezzana
+Illasi
+Isola della Scala
+Isola Rizza
+Lavagno
+Lazise
+Legnago
+Malcesine
+Marano di Valpolicella
+Mezzane di Sotto
+Minerbe
+Montecchia di Crosara
+Monteforte d'Alpone
+Mozzecane
+Negrar
+Nogara
+Nogarole Rocca
+Oppeano
+Palù
+Pastrengo
+Pescantina
+Peschiera del Garda
+Povegliano Veronese
+Pressana
+Rivoli Veronese
+Roncà
+Ronco all'Adige
+Roverchiara
+Roverè Veronese
+Roveredo di Guà
+Salizzole
+San Bonifacio
+San Giovanni Ilarione
+San Giovanni Lupatoto
+San Martino Buon Albergo
+San Mauro di Saline
+San Pietro di Morubio
+San Pietro in Cariano
+San Zeno di Montagna
+Sanguinetto
+Sant'Ambrogio di Valpolicella
+Sant'Anna d'Alfaedo
+Selva di Progno
+Soave
+Sommacampagna
+Sona
+Sorgà
+Terrazzo
+Torri del Benaco
+Tregnago
+Trevenzuolo
+Valeggio sul Mincio
+Velo Veronese
+Verona
+Veronella
+Vestenanova
+Vigasio
+Villa Bartolomea
+Villafranca di Verona
+Zevio
+Zimella
+Agugliaro
+Albettone
+Alonte
+Altavilla Vicentina
+Altissimo
+Arcugnano
+Arsiero
+Arzignano
+Asiago
+Asigliano Veneto
+Barbarano Vicentino
+Bassano del Grappa
+Bolzano Vicentino
+Breganze
+Brendola
+Bressanvido
+Brogliano
+Caldogno
+Caltrano
+Calvene
+Camisano Vicentino
+Campiglia dei Berici
+Campolongo sul Brenta
+Carrè
+Cartigliano
+Cassola
+Castegnero
+Castelgomberto
+Chiampo
+Chiuppano
+Cismon del Grappa
+Cogollo del Cengio
+Conco
+Cornedo Vicentino
+Costabissara
+Creazzo
+Crespadoro
+Dueville
+Enego
+Fara Vicentino
+Foza
+Gallio
+Gambellara
+Gambugliano
+Grancona
+Grisignano di Zocco
+Grumolo delle Abbadesse
+Isola Vicentina
+Laghi
+Lastebasse
+Longare
+Lonigo
+Lugo di Vicenza
+Lusiana
+Malo
+Marano Vicentino
+Marostica
+Mason Vicentino
+Molvena
+Monte di Malo
+Montebello Vicentino
+Montecchio Maggiore
+Montecchio Precalcino
+Montegalda
+Montegaldella
+Monteviale
+Monticello Conte Otto
+Montorso Vicentino
+Mossano
+Mussolente
+Nanto
+Nogarole Vicentino
+Nove
+Noventa Vicentina
+Orgiano
+Pedemonte
+Pianezze
+Piovene Rocchette
+Pojana Maggiore
+Posina
+Pove del Grappa
+Pozzoleone
+Quinto Vicentino
+Recoaro Terme
+Roana
+Romano d'Ezzelino
+Rosà
+Rossano Veneto
+Rotzo
+Salcedo
+San Germano dei Berici
+San Nazario
+San Pietro Mussolino
+San Vito di Leguzzano
+Sandrigo
+Santorso
+Sarcedo
+Sarego
+Schiavon
+Schio
+Solagna
+Sossano
+Sovizzo
+Tezze sul Brenta
+Thiene
+Tonezza del Cimone
+Torrebelvicino
+Torri di Quartesolo
+Trissino
+Valdagno
+Valdastico
+Valli del Pasubio
+Valstagna
+Velo d'Astico
+Vicenza
+Villaga
+Villaverla
+Zanè
+Zermeghedo
+Zovencedo
+Zugliano
+Agordo
+Alano di Piave
+Alleghe
+Arsiè
+Auronzo di Cadore
+Belluno
+Borca di Cadore
+Calalzo di Cadore
+Canale d'Agordo
+Castellavazzo
+Cencenighe Agordino
+Cesiomaggiore
+Chies d'Alpago
+Cibiana di Cadore
+Colle Santa Lucia
+Comelico Superiore
+Cortina d'Ampezzo
+Danta di Cadore
+Domegge di Cadore
+Falcade
+Farra d'Alpago
+Feltre
+Fonzaso
+Forno di Zoldo
+Gosaldo
+La Valle Agordina
+Lamon
+Lentiai
+Limana
+Livinallongo del Col di Lana
+Longarone
+Lorenzago di Cadore
+Lozzo di Cadore
+Mel
+Ospitale di Cadore
+Pedavena
+Perarolo di Cadore
+Pieve d'Alpago
+Pieve di Cadore
+Ponte nelle Alpi
+Puos d'Alpago
+Quero
+Rivamonte Agordino
+Rocca Pietore
+San Gregorio nelle Alpi
+San Nicolò di Comelico
+San Pietro di Cadore
+San Tomaso Agordino
+San Vito di Cadore
+Santa Giustina
+Santo Stefano di Cadore
+Sappada
+Sedico
+Selva di Cadore
+Seren del Grappa
+Sospirolo
+Soverzene
+Sovramonte
+Taibon Agordino
+Tambre
+Trichiana
+Vallada Agordina
+Valle di Cadore
+Vas
+Vigo di Cadore
+Vodo Cadore
+Voltago Agordino
+Zoldo Alto
+Zoppè di Cadore
+Altivole
+Arcade
+Asolo
+Borso del Grappa
+Breda di Piave
+Caerano di San Marco
+Cappella Maggiore
+Carbonera
+Casale sul Sile
+Casier
+Castelcucco
+Castelfranco Veneto
+Castello di Godego
+Cavaso del Tomba
+Cessalto
+Chiarano
+Cimadolmo
+Cison di Valmarino
+Codognè
+Colle Umberto
+Conegliano
+Cordignano
+Cornuda
+Crespano del Grappa
+Crocetta del Montello
+Farra di Soligo
+Follina
+Fontanelle
+Fonte
+Fregona
+Gaiarine
+Giavera del Montello
+Godega di Sant'Urbano
+Gorgo al Monticano
+Istrana
+Loria
+Mansuè
+Mareno di Piave
+Maser
+Maserada sul Piave
+Meduna di Livenza
+Miane
+Mogliano Veneto
+Monastier di Treviso
+Monfumo
+Montebelluna
+Morgano
+Moriago della Battaglia
+Motta di Livenza
+Nervesa della Battaglia
+Oderzo
+Ormelle
+Orsago
+Paderno del Grappa
+Paese
+Pederobba
+Pieve di Soligo
+Ponte di Piave
+Ponzano Veneto
+Portobuffolè
+Possagno
+Povegliano
+Preganziol
+Quinto di Treviso
+Refrontolo
+Resana
+Revine Lago
+Riese Pio X
+Roncade
+Salgareda
+San Biagio di Callalta
+San Fior
+San Pietro di Feletto
+San Polo di Piave
+San Vendemiano
+San Zenone degli Ezzelini
+Santa Lucia di Piave
+Sarmede
+Segusino
+Sernaglia della Battaglia
+Silea
+Spresiano
+Susegana
+Tarzo
+Trevignano
+Treviso
+Valdobbiadene
+Vazzola
+Vedelago
+Vidor
+Villorba
+Vittorio Veneto
+Volpago del Montello
+Zenson di Piave
+Zero Branco
+Annone Veneto
+Campagna Lupia
+Campolongo Maggiore
+Camponogara
+Caorle
+Cavallino-Treporti
+Cavarzere
+Ceggia
+Chioggia
+Cinto Caomaggiore
+Cona
+Concordia Sagittaria
+Dolo
+Eraclea
+Fiesso d'Artico
+Fossalta di Piave
+Fossalta di Portogruaro
+Fossò
+Gruaro
+Jesolo
+Marcon
+Martellago
+Meolo
+Mira
+Mirano
+Musile di Piave
+Noale
+Noventa di Piave
+Pianiga
+Portogruaro
+Pramaggiore
+Quarto d'Altino
+Salzano
+San Donà di Piave
+San Michele al Tagliamento
+Santa Maria di Sala
+Santo Stino di Livenza
+Scorzè
+Spinea
+Stra
+Teglio Veneto
+Torre di Mosto
+Venezia
+Vigonovo
+Abano Terme
+Agna
+Albignasego
+Anguillara Veneta
+Arquà Petrarca
+Arre
+Arzergrande
+Bagnoli di Sopra
+Baone
+Barbona
+Battaglia Terme
+Boara Pisani
+Borgoricco
+Bovolenta
+Brugine
+Cadoneghe
+Campo San Martino
+Campodarsego
+Campodoro
+Camposampiero
+Candiana
+Carceri
+Carmignano di Brenta
+Cartura
+Casale di Scodosia
+Casalserugo
+Castelbaldo
+Cervarese Santa Croce
+Cinto Euganeo
+Cittadella
+Codevigo
+Conselve
+Correzzola
+Curtarolo
+Due Carrare
+Este
+Fontaniva
+Galliera Veneta
+Galzignano Terme
+Gazzo
+Grantorto
+Granze
+Legnaro
+Limena
+Loreggia
+Lozzo Atestino
+Maserà di Padova
+Masi
+Massanzago
+Megliadino San Fidenzio
+Megliadino San Vitale
+Merlara
+Mestrino
+Monselice
+Montagnana
+Montegrotto Terme
+Noventa Padovana
+Ospedaletto Euganeo
+Padova
+Pernumia
+Piacenza d'Adige
+Piazzola sul Brenta
+Piombino Dese
+Piove di Sacco
+Polverara
+Ponso
+Ponte San Nicolò
+Pontelongo
+Pozzonovo
+Rovolon
+Rubano
+Saccolongo
+Saletto
+San Giorgio delle Pertiche
+San Giorgio in Bosco
+San Martino di Lupari
+San Pietro in Gu
+San Pietro Viminario
+Santa Giustina in Colle
+Santa Margherita d'Adige
+Sant'Angelo di Piove di Sacco
+Sant'Elena
+Sant'Urbano
+Saonara
+Selvazzano Dentro
+Solesino
+Stanghella
+Teolo
+Terrassa Padovana
+Tombolo
+Torreglia
+Trebaseleghe
+Tribano
+Urbana
+Veggiano
+Vescovana
+Vighizzolo d'Este
+Vigodarzere
+Vigonza
+Villa del Conte
+Villa Estense
+Villafranca Padovana
+Villanova di Camposampiero
+Vo'
+Adria
+Ariano nel Polesine
+Arquà Polesine
+Badia Polesine
+Bagnolo di Po
+Bergantino
+Bosaro
+Calto
+Canaro
+Canda
+Castelguglielmo
+Castelmassa
+Castelnovo Bariano
+Ceneselli
+Ceregnano
+Corbola
+Costa di Rovigo
+Crespino
+Ficarolo
+Fiesso Umbertiano
+Frassinelle Polesine
+Fratta Polesine
+Gaiba
+Gavello
+Giacciano con Baruchella
+Guarda Veneta
+Lendinara
+Loreo
+Lusia
+Melara
+Occhiobello
+Papozze
+Pettorazza Grimani
+Pincara
+Polesella
+Pontecchio Polesine
+Porto Tolle
+Porto Viro
+Rosolina
+Rovigo
+Salara
+San Bellino
+San Martino di Venezze
+Stienta
+Taglio di Po
+Trecenta
+Villadose
+Villamarzana
+Villanova del Ghebbo
+Villanova Marchesana

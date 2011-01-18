@@ -1,0 +1,287 @@
+Aulla
+Bagnone
+Carrara
+Casola in Lunigiana
+Comano
+Filattiera
+Fivizzano
+Fosdinovo
+Licciana Nardi
+Massa
+Montignoso
+Mulazzo
+Podenzana
+Pontremoli
+Tresana
+Villafranca in Lunigiana
+Zeri
+Altopascio
+Bagni di Lucca
+Barga
+Borgo a Mozzano
+Camaiore
+Camporgiano
+Capannori
+Careggine
+Castelnuovo di Garfagnana
+Castiglione di Garfagnana
+Coreglia Antelminelli
+Fabbriche di Vallico
+Forte dei Marmi
+Fosciandora
+Gallicano
+Giuncugnano
+Lucca
+Massarosa
+Minucciano
+Molazzana
+Montecarlo
+Pescaglia
+Piazza al Serchio
+Pietrasanta
+Pieve Fosciana
+Porcari
+San Romano in Garfagnana
+Seravezza
+Sillano
+Stazzema
+Vagli Sotto
+Vergemoli
+Viareggio
+Villa Basilica
+Villa Collemandina
+Abetone
+Agliana
+Buggiano
+Chiesina Uzzanese
+Cutigliano
+Lamporecchio
+Larciano
+Marliana
+Massa e Cozzile
+Monsummano Terme
+Montale
+Montecatini-Terme
+Pescia
+Pieve a Nievole
+Pistoia
+Piteglio
+Ponte Buggianese
+Quarrata
+Sambuca Pistoiese
+San Marcello Pistoiese
+Serravalle Pistoiese
+Uzzano
+Bagno a Ripoli
+Barberino di Mugello
+Barberino Val d'Elsa
+Borgo San Lorenzo
+Calenzano
+Campi Bisenzio
+Capraia e Limite
+Castelfiorentino
+Cerreto Guidi
+Certaldo
+Dicomano
+Empoli
+Fiesole
+Figline Valdarno
+Firenze
+Firenzuola
+Fucecchio
+Gambassi Terme
+Greve in Chianti
+Impruneta
+Incisa in Val d'Arno
+Lastra a Signa
+Londa
+Marradi
+Montaione
+Montelupo Fiorentino
+Montespertoli
+Palazzuolo sul Senio
+Pelago
+Pontassieve
+Reggello
+Rignano sull'Arno
+Rufina
+San Casciano in Val di Pesa
+San Godenzo
+San Piero a Sieve
+Scandicci
+Scarperia
+Sesto Fiorentino
+Signa
+Tavarnelle Val di Pesa
+Vaglia
+Vicchio
+Vinci
+Bibbona
+Campiglia Marittima
+Campo nell'Elba
+Capoliveri
+Capraia Isola
+Castagneto Carducci
+Cecina
+Collesalvetti
+Livorno
+Marciana
+Marciana Marina
+Piombino
+Porto Azzurro
+Portoferraio
+Rio Marina
+Rio nell'Elba
+Rosignano Marittimo
+San Vincenzo
+Sassetta
+Suvereto
+Bientina
+Buti
+Calci
+Calcinaia
+Capannoli
+Casale Marittimo
+Casciana Terme
+Cascina
+Castelfranco di Sotto
+Castellina Marittima
+Castelnuovo di Val di Cecina
+Chianni
+Crespina
+Fauglia
+Guardistallo
+Lajatico
+Lari
+Lorenzana
+Montecatini Val di Cecina
+Montescudaio
+Monteverdi Marittimo
+Montopoli in Val d'Arno
+Orciano Pisano
+Palaia
+Peccioli
+Pisa
+Pomarance
+Ponsacco
+Pontedera
+Riparbella
+San Giuliano Terme
+San Miniato
+Santa Croce sull'Arno
+Santa Luce
+Santa Maria a Monte
+Terricciola
+Vecchiano
+Vicopisano
+Volterra
+Anghiari
+Arezzo
+Badia Tedalda
+Bibbiena
+Bucine
+Capolona
+Caprese Michelangelo
+Castel Focognano
+Castel San Niccolò
+Castelfranco di Sopra
+Castiglion Fibocchi
+Castiglion Fiorentino
+Cavriglia
+Chitignano
+Chiusi della Verna
+Civitella in Val di Chiana
+Cortona
+Foiano della Chiana
+Laterina
+Loro Ciuffenna
+Lucignano
+Marciano della Chiana
+Monte San Savino
+Montemignaio
+Monterchi
+Montevarchi
+Ortignano Raggiolo
+Pergine Valdarno
+Pian di Sco
+Pieve Santo Stefano
+Poppi
+Pratovecchio
+San Giovanni Valdarno
+Sansepolcro
+Sestino
+Stia
+Subbiano
+Talla
+Terranuova Bracciolini
+Abbadia San Salvatore
+Asciano
+Buonconvento
+Casole d'Elsa
+Castellina in Chianti
+Castelnuovo Berardenga
+Castiglione d'Orcia
+Cetona
+Chianciano Terme
+Chiusdino
+Chiusi
+Colle di Val d'Elsa
+Gaiole in Chianti
+Montalcino
+Montepulciano
+Monteriggioni
+Monteroni d'Arbia
+Monticiano
+Murlo
+Piancastagnaio
+Pienza
+Poggibonsi
+Radda in Chianti
+Radicofani
+Radicondoli
+Rapolano Terme
+San Casciano dei Bagni
+San Gimignano
+San Giovanni d'Asso
+San Quirico d'Orcia
+Sarteano
+Siena
+Sinalunga
+Sovicille
+Torrita di Siena
+Trequanda
+Arcidosso
+Campagnatico
+Capalbio
+Castel del Piano
+Castell'Azzara
+Castiglione della Pescaia
+Cinigiano
+Civitella Paganico
+Follonica
+Gavorrano
+Grosseto
+Isola del Giglio
+Magliano in Toscana
+Manciano
+Massa Marittima
+Monte Argentario
+Monterotondo Marittimo
+Montieri
+Orbetello
+Pitigliano
+Roccalbegna
+Roccastrada
+Santa Fiora
+Scansano
+Scarlino
+Seggiano
+Semproniano
+Sorano
+Cantagallo
+Carmignano
+Montemurlo
+Poggio a Caiano
+Prato
+Vaiano
+Vernio

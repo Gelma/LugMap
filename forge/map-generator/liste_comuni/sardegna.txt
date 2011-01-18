@@ -1,0 +1,377 @@
+Alghero
+Anela
+Ardara
+Banari
+Benetutti
+Bessude
+Bonnanaro
+Bono
+Bonorva
+Borutta
+Bottidda
+Bultei
+Bulzi
+Burgos
+Cargeghe
+Castelsardo
+Cheremule
+Chiaramonti
+Codrongianos
+Cossoine
+Erula
+Esporlatu
+Florinas
+Giave
+Illorai
+Ittireddu
+Ittiri
+Laerru
+Mara
+Martis
+Monteleone Rocca Doria
+Mores
+Muros
+Nughedu San Nicolò
+Nule
+Nulvi
+Olmedo
+Osilo
+Ossi
+Ozieri
+Padria
+Pattada
+Perfugas
+Ploaghe
+Porto Torres
+Pozzomaggiore
+Putifigari
+Romana
+Santa Maria Coghinas
+Sassari
+Sedini
+Semestene
+Sennori
+Siligo
+Sorso
+Stintino
+Tergu
+Thiesi
+Tissi
+Torralba
+Tula
+Uri
+Usini
+Valledoria
+Viddalba
+Villanova Monteleone
+Aritzo
+Atzara
+Austis
+Belvì
+Birori
+Bitti
+Bolotana
+Borore
+Bortigali
+Desulo
+Dorgali
+Dualchi
+Fonni
+Gadoni
+Galtellì
+Gavoi
+Irgoli
+Lei
+Loculi
+Lodè
+Lodine
+Lula
+Macomer
+Mamoiada
+Meana Sardo
+Noragugume
+Nuoro
+Oliena
+Ollolai
+Olzai
+Onanì
+Onifai
+Oniferi
+Orani
+Orgosolo
+Orosei
+Orotelli
+Ortueri
+Orune
+Osidda
+Ottana
+Ovodda
+Posada
+Sarule
+Silanus
+Sindia
+Siniscola
+Sorgono
+Teti
+Tiana
+Tonara
+Torpè
+Armungia
+Assemini
+Ballao
+Barrali
+Burcei
+Cagliari
+Capoterra
+Castiadas
+Decimomannu
+Decimoputzu
+Dolianova
+Domus de Maria
+Donori
+Elmas
+Escalaplano
+Escolca
+Esterzili
+Gergei
+Gesico
+Goni
+Guamaggiore
+Guasila
+Isili
+Mandas
+Maracalagonis
+Monastir
+Monserrato
+Muravera
+Nuragus
+Nurallao
+Nuraminis
+Nurri
+Orroli
+Ortacesus
+Pimentel
+Pula
+Quartu Sant'Elena
+Quartucciu
+Sadali
+Samatzai
+San Basilio
+San Nicolò Gerrei
+San Sperate
+San Vito
+Sant'Andrea Frius
+Sarroch
+Selargius
+Selegas
+Senorbì
+Serdiana
+Serri
+Sestu
+Settimo San Pietro
+Seulo
+Siliqua
+Silius
+Sinnai
+Siurgus Donigala
+Soleminis
+Suelli
+Teulada
+Ussana
+Uta
+Vallermosa
+Villa San Pietro
+Villanova Tulo
+Villaputzu
+Villasalto
+Villasimius
+Villasor
+Villaspeciosa
+Abbasanta
+Aidomaggiore
+Albagiara
+Ales
+Allai
+Arborea
+Ardauli
+Assolo
+Asuni
+Baradili
+Baratili San Pietro
+Baressa
+Bauladu
+Bidonì
+Bonarcado
+Boroneddu
+Bosa
+Busachi
+Cabras
+Cuglieri
+Curcuris
+Flussio
+Fordongianus
+Genoni
+Ghilarza
+Gonnoscodina
+Gonnosnò
+Gonnostramatza
+Laconi
+Magomadas
+Marrubiu
+Masullas
+Milis
+Modolo
+Mogorella
+Mogoro
+Montresta
+Morgongiori
+Narbolia
+Neoneli
+Norbello
+Nughedu Santa Vittoria
+Nurachi
+Nureci
+Ollastra
+Oristano
+Palmas Arborea
+Pau
+Paulilatino
+Pompu
+Riola Sardo
+Ruinas
+Sagama
+Samugheo
+San Nicolò d'Arcidano
+San Vero Milis
+Santa Giusta
+Santu Lussurgiu
+Scano di Montiferro
+Sedilo
+Seneghe
+Senis
+Sennariolo
+Siamaggiore
+Siamanna
+Siapiccia
+Simala
+Simaxis
+Sini
+Siris
+Soddì
+Solarussa
+Sorradile
+Suni
+Tadasuni
+Terralba
+Tinnura
+Tramatza
+Tresnuraghes
+Ulà Tirso
+Uras
+Usellus
+Villa Sant'Antonio
+Villa Verde
+Villanova Truschedu
+Villaurbana
+Zeddiani
+Zerfaliu
+Aggius
+Aglientu
+Alà dei Sardi
+Arzachena
+Badesi
+Berchidda
+Bortigiadas
+Buddusò
+Budoni
+Calangianus
+Golfo Aranci
+La Maddalena
+Loiri Porto San Paolo
+Luogosanto
+Luras
+Monti
+Olbia
+Oschiri
+Padru
+Palau
+San Teodoro
+Santa Teresa Gallura
+Sant'Antonio di Gallura
+Telti
+Tempio Pausania
+Trinità d'Agultu e Vignola
+Arzana
+Bari Sardo
+Baunei
+Cardedu
+Elini
+Gairo
+Girasole
+Ilbono
+Jerzu
+Lanusei
+Loceri
+Lotzorai
+Osini
+Perdasdefogu
+Seui
+Talana
+Tertenia
+Tortolì
+Triei
+Ulassai
+Urzulei
+Ussassai
+Villagrande Strisaili
+Arbus
+Barumini
+Collinas
+Furtei
+Genuri
+Gesturi
+Gonnosfanadiga
+Guspini
+Las Plassas
+Lunamatrona
+Pabillonis
+Pauli Arbarei
+Samassi
+San Gavino Monreale
+Sanluri
+Sardara
+Segariu
+Serramanna
+Serrenti
+Setzu
+Siddi
+Tuili
+Turri
+Ussaramanna
+Villacidro
+Villamar
+Villanovaforru
+Villanovafranca
+Buggerru
+Calasetta
+Carbonia
+Carloforte
+Domusnovas
+Fluminimaggiore
+Giba
+Gonnesa
+Iglesias
+Masainas
+Musei
+Narcao
+Nuxis
+Perdaxius
+Piscinas
+Portoscuso
+San Giovanni Suergiu
+Santadi
+Sant'Anna Arresi
+Sant'Antioco
+Tratalias
+Villamassargia
+Villaperuccio
