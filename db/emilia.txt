@@ -9,6 +9,6 @@ Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|g.ciotti@tirrenide.
 Ravenna|AlfLug|Alfonsine|http://www.alflug.it/
 Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/|info@ravennalug.org
 Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/|fabio.casolari@ripartodazero.it
-Reggio Emilia|RElug|Reggio Emilia|http://relug.linux.it/|presidente@relug.linux.it
+Reggio Emilia|RElug|Reggio nell'Emilia|http://relug.linux.it/|presidente@relug.linux.it
 Rimini|RiminiLug|Rimini|http://www.riminilug.it/|info@riminilug.it
 Rimini|ValLUG|Val Conca|http://www.vallug.net/|info@vallug.net

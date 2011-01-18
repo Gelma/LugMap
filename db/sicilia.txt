@@ -1,4 +1,4 @@
-Caltanisetta|VPLug|Provincia di Caltanisetta|http://www.vplug.it/|infovplug@gmail.com
+Caltanisetta|VPLug|Provincia di Caltanissetta|http://www.vplug.it/|infovplug@gmail.com
 Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|
 Catania|EtnaLUG|Provincia di Catania|http://sites.google.com/site/etnalug/|gmarzioz@gmail.com
 Enna|EnnaLUG|Enna|http://leonforte.linux.it/|
