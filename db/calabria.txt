@@ -1,6 +1,6 @@
-Catanzaro|HackLab Catanzaro|Catanzaro|http://hacklabcz.com/
+Catanzaro|HackLab Catanzaro|Catanzaro|http://hacklabcz.com/|jmimmo82@gmail.com
 Cosenza|3BYlug|Trebisacce|http://www.3bylug.tk/|3bylug@email.it
-Cosenza|Bogomips Lug|Bisignano e dintorni|http://www.blug.it/|info@blug.it 
-Cosenza|CSLug|Cosenza|http://cslug.linux.it/| info@cslug.linux.it
+Cosenza|Bogomips Lug|Bisignano e dintorni|http://www.blug.it/|info@blug.it
+Cosenza|CSLug|Cosenza|http://cslug.linux.it/|info@cslug.linux.it
 Cosenza|CastroLug|Castrovillari e dintorni|http://castrolug.altervista.org/|castrolug@gmail.com
 Reggio Calabria|Reggio Calabria Lug|Reggio Calabria e provincia|http://rclug.linux.it/|consdir@rclug.linux.it
