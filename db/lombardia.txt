@@ -10,6 +10,7 @@ Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|glux@lecco.linux.it
 Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|info@lolug.net
 Mantova|LugMan|Mantova e provincia|http://www.lugman.org/|info@lugman.org
 Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/|boccolinux@gmail.com
+Milano|Lugdico|Milano|http://lugdico.wordpress.com/|andrea.trentini@unimi.it
 Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
 Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
