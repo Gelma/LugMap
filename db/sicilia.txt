@@ -1,3 +1,4 @@
+Caltanisetta|CLug|Caltanisetta|http://www.clug.it|info@clug.it
 Caltanisetta|VPLug|Provincia di Caltanissetta|http://www.vplug.it/|infovplug@gmail.com
 Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|
 Catania|EtnaLUG|Provincia di Catania|http://sites.google.com/site/etnalug/|gmarzioz@gmail.com
