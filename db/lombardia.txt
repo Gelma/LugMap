@@ -1,5 +1,6 @@
 Bergamo|BGLug|Bergamo e provincia|http://www.bglug.it/|info@bglug.it
 Bergamo|BGLug Valle Seriana|Gazzaniga, Valle Seriana|http://bglugvs.web3king.com/|angelo@web3king.com
+Bergamo|Linux Club Zogno|Zogno|http://www.linuxzogno.org|info@linuxzogno.org
 Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/
 Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|vips@lugbs.linux.it
 Brescia|LugOB|Cologne e ovest bresciano|http://www.lugob.org/
