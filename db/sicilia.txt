@@ -1,8 +1,8 @@
-Caltanisetta|CLug|Caltanisetta|http://www.clug.it|info@clug.it
-Caltanisetta|VPLug|Provincia di Caltanissetta|http://www.vplug.it/|infovplug@gmail.com
+Caltanissetta|CLug|Caltanissetta|http://www.clug.it|info@clug.it
+Caltanissetta|VPLug|Provincia di Caltanissetta|http://www.vplug.it/|infovplug@gmail.com
 Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|
 Catania|EtnaLUG|Provincia di Catania|http://sites.google.com/site/etnalug/|gmarzioz@gmail.com
-Catania|FreakNet MediLab|http://www.freaknet.org/|medialab@freaknet.org
+Catania|FreakNet MediLab|Catania|http://www.freaknet.org/|medialab@freaknet.org
 Enna|EnnaLUG|Enna|http://leonforte.linux.it/|
 Messina|Lug Messina|Messina e provincia|http://www.messinalug.org/|melug@messinalug.org
 Palermo|SputniX|Palermo|http://www.sputnix.it/|info@sputnix.it
