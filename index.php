@@ -32,7 +32,7 @@ lugheader ('Mappa dei Linux User Group italiani', 'homepage');
       <br />
 
       <div>
-        Sono inoltre disponibili <a href="lug-list.php">l'elenco completo di tutti i
+        Sono inoltre disponibili <a href="http://elenco.lugmap.it">l'elenco completo di tutti i
         LUG</a> ordinati per provincia, ed una pagina dedicata alle <a href="lug-stats.php">statistiche</a>.
       </div>
 

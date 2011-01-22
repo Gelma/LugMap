@@ -7,31 +7,23 @@ $livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
 $regione_richiesta = $livelli_del_dominio[0];
 
 if (array_key_exists ($regione_richiesta, $elenco_regioni)) {
-    $regione = $elenco_regioni[$regione_richiesta];
-    $db_regione = file ('./db/'.$regione_richiesta.'.txt');
-    $title = 'LUG presenti nella regione ' . $regione;
+	$regione = $elenco_regioni[$regione_richiesta];
+	$db_regione = file ('./db/'.$regione_richiesta.'.txt');
+	$title = 'LUG presenti nella regione ' . $regione;
+} elseif ($regione_richiesta == "elenco") {
+	$db_regione = array ();
+
+	foreach (glob ('./db/*.txt') as $db_file)
+		$db_regione = array_merge ($db_regione, file ($db_file));
+
+	sort ($db_regione);
+
+	$db_file = null;
+	$regione = 'Italia';
+	$title = 'LUG presenti in Italia';
 } else { header("location: http://lugmap.it/"); }
 
-# nella versione precedente il gruppo commentato veniva innescato
-# se il valore della regione non era valido
-# Roberto, vedi tu come comportarti ora.
-/*
-else {
-  $db_regione = array ();
-
-  foreach (glob ('./db/*.txt') as $db_file)
-    $db_regione = array_merge ($db_regione, file ($db_file));
-
-  sort ($db_regione);
-
-  $db_file = null;
-  $regione = 'Italia';
-  $title = 'LUG presenti in Italia';
-}
-*/
-
 lugheader ($title, $regione);
-
 ?>
 
 <div id="center">
