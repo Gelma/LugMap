@@ -84,7 +84,7 @@ foreach ($elenco_regioni as $region => $name) {
 					$found_cities [] = $city;
 				}
 
-				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/forge/map-generator/icon.png";
+				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
 				$found = true;
 
 				unset ($node);
