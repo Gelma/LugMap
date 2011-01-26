@@ -1,5 +1,10 @@
 <?php
 
+if ($_SERVER['HTTP_HOST'] != 'lugmap.it' AND $_SERVER['HTTP_HOST'] != 'www.lugmap.it') {
+	include('visualizza-regione.php');
+	exit (0);
+}
+
 require_once ('varie.php');
 
 ?>
@@ -10,109 +15,12 @@ require_once ('varie.php');
 
 		<title>Mappa dei Linux User Groups Italiani</title>
 
-		<style type="text/css">
-			<!--
-
-			.olPopup {
-				padding: 5px;
-			}
-
-			.olPopup h2 {
-				font-size: 15px;
-			}
-
-			.intro {
-				font-size: 10px;
-				color: #000000;
-				margin: 10px;
-				vertical-align: bottom;
-				position: absolute;
-				bottom: 0px;
-				width: 18%;
-				text-align: center;
-			}
-
-			.center_frame {
-				display: table;
-				overflow: hidden;
-				height: 100%;
-				width: 100%;
-				margin: auto;
-			}
-
-			.duallist {
-				display: table-cell;
-				vertical-align: middle;
-				width: 70%;
-				margin: auto;
-				text-align: center;
-			}
-
-			.duallist ul:first-child {
-				float: left;
-				width: 45%;
-			}
-
-			.duallist ul:last-child {
-				float: right;
-				width: 45%;
-			}
-
-			.duallist li {
-				list-style-type: none;
-				display: block;
-				font-size: 40px;
-			}
-
-			.duallist li a {
-				color: #000000;
-				text-decoration: none;
-			}
-
-			.textual {
-				display: table-cell;
-				vertical-align: middle;
-				width: 100%;
-				margin: auto;
-				text-align: center;
-				padding: 50px;
-			}
-
-			.description {
-				margin: auto;
-				text-align: center;
-				padding: 50px;
-			}
-
-			.verticalslider {margin: 0 auto;}
-
-			/* Tabs */
-			.verticalslider_tabs {float: left;width: 20%;}
-			.verticalslider_tabs, .verticalslider_tabs li{margin: 0px; padding: 0px;}
-			.verticalslider_tabs li{list-style-type: none;}
-			.verticalslider_tabs a:link, .verticalslider_tabs a:visited{display: block; height: 29px; padding: 14px 10px 6px 10px; font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; font-weight: bold;color: #333333;text-decoration: none;}
-			.verticalslider_tabs a:hover, .verticalslider_tabs a:active{ background: url(images/tabHoverBG.jpg) bottom repeat-x; background-color: #fcfcfc;}
-			.verticalslider_tabs li:first-child a:link, .verticalslider_tabs li:first-child a:visited{border-top: none; height: 30px;}
-			.verticalslider_tabs .activeTab a:link, .verticalslider_tabs .activeTab a:visited{background: #ffffff; border-right: 1px solid #ffffff;}
-			.verticalslider_tabs .activeTab a:hover, .verticalslider_tabs .activeTab a:active{background: #ffffff; border-right: 1px solid #ffffff;}
-			.verticalslider .arrow {background: url(images/arrow.png); width: 27px; height: 60px; position: absolute; z-index: 1000; margin-left: 250px; margin-top: -55px; }
-
-			/* Contents */
-			.verticalslider_contents li{margin: 0px; padding: 0px;padding: 0px; width: 100%; height: 100%;}
-			.verticalslider_contents li h2{font-family: Georgia, "Times New Roman", Times, serif, font-size: 15px; color: #333333;margin: 5px 20px; padding: 0px;}
-			.verticalslider_contents li div{color: #333333;font-family: Tahoma, Geneva, sans-serif; font-size: 13px; }
-			.verticalslider_contents .page{display: none;list-style-type: none;}
-			.verticalslider_contents{float: left;width: 80%;display: inline; margin: 0px; padding: 0px; height: 100%;}
-			.verticalslider_contents .activeContent{display: inline;}
-
-			-->
-		</style>
-
 		<script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA1wmNYgsPLSLzBfUdqFykjxQR8KvcGyCdgVa1pp5vyItO0ej8oxRFxpi5aceT4KQUnwoDtmcRMpZ5iA"></script>
 		<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-		<script type="text/javascript" src="js/verticaltabs.pack.js"></script>
+		<script type="text/javascript" src="js/verticaltabs.js"></script>
+		<script type="text/javascript" src="forge/lug-o-matic/generator.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 
 		<script type="text/javascript">
@@ -237,16 +145,18 @@ require_once ('varie.php');
 								<li><a href="http://friuli.lugmap.it/">Friuli Venezia-Giulia</a></li>
 								<li><a href="http://lazio.lugmap.it/">Lazio</a></li>
 								<li><a href="http://liguria.lugmap.it/">Liguria</a></li>
+							</ul>
+							<ul>
 								<li><a href="http://lombardia.lugmap.it/">Lombardia</a></li>
 								<li><a href="http://marche.lugmap.it/">Marche</a></li>
 								<li><a href="http://molise.lugmap.it/">Molise</a></li>
-							</ul>
-							<ul>
 								<li><a href="http://piemonte.lugmap.it/">Piemonte</a></li>
 								<li><a href="http://puglia.lugmap.it/">Puglia</a></li>
 								<li><a href="http://sardegna.lugmap.it/">Sardegna</a></li>
 								<li><a href="http://sicilia.lugmap.it/">Sicilia</a></li>
 								<li><a href="http://toscana.lugmap.it/">Toscana</a></li>
+							</ul>
+							<ul>
 								<li><a href="http://trentino.lugmap.it/">Trentino Alto Adige</a></li>
 								<li><a href="http://umbria.lugmap.it/">Umbria</a></li>
 								<li><a href="http://valle.lugmap.it/">Valle d'Aosta</a></li>
@@ -293,7 +203,10 @@ require_once ('varie.php');
 
 							<tfoot>
 								<tr>
-									<td colspan="4"></td>
+									<th>Provincia</th>
+									<th>Denominazione</th>
+									<th>Zona</th>
+									<th>Contatti</th>
 								</tr>
 							</tfoot>
 
@@ -346,23 +259,114 @@ require_once ('varie.php');
 								Qui di seguito alcuni dei progetti collaterali nati intorno a tali dati, e spunti per ulteriori creazioni.
 							</p>
 							<p>
-								Se hai una nuova idea e vuoi condividerla con tutti gli altri su questo sito, mandaci una segnalazione all'indirizzo mail <a href="lugmap@linux.it">lugmap@linux.it</a>.
+								Se hai una nuova idea e vuoi condividerla con tutti gli altri su questo sito, oppure vuoi riportare un problema o una miglioria per uno dei progetti qui elencati, mandaci una segnalazione all'indirizzo mail <a href="lugmap@linux.it">lugmap@linux.it</a>.
 							</p>
 
-							<ul>
-								<li>Widget web con la lista dei LUG di una regione, da includere nel tuo sito</li>
-								<li>Generatore di OPML coi feeds dei LUG</li>
-								<li>Generatore di mappa OpenStreetMaps con le locazioni dei singoli LUG</li>
-							</ul>
+							<a name="widget-web" />
 
-							<p>
-								TODO
-							</p>
+							<fieldset>
+								<legend>Widget web coi LUG di una regione</legend>
 
-							<ul>
-								<li>Plugin Wordpress con la lista dei LUG di una regione</li>
-								<li>Plugin Drupal con la lista dei LUG di una regione</li>
-							</ul>
+								<div id="introTabel">
+									<div class="generator">
+										<p>
+										Regione <select name="region">
+											<?php
+											foreach ($elenco_regioni as $simple => $name) {
+											?>
+
+											<option value="<?php echo $simple; ?>"><?php echo $name; ?></option>
+
+											<?php
+											}
+											?>
+										</select>
+										</p>
+
+										<div class="preview"><iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo" onload="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe></div>
+
+										<br />
+
+										<textarea class="code" cols="45" rows="15"><?php echo htmlentities (
+										'<script language="JavaScript"><!--
+										function calcSize () { document.getElementById(\'lugmap\').height = document.getElementById(\'lugmap\').contentWindow.document.body.scrollHeight;
+										}
+										//--></script>
+										<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo"
+										onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>'); ?>
+										</textarea>
+									</div>
+
+									<div>
+										<p>
+											Usando il generatore qui accanto puoi ottenere il codice HTML di un semplice widget web da
+											copiare ed incollare sul tuo sito, con l'elenco sempre automaticamente aggiornato dei Linux
+											User Group della regione selezionata.
+										</p>
+
+										<p>
+											Per tutti coloro che gestiscono delle pagine web, sia veterani del mondo Linux che semplici simpatizzanti,
+											questo è un ottimo modo per fare pubblicità ai gruppi vicini di casa.
+										</p>
+									</div>
+
+									<div class="clear_spacer"></div>
+								</div>
+							</fieldset>
+
+							<a name="OPML" />
+
+							<fieldset>
+								<legend>Generatore di OPML dei feeds dei LUG</legend>
+
+								<p>
+									Il generatore <a href="http://www.opml.org/">OPML</a> della LugMap permette di ricostruire la lista dei feeds
+									<a href="http://it.wikipedia.org/wiki/Really_simple_syndication">RSS</a> dei siti dei LUG indicizzati nella mappa.
+									Esso ispeziona i vari files delle regioni, per ogni URL indicato scarica l'HTML della homepage del sito e verifica
+									l'esistenza del tag <i>&lt;link rel="alternate"&gt;</i> abitualmente utilizzato per l'auto-discovery.
+								</p>
+
+								<p>
+									Tale file OPML può poi essere importato nel proprio lettore RSS, se si vogliono leggere tutte le notizie riguardanti
+									l'esteso e variegato mondo degli User Groups, oppure essere utilizzato come punto di partenza per nuove applicazioni
+									che prevedono l'aggregazione di contenuti a tema prettamente "linuxofilo".
+								</p>
+
+								<p>
+									Lo script è in PHP, e può essere lanciato dalla linea di comando con <i>php find_feeds.php</i>
+								</p>
+
+								<p>
+									<a href="http://github.com/Gelma/LugMap/blob/lugmap.it/forge/opml-generator/find_feeds.php">Scarica lo script qui!</a>
+								</p>
+							</fieldset>
+
+							<a name="map-generator" />
+
+							<fieldset>
+								<legend>Generatore di mappa OpenStreetMap dei LUG</legend>
+
+								<p>
+									Sulla homepage di questo sito si trova una grossa mappa con i riferimenti geografici dei diversi LUG indicizzati in questa
+									LugMap. Tale elemento web è realizzato con uno script <a href="http://openlayers.org/">OpenLayers</a> ed un file con le
+									coordinate da marcare sulla cartina.
+								</p>
+
+								<p>
+									Suddetto file viene generato eseguendo un apposito script PHP, il quale setaccia l'intero database su file dei LUG, per ognuno
+									individua la città o il paese di riferimento, ed appoggiandosi al servizio <a href="http://wiki.openstreetmap.org/wiki/Nominatim">Nominatim</a>
+									di <a href="http://openstreetmap.org/">OpenStreetMap</a> ne ricava le coordinate.
+								</p>
+
+								<p>
+									Il file completo utilizzato in questo sito è sempre reperibile all'URL <i>http://lugmap.it/dati.txt</i>, ed è già pronto per essere
+									passato come parametro ad un oggetto Javascript <a href="http://dev.openlayers.org/apidocs/files/OpenLayers/Layer/Text-js.html">OpenLayers.Layer.Text</a>.
+									Chi vuole invece generarsi autonomamente il set di dati, può reperire lo script completo
+									<a href="http://github.com/Gelma/LugMap/blob/lugmap.it/forge/map-generator/map-generator.php">qui</a>; attenzione: per tale
+									operazione sono richieste anche le liste dei comuni italiani già formattate e scaricabili da
+									<a href="https://github.com/Gelma/LugMap/tree/lugmap.it/forge/map-generator/liste_comuni">qua</a>.
+								</p>
+							</fieldset>
 						</div>
 					</div>
 				</li>

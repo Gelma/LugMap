@@ -1,9 +1,9 @@
 <?php
-require_once ('varie.php');
+require_once ('../../varie.php');
 ?>
 <html>
   <head>
-    <link href="<?php echo $app_url . 'widget.css' ?>" rel="stylesheet" type="text/css">
+    <link href="http://lugmap.it/forge/lug-o-matic/widget.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
@@ -77,7 +77,7 @@ require_once ('varie.php');
     ?>
 
     <div class="link">
-      Powered by <a href="<?php echo $app_url; ?>">lug-o-matic</a>
+      Powered by <a href="http://lugmap.it/">lugmap.it</a>
     </div>
   </body>
 </html>

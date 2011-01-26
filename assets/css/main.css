@@ -1,119 +1,293 @@
 body {
-  font-family: Helvetica;
-  font-size: 12px;
+	font-family: Helvetica;
+	font-size: 12px;
 }
 
 img {
-  display:block;
-  margin: 0 auto;
+	display:block;
+	margin: 0 auto;
+}
+
+.olPopup {
+	padding: 5px;
+}
+
+.olPopup h2 {
+	font-size: 15px;
+}
+
+.intro {
+	font-size: 10px;
+	color: #000000;
+	margin: 10px;
+	vertical-align: bottom;
+	position: fixed;
+	bottom: 0px;
+	width: 20%;
+	text-align: center;
+}
+
+.center_frame {
+	display: table;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+.duallist {
+	display: table-cell;
+	vertical-align: middle;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.duallist ul {
+	float: left;
+	width: 25%;
+}
+
+.duallist li {
+	list-style-type: none;
+	display: block;
+	font-size: 20px;
+	line-height: 3em;
+}
+
+.duallist li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.textual {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+}
+
+.description {
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+}
+
+.verticalslider {
+	margin: 0 auto;
+}
+
+.verticalslider_tabs {
+	float: left;
+	width: 20%;
+	position: fixed;
+}
+
+.verticalslider_tabs, .verticalslider_tabs li {
+	margin: 0px;
+	padding: 0px;
+}
+
+.verticalslider_tabs li {
+	list-style-type: none;
+	width: 95%;
+}
+
+.verticalslider_tabs a:link, .verticalslider_tabs a:visited {
+	display: block;
+	height: 29px;
+	padding: 14px 10px 6px 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+.verticalslider_tabs a:hover, .verticalslider_tabs a:active {
+	background: url(/images/tabHoverBG.jpg) bottom repeat-x;
+	background-color: #fcfcfc;
+}
+
+.verticalslider_tabs li:first-child a:link, .verticalslider_tabs li:first-child a:visited {
+	border-top: none;
+	height: 30px;
+}
+
+.verticalslider_tabs .activeTab a:link, .verticalslider_tabs .activeTab a:visited {
+	background: #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.verticalslider_tabs .activeTab a:hover, .verticalslider_tabs .activeTab a:active {
+	background: #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.verticalslider .arrow {
+	background: url(/images/arrow.png);
+	width: 27px;
+	height: 60px;
+	position: absolute;
+	z-index: 1000;
+	margin-left: 250px;
+	margin-top: -55px;
+}
+
+.verticalslider_contents li {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.verticalslider_contents li div {
+	color: #333333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+}
+
+.verticalslider_contents .page {
+	display: none;
+	list-style-type: none;
+}
+
+.verticalslider_contents {
+	float: right;
+	width: 80%;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.verticalslider_contents .activeContent {
+	display: inline;
+}
+
+fieldset {
+	margin-top: 20px;
+	padding: 10px;
+	text-align: left;
+}
+
+.generator {
+	float: right;
+	width: 45%;
+	text-align: center;
+}
+
+.code {
+	width: 100%;
+	height: 200px;
+}
+
+.preview {
+	width: 100%;
 }
 
 .clear_spacer {
-  display: block;
-  width: 100%;
-  height: 0px;
-  clear: both;
-  line-height: 0px;
-  font-size: 0px;
-  margin: 0;
-  padding: 0;
+	display: block;
+	width: 100%;
+	height: 0px;
+	clear: both;
+	line-height: 0px;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #introTabel {
-  width: 800px;
-  margin: auto;
-  border: 0px;
+	width: 800px;
+	margin: auto;
+	border: 0px;
 }
 
 #introTabel td {
-  width: 400px;
-  vertical-align: middle;
-}
-
-#italymap {
-  border: 0px;
+	width: 400px;
+	vertical-align: middle;
 }
 
 #center {
-  max-width: 1280px;
-  margin: 0 auto;
+	max-width: 1280px;
+	margin: 0 auto;
 }
 
 #lugListTable th, #lugListTable td {
-  border: 1px solid black;
-  font-size: 12px;
-  padding: 5px;
-  text-align: center;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
 }
 
 #lugListTable table, #lugListTable th, #lugListTable td {
-  border: 1px solid black;
-  font-size: 12px;
+	font-size: 12px;
 }
 
 #lugListTable td.province {
-  font-weight: bold;
-  text-align: left;
+	font-weight: bold;
+	text-align: left;
 }
 
 #lugListTable td.contactUrl a {
-  font-weight: bold;
-  color: #00f;
+	font-weight: bold;
+	color: #00f;
 }
 
 #lugListTable td.contactUrl {
-  text-align: right;
+	text-align: right;
 }
 
 #lugListTable {
-  border-collapse:collapse;
-  width:100%;
-
+	border-collapse:collapse;
+	width:100%;
 }
 
 #lugListTable thead, #lugListTable tfoot {
-  background-color: #000080;
-  color: #fff;
+	background-color: #000080;
+	color: #fff;
 }
 
 #lugListTable tr.row_0 td {
-  background-color: #eee;
+	background-color: #EEEEEE;
 }
 
 #lugListTable tr.row_1 td {
-  background-color: #ddd;
+	background-color: #DDDDDD;
 }
 
 #lugListTable tr.row_special td {
-  border: 0px;
-  background-color: #fff;
+	border: 0px;
+	background-color: #FFFFFF;
 }
 
 #title {
-  color: #000080;
-  text-align: center;
+	color: #000000;
+	text-align: center;
 }
 
 #backLugMapLink, #csvLink {
-  display: block;
-  text-align: right;
-  color: #00f;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 10px 0;
+	display: block;
+	text-align: right;
+	color: #00f;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px 0;
 }
 
 .generalink {
-  color: #00f;
-  font-weight: bold;
-  text-decoration: none;
+	color: #00f;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 #footer {
-  border-top: 1px solid #000;
-  padding-top: 10px;
+	border-top: 1px solid #000;
+	padding-top: 10px;
 }
 
 .helpMessage {
-  font-style: italic;
+	font-style: italic;
 }

@@ -38,8 +38,11 @@ lugheader ($title, $regione);
         </tr>
      </thead>
      <tfoot>
-      <tr>
-        <td colspan="4"></td>
+        <tr>
+          <th>Provincia</th>
+          <th>Denominazione</th>
+          <th>Zona</th>
+          <th>Contatti</th>
         </tr>
     </tfoot>
     <tbody>
