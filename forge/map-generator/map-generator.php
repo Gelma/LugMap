@@ -24,6 +24,17 @@ $elenco_regioni = array (
 );
 
 /*
+	Scopiazzato da http://www.phpbuilder.com/board/showthread.php?t=10287962
+*/
+function howMany ($needle, $haystack) {
+	$exists = array_search ($needle, $haystack);
+	if ($exists !== FALSE)
+		return 1 + howMany ($needle, array_slice ($haystack, ($exists + 1)));
+
+	return 0;
+}
+
+/*
 	Per dettagli sul formato del file accettato da OpenLayer.Layer.Text
 	http://dev.openlayers.org/apidocs/files/OpenLayers/Layer/Text-js.html
 */
@@ -58,9 +69,18 @@ foreach ($elenco_regioni as $region => $name) {
 
 				$xpath = new DOMXPath ($doc);
 
-				$results = $xpath->query ("/searchresults/place[@type='administrative']", $doc);
-				if ($results->length < 1)
-					continue;
+				/*
+					I risultati restituiti da Nominatim sono molteplici, e non sempre coerenti,
+					qui cerchiamo il riferimento esplicito alla citta' e alla peggio ci
+					accontentiamo di un riferimento ai confini amministrativi (non precisi, ma
+					meglio di niente)
+				*/
+				$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
+				if ($results->length < 1) {
+					$results = $xpath->query ("/searchresults/place[@type='administrative']", $doc);
+					if ($results->length < 1)
+						continue;
+				}
 
 				/*
 					Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
@@ -76,13 +96,11 @@ foreach ($elenco_regioni as $region => $name) {
 					trovati nella stessa citta' (e dunque alle stesse coordinate) vengono
 					arbitrariamente shiftati
 				*/
-				if (in_array ($city, $found_cities) == true) {
-					$lat = $lat + rand (-20000, 20000);
-					$lon = $lon + rand (-20000, 20000);
-				}
-				else {
-					$found_cities [] = $city;
-				}
+				$occurrences = howMany ($city, $found_cities);
+				if ($occurrences != 0)
+					$lon = $lon + (3000 * $occurrences);
+
+				$found_cities [] = $city;
 
 				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
 				$found = true;
