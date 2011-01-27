@@ -115,7 +115,7 @@
 			$(".activeTab", verticaltabs).removeClass("activeTab");
 			$('.arrow', verticaltabs).remove();
 			$(tabs[activeIndex], verticaltabs).addClass("activeTab").append(arrowBlock);	// Update tabs
-			$(".activeContent", verticaltabs).fadeOut(options.speed).removeClass(".activeContent");
+			$(".activeContent", verticaltabs).fadeOut(options.speed).removeClass("activeContent");
 			$(contents[activeIndex], verticaltabs).fadeIn(options.speed).addClass("activeContent"); // Update content
 
 			/* Correzione introdotta da Bob per dimensionare correttamente la preview del widget web in "progetti collaterali" */

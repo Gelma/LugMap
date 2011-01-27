@@ -129,7 +129,7 @@ require_once ('varie.php');
 			</ul>
 
 			<ul class="verticalslider_contents">
-				<li>
+				<li class="page">
 					<div id="map" class="smallmap"></div>
 				</li>
 
