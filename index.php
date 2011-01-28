@@ -367,6 +367,40 @@ require_once ('varie.php');
 									<a href="https://github.com/Gelma/LugMap/tree/lugmap.it/forge/map-generator/liste_comuni">qua</a>.
 								</p>
 							</fieldset>
+
+							<a name="ideas" />
+
+							<fieldset>
+								<legend>Altre Idee</legend>
+
+								<p>
+									Il summenzionato widget con le liste regionali di LUG andrebbe adattato sottoforma di moduli e
+									plugins Wordpress, Drupal ed altri CMS comuni presso i simpatizzanti per essere ancora più
+									facilmente utilizzato ed incluso nelle pagine web.
+								</p>
+
+								<p>
+									Volendo si potrebbero combinare il widget web con la mappa OpenStreetMap, e fare un nuovo
+									widget geografico che localizzi i LUG di una zona specifica. Di sicuro impatto per gli utenti
+									occasionali che si possono trovare online.
+								</p>
+
+								<p>
+									Sarebbe utile una sorta di LugBot, un semplice programmino da agganciare ad un hook sul
+									repository git e che provveda a spedire una notifica mail alla
+									<a href="http://lists.linux.it/listinfo/lug">lista LUG@ILS</a> quando viene aggiunto un nuovo
+									gruppo, immetta una notifica in <a href="http://identi.ca">identi.ca</a> su un canale dedicato
+									e cose del genere.
+								</p>
+
+								<p>
+									Utilissimo sarebbe un qualche script che parsi la homepage di
+									<a href="http://www.linuxday.it/">LinuxDay.it</a> ed individui riferimenti a LUG non ancora
+									contemplati nella LugMap. Nel 2010 moltissimi nuovi gruppi sono stati identificati in questo
+									modo, ma il controllo è stato effettuato a mano ed ha richiesto parecchio tempo ed impegno, se
+									si potesse automatizzare ci si risparmierebbe un sacco di fatica.
+								</p>
+							</fieldset>
 						</div>
 					</div>
 				</li>
