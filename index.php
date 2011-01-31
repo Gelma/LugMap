@@ -101,6 +101,34 @@ require_once ('varie.php');
 				map.addLayer(newl);
 
 				map.setCenter( lonLatToMercator(new OpenLayers.LonLat(12.483215,41.979911)),6);
+
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition (
+						function (position) {
+							var lon = position.coords.longitude * 20037508.34 / 180;
+							var lat = Math.log (Math.tan ((90 + position.coords.latitude) * Math.PI / 360)) / (Math.PI / 180);
+							lat = lat * 20037508.34 / 180;
+
+							var userLocation = new OpenLayers.Feature.Vector(
+								new OpenLayers.Geometry.Point(lon, lat), {},
+								{externalGraphic: 'http://lugmap.it/images/icon_user.png', graphicHeight: 19, graphicWidth: 16}
+							);
+							var vectorLayer = new OpenLayers.Layer.Vector("Overlay");
+							vectorLayer.addFeatures(userLocation);
+							map.addLayer(vectorLayer);
+						},
+
+						function (error) {
+							/* dummy */
+						},
+
+						{
+							timeout: (5 * 1000),
+							maximumAge: (1000 * 60 * 15),
+							enableHighAccuracy: true
+						}
+					);
+				}
 			}
 
 			$(document).ready(function(){
@@ -161,6 +189,8 @@ require_once ('varie.php');
 								<li><a href="http://umbria.lugmap.it/">Umbria</a></li>
 								<li><a href="http://valle.lugmap.it/">Valle d'Aosta</a></li>
 								<li><a href="http://veneto.lugmap.it/">Veneto</a></li>
+								<li>&nbsp;</li>
+								<li>&nbsp;</li>
 								<li>&nbsp;</li>
 								<li><a href="http://italia.lugmap.it/">Italia</a></li>
 							</ul>
