@@ -96,25 +96,22 @@ if __name__ == "__main__":
 	#		['TerminiPrecedenti'] = Set dei Termini delle pagine HTML
 
 	Debug = True
-	while True:
-		print 'Nuovo giro'
-		syslog.syslog(syslog.LOG_ERR, 'Spazzino: Nuovo giro')
 
-		archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
+	syslog.syslog(syslog.LOG_ERR, 'Spazzino: Nuovo giro')
 
-		for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
-			for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
-				url_completo = riga[3]
+	archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
 
-				responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
+	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
+		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
+			url_completo = riga[3]
+
+			responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
+			if responso is not True:
+				richiedi_controllo(responso)
+			else:
+				responso = controllo_contenuto()
 				if responso is not True:
 					richiedi_controllo(responso)
-				else:
-					responso = controllo_contenuto()
-					if responso is not True:
-						richiedi_controllo(responso)
 
-		archivio.sync()
-		archivio.close()
-		print 'Fine giro'
-		time.sleep(60 * 60 * 24)
+	archivio.sync()
+	archivio.close()
