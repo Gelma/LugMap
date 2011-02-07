@@ -85,6 +85,8 @@ def richiedi_controllo(errore):
 		sys.exit(-1)
 
 	testo = errore+'\n'+'\n'.join(riga)
+	testo = testo.replace("'",'')
+
 
 	if os.path.exists('/usr/bin/mail'):
 		echo_command = shlex.split('echo "'+testo+'"')
