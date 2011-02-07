@@ -3,6 +3,8 @@
 """Per ogni Lug indicato nella LugMap effettuo un insieme di controlli di validità.
    Se qualcosa non torna, avverto chi di dovere"""
 
+email_alert = 'andrea.gelmini@gmail.com'
+
 if True: # import dei moduli
 	try:
 		import ConfigParser, copy, csv, glob, os, shelve, shlex, socket, subprocess, sys, syslog, time, urllib
@@ -74,17 +76,22 @@ def controllo_contenuto():
 def richiedi_controllo(errore):
 	"""Ricevo un errore, e invio una mail di richiesta di controllo"""
 
-	email_alert = 'andrea.gelmini@gmail.com'
+	if type(errore) == tuple:
+		errore = '\n'.join(errore)
+	elif type(errore) == str:
+		pass
+	else:
+		print "Errore non castato correttamente, esco"
+		sys.exit(-1)
+
+	testo = errore+'\n'+'\n'.join(riga)
 
 	if os.path.exists('/usr/bin/mail'):
-		try:
-			echo_command = shlex.split("echo '"+'\n'.join([errore]+riga)+"'")
-		except:
-			echo_command = shlex.split("echo '"+errore+'\n'.join(riga)+"'")
+		echo_command = shlex.split("echo '"+testo+"'")
 		mail_command = shlex.split("mail -s 'LugMap check: %s' %s" % (riga[3], email_alert))
 		subprocess.Popen(mail_command, stdin=subprocess.Popen(echo_command, stdout=subprocess.PIPE).stdout, stdout=subprocess.PIPE).wait()
 
-	print errore, riga[3]
+	if Debug: print errore, riga[3]
 	syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+riga[3]+' '+errore)
 
 if __name__ == "__main__":
