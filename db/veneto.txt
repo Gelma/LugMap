@@ -9,6 +9,6 @@ Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|in
 Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
 Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
 Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
-Vicenza|AVi Lug|Provincia di Vicenza, Alto Vicentino|http://avilug.zapto.org/|dcavedon@gmail.com
+Vicenza|AVi Lug|Provincia di Vicenza, Alto Vicentino|http://avilug.linux.it/|dcavedon@gmail.com
 Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com
 Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
