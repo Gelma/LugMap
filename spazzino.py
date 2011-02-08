@@ -3,27 +3,26 @@
 """Per ogni Lug indicato nella LugMap effettuo un insieme di controlli di validità.
    Se qualcosa non torna, avverto chi di dovere"""
 
-email_alert = 'andrea.gelmini@gmail.com'
-
 if True: # import dei moduli
 	try:
-		import ConfigParser, copy, csv, glob, os, shelve, shlex, socket, subprocess, sys, syslog, time, urllib
+		import ConfigParser, copy, csv, glob, os, shelve, socket, sys, smtplib, syslog, time, urllib
 	except:
 		import sys
 		print "Errore nell'import dei moduli standard. Versione troppo vecchia dell'interprete?"
 		sys.exit(-1)
 
 def controllo_dominio_dns(url):
-	"""Ricevo un URL, estraggo il dominio, torno True se tutto torna. Diversamente emetto il messaggio da segnalare"""
+	"""Ricevo un URL, estraggo il dominio, torno True se tutto torna, diversamente False"""
 
 	url = url.split('/')[2] # estraggo solo il nome di dominio	# TODO: una regexp sarebbe più elegante
-	if Debug: print "controllo_dominio_dns: dominio estrapolato",url
+	if Debug: print "\t--->",url
 
 	try:
 		info_url = socket.getaddrinfo(url, 80, 0, 0, socket.SOL_TCP)
 	except:
 		if Debug: print "controllo_dominio_dns: socket.getaddrinfo fallito"
-		return "Errore: problema sul dominio (esistenza/mappatura)"
+		email_errori.aggiungi("Errore: problema sul dominio (esistenza/mappatura)")
+		return False
 
 	IP_nuovo = info_url[0][4][0] # Inizio controllo IP cambiato. Possono esserci dei falsi positivi in caso di round robin.
 	if Debug: print "controllo_dominio_dns: IP_nuovo", IP_nuovo
@@ -46,7 +45,9 @@ def controllo_dominio_dns(url):
 		archivio[url_completo]['IP'] = elenco_ip_dns
 		if Debug: print "controllo_dominio_dns: elenco IP storati", archivio[url_completo]['IP']
 		archivio.sync()
-		return 'Attenzione: cambiato IP del server (Vecchio: %s, Nuovo: %s, Storato: %s)' % (' - '.join(IP_vecchi), IP_nuovo, ' - '.join(elenco_ip_dns))
+		dettaglio = 'Attenzione: cambiato IP del server (Vecchio: %s, Nuovo: %s, Storato: %s)' % (' - '.join(IP_vecchi), IP_nuovo, ' - '.join(elenco_ip_dns))
+		email_errori.aggiungi(dettaglio)
+		return False
 
 def controllo_contenuto():
 	"""Leggo lo URL elaborato, estraggo la pagina, ne valuto la differenza rispetto alla lettura precedente. Torno True se tutto a posto."""
@@ -54,7 +55,8 @@ def controllo_contenuto():
 	try: # pesco la pagina
 		pagina_html = urllib.urlopen(url_completo).read()
 	except:
-		return 'Errore: impossibile leggere la pagina html.'
+		email_errori.aggiungi('Errore: impossibile leggere la pagina html.')
+		return False
 
 	Termini_Attuali = set(pagina_html.split()) # Estrapolo subito i termini presenti
 
@@ -69,36 +71,57 @@ def controllo_contenuto():
 
 	if Debug: print "controllo_contenuto: valore_magico = ",str(valore_magico)
 	if valore_magico <= 0.7:
-		return 'Errore: troppa differenza di contenuto:',str(valore_magico)
+		email_errori.aggiungi('Errore: troppa differenza di contenuto:'+str(valore_magico))
+		return False
 	else:
 		return True
 
-def richiedi_controllo(errore):
-	"""Ricevo un errore, e invio una mail di richiesta di controllo"""
+class email_report():
+	"""Prendo in pasto errori e li invio via SMTP"""
 
-	if type(errore) == tuple:
-		errore = '\n'.join(errore)
-	elif type(errore) == str:
-		pass
-	else:
-		print "Errore non castato correttamente, esco"
-		sys.exit(-1)
+	def __init__(self):
+		"""Definisco dettagli email"""
 
-	testo = errore+'\n'+'\n'.join(riga)
-	testo = testo.replace("'",'')
+		self.mittente = 'lugmapcheck@gelma.net'
+		self.destinatario = ['andrea.gelmini@gmail.com']
+		self.righe = []
+		self.subject = 'Lugmap:'
 
+	def aggiungi(self,testo):
+		"""ACcetto un argomento che metto nel corpo email"""
 
-	if os.path.exists('/usr/bin/mail'):
-		echo_command = shlex.split('echo "'+testo+'"')
-		mail_command = shlex.split("mail -s 'LugMap check: %s' %s" % (riga[3], email_alert))
-		subprocess.Popen(mail_command, stdin=subprocess.Popen(echo_command, stdout=subprocess.PIPE).stdout, stdout=subprocess.PIPE).wait()
+		if type(testo) == tuple or type(testo) == list:
+			[self.righe.append(riga) for riga in testo]
+		elif type(testo) == str:
+			self.righe.append(testo)
+		else:
+			try:
+				self.righe.append(str(testo))
+			except:
+				print "Il cast non ha funzionato"
+				# Raise exception
 
-	if Debug: print errore, riga[3]
-	syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+riga[3]+' '+errore)
+	def invia(self):
+		"""Effettuo l'invio vero e proprio"""
+
+		if not self.righe: return # Se non ho alcun testo di errore, non proseguo
+
+		if Debug:
+			print "invio questo testo",self.righe
+
+		msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (self.mittente, ", ".join(self.destinatario), self.subject))
+		msg = msg + '\n'.join(self.righe) + '\n' + '\n'.join(riga)
+		try:
+			server = smtplib.SMTP('localhost')
+			server.sendmail(self.mittente, self.destinatario, msg)
+			server.quit()
+		except:
+			print "Non è stato possibile inviare la mail"
+
+		if Debug: print self.subject,self.righe
+		syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+self.subject+' '+'  '.join(self.righe))
 
 if __name__ == "__main__":
-	#TODO: portare come demone
-	#      mettere parser per config
 	# La struttura dell'archivio è:
 	# dizionario archivio[url_completo come chiave]: dizionario
 	#		['IP'] = Set degli IP
@@ -106,21 +129,17 @@ if __name__ == "__main__":
 
 	Debug = True
 
-	syslog.syslog(syslog.LOG_ERR, 'Spazzino: Nuovo giro')
-
 	archivio = shelve.open(os.path.join(os.environ["HOME"], '.spazzino.db'), writeback=True) # Apro il db persistente
 
 	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
 			url_completo = riga[3]
 
-			responso = controllo_dominio_dns(url_completo) # inizio il ciclo di controlli
-			if responso is not True:
-				richiedi_controllo(responso)
-			else:
-				responso = controllo_contenuto()
-				if responso is not True:
-					richiedi_controllo(responso)
+			email_errori = email_report()
+			email_errori.subject = 'Lugmap: '+url_completo
 
+			if controllo_dominio_dns(url_completo): # controllo mappature
+				responso = controllo_contenuto() # se ok, controllo anche il contenuto
+			email_errori.invia()
 	archivio.sync()
 	archivio.close()
