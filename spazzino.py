@@ -37,7 +37,7 @@ class Lug(persistent.Persistent):
 	def controllo_dns(self):
 		"""Controllo l'esistenza e la mappatura del dominio"""
 
-		print "Controllo dominio",self.dominio
+		print "             ->Controllo dominio",self.dominio
 		try:
 			DNS_attuale = socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)[0][4][0]
 		except:
@@ -55,11 +55,14 @@ class Lug(persistent.Persistent):
 	def controllo_contenuto(self):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
+		print "                     inizio urllib"
 		try: # pesco la pagina
 			pagina_html = urllib.urlopen(self.url).read()
 		except:
 			self.email_errori.aggiungi('Errore: impossibile leggere la pagina html.')
 			return False
+
+		print "                     Fine urllib"
 
 		Termini_Attuali = set(pagina_html.split()) # Estrapolo i termini presenti
 		valore_magico = \
@@ -106,9 +109,6 @@ class email_report():
 
 		if not self.righe: return # Se non ho alcun testo di errore, non proseguo
 
-		if Debug:
-			print "invio questo testo",self.righe
-
 		msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (self.mittente, ", ".join(self.destinatario), self.subject))
 		msg = msg + '\n'.join(self.righe) + '\n' + '\n'.join(riga)
 		try:
@@ -118,15 +118,20 @@ class email_report():
 		except:
 			print "Non è stato possibile inviare la mail"
 
-		if Debug: print self.subject,self.righe
 		syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+self.subject+' '+'  '.join(self.righe))
 
 
 if __name__ == "__main__":
 	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
-			lug = Lug(riga[3]) # Creo l'istanza passandogli l'url completo
-			if lug.controllo_dns():
-				print "DNs ok"
+			url = riga[3]
+			if pdb.has_key(url): # se è gia' presente nel DB
+				lug = pdb[url] # la recupero
 			else:
-				print "scazzo dns"
+				lug = Lug(url) # diversamente creo la classe
+				pdb[url] = lug # e la lego al DB
+			lug.controllo_dns()
+			lug.controllo_contenuto()
+			transaction.commit()
+			lug.invia_report()
+db.close()
