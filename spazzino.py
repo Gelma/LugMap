@@ -5,7 +5,7 @@
 
 if True: # import dei moduli
 	try:
-		import copy, csv, glob, os, shelve, socket, sys, smtplib, syslog, urllib
+		import csv, glob, os, socket, sys, smtplib, syslog, urllib
 	except:
 		import sys
 		print "Non sono disponibili tutti i moduli standard necessari."
