@@ -30,6 +30,8 @@ class Lug(persistent.Persistent):
 		self.dominio = url_del_lug.split('/')[2]
 		self.Termini_Precedenti = set()
 		self.DNS_noti = set()
+		self.numero_controlli = 0
+		self.numero_errori = 0
 
 	def reset_iniziale(self):
 		self.email_errori = email_report()
@@ -37,19 +39,24 @@ class Lug(persistent.Persistent):
 	def controllo_dns(self):
 		"""Controllo l'esistenza e la mappatura del dominio"""
 
-		print "             ->Controllo dominio",self.dominio
+		print "Controllo dominio",self.dominio
+		try: # elimina una volta eseguito la prima volta
+			self.numero_controlli += 1
+		except:
+			self.numero_controlli = 0
+			self.numero_errori = 0
 		try:
 			DNS_attuale = socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)[0][4][0]
 		except:
-			print "socket.getaddrinfo fallito"
 			self.email_errori.aggiungi("Errore: problema sul dominio (esistenza/mappatura)")
+			self.numero_errori += 1
 			return False
 
 		if DNS_attuale not in self.DNS_noti:
 			dettaglio = 'Attenzione: nuovo IP %s (%s)' % (DNS_attuale,' '.join(self.DNS_noti))
-			print dettaglio
 			self.DNS_noti.add(DNS_attuale)
 			self.email_errori.aggiungi(dettaglio)
+			self.numero_errori += 1
 			return False
 
 	def controllo_contenuto(self):
@@ -59,6 +66,7 @@ class Lug(persistent.Persistent):
 			pagina_html = urllib2.urlopen(self.url).read()
 		except:
 			self.email_errori.aggiungi('Errore: impossibile leggere la pagina html.')
+			self.numero_errori += 1
 			return False
 
 		Termini_Attuali = set(pagina_html.split()) # Estrapolo i termini presenti
@@ -66,9 +74,9 @@ class Lug(persistent.Persistent):
 		  float(len(self.Termini_Precedenti.intersection(Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(Termini_Attuali)))
 		self.Termini_Precedenti = Termini_Attuali
 
-		print "controllo_contenuto: valore_magico = ",str(valore_magico)
 		if valore_magico <= 0.7:
 			self.email_errori.aggiungi('Errore: troppa differenza di contenuto:'+str(valore_magico))
+			self.numero_errori += 1
 			return False
 
 	def invia_report(self):
@@ -130,4 +138,5 @@ if __name__ == "__main__":
 			lug.controllo_contenuto()
 			transaction.commit()
 			lug.invia_report()
+db.pack()
 db.close()
