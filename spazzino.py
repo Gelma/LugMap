@@ -75,7 +75,6 @@ class Lug(persistent.Persistent):
 		self.email_errori.subject = 'LugMap: '+self.url
 		self.email_errori.invia()
 
-
 class email_report():
 	"""Prendo in pasto errori e li invio via SMTP"""
 
