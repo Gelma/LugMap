@@ -5,10 +5,10 @@
 
 if True: # import dei moduli
 	try:
-		import ConfigParser, copy, csv, glob, os, shelve, socket, sys, smtplib, syslog, time, urllib
+		import copy, csv, glob, os, shelve, socket, sys, smtplib, syslog, urllib
 	except:
 		import sys
-		print "Errore nell'import dei moduli standard. Versione troppo vecchia dell'interprete?"
+		print "Non sono disponibili tutti i moduli necessari."
 		sys.exit(-1)
 
 def controllo_dominio_dns(url):
