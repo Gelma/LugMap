@@ -5,7 +5,7 @@
 
 if True: # import dei moduli
 	try:
-		import csv, glob, os, socket, sys, smtplib, syslog, urllib
+		import csv, glob, os, socket, sys, smtplib, syslog, urllib2
 	except:
 		import sys
 		print "Non sono disponibili tutti i moduli standard necessari."
@@ -55,14 +55,11 @@ class Lug(persistent.Persistent):
 	def controllo_contenuto(self):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
-		print "                     inizio urllib"
 		try: # pesco la pagina
-			pagina_html = urllib.urlopen(self.url).read()
+			pagina_html = urllib2.urlopen(self.url).read()
 		except:
 			self.email_errori.aggiungi('Errore: impossibile leggere la pagina html.')
 			return False
-
-		print "                     Fine urllib"
 
 		Termini_Attuali = set(pagina_html.split()) # Estrapolo i termini presenti
 		valore_magico = \
