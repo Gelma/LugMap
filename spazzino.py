@@ -63,7 +63,8 @@ class Lug(persistent.Persistent):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
 		try: # pesco la pagina
-			pagina_html = urllib2.urlopen(self.url).read()
+			richiesta = urllib2.Request(self.url,None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
+			pagina_html = urllib2.urlopen(richiesta).read()
 		except:
 			self.email_errori.aggiungi('Errore: impossibile leggere la pagina html.')
 			self.numero_errori += 1
