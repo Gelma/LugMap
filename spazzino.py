@@ -32,6 +32,7 @@ class Lug(persistent.Persistent):
 		self.DNS_noti = set()
 		self.numero_controlli = 0
 		self.numero_errori = 0
+		socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (vedi urllib2)
 
 	def controllo_dns(self):
 		"""Controllo l'esistenza e la mappatura del dominio"""
