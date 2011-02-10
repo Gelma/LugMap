@@ -26,29 +26,22 @@ if True: # attiva DB
 class Lug(persistent.Persistent):
 	def __init__(self, url_del_lug):
 		self.url = url_del_lug
-		self.reset_iniziale()
+		self.email_errori = email_report()
 		self.dominio = url_del_lug.split('/')[2]
 		self.Termini_Precedenti = set()
 		self.DNS_noti = set()
 		self.numero_controlli = 0
 		self.numero_errori = 0
 
-	def reset_iniziale(self):
-		self.email_errori = email_report()
-
 	def controllo_dns(self):
 		"""Controllo l'esistenza e la mappatura del dominio"""
 
 		print "Controllo dominio",self.dominio
-		try: # elimina una volta eseguito la prima volta
-			self.numero_controlli += 1
-		except:
-			self.numero_controlli = 0
-			self.numero_errori = 0
+		self.numero_controlli += 1
 		try:
 			DNS_attuale = socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)[0][4][0]
 		except:
-			self.email_errori.aggiungi("Errore: problema sul dominio (esistenza/mappatura)")
+			self.email_errori.aggiungi("      Errore: problema sul dominio (esistenza/mappatura)")
 			self.numero_errori += 1
 			return False
 
@@ -58,6 +51,7 @@ class Lug(persistent.Persistent):
 			self.email_errori.aggiungi(dettaglio)
 			self.numero_errori += 1
 			return False
+		return True
 
 	def controllo_contenuto(self):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
@@ -66,23 +60,26 @@ class Lug(persistent.Persistent):
 			richiesta = urllib2.Request(self.url,None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
 			pagina_html = urllib2.urlopen(richiesta).read()
 		except:
-			self.email_errori.aggiungi('Errore: impossibile leggere la pagina html.')
+			self.email_errori.aggiungi('       Errore: impossibile leggere la pagina html.')
 			self.numero_errori += 1
 			return False
 
-		Termini_Attuali = set(pagina_html.split()) # Estrapolo i termini presenti
+		self.Termini_Attuali = set(pagina_html.split()) # Estrapolo i termini presenti
 		valore_magico = \
-		  float(len(self.Termini_Precedenti.intersection(Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(Termini_Attuali)))
-		self.Termini_Precedenti = Termini_Attuali
+		  float(len(self.Termini_Precedenti.intersection(self.Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(self.Termini_Attuali)))
+		self.Termini_Precedenti = self.Termini_Attuali
+		del self.Termini_Attuali
 
 		if valore_magico <= 0.7:
-			self.email_errori.aggiungi('Errore: troppa differenza di contenuto:'+str(valore_magico))
+			self.email_errori.aggiungi('      Errore: troppa differenza di contenuto:' +str(valore_magico))
 			self.numero_errori += 1
 			return False
 
 	def invia_report(self):
 		self.email_errori.subject = 'LugMap: '+self.url
 		self.email_errori.invia()
+		del self.email_errori
+		self.email_errori = email_report()
 
 class email_report():
 	"""Prendo in pasto errori e li invio via SMTP"""
@@ -114,17 +111,19 @@ class email_report():
 
 		if not self.righe: return # Se non ho alcun testo di errore, non proseguo
 
-		msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (self.mittente, ", ".join(self.destinatario), self.subject))
-		msg = msg + '\n'.join(self.righe) + '\n' + '\n'.join(riga)
-		try:
-			server = smtplib.SMTP('localhost')
-			server.sendmail(self.mittente, self.destinatario, msg)
-			server.quit()
-		except:
-			print "Non è stato possibile inviare la mail"
+		self.msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (self.mittente, ", ".join(self.destinatario), self.subject))
+		self.msg = self.msg + '\n'.join(self.righe) + '\n' + '\n'.join(riga)
+		if False: # abilita/disabilita invio della mail, in luogo del report a video
+			print 30*'-'+'\n'+self.msg+'\n'+30*'-'
+		else:
+			try:
+				server = smtplib.SMTP('localhost')
+				server.sendmail(self.mittente, self.destinatario, self.msg)
+				server.quit()
+			except:
+				print "Non è stato possibile inviare la mail"
 
-		syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+self.subject+' '+'  '.join(self.righe))
-
+			syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+self.subject+' '+'  '.join(self.righe))
 
 if __name__ == "__main__":
 	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
@@ -135,9 +134,9 @@ if __name__ == "__main__":
 			else:
 				lug = Lug(url) # diversamente creo la classe
 				pdb[url] = lug # e la lego al DB
-			lug.controllo_dns()
-			lug.controllo_contenuto()
-			transaction.commit()
+			if lug.controllo_dns():
+				lug.controllo_contenuto()
 			lug.invia_report()
+transaction.commit()
 db.pack()
 db.close()
