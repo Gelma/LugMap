@@ -65,7 +65,7 @@ class Lug(persistent.Persistent):
 			self.numero_errori += 1
 			return False
 
-		self.Termini_Attuali = set(pagina_html.split()) # Estrapolo i termini presenti
+		self.Termini_Attuali = set(pagina_html.split()) # Estrapolo le parole della pagina HTML
 		valore_magico = \
 		  float(len(self.Termini_Precedenti.intersection(self.Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(self.Termini_Attuali)))
 		self.Termini_Precedenti = self.Termini_Attuali
