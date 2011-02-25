@@ -1,32 +1,34 @@
 == LugMap de che? ==
 L'elenco dei LugMap è storicamente presente a questo indirizzo:
-http://www.linux.it/LUG/
+http://www.linux.it/LUG
+La stessa base dati viene utilizzata anche per aggiornare:
+http://lugmap.it
 
 == E 'sto elenco su GitHub che è? ==
 Si tratta di un modo rozzo, ma efficace, per mantenere aggiornata
-la lista di cui sopra.
+la lista dei LUG italiani di cui sopra.
 
 == Come posso collaborare? ==
-Qualsiasi aggiunta/correzione/rimozione può essere segnalata
-scrivendo a lugmap@linux.it, oppure contattando Andrea Gelmini
-al numero 328/7296628.
+Chiunque è invitato a:
+a) scrivere a lugmap@linux.it, oppure contattare Andrea Gelmini
+   (andrea.gelmini@gmail.com - 328/7296628), per segnalare
+   aggiunte/correzioni/rimozioni
+b) iscriversi alla mailing list relativa:
+   http://lists.linux.it/listinfo/lugmap
+c) accedere al repository github del progetto:
+   https://github.com/Gelma/LugMap
 
 == Obiettivi ===
 a) fornire agli interessati le informazioni *essenziali* per
    il raggiungimento dei Lug eventualmente vicini
 b) fornire ai Lug la possibilita' di aggiornare facilmente
-   i dati stessi (numero di telefono e email in primis, ma fornendo
-   anche l'accesso github)
+   i dati stessi
 
 == Obiettivi tecnici===
-a) aggiornare i dati esistenti (in particolare eliminado gli errori
-   gia' individuati)
-b) rendere agevolmente fruibile il tutto (fare in modo che il Dalla
-   debba solo fare un "git pull", senza cozzare con l'infrastruttura
-   pre-esistente)
-c) poter aggiornare i dati agevolmente, mantenendo traccia delle
-   modifiche (un file di testo per ogni regione in RCS), e in modo
-   distribuito
+a) mantenere aggiornati i dati esistenti (anche grazie a procedure
+   automatiche come spazzino.py)
+b) rendere agevolmente fruibile e pubblicabile il tutto
+c) poter mantenere traccia delle modifiche nel tempo
 d) mantenere la struttura delle informazioni (in modo da non rovinare
    eventuali link esterni e/o indicizzazioni)
 
@@ -34,7 +36,17 @@ d) mantenere la struttura delle informazioni (in modo da non rovinare
 Per ogni critica, una proposta propositiva. Astenersi perditempo.
 
 == Note per gli sviluppatori ==
-I dati sono contenuti in file CSV discriminati per regione.
+
+= Struttura del repository su GitHub ==
+Guardando ai vari branch:
+master: contiene solo i dati del database (directory db/)
+        e gli strumenti/informazioni non specifiche sui singoli branch.
+lugmap.it: contiene i file per la pubblicazione sul sito omonimo.
+lugmap.linux.it: contiene i file per la pubblicazione sul sito omonimo.
+Nota: entrambi i branch pescano dal master per fare il merge del db.
+
+= Struttura dei file del db ==
+I dati sono contenuti in file CSV discriminati per regione, con qualche eccezione.
 Il separatore è il simbolo di pipe (|).
 I campi sono:
 I) Provincia
