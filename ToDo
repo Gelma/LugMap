@@ -1,3 +1,16 @@
 Ricontrollare:
 http://www.messinalug.org/
 http://www.pescaralug.org/
+
+== Struttura Git ==
+
+Modifiche ai file presenti in Master, ma eliminati nei branch (come il caso del README),
+possono portare al seguente errore in fase di merge con un
+git pull . master
+
+From .
+ * branch            master     -> FETCH_HEAD
+CONFLICT (delete/modify): README deleted in HEAD and modified in d021f301470c59b6568a63582e40ca60e16252b2. Version d021f301470c59b6568a63582e40ca60e16252b2 of README left in tree.
+Automatic merge failed; fix conflicts and then commit the result.
+
+Valutare se sia possibile fare ignorare del tutto, detti file, a Git.
