@@ -1,3 +1,3 @@
-Sassari|Plugs|Nord della Sardegna|http://www.plugs.it/|info@plugs.it
-Cagliari|GULCh|Provincia di Cagliari|http://www.gulch.crs4.it/|info@gulch.it
+Sassari|Plugs|Sassari e provincia|http://www.plugs.it/|info@plugs.it
+Cagliari|GULCh|Provincia di Cagliari|http://www.gulch.it/|info@gulch.it
 Oristano|GNUraghe|Oristano e provincia|http://www.gnuraghe.org/|giulio.orru@gmail.com

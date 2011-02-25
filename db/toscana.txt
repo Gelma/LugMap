@@ -3,11 +3,11 @@ Firenze|Flug|Firenze|http://www.firenze.linux.it/|info@firenze.linux.it
 Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|info@grolug.org
 Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|info@guruatwork.com
 Livorno|GuIP!|Piombino e dintorni|http://gulp.perlmonk.org/|alemelo@eml.cc
-Livorno|Gulli|Livorno e provincia|http://www.livorno.linux.it/|info@gullix.org
+Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|info@gullix.org
 Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://www.lug-acros.org/|segreteria@lug-acros.org
 Lucca|Lucca Lug|Lucca|http://luccalug.it/|info@luccalug.it
 Pisa|Gulp|Pisa|http://www.gulp.linux.it/|gulp@gulp.linux.it
 Pistoia|PtLug|Pistoia|http://www.ptlug.org/|
 Prato|Plug|Prato|http://www.prato.linux.it/|info@prato.linux.it
-Siena - Firenze|ElsaGLUG|Valdelsa|http://www.elsaglug.org/|
+Siena - Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|
 Siena|SLUG|Siena e provincia|http://www.siena.linux.it/|webmaster@siena.linux.it

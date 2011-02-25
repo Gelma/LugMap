@@ -1,6 +1,6 @@
 Genova|Genuense Lug|Genova e d'intorni|http://genova.linux.it/
 Genova|LugGe|Genova e provincia|http://www.lugge.net/|info@lugge.net
 Genova|GinLug|Genova Sampierdarena|http://www.sennaweb.org|enzo@sennaweb.org
-Genova|TLug-TSL|Tigullio Ligure|http://tlug.linux.it/|fabio.rampoldi@linux.it
+Genova|TLug-TSL|Chiavari, Tigullio Ligure|http://tlug.linux.it/|fabio.rampoldi@linux.it
 Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/|info@govonis.org
 Savona|SavonaLug|Savona|http://savona.linux.it/
