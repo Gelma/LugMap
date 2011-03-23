@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH_SITO=''
+PATH_SITO='.'
 
 fallito_aggiornamento() {
 	# segnalo via mail problemi sull'aggiornamento, se possibile
