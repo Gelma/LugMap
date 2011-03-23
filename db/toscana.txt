@@ -1,5 +1,6 @@
 Empoli|GOLEM|Empoli|http://golem.linux.it/|golem@golem.linux.it
 Firenze|Flug|Firenze|http://www.firenze.linux.it/|info@firenze.linux.it
+Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|info@liberainformatica.it
 Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|info@grolug.org
 Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|info@guruatwork.com
 Livorno|GuIP!|Piombino e dintorni|http://gulp.perlmonk.org/|alemelo@eml.cc
