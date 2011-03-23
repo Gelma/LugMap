@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PATH_SITO=''
+
 fallito_aggiornamento() {
 	# segnalo via mail problemi sull'aggiornamento, se possibile
 	[ -e /usr/sbin/sendmail ] && echo "Problema aggiornamento git-pull lugmap.linux.it" | /usr/sbin/sendmail -s "LugMap.linux.it: errore git-pull" lugmap@lists.linux.it
@@ -8,5 +10,5 @@ fallito_aggiornamento() {
 	exit
 }
 
-cd $PATH || fallito_aggiornamento
+cd $PATH_SITO || fallito_aggiornamento
 /usr/bin/git pull -q git@github.com:Gelma/LugMap.git lugmap.linux.it || fallito_aggiornamento
