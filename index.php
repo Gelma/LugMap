@@ -424,6 +424,13 @@ require_once ('varie.php');
 								</p>
 
 								<p>
+									Un altro possibile bot sarebbe quello che periodicamente allinei i contenuti del database con la
+									<a href="http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani">pagina Wikipedia</a> dedicata ai
+									LUG italiani, sia in uscita (aggiornando le informazioni contenute sul base dati locale) che in
+									entrata (verificando se qualcuno ha apportato modifiche a Wikipedia, ed includendole).
+								</p>
+
+								<p>
 									Utilissimo sarebbe un qualche script che parsi la homepage di
 									<a href="http://www.linuxday.it/">LinuxDay.it</a> ed individui riferimenti a LUG non ancora
 									contemplati nella LugMap. Nel 2010 moltissimi nuovi gruppi sono stati identificati in questo
