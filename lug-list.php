@@ -7,7 +7,7 @@ if ( isset($_REQUEST["reg"]) && array_key_exists( $_REQUEST["reg"], $elenco_regi
 	$regione = $elenco_regioni[$_REQUEST["reg"]];
 	$db_file = $_REQUEST["reg"];
 }else{
-	header("location: http://www.linux.it/LUG/");
+	header("location: http://lugmap.linux.it/");
 }
 
 $db_regione = file('./db/'.$db_file.'.txt');
