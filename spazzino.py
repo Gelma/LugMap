@@ -71,7 +71,7 @@ class Lug(persistent.Persistent):
 		self.Termini_Precedenti = self.Termini_Attuali
 		del self.Termini_Attuali
 
-		if valore_magico <= 0.7:
+		if valore_magico <= 0.6:
 			self.email_errori.aggiungi('      Errore: troppa differenza di contenuto:' +str(valore_magico))
 			self.numero_errori += 1
 			return False
