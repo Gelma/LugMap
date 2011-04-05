@@ -3,8 +3,8 @@ Ancona|Lug-Jesi|Jesi|http://www.lugjesi.net/|
 Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/|info@ pdp.linux.it
 Ancona|SenaLUG|Senigallia|http://www.senalug.org/|info@senalug.org
 Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|info@linuxfm.org
-Macerata|CMlug|Civitanova Marche e dintorni|http://www.cmlug.org/
+Macerata|CMlug|Civitanova Marche e dintorni|http://www.cmlug.org/|
 Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it|associazione@gruppolinuxmc.it
 Macerata|Camelug|Camerino|http://camelug.it|ryuw@camelug.it
-Pesaro-Urbino|Urbino-LUG|Urbino e Montefeltro|http://urbino-lug.tumblr.com/
-Pesaro-Urbino|Fortunae Lug|Fano e dintorni|http://www.fanolug.org
+Pesaro-Urbino|Urbino-LUG|Urbino e Montefeltro|http://urbino-lug.tumblr.com/|
+Pesaro-Urbino|Fortunae Lug|Fano e dintorni|http://www.fanolug.org|
