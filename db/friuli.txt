@@ -3,4 +3,4 @@ Pordenone|Lug Pordenone|Pordenone|http://www.pordenone.linux.it/|info@pordenone.
 Trieste|Lug Trieste|Trieste|http://trieste.linux.it/|info@trieste.linux.it
 Udine|IGLU|Udine|http://iglu.cc.uniud.it/|direttivo@iglu.cc.uniud.it
 Udine|Lug ALP|Aquileia|http://www.alproject.org/|info@alproject.org
-Udine|CarniaLUG|Tolmezzo, Carnia|http:/carnialug.net/|manuel.cacitti@gmail.com
+Udine|CarniaLUG|Tolmezzo, Carnia|http://carnialug.net/|manuel.cacitti@gmail.com
