@@ -21,7 +21,9 @@ def invia_mail(righe_email):
 
     msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (mittente, ", ".join(destinatario), subject))
     msg = msg + '\n'.join(righe_email) + '\nhttp://it.wikipedia.org/wiki/Lista_dei_LUG_italiani' + '\n\n'
+    msg = msg.encode('iso-8859-1')
 
+    import smtplib
     server = smtplib.SMTP('localhost')
     server.sendmail(mittente, destinatario, msg)
     server.quit()
