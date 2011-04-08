@@ -16,7 +16,7 @@ def invia_mail(righe_email):
     if not righe_email: return # Se non ho alcun testo mi fermo
 
     mittente     =  "WiMegera <wimegera@gelma.net>"
-    destinatario = ["Test <test@gelma.net>"]
+    destinatario = ["LugMap <lugmap@lists.linux.it>"]
     subject      =  "WiMegera: aggiornamenti Lug su Wikipedia"
 
     msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (mittente, ", ".join(destinatario), subject))
