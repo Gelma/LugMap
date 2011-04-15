@@ -352,8 +352,7 @@ require_once ('varie.php');
 								<p>
 									Il generatore <a href="http://www.opml.org/">OPML</a> della LugMap permette di ricostruire la lista dei feeds
 									<a href="http://it.wikipedia.org/wiki/Really_simple_syndication">RSS</a> dei siti dei LUG indicizzati nella mappa.
-									Esso ispeziona i vari files delle regioni, per ogni URL indicato scarica l'HTML della homepage del sito e verifica
-									l'esistenza del tag <i>&lt;link rel="alternate"&gt;</i> abitualmente utilizzato per l'auto-discovery.
+									Si appoggi alla libreria <a href="http://simplepie.org/">SimplePie</a> per identificare e validare i feeds recuperati.
 								</p>
 
 								<p>

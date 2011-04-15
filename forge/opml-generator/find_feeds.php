@@ -1,5 +1,9 @@
 <?php
 
+// Richiede SimplePie!
+// http://simplepie.org/
+include_once ('/usr/share/php/simplepie/simplepie.inc');
+
 $elenco_regioni = array (
 	"abruzzo"    => "Abruzzo",
 	"basilicata" => "Basilicata",
@@ -31,41 +35,24 @@ foreach ($elenco_regioni as $region => $name) {
 
 	foreach ($lugs as $lug) {
 		list ($prov, $name, $zone, $site) = explode ('|', $lug);
-		$contents = file_get_contents ($site);
-		if ($contents == false)
+
+		$parser = new SimplePie ();
+		$parser->set_feed_url ($site);
+		$parser->init ();
+		$parser->handle_content_type ();
+		if ($parser->error ())
 			continue;
 
-		$doc = new DOMDocument ();
-		$doc->recover = true;
-		$doc->preserveWhiteSpace = false;
-		@$doc->loadHTML ($contents);
-
-		$links = $doc->getElementsByTagName ('link');
-		$feed = null;
-
-		for ($i = 0; $i < $links->length; $i++) {
-			$node = $links->item ($i);
-
-			if ($node->hasAttribute ('rel') && $node->getAttribute ('rel') == 'alternate' && $node->hasAttribute ('href')) {
-				$feed = $node->getAttribute ('href');
-				if ($feed [0] == '/')
-					$feed = $site . $feed;
-
-				break;
-			}
-		}
-
-		if ($feed != null) {
-			$obj = new stdClass ();
-			$obj->name = $name;
-			$obj->feed = $feed;
-			$feeds [] = $obj;
-		}
+		$obj = new stdClass ();
+		$obj->name = $name;
+		$obj->feed = $parser->subscribe_url ();
+		$feeds [] = $obj;
 	}
 }
 
+echo '<?xml version="1.0" encoding="ISO-8859-1"?>';
+
 ?>
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <opml version="1.0">
 	<head>
 	</head>
