@@ -366,7 +366,35 @@ require_once ('varie.php');
 								</p>
 
 								<p>
+									Viene eseguito una volta alla settimana su questo server, e la lista di feeds aggiornata e' reperibile
+									<a href="http://lugmap.it/lugs.opml">qui</a>.
+								</p>
+
+								<p>
 									<a href="http://github.com/Gelma/LugMap/blob/lugmap.it/forge/opml-generator/find_feeds.php">Scarica lo script qui!</a>
+								</p>
+							</fieldset>
+
+							<a name="aggregator" />
+
+							<fieldset>
+								<legend>Aggregatore di feeds</legend>
+
+								<p>
+									L'aggregatore di feeds fa quello che ci si puo' aspettare che faccia: prende come parametro un file OPML (come
+									quello generato dall'apposito script), pesca tutte le news che trovi nei vari feeds RSS, e li mette in un
+									semplicissimo database <a href="http://www.sqlite.org/">SQLite</a>. Tali informazioni potranno poi essere
+									utilizzate per la presentazione online (per mezzo di un possibile futuro
+									"<a href="http://www.planetplanet.org/">planet</a> fatto in casa") o per scopi piu' articolati.
+								</p>
+
+								<p>
+									Lo script è in PHP, e può essere lanciato dalla linea di comando con <i>php feeds-aggregator.php &lt;file OPML&gt;</i>.
+									Va a popolare un database chiamato <i>notices.db</i>, se non viene trovato viene automaticamente generato.
+								</p>
+
+								<p>
+									<a href="http://github.com/Gelma/LugMap/blob/lugmap.it/forge/opml-to-sql/feeds-aggregator.php">Scarica lo script qui!</a>
 								</p>
 							</fieldset>
 
