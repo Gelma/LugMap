@@ -1,4 +1,5 @@
 Arezzo|IPIOS|Bibbiena|http://www.ipios.org/|LinuxPro n.105 Giugno 2011
+Arezzo|Viva Linux Casentino|Bibbiena e valle del Casentino|http://www.facebook.com/group.php?gid=52271316371|
 Empoli|GOLEM|Empoli|http://golem.linux.it/|golem@golem.linux.it
 Firenze|Flug|Firenze|http://www.firenze.linux.it/|info@firenze.linux.it
 Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|info@liberainformatica.it
