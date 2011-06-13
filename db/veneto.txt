@@ -11,4 +11,5 @@ Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.
 Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
 Vicenza|AVi Lug|Provincia di Vicenza, Alto Vicentino|http://avilug.linux.it/|dcavedon@gmail.com
 Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com
+Vicenza|GrappaLUG|Bassano del Grappa|http://www.grappalug.org|mauro.dallacosta@gmail.com
 Vicenza|Lug Vicenza|Bassano del Grappa, Vicenza e provincia|http://www.vicenza.linux.it/|info@vicenza.linux.it
