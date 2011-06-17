@@ -61,7 +61,7 @@
 \begin_body
 
 \begin_layout Title
-Progetto LugMan
+Guida intergalattica alla LugMap.Linux.IT
 \end_layout
 
 \begin_layout Author
@@ -81,6 +81,42 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Chapter*
+Work in progress
+\end_layout
+
+\begin_layout Standard
+Il contenuto di queste pagine non ha alcun valore.
+ Deve ancora:
+\end_layout
+
+\begin_layout Itemize
+essere completato
+\end_layout
+
+\begin_layout Itemize
+essere visionato e approvato dal direttivo di ILS
+\end_layout
+
+\begin_layout Itemize
+essere corretto
+\end_layout
+
+\begin_layout Itemize
+in particolare si vuole che questa guida sia sufficiente per permettere
+ a chiunque di prendere in mano la completa gestione della LugMap in qualsiasi
+ momento
+\end_layout
+
+\begin_layout Standard
+Chiunque è invitato a collaborare mandando osservazioni, correzioni, integrazion
+i, obiezioni ad Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628).
+\end_layout
+
+\begin_layout Standard
+Un grazie sentito a chiunque dia una mano.
+\end_layout
+
 \begin_layout Chapter
 Il progetto LugMap
 \end_layout
@@ -90,17 +126,186 @@ Presentazione
 \end_layout
 
 \begin_layout Standard
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
- Lorem Ipsum has been the industry's standard dummy text ever since the
- 1500s, when an unknown printer took a galley of type and scrambled it to
- make a type specimen book.
- It has survived not only five centuries, but also the leap into electronic
- typesetting, remaining essentially unchanged.
- It was popularised in the 1960s with the release of Letraset sheets containing
- Lorem Ipsum passages, and more recently with desktop publishing software
- like Aldus PageMaker including versions of Lorem Ipsum.
+Il fine ultimo della LugMap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://lugmap.linux.it
 \end_layout
 
+\end_inset
+
+ è di fornire un comodo strumento per mettere in contatto persone, e realtà,
+ interessate alla diffusione del sistema operativo Linux, quale punta di
+ diamante del Software Libero.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.gnu.org/philosophy/free-sw.it.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quindi, partendo da questo presupposto, risulta più facile definire cosa
+ 
+\series bold
+non sia
+\series default
+ la LugMap:
+\end_layout
+
+\begin_layout Itemize
+non è una classifica di gruppi buoni e gruppi cattivi;
+\end_layout
+
+\begin_layout Itemize
+non è una classifica di gruppi bravi, e meno bravi;
+\end_layout
+
+\begin_layout Itemize
+non è una classifica di chi fa più, e chi meno.
+\end_layout
+
+\begin_layout Standard
+I principali destinatari della stessa sono, pertanto, i neofiti alla ricerca
+ di un aiuto concreto nel loro avvicinamento al mondo dell'informatica libera.
+ Questi possono ivi trovare, principalmente ma non esclusivamente, realtà
+ (togliere ripetizione) come:
+\end_layout
+
+\begin_layout Description
+LUG: Linux User Group ovvero 
+\emph on
+Gruppi di Utenti Linux
+\end_layout
+
+\begin_layout Description
+FSUG: Free Software User Group ovvero 
+\emph on
+Gruppi di Utenti di Software Libero
+\end_layout
+
+\begin_layout Section
+Pubblicazione delle informazioni
+\end_layout
+
+\begin_layout Standard
+I dati che compongono la LugMap sono comodamente visualizzabili a questi
+ due indirizzi:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\shape smallcaps
+http://lugmap.linux.it
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\shape smallcaps
+http://lugmap.it
+\end_layout
+
+\begin_layout Standard
+e liberamente accessibili in formato grezzo, così come tutto il codice dei
+ siti indicati, dal repository GitHub
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://github.com/Gelma/LugMap
+\end_layout
+
+\end_inset
+
+ presente all'indirizzo:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+https://github.com/Gelma/LugMap
+\end_layout
+
+\begin_layout Section
+Contatti
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Per entrare in contatto con i gestori della LugMap si può:
+\end_layout
+
+\begin_layout Itemize
+scrivere alla relativa mailing list pubblica,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+\shape smallcaps
+http://lists.linux.it/listinfo/lugmap
+\end_layout
+
+\begin_layout Plain Layout
+Si badi che pubblica ne implica l'indicizzazione da parte dei motori di
+ ricerca, e l'accesso urbi et orbi dei messaggi a tutti, anche in futuro
+\end_layout
+
+\end_inset
+
+ mandando una mail a: 
+\family typewriter
+\shape smallcaps
+lugmap@linux.it
+\end_layout
+
+\begin_layout Itemize
+contattare personalmente:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Andrea Gelmini: scrivendo a 
+\family typewriter
+\shape smallcaps
+andrea.gelmini@lugbs.linux.it
+\family default
+\shape default
+ oppure telefonando al 
+\family typewriter
+328/7296628
+\end_layout
+
+\begin_layout Itemize
+Roberto Guido: scrivendo a 
+\family typewriter
+\shape smallcaps
+roberto-dammi-l'email-che-vuoi-qui
+\end_layout
+
+\end_deeper
 \begin_layout Chapter
 Indicazioni per gli utenti
 \end_layout
@@ -110,35 +315,515 @@ Come richiedere l'inserimento
 \end_layout
 
 \begin_layout Standard
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
- Lorem Ipsum has been the industry's standard dummy text ever since the
- 1500s, when an unknown printer took a galley of type and scrambled it to
- make a type specimen book.
- It has survived not only five centuries, but also the leap into electronic
- typesetting, remaining essentially unchanged.
- It was popularised in the 1960s with the release of Letraset sheets containing
- Lorem Ipsum passages, and more recently with desktop publishing software
- like Aldus PageMaker including versions of Lorem Ipsum.
+Per vedere incluso il proprio gruppo nell'elenco è sufficiente contattare
+ la LugMap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi i contatti alla sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Chapter
-Indicazioni per i gestori
+\end_inset
+
+ dando le seguenti informazioni, che altro non sono che i campi visualizzati
+ sull'omonimo sito:
 \end_layout
 
-\begin_layout Section
-Controllo delle voci inserite
+\begin_layout Itemize
+
+\series bold
+regione e provincia
+\series default
+: per permettere un'agevole ricerca agli interessati;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+denominazione del gruppo
+\series default
+: si badi che non c'è alcuna discriminante sulla forma giuridica, o meno,
+ del gruppo.
+ Ai fini dell'inserimento non è discriminante essere una 
+\shape smallcaps
+ONLUS
+\shape default
+, un'associazione o un semplice gruppo di amici;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+zone interessate
+\series default
+: l'attività del gruppo può essere limitata/delimitata in una zona precisa
+ della regione/provincia/citta' di appartenenza, ma può anche valicare gli
+ stessi confini.
+ L'idea è di avere chiaro dove risulti più facile entrare in contatto con
+ il gruppo;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+modalità di contatto
+\series default
+: tipicamente si tratta di fornire un sito WEB di riferimento, ma è chiaro
+ che, soprattutto nella fase iniziale in cui il gruppo sta nascendo e prendendo
+ forma, può essere più che sufficiente un indirizzo email o un numero di
+ telefono.
+ Il principio è che si deve poter essere contattatibili e raggiungibili,
+ per poter permettere ad altri eventuali interessati di aggregarsi e partecipare
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+un indirizzo email:
+\series default
+ preferibilmente personale, ed esterno al dominio indicato al punto precedente,
+ su cui poter contare nel caso in cui vi sia la necessità di segnalare malfunzio
+namenti, o richiedere informazioni, da parte della LugMap.
+\end_layout
+
+\begin_layout Subsection
+Quali sono i requisiti necessari?
 \end_layout
 
 \begin_layout Standard
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
- Lorem Ipsum has been the industry's standard dummy text ever since the
- 1500s, when an unknown printer took a galley of type and scrambled it to
- make a type specimen book.
- It has survived not only five centuries, but also the leap into electronic
- typesetting, remaining essentially unchanged.
- It was popularised in the 1960s with the release of Letraset sheets containing
- Lorem Ipsum passages, and more recently with desktop publishing software
- like Aldus PageMaker including versions of Lorem Ipsum.
+I punti essenziali per poter apparire nella LugMap possono essere brevemente
+ schematizzati, pensando a un gruppo che:
+\end_layout
+
+\begin_layout Itemize
+abbia come scopo principale la diffusione del binomio Linux e Software Libero;
+\end_layout
+
+\begin_layout Itemize
+possa essere contattato, anche nelle forme più varie (dal sito, alla mailing
+ list, al forum, ecc.).
+ Non è necessario avere una sede, officiale o meno che sia.
+ Ciò che si vuole evitare è di far approdare gli interessati a siti/progetti
+ non più tenuti in vita.
+ Tutto questo rischia di generare scoramento e inutili perdite di tempo;
+\end_layout
+
+\begin_layout Itemize
+abbia un occhio di riguardo per gli utenti meno scafati o neofiti, completamente
+ a digiuno delle tematiche indicate nel primo punto.
+ È bene ricordare come ILS
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Italian Linux Society: 
+\family typewriter
+\shape smallcaps
+http://www.linux.it
+\end_layout
+
+\end_inset
+
+ 
+\shape italic
+
+\begin_inset Quotes eld
+\end_inset
+
+si propone di promuovere manifestazioni culturali e scientifiche per la
+ divulgazione della cultura informatica.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Estratto dall'art.3 dello statuto: 
+\family typewriter
+http://www.linux.it/Statuto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Non ho capito se il mio gruppo può farne parte
+\end_layout
+
+\begin_layout Standard
+Non ti preoccupare, non siamo un gruppo di contabili o di azzeccagarbugli.
+ In caso di dubbio scrivici serenamente.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi i contatti alla sezione 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Saremo felici di risponderti e di dedicarti del tempo.
+\end_layout
+
+\begin_layout Standard
+Al momento vale il principio del buon senso e della fiducia fino a prova
+ contraria.
+\end_layout
+
+\begin_layout Standard
+In caso di dubbio, il tutto viene fatto derimere al consiglio direttivo
+ di ILS che, a suo insindacabile giudizio, ha l'ultima parola su tutti i
+ contenuti della LugMap.
+\end_layout
+
+\begin_layout Section
+Sto fondando un LUG.
+ Posso già apparire nell'elenco?
+\end_layout
+
+\begin_layout Standard
+Innanzittutto i nostri più sinceri complimenti e un grande in bocca al lupo.
+ Puoi richiedere subito l'inserimento nell'elenco proprio per avere uno
+ strumento in più per raccogliere altre persone entusiaste e far sapere
+ a tutti della tua iniziativa.
+ Non è importante che sia fin da subito disponibile un sito.
+ Può essere temporaneamente sostituito da un contatto telefonico, da una
+ email, o da un annuncio.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Giusto per fare un esempio concreto, questo è stato il caso del Lug di Tolmezzo.
+ Vedi 
+\family typewriter
+https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ti invitiamo a dare voce al tuo impegno anche sulla mailing list dei LUG
+ italiani,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://lists.linux.it/listinfo/lug
+\end_layout
+
+\end_inset
+
+ dove potresti trovare già altre persone della tue zona, o nelle vicinanze,
+ disponibili a darti una mano, o ad aggregarsi.
+\end_layout
+
+\begin_layout Section
+Posso darvi una mano?
+\end_layout
+
+\begin_layout Standard
+Più che volentieri.
+ Sia che tu abbia competenze tecniche o meno, ci sono parecchie cose da
+ fare, per esempio:
+\end_layout
+
+\begin_layout Itemize
+controllare i contenuti relativi alla propria regione.
+ Capita che palesi errori sfuggano per anni;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi 
+\family typewriter
+https://github.com/Gelma/LugMap/commit/08208b1933cc31c77b2879cde73f279896f40a04
+\family default
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+segnalare l'eliminazione dei gruppi non più esistenti.
+ Vi sono delle procedure automatiche in tal senso, ma un controllo umano
+ non guasta mai;
+\end_layout
+
+\begin_layout Itemize
+idem per il contrario: gruppi esistenti ma mai segnalati, o appena formatisi;
+\end_layout
+
+\begin_layout Itemize
+tenere sincronizzata la relativa pagina di Wikipedia.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
+\end_layout
+
+\end_inset
+
+ Anche qui, abbiamo degli automatismi, ma un lavoro manuale è imprescindibile;
+\end_layout
+
+\begin_layout Itemize
+segnalare ai media/siti, che pubblicano/utilizzano una vecchia versione
+ della LugMap, la possibilità di accedere comodamente ai dati grezzi aggiornati.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://github.com/Gelma/LugMap/tree/master/db
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Indicazioni per i gestori dei contenuti
+\end_layout
+
+\begin_layout Section
+GitHub
+\end_layout
+
+\begin_layout Subsection
+Come recuperare i dati
+\end_layout
+
+\begin_layout Standard
+Tutti i dati della LugMap, il codice sorgente, e dei siti e dei programmi/proced
+ure, sono ospitati su GitHub.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://github.com/Gelma/LugMap
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Per portarsi in locale una copia a sola lettura è sufficiente utilizzare
+ il client 
+\shape smallcaps
+GIT,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Per i sistemi Debian e derivati basta eseguire: 
+\family typewriter
+apt-get install git-core
+\end_layout
+
+\end_inset
+
+
+\shape default
+ nel seguente modo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+gelma@gaio:/tmp$ git clone git://github.com/Gelma/LugMap.git LugMap
+\end_layout
+
+\begin_layout Plain Layout
+
+Cloning into LugMap...
+\end_layout
+
+\begin_layout Plain Layout
+
+remote: Counting objects: 1904, done.
+\end_layout
+
+\begin_layout Plain Layout
+
+remote: Compressing objects: 100% (828/828), done.
+\end_layout
+
+\begin_layout Plain Layout
+
+remote: Total 1904 (delta 1057), reused 1882 (delta 1035)
+\end_layout
+
+\begin_layout Plain Layout
+
+Receiving objects: 100% (1904/1904), 1.28 MiB | 92 KiB/s, done.
+\end_layout
+
+\begin_layout Plain Layout
+
+Resolving deltas: 100% (1057/1057), done.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ora abbiamo a disposizione una copia del repository nella directory 
+\family typewriter
+LugMap.
+\end_layout
+
+\begin_layout Subsection
+Struttura dei dati
+\end_layout
+
+\begin_layout Standard
+Le directory presenti sono:
+\end_layout
+
+\begin_layout Description
+db ove sono contenuti i file, divisi per regione, strutturati a 'mo di CSV,
+ con i singoli LUG, riga per riga
+\end_layout
+
+\begin_layout Description
+script dove sono presenti tutte le procedure automatiche di appoggio
+\end_layout
+
+\begin_layout Standard
+Oltre a queste si trovano i file:
+\end_layout
+
+\begin_layout Description
+README utilizzato principalmente dall'homepage del progetto su GitHub
+\end_layout
+
+\begin_layout Description
+ToDo utilizzato per tenere traccia/promemoria sui controlli per i siti non
+ funzionanti
+\end_layout
+
+\begin_layout Standard
+In linea di massima tendiamo a mantenere, nel branch 
+\family typewriter
+master, 
+\family default
+quasi esclusivamente i dati, mentre abbiamo due branch specifici per il
+ codice dei siti, ovvero:
+\end_layout
+
+\begin_layout Description
+lugmap.linux.it contenente tutti i file che vengono pubblicati sull'omonimo
+ URL
+\end_layout
+
+\begin_layout Description
+lugmap.it idem come sopra
+\end_layout
+
+\begin_layout Standard
+Per poter accedere a questi è necessario, la prima volta, dare i seguenti
+ comandi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+gelma@gaio:/tmp/LugMap$ git checkout --track -b lugmap.it origin/lugmap.it
+\end_layout
+
+\begin_layout Plain Layout
+
+Branch lugmap.it set up to track remote branch lugmap.it from origin.
+ Switched to a new branch 'lugmap.it' gelma@gaio:/tmp/LugMap$ git checkout
+ --track -b lugmap.linux.it origin/lugmap.linux.it
+\end_layout
+
+\begin_layout Plain Layout
+
+Branch lugmap.linux.it set up to track remote branch lugmap.linux.it from origin.
+ Switched to a new branch 'lugmap.linux.it'
+\end_layout
+
+\begin_layout Plain Layout
+
+gelma@gaio:/tmp/LugMap$ git checkout master
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si badi che entrambi i branch pescano dal master per allineare i dati.
+\end_layout
+
+\begin_layout Section
+Controlli automatici
+\end_layout
+
+\begin_layout Standard
+Spazzino
+\end_layout
+
+\begin_layout Standard
+Contatti via email
+\end_layout
+
+\begin_layout Standard
+WiMegera
+\end_layout
+
+\begin_layout Standard
+ToDo
 \end_layout
 
 \begin_layout Chapter
@@ -150,15 +835,45 @@ Software in ballo
 \end_layout
 
 \begin_layout Standard
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
- Lorem Ipsum has been the industry's standard dummy text ever since the
- 1500s, when an unknown printer took a galley of type and scrambled it to
- make a type specimen book.
- It has survived not only five centuries, but also the leap into electronic
- typesetting, remaining essentially unchanged.
- It was popularised in the 1960s with the release of Letraset sheets containing
- Lorem Ipsum passages, and more recently with desktop publishing software
- like Aldus PageMaker including versions of Lorem Ipsum.
+= Struttura del repository su GitHub == Guardando ai vari branch: master:
+ contiene solo i dati del database (directory db/) e gli strumenti/informazioni
+ non specifiche sui singoli branch.
+ lugmap.it: contiene i file per la pubblicazione sul sito omonimo.
+ lugmap.linux.it: contiene i file per la pubblicazione sul sito omonimo.
+ Nota: entrambi i branch pescano dal master per fare il merge del db.
+\end_layout
+
+\begin_layout Standard
+= Struttura dei file del db == I dati sono contenuti in file CSV discriminati
+ per regione, con qualche eccezione.
+ Il separatore è il simbolo di pipe (|).
+ I campi sono: I) Provincia II) Denominazione III) Zona di azione IV) Email
+ di contatto
+\end_layout
+
+\begin_layout Standard
+Per estrarre solo le mail di contatto è sufficiente definire un alias: alias
+ estrai_email='perl -wne'
+\backslash
+''while(/[
+\backslash
+w
+\backslash
+.
+\backslash
+-]+@[
+\backslash
+w
+\backslash
+.
+\backslash
+-]+
+\backslash
+w+/g){print "$&
+\backslash
+n"}'
+\backslash
+''' da invocare nel seguente modo: cat db/*|estrai_email 
 \end_layout
 
 \begin_layout Section
