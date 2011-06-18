@@ -2,6 +2,7 @@ Alessandria|AlLug|Alessandria e provincia|http://www.alessandria.linux.it|donotw
 Biella|BiLug|Provincia di Biella|http://www.bilug.linux.it/|
 Cuneo/Torino|ABC Lug|Alba, Bra, Carmagnola|http://abc.linux.it|
 Novara|Gallug|Galliate|http://www.gallug.it/|info@gallug.it
+Novara|LiNOx|Novara|https://www.facebook.com/pages/LiNOx-Linux-Open-Source-a-Novara/173326002721030|linoxnovara@gmail.com
 Torino|GlugTO|Torino e provincia|http://glugto.org/|
 Torino|SLIP|Pinerolo|http://pinerolo.linux.it/|info@pinerolo.linux.it
 Torino|ValSusinux|Val Susa e Val Sangone|http://www.valsusinux.it/|info@valsusinux.it

@@ -17,7 +17,6 @@ Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
 Milano|ViGLug|Vignate|http://www.viglug.org|fraph24@gmail.com
 Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/|info@bubblesfactory.it
-Novara|LiNOx|Novara|https://www.facebook.com/pages/LiNOx-Linux-Open-Source-a-Novara/173326002721030|linoxnovara@gmail.com
 Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|tilug@lists.linux.it
 Pavia|LUGDucale|Vigevano|http://www.lugducale.it|fulvio.restelli@faswebnet.it
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
