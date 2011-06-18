@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-13 Giugno 2011
+18 Giugno 2011
 \end_layout
 
 \begin_layout Standard
@@ -95,17 +95,24 @@ essere completato
 \end_layout
 
 \begin_layout Itemize
-essere visionato e approvato dal direttivo di ILS
+avere la mail da inserire per i contatti di Roberto Guido
 \end_layout
 
 \begin_layout Itemize
-essere corretto
+essere visionato e approvato dal direttivo di ILS (Diversamente rinominarlo
+ come mie note personali)
 \end_layout
 
 \begin_layout Itemize
-in particolare si vuole che questa guida sia sufficiente per permettere
- a chiunque di prendere in mano la completa gestione della LugMap in qualsiasi
- momento
+essere corretto (in particolare, essendo stato scritto in tempi diversi,
+ sicuramente ci sono dei problemi sulle coerenze dei richiami, delle note,
+ ecc.)
+\end_layout
+
+\begin_layout Itemize
+può essere considerato pronto per la pubblicazione quando questa guida sia
+ sufficiente per permettere a chiunque di prendere in mano la completa gestione
+ della LugMap in qualsiasi momento
 \end_layout
 
 \begin_layout Standard
@@ -115,6 +122,11 @@ i, obiezioni ad Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628).
 
 \begin_layout Standard
 Un grazie sentito a chiunque dia una mano.
+\end_layout
+
+\begin_layout Standard
+Attenzione, che i file disponibili sono diversi, ma il sorgente vero di
+ questo documento è il .Lyx
 \end_layout
 
 \begin_layout Chapter
@@ -243,6 +255,10 @@ https://github.com/Gelma/LugMap
 
 \begin_layout Section
 Contatti
+\end_layout
+
+\begin_layout Subsection
+Per i contenuti
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Contatti"
@@ -299,19 +315,75 @@ andrea.gelmini@lugbs.linux.it
 \end_layout
 
 \begin_layout Itemize
-Roberto Guido: scrivendo a 
+Roberto Guido:
+\begin_inset CommandInset label
+LatexCommand label
+name "Roberto-Guido"
+
+\end_inset
+
+ scrivendo a 
 \family typewriter
 \shape smallcaps
 roberto-dammi-l'email-che-vuoi-qui
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Per problemi tecnici sui siti
+\end_layout
+
+\begin_layout Standard
+Per i domini i responsabili tecnici sono:
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+lugmap.linux.it
+\family typewriter
+ 
+\family default
+\shape default
+è seguito da Fabio Invernizzi, raggiungibile all'indirizzo 
+\family typewriter
+fabulus@linux.it
+\family default
+.
+ Non solo si occupa del dominio, ma anche dello script di sincronizzazione
+ In seconda battuta ci si può rivolgere a Marco d'Itri 
+\family typewriter
+<md@linux.it>
+\end_layout
+
+\begin_layout Description
+
+\shape smallcaps
+lugmap.it 
+\shape default
+è intestato e gestito da Roberto Guido (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Roberto-Guido"
+
+\end_inset
+
+)
+\end_layout
+
 \begin_layout Chapter
 Indicazioni per gli utenti
 \end_layout
 
 \begin_layout Section
 Come richiedere l'inserimento
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Come-richiedere-l'inserimento"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -498,7 +570,7 @@ In caso di dubbio, il tutto viene fatto derimere al consiglio direttivo
 
 \begin_layout Section
 Sto fondando un LUG.
- Posso già apparire nell'elenco?
+ Può già essere inserito?
 \end_layout
 
 \begin_layout Standard
@@ -594,7 +666,24 @@ http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
 
 \end_inset
 
- Anche qui, abbiamo degli automatismi, ma un lavoro manuale è imprescindibile;
+ Anche qui, abbiamo degli automatismi,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:WiMegera"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ ma un lavoro manuale è imprescindibile;
 \end_layout
 
 \begin_layout Itemize
@@ -624,6 +713,13 @@ GitHub
 
 \begin_layout Subsection
 Come recuperare i dati
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:GitHub"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -716,8 +812,17 @@ Ora abbiamo a disposizione una copia del repository nella directory
 LugMap.
 \end_layout
 
+\begin_layout Standard
+Notasi che, nel caso si sia già in possesso di un account su GitHub, è anche
+ possibile 
+\shape italic
+forkare
+\shape default
+ il repository originale.
+\end_layout
+
 \begin_layout Subsection
-Struttura dei dati
+La struttura dei file
 \end_layout
 
 \begin_layout Standard
@@ -726,7 +831,14 @@ Le directory presenti sono:
 
 \begin_layout Description
 db ove sono contenuti i file, divisi per regione, strutturati a 'mo di CSV,
- con i singoli LUG, riga per riga
+ con i singoli LUG, riga per riga (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Struttura-CSV"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Description
@@ -746,27 +858,31 @@ ToDo utilizzato per tenere traccia/promemoria sui controlli per i siti non
  funzionanti
 \end_layout
 
-\begin_layout Standard
-In linea di massima tendiamo a mantenere, nel branch 
-\family typewriter
-master, 
-\family default
-quasi esclusivamente i dati, mentre abbiamo due branch specifici per il
- codice dei siti, ovvero:
+\begin_layout Subsection
+La struttura dei branch
+\end_layout
+
+\begin_layout Description
+master dati grezzi, README (visualizzato di default sul repository GitHub),
+ e gli script di appoggio:
 \end_layout
 
 \begin_layout Description
 lugmap.linux.it contenente tutti i file che vengono pubblicati sull'omonimo
- URL
+ URL;
 \end_layout
 
 \begin_layout Description
-lugmap.it idem come sopra
+lugmap.it idem come sopra;
+\end_layout
+
+\begin_layout Description
+docs area di stesura della sola documentazione.
 \end_layout
 
 \begin_layout Standard
-Per poter accedere a questi è necessario, la prima volta, dare i seguenti
- comandi:
+Per poter accedere a questi è necessario, solamente la prima volta, dare
+ i seguenti comandi:
 \end_layout
 
 \begin_layout Standard
@@ -776,20 +892,32 @@ status open
 
 \begin_layout Plain Layout
 
-gelma@gaio:/tmp/LugMap$ git checkout --track -b lugmap.it origin/lugmap.it
+gelma@gaio:/tmp/LugMap$ git checkout -t -b lugmap.it origin/lugmap.it
 \end_layout
 
 \begin_layout Plain Layout
 
-Branch lugmap.it set up to track remote branch lugmap.it from origin.
- Switched to a new branch 'lugmap.it' gelma@gaio:/tmp/LugMap$ git checkout
- --track -b lugmap.linux.it origin/lugmap.linux.it
+(Output di conferma)
 \end_layout
 
 \begin_layout Plain Layout
 
-Branch lugmap.linux.it set up to track remote branch lugmap.linux.it from origin.
- Switched to a new branch 'lugmap.linux.it'
+gelma@gaio:/tmp/LugMap$ git checkout -t -b lugmap.linux.it origin/lugmap.linux.it
+\end_layout
+
+\begin_layout Plain Layout
+
+(Output di conferma)
+\end_layout
+
+\begin_layout Plain Layout
+
+gelma@gaio:/tmp/LugMap$ git checkout -t -b docs origin/docs
+\end_layout
+
+\begin_layout Plain Layout
+
+(Output di conferma)
 \end_layout
 
 \begin_layout Plain Layout
@@ -803,81 +931,335 @@ gelma@gaio:/tmp/LugMap$ git checkout master
 \end_layout
 
 \begin_layout Standard
-Si badi che entrambi i branch pescano dal master per allineare i dati.
+Si badi che entrambi i branch dei siti pescano dal master per allineare
+ i dati.
+\end_layout
+
+\begin_layout Standard
+Questo significa che i contenuti del db/ vanno inseriti solo nel 
+\family typewriter
+master
+\family default
+, per poi essere presi, via 
+\family typewriter
+pull
+\family default
+, dagli altri.
+\end_layout
+
+\begin_layout Subsection
+La struttura dei file CSV
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Struttura-CSV"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il formato CSV, utilizzato dai file presenti nella directory 
+\family typewriter
+db/
+\family default
+, usa come separatore è il simbolo di pipe, ed è suddiviso nei seguenti
+ campi:
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Per il dettaglio delle voci vedi §
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Come-richiedere-l'inserimento"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Provincia 
+\end_layout
+
+\begin_layout Enumerate
+Denominazione 
+\end_layout
+
+\begin_layout Enumerate
+Zona/zone coperte 
+\end_layout
+
+\begin_layout Enumerate
+URL
+\end_layout
+
+\begin_layout Enumerate
+Email di contatto
 \end_layout
 
 \begin_layout Section
-Controlli automatici
+I controlli automatici
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection
 Spazzino
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Spazzino"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Contatti via email
+Spazzino, invocabile con 
+\family typewriter
+script/spazzino.py
+\family default
+, è uno script in Python che si prende la briga, per ogni riga presente
+ nei file della directory 
+\family typewriter
+db/,
+\family default
+ di controllare:
+\end_layout
+
+\begin_layout Itemize
+l'esistenza del dominio
+\end_layout
+
+\begin_layout Itemize
+il funzionamento dei relativi DNS
+\end_layout
+
+\begin_layout Itemize
+eventuali cambi di IP del dominio
+\end_layout
+
+\begin_layout Itemize
+il funzionamento dell'URL
+\end_layout
+
+\begin_layout Itemize
+cambiamenti significativi nei contenuti
 \end_layout
 
 \begin_layout Standard
+Al momento questo script viene eseguito ogni due giorni sul server del LugBS.
+ Le mail, eventualmente generate dai cambiamenti indicati sopra, vengono
+ inviate ad Andrea Gelmini.
+ Si è deciso di non inviare il tutto alla mailing list della LugMap per
+ evitare di inondare la stessa con falsi positivi, spesso dovuti alle esoteriche
+ scelte tecnologiche dei vari Lug.
+\end_layout
+
+\begin_layout Standard
+Spazzino dovrebbe funzionare senza problemi su una qualsiasi distribuzione
+ Linux sufficientemente moderna, con l'unica accortezza di installare il
+ motore di ZODB.
+ Su sistemi Debian like è sufficiente dare:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+apt-get install python-zodb
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Non sono necessari privilegi particolari.
+\end_layout
+
+\begin_layout Standard
+I file risultanti si trovano nella 
+\family typewriter
+home 
+\family default
+dell'utente, tutti con il prefisso 
+\family typewriter
+.spazzino
+\end_layout
+
+\begin_layout Subsection
 WiMegera
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:WiMegera"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ToDo
+WiMegera, invocabile da 
+\family typewriter
+script/WiMegera
+\family default
+.py, è uno script in Python che si preoccupa di notificare le modifiche effettuat
+e sulla Pagina dei Lug Italiani di Wikipedia.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://secure.wikimedia.org/wikipedia/it/wiki/Lista_dei_LUG_italiani
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Valgono le stesse considerazioni tecniche relative a Spazzino (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Spazzino"
+
+\end_inset
+
+), con due differenze: le notifiche vengono inviate alla mailing list e
+ non vi sono moduli esterni da installare relativamente all'interprete Python.
+\end_layout
+
+\begin_layout Subsection
+Google Alerts
+\end_layout
+
+\begin_layout Standard
+Per ogni regione sono stati attivati i Google Alerts
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.google.com/alerts
+\end_layout
+
+\end_inset
+
+ relativi ai Linux User Group.
+ Questi, al momento, arrivano ad Andrea Gelmini (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Contatti"
+
+\end_inset
+
+).
+ Ad oggi hanno permesso di scovare un unico Lug al suo annuncio.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
-Indicazioni per gli sviluppatori
+Note operative
+\end_layout
+
+\begin_layout Standard
+Se i manovali della LugMap (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Contatti"
+
+\end_inset
+
+) dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
+ per la ripresa del controllo dei singoli domini potrebbe essere così riassunta.
 \end_layout
 
 \begin_layout Section
-Software in ballo
+lugmap.linux.it
+\end_layout
+
+\begin_layout Itemize
+Migrare il repository GitHub che ospita tutto il codice e i dati (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:GitHub"
+
+\end_inset
+
+).
+ Notasi che è possibile 
+\shape italic
+forkare
+\shape default
+ il repository originale verso un altro account GitHub, oppure crearne uno
+ ex-novo esterno;
+\end_layout
+
+\begin_layout Itemize
+modificare lo script in esecuzione sul server (via cron) che si occupa di
+ aggiornare il sito.
+ Sostanzialmente si tratta di farlo puntare al nuovo repository GIT.
+ Questo, al momento, può essere fatto da Fabio Invernizzi (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Contatti"
+
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Itemize
+attivare le procedure automatiche (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Spazzino"
+
+\end_inset
+
+) in locale, badando di sostituire all'interno del codice l'indirizzo email
+ per le notifiche, che ora punta ad Andrea Gelmini.
+ Un 
+\family typewriter
+grep -i gelmini 
+\family default
+su tutti i file nella directory
+\family typewriter
+ script/ 
+\family default
+dovrebbe essere più che sufficiente.
+\end_layout
+
+\begin_layout Subsection
+lugmap.it
 \end_layout
 
 \begin_layout Standard
-= Struttura del repository su GitHub == Guardando ai vari branch: master:
- contiene solo i dati del database (directory db/) e gli strumenti/informazioni
- non specifiche sui singoli branch.
- lugmap.it: contiene i file per la pubblicazione sul sito omonimo.
- lugmap.linux.it: contiene i file per la pubblicazione sul sito omonimo.
- Nota: entrambi i branch pescano dal master per fare il merge del db.
-\end_layout
-
-\begin_layout Standard
-= Struttura dei file del db == I dati sono contenuti in file CSV discriminati
- per regione, con qualche eccezione.
- Il separatore è il simbolo di pipe (|).
- I campi sono: I) Provincia II) Denominazione III) Zona di azione IV) Email
- di contatto
-\end_layout
-
-\begin_layout Standard
-Per estrarre solo le mail di contatto è sufficiente definire un alias: alias
- estrai_email='perl -wne'
-\backslash
-''while(/[
-\backslash
-w
-\backslash
-.
-\backslash
--]+@[
-\backslash
-w
-\backslash
-.
-\backslash
--]+
-\backslash
-w+/g){print "$&
-\backslash
-n"}'
-\backslash
-''' da invocare nel seguente modo: cat db/*|estrai_email 
-\end_layout
-
-\begin_layout Section
-Se il Gelma impazzisce
+Roberto sei grande abbastanza: arrangiati!
 \end_layout
 
 \end_body
