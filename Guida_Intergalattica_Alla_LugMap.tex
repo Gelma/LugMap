@@ -1,0 +1,432 @@
+%% LyX 2.1.0svn created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[oneside,italian]{book}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{listings}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{varioref}
+\usepackage{textcomp}
+\usepackage{babel}
+\begin{document}
+
+\title{Guida intergalattica alla LugMap.Linux.IT}
+
+
+\author{Andrea Gelmini}
+
+
+\date{18 Giugno 2011}
+
+\maketitle
+\tableofcontents{}
+
+
+\chapter*{Work in progress}
+
+Il contenuto di queste pagine non ha alcun valore. Deve ancora:
+\begin{itemize}
+\item essere completato
+\item avere la mail da inserire per i contatti di Roberto Guido
+\item essere visionato e approvato dal direttivo di ILS (Diversamente rinominarlo
+come mie note personali)
+\item essere corretto (in particolare, essendo stato scritto in tempi diversi,
+sicuramente ci sono dei problemi sulle coerenze dei richiami, delle
+note, ecc.)
+\item può essere considerato pronto per la pubblicazione quando questa guida
+sia sufficiente per permettere a chiunque di prendere in mano la completa
+gestione della LugMap in qualsiasi momento
+\end{itemize}
+Chiunque è invitato a collaborare mandando osservazioni, correzioni,
+integrazioni, obiezioni ad Andrea Gelmini (andrea.gelmini@lugbs.linux.it
+- 328/7296628).
+
+Un grazie sentito a chiunque dia una mano.
+
+Attenzione, che i file disponibili sono diversi, ma il sorgente vero
+di questo documento è il .Lyx
+
+
+\chapter{Il progetto LugMap}
+
+
+\section{Presentazione}
+
+Il fine ultimo della LugMap%
+\footnote{\texttt{http://lugmap.linux.it}%
+} è di fornire un comodo strumento per mettere in contatto persone,
+e realtà, interessate alla diffusione del sistema operativo Linux,
+quale punta di diamante del Software Libero.%
+\footnote{\texttt{http://www.gnu.org/philosophy/free-sw.it.html}%
+}
+
+Quindi, partendo da questo presupposto, risulta più facile definire
+cosa \textbf{non sia} la LugMap:
+\begin{itemize}
+\item non è una classifica di gruppi buoni e gruppi cattivi;
+\item non è una classifica di gruppi bravi, e meno bravi;
+\item non è una classifica di chi fa più, e chi meno.
+\end{itemize}
+I principali destinatari della stessa sono, pertanto, i neofiti alla
+ricerca di un aiuto concreto nel loro avvicinamento al mondo dell'informatica
+libera. Questi possono ivi trovare, principalmente ma non esclusivamente,
+realtà (togliere ripetizione) come:
+\begin{description}
+\item [{LUG:}] Linux User Group ovvero \emph{Gruppi di Utenti Linux}
+\item [{FSUG:}] Free Software User Group ovvero \emph{Gruppi di Utenti
+di Software Libero}
+\end{description}
+
+\section{Pubblicazione delle informazioni}
+
+I dati che compongono la LugMap sono comodamente visualizzabili a
+questi due indirizzi:
+\begin{itemize}
+\item \texttt{\textsc{http://lugmap.linux.it}}
+\item \texttt{\textsc{http://lugmap.it}}
+\end{itemize}
+e liberamente accessibili in formato grezzo, così come tutto il codice
+dei siti indicati, dal repository GitHub%
+\footnote{\texttt{https://github.com/Gelma/LugMap}%
+} presente all'indirizzo:
+\begin{itemize}
+\item \texttt{https://github.com/Gelma/LugMap}
+\end{itemize}
+
+\section{Contatti}
+
+
+\subsection{Per i contenuti\label{sec:Contatti}}
+
+Per entrare in contatto con i gestori della LugMap si può:
+\begin{itemize}
+\item scrivere alla relativa mailing list pubblica,%
+\footnote{\texttt{\textsc{http://lists.linux.it/listinfo/lugmap}}
+
+Si badi che pubblica ne implica l'indicizzazione da parte dei motori
+di ricerca, e l'accesso urbi et orbi dei messaggi a tutti, anche in
+futuro%
+} mandando una mail a: \texttt{\textsc{lugmap@linux.it}}
+\item contattare personalmente:
+
+\begin{itemize}
+\item Andrea Gelmini: scrivendo a \texttt{\textsc{andrea.gelmini@lugbs.linux.it}}
+oppure telefonando al \texttt{328/7296628}
+\item Roberto Guido:\label{Roberto-Guido} scrivendo a \texttt{\textsc{roberto-dammi-l'email-che-vuoi-qui}}
+\end{itemize}
+\end{itemize}
+
+\subsection{Per problemi tecnici sui siti}
+
+Per i domini i responsabili tecnici sono:
+\begin{description}
+\item [{\textsc{lugmap.linux.it}}] è seguito da Fabio Invernizzi, raggiungibile
+all'indirizzo \texttt{fabulus@linux.it}. Non solo si occupa del dominio,
+ma anche dello script di sincronizzazione In seconda battuta ci si
+può rivolgere a Marco d'Itri \texttt{<md@linux.it>}
+\item [{\textsc{lugmap.it}}] è intestato e gestito da Roberto Guido (§\ref{Roberto-Guido})
+\end{description}
+
+\chapter{Indicazioni per gli utenti}
+
+
+\section{Come richiedere l'inserimento\label{sec:Come-richiedere-l'inserimento}}
+
+Per vedere incluso il proprio gruppo nell'elenco è sufficiente contattare
+la LugMap%
+\footnote{Vedi i contatti alla sezione \vref{sec:Contatti}%
+} dando le seguenti informazioni, che altro non sono che i campi visualizzati
+sull'omonimo sito:
+\begin{itemize}
+\item \textbf{regione e provincia}: per permettere un'agevole ricerca agli
+interessati;
+\item \textbf{denominazione del gruppo}: si badi che non c'è alcuna discriminante
+sulla forma giuridica, o meno, del gruppo. Ai fini dell'inserimento
+non è discriminante essere una \textsc{ONLUS}, un'associazione o un
+semplice gruppo di amici;
+\item \textbf{zone interessate}: l'attività del gruppo può essere limitata/delimitata
+in una zona precisa della regione/provincia/citta' di appartenenza,
+ma può anche valicare gli stessi confini. L'idea è di avere chiaro
+dove risulti più facile entrare in contatto con il gruppo;
+\item \textbf{modalità di contatto}: tipicamente si tratta di fornire un
+sito WEB di riferimento, ma è chiaro che, soprattutto nella fase iniziale
+in cui il gruppo sta nascendo e prendendo forma, può essere più che
+sufficiente un indirizzo email o un numero di telefono. Il principio
+è che si deve poter essere contattatibili e raggiungibili, per poter
+permettere ad altri eventuali interessati di aggregarsi e partecipare;
+\item \textbf{un indirizzo email:} preferibilmente personale, ed esterno
+al dominio indicato al punto precedente, su cui poter contare nel
+caso in cui vi sia la necessità di segnalare malfunzionamenti, o richiedere
+informazioni, da parte della LugMap.
+\end{itemize}
+
+\subsection{Quali sono i requisiti necessari?}
+
+I punti essenziali per poter apparire nella LugMap possono essere
+brevemente schematizzati, pensando a un gruppo che:
+\begin{itemize}
+\item abbia come scopo principale la diffusione del binomio Linux e Software
+Libero;
+\item possa essere contattato, anche nelle forme più varie (dal sito, alla
+mailing list, al forum, ecc.). Non è necessario avere una sede, officiale
+o meno che sia. Ciò che si vuole evitare è di far approdare gli interessati
+a siti/progetti non più tenuti in vita. Tutto questo rischia di generare
+scoramento e inutili perdite di tempo;
+\item abbia un occhio di riguardo per gli utenti meno scafati o neofiti,
+completamente a digiuno delle tematiche indicate nel primo punto.
+È bene ricordare come ILS%
+\footnote{Italian Linux Society: \texttt{\textsc{http://www.linux.it}}%
+} \textit{{}``si propone di promuovere manifestazioni culturali e
+scientifiche per la divulgazione della cultura informatica.''}%
+\footnote{Estratto dall'art.3 dello statuto: \texttt{http://www.linux.it/Statuto}%
+}
+\end{itemize}
+
+\subsection{Non ho capito se il mio gruppo può farne parte}
+
+Non ti preoccupare, non siamo un gruppo di contabili o di azzeccagarbugli.
+In caso di dubbio scrivici serenamente.%
+\footnote{Vedi i contatti alla sezione \vref{sec:Contatti}%
+} Saremo felici di risponderti e di dedicarti del tempo.
+
+Al momento vale il principio del buon senso e della fiducia fino a
+prova contraria.
+
+In caso di dubbio, il tutto viene fatto derimere al consiglio direttivo
+di ILS che, a suo insindacabile giudizio, ha l'ultima parola su tutti
+i contenuti della LugMap.
+
+
+\section{Sto fondando un LUG. Può già essere inserito?}
+
+Innanzittutto i nostri più sinceri complimenti e un grande in bocca
+al lupo. Puoi richiedere subito l'inserimento nell'elenco proprio
+per avere uno strumento in più per raccogliere altre persone entusiaste
+e far sapere a tutti della tua iniziativa. Non è importante che sia
+fin da subito disponibile un sito. Può essere temporaneamente sostituito
+da un contatto telefonico, da una email, o da un annuncio.%
+\footnote{Giusto per fare un esempio concreto, questo è stato il caso del Lug
+di Tolmezzo. Vedi \texttt{https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c}%
+}
+
+Ti invitiamo a dare voce al tuo impegno anche sulla mailing list dei
+LUG italiani,%
+\footnote{\texttt{http://lists.linux.it/listinfo/lug}%
+} dove potresti trovare già altre persone della tue zona, o nelle vicinanze,
+disponibili a darti una mano, o ad aggregarsi.
+
+
+\section{Posso darvi una mano?}
+
+Più che volentieri. Sia che tu abbia competenze tecniche o meno, ci
+sono parecchie cose da fare, per esempio:
+\begin{itemize}
+\item controllare i contenuti relativi alla propria regione. Capita che
+palesi errori sfuggano per anni;%
+\footnote{Vedi \texttt{https://github.com/Gelma/LugMap/commit/08208b1933cc31c77b2879cde73f279896f40a04} %
+}
+\item segnalare l'eliminazione dei gruppi non più esistenti. Vi sono delle
+procedure automatiche in tal senso, ma un controllo umano non guasta
+mai;
+\item idem per il contrario: gruppi esistenti ma mai segnalati, o appena
+formatisi;
+\item tenere sincronizzata la relativa pagina di Wikipedia.%
+\footnote{\texttt{http://it.wikipedia.org/wiki/Lista\_dei\_LUG\_italiani}%
+} Anche qui, abbiamo degli automatismi,%
+\footnote{Vedi §\ref{sub:WiMegera}%
+} ma un lavoro manuale è imprescindibile;
+\item segnalare ai media/siti, che pubblicano/utilizzano una vecchia versione
+della LugMap, la possibilità di accedere comodamente ai dati grezzi
+aggiornati.%
+\footnote{\texttt{https://github.com/Gelma/LugMap/tree/master/db}%
+}
+\end{itemize}
+
+\chapter{Indicazioni per i gestori dei contenuti}
+
+
+\section{GitHub}
+
+
+\subsection{Come recuperare i dati\label{sub:GitHub}}
+
+Tutti i dati della LugMap, il codice sorgente, e dei siti e dei programmi/procedure,
+sono ospitati su GitHub.%
+\footnote{\texttt{https://github.com/Gelma/LugMap}%
+} 
+
+Per portarsi in locale una copia a sola lettura è sufficiente utilizzare
+il client \textsc{GIT,}%
+\footnote{Per i sistemi Debian e derivati basta eseguire: \texttt{apt-get install
+git-core}%
+} nel seguente modo:
+
+\begin{lstlisting}
+gelma@gaio:/tmp$ git clone git://github.com/Gelma/LugMap.git LugMap
+Cloning into LugMap...
+remote: Counting objects: 1904, done.
+remote: Compressing objects: 100% (828/828), done.
+remote: Total 1904 (delta 1057), reused 1882 (delta 1035)
+Receiving objects: 100% (1904/1904), 1.28 MiB | 92 KiB/s, done.
+Resolving deltas: 100% (1057/1057), done. 
+\end{lstlisting}
+
+
+Ora abbiamo a disposizione una copia del repository nella directory
+\texttt{LugMap.}
+
+Notasi che, nel caso si sia già in possesso di un account su GitHub,
+è anche possibile \textit{forkare} il repository originale.
+
+
+\subsection{La struttura dei file}
+
+Le directory presenti sono:
+\begin{description}
+\item [{db}] ove sono contenuti i file, divisi per regione, strutturati
+a 'mo di CSV, con i singoli LUG, riga per riga (§\ref{sub:Struttura-CSV})
+\item [{script}] dove sono presenti tutte le procedure automatiche di appoggio
+\end{description}
+Oltre a queste si trovano i file:
+\begin{description}
+\item [{README}] utilizzato principalmente dall'homepage del progetto su
+GitHub
+\item [{ToDo}] utilizzato per tenere traccia/promemoria sui controlli per
+i siti non funzionanti
+\end{description}
+
+\subsection{La struttura dei branch}
+\begin{description}
+\item [{master}] dati grezzi, README (visualizzato di default sul repository
+GitHub), e gli script di appoggio:
+\item [{lugmap.linux.it}] contenente tutti i file che vengono pubblicati
+sull'omonimo URL;
+\item [{lugmap.it}] idem come sopra;
+\item [{docs}] area di stesura della sola documentazione.
+\end{description}
+Per poter accedere a questi è necessario, solamente la prima volta,
+dare i seguenti comandi:
+
+\begin{lstlisting}
+gelma@gaio:/tmp/LugMap$ git checkout -t -b lugmap.it origin/lugmap.it
+(Output di conferma)
+gelma@gaio:/tmp/LugMap$ git checkout -t -b lugmap.linux.it origin/lugmap.linux.it
+(Output di conferma)
+gelma@gaio:/tmp/LugMap$ git checkout -t -b docs origin/docs
+(Output di conferma)
+gelma@gaio:/tmp/LugMap$ git checkout master
+\end{lstlisting}
+
+
+Si badi che entrambi i branch dei siti pescano dal master per allineare
+i dati.
+
+Questo significa che i contenuti del db/ vanno inseriti solo nel \texttt{master},
+per poi essere presi, via \texttt{pull}, dagli altri.
+
+
+\subsection{La struttura dei file CSV\label{sub:Struttura-CSV}}
+
+Il formato CSV, utilizzato dai file presenti nella directory \texttt{db/},
+usa come separatore è il simbolo di pipe, ed è suddiviso nei seguenti
+campi:%
+\footnote{Per il dettaglio delle voci vedi §\ref{sec:Come-richiedere-l'inserimento}%
+}
+\begin{enumerate}
+\item Provincia 
+\item Denominazione 
+\item Zona/zone coperte 
+\item URL
+\item Email di contatto
+\end{enumerate}
+
+\section{I controlli automatici}
+
+
+\subsection{Spazzino\label{sub:Spazzino}}
+
+Spazzino, invocabile con \texttt{script/spazzino.py}, è uno script
+in Python che si prende la briga, per ogni riga presente nei file
+della directory \texttt{db/,} di controllare:
+\begin{itemize}
+\item l'esistenza del dominio
+\item il funzionamento dei relativi DNS
+\item eventuali cambi di IP del dominio
+\item il funzionamento dell'URL
+\item cambiamenti significativi nei contenuti
+\end{itemize}
+Al momento questo script viene eseguito ogni due giorni sul server
+del LugBS. Le mail, eventualmente generate dai cambiamenti indicati
+sopra, vengono inviate ad Andrea Gelmini. Si è deciso di non inviare
+il tutto alla mailing list della LugMap per evitare di inondare la
+stessa con falsi positivi, spesso dovuti alle esoteriche scelte tecnologiche
+dei vari Lug.
+
+Spazzino dovrebbe funzionare senza problemi su una qualsiasi distribuzione
+Linux sufficientemente moderna, con l'unica accortezza di installare
+il motore di ZODB. Su sistemi Debian like è sufficiente dare:
+
+\begin{lstlisting}
+apt-get install python-zodb
+\end{lstlisting}
+
+
+Non sono necessari privilegi particolari.
+
+I file risultanti si trovano nella \texttt{home }dell'utente, tutti
+con il prefisso \texttt{.spazzino}
+
+
+\subsection{WiMegera\label{sub:WiMegera}}
+
+WiMegera, invocabile da \texttt{script/WiMegera}.py, è uno script
+in Python che si preoccupa di notificare le modifiche effettuate sulla
+Pagina dei Lug Italiani di Wikipedia.%
+\footnote{\texttt{https://secure.wikimedia.org/wikipedia/it/wiki/Lista\_dei\_LUG\_italiani}%
+}
+
+Valgono le stesse considerazioni tecniche relative a Spazzino (\ref{sub:Spazzino}),
+con due differenze: le notifiche vengono inviate alla mailing list
+e non vi sono moduli esterni da installare relativamente all'interprete
+Python.
+
+
+\subsection{Google Alerts}
+
+Per ogni regione sono stati attivati i Google Alerts%
+\footnote{\texttt{http://www.google.com/alerts}%
+} relativi ai Linux User Group. Questi, al momento, arrivano ad Andrea
+Gelmini (§\ref{sec:Contatti}). Ad oggi hanno permesso di scovare
+un unico Lug al suo annuncio.%
+\footnote{\texttt{https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c}%
+}
+
+
+\chapter{Note operative}
+
+Se i manovali della LugMap (§\ref{sec:Contatti}) dovessero impazzire,
+oppure essere rapiti dagli alieni, i passaggi necessari per la ripresa
+del controllo dei singoli domini potrebbe essere così riassunta.
+
+
+\section{lugmap.linux.it}
+\begin{itemize}
+\item Migrare il repository GitHub che ospita tutto il codice e i dati (§\ref{sub:GitHub}).
+Notasi che è possibile \textit{forkare} il repository originale verso
+un altro account GitHub, oppure crearne uno ex-novo esterno;
+\item modificare lo script in esecuzione sul server (via cron) che si occupa
+di aggiornare il sito. Sostanzialmente si tratta di farlo puntare
+al nuovo repository GIT. Questo, al momento, può essere fatto da Fabio
+Invernizzi (§\ref{sec:Contatti});
+\item attivare le procedure automatiche (§\ref{sub:Spazzino}) in locale,
+badando di sostituire all'interno del codice l'indirizzo email per
+le notifiche, che ora punta ad Andrea Gelmini. Un \texttt{grep -i
+gelmini }su tutti i file nella directory\texttt{ script/ }dovrebbe
+essere più che sufficiente.
+\end{itemize}
+
+\subsection{lugmap.it}
+
+Roberto sei grande abbastanza: arrangiati!
+\end{document}
