@@ -423,7 +423,7 @@ regione e provincia
 denominazione del gruppo
 \series default
 : si badi che non c'è alcuna discriminante sulla forma giuridica, o meno,
- del gruppo.
+ dello stesso.
  Ai fini dell'inserimento non è discriminante essere una 
 \shape smallcaps
 ONLUS
@@ -437,7 +437,7 @@ ONLUS
 zone interessate
 \series default
 : l'attività del gruppo può essere limitata/delimitata in una zona precisa
- della regione/provincia/citta' di appartenenza, ma può anche valicare gli
+ della regione/provincia/città di appartenenza, ma può anche valicare gli
  stessi confini.
  L'idea è di avere chiaro dove risulti più facile entrare in contatto con
  il gruppo;
@@ -743,7 +743,7 @@ https://github.com/Gelma/LugMap
 Per portarsi in locale una copia a sola lettura è sufficiente utilizzare
  il client 
 \shape smallcaps
-GIT,
+Git,
 \begin_inset Foot
 status open
 
@@ -1111,10 +1111,10 @@ name "sub:WiMegera"
 \begin_layout Standard
 WiMegera, invocabile da 
 \family typewriter
-script/WiMegera
+script/WiMegera.py
 \family default
-.py, è uno script in Python che si preoccupa di notificare le modifiche effettuat
-e sulla Pagina dei Lug Italiani di Wikipedia.
+, è uno script in Python che si preoccupa di notificare le modifiche effettuate
+ sulla Pagina dei Lug Italiani di Wikipedia.
 \begin_inset Foot
 status open
 
@@ -1195,7 +1195,7 @@ reference "sec:Contatti"
 \end_inset
 
 ) dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
- per la ripresa del controllo dei singoli domini potrebbe essere così riassunta.
+ per la ripresa del controllo dei singoli domini potrebbero essere così riassunta.
 \end_layout
 
 \begin_layout Section
@@ -1222,7 +1222,7 @@ forkare
 \begin_layout Itemize
 modificare lo script in esecuzione sul server (via cron) che si occupa di
  aggiornare il sito.
- Sostanzialmente si tratta di farlo puntare al nuovo repository GIT.
+ Sostanzialmente si tratta di farlo puntare al nuovo repository Git.
  Questo, al momento, può essere fatto da Fabio Invernizzi (§
 \begin_inset CommandInset ref
 LatexCommand ref
