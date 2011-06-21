@@ -1195,7 +1195,8 @@ reference "sec:Contatti"
 \end_inset
 
 ) dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
- per la ripresa del controllo dei singoli domini potrebbero essere così riassunta.
+ per la ripresa del controllo dei singoli domini potrebbero essere così
+ riassunti.
 \end_layout
 
 \begin_layout Section
@@ -1251,7 +1252,31 @@ su tutti i file nella directory
 \family typewriter
  script/ 
 \family default
-dovrebbe essere più che sufficiente.
+dovrebbe essere più che sufficiente;
+\end_layout
+
+\begin_layout Itemize
+modificare/aggiornare i contatti degli amministratori
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Si badi che gli indirizzi vengono citati in più punti, anche nel messaggio
+ in calce ai singoli messaggi inviati dalla lista.
+ Per quanto noioso, nell'eventualità, sarebbe d'obbligo ricontrollare tutte
+ le opzioni impostate.
+\end_layout
+
+\end_inset
+
+ per la mailing list della LugMap, contattando Marco d'Itri (§
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Contatti"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Subsection
