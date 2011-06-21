@@ -71,7 +71,7 @@ cosa \textbf{non sia} la LugMap:
 I principali destinatari della stessa sono, pertanto, i neofiti alla
 ricerca di un aiuto concreto nel loro avvicinamento al mondo dell'informatica
 libera. Questi possono ivi trovare, principalmente ma non esclusivamente,
-realtà (togliere ripetizione) come:
+entità come:
 \begin{description}
 \item [{LUG:}] Linux User Group ovvero \emph{Gruppi di Utenti Linux}
 \item [{FSUG:}] Free Software User Group ovvero \emph{Gruppi di Utenti
@@ -104,7 +104,7 @@ Per entrare in contatto con i gestori della LugMap si può:
 \item scrivere alla relativa mailing list pubblica,%
 \footnote{\texttt{\textsc{http://lists.linux.it/listinfo/lugmap}}
 
-Si badi che pubblica ne implica l'indicizzazione da parte dei motori
+Si badi come pubblica ne implichi l'indicizzazione da parte dei motori
 di ricerca, e l'accesso urbi et orbi dei messaggi a tutti, anche in
 futuro%
 } mandando una mail a: \texttt{\textsc{lugmap@linux.it}}
@@ -125,7 +125,9 @@ Per i domini i responsabili tecnici sono:
 all'indirizzo \texttt{fabulus@linux.it}. Non solo si occupa del dominio,
 ma anche dello script di sincronizzazione In seconda battuta ci si
 può rivolgere a Marco d'Itri \texttt{<md@linux.it>}
-\item [{\textsc{lugmap.it}}] è intestato e gestito da Roberto Guido (§\ref{Roberto-Guido})
+\item [{\textsc{lugmap.it}}] è intestato e gestito da Roberto Guido%
+\footnote{§\vref{Roberto-Guido}%
+}
 \end{description}
 
 \chapter{Indicazioni per gli utenti}
@@ -135,18 +137,18 @@ può rivolgere a Marco d'Itri \texttt{<md@linux.it>}
 
 Per vedere incluso il proprio gruppo nell'elenco è sufficiente contattare
 la LugMap%
-\footnote{Vedi i contatti alla sezione \vref{sec:Contatti}%
+\footnote{Vedi i contatti nella sezione \vref{sec:Contatti}%
 } dando le seguenti informazioni, che altro non sono che i campi visualizzati
 sull'omonimo sito:
 \begin{itemize}
 \item \textbf{regione e provincia}: per permettere un'agevole ricerca agli
 interessati;
 \item \textbf{denominazione del gruppo}: si badi che non c'è alcuna discriminante
-sulla forma giuridica, o meno, del gruppo. Ai fini dell'inserimento
+sulla forma giuridica, o meno, dello stesso. Ai fini dell'inserimento
 non è discriminante essere una \textsc{ONLUS}, un'associazione o un
 semplice gruppo di amici;
 \item \textbf{zone interessate}: l'attività del gruppo può essere limitata/delimitata
-in una zona precisa della regione/provincia/citta' di appartenenza,
+in una zona precisa della regione/provincia/città di appartenenza,
 ma può anche valicare gli stessi confini. L'idea è di avere chiaro
 dove risulti più facile entrare in contatto con il gruppo;
 \item \textbf{modalità di contatto}: tipicamente si tratta di fornire un
@@ -164,12 +166,12 @@ informazioni, da parte della LugMap.
 \subsection{Quali sono i requisiti necessari?}
 
 I punti essenziali per poter apparire nella LugMap possono essere
-brevemente schematizzati, pensando a un gruppo che:
+brevemente tracciati pensando a un gruppo che:
 \begin{itemize}
 \item abbia come scopo principale la diffusione del binomio Linux e Software
 Libero;
 \item possa essere contattato, anche nelle forme più varie (dal sito, alla
-mailing list, al forum, ecc.). Non è necessario avere una sede, officiale
+mailing list, al forum, ecc.). Non è necessario avere una sede, ufficiale
 o meno che sia. Ciò che si vuole evitare è di far approdare gli interessati
 a siti/progetti non più tenuti in vita. Tutto questo rischia di generare
 scoramento e inutili perdite di tempo;
@@ -198,7 +200,7 @@ di ILS che, a suo insindacabile giudizio, ha l'ultima parola su tutti
 i contenuti della LugMap.
 
 
-\section{Sto fondando un LUG. Può già essere inserito?}
+\subsection{Sto fondando un LUG. Può già apparire?}
 
 Innanzittutto i nostri più sinceri complimenti e un grande in bocca
 al lupo. Puoi richiedere subito l'inserimento nell'elenco proprio
@@ -257,7 +259,7 @@ sono ospitati su GitHub.%
 } 
 
 Per portarsi in locale una copia a sola lettura è sufficiente utilizzare
-il client \textsc{GIT,}%
+il client \textsc{Git,}%
 \footnote{Per i sistemi Debian e derivati basta eseguire: \texttt{apt-get install
 git-core}%
 } nel seguente modo:
@@ -285,7 +287,9 @@ Notasi che, nel caso si sia già in possesso di un account su GitHub,
 Le directory presenti sono:
 \begin{description}
 \item [{db}] ove sono contenuti i file, divisi per regione, strutturati
-a 'mo di CSV, con i singoli LUG, riga per riga (§\ref{sub:Struttura-CSV})
+a 'mo di CSV, con i singoli LUG, riga per riga%
+\footnote{§\vref{sub:Struttura-CSV}%
+}
 \item [{script}] dove sono presenti tutte le procedure automatiche di appoggio
 \end{description}
 Oltre a queste si trovano i file:
@@ -331,7 +335,7 @@ per poi essere presi, via \texttt{pull}, dagli altri.
 Il formato CSV, utilizzato dai file presenti nella directory \texttt{db/},
 usa come separatore è il simbolo di pipe, ed è suddiviso nei seguenti
 campi:%
-\footnote{Per il dettaglio delle voci vedi §\ref{sec:Come-richiedere-l'inserimento}%
+\footnote{Per il dettaglio delle voci vedi §\vref{sec:Come-richiedere-l'inserimento}%
 }
 \begin{enumerate}
 \item Provincia 
@@ -341,7 +345,7 @@ campi:%
 \item Email di contatto
 \end{enumerate}
 
-\section{I controlli automatici}
+\section{I controlli automatici\label{sec:I-controlli-automatici}}
 
 
 \subsection{Spazzino\label{sub:Spazzino}}
@@ -380,14 +384,15 @@ con il prefisso \texttt{.spazzino}
 
 \subsection{WiMegera\label{sub:WiMegera}}
 
-WiMegera, invocabile da \texttt{script/WiMegera}.py, è uno script
+WiMegera, invocabile da \texttt{script/WiMegera.py}, è uno script
 in Python che si preoccupa di notificare le modifiche effettuate sulla
 Pagina dei Lug Italiani di Wikipedia.%
 \footnote{\texttt{https://secure.wikimedia.org/wikipedia/it/wiki/Lista\_dei\_LUG\_italiani}%
 }
 
-Valgono le stesse considerazioni tecniche relative a Spazzino (\ref{sub:Spazzino}),
-con due differenze: le notifiche vengono inviate alla mailing list
+Valgono le stesse considerazioni tecniche relative a Spazzino,%
+\footnote{§\vref{sub:Spazzino}%
+} con due differenze: le notifiche vengono inviate alla mailing list
 e non vi sono moduli esterni da installare relativamente all'interprete
 Python.
 
@@ -397,36 +402,52 @@ Python.
 Per ogni regione sono stati attivati i Google Alerts%
 \footnote{\texttt{http://www.google.com/alerts}%
 } relativi ai Linux User Group. Questi, al momento, arrivano ad Andrea
-Gelmini (§\ref{sec:Contatti}). Ad oggi hanno permesso di scovare
-un unico Lug al suo annuncio.%
+Gelmini.%
+\footnote{§\vref{sec:Contatti}%
+} Ad oggi hanno permesso di scovare un unico Lug al suo annuncio.%
 \footnote{\texttt{https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c}%
 }
 
 
-\chapter{Note operative}
+\chapter{Note}
 
-Se i manovali della LugMap (§\ref{sec:Contatti}) dovessero impazzire,
-oppure essere rapiti dagli alieni, i passaggi necessari per la ripresa
-del controllo dei singoli domini potrebbe essere così riassunta.
+Se i manovali della LugMap%
+\footnote{§\vref{sec:Contatti}%
+} dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi
+necessari per la ripresa del controllo dei singoli domini potrebbero
+essere così riassunti.
 
 
 \section{lugmap.linux.it}
 \begin{itemize}
-\item Migrare il repository GitHub che ospita tutto il codice e i dati (§\ref{sub:GitHub}).
-Notasi che è possibile \textit{forkare} il repository originale verso
+\item Migrare il repository GitHub che ospita tutto il codice e i dati.%
+\footnote{§\vref{sub:GitHub}%
+} Notasi che è possibile \textit{forkare} il repository originale verso
 un altro account GitHub, oppure crearne uno ex-novo esterno;
 \item modificare lo script in esecuzione sul server (via cron) che si occupa
 di aggiornare il sito. Sostanzialmente si tratta di farlo puntare
-al nuovo repository GIT. Questo, al momento, può essere fatto da Fabio
-Invernizzi (§\ref{sec:Contatti});
-\item attivare le procedure automatiche (§\ref{sub:Spazzino}) in locale,
-badando di sostituire all'interno del codice l'indirizzo email per
-le notifiche, che ora punta ad Andrea Gelmini. Un \texttt{grep -i
-gelmini }su tutti i file nella directory\texttt{ script/ }dovrebbe
-essere più che sufficiente.
+al nuovo repository Git. Questo, al momento, può essere fatto da Fabio
+Invernizzi;%
+\footnote{§\vref{sec:Contatti}%
+}
+\item attivare i controlli automatici%
+\footnote{§\vref{sec:I-controlli-automatici}%
+} in locale, badando di sostituire all'interno del codice l'indirizzo
+email per le notifiche, che ora punta ad Andrea Gelmini. Un \texttt{grep
+-i gelmini }su tutti i file nella directory\texttt{ script/ }dovrebbe
+essere più che sufficiente;
+\item modificare/aggiornare i contatti degli amministratori per la mailing
+list della LugMap,%
+\footnote{Si badi che gli indirizzi vengono citati in più punti, anche nel messaggio
+in calce ai singoli messaggi inviati dalla lista. Per quanto noioso,
+nell'eventualità, sarebbe d'obbligo ricontrollare tutte le opzioni
+impostate.%
+} contattando Marco d'Itri.%
+\footnote{§\vref{sec:Contatti}%
+}
 \end{itemize}
 
 \subsection{lugmap.it}
 
-Roberto sei grande abbastanza: arrangiati!
+Roberto, sei grande abbastanza: arrangiati!
 \end{document}
