@@ -1092,7 +1092,7 @@ apt-get install python-zodb
 \end_layout
 
 \begin_layout Standard
-Non sono necessari privilegi particolari.
+Non sono necessari privilegi particolari per l'esecuzione dello stesso.
 \end_layout
 
 \begin_layout Standard
