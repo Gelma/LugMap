@@ -1,104 +1,35 @@
 == LugMap de che? ==
-L'elenco dei LugMap è storicamente presente a questo indirizzo:
+L'ambizione della LugMap è di fornire un comodo strumento per mettere
+in contatto persone, e realtà, interessate alla diffusione del sistema
+operativo Linux, quale punta di diamante del Software Libero.
+
+== Dove si può consultare? ==
+La LugMap è storicamente presente a questo indirizzo:
 http://www.linux.it/LUG
-La stessa base dati viene utilizzata anche per aggiornare:
+Ma la stessa base dati viene utilizzata anche per aggiornare:
 http://lugmap.it
 
 == E 'sto elenco su GitHub che è? ==
 Si tratta di un modo rozzo, ma efficace, per mantenere aggiornata
 la lista dei LUG italiani di cui sopra.
 
-== Cosa devo fare per apparire in questo fantastico elenco? ==
-Per apparire nella lista puoi scrivere a lugmap@linux.it, oppure
-contattare Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628),
-dando le seguenti informazioni di base:
-      1) Regione/Provincia: per permettere un'agile individuazione sulla mappa;
-      2) Denominazione del gruppo: non c'è alcuna discriminante sulla forma
-         giuridica, o meno, dello stesso;
-      3) Zone dove si opera: l'attivita' del gruppo può essere limitata/delimitata
-         in una zona precisa della regione/provincia/citta' di appartenenza;
-         Non necessariamente si deve trattare di un'indicazione geografica in senso
-         stretto;
-      4) Indirizzo del sito WEB, oppure come poter entrare in contatto: in particolare,
-         se il gruppo sta nascendo/prendendo forma, può non esistere ancora un sito,
-         ma è importante poter essere contattati/raggiungibili per poter permettere
-         ad altri interessati di aggregarsi;
-      5) Una email, preferibilmente personale, di riferimento: l'utilizzo tipico è per
-         segnalare, eventualmente, malfunzionamenti o richiedere informazioni, da parte
-         della LugMap, qualora vi fossero dei dubbi.
-
-== Quali sono i criteri per apparire in questo super-fantastico elenco? ==
-Si tratta di banale buonsenso.
-Il fine ultimo della LugMap è quello di mettere in contatto persone e realta'
-interessate a Linux e al Software Libero.
-Quindi, cominciamo a definire cosa *non è* la LugMap:
-a) non è una classifica di LUG buoni, e LUG cattivi;
-b) non è una classifica di LUG bravi, o meno;
-c) non è una classifica di chi fa di più, e chi di meno.
-
-Da qui, per apparire nella LugMap è necessario essere un gruppo:
-a) che abbia come scopo la diffusione di Linux e del Software Libero;
-b) che possa essere raggiunto, attraverso un sito WEB o una mailing list, per esempio;
-c) con il quale si possa entrare in contatto. Tanto per fare un esempio
-   concreto, è inutile avere il sito WEB funzionante, ma nessuno che risponda alle
-   email o alle richieste degli interessati.
-
-== Non ho capito se il mio gruppo può farne parte ==
-Non ti preoccupare. Non siamo un gruppo di contabili o azzeccagarbugli.
-Scrivi serenamente alla mailing list pubblica del progetto
-lugmap@linux.it
-oppure, se preferisci un po' di riservatezza, contatta direttamente
-Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628).
-Qualora tu ci contattassi, saremmo felici di risponderti e di dedicarti
-del tempo. A maggior ragione nel caso tu volessi/stessi fondando un nuovo LUG.
-
 == Come posso collaborare? ==
 Chiunque è invitato a:
-a) scrivere a lugmap@linux.it, oppure contattare Andrea Gelmini
-   (andrea.gelmini@lugbs.linux.it - 328/7296628), per segnalare
-   aggiunte/correzioni/rimozioni
+a) scrivere alla mailing list pubblica lugmap@linux.it, oppure
+   contattare Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628),
+   per segnalare aggiunte/correzioni/rimozioni
 b) iscriversi alla mailing list relativa:
    http://lists.linux.it/listinfo/lugmap
 c) accedere al repository github del progetto:
    https://github.com/Gelma/LugMap
 
-== Obiettivi ==
-a) fornire agli interessati le informazioni *essenziali* per
-   il raggiungimento dei Lug eventualmente vicini
-b) fornire ai Lug la possibilita' di aggiornare facilmente
-   i dati stessi
-
-== Obiettivi tecnici ==
-a) mantenere aggiornati i dati esistenti (anche grazie a procedure
-   automatiche come spazzino.py)
-b) rendere agevolmente fruibile e pubblicabile il tutto
-c) poter mantenere traccia delle modifiche nel tempo
-d) mantenere la struttura delle informazioni (in modo da non rovinare
-   eventuali link esterni e/o indicizzazioni)
+== Vorrei maggiori informazioni ==
+Tutti i dettagli (o quasi) si possono trovare consultando la
+"Guida Intergalattica alla LugMap", disponibile nei seguenti formati:
+   https://github.com/Gelma/LugMap/blob/docs/Guida_Intergalattica_Alla_LugMap.pdf
+   https://github.com/Gelma/LugMap/blob/docs/Guida_Intergalattica_Alla_LugMap.dvi
+   https://github.com/Gelma/LugMap/blob/docs/Guida_Intergalattica_Alla_LugMap.tex
+   https://github.com/Gelma/LugMap/blob/docs/Guida_Intergalattica_Alla_LugMap.Lyx
 
 == Modus operandi ==
 Per ogni critica, una proposta propositiva. Astenersi perditempo.
-
-== Note per gli sviluppatori ==
-
-= Struttura del repository su GitHub ==
-Guardando ai vari branch:
-master: contiene solo i dati del database (directory db/)
-        e gli strumenti/informazioni non specifiche sui singoli branch.
-lugmap.it: contiene i file per la pubblicazione sul sito omonimo.
-lugmap.linux.it: contiene i file per la pubblicazione sul sito omonimo.
-Nota: entrambi i branch pescano dal master per fare il merge del db.
-
-= Struttura dei file del db ==
-I dati sono contenuti in file CSV discriminati per regione, con qualche eccezione.
-Il separatore è il simbolo di pipe (|).
-I campi sono:
-I) Provincia
-II) Denominazione
-III) Zona di azione
-IV) Email di contatto
-
-Per estrarre solo le mail di contatto è sufficiente definire un alias:
-   alias estrai_email='perl -wne'\''while(/[\w\.\-]+@[\w\.\-]+\w+/g){print "$&\n"}'\'''
-da invocare nel seguente modo:
-   cat db/*|estrai_email
