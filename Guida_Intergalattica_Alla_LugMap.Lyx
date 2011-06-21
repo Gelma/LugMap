@@ -937,8 +937,11 @@ Il formato CSV, utilizzato dai file presenti nella directory
 \family typewriter
 db/
 \family default
-, usa come separatore è il simbolo di pipe ('|'), ed è suddiviso nei seguenti
- campi:
+, usa come separatore il simbolo di pipe (
+\family typewriter
+'|'
+\family default
+), ed è suddiviso nei seguenti campi:
 \begin_inset Foot
 status open
 
