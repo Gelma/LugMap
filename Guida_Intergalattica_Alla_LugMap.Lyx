@@ -849,7 +849,7 @@ La struttura dei branch
 
 \begin_layout Description
 master dati grezzi, README (visualizzato di default sul repository GitHub),
- e gli script di appoggio:
+ script di appoggio e documentazione:
 \end_layout
 
 \begin_layout Description
@@ -862,7 +862,7 @@ lugmap.it idem come sopra;
 \end_layout
 
 \begin_layout Description
-docs area di pubblicazione della documentazione.
+docs area di stesura della documentazione.
 \end_layout
 
 \begin_layout Standard
