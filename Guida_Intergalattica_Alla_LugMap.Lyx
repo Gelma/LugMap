@@ -624,6 +624,95 @@ http://lists.linux.it/listinfo/lug
 \end_layout
 
 \begin_layout Section
+Come posso rimanere aggiornato?
+\end_layout
+
+\begin_layout Standard
+Per essere costantemente aggiornati sulle modifiche al codice, e ai contenuti,
+ è possibile:
+\end_layout
+
+\begin_layout Itemize
+iscriversi alla mailing list del progetto, dove vengono automaticamenti
+ segnalati tutti i commit
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+consultare l'interfaccia web di GitHub con l'elenco dei commit (si tratta
+ dell'equivalente di un 
+\family typewriter
+git log
+\family default
+)
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://github.com/Gelma/LugMap/commits/master
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+seguire il feed Atom
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://github.com/Gelma/LugMap/commits/master.atom
+\end_layout
+
+\end_inset
+
+ sempre dello stesso repository
+\end_layout
+
+\begin_layout Itemize
+infine, ovviamente, tenersi in locale una copia del repository
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:GitHub"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Posso darvi una mano?
 \end_layout
 
