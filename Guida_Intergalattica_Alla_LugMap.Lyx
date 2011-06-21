@@ -1,4 +1,4 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
 \lyxformat 413
 \begin_document
 \begin_header
@@ -87,32 +87,28 @@ Work in progress
 
 \begin_layout Standard
 Il contenuto di queste pagine non ha alcun valore.
- Deve ancora:
+ Il documento deve ancora:
 \end_layout
 
 \begin_layout Itemize
-essere completato
-\end_layout
-
-\begin_layout Itemize
-avere la mail da inserire per i contatti di Roberto Guido
+essere completato;
 \end_layout
 
 \begin_layout Itemize
 essere visionato e approvato dal direttivo di ILS (Diversamente rinominarlo
- come mie note personali)
+ come mie note personali);
 \end_layout
 
 \begin_layout Itemize
 essere corretto (in particolare, essendo stato scritto in tempi diversi,
  sicuramente ci sono dei problemi sulle coerenze dei richiami, delle note,
- ecc.)
+ ecc.);
 \end_layout
 
 \begin_layout Itemize
 può essere considerato pronto per la pubblicazione quando questa guida sia
  sufficiente per permettere a chiunque di prendere in mano la completa gestione
- della LugMap in qualsiasi momento
+ della LugMap in qualsiasi momento.
 \end_layout
 
 \begin_layout Standard
@@ -125,8 +121,8 @@ Un grazie sentito a chiunque dia una mano.
 \end_layout
 
 \begin_layout Standard
-Attenzione, che i file disponibili sono diversi, ma il sorgente vero di
- questo documento è il .Lyx
+Attenzione: i file disponibili sono diversi, ma il sorgente di questo documento
+ è il .Lyx
 \end_layout
 
 \begin_layout Chapter
@@ -145,7 +141,7 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugmap.linux.it
+http://lugmap.linux.it/
 \end_layout
 
 \end_inset
@@ -212,45 +208,42 @@ Pubblicazione delle informazioni
 \end_layout
 
 \begin_layout Standard
-I dati che compongono la LugMap sono comodamente visualizzabili a questi
- due indirizzi:
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-\shape smallcaps
-http://lugmap.linux.it
-\end_layout
-
-\begin_layout Itemize
-
-\family typewriter
-\shape smallcaps
-http://lugmap.it
-\end_layout
-
-\begin_layout Standard
-e liberamente accessibili in formato grezzo, così come tutto il codice dei
- siti indicati, dal repository GitHub
+I dati che compongono la LugMap sono liberamente accessibili in formato
+ grezzo, così come tutto il codice dei siti indicati, dal repository GitHub
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \family typewriter
-https://github.com/Gelma/LugMap
+http://github.com/
 \end_layout
 
 \end_inset
 
- presente all'indirizzo:
+ reperibile all'indirizzo:
 \end_layout
 
 \begin_layout Itemize
 
 \family typewriter
 https://github.com/Gelma/LugMap
+\end_layout
+
+\begin_layout Standard
+Essi sono comodamente visualizzabili presso questi indirizzi web:
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+http://lugmap.linux.it/
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+http://lugmap.it/
 \end_layout
 
 \begin_layout Section
@@ -280,18 +273,25 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-\shape smallcaps
 http://lists.linux.it/listinfo/lugmap
 \end_layout
 
 \begin_layout Plain Layout
-Si badi come pubblica ne implichi l'indicizzazione da parte dei motori di
- ricerca, e l'accesso urbi et orbi dei messaggi a tutti, anche in futuro
+Si badi che l'aggettivo 
+\begin_inset Quotes eld
+\end_inset
+
+pubblica
+\begin_inset Quotes erd
+\end_inset
+
+ ne implichi l'indicizzazione da parte dei motori di ricerca, e l'accesso
+ urbi et orbi dei messaggi a tutti, anche in futuro
 \end_layout
 
 \end_inset
 
- mandando una mail a: 
+mandando una mail a: 
 \family typewriter
 \shape smallcaps
 lugmap@linux.it
@@ -325,7 +325,7 @@ name "Roberto-Guido"
  scrivendo a 
 \family typewriter
 \shape smallcaps
-roberto-dammi-l'email-che-vuoi-qui
+bob4job@gmail.com
 \end_layout
 
 \end_deeper
@@ -337,7 +337,7 @@ Per problemi tecnici sui siti
 Per i domini i responsabili tecnici sono:
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \shape smallcaps
 lugmap.linux.it
@@ -356,7 +356,7 @@ fabulus@linux.it
 <md@linux.it>
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 
 \shape smallcaps
 lugmap.it 
@@ -458,7 +458,7 @@ zone interessate
 \series bold
 modalità di contatto
 \series default
-: tipicamente si tratta di fornire un sito WEB di riferimento, ma è chiaro
+: tipicamente si tratta di fornire un sito web di riferimento, ma è chiaro
  che, soprattutto nella fase iniziale in cui il gruppo sta nascendo e prendendo
  forma, può essere più che sufficiente un indirizzo email o un numero di
  telefono.
@@ -474,7 +474,7 @@ un indirizzo email:
 \series default
  preferibilmente personale, ed esterno al dominio indicato al punto precedente,
  su cui poter contare nel caso in cui vi sia la necessità di segnalare malfunzio
-namenti, o richiedere informazioni, da parte della LugMap.
+namenti o di richiedere informazioni da parte degli addetti alla LugMap.
 \end_layout
 
 \begin_layout Subsection
@@ -509,7 +509,6 @@ status open
 \begin_layout Plain Layout
 Italian Linux Society: 
 \family typewriter
-\shape smallcaps
 http://www.linux.it
 \end_layout
 
@@ -588,9 +587,9 @@ Innanzittutto i nostri più sinceri complimenti e un grande in bocca al lupo.
  Puoi richiedere subito l'inserimento nell'elenco proprio per avere uno
  strumento in più per raccogliere altre persone entusiaste e far sapere
  a tutti della tua iniziativa.
- Non è importante che sia fin da subito disponibile un sito.
- Può essere temporaneamente sostituito da un contatto telefonico, da una
- email, o da un annuncio.
+ Non è importante che sia fin da subito disponibile un sito: può essere
+ temporaneamente sostituito da un contatto telefonico, da una email, o da
+ un annuncio.
 \begin_inset Foot
 status open
 
@@ -660,7 +659,8 @@ segnalare l'eliminazione dei gruppi non più esistenti.
 \end_layout
 
 \begin_layout Itemize
-idem per il contrario: gruppi esistenti ma mai segnalati, o appena formatisi;
+idem per il contrario: segnalare gruppi esistenti ma mai indicizzati, o
+ appena formatisi;
 \end_layout
 
 \begin_layout Itemize
@@ -697,8 +697,8 @@ reference "sub:WiMegera"
 \end_layout
 
 \begin_layout Itemize
-segnalare ai media/siti, che pubblicano/utilizzano una vecchia versione
- della LugMap, la possibilità di accedere comodamente ai dati grezzi aggiornati.
+segnalare ai media/siti che pubblicano/utilizzano una vecchia versione della
+ LugMap la possibilità di accedere comodamente ai dati grezzi aggiornati.
 \begin_inset Foot
 status open
 
@@ -733,10 +733,10 @@ name "sub:GitHub"
 \end_layout
 
 \begin_layout Standard
-Tutti i dati della LugMap, il codice sorgente, e dei siti e dei programmi/proced
-ure, sono ospitati su GitHub.
+Tutti i dati della LugMap ed il codice sorgente dei siti e dei programmi/procedu
+re sono ospitati su GitHub.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -750,7 +750,7 @@ https://github.com/Gelma/LugMap
 \end_layout
 
 \begin_layout Standard
-Per portarsi in locale una copia a sola lettura è sufficiente utilizzare
+Per portarsi in locale una copia in sola lettura è sufficiente utilizzare
  il client 
 \shape smallcaps
 Git,
@@ -758,16 +758,18 @@ Git,
 status open
 
 \begin_layout Plain Layout
-Per i sistemi Debian e derivati basta eseguire: 
+Per i sistemi Debian e derivati basta eseguire 
 \family typewriter
 apt-get install git-core
+\family default
+ per installarlo
 \end_layout
 
 \end_inset
 
 
 \shape default
- nel seguente modo:
+ eseguendo:
 \end_layout
 
 \begin_layout Standard
@@ -777,49 +779,12 @@ status open
 
 \begin_layout Plain Layout
 
-gelma@gaio:/tmp$ git clone git://github.com/Gelma/LugMap.git LugMap
-\end_layout
-
-\begin_layout Plain Layout
-
-Cloning into LugMap...
-\end_layout
-
-\begin_layout Plain Layout
-
-remote: Counting objects: 1904, done.
-\end_layout
-
-\begin_layout Plain Layout
-
-remote: Compressing objects: 100% (828/828), done.
-\end_layout
-
-\begin_layout Plain Layout
-
-remote: Total 1904 (delta 1057), reused 1882 (delta 1035)
-\end_layout
-
-\begin_layout Plain Layout
-
-Receiving objects: 100% (1904/1904), 1.28 MiB | 92 KiB/s, done.
-\end_layout
-
-\begin_layout Plain Layout
-
-Resolving deltas: 100% (1057/1057), done.
- 
+git clone git://github.com/Gelma/LugMap.git LugMap
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Ora abbiamo a disposizione una copia del repository nella directory 
-\family typewriter
-LugMap.
 \end_layout
 
 \begin_layout Standard
@@ -897,7 +862,7 @@ lugmap.it idem come sopra;
 \end_layout
 
 \begin_layout Description
-docs area di stesura della sola documentazione.
+docs area di pubblicazione della documentazione.
 \end_layout
 
 \begin_layout Standard
@@ -912,37 +877,22 @@ status open
 
 \begin_layout Plain Layout
 
-gelma@gaio:/tmp/LugMap$ git checkout -t -b lugmap.it origin/lugmap.it
+git checkout -t -b lugmap.it origin/lugmap.it
 \end_layout
 
 \begin_layout Plain Layout
 
-(Output di conferma)
+git checkout -t -b lugmap.linux.it origin/lugmap.linux.it
 \end_layout
 
 \begin_layout Plain Layout
 
-gelma@gaio:/tmp/LugMap$ git checkout -t -b lugmap.linux.it origin/lugmap.linux.it
+git checkout -t -b docs origin/docs
 \end_layout
 
 \begin_layout Plain Layout
 
-(Output di conferma)
-\end_layout
-
-\begin_layout Plain Layout
-
-gelma@gaio:/tmp/LugMap$ git checkout -t -b docs origin/docs
-\end_layout
-
-\begin_layout Plain Layout
-
-(Output di conferma)
-\end_layout
-
-\begin_layout Plain Layout
-
-gelma@gaio:/tmp/LugMap$ git checkout master
+git checkout master
 \end_layout
 
 \end_inset
@@ -956,7 +906,11 @@ Si badi che entrambi i branch dei siti pescano dal master per allineare
 \end_layout
 
 \begin_layout Standard
-Questo significa che i contenuti del db/ vanno inseriti solo nel 
+Questo significa che i contenuti del 
+\family typewriter
+db/
+\family default
+ vanno inseriti solo nel 
 \family typewriter
 master
 \family default
@@ -983,7 +937,7 @@ Il formato CSV, utilizzato dai file presenti nella directory
 \family typewriter
 db/
 \family default
-, usa come separatore è il simbolo di pipe, ed è suddiviso nei seguenti
+, usa come separatore è il simbolo di pipe ('|'), ed è suddiviso nei seguenti
  campi:
 \begin_inset Foot
 status open
@@ -1017,7 +971,7 @@ Zona/zone coperte
 \end_layout
 
 \begin_layout Enumerate
-URL
+URL di riferimento (sito o altro)
 \end_layout
 
 \begin_layout Enumerate
@@ -1080,9 +1034,21 @@ cambiamenti significativi nei contenuti
 \end_layout
 
 \begin_layout Standard
-Al momento questo script viene eseguito ogni due giorni sul server del LugBS.
- Le mail, eventualmente generate dai cambiamenti indicati sopra, vengono
- inviate ad Andrea Gelmini.
+Al momento questo script viene eseguito ogni due giorni sul server del LugBS
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://lugbs.linux.it/
+\end_layout
+
+\end_inset
+
+.
+ Le mail eventualmente generate dai cambiamenti indicati sopra vengono inviate
+ ad Andrea Gelmini.
  Si è deciso di non inviare il tutto alla mailing list della LugMap per
  evitare di inondare la stessa con falsi positivi, spesso dovuti alle esoteriche
  scelte tecnologiche dei vari Lug.
@@ -1091,8 +1057,20 @@ Al momento questo script viene eseguito ogni due giorni sul server del LugBS.
 \begin_layout Standard
 Spazzino dovrebbe funzionare senza problemi su una qualsiasi distribuzione
  Linux sufficientemente moderna, con l'unica accortezza di installare il
- motore di ZODB.
- Su sistemi Debian like è sufficiente dare:
+ motore di ZODB
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.zodb.org/
+\end_layout
+
+\end_inset
+
+.
+ Su sistemi Debian-like è sufficiente eseguire:
 \end_layout
 
 \begin_layout Standard
@@ -1141,7 +1119,7 @@ WiMegera, invocabile da
 script/WiMegera.py
 \family default
 , è uno script in Python che si preoccupa di notificare le modifiche effettuate
- sulla Pagina dei Lug Italiani di Wikipedia.
+ sulla pagina Wikipedia dei Lug Italiani.
 \begin_inset Foot
 status open
 
@@ -1244,7 +1222,6 @@ LatexCommand vref
 reference "sec:Contatti"
 
 \end_inset
-
 
 \end_layout
 
@@ -1380,7 +1357,7 @@ lugmap.it
 \end_layout
 
 \begin_layout Standard
-Roberto, sei grande abbastanza: arrangiati!
+TODO: procedura ancora non implementata
 \end_layout
 
 \end_body
