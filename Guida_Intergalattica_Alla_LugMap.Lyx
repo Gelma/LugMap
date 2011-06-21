@@ -1210,7 +1210,11 @@ https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
 \end_layout
 
 \begin_layout Chapter
-Note
+DefCon
+\end_layout
+
+\begin_layout Section
+lugmap.linux.it
 \end_layout
 
 \begin_layout Standard
@@ -1232,16 +1236,12 @@ reference "sec:Contatti"
 \end_inset
 
  dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
- per la ripresa del controllo dei singoli domini potrebbero essere così
- riassunti.
-\end_layout
-
-\begin_layout Section
-lugmap.linux.it
+ per la ripresa del controllo del contenuto del dominio potrebbero essere
+ così schematizzati, in particolare vi sarebbe la necessità di:
 \end_layout
 
 \begin_layout Itemize
-Migrare il repository GitHub che ospita tutto il codice e i dati.
+migrare il repository GitHub che ospita tutto il codice e i dati.
 \begin_inset Foot
 status open
 
@@ -1354,14 +1354,6 @@ reference "sec:Contatti"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-lugmap.it
-\end_layout
-
-\begin_layout Standard
-TODO: procedura ancora non implementata
 \end_layout
 
 \end_body
