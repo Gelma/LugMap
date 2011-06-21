@@ -361,14 +361,24 @@ fabulus@linux.it
 \shape smallcaps
 lugmap.it 
 \shape default
-è intestato e gestito da Roberto Guido (§
+è intestato e gestito da Roberto Guido
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "Roberto-Guido"
 
 \end_inset
 
-)
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -393,7 +403,7 @@ Per vedere incluso il proprio gruppo nell'elenco è sufficiente contattare
 status open
 
 \begin_layout Plain Layout
-Vedi i contatti alla sezione 
+Vedi i contatti nella sezione 
 \begin_inset CommandInset ref
 LatexCommand vref
 reference "sec:Contatti"
@@ -568,9 +578,9 @@ In caso di dubbio, il tutto viene fatto derimere al consiglio direttivo
  contenuti della LugMap.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Sto fondando un LUG.
- Può già essere inserito?
+ Può già apparire?
 \end_layout
 
 \begin_layout Standard
@@ -831,14 +841,24 @@ Le directory presenti sono:
 
 \begin_layout Description
 db ove sono contenuti i file, divisi per regione, strutturati a 'mo di CSV,
- con i singoli LUG, riga per riga (§
+ con i singoli LUG, riga per riga
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:Struttura-CSV"
 
 \end_inset
 
-)
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -971,7 +991,7 @@ status open
 \begin_layout Plain Layout
 Per il dettaglio delle voci vedi §
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sec:Come-richiedere-l'inserimento"
 
 \end_inset
@@ -1006,6 +1026,13 @@ Email di contatto
 
 \begin_layout Section
 I controlli automatici
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:I-controlli-automatici"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1130,15 +1157,25 @@ https://secure.wikimedia.org/wikipedia/it/wiki/Lista_dei_LUG_italiani
 \end_layout
 
 \begin_layout Standard
-Valgono le stesse considerazioni tecniche relative a Spazzino (
+Valgono le stesse considerazioni tecniche relative a Spazzino,
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:Spazzino"
 
 \end_inset
 
-), con due differenze: le notifiche vengono inviate alla mailing list e
- non vi sono moduli esterni da installare relativamente all'interprete Python.
+
+\end_layout
+
+\end_inset
+
+ con due differenze: le notifiche vengono inviate alla mailing list e non
+ vi sono moduli esterni da installare relativamente all'interprete Python.
 \end_layout
 
 \begin_layout Subsection
@@ -1148,7 +1185,7 @@ Google Alerts
 \begin_layout Standard
 Per ogni regione sono stati attivati i Google Alerts
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1159,17 +1196,26 @@ http://www.google.com/alerts
 \end_inset
 
  relativi ai Linux User Group.
- Questi, al momento, arrivano ad Andrea Gelmini (§
+ Questi, al momento, arrivano ad Andrea Gelmini.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sec:Contatti"
 
 \end_inset
 
-).
+
+\end_layout
+
+\end_inset
+
  Ad oggi hanno permesso di scovare un unico Lug al suo annuncio.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1183,18 +1229,28 @@ https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
 \end_layout
 
 \begin_layout Chapter
-Note operative
+Note
 \end_layout
 
 \begin_layout Standard
-Se i manovali della LugMap (§
+Se i manovali della LugMap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sec:Contatti"
 
 \end_inset
 
-) dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
+
+\end_layout
+
+\end_inset
+
+ dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
  per la ripresa del controllo dei singoli domini potrebbero essere così
  riassunti.
 \end_layout
@@ -1204,14 +1260,23 @@ lugmap.linux.it
 \end_layout
 
 \begin_layout Itemize
-Migrare il repository GitHub che ospita tutto il codice e i dati (§
+Migrare il repository GitHub che ospita tutto il codice e i dati.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:GitHub"
 
 \end_inset
 
-).
+
+\end_layout
+
+\end_inset
+
  Notasi che è possibile 
 \shape italic
 forkare
@@ -1224,25 +1289,45 @@ forkare
 modificare lo script in esecuzione sul server (via cron) che si occupa di
  aggiornare il sito.
  Sostanzialmente si tratta di farlo puntare al nuovo repository Git.
- Questo, al momento, può essere fatto da Fabio Invernizzi (§
+ Questo, al momento, può essere fatto da Fabio Invernizzi;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sec:Contatti"
 
 \end_inset
 
-);
-\end_layout
 
-\begin_layout Itemize
-attivare le procedure automatiche (§
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:Spazzino"
+\end_layout
 
 \end_inset
 
-) in locale, badando di sostituire all'interno del codice l'indirizzo email
+
+\end_layout
+
+\begin_layout Itemize
+attivare i controlli automatici
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+§
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:I-controlli-automatici"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ in locale, badando di sostituire all'interno del codice l'indirizzo email
  per le notifiche, che ora punta ad Andrea Gelmini.
  Un 
 \family typewriter
@@ -1256,7 +1341,8 @@ dovrebbe essere più che sufficiente;
 \end_layout
 
 \begin_layout Itemize
-modificare/aggiornare i contatti degli amministratori
+modificare/aggiornare i contatti degli amministratori per la mailing list
+ della LugMap,
 \begin_inset Foot
 status open
 
@@ -1269,14 +1355,24 @@ Si badi che gli indirizzi vengono citati in più punti, anche nel messaggio
 
 \end_inset
 
- per la mailing list della LugMap, contattando Marco d'Itri (§
+ contattando Marco d'Itri.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+§
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sec:Contatti"
 
 \end_inset
 
-).
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1284,7 +1380,7 @@ lugmap.it
 \end_layout
 
 \begin_layout Standard
-Roberto sei grande abbastanza: arrangiati!
+Roberto, sei grande abbastanza: arrangiati!
 \end_layout
 
 \end_body
