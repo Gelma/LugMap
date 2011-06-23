@@ -14,7 +14,7 @@ if ($argc < 2 || file_exists ($argv [1]) == false) {
 if (file_exists ('notices.db') == false) {
 	$db = sqlite_open ('notices.db');
 
-	$query = 'CREATE TABLE items (id INTEGER PRIMARY KEY, lug TEXT, parent TEXT, link TEST, title TEXT, description TEXT, date INTEGER)';
+	$query = 'CREATE TABLE items (id INTEGER PRIMARY KEY, lug TEXT, link TEST, title TEXT, description TEXT, date INTEGER)';
 	sqlite_query ($db, $query);
 }
 else {
@@ -38,11 +38,10 @@ foreach ($feeds as $feed) {
 		continue;
 
 	$items = $parser->get_items ();
-	$parent = sqlite_escape_string ($parser->subscribe_url ());
 	$link = sqlite_escape_string ($parser->get_permalink ());
 
 	foreach ($items as $item) {
-		$query = sprintf ("SELECT id FROM items WHERE parent = '%s' AND link = '%s'", $parent, $link);
+		$query = sprintf ("SELECT id FROM items WHERE link = '%s'", $link);
 		$existing = sqlite_query ($db, $query);
 
 		if (sqlite_num_rows ($existing) == 0) {
