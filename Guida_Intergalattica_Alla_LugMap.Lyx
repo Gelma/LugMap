@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-21 Giugno 2011
+29 Giugno 2011
 \end_layout
 
 \begin_layout Standard
@@ -97,12 +97,6 @@ essere completato;
 \begin_layout Itemize
 essere visionato e approvato dal direttivo di ILS (Diversamente rinominarlo
  come mie note personali);
-\end_layout
-
-\begin_layout Itemize
-essere corretto (in particolare, essendo stato scritto in tempi diversi,
- sicuramente ci sono dei problemi sulle coerenze dei richiami, delle note,
- ecc.);
 \end_layout
 
 \begin_layout Itemize
@@ -1298,6 +1292,18 @@ https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
 
 \end_layout
 
+\begin_layout Section
+Segnalazione di benvenuto
+\end_layout
+
+\begin_layout Section
+Segnalazioni di malfunzionamenti
+\end_layout
+
+\begin_layout Section
+Controlli per l'eventuale rimozione
+\end_layout
+
 \begin_layout Chapter
 DefCon
 \end_layout
@@ -1398,16 +1404,16 @@ reference "sec:I-controlli-automatici"
 \end_inset
 
  in locale, badando di sostituire all'interno del codice l'indirizzo email
- per le notifiche, che ora punta ad Andrea Gelmini.
+ per le notifiche, che ora punta all'indirizzo email di Andrea Gelmini.
  Un 
 \family typewriter
-grep -i gelmini 
+grep Intergalattica 
 \family default
 su tutti i file nella directory
 \family typewriter
  script/ 
 \family default
-dovrebbe essere più che sufficiente;
+è sufficiente per individuare i punti dove intervenire;
 \end_layout
 
 \begin_layout Itemize
