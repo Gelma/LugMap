@@ -104,7 +104,7 @@ class email_report():
 		"""Definisco dettagli email"""
 
 		self.mittente = 'lugmapcheck@gelma.net'
-		self.destinatario = ['andrea.gelmini@gmail.com']
+		self.destinatario = ['andrea.gelmini@gmail.com'] # Eventualmente da Aggiornare (vedi Guida Intergalattica alla LugMap §4.1)
 		self.righe = []
 		self.subject = 'Lugmap:'
 
