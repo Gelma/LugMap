@@ -96,7 +96,8 @@ I campi sono:
 I) Provincia
 II) Denominazione
 III) Zona di azione
-IV) Email di contatto
+IV) URL di riferimento
+V) Email di contatto
 
 Per estrarre solo le mail di contatto è sufficiente definire un alias:
    alias estrai_email='perl -wne'\''while(/[\w\.\-]+@[\w\.\-]+\w+/g){print "$&\n"}'\'''

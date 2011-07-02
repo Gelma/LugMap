@@ -877,6 +877,23 @@ Notasi che, nel caso si sia già in possesso di un account su GitHub, è anche
 forkare
 \shape default
  il repository originale.
+ Si consiglia comunque di limitare la pratica di duplicare i contenuti altrove
+ per l'utilizzo pubblico senza allinearsi periodicamente con la base dati
+ di partenza: la lista dei LUG italiani subisce variazioni molto piu spesso
+ di quanto ci si possa immaginare, e sarebbe molto scomodo e frustrante
+ se in giro sull'Internet iniziassero ad apparire elenchi non aggiornati.
+\end_layout
+
+\begin_layout Standard
+Se per un qualche motivo non potessi creare una copia locale del repository
+ ma volessi comunque accedere ai dati raw pubblici, puoi anche prelevarli
+ in maniera programmatica pescando da 
+\family typewriter
+http://raw.github.com/Gelma/LugMap/master/db/REGIONE.txt
+\family default
+, ad esempio 
+\family typewriter
+http://raw.github.com/Gelma/LugMap/master/db/abruzzo.txt
 \end_layout
 
 \begin_layout Subsection
