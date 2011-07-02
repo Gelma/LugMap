@@ -7,6 +7,7 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 \usepackage{varioref}
+\usepackage{calc}
 \usepackage{textcomp}
 \usepackage{babel}
 \begin{document}
@@ -17,7 +18,7 @@
 \author{Andrea Gelmini}
 
 
-\date{29 Giugno 2011}
+\date{2 Luglio 2011}
 
 \maketitle
 \tableofcontents{}
@@ -254,12 +255,14 @@ o appena formatisi;
 \item tenere sincronizzata la relativa pagina di Wikipedia.%
 \footnote{\texttt{http://it.wikipedia.org/wiki/Lista\_dei\_LUG\_italiani}%
 } Anche qui, abbiamo degli automatismi,%
-\footnote{Vedi §\ref{sub:WiMegera}%
+\footnote{Vedi §\vref{sub:WiMegera}%
 } ma un lavoro manuale è imprescindibile;
-\item segnalare ai media/siti che pubblicano/utilizzano una vecchia versione
-della LugMap la possibilità di accedere comodamente ai dati grezzi
-aggiornati.%
-\footnote{\texttt{https://github.com/Gelma/LugMap/tree/master/db}%
+\item segnalare, ai media/siti che pubblicano/utilizzano una vecchia versione
+della LugMap, la possibilità di accedere comodamente sia ai dati grezzi
+aggiornati in tempo reale,%
+\footnote{Vedi §\vref{sub:Accesso-ai-dati-grezzi}%
+} sia all'apposito widget per il web.%
+\footnote{\texttt{http://lugmap.linux.it/lug-o-matic/}%
 }
 \end{itemize}
 
@@ -278,8 +281,8 @@ sono ospitati su GitHub.%
 
 Per portarsi in locale una copia in sola lettura è sufficiente utilizzare
 il client \textsc{Git,}%
-\footnote{Per i sistemi Debian e derivati basta eseguire \texttt{apt-get install
-git-core} per installarlo%
+\footnote{Per i sistemi Debian e derivati l'installazione avviene lanciando\texttt{
+apt-get install git-core}%
 } eseguendo:
 
 \begin{lstlisting}
@@ -288,7 +291,58 @@ git clone git://github.com/Gelma/LugMap.git LugMap
 
 
 Notasi che, nel caso si sia già in possesso di un account su GitHub,
-è anche possibile \textit{forkare} il repository originale.
+è anche possibile \textit{forkare} il repository originale. Si consiglia
+comunque di limitare la pratica di duplicare i contenuti altrove per
+l'utilizzo pubblico senza allinearsi periodicamente con la base dati
+di partenza: la lista dei LUG italiani subisce variazioni molto piu
+spesso di quanto ci si possa immaginare, e sarebbe molto scomodo e
+frustrante se su Internet continuassero a proliferare elenchi non
+aggiornati.
+
+
+\subsubsection{Accesso ai dati grezzi\label{sub:Accesso-ai-dati-grezzi}}
+
+Se per qualsiasi ragione non fosse possibile creare una copia locale
+del repository, ma si volesse comunque accedere ai dati raw pubblici,
+è sempre garantita anche la possibilità di prelevarli in maniera programmatica
+pescandoli da un URL costruito in questo modo \texttt{}
+\begin{lstlisting}
+http://raw.github.com/Gelma/LugMap/master/db/REGIONE.txt
+\end{lstlisting}
+ ad esempio
+
+\texttt{}
+\begin{lstlisting}
+http://raw.github.com/Gelma/LugMap/master/db/abruzzo.txt
+\end{lstlisting}
+
+
+I nomi dei file delle regioni (e non) disponibili sono:
+\begin{itemize}
+\item abruzzo.txt
+\item basilicata.txt
+\item calabria.txt
+\item campania.txt
+\item emilia.txt friuli.txt Italia.txt
+\item lazio.txt
+\item liguria.txt
+\item lombardia.txt
+\item marche.txt
+\item molise.txt
+\item piemonte.txt
+\item puglia.txt
+\item sardegna.txt
+\item sicilia.txt
+\item toscana.txt
+\item trentino.txt
+\item umbria.txt
+\item valle.txt
+\item veneto.txt 
+\end{itemize}
+Lo stesso elenco può anche essere ottenuto, navigando comodamente
+le directory via \texttt{\textsc{HTTP.}}%
+\footnote{\texttt{https://github.com/Gelma/LugMap/tree/master/db}%
+}
 
 
 \subsection{La struttura dei file}
@@ -420,10 +474,158 @@ Gelmini.%
 }
 
 
-\section{Segnalazione di benvenuto}
+\section{Controlli manuali}
+
+Gli interventi manuali richiesti sulla LugMap hanno, tipicamente,
+origine da un'insieme di eventi che tendono a ripetersi. Proviamo
+qui di seguito a individuarne i più tipici, e i comportamenti che
+si consiglia di tenere in genere. In ogni caso è bene:
+\begin{itemize}
+\item mettere sempre in copia la mailing list,%
+\footnote{Vedi §\vref{sec:Contatti}%
+} anche per evitare contatti ripetuti e ridondanti da più gestori della
+LugMap. Non solo, in questo modo è possibile a tutti tenere traccia
+delle evoluzioni dei singoli casi;
+\item abbondare nei dettagli nei messaggi di log dei commit. Si vuole permettere
+in futuro, anche ad altre persone, di capire le ragioni di una qualsiasi
+scelta/modifica;
+\item avere pazienza. I gruppi sono per lo più basati sul volontariato,
+con tutte le ovvie considerazioni che ne derivano. Non avere fretta
+nelle risposte, e non comportarsi da azzeccagarbugli sui siti, i modi
+e i contenuti;
+\item essere propositivi. Le mere critiche non servono a nulla. Per ogni
+critica una proposta propositiva o d'aiuto. Diversamente è solo tempo
+perso;
+\item non prendersi troppo sul serio. Stiamo parlando della LugMap, non
+del pubblico registro italiano bici.%
+\footnote{\texttt{http://www.registroitalianobici.it/}%
+}
+\end{itemize}
+
+\subsection{Messaggio di benvenuto}
+
+Come forma di cortesia, e di educazione, è bene informare eventuali
+nuovi gruppi inseriti dell'avvenuta aggiunta nella LugMap. In questo
+modo è possibile chiedere anche un controllo dei dati e un riferimento
+email preciso per un responsabile.%
+\footnote{Vedi §\vref{sec:Come-richiedere-l'inserimento}%
+}
+
+Un messaggio tipo di benvenuto può suonare più o meno così:
+
+\framebox{\begin{minipage}[t]{1\columnwidth}%
+Ciao,
+
+~~~sono Gino Pilotino, uno dei Manovali del progetto LugMap di
+ILS.\textonesuperior{}
+
+~~~Mi permetto di disturbarti per informarti che abbiamo aggiunto
+il \textit{gruppo/LUG/FSUG} di cui fai parte.\texttwosuperior{}
+
+~~~Ti chiedo la cortesia di controllare la bontà dei dati inseriti\textthreesuperior{}
+e di indicarci un contatto email a cui poter scrivere nel caso ve
+ne fosse la necessità.
+
+~~~Ti saremmo molto grati se potessi controllare gli altri gruppi
+indicati nella tua regione, o segnalarci eventuali errori.
+
+\medskip{}
+~~~Grazie e complimenti per la vostra iniziativa,
+
+~~~Gino Pilotino
+
+\smallskip{}
+-------
+
+\textonesuperior{} http://lugmap.linux.it
+
+~~http://lugmap.it
+
+\texttwosuperior{} può essere interessante indicare il link del commit
+su GitHub
+
+\textthreesuperior{} link alla mappa della regione%
+\end{minipage}}
 
 
 \section{Segnalazioni di malfunzionamenti}
+
+
+\subsection{Malfunzionamenti temporanei}
+
+I casi tipici di malfunzionamenti temporanei che riscontriamo e che
+vengono segnalati, in particolare, da Spazzino, sono:
+\begin{itemize}
+\item sito non raggiungibile: vi sono gruppi che tengono i propri siti sulle
+connessioni ADSL casalinghe. A questi, in caso di contatto, è bene
+far presente che ILS offre spazio e banda in forma gratuita;
+\item configurazioni errate di DB o Apache;
+\item configurazione errata dei DNS;
+\item puntamento a IP non funzionanti: in caso di migrazioni et similia;
+\item problemi sul routing dei pacchetti.
+\end{itemize}
+In questi casi è bene:
+\begin{itemize}
+\item controllare che il problema non dipenda da noi;
+\item controllare che il problema non dipenda da ILS;%
+\footnote{Nel caso, per esempio, dei domini ospitati come terzo livello di linux.it;
+nel qual caso conviene avvertire/sentire direttamente Marco d'Itri
+(vedi §\vref{sec:Contatti})%
+}
+\item attendere almeno un'oretta: ci si può essere imbattutti in noie che
+sono già in via di risoluzione;
+\item inserire il sito in oggetto nel file \texttt{ToDO} (del branch master),
+nella sezione \texttt{Ricontrollare};
+\item a questo punto, a propria discrezione, valutare la possibilità di
+contattare gli interessati.
+\end{itemize}
+Per il contatto è suggerita una mail di questo tipo:
+
+\framebox{\begin{minipage}[t]{1\columnwidth}%
+Oggetto: segnalazione problema URL-DEL-SITO
+
+\medskip{}
+Ciao,
+
+~~~sono Gino Pilotino dei Manovali del progetto LugMap di ILS.\textonesuperior{}
+
+~~~Mi permetto di disturbarti per informarti che il sito in oggetto
+non ci risulta funzionante a questo momento \textit{(oppure da tot
+giorni)}.
+
+~~~\textit{Seguono eventuali dettagli tecnici, se necessari}.
+
+\medskip{}
+~~~Buona continuazione,
+
+~~~Gino Pilotino
+
+\smallskip{}
+-------
+
+\textonesuperior{} http://lugmap.linux.it
+
+~~http://lugmap.it%
+\end{minipage}}
+
+
+\subsection{Problemi temporanei}
+
+Si è usi rimuovere dall'elenco dei DB una voce, e inserirla nel file
+\texttt{ToDo} nella sezione \texttt{Tolti dal DB in attesa di conferma},
+i gruppi che riscontrano i seguenti problemi:
+\begin{itemize}
+\item sedo parking: il dominio, scaduto o ri-acquistato da terzi, viene
+utilizzato come mera pagina pubblicitaria;
+\item attesa di rinnovo: il dominio viene sospeso in attesa di rinnovo;
+\item acquisto da parte di terzi: come veicolo pubblicitario;
+\item cambiamento di scopo: socio di un Lug che utilizzi il dominio per
+altri scopi
+\end{itemize}
+Per ognuno di questi casi l'ideale è, a colpi di \texttt{WHOIS}, capire
+come possa essere la situazione e, comunque, contattare il referente
+indicato nell LugMap per sapere se, la si tratti di uno stato permanente
+di abbandono o temporaneo (per esempio in attesa di rinnovo).
 
 
 \section{Controlli per l'eventuale rimozione}

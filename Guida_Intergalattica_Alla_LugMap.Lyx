@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-29 Giugno 2011
+2 Luglio 2011
 \end_layout
 
 \begin_layout Standard
@@ -1465,11 +1465,538 @@ https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
 \end_layout
 
 \begin_layout Section
-Segnalazione di benvenuto
+Controlli manuali
+\end_layout
+
+\begin_layout Standard
+Gli interventi manuali richiesti sulla LugMap hanno, tipicamente, origine
+ da un'insieme di eventi che tendono a ripetersi.
+ Proviamo qui di seguito a individuarne i più tipici, e i comportamenti
+ che si consiglia di tenere in genere.
+ In ogni caso è bene:
+\end_layout
+
+\begin_layout Itemize
+mettere sempre in copia la mailing list,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ anche per evitare contatti ripetuti e ridondanti da più gestori della LugMap.
+ Non solo, in questo modo è possibile a tutti tenere traccia delle evoluzioni
+ dei singoli casi;
+\end_layout
+
+\begin_layout Itemize
+abbondare nei dettagli nei messaggi di log dei commit.
+ Si vuole permettere in futuro, anche ad altre persone, di capire le ragioni
+ di una qualsiasi scelta/modifica;
+\end_layout
+
+\begin_layout Itemize
+avere pazienza.
+ I gruppi sono per lo più basati sul volontariato, con tutte le ovvie consideraz
+ioni che ne derivano.
+ Non avere fretta nelle risposte, e non comportarsi da azzeccagarbugli sui
+ siti, i modi e i contenuti;
+\end_layout
+
+\begin_layout Itemize
+essere propositivi.
+ Le mere critiche non servono a nulla.
+ Per ogni critica una proposta propositiva o d'aiuto.
+ Diversamente è solo tempo perso;
+\end_layout
+
+\begin_layout Itemize
+non prendersi troppo sul serio.
+ Stiamo parlando della LugMap, non del pubblico registro italiano bici.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.registroitalianobici.it/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Messaggio di benvenuto
+\end_layout
+
+\begin_layout Standard
+Come forma di cortesia, e di educazione, è bene informare eventuali nuovi
+ gruppi inseriti dell'avvenuta aggiunta nella LugMap.
+ In questo modo è possibile chiedere anche un controllo dei dati e un riferiment
+o email preciso per un responsabile.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Come-richiedere-l'inserimento"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un messaggio tipo di benvenuto può suonare più o meno così:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Ciao,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+sono Gino Pilotino, uno dei Manovali del progetto LugMap di ILS.¹
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Mi permetto di disturbarti per informarti che abbiamo aggiunto il 
+\shape italic
+gruppo/LUG/FSUG
+\shape default
+ di cui fai parte.²
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Ti chiedo la cortesia di controllare la bontà dei dati inseriti³ e di indicarci
+ un contatto email a cui poter scrivere nel caso ve ne fosse la necessità.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Ti saremmo molto grati se potessi controllare gli altri gruppi indicati
+ nella tua regione, o segnalarci eventuali errori.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Grazie e complimenti per la vostra iniziativa,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Gino Pilotino
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+-------
+\end_layout
+
+\begin_layout Plain Layout
+¹ http://lugmap.linux.it
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+http://lugmap.it
+\end_layout
+
+\begin_layout Plain Layout
+² può essere interessante indicare il link del commit su GitHub
+\end_layout
+
+\begin_layout Plain Layout
+³ link alla mappa della regione
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
 Segnalazioni di malfunzionamenti
+\end_layout
+
+\begin_layout Subsection
+Malfunzionamenti temporanei
+\end_layout
+
+\begin_layout Standard
+I casi tipici di malfunzionamenti temporanei che riscontriamo e che vengono
+ segnalati, in particolare, da Spazzino, sono:
+\end_layout
+
+\begin_layout Itemize
+sito non raggiungibile: vi sono gruppi che tengono i propri siti sulle connessio
+ni ADSL casalinghe.
+ A questi, in caso di contatto, è bene far presente che ILS offre spazio
+ e banda in forma gratuita;
+\end_layout
+
+\begin_layout Itemize
+configurazioni errate di DB o Apache;
+\end_layout
+
+\begin_layout Itemize
+configurazione errata dei DNS;
+\end_layout
+
+\begin_layout Itemize
+puntamento a IP non funzionanti: in caso di migrazioni et similia;
+\end_layout
+
+\begin_layout Itemize
+problemi sul routing dei pacchetti.
+\end_layout
+
+\begin_layout Standard
+In questi casi è bene:
+\end_layout
+
+\begin_layout Itemize
+controllare che il problema non dipenda da noi;
+\end_layout
+
+\begin_layout Itemize
+controllare che il problema non dipenda da ILS;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Nel caso, per esempio, dei domini ospitati come terzo livello di linux.it;
+ nel qual caso conviene avvertire/sentire direttamente Marco d'Itri (vedi
+ §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+attendere almeno un'oretta: ci si può essere imbattutti in noie che sono
+ già in via di risoluzione;
+\end_layout
+
+\begin_layout Itemize
+inserire il sito in oggetto nel file 
+\family typewriter
+ToDO
+\family default
+ (del branch master), nella sezione 
+\family typewriter
+Ricontrollare
+\family default
+;
+\end_layout
+
+\begin_layout Itemize
+a questo punto, a propria discrezione, valutare la possibilità di contattare
+ gli interessati.
+\end_layout
+
+\begin_layout Standard
+Per il contatto è suggerita una mail di questo tipo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Oggetto: segnalazione problema URL-DEL-SITO
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+Ciao,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+sono Gino Pilotino dei Manovali del progetto LugMap di ILS.¹
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Mi permetto di disturbarti per informarti che il sito in oggetto non ci
+ risulta funzionante a questo momento 
+\shape italic
+(oppure da tot giorni)
+\shape default
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\shape italic
+Seguono eventuali dettagli tecnici, se necessari
+\shape default
+.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Buona continuazione,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Gino Pilotino
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+-------
+\end_layout
+
+\begin_layout Plain Layout
+¹ http://lugmap.linux.it
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+http://lugmap.it
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Problemi temporanei
+\end_layout
+
+\begin_layout Standard
+Si è usi rimuovere dall'elenco dei DB una voce, e inserirla nel file 
+\family typewriter
+ToDo
+\family default
+ nella sezione 
+\family typewriter
+Tolti dal DB in attesa di conferma
+\family default
+, i gruppi che riscontrano i seguenti problemi:
+\end_layout
+
+\begin_layout Itemize
+sedo parking: il dominio, scaduto o ri-acquistato da terzi, viene utilizzato
+ come mera pagina pubblicitaria;
+\end_layout
+
+\begin_layout Itemize
+attesa di rinnovo: il dominio viene sospeso in attesa di rinnovo;
+\end_layout
+
+\begin_layout Itemize
+acquisto da parte di terzi: come veicolo pubblicitario;
+\end_layout
+
+\begin_layout Itemize
+cambiamento di scopo: socio di un Lug che utilizzi il dominio per altri
+ scopi
+\end_layout
+
+\begin_layout Standard
+Per ognuno di questi casi l'ideale è, a colpi di 
+\family typewriter
+WHOIS
+\family default
+, capire come possa essere la situazione e, comunque, contattare il referente
+ indicato nell LugMap per sapere se, la si tratti di uno stato permanente
+ di abbandono o temporaneo (per esempio in attesa di rinnovo).
 \end_layout
 
 \begin_layout Section
