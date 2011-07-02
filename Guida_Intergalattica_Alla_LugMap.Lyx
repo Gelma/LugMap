@@ -766,7 +766,7 @@ status open
 \begin_layout Plain Layout
 Vedi §
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand vref
 reference "sub:WiMegera"
 
 \end_inset
@@ -780,15 +780,33 @@ reference "sub:WiMegera"
 \end_layout
 
 \begin_layout Itemize
-segnalare ai media/siti che pubblicano/utilizzano una vecchia versione della
- LugMap la possibilità di accedere comodamente ai dati grezzi aggiornati.
+segnalare, ai media/siti che pubblicano/utilizzano una vecchia versione
+ della LugMap, la possibilità di accedere comodamente sia ai dati grezzi
+ aggiornati in tempo reale,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Accesso-ai-dati-grezzi"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ sia all'apposito widget per il web.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \family typewriter
-https://github.com/Gelma/LugMap/tree/master/db
+http://lugmap.linux.it/lug-o-matic/
 \end_layout
 
 \end_inset
@@ -841,11 +859,9 @@ Git,
 status open
 
 \begin_layout Plain Layout
-Per i sistemi Debian e derivati basta eseguire 
+Per i sistemi Debian e derivati l'installazione avviene lanciando
 \family typewriter
-apt-get install git-core
-\family default
- per installarlo
+ apt-get install git-core
 \end_layout
 
 \end_inset
@@ -881,19 +897,158 @@ forkare
  per l'utilizzo pubblico senza allinearsi periodicamente con la base dati
  di partenza: la lista dei LUG italiani subisce variazioni molto piu spesso
  di quanto ci si possa immaginare, e sarebbe molto scomodo e frustrante
- se su Internet prosperassero elenchi non aggiornati.
+ se su Internet continuassero a proliferare elenchi non aggiornati.
+\end_layout
+
+\begin_layout Subsubsection
+Accesso ai dati grezzi
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Accesso-ai-dati-grezzi"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Se per un qualche motivo non potessi creare una copia locale del repository
- ma volessi comunque accedere ai dati raw pubblici, puoi anche prelevarli
- in maniera programmatica pescando da 
+Se per qualsiasi ragione non fosse possibile creare una copia locale del
+ repository, ma si volesse comunque accedere ai dati raw pubblici, è sempre
+ garantita anche la possibilità di prelevarli in maniera programmatica pescandol
+i da un URL costruito in questo modo 
 \family typewriter
+
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
 http://raw.github.com/Gelma/LugMap/master/db/REGIONE.txt
+\end_layout
+
+\end_inset
+
+
 \family default
-, ad esempio 
+ ad esempio
+\end_layout
+
+\begin_layout Standard
+
 \family typewriter
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
 http://raw.github.com/Gelma/LugMap/master/db/abruzzo.txt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I nomi dei file delle regioni (e non) disponibili sono:
+\end_layout
+
+\begin_layout Itemize
+abruzzo.txt
+\end_layout
+
+\begin_layout Itemize
+basilicata.txt
+\end_layout
+
+\begin_layout Itemize
+calabria.txt
+\end_layout
+
+\begin_layout Itemize
+campania.txt
+\end_layout
+
+\begin_layout Itemize
+emilia.txt friuli.txt Italia.txt
+\end_layout
+
+\begin_layout Itemize
+lazio.txt
+\end_layout
+
+\begin_layout Itemize
+liguria.txt
+\end_layout
+
+\begin_layout Itemize
+lombardia.txt
+\end_layout
+
+\begin_layout Itemize
+marche.txt
+\end_layout
+
+\begin_layout Itemize
+molise.txt
+\end_layout
+
+\begin_layout Itemize
+piemonte.txt
+\end_layout
+
+\begin_layout Itemize
+puglia.txt
+\end_layout
+
+\begin_layout Itemize
+sardegna.txt
+\end_layout
+
+\begin_layout Itemize
+sicilia.txt
+\end_layout
+
+\begin_layout Itemize
+toscana.txt
+\end_layout
+
+\begin_layout Itemize
+trentino.txt
+\end_layout
+
+\begin_layout Itemize
+umbria.txt
+\end_layout
+
+\begin_layout Itemize
+valle.txt
+\end_layout
+
+\begin_layout Itemize
+veneto.txt 
+\end_layout
+
+\begin_layout Standard
+Lo stesso elenco può anche essere ottenuto, navigando comodamente le directory
+ via 
+\family typewriter
+\shape smallcaps
+HTTP.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://github.com/Gelma/LugMap/tree/master/db
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
