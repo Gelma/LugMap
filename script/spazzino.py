@@ -79,7 +79,7 @@ class Lug(persistent.Persistent):
 	def controllo_contenuto(self):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
-		print "Controllo contenuto",self.dominio
+		print "Controllo contenuto"
 		try: # pesco la pagina
 			richiesta = urllib2.Request(self.url,None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
 			self.pagina_html = urllib2.urlopen(richiesta).read()
@@ -104,7 +104,7 @@ class Lug(persistent.Persistent):
 	def controllo_title_della_pagina(self):
 		"""Leggo il title della pagina e controllo che non sia cambiato. True/False di ritorno"""
 
-		print "Controllo title",self.dominio
+		print "Controllo title"
 		self.soup = BeautifulSoup.BeautifulSoup(self.pagina_html)
 		titolo_attuale = self.soup.html.head.title.string.strip()
 
