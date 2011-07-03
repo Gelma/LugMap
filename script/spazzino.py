@@ -80,7 +80,7 @@ class Lug(persistent.Persistent):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
 		print "Controllo contenuto"
-		try: # pesco la pagina
+		try: # pesco la pagina. FIX: sembrerebbe, ma è da controllare, che il fetch della pagina non segua i redirect, o almeno alcuni (vedi lugman.net). Questo si riflette poi anche sul successivo controllo del title
 			richiesta = urllib2.Request(self.url,None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
 			self.pagina_html = urllib2.urlopen(richiesta).read()
 		except:
@@ -106,7 +106,10 @@ class Lug(persistent.Persistent):
 
 		print "Controllo title"
 		self.soup = BeautifulSoup.BeautifulSoup(self.pagina_html)
-		titolo_attuale = self.soup.html.head.title.string.strip()
+		try:
+			titolo_attuale = self.soup.html.head.title.string.strip()
+		except: # se non ho un title, mollo
+			return True
 
 		try:
 			if self.titolo != titolo_attuale:
