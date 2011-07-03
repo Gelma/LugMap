@@ -114,7 +114,7 @@ class Lug(persistent.Persistent):
 		try:
 			if self.titolo != titolo_attuale:
 				print "Divergenza", self.titolo, titolo_attuale
-				self.email-errori.aggiunti('      Errore: title della home cambiato da ' +self.titolo+' a '+titolo_attuale)
+				self.email_errori.aggiunti('      Errore: title della home cambiato da ' +self.titolo+' a '+titolo_attuale)
 				self.numero_errori += 1
 				self.titolo = titolo_attuale
 				return False
@@ -186,6 +186,6 @@ if __name__ == "__main__":
 				if lug.controllo_contenuto():
 					lug.controllo_title_della_pagina()
 			lug.invia_report()
-transaction.commit()
+			transaction.commit()
 db.pack()
 db.close()
