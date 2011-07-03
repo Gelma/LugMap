@@ -25,10 +25,17 @@ if True: # import dei moduli
 		import sys
 		print "Non sono disponibili tutti i moduli standard necessari."
 		sys.exit(-1)
+
 	try:
 		import ZODB, persistent, transaction
 	except:
-		print "Non sono disponibili uno o più di questi moduli: ZODB, persistent, transaction"
+		print "Installa ZODB3: 'easy_install zodb3' oppyre 'apt-get install python-zodb'"
+		sys.exit(-1)
+	try:
+		import BeautifulSoup
+	except:
+		print "Installa BeautifulSoup: 'easy_install beautifulsoup' oppure 'apt-get install python-beautifulsoup'"
+		sys.exit(-1)
 
 if True: # attiva DB
 	from ZODB.FileStorage import FileStorage
@@ -72,15 +79,16 @@ class Lug(persistent.Persistent):
 	def controllo_contenuto(self):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
+		print "Controllo contenuto",self.dominio
 		try: # pesco la pagina
 			richiesta = urllib2.Request(self.url,None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
-			pagina_html = urllib2.urlopen(richiesta).read()
+			self.pagina_html = urllib2.urlopen(richiesta).read()
 		except:
 			self.email_errori.aggiungi('       Errore: impossibile leggere la pagina html.')
 			self.numero_errori += 1
 			return False
 
-		self.Termini_Attuali = set(pagina_html.split()) # Estrapolo le parole della pagina HTML
+		self.Termini_Attuali = set(self.pagina_html.split()) # Estrapolo le parole della pagina HTML
 		valore_magico = \
 		  float(len(self.Termini_Precedenti.intersection(self.Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(self.Termini_Attuali)))
 		self.Termini_Precedenti = self.Termini_Attuali
@@ -90,6 +98,27 @@ class Lug(persistent.Persistent):
 			self.email_errori.aggiungi('      Errore: troppa differenza di contenuto:' +str(valore_magico))
 			self.numero_errori += 1
 			return False
+		else:
+			return True
+
+	def controllo_title_della_pagina(self):
+		"""Leggo il title della pagina e controllo che non sia cambiato. True/False di ritorno"""
+
+		print "Controllo title",self.dominio
+		self.soup = BeautifulSoup.BeautifulSoup(self.pagina_html)
+		titolo_attuale = self.soup.html.head.title.string.strip()
+
+		try:
+			if self.titolo != titolo_attuale:
+				print "Divergenza", self.titolo, titolo_attuale
+				self.email-errori.aggiunti('      Errore: title della home cambiato da ' +self.titolo+' a '+titolo_attuale)
+				self.numero_errori += 1
+				self.titolo = titolo_attuale
+				return False
+			else:
+				return True
+		except AttributeError: # Se il DB è stato precedentemente creato non ho l'attributo di confronto
+			self.titolo = titolo_attuale
 
 	def invia_report(self):
 		self.email_errori.subject = 'LugMap: '+self.url
@@ -151,7 +180,8 @@ if __name__ == "__main__":
 				lug = Lug(url) # diversamente creo la classe
 				pdb[url] = lug # e la lego al DB
 			if lug.controllo_dns():
-				lug.controllo_contenuto()
+				if lug.controllo_contenuto():
+					lug.controllo_title_della_pagina()
 			lug.invia_report()
 transaction.commit()
 db.pack()
