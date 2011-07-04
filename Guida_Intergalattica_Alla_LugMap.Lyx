@@ -355,7 +355,7 @@ fabulus@linux.it
 \shape smallcaps
 lugmap.it 
 \shape default
-è intestato e gestito da Roberto Guido
+è gestito e intestato a Roberto Guido
 \begin_inset Foot
 status open
 
@@ -1462,6 +1462,50 @@ reference "sub:Spazzino"
 
  con due differenze: le notifiche vengono inviate alla mailing list e non
  vi sono moduli esterni da installare relativamente all'interprete Python.
+\end_layout
+
+\begin_layout Subsection
+Bigliettaro
+\end_layout
+
+\begin_layout Standard
+Bigliettaro, invocabile con 
+\family typewriter
+script/bigliettaro.py
+\family default
+, è uno script in Python che si prende la briga di confrontare il contenuto
+ del 
+\family typewriter
+db/
+\family default
+ locale con quello pubblicato remotamente, sia su 
+\family typewriter
+http://lugmap.linux.it
+\family default
+ che 
+\family typewriter
+http://lugmap.it
+\family default
+.
+ Eventuali file diversi vengono segnalati ad Andrea Gelmini.
+ Valgono le stesse considerazioni per Spazzino.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Spazzino"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
