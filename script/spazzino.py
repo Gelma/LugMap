@@ -105,9 +105,9 @@ class Lug(persistent.Persistent):
 		"""Leggo il title della pagina e controllo che non sia cambiato. True/False di ritorno"""
 
 		print "Controllo title"
-		self.soup = BeautifulSoup.BeautifulSoup(self.pagina_html)
+		soup = BeautifulSoup.BeautifulSoup(self.pagina_html)
 		try:
-			titolo_attuale = self.soup.html.head.title.string.strip()
+			titolo_attuale = soup.html.head.title.string.strip()
 		except: # se non ho un title, mollo
 			return True
 
@@ -186,6 +186,6 @@ if __name__ == "__main__":
 				if lug.controllo_contenuto():
 					lug.controllo_title_della_pagina()
 			lug.invia_report()
-			transaction.commit()
+transaction.commit()
 db.pack()
 db.close()
