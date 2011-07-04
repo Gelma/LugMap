@@ -84,7 +84,7 @@ class Lug(persistent.Persistent):
 
 		print "Controllo contenuto"
 		try: # pesco la pagina. FIX: sembrerebbe, ma è da controllare, che il fetch della pagina non segua i redirect, o almeno alcuni (vedi lugman.net). Questo si riflette poi anche sul successivo controllo del title
-			richiesta = urllib2.Request(self.url,None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
+			richiesta = urllib2.Request(self.url,None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
 			self.pagina_html = urllib2.urlopen(richiesta).read()
 		except:
 			self.email_errori.aggiungi('       Errore: impossibile leggere la pagina html.')

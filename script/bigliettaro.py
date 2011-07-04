@@ -42,7 +42,7 @@ if __name__ == "__main__":
 		for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 			fileURL = URL+filedb[5:]
 			print 'Controllo',fileURL
-			richiesta_file_db = urllib2.Request(fileURL, None, {"User-Agent":"LugMap.it checker - lugmap@linux.it"})
+			richiesta_file_db = urllib2.Request(fileURL, None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
 			try:
 				contenuto_remoto = urllib2.urlopen(richiesta_file_db).read()
 			except:
