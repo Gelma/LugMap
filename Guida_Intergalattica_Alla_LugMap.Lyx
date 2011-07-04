@@ -1528,10 +1528,6 @@ Sono attivi anche due controlli, affidati a servizi gratuiti esterni, per
  di aprire un varco a messaggi indesiderati.
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
 Controlli manuali
 \end_layout
@@ -2187,7 +2183,7 @@ su tutti i file nella directory
 modificare/aggiornare i contatti degli amministratori per la mailing list
  della LugMap,
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Si badi che gli indirizzi vengono citati in più punti, anche nel messaggio
@@ -2215,7 +2211,16 @@ reference "sec:Contatti"
 
 \end_inset
 
+;
+\end_layout
 
+\begin_layout Itemize
+attivare il monitoraggio esterno del continuo funzionamento del sito legato
+ al dominio 
+\family typewriter
+lugmap.linux.it
+\family default
+.
 \end_layout
 
 \end_body
