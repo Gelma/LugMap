@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-2 Luglio 2011
+4 Luglio 2011
 \end_layout
 
 \begin_layout Standard
@@ -95,7 +95,7 @@ essere completato;
 \end_layout
 
 \begin_layout Itemize
-essere visionato e approvato dal direttivo di ILS (Diversamente rinominarlo
+essere visionato e approvato dal direttivo di ILS (diversamente rinominarlo
  come mie note personali);
 \end_layout
 
@@ -1291,6 +1291,16 @@ il funzionamento dell'URL
 cambiamenti significativi nei contenuti
 \end_layout
 
+\begin_layout Itemize
+cambiamento dell'attributo 
+\family typewriter
+\shape smallcaps
+title
+\family default
+\shape default
+ dell'homepage
+\end_layout
+
 \begin_layout Standard
 Al momento questo script viene eseguito ogni due giorni sul server del LugBS
 \begin_inset Foot
@@ -1309,7 +1319,7 @@ http://lugbs.linux.it/
  ad Andrea Gelmini.
  Si è deciso di non inviare il tutto alla mailing list della LugMap per
  evitare di inondare la stessa con falsi positivi, spesso dovuti alle esoteriche
- scelte tecnologiche dei vari Lug.
+ scelte tecnologiche dei vari gruppi.
 \end_layout
 
 \begin_layout Standard
@@ -1327,7 +1337,18 @@ http://www.zodb.org/
 
 \end_inset
 
-.
+ e BeautifulSoup.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.crummy.com/software/BeautifulSoup/
+\end_layout
+
+\end_inset
+
  Su sistemi Debian-like è sufficiente eseguire:
 \end_layout
 
@@ -1339,6 +1360,35 @@ status open
 \begin_layout Plain Layout
 
 apt-get install python-zodb
+\end_layout
+
+\begin_layout Plain Layout
+
+apt-get install python-beautifulsoup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seconda delle preferenze è anche possibile:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+easy_install ZODB3
+\end_layout
+
+\begin_layout Plain Layout
+
+easy_install beautifulsoup
 \end_layout
 
 \end_inset
