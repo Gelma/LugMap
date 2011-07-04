@@ -27,7 +27,7 @@ if True: # import dei moduli
 		sys.exit(-1)
 	socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (vedi urllib2)
 
-def email_errori(URL, filedb):
+def email_errori(URL, filedb=''):
 	msg = "From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\nControlla\n" % ('lugmapcheck@gelma.net', 'andrae.gelmini@gmail.com', 'Lugmap: dati non sincronizzati: '+URL+filedb+'\n') # Eventualmente da Aggiornare (vedi Guida Intergalattica alla LugMap §4.1)
 	try:
 		server = smtplib.SMTP('localhost')
@@ -51,4 +51,4 @@ if __name__ == "__main__":
 			contenuto_locale = open(filedb, 'r').read()
 			if contenuto_locale != contenuto_remoto:
 				print "   * Differenza di contenuto"
-				email_errori(fileURL,': dati non sincronizzati')
+				email_errori(fileURL)
