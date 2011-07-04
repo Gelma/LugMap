@@ -46,6 +46,9 @@ if True: # attiva DB
 	pdb = connection.root()
 
 class Lug(persistent.Persistent):
+
+	testo_email_segnalazione = "Ciao,\n   mi chiamo Andrea Gelmini e faccio parte dei Manovali della LugMap.¹\n   Mi permetto di disturbarti per informarti che il sito in oggetto non ci risulta funzionante in questo momento.\n\n   ------\n¹ http://lugmap.linux.it\n http://lugmap.it"
+
 	def __init__(self, url_del_lug):
 		self.url = url_del_lug
 		self.email_errori = email_report()
@@ -114,7 +117,7 @@ class Lug(persistent.Persistent):
 		try:
 			if self.titolo != titolo_attuale:
 				print "Divergenza", self.titolo, titolo_attuale
-				self.email_errori.aggiungi('      Errore: title della home cambiato da ' +self.titolo+' a '+titolo_attuale)
+				self.email_errori.aggiungi('Attenzione: title della home cambiato da ' +self.titolo+' a '+titolo_attuale)
 				self.numero_errori += 1
 				self.titolo = titolo_attuale
 				return False
