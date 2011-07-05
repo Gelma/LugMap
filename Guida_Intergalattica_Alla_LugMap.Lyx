@@ -466,7 +466,7 @@ modalità di contatto
 \series bold
 un indirizzo email:
 \series default
- preferibilmente personale, ed esterno al dominio indicato al punto precedente,
+ preferibilmente personale, e ancora meglio non legato al dominio del gruppo,
  su cui poter contare nel caso in cui vi sia la necessità di segnalare malfunzio
 namenti o di richiedere informazioni da parte dei manovali della LugMap.
 \end_layout
@@ -1230,6 +1230,20 @@ Zona/zone coperte
 
 \begin_layout Enumerate
 URL di riferimento (sito o altro)
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+con l'accortezza di concludere lo URL con lo slash finale '
+\family typewriter
+/
+\family default
+' quando si indica un dominio o directory 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
@@ -1646,7 +1660,58 @@ http://www.registroitalianobici.it/
 \end_layout
 
 \begin_layout Subsection
-Messaggio di benvenuto
+Inserimento di un nuovo LUG
+\end_layout
+
+\begin_layout Standard
+Per inserire un nuovo gruppo nell'elenco è sufficiente popolare il file
+ della regione relativa
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+per esempio, nel caso di un Lug romano, modificheremmo il file 
+\family typewriter
+db/lazio.txt
+\end_layout
+
+\end_inset
+
+ con i dati richiesti
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Come-richiedere-l'inserimento"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, con il formato/campi convenzionati.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:Struttura-CSV"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1803,7 +1868,9 @@ Gino Pilotino
 \end_layout
 
 \begin_layout Plain Layout
-¹ http://lugmap.linux.it
+¹ 
+\family typewriter
+http://lugmap.linux.it
 \end_layout
 
 \begin_layout Plain Layout
@@ -1814,6 +1881,8 @@ Gino Pilotino
 \begin_inset space ~
 \end_inset
 
+
+\family typewriter
 http://lugmap.it
 \end_layout
 
