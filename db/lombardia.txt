@@ -1,10 +1,10 @@
 Bergamo|BGLug|Bergamo e provincia|http://www.bglug.it/|info@bglug.it
 Bergamo|BGLug Valle Seriana|Gazzaniga, Valle Seriana|http://bglugvs.web3king.com/|angelo@web3king.com
 Bergamo|Linux Club Zogno|Zogno|http://www.linuxzogno.org/|info@linuxzogno.org
-Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/|
+Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/|ken@kenparker.eu
 Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|vips@lugbs.linux.it
-Brescia|Lug Ovest Bresciano|Cologne e Rovato|http://www.lugob.org/|
-Como|GL-Como|Como|http://www.gl-como.it/|
+Brescia|Lug Ovest Bresciano|Cologne e Rovato|http://www.lugob.org/|info@lugob.org
+Como|GL-Como|Como|http://www.gl-como.it/|deprisco.davide@gmail.com
 Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/|pioniere@gmail.com
 Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/|info@lugcr.it
 Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|glux@lecco.linux.it
@@ -22,4 +22,4 @@ Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|fulvio.restelli@faswebnet.it
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
 Varese|LIFO|Varese|http://www.lifolab.org/|info@lifolab.org
 Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|info@linuxvar.it
-Varese|IspraLUG|Ispra|http://ispralug.eu/|
+Varese|IspraLUG|Ispra|http://ispralug.eu/|azimout@gmail.com
