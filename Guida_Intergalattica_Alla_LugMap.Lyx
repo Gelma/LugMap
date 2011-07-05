@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-4 Luglio 2011
+6 Luglio 2011
 \end_layout
 
 \begin_layout Standard
@@ -814,6 +814,31 @@ http://lugmap.linux.it/lug-o-matic/
 
 \end_layout
 
+\begin_layout Itemize
+controllare la documentazione
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi 
+\family typewriter
+branch docs
+\family default
+ §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sub:La-struttura-dei-branch"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Indicazioni per i gestori dei contenuti
 \end_layout
@@ -1100,6 +1125,13 @@ ToDo utilizzato per tenere traccia/promemoria sui controlli per i siti non
 
 \begin_layout Subsection
 La struttura dei branch
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:La-struttura-dei-branch"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -2163,7 +2195,17 @@ acquisto da parte di terzi: come veicolo pubblicitario;
 
 \begin_layout Itemize
 cambiamento di scopo: socio di un Lug che utilizzi il dominio per altri
- scopi
+ scopi.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+sì, è successo anche questo…
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2178,6 +2220,125 @@ WHOIS
 
 \begin_layout Section
 Controlli per l'eventuale rimozione
+\end_layout
+
+\begin_layout Standard
+La rimozione dalla LugMap di un soggetto deve rappresentare l'extrema ratio.
+ A farla da padrone devono essere la fiducia, la pazienza e il buon senso.
+\end_layout
+
+\begin_layout Standard
+Vi sono casi palesi in cui ha senso intervenire con celerità, come nel caso
+ di ri-utilizzo/acquisto dei domini scaduti per lucrare sul più banale sedo
+ parking o sulla più squallida marchettata di vendita di prodotti informatici,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+si veda, per esempio, quanto accaduto con il TLD 
+\family typewriter
+.org
+\family default
+ di quello che ora è il sito dell'OrvietoLug: 
+\family typewriter
+http://www.orvietolug.it
+\end_layout
+
+\end_inset
+
+ ma in generale è bene attenersi a questi ragguagli:
+\end_layout
+
+\begin_layout Itemize
+non basarsi sul criterio del tempo, ovvero, non solo quello.
+ I gruppi che andiamo a toccare sono per la stragrande maggioranza composti
+ da volontari.
+ Ora, è assolutamente plausibile che vi siano entità che si limitano a organizza
+re il Linux Day Nazionale
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.linuxday.it
+\end_layout
+
+\end_inset
+
+ una volta l'anno, o che per un lasso di tempo, più o meno lungo, si ritrovino
+ a non organizzare nulla.
+ Togliere questi dalla LugMap significherebbe ridurre le possibilità di
+ farli entrare in contatto con forze fresche e giovani, che possono risollevare
+ e portare entusiasmo nel gruppo;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+questa è stata, per esempio, l'esperienza del LUG di Brescia, che è riuscito
+ a risvegliarsi da un generale torpore con l'arrivo di due nuovi giovani
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+è facile imbattersi in situazioni dove, a fronte di un sito web che versa
+ in stato di abbandono, gli strumenti sociali di supporto delle stesse (mailing
+ list, forum, ecc.) sono assolutamente attivi e ben funzionanti.
+ L'invito, insomma, è di badare a tutte le attività per valutare l'eventuale
+ cassazione dall'elenco;
+\end_layout
+
+\begin_layout Itemize
+contattare i responsabili, facendo presente la situazione;
+\end_layout
+
+\begin_layout Itemize
+fino ad oggi è valso il principio che se lo stato vegetativo del sito persiste
+ da almeno cinque anni, e non è più possibile entrare in contatto con i
+ gestori, allora è possibile discutere nella mailing list pubblica
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ dell'eventuale rimozione;
+\end_layout
+
+\begin_layout Itemize
+ricercare l'eventuale cambiamento di dominio o collocazione;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+per esempio: https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350
+d9562f11163
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+è molto importante, qualora questa avesse luogo, indicare esattamente, nel
+ messaggio di commit, le ragioni e le informazioni disponibili per la rimozione.
 \end_layout
 
 \begin_layout Chapter
