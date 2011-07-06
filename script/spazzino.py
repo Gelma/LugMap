@@ -45,10 +45,11 @@ if True: # attiva DB
 	connection = db.open()
 	pdb = connection.root()
 
+	socket.setdefaulttimeout(35.0) # Timeout in secondi del fetching delle pagine (onorato da urllib2, a sua volta usato da Mechanize)
+
 class Lug(persistent.Persistent):
 
 	testo_email_segnalazione = "Ciao,\n   mi chiamo Andrea Gelmini e faccio parte dei Manovali della LugMap.¹\n   Mi permetto di disturbarti per informarti che il sito in oggetto non ci risulta funzionante in questo momento.\n\n   ------\n¹ http://lugmap.linux.it\n http://lugmap.it"
-	socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (onorato da urllib2, a sua volta usato da Mechanize)
 
 	def __init__(self, url_del_lug):
 		self.url = url_del_lug
@@ -87,7 +88,7 @@ class Lug(persistent.Persistent):
 			self.browser = mechanize.Browser()
 			self.browser.set_handle_robots(False) # evitiamo di richiedere robots.txt ogni volta
 			self.browser.addheaders = [('User-agent', 'Bot: http://lugmap.linux.it - lugmap@linux.it')]
-			pagina_web = self.browser.open(self.url)
+			pagina_web = self.browser.open(self.url, timeout=35.0 )
 		except:
 			self.email_errori.aggiungi('  Errore: impossibile leggere la pagina html.')
 			self.numero_errori += 1
@@ -110,7 +111,7 @@ class Lug(persistent.Persistent):
 
 		print "Controllo title"
 		try:
-			titolo_attuale = self.browser.title()
+			titolo_attuale = self.browser.title().encode('utf-8')
 		except: # se non ho un title, mollo
 			return True
 
