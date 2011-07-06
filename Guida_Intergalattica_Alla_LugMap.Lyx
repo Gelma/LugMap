@@ -2350,10 +2350,9 @@ ricercare l'eventuale cambiamento di dominio o collocazione;
 status open
 
 \begin_layout Plain Layout
-
+Ad esempio:
 \family typewriter
-Per esempio: https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350
-d9562f11163
+ https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350d9562f11163
 \end_layout
 
 \end_inset
