@@ -32,9 +32,9 @@ if True: # import dei moduli
 		print "Installa ZODB3: 'easy_install zodb3' oppyre 'apt-get install python-zodb'"
 		sys.exit(-1)
 	try:
-		import BeautifulSoup
+		import mechanize
 	except:
-		print "Installa BeautifulSoup: 'easy_install beautifulsoup' oppure 'apt-get install python-beautifulsoup'"
+		print "Installa mechanize: 'easy_install mechanize' oppure 'apt-get install python-mechanize'"
 		sys.exit(-1)
 
 if True: # attiva DB
@@ -67,7 +67,7 @@ class Lug(persistent.Persistent):
 		try:
 			DNS_attuale = socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)[0][4][0]
 		except:
-			self.email_errori.aggiungi("      Errore: problema sul dominio (esistenza/mappatura)")
+			self.email_errori.aggiungi("  Errore: problema sul dominio (esistenza/mappatura)")
 			self.numero_errori += 1
 			return False
 
@@ -83,22 +83,23 @@ class Lug(persistent.Persistent):
 		"""Leggo lo URL e faccio una valutazione numerica. True/False di ritorno."""
 
 		print "Controllo contenuto"
-		try: # pesco la pagina. FIX: sembrerebbe, ma è da controllare, che il fetch della pagina non segua i redirect, o almeno alcuni (vedi lugman.net). Questo si riflette poi anche sul successivo controllo del title
-			richiesta = urllib2.Request(self.url,None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
-			self.pagina_html = urllib2.urlopen(richiesta).read()
+		try:
+			self.browser = mechanize.Browser()
+			self.browser.set_handle_robots(False) # evitiamo di richiedere robots.txt ogni volta
+			self.browser.addheaders = [('User-agent', 'Bot: http://lugmap.linux.it - lugmap@linux.it')]
+			pagina_web = self.browser.open(self.url)
 		except:
-			self.email_errori.aggiungi('       Errore: impossibile leggere la pagina html.')
+			self.email_errori.aggiungi('  Errore: impossibile leggere la pagina html.')
 			self.numero_errori += 1
 			return False
 
-		self.Termini_Attuali = set(self.pagina_html.split()) # Estrapolo le parole della pagina HTML
+		Termini_Attuali = set(pagina_web.read().split()) # Estrapolo le parole della pagina HTML
 		valore_magico = \
-		  float(len(self.Termini_Precedenti.intersection(self.Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(self.Termini_Attuali)))
-		self.Termini_Precedenti = self.Termini_Attuali
-		del self.Termini_Attuali
+		  float(len(self.Termini_Precedenti.intersection(Termini_Attuali))*1.0/len(self.Termini_Precedenti.union(Termini_Attuali)))
+		self.Termini_Precedenti = Termini_Attuali
 
 		if valore_magico <= 0.6:
-			self.email_errori.aggiungi('      Errore: troppa differenza di contenuto:' +str(valore_magico))
+			self.email_errori.aggiungi('  Errore: troppa differenza di contenuto: '+str(valore_magico))
 			self.numero_errori += 1
 			return False
 		else:
@@ -108,9 +109,8 @@ class Lug(persistent.Persistent):
 		"""Leggo il title della pagina e controllo che non sia cambiato. True/False di ritorno"""
 
 		print "Controllo title"
-		soup = BeautifulSoup.BeautifulSoup(self.pagina_html)
 		try:
-			titolo_attuale = soup.html.head.title.string.strip()
+			titolo_attuale = self.browser.title()
 		except: # se non ho un title, mollo
 			return True
 
@@ -173,7 +173,6 @@ class email_report():
 				server.quit()
 			except:
 				print "Non è stato possibile inviare la mail"
-
 			syslog.syslog(syslog.LOG_ERR, 'Spazzino: '+self.subject+' '+'  '.join(self.righe))
 
 if __name__ == "__main__":
@@ -189,6 +188,10 @@ if __name__ == "__main__":
 				if lug.controllo_contenuto():
 					lug.controllo_title_della_pagina()
 			lug.invia_report()
+			try:
+				del lug.browser # Distruggo istanza di mechanize perché non è serializzabile (ZODB)
+			except AttributeError: # lug.browser non è detto che esista
+				pass
 transaction.commit()
 db.pack()
 db.close()
