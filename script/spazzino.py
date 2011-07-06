@@ -117,7 +117,7 @@ class Lug(persistent.Persistent):
 		try:
 			if self.titolo != titolo_attuale:
 				print "Divergenza", self.titolo, titolo_attuale
-				self.email_errori.aggiungi('Attenzione: title della home cambiato da ' +self.titolo+' a '+titolo_attuale)
+				self.email_errori.aggiungi('Attenzione: title della home cambiato da\n' +self.titolo+'\na\n'+titolo_attuale)
 				self.numero_errori += 1
 				self.titolo = titolo_attuale
 				return False
