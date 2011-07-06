@@ -1407,14 +1407,14 @@ http://www.zodb.org/
 
 \end_inset
 
- e BeautifulSoup.
+ e Mechanize.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.crummy.com/software/BeautifulSoup/
+http://wwwsearch.sourceforge.net/mechanize/
 \end_layout
 
 \end_inset
@@ -1434,7 +1434,7 @@ apt-get install python-zodb
 
 \begin_layout Plain Layout
 
-apt-get install python-beautifulsoup
+apt-get install python-mechanize
 \end_layout
 
 \end_inset
@@ -1458,7 +1458,7 @@ easy_install ZODB3
 
 \begin_layout Plain Layout
 
-easy_install beautifulsoup
+easy_install mechanize
 \end_layout
 
 \end_inset
