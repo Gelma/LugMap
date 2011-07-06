@@ -20,7 +20,7 @@
 
 if True: # import dei moduli
 	try:
-		import csv, glob, os, socket, sys, smtplib, syslog, urllib2
+		import csv, glob, os, socket, sys, smtplib, syslog
 	except:
 		import sys
 		print "Non sono disponibili tutti i moduli standard necessari."
@@ -48,6 +48,7 @@ if True: # attiva DB
 class Lug(persistent.Persistent):
 
 	testo_email_segnalazione = "Ciao,\n   mi chiamo Andrea Gelmini e faccio parte dei Manovali della LugMap.¹\n   Mi permetto di disturbarti per informarti che il sito in oggetto non ci risulta funzionante in questo momento.\n\n   ------\n¹ http://lugmap.linux.it\n http://lugmap.it"
+	socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (onorato da urllib2, a sua volta usato da Mechanize)
 
 	def __init__(self, url_del_lug):
 		self.url = url_del_lug
@@ -57,7 +58,6 @@ class Lug(persistent.Persistent):
 		self.DNS_noti = set()
 		self.numero_controlli = 0
 		self.numero_errori = 0
-		socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (vedi urllib2)
 
 	def controllo_dns(self):
 		"""Controllo l'esistenza e la mappatura del dominio"""
