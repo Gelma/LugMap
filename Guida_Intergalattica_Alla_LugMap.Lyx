@@ -140,9 +140,9 @@ http://lugmap.linux.it/
 
 \end_inset
 
- è di fornire un comodo strumento per mettere in contatto persone, e realtà,
- interessate alla diffusione del sistema operativo Linux, quale punta di
- diamante del Software Libero.
+ è di fornire un comodo strumento per mettere in contatto persone e realtà,
+ interessate alla diffusione del sistema operativo Linux, punta di diamante
+ dell'ampio ed eterogeneo panorama del Software Libero.
 \begin_inset Foot
 status open
 
@@ -180,7 +180,8 @@ non è una classifica di chi fa più, e chi meno.
 
 \begin_layout Standard
 I principali destinatari della stessa sono, pertanto, i neofiti alla ricerca
- di un aiuto concreto nel loro avvicinamento al mondo dell'informatica libera.
+ di un aiuto concreto cui appoggiarsi durante il proprio approccio al mondo
+ dell'informatica libera.
  Questi possono ivi trovare, principalmente ma non esclusivamente, entità
  come:
 \end_layout
@@ -392,7 +393,7 @@ name "sec:Come-richiedere-l'inserimento"
 
 \begin_layout Standard
 Per vedere incluso il proprio gruppo nell'elenco è sufficiente contattare
- la LugMap
+ la squadra di Manovali della LugMap
 \begin_inset Foot
 status open
 
@@ -409,8 +410,8 @@ reference "sec:Contatti"
 
 \end_inset
 
- dando le seguenti informazioni, che altro non sono che i campi visualizzati
- sull'omonimo sito:
+ dando le seguenti informazioni (che altro non sono che i dati indicizzati
+ ed esposti pubblicamente):
 \end_layout
 
 \begin_layout Itemize
@@ -418,7 +419,7 @@ reference "sec:Contatti"
 \series bold
 regione e provincia
 \series default
-: per permettere un'agevole ricerca agli interessati;
+: per permettere un'agevole ricerca di carattere geografico agli interessati;
 \end_layout
 
 \begin_layout Itemize
@@ -426,13 +427,12 @@ regione e provincia
 \series bold
 denominazione del gruppo
 \series default
-: si badi che non c'è alcuna discriminante sulla forma giuridica, o meno,
- dello stesso.
- Ai fini dell'inserimento non è discriminante essere una 
+: si badi che non c'è alcuna discriminante sulla forma giuridica dello stesso.
+ Ai fini dell'inserimento è indifferente essere una 
 \shape smallcaps
 ONLUS
 \shape default
-, un'associazione o un semplice gruppo di amici;
+, una associazione o un semplice gruppo di amici;
 \end_layout
 
 \begin_layout Itemize
@@ -440,7 +440,7 @@ ONLUS
 \series bold
 zone interessate
 \series default
-: l'attività del gruppo può essere limitata/delimitata in una zona precisa
+: l'attività del gruppo può essere limitata/delimitata in una area precisa
  della regione/provincia/città di appartenenza, ma può anche valicare gli
  stessi confini.
  L'idea è di avere chiaro dove risulti più facile entrare in contatto con
@@ -452,10 +452,10 @@ zone interessate
 \series bold
 modalità di contatto
 \series default
-: tipicamente si tratta di fornire un sito web di riferimento, ma è chiaro
- che, soprattutto nella fase iniziale in cui il gruppo sta nascendo e prendendo
- forma, può essere più che sufficiente un indirizzo email o un numero di
- telefono.
+: tipicamente si tratta di fornire l'indirizzo di un sito web di riferimento,
+ ma è chiaro che, soprattutto nella fase iniziale in cui il gruppo sta nascendo
+ e sta prendendo forma, può essere più che sufficiente un indirizzo email
+ o un numero di telefono.
  Il principio è che si deve poter essere contattatibili e raggiungibili,
  per poter permettere ad altri eventuali interessati di aggregarsi e partecipare
 ;
@@ -485,8 +485,8 @@ abbia come scopo principale la diffusione del binomio Linux e Software Libero;
 \end_layout
 
 \begin_layout Itemize
-possa essere contattato, anche nelle forme più varie (dal sito, alla mailing
- list, al forum, ecc.).
+possa essere contattato, anche nelle forme più varie (un sito, una mailing
+ list, un forum, ecc.).
  Non è necessario avere una sede, ufficiale o meno che sia.
  Ciò che si vuole evitare è di far approdare gli interessati a siti/progetti
  non più tenuti in vita.
@@ -566,9 +566,9 @@ Al momento vale il principio del buon senso e della fiducia fino a prova
 \end_layout
 
 \begin_layout Standard
-In caso di dubbio, il tutto viene fatto derimere al consiglio direttivo
- di ILS che, a suo insindacabile giudizio, ha l'ultima parola su tutti i
- contenuti della LugMap.
+In rare condizioni di incertezza il tutto viene fatto derimere al consiglio
+ direttivo di ILS che, a suo insindacabile giudizio, ha l'ultima parola
+ su tutti i contenuti della LugMap.
 \end_layout
 
 \begin_layout Subsection
@@ -614,7 +614,7 @@ http://lists.linux.it/listinfo/lug
 \end_inset
 
  dove potresti trovare già altre persone della tue zona, o nelle vicinanze,
- disponibili a darti una mano, o ad aggregarsi.
+ disponibili a darti una mano o ad aggregarsi.
 \end_layout
 
 \begin_layout Section
@@ -622,13 +622,13 @@ Come posso rimanere aggiornato?
 \end_layout
 
 \begin_layout Standard
-Per essere costantemente aggiornati sulle modifiche al codice, e ai contenuti,
+Per essere costantemente aggiornati sulle modifiche al codice e ai contenuti,
  è possibile:
 \end_layout
 
 \begin_layout Itemize
 iscriversi alla mailing list del progetto, dove vengono automaticamenti
- segnalati tutti i commit
+ segnalati tutti i commit;
 \begin_inset Foot
 status open
 
@@ -654,7 +654,7 @@ consultare l'interfaccia web di GitHub con l'elenco dei commit (si tratta
 \family typewriter
 git log
 \family default
-)
+);
 \begin_inset Foot
 status open
 
@@ -682,11 +682,11 @@ http://github.com/Gelma/LugMap/commits/master.atom
 
 \end_inset
 
- sempre dello stesso repository
+ sempre dello stesso repository;
 \end_layout
 
 \begin_layout Itemize
-infine, ovviamente, tenersi in locale una copia del repository
+infine, ovviamente, tenersi una copia locale del repository.
 \begin_inset Foot
 status open
 
@@ -712,8 +712,8 @@ Posso darvi una mano?
 
 \begin_layout Standard
 Più che volentieri.
- Sia che tu abbia competenze tecniche o meno, ci sono parecchie cose da
- fare, per esempio:
+ Sia che tu abbia competenze tecniche o meno ci sono parecchie cose da fare,
+ per esempio:
 \end_layout
 
 \begin_layout Itemize
@@ -759,7 +759,7 @@ http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
 
 \end_inset
 
- Anche qui, abbiamo degli automatismi,
+ Anche qui abbiamo degli automatismi,
 \begin_inset Foot
 status open
 
@@ -780,9 +780,9 @@ reference "sub:WiMegera"
 \end_layout
 
 \begin_layout Itemize
-segnalare, ai media/siti che pubblicano/utilizzano una vecchia versione
- della LugMap, la possibilità di accedere comodamente sia ai dati grezzi
- aggiornati in tempo reale,
+segnalare ai media/siti che pubblicano/utilizzano una vecchia versione della
+ LugMap la possibilità di accedere comodamente sia ai dati grezzi aggiornati
+ in tempo reale,
 \begin_inset Foot
 status open
 
@@ -799,7 +799,7 @@ reference "sub:Accesso-ai-dati-grezzi"
 
 \end_inset
 
- sia all'apposito widget per il web.
+ sia all'apposito widget per il web;
 \begin_inset Foot
 status open
 
@@ -815,7 +815,7 @@ http://lugmap.linux.it/lug-o-matic/
 \end_layout
 
 \begin_layout Itemize
-controllare la documentazione
+controllare la documentazione.
 \begin_inset Foot
 status open
 
@@ -997,7 +997,15 @@ campania.txt
 \end_layout
 
 \begin_layout Itemize
-emilia.txt friuli.txt Italia.txt
+emilia.txt
+\end_layout
+
+\begin_layout Itemize
+friuli.txt
+\end_layout
+
+\begin_layout Itemize
+Italia.txt (notare la 'I' maiuscola)
 \end_layout
 
 \begin_layout Itemize
@@ -1057,7 +1065,7 @@ veneto.txt
 \end_layout
 
 \begin_layout Standard
-Lo stesso elenco può anche essere ottenuto, navigando comodamente le directory
+Lo stesso elenco può anche essere ottenuto navigando comodamente le directory
  via 
 \family typewriter
 \shape smallcaps
@@ -1086,7 +1094,7 @@ Le directory presenti sono:
 
 \begin_layout Description
 db ove sono contenuti i file, divisi per regione, strutturati a 'mo di CSV,
- con i singoli LUG, riga per riga
+ con i singoli LUG riga per riga
 \begin_inset Foot
 status open
 
@@ -1266,7 +1274,7 @@ URL di riferimento (sito o altro)
 status open
 
 \begin_layout Plain Layout
-con l'accortezza di concludere lo URL con lo slash finale '
+Con l'accortezza di concludere lo URL con lo slash finale '
 \family typewriter
 /
 \family default
@@ -1534,7 +1542,7 @@ http://lugmap.it
 \family default
 .
  Eventuali file diversi vengono segnalati ad Andrea Gelmini.
- Valgono le stesse considerazioni per Spazzino.
+ Valgono le stesse considerazioni fatte per Spazzino.
 \begin_inset Foot
 status open
 
@@ -1589,7 +1597,8 @@ reference "sec:Contatti"
 
 \end_inset
 
- Ad oggi hanno permesso di scovare un unico Lug al suo annuncio.
+ Ad oggi hanno permesso di scovare almeno un Lug al momento del suo primo
+ annuncio.
 \begin_inset Foot
 status collapsed
 
@@ -1649,7 +1658,7 @@ reference "sec:Contatti"
 \end_inset
 
  anche per evitare contatti ripetuti e ridondanti da più gestori della LugMap.
- Non solo, in questo modo è possibile a tutti tenere traccia delle evoluzioni
+ In questo modo è inoltre possibile a tutti tenere traccia delle evoluzioni
  dei singoli casi;
 \end_layout
 
@@ -1945,14 +1954,14 @@ I casi tipici di malfunzionamenti temporanei che riscontriamo e che vengono
 \end_layout
 
 \begin_layout Itemize
-sito non raggiungibile: vi sono gruppi che tengono i propri siti sulle connessio
-ni ADSL casalinghe.
- A questi, in caso di contatto, è bene far presente che ILS offre spazio
+sito non raggiungibile.
+ Vi sono gruppi che tengono i propri siti sulle connessioni ADSL casalinghe:
+ a questi, in caso di contatto, è bene far presente che ILS offre spazio
  e banda in forma gratuita;
 \end_layout
 
 \begin_layout Itemize
-configurazioni errate di DB o Apache;
+configurazioni errate del database o del web server;
 \end_layout
 
 \begin_layout Itemize
@@ -2190,7 +2199,7 @@ attesa di rinnovo: il dominio viene sospeso in attesa di rinnovo;
 \end_layout
 
 \begin_layout Itemize
-acquisto da parte di terzi: come veicolo pubblicitario;
+acquisto da parte di terzi ed usato come veicolo pubblicitario;
 \end_layout
 
 \begin_layout Itemize
@@ -2200,7 +2209,7 @@ cambiamento di scopo: socio di un Lug che utilizzi il dominio per altri
 status open
 
 \begin_layout Plain Layout
-sì, è successo anche questo…
+Sì, è successo anche questo…
 \end_layout
 
 \end_inset
@@ -2214,8 +2223,8 @@ Per ognuno di questi casi l'ideale è, a colpi di
 WHOIS
 \family default
 , capire come possa essere la situazione e, comunque, contattare il referente
- indicato nell LugMap per sapere se, la si tratti di uno stato permanente
- di abbandono o temporaneo (per esempio in attesa di rinnovo).
+ indicato nella LugMap per sapere se si tratti di uno stato permanente di
+ abbandono o temporaneo (per esempio in attesa di rinnovo).
 \end_layout
 
 \begin_layout Section
@@ -2235,7 +2244,7 @@ Vi sono casi palesi in cui ha senso intervenire con celerità, come nel caso
 status open
 
 \begin_layout Plain Layout
-si veda, per esempio, quanto accaduto con il TLD 
+Si veda, per esempio, quanto accaduto con il TLD 
 \family typewriter
 .org
 \family default
@@ -2253,8 +2262,8 @@ http://www.orvietolug.it
 non basarsi sul criterio del tempo, ovvero, non solo quello.
  I gruppi che andiamo a toccare sono per la stragrande maggioranza composti
  da volontari.
- Ora, è assolutamente plausibile che vi siano entità che si limitano a organizza
-re il Linux Day Nazionale
+ È assolutamente plausibile che vi siano entità che si limitano a organizzare
+ il Linux Day Nazionale
 \begin_inset Foot
 status open
 
@@ -2275,7 +2284,7 @@ http://www.linuxday.it
 status open
 
 \begin_layout Plain Layout
-questa è stata, per esempio, l'esperienza del LUG di Brescia, che è riuscito
+Questa è stata, per esempio, l'esperienza del LUG di Brescia, che è riuscito
  a risvegliarsi da un generale torpore con l'arrivo di due nuovi giovani
 \end_layout
 
@@ -2327,7 +2336,7 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-per esempio: https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350
+Per esempio: https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350
 d9562f11163
 \end_layout
 
@@ -2342,7 +2351,7 @@ d9562f11163
 \end_layout
 
 \begin_layout Chapter
-DefCon
+DefCon 1
 \end_layout
 
 \begin_layout Section
@@ -2367,9 +2376,8 @@ reference "sec:Contatti"
 
 \end_inset
 
- dovessero impazzire, oppure essere rapiti dagli alieni, i passaggi necessari
- per la ripresa del controllo del contenuto del dominio potrebbero essere
- così schematizzati, in particolare vi sarebbe la necessità di:
+ dovessero impazzire, oppure essere rapiti dagli alieni, vi sarebbe la necessità
+ di:
 \end_layout
 
 \begin_layout Itemize
@@ -2457,7 +2465,7 @@ su tutti i file nella directory
 modificare/aggiornare i contatti degli amministratori per la mailing list
  della LugMap,
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Si badi che gli indirizzi vengono citati in più punti, anche nel messaggio
@@ -2470,7 +2478,7 @@ Si badi che gli indirizzi vengono citati in più punti, anche nel messaggio
 
  contattando Marco d'Itri.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 §
