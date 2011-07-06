@@ -1,6 +1,6 @@
 Caltanissetta|CLug|Caltanissetta|http://www.clug.it/|info@clug.it
 Caltanissetta|VPLug|Provincia di Caltanissetta|http://www.vplug.it/|infovplug@gmail.com
-Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|
+Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|luigi.toscano@tiscali.it
 Catania|EtnaLUG|Provincia di Catania|http://sites.google.com/site/etnalug/|gmarzioz@gmail.com
 Catania|FreakNet MediLab|Catania|http://www.freaknet.org/|medialab@freaknet.org
 Enna|EnnaLUG|Enna|http://leonforte.linux.it/|docmimmo@gmail.com
