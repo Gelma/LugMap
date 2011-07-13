@@ -1,3 +1,0 @@
-Perugia|GNU/Lug Perugia|Provincia di Perugia|http://www.perugiagnulug.org/|info@perugiagnulug.org
-Terni|OrvietoLug|Comprensorio di Orvieto e alto Lazio|http://www.orvietolug.it/|info@orvietolug.it
-Terni|Terni GNU/Lug|Terni e provincia|http://www.ternignulug.org/|info@ternignulug.org

@@ -1,4 +1,0 @@
-Italia|FSUG Italia|Italia|http://www.fsugitalia.org/|postmaster@fusgitalia.org
-Italia|ILS: Italian Linux Society|Italia|http://www.ils.it/|md@linux.it
-Italia|LibrePlanet Italia|Italia|http://libreplanet.org/wiki/Group:LibrePlanet_Italia|graziano@inventati.org
-Italia|P.l.u.t.o.|Italia|http://www.pluto.it/|nick@linux.it
