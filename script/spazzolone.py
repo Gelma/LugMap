@@ -215,7 +215,7 @@ class LUG(persistent.Persistent):
 		try:
 			self._v_Termini_Attuali = set(self._v_browser.open(self.url).read().split()) # Estrapolo parole
 		except:
-			self.notifica('Errore wbe: impossibile leggere homepage')
+			self.notifica('Errore web: impossibile leggere homepage')
 
 			if self.web_errore_segnalato is False:
 				self.web_errore_segnalato = time.time()
