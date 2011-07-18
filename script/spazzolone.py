@@ -240,7 +240,7 @@ class LUG(persistent.Persistent):
 
 		if self.web_errore_segnalato is not False:
 			self.notifica("Precedente errore WEB del " + time.strftime('%d/%m/%y', time.gmtime(self.web_errore_segnalato)) + ' risolto')
-			self.dns_errore_segnalato = False
+			self.web_errore_segnalato = False
 
 		return True
 
