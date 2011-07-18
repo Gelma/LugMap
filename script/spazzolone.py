@@ -28,7 +28,7 @@ if True: # import dei moduli
 		sys.exit("Necessito di un interprete Python dalla versione 2.6 in poi")
 
 	try:
-		import atexit, csv, datetime, glob, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time
+		import atexit, csv, datetime, glob, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2
 	except:
 		sys.exit("Non sono disponibili tutti i moduli standard necessari")
 
@@ -41,6 +41,11 @@ if True: # import dei moduli
 		import mechanize
 	except:
 		sys.exit("Installa mechanize: 'easy_install mechanize' oppure 'apt-get install python-mechanize'")
+
+	try:
+		import BeautifulSoup
+	except:
+		sys.exit("Installa beautifulsoup: 'easy_install beautifulsoup' oppure 'apt-get install python-beautifulsoup'")
 
 	try:
 		import cPickle as pickle
@@ -213,7 +218,25 @@ class LUG(persistent.Persistent):
 		self._v_browser.addheaders = [('User-agent', 'Bot: http://lugmap.linux.it - lugmap@linux.it')]
 
 		try:
-			self._v_Termini_Attuali = set(self._v_browser.open(self.url).read().split()) # Estrapolo parole
+			if self.id == 'Blug':
+				# Questo terribile hack/eccezione si è reseo necessario perché Mechanize
+				# resta appesa nel tentativo di connessione al sito del Blug.
+				# Mechanize è l'unico package del genere che segue automaticamente anche
+				# i refresh nei tag (roba non standard, ma pesantemente usata da quasi tutti
+				# i wiki. -- Il problema è gia' stato segnalato all'autore.)
+
+				self._v_richiesta = urllib2.Request(self.url,None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
+				self._v_pagina_html = urllib2.urlopen(self._v_richiesta).read()
+				self._v_Termini_Attuali = set(self._v_pagina_html.split())
+
+				# estraiamo subito anche il title
+				try:
+					self._v_soup = BeautifulSoup.BeautifulSoup(self._v_pagina_html)
+					self._v_titolo_attuale = self._v_soup.html.head.title.string.strip()
+				except: # se non ho un title, lo setto vuoto
+					self._v_titolo_attuale = ''
+			else:
+				self._v_Termini_Attuali = set(self._v_browser.open(self.url).read().split())
 		except:
 			self.notifica('Errore web: impossibile leggere homepage')
 
@@ -249,10 +272,11 @@ class LUG(persistent.Persistent):
 
 		logga('Lug <'+self.id+'>: controllo title per '+self.url)
 
-		try:
-			self._v_titolo_attuale = self.browser.title().encode('utf-8')
-		except: # se non ho un title, mollo
-			return True
+		if not hasattr(self, '_v_titolo_attuale'): # se non è stato gia' settato dall'eccezione Blug (vedi sopra)
+			try: # estrapolo il titolo della pagina nella maniera usuale
+				self._v_titolo_attuale = self.browser.title().encode('utf-8')
+			except: # se non ho un title, mollo
+				return True
 
 		try:
 			if self.title_homepage != self._v_titolo_attuale:
