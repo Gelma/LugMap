@@ -2,6 +2,7 @@ Arezzo|IPIOS|Bibbiena|http://www.ipios.org/|fabio.norcini@gmail.com
 Arezzo|Viva Linux Casentino|Bibbiena e valle del Casentino|http://www.facebook.com/group.php?gid=52271316371|enricoborghi@gmail.com
 Empoli|GOLEM|Empoli|http://golem.linux.it/|golem@golem.linux.it
 Firenze|Flug|Firenze|http://www.firenze.linux.it/|info@firenze.linux.it
+Firenze|Hacklab Firenze|Firenze|http://www.hacklab.firenze.it/|morsetrack@gmail.com
 Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|info@liberainformatica.it
 Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|info@grolug.org
 Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|info@guruatwork.com
