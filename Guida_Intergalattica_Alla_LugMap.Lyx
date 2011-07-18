@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-6 Luglio 2011
+18 Luglio 2011
 \end_layout
 
 \begin_layout Standard
@@ -1372,7 +1372,7 @@ title
 \end_layout
 
 \begin_layout Standard
-Al momento questo script viene eseguito ogni due giorni sul server del LugBS
+Al momento questo script viene eseguito quotidianamente sul server del LugBS
 \begin_inset Foot
 status open
 
@@ -1387,34 +1387,46 @@ http://lugbs.linux.it/
 .
  Le mail eventualmente generate dai cambiamenti indicati sopra vengono inviate
  ad Andrea Gelmini.
- Si è deciso di non inviare il tutto alla mailing list della LugMap per
- evitare di inondare la stessa con falsi positivi, spesso dovuti alle esoteriche
- scelte tecnologiche dei vari gruppi.
+ Si è deciso di non inviare il tutto alla mailing list per evitare di inondare
+ la stessa con falsi positivi, spesso dovuti alle esoteriche scelte tecnologiche
+ dei vari gruppi.
 \end_layout
 
 \begin_layout Standard
 Spazzino dovrebbe funzionare senza problemi su una qualsiasi distribuzione
- Linux sufficientemente moderna, con l'unica accortezza di installare il
- motore di ZODB
+ Linux sufficientemente moderna, con l'unica accortezza di installare i
+ package di BeautifulSoup
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.zodb.org/
+http://www.crummy.com/software/BeautifulSoup/
 \end_layout
 
 \end_inset
 
- e Mechanize.
+, Mechanize
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
 \family typewriter
 http://wwwsearch.sourceforge.net/mechanize/
+\end_layout
+
+\end_inset
+
+ e ZODB.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.zodb.org/
 \end_layout
 
 \end_inset
@@ -1429,12 +1441,17 @@ status open
 
 \begin_layout Plain Layout
 
-apt-get install python-zodb
+apt-get install python-beautifulsoup
 \end_layout
 
 \begin_layout Plain Layout
 
 apt-get install python-mechanize
+\end_layout
+
+\begin_layout Plain Layout
+
+apt-get install python-zodb
 \end_layout
 
 \end_inset
@@ -1453,12 +1470,17 @@ status open
 
 \begin_layout Plain Layout
 
-easy_install ZODB3
+easy_install beautifulsoap
 \end_layout
 
 \begin_layout Plain Layout
 
 easy_install mechanize
+\end_layout
+
+\begin_layout Plain Layout
+
+easy_install ZODB3
 \end_layout
 
 \end_inset
