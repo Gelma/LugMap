@@ -274,13 +274,14 @@ class LUG(persistent.Persistent):
 
 		if not hasattr(self, '_v_titolo_attuale'): # se non è stato gia' settato dall'eccezione Blug (vedi sopra)
 			try: # estrapolo il titolo della pagina nella maniera usuale
-				self._v_titolo_attuale = self.browser.title().encode('utf-8')
+				self._v_titolo_attuale = self._v_browser.title().encode('utf-8')
 			except: # se non ho un title, mollo
+				logga('Lug <'+self.id+'>: nessuno title homepage')
 				return True
 
 		try:
 			if self.title_homepage != self._v_titolo_attuale:
-				self.notifica('Atten.: title homepage cambiato da <'+self.title_homepage+'>   a   <'+titolo_attuale+'>')
+				self.notifica('Atten.: title homepage cambiato da <'+self.title_homepage+'>   a   <'+self._v_titolo_attuale+'>')
 		except: # se fallisce è perché non esiste title_homepage (prima esecuzione)
 			pass
 		self.title_homepage = self._v_titolo_attuale # in ogni caso salvo il nuovo valore
