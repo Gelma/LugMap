@@ -183,7 +183,7 @@ class LUG(persistent.Persistent):
 
 		logga('Lug <'+self.id+'>: controllo DNS per '+self.dominio)
 		try:
-			self._v_DNS_attuali = [ IP[4][0] for IP in socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)]
+			self._v_DNS_attuali = set([ IP[4][0] for IP in socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)])
 		except:
 			self.notifica("Errore DNS per "+self.dominio)
 
@@ -195,12 +195,11 @@ class LUG(persistent.Persistent):
 			return False
 
 		try: # eccezione nel caso sia il primo lancio e self.DNS_noti non esista
-			for ip_dns_attuale in self._v_DNS_attuali:
-				if ip_dns_attuale not in self.DNS_noti:
-					self.notifica('Atten. DNS: nuovo %s su %s' % (ip_dns_attuale, ' '.join(self.DNS_noti)))
-					self.DNS_noti.add(ip_dns_attuale)
+			if self._v_DNS_attuali - self.DNS_noti: # opero sui set per ottenere nuovi DNS
+				self.notifica('Atten. DNS: %s' % (' '.join(list(self._v_DNS_attuali - self.DNS_noti))))
+				self.DNS_noti = self.DNS_noti | self._v_DNS_attuali # unione dei set
 		except:
-			self.DNS_noti = set([IP for IP in self._v_DNS_attuali])
+			self.DNS_noti = self._v_DNS_attuali
 
 		if self.dns_errore_segnalato is not False:
 			self.notifica("Precedente errore DNS del " + time.strftime('%d/%m/%y', time.gmtime(self.dns_errore_segnalato)) + ' risolto')
@@ -324,11 +323,10 @@ if __name__ == "__main__":
 
 			zodb[id].aggiorna_campi(riga, filedb) # controllo eventuali cambiamenti nei campi del db
 
-	for voce in zodb.keys(): # elimino da zodb le voci non piu' presenti
-		if voce not in elenco_lug:
-			del zodb[voce]
-			report.append('Atten.: <'+voce+'< rimosso')
-			logga('rimosso <'+voce+'> da ZODB')
+	for voce in set(zodb.keys()) - elenco_lug: # elimino da zodb le voci non piu' presenti
+		del zodb[voce]
+		report.append('Atten.: <'+voce+'> rimosso')
+		logga('rimosso <'+voce+'> da ZODB')
 
 	for id in sorted(zodb.keys()):
 		elenco_thread.append(multiprocessing.Process(target=zodb[id].controlli, name=id))
