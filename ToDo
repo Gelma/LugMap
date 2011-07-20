@@ -13,3 +13,5 @@
 == Varie
 	Riscrivere WiMegera per poter aggiungere piu' url, come
 	http://it.wikipedia.org/wiki/Hacklab
+	WiMegera: ritestare come all'inizio eventuale eliminazione di file
+	dalle directory i18n e pywikibot
