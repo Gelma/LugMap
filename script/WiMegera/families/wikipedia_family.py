@@ -1,7 +1,7 @@
 # -*- coding: utf-8  -*-
 import family
 
-__version__ = '$Id$'
+__version__ = '$Id: wikipedia_family.py 9396 2011-07-16 11:38:09Z xqt $'
 
 # The Wikimedia family that is known as Wikipedia, the Free Encyclopedia
 
@@ -11,33 +11,33 @@ class Family(family.Family):
         self.name = 'wikipedia'
 
         self.languages_by_size = [
-            'en', 'de', 'fr', 'pl', 'it', 'es', 'ja', 'ru', 'nl', 'pt', 'sv',
-            'zh', 'ca', 'no', 'uk', 'fi', 'vi', 'cs', 'hu', 'ko', 'id', 'ro',
-            'tr', 'da', 'ar', 'eo', 'sr', 'lt', 'sk', 'fa', 'vo', 'ms', 'he',
-            'bg', 'sl', 'war', 'hr', 'hi', 'et', 'gl', 'new', 'simple', 'th',
-            'eu', 'nn', 'roa-rup', 'el', 'az', 'ht', 'la', 'tl', 'ka', 'te',
-            'mk', 'ceb', 'sh', 'pms', 'br', 'be-x-old', 'lv', 'mr', 'jv', 'lb',
-            'cy', 'sq', 'is', 'bs', 'ta', 'be', 'an', 'bpy', 'oc', 'bn', 'io',
-            'sw', 'lmo', 'fy', 'gu', 'ml', 'af', 'nds', 'scn', 'ur', 'qu', 'ku',
-            'zh-yue', 'su', 'ast', 'kk', 'hy', 'nap', 'yo', 'ne', 'bat-smg',
-            'cv', 'ga', 'wa', 'pnb', 'kn', 'tg', 'roa-tara', 'vec', 'tt', 'yi',
-            'als', 'zh-min-nan', 'gd', 'bug', 'os', 'uz', 'sah', 'pam', 'arz',
-            'am', 'mi', 'li', 'hsb', 'nah', 'sco', 'gan', 'co', 'glk', 'mn',
-            'my', 'ia', 'bcl', 'fo', 'fiu-vro', 'si', 'nds-nl', 'vls', 'tk',
-            'sa', 'bar', 'mg', 'gv', 'ilo', 'map-bms', 'dv', 'ckb', 'nrm',
-            'pag', 'diq', 'se', 'rm', 'mzn', 'wuu', 'fur', 'ug', 'lij', 'mt',
-            'bo', 'bh', 'hif', 'ang', 'csb', 'nov', 'lad', 'zh-classical', 'sc',
-            'km', 'cbk-zam', 'pi', 'ps', 'mrj', 'frp', 'hak', 'ksh', 'kw',
-            'rue', 'nv', 'pa', 'mhr', 'szl', 'xal', 'rw', 'haw', 'so', 'pdc',
-            'stq', 'ie', 'udm', 'ln', 'kv', 'to', 'krc', 'crh', 'pcd', 'ace',
-            'ky', 'ext', 'myv', 'gn', 'ce', 'ba', 'eml', 'arc', 'pap', 'ay',
-            'bjn', 'kl', 'jbo', 'wo', 'frr', 'tpi', 'kab', 'ty', 'srn', 'zea',
-            'gag', 'dsb', 'ab', 'koi', 'or', 'lo', 'ig', 'av', 'mdf', 'tet',
-            'kg', 'mwl', 'rmy', 'lbe', 'cu', 'ltg', 'kaa', 'sm', 'kbd', 'got',
-            'ks', 'bm', 'ik', 'pfl', 'sd', 'bi', 'as', 'na', 'pih', 'iu', 'pnt',
-            'ss', 'cdo', 'chr', 'ha', 'ee', 'ti', 'bxr', 'zu', 'om', 'za', 've',
-            'ts', 'rn', 'sg', 'dz', 'cr', 'ch', 'lg', 'fj', 'ny', 'tum', 'st',
-            'xh', 'ff', 'tn', 'ki', 'sn', 'ak', 'tw', 'chy',
+            'en', 'de', 'fr', 'it', 'pl', 'es', 'ja', 'nl', 'ru', 'pt', 'sv',
+            'zh', 'ca', 'no', 'uk', 'fi', 'vi', 'cs', 'hu', 'tr', 'id', 'ko',
+            'ro', 'fa', 'da', 'ar', 'eo', 'sr', 'lt', 'sk', 'he', 'ms', 'sl',
+            'vo', 'bg', 'eu', 'war', 'hr', 'hi', 'et', 'az', 'gl', 'simple',
+            'nn', 'new', 'th', 'el', 'roa-rup', 'kk', 'la', 'tl', 'ht', 'ka',
+            'te', 'mk', 'sh', 'nap', 'ceb', 'pms', 'br', 'be-x-old', 'lv', 'jv',
+            'mr', 'ta', 'sq', 'lb', 'cy', 'is', 'bs', 'be', 'oc', 'yo', 'an',
+            'bpy', 'bn', 'io', 'sw', 'fy', 'lmo', 'gu', 'mg', 'ml', 'af', 'nds',
+            'pnb', 'ur', 'scn', 'qu', 'ku', 'zh-yue', 'ne', 'ast', 'su', 'hy',
+            'ga', 'bat-smg', 'cv', 'wa', 'tt', 'am', 'kn', 'diq', 'als', 'tg',
+            'vec', 'roa-tara', 'zh-min-nan', 'yi', 'bug', 'gd', 'os', 'uz',
+            'sah', 'pam', 'arz', 'mi', 'hsb', 'sco', 'li', 'nah', 'mn', 'my',
+            'co', 'gan', 'glk', 'ia', 'hif', 'bcl', 'fo', 'sa', 'si', 'fiu-vro',
+            'mrj', 'nds-nl', 'bar', 'vls', 'tk', 'ckb', 'gv', 'ilo', 'se',
+            'map-bms', 'dv', 'nrm', 'pag', 'rm', 'mzn', 'bo', 'udm', 'fur',
+            'wuu', 'ug', 'ps', 'mt', 'csb', 'lij', 'km', 'pi', 'koi', 'bh',
+            'ang', 'kv', 'sc', 'lad', 'nov', 'zh-classical', 'mhr', 'cbk-zam',
+            'ksh', 'rue', 'kw', 'frp', 'so', 'hak', 'nv', 'pa', 'szl', 'xal',
+            'ie', 'rw', 'stq', 'haw', 'ext', 'pdc', 'ln', 'krc', 'to', 'pcd',
+            'crh', 'ky', 'ace', 'myv', 'eml', 'gn', 'ba', 'ce', 'arc', 'or',
+            'kl', 'ay', 'pap', 'frr', 'bjn', 'pfl', 'jbo', 'wo', 'tpi', 'kab',
+            'gag', 'ty', 'srn', 'zea', 'dsb', 'lo', 'ab', 'ig', 'mdf', 'tet',
+            'av', 'kg', 'mwl', 'kaa', 'lbe', 'rmy', 'na', 'cu', 'ltg', 'kbd',
+            'as', 'sm', 'sd', 'bm', 'bi', 'ik', 'ss', 'pih', 'ks', 'iu', 'pnt',
+            'xmf', 'cdo', 'chr', 'ee', 'got', 'ha', 'ti', 'za', 'bxr', 'om',
+            'zu', 've', 'ts', 'rn', 'sg', 'dz', 'cr', 'tum', 'ch', 'lg', 'fj',
+            'ny', 'st', 'xh', 'ff', 'sn', 'tn', 'chy', 'ki', 'ak', 'tw',
         ]
 
         if family.config.SSL_connection:
@@ -52,7 +52,6 @@ class Family(family.Family):
         self.namespaces[13]['da'] = u'Hjælp-diskussion'
         self.namespaces[1]['ja'] = [u'ノート', u'トーク']
         self.namespaces[3]['ja'] = [u'利用者‐会話', u'利用者・トーク']
-        self.namespaces[6]['ja'] = [u'ファイル', u'Image', u'画像']
         self.namespaces[7]['ja'] = [u'ファイル‐ノート', u'ファイル・トーク',
                                     u'Image talk', u'画像‐ノート']
         self.namespaces[9]['ja'] = [u'MediaWiki‐ノート', u'MediaWiki・トーク']
@@ -76,6 +75,7 @@ class Family(family.Family):
         self.namespaces[4] = {
             '_default': [u'Wikipedia', self.namespaces[4]['_default']],
             'ab': u'Авикипедиа',
+            'am': u'ውክፔዲያ',
             'ar': u'ويكيبيديا',
             'arc': u'ܘܝܩܝܦܕܝܐ',
             'arz': u'ويكيبيديا',
@@ -179,6 +179,7 @@ class Family(family.Family):
             'ur': u'منصوبہ',
             'uz': u'Vikipediya',
             'vo': u'Vükiped',
+            'xmf': u'ვიკიპედია',
             'yi': [u'װיקיפּעדיע', u'וויקיפעדיע'],
             'zh': [u'Wikipedia', u'维基百科'],
             'zh-classical': u'維基大典',
@@ -190,7 +191,7 @@ class Family(family.Family):
             'ace': u'Marit Wikipedia',
             'af': u'Wikipediabespreking',
             'als': u'Wikipedia Diskussion',
-            'am': u'Wikipedia ውይይት',
+            'am': u'ውክፔዲያ ውይይት',
             'an': u'Descusión Wikipedia',
             'ar': u'نقاش ويكيبيديا',
             'arc': [u'ܡܡܠܠܐ ܕܘܝܩܝܦܕܝܐ', u'ܘܝܩܝܦܕܝܐ talk'],
@@ -276,8 +277,8 @@ class Family(family.Family):
             'jv': u'Dhiskusi Wikipedia',
             'ka': u'ვიკიპედია განხილვა',
             'kaa': u'Wikipedia sa\'wbeti',
-            'kbd': u'Уикипедиэм и тепсэлъыхьыгъуэ',
             'kab': u'Amyannan n Wikipedia',
+            'kbd': u'Уикипедиэм и тепсэлъыхьыгъуэ',
             'kk': u'Уикипедия талқылауы',
             'kl': u'Wikipedia-p oqalliffia',
             'km': u'ការពិភាក្សាអំពីវិគីភីឌា',
@@ -384,6 +385,7 @@ class Family(family.Family):
             'wo': u'Wikipedia waxtaan',
             'wuu': u'Wikipedia讨论',
             'xal': u'Wikipedia туск меткән',
+            'xmf': u'ვიკიპედია სხუნუა',
             'yi': [u'װיקיפּעדיע רעדן', u'וויקיפעדיע רעדן'],
             'yo': u'Ọ̀rọ̀ Wikipedia',
             'za': u'Wikipedia讨论',
@@ -411,6 +413,7 @@ class Family(family.Family):
         self.namespaces[100] = {
             'af': u'Portaal',
             'als': u'Portal',
+            'am': u'በር',
             'an': u'Portal',
             'ar': u'بوابة',
             'arz': u'بوابة',
@@ -450,6 +453,7 @@ class Family(family.Family):
             'ka': u'პორტალი',
             'kk': u'Портал',
             'ko': u'들머리',
+            'ku': u'Portal',
             'kw': u'Porth',
             'la': u'Porta',
             'li': u'Portaol',
@@ -502,6 +506,7 @@ class Family(family.Family):
         self.namespaces[101] = {
             'af': u'Portaalbespreking',
             'als': u'Portal Diskussion',
+            'am': u'በር ውይይት',
             'an': u'Descusión Portal',
             'ar': u'نقاش البوابة',
             'arz': u'مناقشة بوابة',
@@ -541,6 +546,7 @@ class Family(family.Family):
             'ka': u'პორტალი განხილვა',
             'kk': u'Портал талқылауы',
             'ko': u'들머리토론',
+            'ku': u'Portal nîqaş',
             'kw': u'Keskows Porth',
             'la': u'Disputatio Portae',
             'li': u'Euverlèk portaol',
@@ -827,13 +833,15 @@ class Family(family.Family):
             'tr':  [u'Anlam ayrım', u'Disambig', u'Anlam ayrımı',
                     u'Kişi adları (anlam ayrımı)',
                     u'Yerleşim yerleri (anlam ayrımı)',
-                    u'kısaltmalar (anlam ayrımı)'],
+                    u'kısaltmalar (anlam ayrımı)', u'Coğrafya (anlam ayrımı)',
+                    u'Yerleşim yerleri (anlam ayrımı)', u'Sayılar (anlam ayrımı)',
+                    u"ABD'deki iller (anlam ayrımı)"],
             'vls': [u'Db', u'Dp', u'Dpintro'],
             'wo':  [u'Bokktekki'],
             'yi':  [u'באדייטען'],
             'zea': [u'dp', u'Deurverwiespagina'],
             'zh':  [u'Disambig', u'消歧义', u'消歧义页', u'消歧義', u'消歧義頁',
-                    u'Letter disambig'],
+                    u'Letter disambig', u'Isomerdab'],
             'zh-classical':  [u'Disambig', u'釋義', u'消歧義'],
             'zh-yue': [u'搞清楚', u'Disambig'],
         }
@@ -888,7 +896,7 @@ class Family(family.Family):
             'ms':  u'Nyahkekaburan',
             'mt':  u'Diżambigwazzjoni',
             'nds': u'Mehrdüdig Begreep',
-            'nds-nl': u'Deurverwiespagina',
+            'nds-nl': u'Wikipedie:Deurverwiespagina',
             'nl':  u'Wikipedia:Doorverwijspagina',
             'nn':  u'Fleirtydingssider',
             'no':  u'Pekere',
@@ -991,8 +999,8 @@ class Family(family.Family):
             'kab', 'roa-tara', 'tt', 'te', 'tet', 'th', 'ti', 'vi', 'tg',
             'tokipona', 'tp', 'tpi', 'chy', 've', 'tr', 'tk', 'tw', 'udm', 'uk',
             'ur', 'ug', 'za', 'vec', 'vo', 'fiu-vro', 'wa', 'vls', 'war', 'wo',
-            'wuu', 'ts', 'yi', 'yo', 'diq', 'zea', 'zh', 'zh-tw', 'zh-cn',
-            'zh-classical', 'zh-yue', 'bat-smg',
+            'wuu', 'ts', 'xmf', 'yi', 'yo', 'diq', 'zea', 'zh', 'zh-tw',
+            'zh-cn', 'zh-classical', 'zh-yue', 'bat-smg',
         ]
 
         # Which languages have a special order for putting interlanguage links,
@@ -1040,7 +1048,7 @@ class Family(family.Family):
             'kr': None, # http://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Kanuri_Wikipedia
             'mh': None, # http://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Marshallese_Wikipedia
             'minnan': 'zh-min-nan',
-            'mo': None, # http://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Moldovan_Wikipedia
+            'mo': 'ro', # http://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Moldovan_Wikipedia
             'mus': None, # http://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Muscogee_Wikipedia
             'nb': 'no',
             'ng': None, #(not reachable) http://meta.wikimedia.org/wiki/Inactive_wikis

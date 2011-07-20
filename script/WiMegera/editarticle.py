@@ -6,9 +6,9 @@ Edit a Wikipedia article with your favourite editor.
 
 #
 # (C) Gerrit Holl 2004
-# (C) Pywikipedia team, 2004-2010
+# (C) Pywikipedia team, 2004-2011
 #
-__version__ = "$Id$"
+__version__ = "$Id: editarticle.py 9370 2011-07-13 06:39:47Z xqt $"
 #
 # Distributed under the terms of the MIT license.
 #
@@ -29,20 +29,9 @@ import optparse
 import tempfile
 
 import wikipedia as pywikibot
+from pywikibot import i18n
 import config
 
-msg = {
-    'ar': u'تعديل يدوي: %s',
-    'de': u'Manuelle Bearbeitung: %s',
-    'en': u'Manual edit: %s',
-    'fa': u'ویرایش دستی: %s',
-    'he': u'עריכה ידנית: %s',
-    'ja': u'手動編集: %s',
-    'pt': u'Editando manualmente com bot: %s',
-    'sv': u'Manuell redigering: %s',
-    'is': u'Handvirk breyting: %s',
-    'zh': u'手動編輯: %s',
-}
 
 class TextEditor:
     def __init__(self):
@@ -188,7 +177,8 @@ class ArticleEditor:
         if new and old != new:
             pywikibot.showDiff(old, new)
             changes = pywikibot.input(u"What did you change?")
-            comment = pywikibot.translate(pywikibot.getSite(), msg) % changes
+            comment = i18n.twtranslate(pywikibot.getSite(), 'editarticle-edit',
+                                       {'description': changes})
             try:
                 self.page.put(new, comment=comment, minorEdit=False,
                               watchArticle=self.options.watch)

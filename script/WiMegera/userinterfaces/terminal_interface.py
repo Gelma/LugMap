@@ -4,7 +4,7 @@
 #
 # Distributed under the terms of the MIT license.
 #
-__version__ = '$Id$'
+__version__ = '$Id: terminal_interface.py 9044 2011-03-13 10:26:54Z xqt $'
 
 import config, transliteration
 import traceback, re, sys

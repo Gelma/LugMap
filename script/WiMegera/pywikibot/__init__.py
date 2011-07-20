@@ -3,16 +3,17 @@
 The initialization file for the Pywikibot framework.
 """
 #
-# (C) Pywikipedia bot team, 2010
+# (C) Pywikipedia bot team, 2010-2011
 #
 # Distributed under the terms of the MIT license.
 #
-__version__ = '$Id$'
+__version__ = '$Id: __init__.py 9398 2011-07-16 16:17:18Z xqt $'
 
 import datetime
 import difflib
 
 from exceptions import *
+from i18n import translate
 from textlib import *
 from throttle import *
 

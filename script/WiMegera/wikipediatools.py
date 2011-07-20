@@ -1,4 +1,4 @@
-__version__ = '$Id$'
+__version__ = '$Id: wikipediatools.py 9080 2011-03-14 16:58:40Z saper $'
 import os, sys
 
 def create_user_config_file(base_dir):

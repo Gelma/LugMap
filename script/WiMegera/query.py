@@ -22,7 +22,7 @@ This module allow you to use the API in a simple and easy way.
 #
 # Distributed under the terms of the MIT license.
 #
-__version__ = '$Id$'
+__version__ = '$Id: query.py 9214 2011-05-04 20:40:36Z xqt $'
 #
 
 import wikipedia, time
@@ -56,7 +56,7 @@ def GetData(params, site = None, useAPI = True, retryCount = 5, encodeTitle = Tr
             else:
                 params[k] = unicode(ListToParam(v))
 
-        elif not IsString(v):
+        elif not isinstance(v,basestring):
             params[k] = unicode(v)
         elif type(v) == unicode:
             params[k] = ToUtf8(v)
@@ -249,13 +249,15 @@ def ConvToList( item ):
     """
     if item is None:
         return []
-    elif IsString(item):
+    elif isinstance(item,basestring):
         return [item]
     else:
         return item
 
 def ListToParam( list ):
-    """Convert a list of unicode strings into a UTF8 string separated by the '|' symbols
+    """Convert a list of unicode strings into a UTF8 string separated by the '|'
+    symbols
+
     """
     list = ConvToList( list )
     if len(list) == 0:
@@ -263,10 +265,24 @@ def ListToParam( list ):
 
     encList = ''
     # items may not have one symbol - '|'
-    for l in list:
-        if type(l) == str and u'|' in l:
-            raise wikipedia.Error("item '%s' contains '|' symbol" % l )
-        encList += ToUtf8(l) + u'|'
+    for item in list:
+        if isinstance(item, basestring):
+            if u'|' in item:
+                raise wikipedia.Error(u"item '%s' contains '|' symbol" % item)
+            encList += ToUtf8(item) + u'|'
+        elif type(item) == int:
+            encList += ToUtf8(item) + u'|'
+        elif isinstance(item, wikipedia.Page):
+            encList += ToUtf8(item.title()) + u'|'
+        elif item.__class__.__name__ == 'User':
+            # delay loading this until it is needed
+            import userlib
+            encList += ToUtf8(item.name()) + u'|'
+        else:
+            raise wikipedia.Error(u'unknown item class %s'
+                                  % item.__class__.__name__)
+
+    # strip trailing '|' before returning
     return encList[:-1]
 
 def ToUtf8(s):
@@ -277,5 +293,14 @@ def ToUtf8(s):
             s = s.decode(wikipedia.config.console_encoding)
     return s
 
-def IsString(s):
-    return type( s ) in [str, unicode]
+if __name__ == '__main__':
+    """
+    Testing code for this module
+    """
+    wikipedia.output("""
+    This module is not for direct usage from the command prompt.
+    """)
+    # unit tests
+    import tests.test_query
+    import unittest
+    unittest.main(tests.test_query)

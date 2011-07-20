@@ -7,7 +7,7 @@ Mechanics to slow down wiki read and/or write rate.
 #
 # Distributed under the terms of the MIT license.
 #
-__version__ = '$Id$'
+__version__ = '$Id: throttle.py 8035 2010-03-22 14:49:07Z xqt $'
 
 import wikipedia as pywikibot
 import config

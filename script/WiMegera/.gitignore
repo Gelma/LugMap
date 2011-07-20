@@ -1,1 +1,3 @@
 *.pyc
+pywikibot/throttle.ctrl
+logs/

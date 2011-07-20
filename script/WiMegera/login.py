@@ -53,7 +53,7 @@ subdirectory.
 #
 # Distributed under the terms of the MIT license.
 #
-__version__='$Id$'
+__version__='$Id: login.py 8114 2010-04-19 20:52:19Z xqt $'
 
 import re, os, query
 import urllib2

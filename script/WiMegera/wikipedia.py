@@ -120,7 +120,7 @@ from __future__ import generators
 #
 # Distributed under the terms of the MIT license.
 #
-__version__ = '$Id$'
+__version__ = '$Id: wikipedia.py 9400 2011-07-16 18:32:20Z multichill $'
 
 import os, sys
 import httplib, socket, urllib, urllib2, cookielib
@@ -723,7 +723,9 @@ not supported by PyWikipediaBot!"""
             'prop': ['revisions', 'info'],
             'rvprop': ['content', 'ids', 'flags', 'timestamp', 'user', 'comment', 'size'],
             'rvlimit': 1,
-            'inprop': ['protection', 'talkid', 'subjectid', 'url', 'readable'],
+            #'talkid' valid for release > 1.12
+            #'url', 'readable' valid for release > 1.14
+            'inprop': ['protection', 'subjectid'],
             #'intoken': 'edit',
         }
         if oldid:
@@ -1113,7 +1115,7 @@ not supported by PyWikipediaBot!"""
 
         """
         found = False
-        if self.isRedirectPage():
+        if self.isRedirectPage() and self.site().versionnumber() > 13:
             staticKeys = self.site().getmagicwords('staticredirect')
             text = self.get(get_redirect=True, force=force)
             if staticKeys:
@@ -1140,7 +1142,12 @@ not supported by PyWikipediaBot!"""
                                 ).titleWithoutNamespace() # normalize title
                 if template in catredirs:
                     # Get target (first template argument)
-                    self._catredirect = self.site().namespace(14) + ":" + args[0]
+                    if not args:
+                        pywikibot.output(u'Warning: redirect target for %s is missing'
+                                         % self.title(asLink=True))
+                        self._catredirect = False
+                    else:
+                        self._catredirect = self.site().namespace(14) + ":" + args[0]
                     break
             else:
                 self._catredirect = False
@@ -1692,18 +1699,18 @@ not supported by PyWikipediaBot!"""
             elif self.site().has_api() and self.namespace() in [2,3] \
                  and (self.title().endswith('.css') or \
                       self.title().endswith('.js')):
-		titleparts = self.title().split("/")
-		userpageowner = titleparts[0].split(":")[1]
-		if userpageowner != username:
-			# API enable: if title ends with .css or .js in ns2,3
-			# it needs permission to edit user pages
-			if self.title().endswith('css'):
-				permission = 'editusercss'
-			else:
-				permission = 'edituserjs'
-			sysop = self._getActionUser(action=permission,
-						    restriction=self.editRestriction,
-						    sysop=True)
+                titleparts = self.title().split("/")
+                userpageowner = titleparts[0].split(":")[1]
+                if userpageowner != username:
+                    # API enable: if title ends with .css or .js in ns2,3
+                    # it needs permission to edit user pages
+                    if self.title().endswith('css'):
+                        permission = 'editusercss'
+                    else:
+                        permission = 'edituserjs'
+                    sysop = self._getActionUser(action=permission,
+                                                restriction=self.editRestriction,
+                                                sysop=True)
 
         # If there is an unchecked edit restriction, we need to load the page
         if self._editrestriction:
@@ -1735,10 +1742,11 @@ u'Page %s is semi-protected. Getting edit page to find out if we are allowed to 
                 if verbose:
                     output(u'Cosmetic Changes for %s-%s enabled.' % (self.site().family.name, self.site().lang))
                 import cosmetic_changes
+                from pywikibot import i18n
                 ccToolkit = cosmetic_changes.CosmeticChangesToolkit(self.site(), redirect=self.isRedirectPage(), namespace = self.namespace(), pageTitle=self.title())
                 newtext = ccToolkit.change(newtext)
                 if comment and old.strip().replace('\r\n', '\n') != newtext.strip().replace('\r\n', '\n'):
-                    comment += translate(self.site(), cosmetic_changes.msg_append)
+                    comment += i18n.twtranslate(self.site(), 'cosmetic_changes-append')
 
         if watchArticle is None:
             # if the page was loaded via get(), we know its status
@@ -1848,7 +1856,7 @@ u'Page %s is semi-protected. Getting edit page to find out if we are allowed to 
             # Submit the prepared information
             try:
                 response, data = query.GetData(params, self.site(), sysop=sysop, back_response = True)
-                if query.IsString(data):
+                if isinstance(data,basestring):
                     raise KeyError
             except httplib.BadStatusLine, line:
                 raise PageNotSaved('Bad status line: %s' % line.line)
@@ -2528,7 +2536,8 @@ u'Page %s is semi-protected. Getting edit page to find out if we are allowed to 
                 if name.startswith('#'):
                     continue
                 # {{DEFAULTSORT:...}}
-                defaultKeys = self.site().getmagicwords('defaultsort')
+                defaultKeys = self.site().versionnumber() > 13 and \
+                              self.site().getmagicwords('defaultsort')
                 # It seems some wikis does not have this magic key
                 if defaultKeys:
                     found = False
@@ -3714,6 +3723,7 @@ class ImagePage(Page):
     getFileVersionHistoryTable: Return the version history in the form of a
                                 wiki table.
     usingPages                : Yield Pages on which the image is displayed.
+    globalUsage               : Yield Pages on which the image is used globally
 
     """
     def __init__(self, site, title, insite = None):
@@ -3956,7 +3966,52 @@ class ImagePage(Page):
                 output(
         u"Image description page %s contains invalid reference to [[%s]]."
                     % (self.title(), match.group('title')))
+                
+    def globalUsage(self):
+        '''
+        Yield Pages on which the image is used globally.
+        Currently this probably only works on Wikimedia Commonas.
+        '''
+        
+        if not self.site().has_api() or self.site().versionnumber() < 11:
+            # Not supported, just return none
+            return
 
+        params = {
+            'action': 'query',
+            'prop': 'globalusage',
+            'titles': self.title(),
+            'gulimit': config.special_page_limit,
+            #'': '',
+        }
+
+        while True:
+            data = query.GetData(params, self.site())
+            if 'error' in data:
+                raise RuntimeError("%s" % data['error'])
+
+            for (page, globalusage) in data['query']['pages'].items():
+                for gu in globalusage['globalusage']:
+                    #FIXME : Should have a cleaner way to get the wiki where the image is used
+                    siteparts = gu['wiki'].split('.')
+                    if len(siteparts)==3:
+                        if siteparts[0] in self.site().fam().alphabetic and siteparts[1] in ['wikipedia', 'wiktionary', 'wikibooks', 'wikiquote','wikisource']:
+                            code = siteparts[0]
+                            fam = siteparts[1]
+                        elif siteparts[0] in ['meta', 'incubator'] and siteparts[1]==u'wikimedia':
+                            code = code = siteparts[0]
+                            fam = code = siteparts[0]
+                        else:
+                            code = None
+                            fam = None
+                        if code and fam:
+                            site = getSite(code=code, fam=fam)
+                            yield Page(site, gu['title'])
+
+            if 'query-continue' in data:
+                params['gucontinue'] = data['query-continue']['globalusage']['gucontinue']
+            else:
+                break
 
 class _GetAll(object):
     """For internal use only - supports getall() function"""
@@ -4337,7 +4392,7 @@ class _GetAll(object):
             'titles': pagenames,
             'siprop': ['general', 'namespaces'],
             'rvprop': ['content', 'timestamp', 'user', 'comment', 'size'],#'ids',
-            'inprop': ['protection', 'talkid', 'subjectid'], #, 'url', 'readable'
+            'inprop': ['protection', 'subjectid'], #, 'talkid', 'url', 'readable'
         }
 
         # Slow ourselves down
@@ -4975,10 +5030,10 @@ class Site(object):
         else:
             self._load(sysop = sysop)
             index = self._userIndex(sysop)
-	    # Handle obsolete editusercssjs permission
-	    if right in ['editusercss', 'edituserjs'] \
-		and right not in self._rights[index]:
-		return 'editusercssjs' in self._rights[index]
+            # Handle obsolete editusercssjs permission
+            if right in ['editusercss', 'edituserjs'] \
+               and right not in self._rights[index]:
+                return 'editusercssjs' in self._rights[index]
             return right in self._rights[index]
 
     def server_time(self):
@@ -5573,7 +5628,13 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
 
         # Get user groups and rights
         if 'groups' in text:
-            self._rights[index] = text['groups']
+            self._rights[index] = []
+            for group in text['groups']:
+                # Convert dictionaries to list items (bug 3311663)
+                if isinstance(group, dict):
+                    self._rights[index].extend(group.keys())
+                else:
+                    self._rights[index].append(group)
             self._rights[index].extend(text['rights'])
             # Warnings
             # Don't show warnings for not logged in users, they will just fail to
@@ -5804,6 +5865,8 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
             self._info = data
         else:
             if key == 'magicwords':
+                if self.versionnumber() <= 13:
+                    return None #Not implemented
                 self._info[key]={}
                 for entry in data[key]:
                     self._info[key][entry['name']] = entry['aliases']
@@ -6371,7 +6434,7 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
         """
         Yield recent changes as Page objects
         uses API call: action=query&list=recentchanges&rctype=edit|new&rclimit=500
- 
+
         Starts with the newest change and fetches the number of changes
         specified in the first argument. If repeat is True, it fetches
         again.
@@ -6980,16 +7043,19 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
 
     def getmagicwords(self, word):
         """Return list of localized "word" magic words for the site."""
+        if self.versionnumber() <= 13:
+            raise NotImplementedError
         return self.siteinfo('magicwords').get(word)
 
     def redirect(self, default=False):
         """Return the localized redirect tag for the site.
 
-        Argument is ignored (but maintained for backwards-compatibility).
-
         """
         # return the magic word without the preceding '#' character
-        return self.getmagicwords('redirect')[0].lstrip("#")
+        if default or self.versionnumber() <= 13:
+            return u'REDIRECT'
+        else:
+            return self.getmagicwords('redirect')[0].lstrip("#")
 
     def redirectRegex(self):
         """Return a compiled regular expression matching on redirect pages.
@@ -6999,7 +7065,7 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
         """
         #NOTE: this is needed, since the API can give false positives!
         default = 'REDIRECT'
-        keywords = self.getmagicwords('redirect')
+        keywords = self.versionnumber() > 13 and self.getmagicwords('redirect')
         if keywords:
             pattern = r'(?:' + '|'.join(keywords) + ')'
         else:
@@ -7019,11 +7085,13 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
 
     def pagenamecodes(self, default=True):
         """Return list of localized PAGENAME tags for the site."""
-        return self.getmagicwords('pagename')
+        return self.versionnumber() > 13 and self.getmagicwords('pagename') \
+               or u'PAGENAME'
 
     def pagename2codes(self, default=True):
         """Return list of localized PAGENAMEE tags for the site."""
-        return self.getmagicwords('pagenamee')
+        return self.versionnumber() > 13 and self.getmagicwords('pagenamee') \
+               or u'PAGENAMEE'
 
     def resolvemagicwords(self, wikitext):
         """Replace the {{ns:xx}} marks in a wikitext with the namespace names"""
@@ -7033,7 +7101,7 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
             value = namespace.get('_default', None)
             if value:
                 if isinstance(value, list):
-                    defaults += value
+                    defaults.append(value[0])
                 else:
                     defaults.append(value)
 
@@ -7532,7 +7600,7 @@ u"WARNING: Could not open '%s'. Maybe the server or\n your connection is down. R
                 raise ServerError("The APIs don't return data, the site may be down")
 
             self._patrolToken[index] = rcData[0]['patroltoken']
-            
+
         return self._patrolToken[index]
 
     def getFilesFromAnHash(self, hash_found = None):
