@@ -10,7 +10,7 @@
 <body>
 
 <div id="header">
-  <img src="/immagini/ilsheader-wide.png" alt="Italian Linux Society" />
+  <img src="/immagini/ils_logo.png" alt="Italian Linux Society" />
   <h2 id="title">Linux User Group della regione <?php echo $regione ?></h2>
 </div>
 
