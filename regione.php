@@ -68,6 +68,7 @@ lugheader ($title, $regione);
 
    <?php if ($db_file != null) { ?>
    <a id="csvLink" href="db/<?php echo $db_file ?>.txt">&raquo; Elenco in formato CSV</a>
+   <?php ultimo_aggiornamento(); ?>
    <?php } else { ?>
    <br />
    <?php } ?>
