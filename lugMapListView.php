@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="language" content="italian" />
   <meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, $regione" />
-  <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+  <link href="/css/main.css" rel="stylesheet" type="text/css" />
   <title>LUG presenti nella regione <?php echo $regione ?></title>
 </head>
 <body>

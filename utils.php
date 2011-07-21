@@ -36,7 +36,7 @@ function lugheader ($title, $keywords, $extracss = null, $extrajs = null) {
   <meta name="language" content="italian" />
   <meta name="keywords" content="Linux, GNU/Linux, software libero, freesoftware, LUG, Linux User Group, <?php echo $keywords; ?>" />
 
-  <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+  <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
   <?php
     if ($extracss != null)
