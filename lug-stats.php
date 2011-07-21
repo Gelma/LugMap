@@ -21,7 +21,7 @@ lugheader ('Statistiche sui Linux User Group italiani', 'statistiche');
 ?>
 
 <div id="center">
-  <a id="backLugMapLink" href="index.phtml">&raquo; torna alla LUGmap</a>
+  <a id="backLugMapLink" href="/">&raquo; torna alla LUGmap</a>
   <table id="lugListTable">
     <thead>
         <tr>
