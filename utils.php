@@ -71,14 +71,12 @@ function lugfooter () {
 <div id="footer">
 		<p class="helpMessage">Aiutaci a mantenere la LugMap aggiornata!</p>
 		<p class="helpMessage">
-		Segnalaci nuovi e vecchi Lug, cos&igrave; come eventuali correzioni o errori, scrivendo
+		Segnalaci nuovi gruppi, cos&igrave; come errori ed omissioni, scrivendo
 		alla <a href="http://lists.linux.it/listinfo/lugmap">mailing list pubblica</a>,
-		oppure telefonando direttamente ad <a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">Andrea Gelmini</a> al 328/7296628.
-		</p>
-		<p class="helpMessage">
-		Partecipa utilizzando il
-		<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>
-		e consultando la
+		oppure contattando direttamente Andrea Gelmini (telefonicamente al 328/7296628, via <a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">mail</a>, o attraverso <a class="generalink" href="http://www.facebook.com/andrea.gelmini">Facebook</a>.)<br>
+		Puoi partecipare attivamente, sia al codice del sito che al database, sfruttando il
+		<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>.
+		Per saperne di pi&ugrave; &egrave; disponibile la
 		<a class="generalink" href="https://github.com/Gelma/LugMap/tree/docs">Guida Intergalattica alla LugMap</a>.
 		<p class="helpMessage">
 		Te ne saremo eternamente grati!
