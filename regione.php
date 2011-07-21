@@ -1,6 +1,6 @@
 <?php
 
-require_once ('utils.php');
+require_once ('funzioni.php');
 
 # parsing della richiesta per individuare
 if (isset ($_REQUEST["reg"])) {

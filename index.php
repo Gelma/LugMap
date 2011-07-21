@@ -1,6 +1,6 @@
 <?php
 
-require_once ('utils.php');
+require_once ('funzioni.php');
 lugheader ('Mappa dei Linux User Group italiani', 'Italian Linux Society');
 
 ?>
