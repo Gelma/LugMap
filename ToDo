@@ -16,6 +16,7 @@ Frosinone|CiLug|Frosinone, Ciociaria|http://www.cilug.org/|gica78r@gmail.com (ri
 	  http://it.wikipedia.org/wiki/Hacklab
 	* WiMegera: ritestare come all'inizio eventuale eliminazione di file
 	  dalle directory i18n e pywikibot
+	* WiMegera: scorpora notifica email
 	* Per sito lugmap.linux.it:
 		* non risulta integrato nell'estetica di ILS
 		* sembra vetusto e abbandonato (fornire date e link a ultimo commit?)
@@ -25,6 +26,7 @@ Frosinone|CiLug|Frosinone, Ciociaria|http://www.cilug.org/|gica78r@gmail.com (ri
 		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
 		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
 		* lista lugmap: modificare campo contatti
+		* aggiornare output date script Fabio
 	* spazzolone: aggiungi segnalazione via mail
 	* spazzolone: sostituirlo all'ufficiale
 	* spazzolone: vedere se possibile aggiungere notifica redirect
