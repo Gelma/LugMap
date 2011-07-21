@@ -24,7 +24,7 @@ lugheader ('Mappa dei Linux User Group italiani', 'Italian Linux Society');
 
       <div>
         Sono inoltre disponibile <a href="/regione.php">l'elenco completo di tutti i
-        LUG</a> ordinati per provincia, una pagina dedicata alle <a href="lug-stats.php">statistiche</a>,
+        LUG</a> ordinati per provincia, una pagina dedicata alle <a href="/statistiche.php">statistiche</a>,
         ed un <a href="lug-o-matic">widget web</a> da includere sul tuo sito.
       </div>
     </td>
