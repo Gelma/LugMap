@@ -1,7 +1,7 @@
 <?php
 
 require_once ('utils.php');
-require_once ('../utils.php');
+require_once ('../funzioni.php');
 
 if (isset ($_GET ['region'])) {
   require_once ('widget.php');

@@ -88,4 +88,11 @@ function lugfooter () {
 <?php
 }
 
+function ultimo_aggiornamento () {
+?>
+   <a id="csvLink" href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo;Ultimo aggiornamento</a>
+
+<?php
+}
+
 ?>
