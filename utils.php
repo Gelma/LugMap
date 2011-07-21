@@ -59,7 +59,7 @@ function lugheader ($title, $keywords, $extracss = null, $extrajs = null) {
 <body>
 
 <div id="header">
-  <img src="/ilsheader-wide.png" alt="Italian Linux Society" />
+  <img src="/immagini/ilsheader-wide.png" alt="Italian Linux Society" />
   <h2 id="title"><?php echo $title; ?></h2>
 </div>
 
