@@ -12,7 +12,13 @@ Frosinone|CiLug|Frosinone, Ciociaria|http://www.cilug.org/|gica78r@gmail.com (ri
 	http://www.linuxlinks.it/LUG.html
 
 == Varie
-	Riscrivere WiMegera per poter aggiungere piu' url, come
-	http://it.wikipedia.org/wiki/Hacklab
-	WiMegera: ritestare come all'inizio eventuale eliminazione di file
-	dalle directory i18n e pywikibot
+	* Riscrivere WiMegera per poter aggiungere piu' url, come
+	  http://it.wikipedia.org/wiki/Hacklab
+	* WiMegera: ritestare come all'inizio eventuale eliminazione di file
+	  dalle directory i18n e pywikibot
+	* Per sito lugmap.linux.it:
+		* non risulta integrato nell'estetica di ILS
+		* sembra vetusto e abbandonato (fornire date e link a ultimo commit?)
+		* razionalizzare files per rendere piu' chiara la struttura
+		* abbandonare la malefica gif
+		* dargli uno spirito di collaborazione (invitare i Lug a scrivere due righe, una sorta di Lug del mese?)
