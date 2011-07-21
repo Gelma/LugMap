@@ -61,7 +61,7 @@
 \begin_body
 
 \begin_layout Title
-Guida intergalattica alla LugMap.Linux.IT
+Guida intergalattica alla LugMap
 \end_layout
 
 \begin_layout Author
@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-18 Luglio 2011
+22 Luglio 2011
 \end_layout
 
 \begin_layout Standard
@@ -1021,7 +1021,11 @@ friuli.txt
 \end_layout
 
 \begin_layout Itemize
-Italia.txt (notare la 'I' maiuscola)
+Italia.txt (notare la 
+\family typewriter
+'I'
+\family default
+ maiuscola)
 \end_layout
 
 \begin_layout Itemize
@@ -1395,7 +1399,11 @@ http://lugbs.linux.it/
 \begin_layout Standard
 Spazzino dovrebbe funzionare senza problemi su una qualsiasi distribuzione
  Linux sufficientemente moderna, con l'unica accortezza di installare i
- package di BeautifulSoup
+ package di 
+\family typewriter
+BeautifulSoup
+\family default
+
 \begin_inset Foot
 status collapsed
 
@@ -1407,7 +1415,11 @@ http://www.crummy.com/software/BeautifulSoup/
 
 \end_inset
 
-, Mechanize
+, 
+\family typewriter
+Mechanize
+\family default
+
 \begin_inset Foot
 status collapsed
 
@@ -1419,7 +1431,11 @@ http://wwwsearch.sourceforge.net/mechanize/
 
 \end_inset
 
- e ZODB.
+ e 
+\family typewriter
+ZODB
+\family default
+.
 \begin_inset Foot
 status collapsed
 
@@ -1493,13 +1509,19 @@ Non sono necessari privilegi particolari per l'esecuzione dello stesso.
 \end_layout
 
 \begin_layout Standard
-I file risultanti si trovano nella 
+I file dei dati di 
+\family typewriter
+ZODB
+\family default
+ si trovano nella 
 \family typewriter
 home 
 \family default
-dell'utente, tutti con il prefisso 
+dell'utente esecutore, tutti con il prefisso 
 \family typewriter
 .spazzino
+\family default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -1554,6 +1576,15 @@ reference "sub:Spazzino"
 
  con due differenze: le notifiche vengono inviate alla mailing list e non
  vi sono moduli esterni da installare relativamente all'interprete Python.
+\end_layout
+
+\begin_layout Standard
+Il file dei dati di WiMegera si trova nella home dell'utente esecutore,
+ con il nome 
+\family typewriter
+.wimegera_ultimoid
+\family default
+.
 \end_layout
 
 \begin_layout Subsection
