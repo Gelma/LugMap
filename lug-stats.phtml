@@ -8,7 +8,7 @@ function do_row ($nriga, $region, $tot, $perc) {
   ?>
 
   <tr class="row_<?php echo ($nriga % 2); ?>">
-    <td class="province"><a href="lug-list.phtml?reg=<?php echo $region; ?>"><?php echo $elenco_regioni [$region]; ?></a></td>
+    <td class="province"><a href="regione.php?reg=<?php echo $region; ?>"><?php echo $elenco_regioni [$region]; ?></a></td>
     <td><?php echo $tot; ?></td>
     <td><?php echo round ($perc, 1); ?></td>
   </tr>
