@@ -15,5 +15,7 @@ fallito_aggiornamento() {
 	exit
 }
 
-su -c "cd $PATH_SITO && /usr/bin/git pull -q git://github.com/Gelma/LugMap.git lugmap.linux.it" www-data || fallito_aggiornamento
-su -c "/bin/date -d @$(git log -n 1 --pretty="%at")  > .ultimo_commit" www-data
+cd $PATH_SITO
+
+su -c "/usr/bin/git pull -q git://github.com/Gelma/LugMap.git lugmap.linux.it" www-data || fallito_aggiornamento
+su -c "/bin/date -d @$(git log -n 1 --pretty='%at')  > .ultimo_commit" www-data
