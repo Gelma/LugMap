@@ -1541,7 +1541,7 @@ WiMegera, invocabile da
 script/WiMegera.py
 \family default
 , è uno script in Python che si preoccupa di notificare le modifiche effettuate
- sulla pagina Wikipedia dei Lug Italiani.
+ sulla pagina Wikipedia dei Lug Italiani
 \begin_inset Foot
 status open
 
@@ -1549,6 +1549,18 @@ status open
 
 \family typewriter
 https://secure.wikimedia.org/wikipedia/it/wiki/Lista_dei_LUG_italiani
+\end_layout
+
+\end_inset
+
+ e degli hacklab.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://secure.wikimedia.org/wikipedia/it/wiki/Hacklab
 \end_layout
 
 \end_inset
@@ -1582,9 +1594,9 @@ reference "sub:Spazzino"
 Il file dei dati di WiMegera si trova nella home dell'utente esecutore,
  con il nome 
 \family typewriter
-.wimegera_ultimoid
+.wimegera
 \family default
-.
+.db.
 \end_layout
 
 \begin_layout Subsection
