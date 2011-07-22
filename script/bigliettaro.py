@@ -18,37 +18,34 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>."""
 
-if True: # import dei moduli
-	try:
-		import csv, glob, os, socket, sys, smtplib, syslog, urllib2
-	except:
-		import sys
-		print "Non sono disponibili tutti i moduli standard necessari."
-		sys.exit(-1)
-	socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (vedi urllib2)
+try:
+	import csv, glob, os, socket, sys, smtplib, syslog, urllib2
+	import notifiche
+except:
+	import sys
+	sys.exit("Non sono disponibili tutti i moduli necessari.")
+socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (vedi urllib2)
 
 def email_errori(URL, filedb=''):
-	msg = "From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\nControlla\n" % ('lugmapcheck@gelma.net', 'andrae.gelmini@gmail.com', 'Lugmap: dati non sincronizzati: '+URL+filedb+'\n') # Eventualmente da Aggiornare (vedi Guida Intergalattica alla LugMap §4.1)
 	try:
-		server = smtplib.SMTP('localhost')
-		server.sendmail('lugmapcheck@gelma.net', 'andrea.gelmini@gmail.com', msg) # Eventualmente da Aggiornare (vedi Guida Intergalattica alla LugMap §4.1)
-		server.quit()
-	except:
-		print "Non è stato possibile inviare la mail"
-		syslog.syslog(syslog.LOG_ERR, 'Lugmap: dati non sincronizzati '+URL+filedb)
+		mail = notifiche.email(mittente		= 'Bigliettaro <bigliettaro@gelma.net>',
+							   destinatario	= ['Bigliettaro <bigliettaro@gelma.net>'],
+							   oggetto 		= 'Bigliettaro: '+URL+' '+filedb,
+							   testo		= 'Discrepanza: '+URL+' '+filedb,
+							   invia_subito	= True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
+	except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
+		print 'Bigliettaro: discrepanza',URL,filedb
 
 if __name__ == "__main__":
 	for URL in ('http://lugmap.linux.it/db/', 'http://lugmap.it/db/'):
 		for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
 			fileURL = URL+filedb[5:]
-			print 'Controllo',fileURL
 			richiesta_file_db = urllib2.Request(fileURL, None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
 			try:
 				contenuto_remoto = urllib2.urlopen(richiesta_file_db).read()
 			except:
-				email_errori(fileURL,': impossibile leggere il file remoto')
+				email_errori(fileURL,': impossibile leggere il file remoto '+filedb)
 				continue
 			contenuto_locale = open(filedb, 'r').read()
 			if contenuto_locale != contenuto_remoto:
-				print "   * Differenza di contenuto"
-				email_errori(fileURL)
+				email_errori(fileURL, filedb)

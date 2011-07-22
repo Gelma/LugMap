@@ -19,32 +19,11 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>."""
 
-import editarticle, os, pickle, smtplib
+import editarticle, notifiche, os, pickle, smtplib
 
 class AccessoCronologia(editarticle.ArticleEditor):
 	def run(self):
 		return self.page.getVersionHistory(self)
-
-def invia_mail(righe_email):
-	"""Invio la mail con le ultime modifiche"""
-
-	if not righe_email: return # Se non ho alcun testo mi fermo
-
-	mittente     =  "WiMegera <wimegera@gelma.net>"
-	destinatario = ["LugMap <lugmap@lists.linux.it>"] # Eventualmente da Aggiornare (vedi Guida Intergalattica alla LugMap §4.1)
-	subject      =  "WiMegera: aggiornamenti Lug su Wikipedia"
-
-	msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (mittente, ", ".join(destinatario), subject))
-	msg = msg + '\n'.join(righe_email) + '\nhttp://it.wikipedia.org/wiki/Lista_dei_LUG_italiani' + '\n\n'
-	msg = msg.encode('iso-8859-1')
-
-	try:
-		server = smtplib.SMTP('localhost')
-		server.sendmail(mittente, destinatario, msg)
-		server.quit()
-	except:
-		print "Non è stato possibile inviare la mail di notifica:"
-		print msg
 
 def leggo_ultimo_id_inviato():
 
@@ -75,7 +54,15 @@ if __name__ == "__main__":
 			righe_della_mail.append('Data: '  +data+'   Autore: '+autore+'   ID: '+str(id))
 			righe_della_mail.append('\n'+15*'-_'+'\n')
 
-	invia_mail(righe_della_mail)
+	try:
+		mail = notifiche.email(mittente		= 'WiMegera <wimegera@gelma.net>',
+							   destinatario	= ['LugMap <lugmap@lists.linux.it>'],
+							   oggetto 		= 'WiMegera: aggiornamenti Lug su Wikipedia',
+							   testo		= righe_della_mail,
+							   invia_subito	= True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
+	except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
+		print mail
+
 	salva_ultimo_id_inviato(id)
 
 	#¹ il metodo run() mi restituisce un elenco di tuple, con i dettagli delle modifiche, come questa:

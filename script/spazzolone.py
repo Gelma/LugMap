@@ -33,6 +33,11 @@ if True: # import dei moduli
 		sys.exit("Non sono disponibili tutti i moduli standard necessari")
 
 	try:
+		import notifiche
+	except:
+		sys.exit("Errore nell'importazione di notifiche.py")
+
+	try:
 		import ZODB, persistent, transaction
 	except:
 		sys.exit("Installa ZODB3: 'easy_install zodb3' oppyre 'apt-get install python-zodb'")
@@ -96,26 +101,6 @@ if True: # controllo istanze attive
 		else:
 			logga("Spazzino: rimosso "+pidfile)
 	file(pidfile,'w').write(str(os.getpid()))
-
-def invia_report(body):
-	"""I receive a body, and I send email"""
-	return
-	header_from   = "Spazzino <spazzino@gelma.net>"
-	header_to     = "Gelma <gelma@gelma.net>"
-	subject       = 'LugMap: report data (UTC) '+str(datetime.datetime.utcnow())
-
-	msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (header_from, header_to, subject))
-	msg = body + '\n\n'
-	msg = msg.encode('utf-8')
-
-	try:
-		import smtplib
-		server = smtplib.SMTP('localhost')
-		server.sendmail(header_from, header_to, msg)
-		server.quit()
-	except:
-		logga('Errore: impossibile inviare email')
-		print 'Errore: impossibile inviare email'
 
 def termina_thread_appesi():
 	"""Uccido tutti i thread ancora attivi"""
@@ -377,8 +362,14 @@ if __name__ == "__main__":
 					  ' alle ' +
 					  time.strftime('%H:%M', time.gmtime(time.time()))
 					  )
-		#invia_report('\n'.join(report))
-		print '\n'.join(report)
+		try:
+			mail = notifiche.email(mittente	= 'Spazzino <spazzino@gelma.net>',
+							   destinatario	= ['Gelma <gelma@gelma.net>'],
+							   oggetto 		= 'LugMap: report data (UTC) '+str(datetime.datetime.utcnow()),
+							   testo		= report,
+							   invia_subito	= True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
+		except: # se fallisco stampo a video, così mi arriva come mail via cron
+			print '\n'.join(report)
 
 transaction.commit()
 db.pack()
