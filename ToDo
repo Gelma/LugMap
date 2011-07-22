@@ -11,10 +11,6 @@
 	http://www.linuxlinks.it/LUG.html
 
 == Varie
-	* Riscrivere WiMegera per poter aggiungere piu' url, come
-	  http://it.wikipedia.org/wiki/Hacklab
-	* WiMegera: ritestare come all'inizio eventuale eliminazione di file
-	  dalle directory i18n e pywikibot
 	* Per sito lugmap.linux.it:
 		* non risulta integrato nell'estetica di ILS
 		* abbandonare la malefica gif
