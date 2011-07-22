@@ -54,16 +54,17 @@ if __name__ == "__main__":
 			righe_della_mail.append('Data: '  +data+'   Autore: '+autore+'   ID: '+str(id))
 			righe_della_mail.append('\n'+15*'-_'+'\n')
 
-	try:
-		mail = notifiche.email(mittente		= 'WiMegera <wimegera@gelma.net>',
-							   destinatario	= ['LugMap <lugmap@lists.linux.it>'],
-							   oggetto 		= 'WiMegera: aggiornamenti Lug su Wikipedia',
-							   testo		= righe_della_mail,
-							   invia_subito	= True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
-	except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
-		print mail
+	if righe_della_mail:
+		try:
+			mail = notifiche.email(mittente		= 'WiMegera <wimegera@gelma.net>',
+								   destinatario	= ['WiMegera <wimegera@gelma.net>'],
+								   oggetto 		= 'WiMegera: aggiornamenti Lug su Wikipedia',
+								   testo		= righe_della_mail,
+								   invia_subito	= True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
+		except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
+			print mail
 
-	salva_ultimo_id_inviato(id)
+		salva_ultimo_id_inviato(id)
 
 	#¹ il metodo run() mi restituisce un elenco di tuple, con i dettagli delle modifiche, come questa:
 	## (39770501, u'2011-04-08T09:15:08Z', u'Gelma', u'/* Collegamenti esterni */ Aggiunto dominio dedicato', 13101, [])
