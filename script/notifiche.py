@@ -56,8 +56,11 @@ class email():
 		if type(self.testo) == list:
 			self.testo = '\n'.join(self.testo)
 
-		self.testo = self.testo.encode('utf-8')
-		self.oggetto = self.oggetto.encode('utf-8')
+		try:
+			self.testo = self.testo.encode('utf-8')
+			self.oggetto = self.oggetto.encode('utf-8')
+		except:
+			pass
 
 		self.mail_completa = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n\r\n" % (self.mittente, self.destinatario, self.oggetto))
 		self.mail_completa = self.mail_completa + self.testo + '\n\n'
