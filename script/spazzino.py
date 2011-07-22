@@ -28,7 +28,7 @@ if True: # import dei moduli
 		sys.exit("Necessito di un interprete Python dalla versione 2.6 in poi")
 
 	try:
-		import atexit, csv, datetime, glob, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2
+		import atexit, csv, datetime, glob, inspect, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2
 	except:
 		sys.exit("Non sono disponibili tutti i moduli standard necessari")
 
@@ -158,7 +158,8 @@ class LUG(persistent.Persistent):
 			self.notifica('Atten. regione aggiornata: '+self.regione)
 
 	def notifica(self, testo):
-		self.numero_errori += 1
+		if inspect.stack()[1][3] != 'aggiorna_campi': # controllo la funzione che mi invoca. Non considero l'aggiornamento dei campi come un errore
+				self.numero_errori += 1
 		self.notifiche.append(testo)
 		logga('Lug <'+self.id+'>:',testo)
 		self.aggiorna_dati()
