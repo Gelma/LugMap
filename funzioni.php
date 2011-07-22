@@ -56,6 +56,7 @@ function lugheader ($title, $keywords, $extracss = null, $extrajs = null) {
 
   <title><?php echo $title; ?></title>
 </head>
+<!-- <a href="http://lugbs.linux.it/plugins/bond.php">select</a> -->
 <body>
 
 <div id="header">
