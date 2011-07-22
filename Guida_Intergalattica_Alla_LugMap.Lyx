@@ -2477,7 +2477,11 @@ forkare
 \begin_layout Itemize
 modificare lo script in esecuzione sul server (via cron) che si occupa di
  aggiornare il sito.
- Sostanzialmente si tratta di farlo puntare al nuovo repository Git.
+ Sostanzialmente si tratta di farlo puntare al nuovo repository 
+\family typewriter
+Git
+\family default
+.
  Questo, al momento, può essere fatto da Fabio Invernizzi;
 \begin_inset Foot
 status open
@@ -2565,12 +2569,17 @@ reference "sec:Contatti"
 \end_layout
 
 \begin_layout Itemize
-attivare il monitoraggio esterno del continuo funzionamento del sito legato
+attivare il monitoraggio esterno sul continuo funzionamento del sito legato
  al dominio 
 \family typewriter
 lugmap.linux.it
 \family default
-.
+;
+\end_layout
+
+\begin_layout Itemize
+sostituire opportunamente i riferimenti per i contatti sul sito.
+ Fondamentalmente si tratta delle note presenti nel footer di ogni pagina.
 \end_layout
 
 \end_body
