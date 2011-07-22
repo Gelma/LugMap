@@ -39,7 +39,7 @@ lugheader ($title, $regione);
           <th>Provincia</th>
           <th>Denominazione</th>
           <th>Zona</th>
-          <th>Contatti</th>
+          <th>Sito</th>
         </tr>
      </thead>
      <tfoot>
@@ -54,13 +54,13 @@ lugheader ($title, $regione);
             $provincia    = $campi[0];
             $denominazione  = $campi[1];
             $zona     = $campi[2];
-            $contatti   = $campi[3];
+            $sito   = $campi[3];
         # stampa dei campi ?>
         <tr class="row_<?php echo ($nriga % 2); ?>">
          <td class="province"><?php echo $provincia ?></td>
          <td><?php echo $denominazione ?></td>
          <td><?php echo $zona ?></td>
-         <td class="contactUrl"><a href="<?php echo $contatti?>"><?php echo $contatti ?></a></td>
+         <td class="contactUrl"><a href="<?php echo $sito ?>"><?php echo $sito ?></a></td>
         </tr>
       <?php endwhile;?>
     </tbody>
