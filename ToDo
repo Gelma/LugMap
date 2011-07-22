@@ -4,7 +4,6 @@
 16 Luglio	http://www.sennaweb.org/
 
 == Tolti dal DB in attesa di conferma:
-Frosinone|CiLug|Frosinone, Ciociaria|http://www.cilug.org/|gica78r@gmail.com (risulta in dismissione; inviato email in data 22 luglio)
 
 == Liste duplicate ed obsolete:
 	http://www.spaghettilinux.org/elenco-lug
@@ -18,13 +17,9 @@ Frosinone|CiLug|Frosinone, Ciociaria|http://www.cilug.org/|gica78r@gmail.com (ri
 	  dalle directory i18n e pywikibot
 	* Per sito lugmap.linux.it:
 		* non risulta integrato nell'estetica di ILS
-		* sembra vetusto e abbandonato (fornire date e link a ultimo commit?)
-		* razionalizzare files per rendere piu' chiara la struttura
 		* abbandonare la malefica gif
 		* dargli uno spirito di collaborazione (invitare i Lug a scrivere due righe, una sorta di Lug del mese?)
 		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
 		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
 		* lista lugmap: modificare campo contatti
-		* aggiornare output date script Fabio
-		* metti spamtrap
 	* spazzolone: vedere se possibile aggiungere notifica redirect
