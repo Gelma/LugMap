@@ -56,6 +56,7 @@ function lugheader ($title, $keywords, $extracss = null, $extrajs = null) {
 
   <title><?php echo $title; ?></title>
 </head>
+<!-- <a href="http://lugbs.linux.it/plugins/bond.php">select</a> -->
 <body>
 
 <div id="header">
@@ -73,8 +74,11 @@ function lugfooter () {
 		<p class="helpMessage">
 		Segnalaci nuovi gruppi, cos&igrave; come errori ed omissioni, scrivendo
 		alla <a href="http://lists.linux.it/listinfo/lugmap">mailing list pubblica</a>,
-		oppure contattando direttamente Andrea Gelmini (telefonicamente al 328/7296628, via <a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">mail</a>, o attraverso <a class="generalink" href="http://www.facebook.com/andrea.gelmini">Facebook</a>.)<br>
-		Puoi partecipare attivamente, sia al codice del sito che al database, sfruttando il
+		oppure contattando direttamente Andrea Gelmini (telefonicamente al
+		<a class=generalink" href="tel:328-72-96-628">328-72-96-628</a>, via
+		<a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">mail</a>, o attraverso
+		<a class="generalink" href="http://www.facebook.com/andrea.gelmini">Facebook</a>.)<br>
+		Puoi partecipare direttamente, sia alla stesura del codice che del database, sfruttando il
 		<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>.
 		Per saperne di pi&ugrave; &egrave; disponibile la
 		<a class="generalink" href="https://github.com/Gelma/LugMap/tree/docs">Guida Intergalattica alla LugMap</a>.
@@ -102,7 +106,7 @@ piwikTracker.enableLinkTracking();
 
 function ultimo_aggiornamento () {
 ?>
-   <a id="csvLink" href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo;Ultimo aggiornamento</a>
+   <a id="csvLink" href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo;Ultimo aggiornamento del <?php print file_get_contents('.ultimo_commit') ?></a>
 
 <?php
 }
