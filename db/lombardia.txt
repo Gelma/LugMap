@@ -11,7 +11,7 @@ Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/|info@lugcr.it
 Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|glux@lecco.linux.it
 Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|info@lolug.net
 Mantova|LugMan|Mantova e provincia|http://www.lugman.net/|fausto.picchi@gmail.com
-Milano|Lug Bocconi|Milano|http://www.lug-bocconi.org/|boccolinux@gmail.com
+Milano|Lug Bocconi|Milano|http://www.lugbocconi.org/|boccolinux@gmail.com
 Milano|Lugdico|Milano|http://lugdico.wordpress.com/|andrea.trentini@unimi.it
 Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
 Milano|POuL|Milano|http://www.poul.org/|info@poul.org
