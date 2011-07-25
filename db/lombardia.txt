@@ -1,4 +1,4 @@
-Bergamo|BGLug|Bergamo e provincia|http://www.bglug.it/|info@bglug.it
+Bergamo|BGLug|Bergamo e provincia|http://bglug.it/|info@bglug.it
 Bergamo|BGLug Valle Seriana|Gazzaniga, Valle Seriana|http://bglugvs.web3king.com/|angelo@web3king.com
 Bergamo|Linux Club Zogno|Zogno|http://www.linuxzogno.org/|info@linuxzogno.org
 Brescia|CiRcOLaB|Brescia|http://www.circolab.net/|circo@circolab.net
@@ -16,7 +16,7 @@ Milano|Lugdico|Milano|http://lugdico.wordpress.com/|andrea.trentini@unimi.it
 Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
 Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
-Milano|ViGLug|Vignate|http://www.viglug.org/|fraph24@gmail.com
+Milano|ViGLug|Vignate|http://viglug.org/|fraph24@gmail.com
 Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/|info@bubblesfactory.it
 Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|tilug@lists.linux.it
 Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|fulvio.restelli@faswebnet.it
