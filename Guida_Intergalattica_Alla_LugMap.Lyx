@@ -69,7 +69,7 @@ Andrea Gelmini
 \end_layout
 
 \begin_layout Date
-22 Luglio 2011
+25 Luglio 2011
 \end_layout
 
 \begin_layout Standard
@@ -2591,7 +2591,109 @@ lugmap.linux.it
 
 \begin_layout Itemize
 sostituire opportunamente i riferimenti per i contatti sul sito.
- Fondamentalmente si tratta delle note presenti nel footer di ogni pagina.
+ Fondamentalmente si tratta delle note presenti nel footer di ogni pagina;
+\end_layout
+
+\begin_layout Itemize
+modificare l'istanza di Piwik,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://piwik.org/
+\end_layout
+
+\end_inset
+
+ presente nell'header delle pagine 
+\family typewriter
+\shape smallcaps
+PHP
+\family default
+\shape default
+, che punta al server
+\family typewriter
+ pergamena.lugbs.linux.it
+\family default
+, utilizzata per raccogliere informazioni sugli accessi alla 
+\family typewriter
+LugMap
+\family default
+;
+\end_layout
+
+\begin_layout Itemize
+modificare/rimuovere il file di controllo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+googlea4620a0098ca96d4.html
+\end_layout
+
+\end_inset
+
+ del 
+\family typewriter
+Google Webmasters Tools
+\family default
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://www.google.com/webmasters/tools
+\end_layout
+
+\end_inset
+
+ Non avendo accesso diretto ai log, lo sfruttiamo per avere segnalazioni
+ degli errori 
+\family typewriter
+4xx
+\family default
+, ecc.;
+\end_layout
+
+\begin_layout Itemize
+modificare/rimuovere la spamtrap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://lugmap.linux.it/css/contact.php
+\end_layout
+
+\end_inset
+
+ di 
+\family typewriter
+Project Honeypot
+\family default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://projecthoneypot.org
+\end_layout
+
+\end_inset
+
+ negli header dei file 
+\family typewriter
+\shape smallcaps
+PHP.
 \end_layout
 
 \end_body
