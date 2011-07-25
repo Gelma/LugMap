@@ -298,14 +298,14 @@ class LUG(persistent.Persistent):
 
 		logga('Lug <'+self.id+'>: controllo redirect per '+self.dominio)
 
-		for riga in self._v_redirect_log.righe: # per ogni riga di log,
+		if self._v_redirect_log.righe: # se ho dei redirect
+			riga = self._v_redirect_log.righe[-1]
 			if riga.startswith('redirecting to'):
 				url = riga.split()[-1] # prendo l'URL completo
 				dominio_nel_log = urlparse.urlparse(url).netloc
 				if self.dominio != dominio_nel_log:
 					logga('Lug <'+self.id+'>: controllo redirect per '+self.dominio)
 					self.notifica("Dominio cambiato da <"+self.dominio+"> a <"+dominio_nel_log+">")
-					break
 		return True
 
 	def aggiorna_dati(self):
