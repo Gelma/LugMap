@@ -28,7 +28,7 @@ if True: # import dei moduli
 		sys.exit("Necessito di un interprete Python dalla versione 2.6 in poi")
 
 	try:
-		import atexit, csv, datetime, glob, inspect, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2, urlparse.urlparse
+		import atexit, csv, datetime, glob, inspect, logging, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2, urlparse
 	except:
 		sys.exit("Non sono disponibili tutti i moduli standard necessari")
 
@@ -108,6 +108,20 @@ def termina_thread_appesi():
 	for id in multiprocessing.active_children():
 		logga('Lug: <'+id.name+'> ucciso thread')
 		id.terminate()
+
+class log_per_mechanize:
+	"""Oggetto simil-fd volto al solo tenere in memoria le linee di log,
+	generate dai redirect inseguiti da Mechanize, per individuare i cambiamenti
+	di dominio."""
+
+	def __init__(self):
+		self.righe = []
+
+	def write(self, riga):
+		self.righe.append(riga)
+
+	def flush(self):
+		return True
 
 class LUG(persistent.Persistent):
 	def __init__(self, id):
@@ -198,8 +212,15 @@ class LUG(persistent.Persistent):
 
 		logga('Lug <'+self.id+'>: controllo web per '+self.url)
 
+		self._v_logger = logging.getLogger("mechanize.http_redirects") # attivo il log dei redirect
+		self._v_redirect_log = log_per_mechanize() # istanzio l'oggetto per i log
+		self._v_log_handler = logging.StreamHandler(self._v_redirect_log) # creo l'handler
+		self._v_logger.addHandler(self._v_log_handler) # lo attivo
+		self._v_logger.setLevel(logging.INFO) # definisco la soglia di log
+
 		self._v_browser = mechanize.Browser() # volatile per zodb
 		self._v_browser.set_handle_robots(False) # evitiamo di richiedere robots.txt ogni volta
+		self._v_browser.set_debug_redirects(True) # obbligo mechanize a tenere traccia dei redirect
 		self._v_browser.addheaders = [('User-agent', 'Bot: http://lugmap.linux.it - lugmap@linux.it')]
 
 		try:
@@ -222,6 +243,7 @@ class LUG(persistent.Persistent):
 					self._v_titolo_attuale = ''
 			else:
 				self._v_Termini_Attuali = set(self._v_browser.open(self.url).read().split())
+				self._v_log_handler.flush() # forzo il flush del log dei redirect
 		except:
 			self.notifica('Errore web: impossibile leggere homepage')
 
@@ -271,6 +293,21 @@ class LUG(persistent.Persistent):
 			pass
 		self.title_homepage = self._v_titolo_attuale # in ogni caso salvo il nuovo valore
 
+	def controllo_redirect(self):
+		"""Scandaglio il log generato da Mechanize per trovare cambiamenti di dominio"""
+
+		logga('Lug <'+self.id+'>: controllo redirect per '+self.dominio)
+
+		for riga in self._v_redirect_log.righe: # per ogni riga di log,
+			if riga.startswith('redirecting to'):
+				url = riga.split()[-1] # prendo l'URL completo
+				dominio_nel_log = urlparse.urlparse(url).netloc
+				if self.dominio != dominio_nel_log:
+					logga('Lug <'+self.id+'>: controllo redirect per '+self.dominio)
+					self.notifica("Dominio cambiato da <"+self.dominio+"> a <"+dominio_nel_log+">")
+					break
+		return True
+
 	def aggiorna_dati(self):
 		self.ultimo_aggiornamento = time.time()
 
@@ -286,6 +323,7 @@ class LUG(persistent.Persistent):
 		self.numero_controlli += 1
 		if self.controllo_dns():
 			if self.controllo_homepage():
+				self.controllo_redirect()
 				self.controllo_title()
 		self.controlli_conclusi = True
 		self.aggiorna_dati()
