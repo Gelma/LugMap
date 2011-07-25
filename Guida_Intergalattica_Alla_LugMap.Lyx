@@ -1,5 +1,5 @@
 #LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+\lyxformat 414
 \begin_document
 \begin_header
 \textclass book
@@ -91,18 +91,14 @@ Il contenuto di queste pagine non ha alcun valore.
 \end_layout
 
 \begin_layout Itemize
-essere completato;
-\end_layout
-
-\begin_layout Itemize
 essere visionato e approvato dal direttivo di ILS (diversamente rinominarlo
  come mie note personali);
 \end_layout
 
 \begin_layout Itemize
-può essere considerato pronto per la pubblicazione quando questa guida sia
- sufficiente per permettere a chiunque di prendere in mano la completa gestione
- della LugMap in qualsiasi momento.
+può essere considerato completato per la pubblicazione quando questa guida
+ sia sufficiente per permettere a chiunque di prendere in mano la completa
+ gestione della LugMap in qualsiasi momento.
 \end_layout
 
 \begin_layout Standard
@@ -116,7 +112,9 @@ Un grazie sentito a chiunque dia una mano.
 
 \begin_layout Standard
 Attenzione: i file disponibili sono diversi, ma il sorgente di questo documento
- è il .Lyx
+ è il 
+\family typewriter
+.Lyx
 \end_layout
 
 \begin_layout Chapter
@@ -1354,11 +1352,15 @@ il funzionamento dei relativi DNS
 \end_layout
 
 \begin_layout Itemize
-eventuali cambi di IP del dominio
+cambi di IP del dominio
 \end_layout
 
 \begin_layout Itemize
-il funzionamento dell'URL
+redirect verso un nuovo dominio 
+\end_layout
+
+\begin_layout Itemize
+il corretto funzionamento dell'URL
 \end_layout
 
 \begin_layout Itemize
