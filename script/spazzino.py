@@ -28,7 +28,7 @@ if True: # import dei moduli
 		sys.exit("Necessito di un interprete Python dalla versione 2.6 in poi")
 
 	try:
-		import atexit, csv, datetime, glob, inspect, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2
+		import atexit, csv, datetime, glob, inspect, multiprocessing, os, socket, sys, smtplib, syslog, tempfile, time, urllib2, urlparse.urlparse
 	except:
 		sys.exit("Non sono disponibili tutti i moduli standard necessari")
 
@@ -146,7 +146,7 @@ class LUG(persistent.Persistent):
 
 		if self.url           != riga_csv[3]:
 			self.url           = riga_csv[3]
-			self.dominio		 = self.url.split('/')[2]
+			self.dominio       = urlparse.urlparse(self.url).netloc
 			self.notifica('Atten. URL aggiornato: '+self.url)
 
 		if self.contatto      != riga_csv[4]:
