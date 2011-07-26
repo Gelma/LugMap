@@ -1,7 +1,7 @@
 <?php
 
 require_once ('funzioni.php');
-lugheader ('Mappa dei Linux Users Group italiani', 'Italian Linux Society');
+lugheader ('LugMap', 'Italian Linux Society');
 
 ?>
 

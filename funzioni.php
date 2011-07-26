@@ -61,7 +61,8 @@ function lugheader ($title, $keywords, $extracss = null, $extrajs = null) {
 
 <div id="header">
   <img src="/immagini/ils_logo.png" alt="Italian Linux Society" />
-  <h2 id="title"><?php echo $title; ?></h2>
+  <h2 id="title"><?php if ($title != 'LugMap') {echo $title;} ?></h2>
+
 </div>
 
 <?php
