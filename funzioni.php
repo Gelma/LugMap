@@ -107,7 +107,7 @@ piwikTracker.enableLinkTracking();
 
 function ultimo_aggiornamento () {
 ?>
-   <a id="csvLink" href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo;Ultimo aggiornamento del <?php print file_get_contents('.ultimo_commit') ?></a>
+   <a id="csvLink" href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo;Aggiornato al <?php print file_get_contents('.ultimo_commit') ?></a>
 
 <?php
 }
