@@ -16,7 +16,7 @@ function do_row ($nriga, $region, $tot, $perc) {
   <?php
 }
 
-lugheader ('Statistiche sui Linux User Group italiani', 'statistiche');
+lugheader ('Statistiche sui Linux Users Group italiani', 'statistiche');
 
 ?>
 

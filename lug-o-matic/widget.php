@@ -43,7 +43,7 @@ require_once ('utils.php');
 
         <div class="title">
           <p>
-            Cerchi un Linux User Group in <?php echo $regionname; ?>?
+            Cerchi un Linux Users Group in <?php echo $regionname; ?>?
           </p>
         </div>
 

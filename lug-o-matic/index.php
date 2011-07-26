@@ -58,7 +58,7 @@ onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>'); ?
     <p>
       Usando il generatore qui accanto puoi ottenere il codice HTML di un semplice widget web da
       copiare ed incollare sul tuo sito, con l'elenco sempre automaticamente aggiornato dei Linux
-      User Group della regione selezionata.
+      Users Group della regione selezionata.
     </p>
   </div>
 
