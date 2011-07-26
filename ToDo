@@ -16,3 +16,4 @@
 		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
 		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
 		* sitemap dove escludere i file inutili da indicizzare
+		* valutare di rimuovere le keyword
