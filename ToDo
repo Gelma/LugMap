@@ -1,6 +1,7 @@
 == Ricontrollare:
 
 == Tolti dal DB in attesa di conferma:
+	26 luglio: www.hcsslug.org (nessuna mappatura DNS)
 
 == Liste duplicate ed obsolete:
 	http://www.spaghettilinux.org/elenco-lug
@@ -14,3 +15,4 @@
 		* dargli uno spirito di collaborazione (invitare i Lug a scrivere due righe, una sorta di Lug del mese?)
 		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
 		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
+		* sitemap dove escludere i file inutili da indicizzare
