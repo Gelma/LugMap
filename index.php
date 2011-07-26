@@ -10,7 +10,7 @@ lugheader ('Mappa dei Linux Users Group italiani', 'Italian Linux Society');
     <td>
       <div>
         La <b>LUGmap</b> è lo strumento che ti consente di conoscere il LUG più vicino a casa
-        tua: clicca sulla regione geografica di tuo interesse per conoscere l'elenco degli User Group
+        tua: clicca sulla regione geografica di tuo interesse per conoscere l'elenco degli Users Group
         attivi nella tua zona, oppure qui per la <a href="/regione/Italia">lista di gruppi nazionali</a>.
       </div>
 
@@ -23,17 +23,17 @@ lugheader ('Mappa dei Linux Users Group italiani', 'Italian Linux Society');
       <br />
 
       <div>
-        Sono inoltre disponibile <a href="/regione.php">l'elenco completo di tutti i
+        Sono inoltre disponibili <a href="/regione.php">l'elenco completo di tutti i
         LUG</a> ordinati per provincia, una pagina dedicata alle <a href="/statistiche.php">statistiche</a>,
         ed un <a href="lug-o-matic">widget web</a> da includere sul tuo sito.
       </div>
     </td>
 
-    <td>
+    <td align="center">
       <img id="italymap" src="/immagini/italia.gif" width="372" height="418" usemap="#italia" alt="Mappa LUG" />
     </td>
 
-    <td>
+    <td align="right">
       <?php
         foreach ($elenco_regioni as $k => $v) {
           if ($v == 'Italia') {$v = 'Gruppi Nazionali';}
