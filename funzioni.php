@@ -74,9 +74,9 @@ function lugfooter () {
 		<p class="helpMessage">Aiutaci a mantenere la LugMap aggiornata!</p>
 		<p class="helpMessage">
 		Segnalaci nuovi gruppi, cos&igrave; come errori ed omissioni, scrivendo
-		alla <a href="http://lists.linux.it/listinfo/lugmap">mailing list pubblica</a>,
+		alla <a class="generalink" href="http://lists.linux.it/listinfo/lugmap">mailing list pubblica</a>,
 		oppure contattando direttamente Andrea Gelmini (telefonicamente al
-		<a class=generalink" href="tel:328-72-96-628">328-72-96-628</a>, via
+		<a class="generalink" href="tel:328-72-96-628">328-72-96-628</a>, via
 		<a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">mail</a>, o attraverso
 		<a class="generalink" href="http://www.facebook.com/andrea.gelmini">Facebook</a>.)<br>
 		Puoi partecipare direttamente, sia alla stesura del codice che del database, sfruttando il
