@@ -32,6 +32,16 @@ lugheader ('Mappa dei Linux User Group italiani', 'Italian Linux Society');
     <td>
       <img id="italymap" src="/immagini/italia.gif" width="372" height="418" usemap="#italia" alt="Mappa LUG" />
     </td>
+
+    <td>
+      <?php
+        foreach ($elenco_regioni as $k => $v) {
+          if ($v == 'Italia') {$v = 'Gruppi Nazionali';}
+          echo '<a href="/regione/'.$k.'">'.$v.'</a><br>';
+        }
+      ?>
+    </td>
+
   </tr>
 </table>
 
