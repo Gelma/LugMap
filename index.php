@@ -9,23 +9,27 @@ lugheader ('LugMap', 'Italian Linux Society');
   <tr>
     <td>
       <div>
-        La <b>LUGmap</b> è lo strumento che ti consente di conoscere il LUG più vicino a casa
-        tua: clicca sulla regione geografica di tuo interesse per conoscere l'elenco degli Users Group
-        attivi nella tua zona, oppure qui per la <a href="/regione/Italia">lista di gruppi nazionali</a>.
+        Il progetto <b>LugMap</b> ha l'ambizione di offrire un elenco, quanto pi&ugrave; aggiornato, delle realt&agrave; che
+        ruotano attorno al perno del <a href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>,
+        come <a href="http://it.wikipedia.org/wiki/Linux_User_Group">Linux Users Group</a>,
+        <a href="http://it.wikipedia.org/wiki/Hacklab">Hacklab</a> et similia.
+        Le voci, ordinate per regione e provincia, sono accessibili sia direttamente dalla cartina italiana,
+        sia dall'elenco a lato.
       </div>
 
       <div>
-        Lo scopo della mappa è quello di dare visibilità ai gruppi di utenti Linux di ogni
-        regione, al fine di permettere a persone nuove di trovare un punto di riferimento
-        locale e un contatto "dal vivo" per avvicinarsi al mondo del software libero.
+        Il comun denominatore dei gruppi riportati è la diffusione di <a href="http://it.wikipedia.org/wiki/Linux">Linux</a>
+        quale punta di diamante del <a href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>.
+        Questi sono quindi a disposizione di chiunque voglia avvicinarsi a dette tematiche, sia in forma telematica
+        (siti Internet, mailing list, email, ecc.), sia de visu (sedi o birrerie che siano).
       </div>
 
       <br />
 
       <div>
-        Sono inoltre disponibili <a href="/regione.php">l'elenco completo di tutti i
-        LUG</a> ordinati per provincia, una pagina dedicata alle <a href="/statistiche.php">statistiche</a>,
-        ed un <a href="lug-o-matic">widget web</a> da includere sul tuo sito.
+        Sono disponibili <a href="/regione.php">l'elenco completo di tutti i LUG</a> ordinati per provincia,
+        una pagina dedicata alle <a href="/statistiche.php">statistiche</a>,
+        ed un <a href="lug-o-matic">widget web</a> da utilizzare su siti esterni.
       </div>
     </td>
 
