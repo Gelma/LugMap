@@ -32,6 +32,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
 <head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="language" content="italian" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
@@ -58,9 +59,13 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <body>
 
 <div id="header">
-  <img src="/immagini/ils_logo.png" alt="Italian Linux Society" />
-  <h2 id="title"><?php if ($title != 'LugMap') {echo $title;} ?></h2>
+  <table align=center border=0 bgcolor="#00178E">
+  <tr><td width="50"></td><td align=center valign=bottom rowspan=2><img src="/immagini/ils_logo.png"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 30pt; color: white;">LugMap</div></a></td><td width="50"></td></tr>
+  <tr><td width="50"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 12pt; color: white;">Italian Linux Society</div></td><td width="50"></td></tr>
+  <tr><td colspan=4>&nbsp;</td></tr>
+  </table>
 
+  <div id="title"><h2 class="titolino"><?php if ($title != 'LugMap') {echo $title;} ?></h2></div>
 </div>
 
 <?php
@@ -69,6 +74,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 function lugfooter () {
 ?>
 <div id="footer">
+  <table width="70%" align="center">
+	<tr><td>
 		<p class="helpMessage">Aiutaci a mantenere la LugMap aggiornata!</p>
 		<p class="helpMessage">
 		Segnalaci nuovi gruppi, cos&igrave; come errori ed omissioni, scrivendo
@@ -83,7 +90,8 @@ function lugfooter () {
 		<a class="generalink" href="https://github.com/Gelma/LugMap/tree/docs">Guida Intergalattica alla LugMap</a>.
 		<p class="helpMessage">
 		Te ne saremo eternamente grati!
-		</p>
+	  </td></tr>
+  </table>
 </div>
 <script type="text/javascript" src="/js/piwik.js"></script>
 <noscript><p><img src="http://pergamena.lugbs.linux.it/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
