@@ -27,7 +27,7 @@ else {
   $title = 'LUG presenti in Italia';
 }
 
-lugheader ($title, $regione);
+lugheader ($title);
 
 ?>
 
