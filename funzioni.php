@@ -87,7 +87,8 @@ function lugfooter () {
 		Puoi partecipare direttamente, sia alla stesura del codice che del database, sfruttando il
 		<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>.
 		Per saperne di pi&ugrave; &egrave; disponibile la
-		<a class="generalink" href="https://github.com/Gelma/LugMap/tree/docs">Guida Intergalattica alla LugMap</a>.
+		<a class="generalink" href="http://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">
+		Guida Intergalattica alla LugMap</a>.
 		<p class="helpMessage">
 		Te ne saremo eternamente grati!
 	  </td></tr>
