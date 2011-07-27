@@ -1,6 +1,11 @@
+html {
+	height: 100%;
+}
+
 body {
 	font-family: Helvetica;
 	font-size: 12px;
+	height: 100%;
 }
 
 img {
@@ -107,51 +112,12 @@ img {
 }
 
 .verticalslider_tabs a:hover, .verticalslider_tabs a:active {
-	background: url(/images/tabHoverBG.jpg) bottom repeat-x;
 	background-color: #fcfcfc;
 }
 
 .verticalslider_tabs li:first-child a:link, .verticalslider_tabs li:first-child a:visited {
 	border-top: none;
 	height: 30px;
-}
-
-.verticalslider_tabs .activeTab a:link, .verticalslider_tabs .activeTab a:visited {
-	background: #ffffff;
-	border-right: 1px solid #ffffff;
-}
-
-.verticalslider_tabs .activeTab a:hover, .verticalslider_tabs .activeTab a:active {
-	background: #ffffff;
-	border-right: 1px solid #ffffff;
-}
-
-.verticalslider .arrow {
-	background: url(/images/arrow.png);
-	width: 27px;
-	height: 60px;
-	position: absolute;
-	z-index: 1000;
-	margin-left: 250px;
-	margin-top: -55px;
-}
-
-.verticalslider_contents li {
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-	height: 100%;
-}
-
-.verticalslider_contents li div {
-	color: #333333;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 13px;
-}
-
-.verticalslider_contents .page {
-	display: none;
-	list-style-type: none;
 }
 
 .verticalslider_contents {
@@ -163,14 +129,14 @@ img {
 	height: 100%;
 }
 
-.verticalslider_contents .activeContent {
-	display: inline;
-}
-
 fieldset {
 	margin-top: 20px;
 	padding: 10px;
 	text-align: left;
+}
+
+#map {
+	height: 100%;
 }
 
 .generator {
