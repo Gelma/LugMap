@@ -1,6 +1,7 @@
 Gorizia|GoLug|Gorizia|http://www.golug.it/|info@golug.it
 Pordenone|Lug Pordenone|Pordenone|http://pordenone.linux.it/|info@pordenone.linux.it
 Trieste|Lug Trieste|Trieste|http://trieste.linux.it/|info@trieste.linux.it
+Udine|Milk|Codroipo|http://www.free-milk.org/|milk_solutions@libero.it
 Udine|IGLU|Udine|http://iglu.cc.uniud.it/|direttivo@iglu.cc.uniud.it
 Udine|Lug ALP|Aquileia|http://www.alproject.org/|info@alproject.org
 Udine|CarniaLUG|Tolmezzo, Carnia|http://carnialug.net/|manuel.cacitti@gmail.com
