@@ -32,9 +32,10 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
 <head>
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="language" content="italian" />
+  <meta name="robots" content="noarchive" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
   <?php

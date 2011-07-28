@@ -1,0 +1,7 @@
+Sitemap: http://lugmap.linux.it/sitemap.xml
+User-Agent: *
+Disallow: /css/
+Disallow: /db/
+Disallow: /immagini/
+Disallow: /script/
+Disallow: /.git/
