@@ -1,11 +1,11 @@
-Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
+Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/|uielinux@gmail.com
 Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|info@ferrara.linux.it
 Forl&igrave;|FoLug|Forlì-Cesena|http://www.folug.org/|folug-cons@lists.linux.it
 Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.net/|webmaster@conoscerelinux.net
-Parma|SBLUG|Provincia di Parma|http://salabaganzalug.wordpress.com/|salabaganzalug@gmail.com
 Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|g.ciotti@tirrenide.net
+Parma|SBLUG|Provincia di Parma|http://salabaganzalug.wordpress.com/|salabaganzalug@gmail.com
 Ravenna|AlfLug|Alfonsine|http://www.alflug.it/|
 Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/|info@ravennalug.org
 Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/|fabio.casolari@ripartodazero.it
