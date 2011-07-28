@@ -23,7 +23,7 @@ if (array_key_exists ($regione_richiesta, $elenco_regioni)) {
 	$title = 'LUG presenti in Italia';
 } else { header("location: http://lugmap.it/"); }
 
-lugheader ($title, $regione);
+lugheader ($title);
 ?>
 
 <div id="center">

@@ -1,7 +1,7 @@
 <?php
 
 require_once ('../varie.php');
-lugheader ('LugMap Forge', 'scripts, widget, widget web');
+lugheader ('LugMap Forge');
 
 ?>
 
