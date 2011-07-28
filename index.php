@@ -13,7 +13,7 @@ require_once ('varie.php');
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-		<title>Mappa dei Linux User Groups Italiani</title>
+		<title>Mappa dei Linux Users Groups Italiani</title>
 
 		<script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA1wmNYgsPLSLzBfUdqFykjxQR8KvcGyCdgVa1pp5vyItO0ej8oxRFxpi5aceT4KQUnwoDtmcRMpZ5iA"></script>
 		<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
@@ -213,7 +213,7 @@ require_once ('varie.php');
 
 						<div class="description">
 							<p>
-								Ci sono <?php echo count ($db_regione); ?> Linux User Groups in Italia.
+								Ci sono <?php echo count ($db_regione); ?> Linux Users Groups in Italia.
 							</p>
 
 							<p>
@@ -331,7 +331,7 @@ require_once ('varie.php');
 										<p>
 											Usando il generatore qui accanto puoi ottenere il codice HTML di un semplice widget web da
 											copiare ed incollare sul tuo sito, con l'elenco sempre automaticamente aggiornato dei Linux
-											User Group della regione selezionata.
+											Users Groups della regione selezionata.
 										</p>
 
 										<p>
@@ -357,7 +357,7 @@ require_once ('varie.php');
 
 								<p>
 									Tale file OPML può poi essere importato nel proprio lettore RSS, se si vogliono leggere tutte le notizie riguardanti
-									l'esteso e variegato mondo degli User Groups, oppure essere utilizzato come punto di partenza per nuove applicazioni
+									l'esteso e variegato mondo degli Users Groups, oppure essere utilizzato come punto di partenza per nuove applicazioni
 									che prevedono l'aggregazione di contenuti a tema prettamente "linuxofilo".
 								</p>
 
