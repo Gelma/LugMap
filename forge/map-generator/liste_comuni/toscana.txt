@@ -115,7 +115,6 @@ Signa
 Tavarnelle Val di Pesa
 Vaglia
 Vicchio
-Vinci
 Bibbona
 Campiglia Marittima
 Campo nell'Elba
@@ -285,3 +284,4 @@ Poggio a Caiano
 Prato
 Vaiano
 Vernio
+Vinci
