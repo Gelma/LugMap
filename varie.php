@@ -193,15 +193,12 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 					{ type: 'png', getURL: osm_getTileURL, displayOutsideMaxExtent: true, attribution: '<a href="http://www.openstreetmap.org/">OpenStreetMap - slippy map</a>',
 					isBaseLayer: true, visibility: true, numZoomLevels:20 } );
 
-				var gmap = new OpenLayers.Layer.Google("Google Streets", {numZoomLevels: 20} );
-
-				map.addLayers([mapnik, gmap]);
+				map.addLayers([mapnik]);
 
 				map.addControl(new OpenLayers.Control.Navigation());
 				map.addControl(new OpenLayers.Control.PanZoomBar() );
 				map.addControl(new OpenLayers.Control.Permalink());
 				map.addControl(new OpenLayers.Control.ScaleLine());
-				map.addControl(new OpenLayers.Control.LayerSwitcher());
 
 				var newl = new OpenLayers.Layer.Text( "LUG", {location: "./dati.txt"} );
 				map.addLayer(newl);
