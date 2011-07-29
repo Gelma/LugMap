@@ -90,8 +90,10 @@ function lugfooter () {
 		Per saperne di pi&ugrave; &egrave; disponibile la
 		<a class="generalink" href="http://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">
 		Guida Intergalattica alla LugMap</a>.
+		</p>
 		<p class="helpMessage">
 		Te ne saremo eternamente grati!
+		</p>
 	  </td></tr>
   </table>
 </div>
