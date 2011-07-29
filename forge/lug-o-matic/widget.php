@@ -65,9 +65,9 @@ PAGE;
 			else
 				$css = 'background-color: #DDDDDD';
 
-			$city = addslashes ($data [0]);
-			$name = addslashes ($data [1]);
-			$link = addslashes ($data [3]);
+			$city = ($html == false) ? addslashes ($data [0]) : $data [0];
+			$name = ($html == false) ? addslashes ($data [1]) : $data [1];
+			$link = ($html == false) ? addslashes ($data [3]) : $data [3];
 
 			$page .=<<<PAGE
 			<tr style="font-family: Helvetica; font-size: 12px; text-align: center; $css;"> $endline

@@ -193,11 +193,11 @@ function get_html_translation_table (table, quote_style) {
 }
 
 $(document).ready (function () {
-  var js_code = '<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;html=true" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>';
+  var js_code = '<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?html=true&amp;region=abruzzo" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>';
 
   $('select[name=region]').change (function (event) {
     var region = $('select[name=region] option:selected').val ();
-    $('.preview').empty ().append (js_code.replace (/region=[a-z]*"/, 'region=' + region +  '"'));
+    $('.preview').empty ().append (js_code.replace (/region=[a-z]*/, 'region=' + region +  '"'));
     var previewcode = $('.code').val ().replace (/region=[a-z]*"/, 'region=' + region +  '"');
     $('.code').empty ().append (htmlentities (previewcode, 'ENT_NOQUOTES'));
   });
