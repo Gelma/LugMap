@@ -6,7 +6,10 @@ require_once ('varie.php');
 $livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
 $regione_richiesta = $livelli_del_dominio[0];
 
-if (array_key_exists ($regione_richiesta, $elenco_regioni)) {
+if ($regione_richiesta == 'italia') {
+	$db_regione = file ('./db/Italia.txt');
+	$title = 'LUG di livello nazionale';
+} elseif (array_key_exists ($regione_richiesta, $elenco_regioni)) {
 	$regione = $elenco_regioni[$regione_richiesta];
 	$db_regione = file ('./db/'.$regione_richiesta.'.txt');
 	$title = 'LUG presenti nella regione ' . $regione;
