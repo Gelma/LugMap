@@ -1,0 +1,13 @@
+ToDo
+
+- aggiungere un README
+
+- isolare pagina per il widget web
+- permettere di configurare il widget web:
+	- presenza / colore intestazione
+	- presenza / colore footer
+	- colore sfondo / righe
+- aggiungere nel widget l'opzione "tutti i lug" (che produrra' un elemento immenso, ma magari utile per qualcuno)
+
+- aggiustare riferimento a italia.lugmap.it, che pare non fungere
+- aggiustare opml-to-sql
