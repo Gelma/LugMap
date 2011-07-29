@@ -16,6 +16,7 @@
 		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
 		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
 		* sitemap dove escludere i file inutili da indicizzare
+		* idea suggerita da napo: http://www.visup.it/misc/workshop/index.htm
 
 	* scripts di supporto:
 		* creare scriptino che generi il contenuto da copiare ed incollare nella pagina Wikipedia dei LUG
