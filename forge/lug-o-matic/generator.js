@@ -193,13 +193,12 @@ function get_html_translation_table (table, quote_style) {
 }
 
 $(document).ready (function () {
-  var js_code = htmlentities ('<script language="JavaScript"><!--\nfunction calcSize () { document.getElementById(\'lugmap\').height = document.getElementById(\'lugmap\').contentWindow.document.body.scrollHeight; }\n\/\/--><\/script>', 'ENT_NOQUOTES');
+  var js_code = '<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;html=true" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>';
 
   $('select[name=region]').change (function (event) {
     var region = $('select[name=region] option:selected').val ();
-    var previewcode = $('.preview').html ().replace (/region=[a-z]*"/, 'region=' + region +  '"');
-    var previewcode = previewcode.replace (/ height="[0-9]*"/, '');
-    $('.preview').empty ().append (previewcode);
-    $('.code').empty ().append (js_code + "\n" + htmlentities (previewcode, 'ENT_NOQUOTES'));
+    $('.preview').empty ().append (js_code.replace (/region=[a-z]*"/, 'region=' + region +  '"'));
+    var previewcode = $('.code').val ().replace (/region=[a-z]*"/, 'region=' + region +  '"');
+    $('.code').empty ().append (htmlentities (previewcode, 'ENT_NOQUOTES'));
   });
 });

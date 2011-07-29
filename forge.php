@@ -45,17 +45,15 @@ do_head ();
 					</select>
 					</p>
 
-					<div class="preview"><iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo" onload="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe></div>
+					<div class="preview">
+						<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;html=true" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>
+					</div>
 
 					<br />
 
 					<textarea class="code" cols="45" rows="15"><?php echo htmlentities (
-					'<script language="JavaScript"><!--
-					function calcSize () { document.getElementById(\'lugmap\').height = document.getElementById(\'lugmap\').contentWindow.document.body.scrollHeight;
-					}
-					//--></script>
-					<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo"
-					onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>'); ?>
+					'<script type="text/javascript" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo"></script>
+<img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" /></div>'); ?>
 					</textarea>
 				</div>
 
@@ -63,7 +61,7 @@ do_head ();
 					<p>
 						Usando il generatore qui accanto puoi ottenere il codice HTML di un semplice widget web da
 						copiare ed incollare sul tuo sito, con l'elenco sempre automaticamente aggiornato dei Linux
-						User Group della regione selezionata.
+						Users Groups della regione selezionata.
 					</p>
 
 					<p>

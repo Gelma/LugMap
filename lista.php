@@ -19,7 +19,7 @@ do_head ();
 
 	<div class="description">
 		<p>
-			Ci sono <?php echo count ($db_regione); ?> Linux User Groups in Italia.
+			Ci sono <?php echo count ($db_regione); ?> Linux Users Groups in Italia.
 		</p>
 
 		<p>
