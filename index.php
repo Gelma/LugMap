@@ -7,7 +7,7 @@ lugheader ('LugMap');
 
 <table id="introTabel" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="35%">
+    <td style="width: 35%;">
       <div>
         Il progetto <b>LugMap</b> ha l'ambizione di offrire un elenco, quanto pi&ugrave; aggiornato, delle realt&agrave; che
         ruotano attorno al perno del <a href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>,
@@ -33,11 +33,11 @@ lugheader ('LugMap');
       </div>
     </td>
 
-    <td align="center" width="50%">
+    <td align="center" style="width: 50%;">
       <img id="italymap" src="/immagini/italia.gif" width="372" height="418" usemap="#italia" alt="Mappa LUG" />
     </td>
 
-    <td align="right" width="15%">
+    <td align="right" style="width: 15%;">
       <?php
         foreach ($elenco_regioni as $k => $v) {
           if ($v == 'Italia') {$v = 'Gruppi Nazionali';}
