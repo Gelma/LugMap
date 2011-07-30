@@ -8,6 +8,12 @@ body {
 	height: 100%;
 }
 
+h1 {
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+}
+
 img {
 	display:block;
 	margin: 0 auto;
@@ -187,7 +193,7 @@ fieldset {
 }
 
 #center {
-	max-width: 1280px;
+	width: 90%;
 	margin: 0 auto;
 }
 

@@ -7,11 +7,13 @@ $livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
 $regione_richiesta = $livelli_del_dominio[0];
 
 if ($regione_richiesta == 'italia') {
-	$db_regione = file ('./db/Italia.txt');
+	$db_file = 'Italia.txt';
+	$db_regione = file ("./db/$db_file");
 	$title = 'LUG di livello nazionale';
 } elseif (array_key_exists ($regione_richiesta, $elenco_regioni)) {
 	$regione = $elenco_regioni[$regione_richiesta];
-	$db_regione = file ('./db/'.$regione_richiesta.'.txt');
+	$db_file = "$regione_richiesta.txt";
+	$db_regione = file ("./db/$db_file");
 	$title = 'LUG presenti nella regione ' . $regione;
 } elseif ($regione_richiesta == "elenco") {
 	$db_regione = array ();
@@ -24,20 +26,24 @@ if ($regione_richiesta == 'italia') {
 	$db_file = null;
 	$regione = 'Italia';
 	$title = 'LUG presenti in Italia';
-} else { header("location: http://lugmap.it/"); }
+} else {
+	header("location: http://lugmap.it/");
+}
 
-lugheader ($title);
+do_head ($title);
+
 ?>
 
+<h1><?php echo $title; ?></h1>
+
 <div id="center">
-  <a id="backLugMapLink" href="http://lugmap.it/">&raquo; torna alla LUGmap</a>
   <table id="lugListTable">
     <thead>
         <tr>
           <th>Provincia</th>
           <th>Denominazione</th>
           <th>Zona</th>
-          <th>Contatti</th>
+          <th>Sito</th>
         </tr>
      </thead>
      <tfoot>
@@ -45,7 +51,7 @@ lugheader ($title);
           <th>Provincia</th>
           <th>Denominazione</th>
           <th>Zona</th>
-          <th>Contatti</th>
+          <th>Sito</th>
         </tr>
     </tfoot>
     <tbody>
@@ -68,13 +74,10 @@ lugheader ($title);
    </table>
 
    <?php if ($db_file != null) { ?>
-   <a id="csvLink" href="http://lugmap.it/db/<?php echo $db_file ?>.txt">&raquo; Elenco in formato CSV</a>
+   <a id="csvLink" href="http://github.com/Gelma/LugMap/tree/master/db/<?php echo $db_file ?>">&raquo; Elenco originale in formato CSV</a>
    <?php } else { ?>
    <br />
    <?php } ?>
 </div>
 
-<?php
-	lugfooter ();
-	exit();
-?>
+<?php do_foot (); ?>

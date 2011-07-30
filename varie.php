@@ -245,11 +245,11 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 
 	<body>
 		<ul class="verticalslider_tabs">
-			<li><a href="index.php">Mappa</a></li>
-			<li><a href="regioni.php">Lista delle Regioni</a></li>
-			<li><a href="lista.php">Lista Completa</a></li>
-			<li><a href="partecipa.php">Partecipa</a></li>
-			<li><a href="forge.php">Progetti Collaterali</a></li>
+			<li><a href="http://lugmap.it/index.php">Mappa</a></li>
+			<li><a href="http://lugmap.it/regioni.php">Lista delle Regioni</a></li>
+			<li><a href="http://lugmap.it/lista.php">Lista Completa</a></li>
+			<li><a href="http://lugmap.it/partecipa.php">Partecipa</a></li>
+			<li><a href="http://lugmap.it/forge.php">Progetti Collaterali</a></li>
 
 			<li>
 				<p class="intro">
