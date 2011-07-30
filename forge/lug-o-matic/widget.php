@@ -7,9 +7,9 @@ if (array_key_exists ('html', $_GET) == true)
 else
 	$html = false;
 
-$head = true;
+$head = 'true';
 $head_color = '000080';
-$foot = true;
+$foot = 'true';
 
 if ($html == true)
 	$endline = '';
@@ -73,7 +73,7 @@ PAGE;
 		if (array_key_exists ('foot', $_GET) == true)
 			$foot = $_GET ['foot'];
 
-		if ($head == true) {
+		if ($head == 'true') {
 			$page .=<<<PAGE
 			<div style="font-weight: bold; background-color: $head_color; color: #FFFFFF; border: 1px solid black; padding: 5px;"> $endline
 				<p>Cerchi un Linux Users Group in $regionname?</p> $endline
@@ -117,7 +117,7 @@ PAGE;
 /**
 	FOOTER COMUNE
 **/
-if ($foot == true) {
+if ($foot == 'true') {
 	$page .=<<<PAGE
 	<div style="margin-top: 5px; font-style: italic; color: #000000; font-weight: bold;"> $endline
 	Powered by <a style="color: #FF0000; text-decoration: none;" href="http://lugmap.it/">lugmap.it</a> $endline
