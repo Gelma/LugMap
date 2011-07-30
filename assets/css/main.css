@@ -127,6 +127,16 @@ img {
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
+	margin-bottom: 30px;
+}
+
+label {
+	float: left;
+	width: 25%;
+	margin-right: 0.5em;
+	padding-top: 0.2em;
+	text-align: right;
+	font-weight: bold;
 }
 
 fieldset {
@@ -147,7 +157,7 @@ fieldset {
 
 .code {
 	width: 100%;
-	height: 200px;
+	height: 150px;
 }
 
 .preview {

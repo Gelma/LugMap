@@ -1,12 +1,13 @@
 ToDo
 
-- isolare pagina per il widget web
 - permettere di configurare il widget web:
-	- presenza / colore intestazione
-	- presenza / colore footer
 	- colore sfondo / righe
-- aggiungere nel widget l'opzione "tutti i lug" (che produrra' un elemento immenso, ma magari utile per qualcuno)
 - aggiungere al widget la possibilita' di generare una immagine statica anziche' un blocco HTML e/o JavaScript:
 	molte piattaforme di blogging pubbliche (cfr. Wordpress) non permettono di embeddare codice HTML complesso
 
 - aggiustare opml-to-sql
+
+- aggiungere pagina "infographics" con varie statistiche
+	- distribuzione per regione
+	- densita' lug per popolazione regione
+	- provincie in cui non c'e' alcun lug

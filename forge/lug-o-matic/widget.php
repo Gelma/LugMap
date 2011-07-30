@@ -7,6 +7,10 @@ if (array_key_exists ('html', $_GET) == true)
 else
 	$html = false;
 
+$head = true;
+$head_color = '000080';
+$foot = true;
+
 if ($html == true)
 	$endline = '';
 else
@@ -19,7 +23,7 @@ PAGE;
 /**
 	REGIONE NON VALIDA
 **/
-if (array_key_exists ('region', $_GET) == false || in_array ($_GET ['region'], array_keys ($elenco_regioni)) == false) {
+if (array_key_exists ('region', $_GET) == false || (in_array ($_GET ['region'], array_keys ($elenco_regioni)) == false) && $_GET ['region'] != 'all') {
 	$page .=<<<PAGE
 <div style="margin: 5px; padding: 3px; background-color: #F54B4B;"> $endline
 	<p>Oops, non hai specificato alcuna regione valida.</p> $endline
@@ -28,8 +32,20 @@ PAGE;
 }
 
 else {
-	$lugs = file ('../../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
-	$regionname = $elenco_regioni [$_GET ['region']];
+	if ($_GET ['region'] == 'all') {
+		$lugs = array ();
+
+		foreach (glob ('../../db/*.txt') as $db_file) {
+			$lugs = array_merge ($lugs, file ($db_file));
+			sort ($lugs);
+		}
+
+		$regionname = 'tutta Italia';
+	}
+	else {
+		$lugs = file ('../../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
+		$regionname = $elenco_regioni [$_GET ['region']];
+	}
 
 	/**
 		REGIONE SENZA LUG
@@ -48,10 +64,24 @@ PAGE;
 		ELENCO VALIDO
 	**/
 	else {
+		if (array_key_exists ('head', $_GET) == true)
+			$head = $_GET ['head'];
+
+		if (array_key_exists ('head_color', $_GET) == true)
+			$head_color = $_GET ['head_color'];
+
+		if (array_key_exists ('foot', $_GET) == true)
+			$foot = $_GET ['foot'];
+
+		if ($head == true) {
+			$page .=<<<PAGE
+			<div style="font-weight: bold; background-color: $head_color; color: #FFFFFF; border: 1px solid black; padding: 5px;"> $endline
+				<p>Cerchi un Linux Users Group in $regionname?</p> $endline
+			</div> $endline
+PAGE;
+		}
+
 		$page .=<<<PAGE
-<div style="font-weight: bold; background-color: #000080; color: #FFFFFF; border: 1px solid black; padding: 5px;"> $endline
-	<p>Cerchi un Linux Users Group in $regionname?</p> $endline
-</div> $endline
 	<table style="border-collapse: collapse; margin: auto; padding: 10px; width: 100%;">
 PAGE;
 
@@ -87,12 +117,14 @@ PAGE;
 /**
 	FOOTER COMUNE
 **/
-$page .=<<<PAGE
-<div style="margin-top: 5px; font-style: italic; color: #000000; font-weight: bold;"> $endline
-Powered by <a style="color: #FF0000; text-decoration: none;" href="http://lugmap.it/">lugmap.it</a> $endline
-</div> $endline
-</div>
+if ($foot == true) {
+	$page .=<<<PAGE
+	<div style="margin-top: 5px; font-style: italic; color: #000000; font-weight: bold;"> $endline
+	Powered by <a style="color: #FF0000; text-decoration: none;" href="http://lugmap.it/">lugmap.it</a> $endline
+	</div> $endline
+	</div>
 PAGE;
+}
 
 if ($html == true) {
 	echo $page;

@@ -126,6 +126,7 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script>
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="forge/lug-o-matic/generator.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 

@@ -29,49 +29,10 @@ do_head ();
 		<fieldset>
 			<legend>Widget web coi LUG di una regione</legend>
 
-			<div id="introTabel">
-				<div class="generator">
-					<p>
-					Regione <select name="region">
-						<?php
-						foreach ($elenco_regioni as $simple => $name) {
-						?>
-
-						<option value="<?php echo $simple; ?>"><?php echo $name; ?></option>
-
-						<?php
-						}
-						?>
-					</select>
-					</p>
-
-					<div class="preview">
-						<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;html=true" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>
-					</div>
-
-					<br />
-
-					<textarea class="code" cols="45" rows="15"><?php echo htmlentities (
-					'<script type="text/javascript" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo"></script>
-<img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" /></div>'); ?>
-					</textarea>
-				</div>
-
-				<div>
-					<p>
-						Usando il generatore qui accanto puoi ottenere il codice HTML di un semplice widget web da
-						copiare ed incollare sul tuo sito, con l'elenco sempre automaticamente aggiornato dei Linux
-						Users Groups della regione selezionata.
-					</p>
-
-					<p>
-						Per tutti coloro che gestiscono delle pagine web, sia veterani del mondo Linux che semplici simpatizzanti,
-						questo è un ottimo modo per fare pubblicità ai gruppi vicini di casa.
-					</p>
-				</div>
-
-				<div class="clear_spacer"></div>
-			</div>
+			<p>
+				Da <a href="widget.php">questa pagina</a> e' possibile ottenere un widget web facilmente embeddabile su un qualsiasi
+				sito, recante la lista (sempre dinamicamente aggiornata) dei LUG presenti nella regione prescelta.
+			</p>
 		</fieldset>
 
 		<a name="OPML" />
