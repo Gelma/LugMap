@@ -218,16 +218,20 @@ function build_url (prev) {
 	if ($('input[name=foot]').is (':checked') == false)
 		url += '&amp;foot=false';
 
+	width = $('input[name=width]').val ();
+	if (width != 200)
+		url += '&amp;width=' + width;
+
 	return url;
 }
 
 function refresh_demo () {
-	var preview_code = '<iframe id="lugmap" src="URL" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>';
+	var preview_code = '<iframe id="lugmap" src="URL" onLoad="calcSize();" width="WIDTHpx" scrolling="no" frameborder="0"></iframe>';
 	var copy_code = '<script type="text/javascript" src="URL"></script><img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />';
 	var copy_code_image = '<a href="http://REGIONE.lugmap.it"><img src="URL" border="0" /></a>';
 
 	url = build_url (true);
-	$('.preview').empty ().append (preview_code.replace (/URL/, url));
+	$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
 
 	url = build_url (false);
 

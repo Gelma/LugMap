@@ -7,6 +7,7 @@ $head = 'true';
 $head_color = '000080';
 $head_text_color = 'FFFFFF';
 $foot = 'true';
+$width = '200';
 
 if (array_key_exists ('format', $_GET) == true)
 	$format = $_GET ['format'];
@@ -23,13 +24,25 @@ if (array_key_exists ('head_text_color', $_GET) == true)
 if (array_key_exists ('foot', $_GET) == true)
 	$foot = $_GET ['foot'];
 
+if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
+	$width = $_GET ['width'];
+
 if ($format == 'image') {
 	header ("Content-Type: image/png");
-	$path = "cache/$head-$head_color-$head_text_color-$foot.png";
+	$path = "cache/$width-$head-$head_color-$head_text_color-$foot.png";
 	$region = $_GET ['region'];
 
-	if (file_exists ($path) == false)
-		exec ("/usr/local/bin/wkhtmltoimage-i386 --width 200 \"http://lugmap.it/forge/lug-o-matic/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color\" $path");
+	if (file_exists ($path) == false) {
+		/*
+			Dalla larghezza dichiarata sottraggo 6 pixel, che e' la
+			larghezza del bordo scuro incluso nell'immagine finale.
+			Alla fine, l'immagine sara' larga esattamente quanto
+			richiesto
+		*/
+		$correct_width = $width - 6;
+
+		exec ("/usr/local/bin/wkhtmltoimage-i386 --width $width \"http://lugmap.it/forge/lug-o-matic/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color&width=$correct_width\" $path");
+	}
 
 	$im = imagecreatefrompng ($path);
 	imagepng ($im);
@@ -43,7 +56,7 @@ else if ($format == 'javascript')
 	$endline = "\\";
 
 $page =<<<PAGE
-<div style="border: 3px solid #000000; font-family: Helvetica; font-size: 12px; text-align: center;"> $endline
+<div style="margin: 0px; border: 3px solid #000000; font-family: Helvetica; font-size: 12px; text-align: center; width: ${width}px;"> $endline
 PAGE;
 
 /**
@@ -144,7 +157,7 @@ PAGE;
 }
 
 if ($format == 'html') {
-	echo $page;
+	echo '<html><body style="margin: 0px; border: 0px">' . $page . '</body></html>';
 }
 else if ($format == 'javascript') {
 	header ('Content-Type: application/javascript');

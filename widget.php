@@ -40,6 +40,11 @@ do_head ();
 	</p>
 
 	<p>
+		<label for="width">Larghezza</label>
+		<input name="width" type="text" value="200" size="4" />px
+	</p>
+
+	<p>
 		<label for="head">Mostra Header</label>
 		<input name="head" type="checkbox" checked="yes" />
 	</p>
@@ -71,7 +76,7 @@ do_head ();
 
 <div style="width: 45%; float: right; text-align: center;">
 	<div class="preview">
-		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;format=html" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>
+		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
 	</div>
 
 	<br />
