@@ -1,7 +1,7 @@
 <?php
 
 require_once ('varie.php');
-do_head ();
+do_head ('La LugMap sul tuo Sito!', array ('http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js', 'forge/lug-o-matic/generator.js'));
 
 ?>
 

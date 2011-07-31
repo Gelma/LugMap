@@ -6,7 +6,7 @@ if ($_SERVER['HTTP_HOST'] != 'lugmap.it' AND $_SERVER['HTTP_HOST'] != 'www.lugma
 }
 
 require_once ('varie.php');
-do_head ();
+do_head ('Homepage', array ('http://openlayers.org/api/OpenLayers.js', 'js/mappa.js'));
 
 ?>
 
