@@ -1,19 +1,45 @@
 <?php
 
-require_once ('../../varie.php');
+require_once ('../../varie.php');	
 
-if (array_key_exists ('html', $_GET) == true)
-	$html = $_GET ['html'];
-else
-	$html = false;
-
+$format = 'javascript';
 $head = 'true';
 $head_color = '000080';
+$head_text_color = 'FFFFFF';
 $foot = 'true';
 
-if ($html == true)
+if (array_key_exists ('format', $_GET) == true)
+	$format = $_GET ['format'];
+
+if (array_key_exists ('head', $_GET) == true)
+	$head = $_GET ['head'];
+
+if (array_key_exists ('head_color', $_GET) == true)
+	$head_color = $_GET ['head_color'];
+
+if (array_key_exists ('head_text_color', $_GET) == true)
+	$head_text_color = $_GET ['head_text_color'];
+
+if (array_key_exists ('foot', $_GET) == true)
+	$foot = $_GET ['foot'];
+
+if ($format == 'image') {
+	header ("Content-Type: image/png");
+	$path = "cache/$head-$head_color-$head_text_color-$foot.png";
+	$region = $_GET ['region'];
+
+	if (file_exists ($path) == false)
+		exec ("/usr/local/bin/wkhtmltoimage-i386 --width 200 \"http://lugmap.it/forge/lug-o-matic/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color\" $path");
+
+	$im = imagecreatefrompng ($path);
+	imagepng ($im);
+	imagedestroy ($im);
+	exit ();
+}
+
+if ($format == 'html')
 	$endline = '';
-else
+else if ($format == 'javascript')
 	$endline = "\\";
 
 $page =<<<PAGE
@@ -64,18 +90,9 @@ PAGE;
 		ELENCO VALIDO
 	**/
 	else {
-		if (array_key_exists ('head', $_GET) == true)
-			$head = $_GET ['head'];
-
-		if (array_key_exists ('head_color', $_GET) == true)
-			$head_color = $_GET ['head_color'];
-
-		if (array_key_exists ('foot', $_GET) == true)
-			$foot = $_GET ['foot'];
-
 		if ($head == 'true') {
 			$page .=<<<PAGE
-			<div style="font-weight: bold; background-color: $head_color; color: #FFFFFF; border: 1px solid black; padding: 5px;"> $endline
+			<div style="font-weight: bold; background-color: #$head_color; color: #$head_text_color; border: 1px solid black; padding: 5px;"> $endline
 				<p>Cerchi un Linux Users Group in $regionname?</p> $endline
 			</div> $endline
 PAGE;
@@ -95,9 +112,9 @@ PAGE;
 			else
 				$css = 'background-color: #DDDDDD';
 
-			$city = ($html == false) ? addslashes ($data [0]) : $data [0];
-			$name = ($html == false) ? addslashes ($data [1]) : $data [1];
-			$link = ($html == false) ? addslashes ($data [3]) : $data [3];
+			$city = ($format == 'javascript') ? addslashes ($data [0]) : $data [0];
+			$name = ($format == 'javascript') ? addslashes ($data [1]) : $data [1];
+			$link = ($format == 'javascript') ? addslashes ($data [3]) : $data [3];
 
 			$page .=<<<PAGE
 			<tr style="font-family: Helvetica; font-size: 12px; text-align: center; $css;"> $endline
@@ -126,10 +143,10 @@ if ($foot == 'true') {
 PAGE;
 }
 
-if ($html == true) {
+if ($format == 'html') {
 	echo $page;
 }
-else {
+else if ($format == 'javascript') {
 	header ('Content-Type: application/javascript');
 
 	?>

@@ -50,14 +50,28 @@ do_head ();
 	</p>
 
 	<p>
+		<label for="head_text_color">Colore Testo Header</label>
+		<input name="head_text_color" type="color" value="#FFFFFF" data-text="hidden" data-hex="true" style="height: 15px; width: 20px;" />
+	</p>
+
+	<p>
 		<label for="foot">Mostra Footer</label>
 		<input name="foot" type="checkbox" checked="yes" />
+	</p>
+
+	<br />
+
+	<p>
+		<p>Questa opzione puo' essere selezionata per ottenere una immagina statica anziche' un blocco di JavaScript: utile per embeddare il widget all'interno di siti che non consentono l'inclusione di codice HTML complesso, tipo Wordpress.com</p>
+
+		<label for="image">Genera Immagine</label>
+		<input name="image" type="checkbox" />
 	</p>
 </fieldset>
 
 <div style="width: 45%; float: right; text-align: center;">
 	<div class="preview">
-		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;html=true" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>
+		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;format=html" onLoad="calcSize();" width="200px" scrolling="no" frameborder="0"></iframe>
 	</div>
 
 	<br />
