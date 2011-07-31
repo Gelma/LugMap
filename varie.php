@@ -93,7 +93,7 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<?php foreach ($javascript as $js): ?>
 		<script type="text/javascript" src="<?php echo $js; ?>"></script>
-		<?php endfor; ?>
+		<?php endforeach; ?>
 
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>

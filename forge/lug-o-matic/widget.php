@@ -28,9 +28,8 @@ if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
 	$width = $_GET ['width'];
 
 if ($format == 'image') {
-	header ("Content-Type: image/png");
-	$path = "cache/$width-$head-$head_color-$head_text_color-$foot.png";
 	$region = $_GET ['region'];
+	$path = "cache/$region-$width-$head-$head_color-$head_text_color-$foot.png";
 
 	if (file_exists ($path) == false) {
 		/*
@@ -44,6 +43,7 @@ if ($format == 'image') {
 		exec ("/usr/local/bin/wkhtmltoimage-i386 --width $width \"http://lugmap.it/forge/lug-o-matic/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color&width=$correct_width\" $path");
 	}
 
+	header ("Content-Type: image/png");
 	$im = imagecreatefrompng ($path);
 	imagepng ($im);
 	imagedestroy ($im);
