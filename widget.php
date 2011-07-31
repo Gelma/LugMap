@@ -3,6 +3,11 @@
 require_once ('varie.php');
 do_head ('La LugMap sul tuo Sito!', array ('http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js', 'forge/lug-o-matic/generator.js'));
 
+if (array_key_exists ('region', $_GET) == true)
+	$region = $_GET ['region'];
+else
+	$region = 'abruzzo';
+
 ?>
 
 <div class="description">
@@ -27,11 +32,16 @@ do_head ('La LugMap sul tuo Sito!', array ('http://meta100.github.com/mColorPick
 		<select name="region">
 			<?php
 			foreach ($elenco_regioni as $simple => $name) {
-			?>
+				if ($region == $simple)
+					$selected = ' selected="selected"';
+				else
+					$selected = '';
 
-			<option value="<?php echo $simple; ?>"><?php echo $name; ?></option>
+				?>
 
-			<?php
+				<option value="<?php echo $simple ?>"<?php echo $selected ?>><?php echo $name; ?></option>
+
+				<?php
 			}
 			?>
 
@@ -76,7 +86,7 @@ do_head ('La LugMap sul tuo Sito!', array ('http://meta100.github.com/mColorPick
 
 <div style="width: 45%; float: right; text-align: center;">
 	<div class="preview">
-		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
+		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=<?php echo $region ?>&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
 	</div>
 
 	<br />
@@ -86,7 +96,7 @@ do_head ('La LugMap sul tuo Sito!', array ('http://meta100.github.com/mColorPick
 	<p>Copia e incolla questo codice nella tua pagina web!</p>
 
 	<textarea class="code" cols="45" rows="10"><?php echo htmlentities (
-	'<script type="text/javascript" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=abruzzo"></script>
+	'<script type="text/javascript" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=' . $region . '"></script>
 	<img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />'); ?>
 	</textarea>
 </div>

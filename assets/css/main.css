@@ -250,7 +250,13 @@ fieldset {
 	text-align: center;
 }
 
-#backLugMapLink, #csvLink {
+.region_options {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.region_options a {
 	display: block;
 	text-align: right;
 	color: #00f;
@@ -270,6 +276,3 @@ fieldset {
 	padding-top: 10px;
 }
 
-.helpMessage {
-	font-style: italic;
-}

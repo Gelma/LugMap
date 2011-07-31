@@ -37,47 +37,51 @@ do_head ($title);
 <h1><?php echo $title; ?></h1>
 
 <div id="center">
-  <table id="lugListTable">
-    <thead>
-        <tr>
-          <th>Provincia</th>
-          <th>Denominazione</th>
-          <th>Zona</th>
-          <th>Sito</th>
-        </tr>
-     </thead>
-     <tfoot>
-        <tr>
-          <th>Provincia</th>
-          <th>Denominazione</th>
-          <th>Zona</th>
-          <th>Sito</th>
-        </tr>
-    </tfoot>
-    <tbody>
-	<?php
-		while (list ($nriga, $linea) = each ($db_regione)):
-			$campi         = explode("|",$linea);
-			$provincia     = $campi[0];
-			$denominazione = $campi[1];
-			$zona          = $campi[2];
-			$contatti      = $campi[3];
-	?>
-        <tr class="row_<?php echo ($nriga % 2); ?>">
-         <td class="province"><?php echo $provincia ?></td>
-         <td><?php echo $denominazione ?></td>
-         <td><?php echo $zona ?></td>
-         <td class="contactUrl"><a href="<?php echo $contatti?>"><?php echo $contatti ?></a></td>
-        </tr>
-      <?php endwhile;?>
-    </tbody>
-   </table>
+	<table id="lugListTable">
+		<thead>
+			<tr>
+			<th>Provincia</th>
+			<th>Denominazione</th>
+			<th>Zona</th>
+			<th>Sito</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+			<th>Provincia</th>
+			<th>Denominazione</th>
+			<th>Zona</th>
+			<th>Sito</th>
+			</tr>
+		</tfoot>
+		<tbody>
+			<?php
 
-   <?php if ($db_file != null) { ?>
-   <a id="csvLink" href="http://github.com/Gelma/LugMap/tree/master/db/<?php echo $db_file ?>">&raquo; Elenco originale in formato CSV</a>
-   <?php } else { ?>
-   <br />
-   <?php } ?>
+			while (list ($nriga, $linea) = each ($db_regione)):
+				$campi = explode("|",$linea);
+						$provincia     = $campi[0];
+						$denominazione = $campi[1];
+						$zona          = $campi[2];
+						$contatti      = $campi[3];
+				?>
+				<tr class="row_<?php echo ($nriga % 2); ?>">
+					<td class="province"><?php echo $provincia ?></td>
+					<td><?php echo $denominazione ?></td>
+					<td><?php echo $zona ?></td>
+					<td class="contactUrl"><a href="<?php echo $contatti?>"><?php echo $contatti ?></a></td>
+				</tr>
+
+			<?php endwhile;?>
+		</tbody>
+	</table>
+
+	<div class="region_options">
+		<?php if ($db_file != null): ?>
+		<a href="http://github.com/Gelma/LugMap/tree/master/db/<?php echo $db_file ?>">&raquo; Dati in Formato CSV</a>
+		<?php endif; ?>
+
+		<a href="http://lugmap.it/widget.php?region=<?php echo $regione_richiesta ?>">&raquo; Widget Web</a>
+	</div>
 </div>
 
 <?php do_foot (); ?>
