@@ -30,9 +30,14 @@ if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
 
 if ($format == 'image') {
 	$region = $_GET ['region'];
-	$path = "cache/$region-$width-$head-$head_color-$head_text_color-$foot.png";
 
-	if (file_exists ($path) == false) {
+	if (file_exists ('/tmp/lugmap_widget_cache/') == false)
+		mkdir ('/tmp/lugmap_widget_cache/');
+
+	$path = "/tmp/lugmap_widget_cache/$region-$width-$head-$head_color-$head_text_color-$foot.png";
+	$attr = stat ($path);
+
+	if ($attr === false || ($attr ['mtime'] < (time () - 86400))) {
 		/*
 			Dalla larghezza dichiarata sottraggo 6 pixel, che e' la
 			larghezza del bordo scuro incluso nell'immagine finale.
