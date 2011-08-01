@@ -192,14 +192,72 @@ function get_html_translation_table (table, quote_style) {
   return hash_map;
 }
 
-$(document).ready (function () {
-  var js_code = htmlentities ('<script language="JavaScript"><!--\nfunction calcSize () { document.getElementById(\'lugmap\').height = document.getElementById(\'lugmap\').contentWindow.document.body.scrollHeight; }\n\/\/--><\/script>', 'ENT_NOQUOTES');
+function build_url (prev) {
+	url = 'http://lugmap.linux.it/lug-o-matic/widget.php?region=';
 
-  $('select[name=region]').change (function (event) {
-    var region = $('select[name=region] option:selected').val ();
-    var previewcode = $('.preview').html ().replace (/region=[a-z]*"/, 'region=' + region +  '"');
-    var previewcode = previewcode.replace (/ height="[0-9]*"/, '');
-    $('.preview').empty ().append (previewcode);
-    $('.code').empty ().append (js_code + "\n" + htmlentities (previewcode, 'ENT_NOQUOTES'));
-  });
+	region = $('select[name=region] option:selected').val ();
+	url += region;
+
+	if (prev == true)
+		url += '&amp;format=html';
+	else if ($('input[name=image]').is (':checked') == true)
+		url += '&amp;format=image';
+
+	if ($('input[name=head]').is (':checked') == false) {
+		url += '&amp;head=false';
+	}
+	else {
+		head_color = $('input[name=head_color]').val ();
+		if (head_color != '#000080')
+			url += '&amp;head_color=' + head_color.substring (1);
+
+		head_text_color = $('input[name=head_text_color]').val ();
+		if (head_text_color != '#FFFFFF')
+			url += '&amp;head_text_color=' + head_text_color.substring (1);
+	}
+
+	if ($('input[name=foot]').is (':checked') == false)
+		url += '&amp;foot=false';
+
+	width = $('input[name=width]').val ();
+	if (width != 200)
+		url += '&amp;width=' + width;
+
+	return url;
+}
+
+function refresh_demo () {
+	var preview_code = '<iframe id="lugmap" src="URL" onLoad="calcSize();" width="WIDTHpx" scrolling="no" frameborder="0"></iframe>';
+	var copy_code = '<script type="text/javascript" src="URL"></script><img id="lugmap" src="http://lugmap.linux.it/lug-o-matic/placeholder.png" onload="renderLugMap();" />';
+	var copy_code_image = '<a href="http://lugmap.linux.it/regione/REGIONE"><img src="URL" border="0" /></a>';
+
+	if ($('input[name=image]').is (':checked') == false) {
+		url = build_url (true);
+		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
+
+		url = build_url (false);
+		$('.code').empty ().append (htmlentities (copy_code.replace (/URL/, url), 'ENT_NOQUOTES'));
+	}
+	else {
+		url = build_url (false);
+		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
+		$('.code').empty ().append (htmlentities (copy_code_image.replace (/URL/, url).replace (/REGIONE/, $('select[name=region] option:selected').val ()), 'ENT_NOQUOTES'));
+	}
+}
+
+$(document).ready (function () {
+	$('select[name=region]').change (function (event) {
+		refresh_demo ();
+	});
+
+	$('input[name=head]').change (function (event) {
+		if ($('input[name=head]').is (':checked') == true)
+			$('.depends_on_header').show ();
+		else
+			$('.depends_on_header').hide ();
+	});
+
+	$('input').change (function (event) {
+		refresh_demo ();
+	});
 });

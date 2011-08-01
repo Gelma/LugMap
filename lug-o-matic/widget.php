@@ -1,83 +1,178 @@
 <?php
+
 require_once ('utils.php');
+require_once ('../funzioni.php');
+
+$format = 'javascript';
+$head = 'true';
+$head_color = '000080';
+$head_text_color = 'FFFFFF';
+$foot = 'true';
+$width = '200';
+
+if (array_key_exists ('format', $_GET) == true)
+	$format = $_GET ['format'];
+
+if (array_key_exists ('head', $_GET) == true)
+	$head = $_GET ['head'];
+
+if (array_key_exists ('head_color', $_GET) == true)
+	$head_color = $_GET ['head_color'];
+
+if (array_key_exists ('head_text_color', $_GET) == true)
+	$head_text_color = $_GET ['head_text_color'];
+
+if (array_key_exists ('foot', $_GET) == true)
+	$foot = $_GET ['foot'];
+
+if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
+	$width = $_GET ['width'];
+
+if ($format == 'image') {
+	$region = $_GET ['region'];
+	$path = "cache/$region-$width-$head-$head_color-$head_text_color-$foot.png";
+
+	if (file_exists ($path) == false) {
+		/*
+			Dalla larghezza dichiarata sottraggo 6 pixel, che e' la
+			larghezza del bordo scuro incluso nell'immagine finale.
+			Alla fine, l'immagine sara' larga esattamente quanto
+			richiesto
+		*/
+		$correct_width = $width - 6;
+
+		exec ("/usr/local/bin/wkhtmltoimage-i386 --width $width \"$app_url/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color&width=$correct_width\" $path");
+	}
+
+	header ("Content-Type: image/png");
+	$im = imagecreatefrompng ($path);
+	imagepng ($im);
+	imagedestroy ($im);
+	exit ();
+}
+
+if ($format == 'html')
+	$endline = '';
+else if ($format == 'javascript')
+	$endline = "\\";
+
+$page =<<<PAGE
+<div style="margin: 0px; border: 3px solid #000000; font-family: Helvetica; font-size: 12px; text-align: center; width: ${width}px;"> $endline
+PAGE;
+
+/**
+	REGIONE NON VALIDA
+**/
+if (array_key_exists ('region', $_GET) == false || (in_array ($_GET ['region'], array_keys ($elenco_regioni)) == false) && $_GET ['region'] != 'all') {
+	$page .=<<<PAGE
+<div style="margin: 5px; padding: 3px; background-color: #F54B4B;"> $endline
+	<p>Oops, non hai specificato alcuna regione valida.</p> $endline
+</div>
+PAGE;
+}
+
+else {
+	if ($_GET ['region'] == 'all') {
+		$lugs = array ();
+
+		foreach (glob ('../../db/*.txt') as $db_file) {
+			$lugs = array_merge ($lugs, file ($db_file));
+			sort ($lugs);
+		}
+
+		$regionname = 'tutta Italia';
+	}
+	else {
+		$lugs = file ('../../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
+		$regionname = $elenco_regioni [$_GET ['region']];
+	}
+
+	/**
+		REGIONE SENZA LUG
+	**/
+	if ($lugs == false || count ($lugs) == 0) {
+		$page .=<<<PAGE
+<div style="margin: 5px; padding: 3px; background-color: #F54B4B;"> $endline
+	<p>Non sembrano esserci LUG in $regionname.</p> $endline
+	<p><a style="text-decoration: none;" href="http://www.badpenguin.org/italian-lug-howto" target="_blank">Creane uno!</a></p> $endline
+</div>
+PAGE;
+
+	}
+
+	/**
+		ELENCO VALIDO
+	**/
+	else {
+		if ($head == 'true') {
+			$page .=<<<PAGE
+			<div style="font-weight: bold; background-color: #$head_color; color: #$head_text_color; border: 1px solid black; padding: 5px;"> $endline
+				<p>Cerchi un Linux Users Group in $regionname?</p> $endline
+			</div> $endline
+PAGE;
+		}
+
+		$page .=<<<PAGE
+	<table style="border-collapse: collapse; margin: auto; padding: 10px; width: 100%;">
+PAGE;
+
+		$nriga = 0;
+
+		while (list ($nriga, $lug) = each ($lugs)) {
+			$data = explode ('|', $lug);
+
+			if ($nriga % 2)
+				$css = 'background-color: #EEEEEE';
+			else
+				$css = 'background-color: #DDDDDD';
+
+			$city = ($format == 'javascript') ? addslashes ($data [0]) : $data [0];
+			$name = ($format == 'javascript') ? addslashes ($data [1]) : $data [1];
+			$link = ($format == 'javascript') ? addslashes ($data [3]) : $data [3];
+
+			$page .=<<<PAGE
+			<tr style="font-family: Helvetica; font-size: 12px; text-align: center; $css;"> $endline
+				<td style="padding: 5px; border: 1px solid black; font-weight: bold;">$city</td> $endline
+				<td style="padding: 5px; border: 1px solid black;"><a style="text-decoration: none;" href="$link" target="_blank">$name</a></td> $endline
+			</tr>
+PAGE;
+		}
+
+$page .=<<<PAGE
+</table>
+PAGE;
+
+	}
+}
+
+/**
+	FOOTER COMUNE
+**/
+if ($foot == 'true') {
+	$page .=<<<PAGE
+	<div style="margin-top: 5px; font-style: italic; color: #000000; font-weight: bold;"> $endline
+	Powered by <a style="color: #FF0000; text-decoration: none;" href="http://lugmap.linux.it/">lugmap.linux.it</a> $endline
+	</div> $endline
+	</div>
+PAGE;
+}
+
+if ($format == 'html') {
+	echo '<html><body style="margin: 0px; border: 0px">' . $page . '</body></html>';
+}
+else if ($format == 'javascript') {
+	header ('Content-Type: application/javascript');
+
+	?>
+function renderLugMap () {
+	var holder = document.getElementById('lugmap');
+	map = document.createElement('div');
+	map.innerHTML = '<?php echo $page ?>';
+	holder.parentNode.insertBefore(map, holder);
+	holder.parentNode.removeChild(holder);
+	map.setAttribute('id', 'lugmap');
+}
+
+	<?php
+}
 ?>
-<html>
-  <head>
-    <link href="<?php echo $app_url . 'widget.css' ?>" rel="stylesheet" type="text/css">
-  </head>
-
-  <body>
-    <?php
-
-    if (!isset ($_GET ['region']) || in_array ($_GET ['region'], array_keys ($elenco_regioni)) == false) {
-      ?>
-
-      <div class="error">
-        <p>
-          Oops, non hai specificato alcuna regione valida.
-        </p>
-      </div>
-
-      <?php
-    }
-    else {
-      $lugs = file ('../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
-      $regionname = $elenco_regioni [$_GET ['region']];
-
-      if ($lugs == false || count ($lugs) == 0) {
-        ?>
-
-        <div class="error">
-          <p>
-            Non sembrano esserci LUG in <?php echo $regionname; ?>.
-          </p>
-          <p>
-            <a href="http://www.badpenguin.org/italian-lug-howto" target="_blank">Creane uno!</a>
-          </p>
-        </div>
-
-        <?php
-      }
-      else {
-        ?>
-
-        <div class="title">
-          <p>
-            Cerchi un Linux Users Group in <?php echo $regionname; ?>?
-          </p>
-        </div>
-
-        <table class="list">
-
-          <?php
-            $nriga = 0;
-
-            while (list ($nriga, $lug) = each ($lugs)) {
-              $data = explode ('|', $lug);
-
-              ?>
-
-              <tr class="row_<?php echo ($nriga % 2); ?>">
-                <td><?php echo $data [0]; ?></td>
-                <td><a href="<?php echo $data [3]; ?>" target="_blank"><?php echo $data [1]; ?></a></td>
-              </tr>
-
-              <?php
-            }
-
-          ?>
-
-        </table>
-
-      <?php
-
-      }
-    }
-
-    ?>
-
-    <div class="link">
-      Powered by <a href="<?php echo $app_url; ?>">lug-o-matic</a>
-    </div>
-  </body>
-</html>

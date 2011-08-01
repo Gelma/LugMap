@@ -1,12 +1,3 @@
-.notes {
-  width: 400px;
-}
-
-.important {
-  font-weight: bold;
-  font-size: 15px;
-}
-
 .generator {
   float: right;
   width: 45%;
@@ -15,7 +6,7 @@
 
 .code {
   width: 100%;
-  height: 200px;
+  height: 150px;
 }
 
 .preview {
