@@ -230,20 +230,30 @@ function refresh_demo () {
 	var copy_code = '<script type="text/javascript" src="URL"></script><img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />';
 	var copy_code_image = '<a href="http://REGIONE.lugmap.it"><img src="URL" border="0" /></a>';
 
-	url = build_url (true);
-	$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
+	if ($('input[name=image]').is (':checked') == false) {
+		url = build_url (true);
+		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
 
-	url = build_url (false);
-
-	if ($('input[name=image]').is (':checked') == false)
+		url = build_url (false);
 		$('.code').empty ().append (htmlentities (copy_code.replace (/URL/, url), 'ENT_NOQUOTES'));
-	else
+	}
+	else {
+		url = build_url (false);
+		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
 		$('.code').empty ().append (htmlentities (copy_code_image.replace (/URL/, url).replace (/REGIONE/, $('select[name=region] option:selected').val ()), 'ENT_NOQUOTES'));
+	}
 }
 
 $(document).ready (function () {
 	$('select[name=region]').change (function (event) {
 		refresh_demo ();
+	});
+
+	$('input[name=head]').change (function (event) {
+		if ($('input[name=head]').is (':checked') == true)
+			$('.depends_on_header').show ();
+		else
+			$('.depends_on_header').hide ();
 	});
 
 	$('input').change (function (event) {

@@ -49,6 +49,8 @@ else
 		</select>
 	</p>
 
+	<br />
+
 	<p>
 		<label for="width">Larghezza</label>
 		<input name="width" type="text" value="200" size="4" />px
@@ -59,12 +61,12 @@ else
 		<input name="head" type="checkbox" checked="yes" />
 	</p>
 
-	<p>
+	<p class="depends_on_header">
 		<label for="head_color">Colore Header</label>
 		<input name="head_color" type="color" value="#000080" data-text="hidden" data-hex="true" style="height: 15px; width: 20px;" />
 	</p>
 
-	<p>
+	<p class="depends_on_header">
 		<label for="head_text_color">Colore Testo Header</label>
 		<input name="head_text_color" type="color" value="#FFFFFF" data-text="hidden" data-hex="true" style="height: 15px; width: 20px;" />
 	</p>
@@ -97,7 +99,7 @@ else
 
 	<textarea class="code" cols="45" rows="10"><?php echo htmlentities (
 	'<script type="text/javascript" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=' . $region . '"></script>
-	<img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />'); ?>
+	<img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />') ?>
 	</textarea>
 </div>
 
