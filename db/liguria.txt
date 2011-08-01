@@ -1,5 +1,5 @@
 Genova|ALID|Genova|http://www.alid.it/|presidente@alid.it
-Genova|Genuense Lug|Genova e d'intorni|http://genova.linux.it/|sc@linux.it
+Genova|Genuense Lug|Genova e d'intorni|http://www.genova.linux.it/|sc@linux.it
 Genova|LugGe|Genova e provincia|http://linux.genova.it/|roberto.foglietta@gmail.com
 Genova|Op3n_L4b|Genova Facoltà di Ingegneria|http://www.openlab-dist.org/|openlab@openlab-dist.org
 Genova|TLug-TSL|Rapallo|http://tlug.linux.it/|fabio.rampoldi@linux.it
