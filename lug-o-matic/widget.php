@@ -80,7 +80,7 @@ else {
 	if ($_GET ['region'] == 'all') {
 		$lugs = array ();
 
-		foreach (glob ('../../db/*.txt') as $db_file) {
+		foreach (glob ('../db/*.txt') as $db_file) {
 			$lugs = array_merge ($lugs, file ($db_file));
 			sort ($lugs);
 		}
@@ -88,7 +88,7 @@ else {
 		$regionname = 'tutta Italia';
 	}
 	else {
-		$lugs = file ('../../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
+		$lugs = file ('../db/' . ($_GET ['region']) . '.txt', FILE_IGNORE_NEW_LINES);
 		$regionname = $elenco_regioni [$_GET ['region']];
 	}
 

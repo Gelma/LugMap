@@ -1,7 +1,6 @@
-.generator {
-  float: right;
-  width: 45%;
-  text-align: center;
+.edit_box {
+  width: 80%;
+  margin: auto;
 }
 
 .code {
