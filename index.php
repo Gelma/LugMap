@@ -39,9 +39,10 @@ lugheader ('LugMap');
 
     <td align="right" style="width: 15%;">
       <?php
-        foreach ($elenco_regioni as $k => $v) {
-          if ($v == 'Italia') {$v = 'Gruppi Nazionali';}
-          echo '<a href="/regione/'.$k.'">'.$v.'</a><br>';
+        foreach ($elenco_regioni as $file => $nome) {
+          if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
+          if (in_array($file, array('friuli','trentino','valle'))) {continue;}
+          echo '<a href="/regione/'.$file.'">'.$nome.'</a><br>';
         }
       ?>
     </td>
