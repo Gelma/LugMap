@@ -25,6 +25,19 @@ img {
 
 .olPopup h2 {
 	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.olPopup p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.olPopup a {
+	margin: 0px;
+	padding: 0px;
+	display: block;
 }
 
 .intro {

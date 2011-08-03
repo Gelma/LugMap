@@ -32,7 +32,7 @@ if ($regione_richiesta == 'italia') {
 	$regione = 'Italia';
 	$title = 'Tutti i LUG presenti in Italia';
 } else {
-	header("location: http://lugmap.it/");
+	header("location: " . $main_url);
 }
 
 do_head ($title);
@@ -85,7 +85,7 @@ do_head ($title);
 		<a href="http://github.com/Gelma/LugMap/tree/master/db/<?php echo $db_file ?>">&raquo; Dati in Formato CSV</a>
 		<?php endif; ?>
 
-		<a href="http://lugmap.it/widget.php?region=<?php echo $regione_richiesta ?>">&raquo; Widget Web</a>
+		<a href="<?php echo $main_url ?>/widget.php?region=<?php echo $regione_richiesta ?>">&raquo; Widget Web</a>
 	</div>
 </div>
 

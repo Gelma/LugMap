@@ -27,61 +27,14 @@ $elenco_regioni = array (
   "Italia"     => "Italia"
 );
 
-/***************************************************************************************************************/
-
-function lugheader ($title, $extracss = null, $extrajs = null) {
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="language" content="italian" />
-
-  <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
-
-  <?php
-    if ($extracss != null)
-      foreach ($extracss as $e) {
-        ?>
-        <link href="<?php echo $e; ?>" rel="stylesheet" type="text/css" />
-        <?php
-      }
-
-    if ($extrajs != null)
-      foreach ($extrajs as $e) {
-        ?>
-        <script type="text/javascript" src="<?php echo $e; ?>"></script>
-        <?php
-      }
-  ?>
-
-  <title><?php echo $title; ?></title>
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-190627-10']);
-    _gaq.push(['_setDomainName', '.lugmap.it']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-</head>
-<body>
-
-<div id="header">
-  <h2 id="title"><?php echo $title; ?></h2>
-</div>
-
-<?php
-}
+# URL del sito di riferimento
+$main_url = 'http://localhost/lugmap';
 
 /***************************************************************************************************************/
 
 function do_head ($title = null, $javascript = array ()) {
+global $main_url;
+
 echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n";
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="it">
@@ -150,27 +103,27 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		?>
 
 		<ul class="verticalslider_tabs">
-			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="http://lugmap.it/index.php">Mappa</a></li>
+			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="<?php echo $main_url ?>/index.php">Mappa</a></li>
 
 			<li>
-				<a<?php if ($select == 1) echo ' class="select"' ?> href="http://lugmap.it/regioni.php">Lista delle Regioni</a>
+				<a<?php if ($select == 1) echo ' class="select"' ?> href="<?php echo $main_url ?>/regioni.php">Lista delle Regioni</a>
 
 				<?php if ($select == 6): ?>
 				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="<?php echo $_SERVER['HTTP_HOST'] ?>"><?php echo $menu ?></a>
+					<li><a class="select" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>"><?php echo $menu ?></a>
 				</ul>
 				<?php endif; ?>
 			</li>
 
-			<li><a<?php if ($select == 2) echo ' class="select"' ?> href="http://lugmap.it/lista.php">Lista Completa</a></li>
-			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="http://lugmap.it/partecipa.php">Partecipa</a></li>
+			<li><a<?php if ($select == 2) echo ' class="select"' ?> href="<?php echo $main_url ?>/lista.php">Lista Completa</a></li>
+			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="<?php echo $main_url ?>/partecipa.php">Partecipa</a></li>
 
 			<li>
-				<a<?php if ($select == 4) echo ' class="select"' ?> href="http://lugmap.it/forge.php">Progetti Collaterali</a>
+				<a<?php if ($select == 4) echo ' class="select"' ?> href="<?php echo $main_url ?>/forge.php">Progetti Collaterali</a>
 
 				<?php if ($select == 5): ?>
 				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="http://lugmap.it/widget.php">Widget Web</a>
+					<li><a class="select" href="<?php echo $main_url ?>/widget.php">Widget Web</a>
 				</ul>
 				<?php endif; ?>
 			</li>

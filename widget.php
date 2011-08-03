@@ -88,7 +88,7 @@ else
 
 <div style="width: 45%; float: right; text-align: center;">
 	<div class="preview">
-		<iframe id="lugmap" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=<?php echo $region ?>&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
+		<iframe id="lugmap" src="<?php echo $main_url ?>/forge/lug-o-matic/widget.php?region=<?php echo $region ?>&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
 	</div>
 
 	<br />
@@ -98,8 +98,8 @@ else
 	<p>Copia e incolla questo codice nella tua pagina web!</p>
 
 	<textarea class="code" cols="45" rows="10"><?php echo htmlentities (
-	'<script type="text/javascript" src="http://lugmap.it/forge/lug-o-matic/widget.php?region=' . $region . '"></script>
-	<img id="lugmap" src="http://lugmap.it/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />') ?>
+	'<script type="text/javascript" src="' . $main_url . '/forge/lug-o-matic/widget.php?region=' . $region . '"></script>
+	<img id="lugmap" src="' . $main_url . '/forge/lug-o-matic/placeholder.png" onload="renderLugMap();" />') ?>
 	</textarea>
 </div>
 

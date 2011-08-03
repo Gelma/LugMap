@@ -58,7 +58,7 @@ do_head ('Progetti Collaterali');
 
 			<p>
 				Viene eseguito una volta alla settimana su questo server, e la lista di feeds aggiornata e' reperibile
-				<a href="http://lugmap.it/lugs.opml">qui</a>.
+				<a href="<?php echo $main_url ?>/lugs.opml">qui</a>.
 			</p>
 
 			<p>
@@ -107,7 +107,7 @@ do_head ('Progetti Collaterali');
 			</p>
 
 			<p>
-				Il file completo utilizzato in questo sito è sempre reperibile all'URL <i>http://lugmap.it/dati.txt</i>, ed è già pronto per essere
+				Il file completo utilizzato in questo sito è sempre reperibile all'URL <i><?php echo $main_url ?>/dati.txt</i>, ed è già pronto per essere
 				passato come parametro ad un oggetto Javascript <a href="http://dev.openlayers.org/apidocs/files/OpenLayers/Layer/Text-js.html">OpenLayers.Layer.Text</a>.
 				Chi vuole invece generarsi autonomamente il set di dati, può reperire lo script completo
 				<a href="http://github.com/Gelma/LugMap/blob/lugmap.it/forge/map-generator/map-generator.php">qui</a>; attenzione: per tale

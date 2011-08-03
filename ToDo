@@ -2,6 +2,7 @@ ToDo
 
 - permettere di configurare il widget web:
 	- colore sfondo / righe
+	- aggiungere select per selezionare la regione. implica portarsi appresso i dati di tutte le regioni e formattarli alla bisogna
 
 - unificare codice per la generazione della tabella della singola regione e della tabella di tutti i lug
 	(fanno la stessa cosa, ma sono duplicate)
