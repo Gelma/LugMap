@@ -11,7 +11,7 @@ if (ereg('index\.php$', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php
   if (array_key_exists ($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
     $db_file = '../db/'.$regione.'.txt';
     $db_regione = file ($db_file);
-    $title = 'LUG presenti nella regione '. $regione;
+    $title = 'LUG presenti nella regione '. $elenco_regioni[$regione];
   } else {
             header("location: http://lugmap.linux.it/"); }
 
