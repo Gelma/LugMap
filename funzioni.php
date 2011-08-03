@@ -58,6 +58,10 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
       }
   ?>
 
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+    {lang: 'it'}
+  </script>
+
   <title><?php echo $title; ?></title>
 </head>
 <!-- <a href="http://lugmap.linux.it/css/contact.php">select</a> -->
@@ -70,7 +74,10 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <tr><td colspan=4>&nbsp;</td></tr>
   </table>
 
-  <div id="title"><h2 class="titolino"><?php if ($title != 'LugMap') {echo $title;} ?></h2></div>
+  <div id="title"><h2 class="titolino">
+      <?php if ($title != 'LugMap') {
+	        echo $title;
+		print '&nbsp;<g:plusone size="small"></g:plusone>';} ?> </h2></div>
 </div>
 
 <?php
