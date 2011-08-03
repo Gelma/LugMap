@@ -2,7 +2,7 @@ Ancona|FreeGLOO|Ancona|http://freegloo.wordpress.com/|dani.savini@libero.it
 Ancona|Lug-Jesi|Jesi|http://www.lugjesi.net/|cristiantava@mac.com
 Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/|info@pdp.linux.it
 Ancona|SenaLUG|Senigallia|http://www.senalug.org/|info@senalug.org
-Ascoli Piceno|Astrolabe|http://astrolabe.it/|grottammare|
+Ascoli Piceno|Astrolabe|Grottammare|http://astrolabe.it/|
 Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|info@linuxfm.org
 Macerata|Camelug|Camerino|http://camelug.it/|ryuw@camelug.it
 Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it/|associazione@gruppolinuxmc.it
