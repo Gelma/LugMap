@@ -22,6 +22,7 @@ lugheader ('LUG-o-matic', array ('generator.css'), array ('jquery.js', 'generato
 			<select name="region">
 				<?php
 				foreach ($elenco_regioni as $simple => $name) {
+				        if (in_array($simple, array('emilia','friuli','trentino','valle'))) {continue;}
 					if ($region == $simple)
 						$selected = ' selected="selected"';
 					else
