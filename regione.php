@@ -2,7 +2,12 @@
 
 require_once ('funzioni.php');
 
-# parsing della richiesta per individuare
+# parsing della richiesta, che può arrivare da 4 tipi di url:
+# lug-list.php?reg=nome - formato storico   (vogliamo che dia un redirect al definitivo)
+# regione.php?reg=nome  - formato di transizione (idem)
+# /regione/nome-regione - formato di transizione (idem)
+# /nome-regione/        - definitivo
+
 if (isset ($_REQUEST["reg"])) {
   if (array_key_exists ($_REQUEST["reg"], $elenco_regioni)) {
     $regione = $elenco_regioni[$_REQUEST["reg"]];

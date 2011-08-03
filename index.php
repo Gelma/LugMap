@@ -41,7 +41,7 @@ lugheader ('LugMap');
       <?php
         foreach ($elenco_regioni as $file => $nome) {
           if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
-          if (in_array($file, array('friuli','trentino','valle'))) {continue;}
+          if (in_array($file, array('emilia','friuli','trentino','valle'))) {continue;}
           echo '<a class="generalink" href="/regione/'.$file.'">'.$nome.'</a><br>';
         }
       ?>

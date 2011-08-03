@@ -9,6 +9,7 @@ $elenco_regioni = array (
   "calabria"              => "Calabria",
   "campania"              => "Campania",
   "emilia"                => "Emilia Romagna",
+  "emilia-romagna"        => "Emilia Romagna",
   "friuli"                => "Friuli Venezia Giulia",
   "friuli-venezia-giulia" => "Friuli Venezia Giulia",
   "lazio"                 => "Lazio",
