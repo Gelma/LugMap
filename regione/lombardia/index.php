@@ -1,1 +1,5 @@
-<?php header( 'Location: http://lugmap.linux.it/regione.php?reg=lombardia'); ?>
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://lugmap.linux.it/lombardia/");
+exit();
+?>

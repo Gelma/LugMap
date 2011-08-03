@@ -1,1 +1,5 @@
-<?php header( 'Location: http://lugmap.linux.it/regione.php?reg=trentino'); ?>
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://lugmap.linux.it/trentino-alto-adige/");
+exit();
+?>

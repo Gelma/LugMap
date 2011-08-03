@@ -29,7 +29,7 @@ lugheader ('LugMap');
       <div>
         Sono disponibili <a class="generalink" href="/regione.php">l'elenco completo di tutti i LUG</a> ordinati per provincia,
         una pagina dedicata alle <a class="generalink" href="/statistiche.php">statistiche</a>,
-        ed un <a class="generalink" href="lug-o-matic">widget web</a> da utilizzare su siti esterni.
+        ed un <a class="generalink" href="lug-o-matic">widget web</a> utilizzabile su siti esterni.
       </div>
     </td>
 
@@ -42,7 +42,7 @@ lugheader ('LugMap');
         foreach ($elenco_regioni as $file => $nome) {
           if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
           if (in_array($file, array('emilia','friuli','trentino','valle'))) {continue;}
-          echo '<a class="generalink" href="/regione/'.$file.'">'.$nome.'</a><br>';
+          echo '<a class="generalink" href="/'.$file.'/">'.$nome.'</a><br>';
         }
       ?>
     </td>
