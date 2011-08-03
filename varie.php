@@ -150,27 +150,27 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		?>
 
 		<ul class="verticalslider_tabs">
-			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="index.php">Mappa</a></li>
+			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="http://lugmap.it/index.php">Mappa</a></li>
 
 			<li>
-				<a<?php if ($select == 1) echo ' class="select"' ?> href="regioni.php">Lista delle Regioni</a>
+				<a<?php if ($select == 1) echo ' class="select"' ?> href="http://lugmap.it/regioni.php">Lista delle Regioni</a>
 
 				<?php if ($select == 6): ?>
 				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="widget.php"><?php echo $menu ?></a>
+					<li><a class="select" href="<?php echo $_SERVER['HTTP_HOST'] ?>"><?php echo $menu ?></a>
 				</ul>
 				<?php endif; ?>
 			</li>
 
-			<li><a<?php if ($select == 2) echo ' class="select"' ?> href="lista.php">Lista Completa</a></li>
-			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="partecipa.php">Partecipa</a></li>
+			<li><a<?php if ($select == 2) echo ' class="select"' ?> href="http://lugmap.it/lista.php">Lista Completa</a></li>
+			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="http://lugmap.it/partecipa.php">Partecipa</a></li>
 
 			<li>
-				<a<?php if ($select == 4) echo ' class="select"' ?> href="forge.php">Progetti Collaterali</a>
+				<a<?php if ($select == 4) echo ' class="select"' ?> href="http://lugmap.it/forge.php">Progetti Collaterali</a>
 
 				<?php if ($select == 5): ?>
 				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="widget.php">Widget Web</a>
+					<li><a class="select" href="http://lugmap.it/widget.php">Widget Web</a>
 				</ul>
 				<?php endif; ?>
 			</li>
