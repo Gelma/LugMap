@@ -1,7 +1,7 @@
 <?php
 
 require_once ('varie.php');
-do_head ('La LugMap sul tuo Sito!', array ('http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js', 'forge/lug-o-matic/generator.js'));
+do_head ('La LugMap sul tuo Sito', array ('http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js', 'forge/lug-o-matic/generator.js'));
 
 if (array_key_exists ('region', $_GET) == true)
 	$region = $_GET ['region'];

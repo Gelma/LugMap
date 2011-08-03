@@ -1,7 +1,7 @@
 <?php
 
 require_once ('varie.php');
-do_head ();
+do_head ('LUG divisi per Regione');
 
 ?>
 

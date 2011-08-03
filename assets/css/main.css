@@ -86,6 +86,14 @@ img {
 	padding: 30px;
 }
 
+.verticalslider_tabs .select {
+	background-color: #F0F0F0;
+}
+
+.verticalslider_tabs .select:hover {
+	background-color: #F0F0F0;
+}
+
 .verticalslider {
 	margin: 0 auto;
 }
@@ -109,7 +117,7 @@ img {
 .verticalslider_tabs a:link, .verticalslider_tabs a:visited {
 	display: block;
 	height: 29px;
-	padding: 14px 10px 6px 10px;
+	padding: 7px 10px 6px 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -124,6 +132,21 @@ img {
 .verticalslider_tabs li:first-child a:link, .verticalslider_tabs li:first-child a:visited {
 	border-top: none;
 	height: 30px;
+}
+
+.verticalslider_subtabs {
+	margin-right: 20px;
+}
+
+.verticalslider_subtabs a:link, .verticalslider_tabs a:visited {
+	display: block;
+	height: 29px;
+	padding: 14px 10px 6px 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
 }
 
 .verticalslider_contents {

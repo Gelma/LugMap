@@ -2,19 +2,24 @@
 
 require_once ('varie.php');
 
-# leggo il terzo livello per recuperare la regione richiesta
-$livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
-$regione_richiesta = $livelli_del_dominio[0];
+if (array_key_exists ('region', $_GET)) {
+	$regione_richiesta = $_GET ['region'];
+}
+else {
+	# leggo il terzo livello per recuperare la regione richiesta
+	$livelli_del_dominio = explode('.', $_SERVER['HTTP_HOST']);
+	$regione_richiesta = $livelli_del_dominio[0];
+}
 
 if ($regione_richiesta == 'italia') {
 	$db_file = 'Italia.txt';
 	$db_regione = file ("./db/$db_file");
-	$title = 'LUG di livello nazionale';
+	$title = 'Tutti i LUG di livello nazionale';
 } elseif (array_key_exists ($regione_richiesta, $elenco_regioni)) {
 	$regione = $elenco_regioni[$regione_richiesta];
 	$db_file = "$regione_richiesta.txt";
 	$db_regione = file ("./db/$db_file");
-	$title = 'LUG presenti nella regione ' . $regione;
+	$title = 'Tutti i LUG presenti nella regione ' . $regione;
 } elseif ($regione_richiesta == "elenco") {
 	$db_regione = array ();
 
@@ -25,7 +30,7 @@ if ($regione_richiesta == 'italia') {
 
 	$db_file = null;
 	$regione = 'Italia';
-	$title = 'LUG presenti in Italia';
+	$title = 'Tutti i LUG presenti in Italia';
 } else {
 	header("location: http://lugmap.it/");
 }
