@@ -1,5 +1,6 @@
 <?php
 # parsing della richiesta della regione, che può arrivare da 4 tipi di url:
+# http://www.linux.it/LUG (indirizzo storico)
 # lug-list.phtml?reg=nome - formato storico   (vogliamo che dia un redirect al definitivo)
 # regione.php?reg=nome  - formato di transizione (idem)
 # /regione/nome-regione - formato di transizione (idem)
