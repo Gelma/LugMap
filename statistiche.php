@@ -43,6 +43,8 @@ lugheader ('Statistiche dei LUG italiani');
         $sum = 0;
 
         foreach (glob ('db/*.txt') as $filename) {
+          if (in_array($filename, array('db/emilia.txt', 'db/friuli.txt', 'db/trentino.txt', 'db/valle.txt')))
+            continue;
           $contents = file ($filename, FILE_IGNORE_NEW_LINES);
           $tot = count ($contents);
           $sum += $tot;
@@ -61,7 +63,7 @@ lugheader ('Statistiche dei LUG italiani');
         $nriga = 1;
 
         foreach (glob ("db/*.txt") as $filename) {
-          if ($filename == 'db/Italia.txt')
+          if (in_array($filename, array('db/Italia.txt', 'db/emilia.txt', 'db/friuli.txt', 'db/trentino.txt', 'db/valle.txt')))
             continue;
 
           $t = $tots [$nriga - 1];
