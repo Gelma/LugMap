@@ -81,7 +81,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <body>
 
 <div id="header">
-  <table align=center border=0 bgcolor="#00178E" onclick="location.href='http://lugmap.linux.it/'">
+  <table align=center border=0 bgcolor="#00178E" style="cursor: pointer; cursor: hand;" onclick="location.href='http://lugmap.linux.it/'">
   <tr><td width="50"></td><td align=center valign=bottom rowspan=2><img src="/immagini/ils_logo.png"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 30pt; color: white;">LugMap</div></a></td><td width="50"></td></tr>
   <tr><td width="50"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 12pt; color: white;">Italian Linux Society</div></td><td width="50"></td></tr>
   <tr><td colspan=4>&nbsp;</td></tr>
