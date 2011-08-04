@@ -74,17 +74,16 @@ lugheader ($title);
         </tr>
     </tfoot>
     <tbody>
-      <?php while (list ($nriga, $linea) = each ($db_regione)): ?>
-        <?php # estrazione variabili
-            $campi = explode("|",$linea);
-            $provincia    = $campi[0];
-            $denominazione  = $campi[1];
-            $zona     = $campi[2];
-            $sito   = $campi[3];
+      <?php while (list ($nriga, $linea) = each ($db_regione)):
+        $campi         = explode("|",$linea); # estrazione dei campi
+        $provincia     = $campi[0];
+        $denominazione = $campi[1];
+        $zona          = $campi[2];
+        $sito          = $campi[3];
         # stampa dei campi ?>
         <tr class="row_<?php echo ($nriga % 2); ?>">
          <td class="province"><?php echo $provincia ?></td>
-         <td><?php echo $denominazione ?></td>
+         <td><a class="generalink" href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
          <td><?php echo $zona ?></td>
          <td class="contactUrl"><a href="<?php echo $sito ?>"><?php echo $sito ?></a></td>
         </tr>
