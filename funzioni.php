@@ -39,7 +39,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="language" content="italian" />
   <meta name="robots" content="noarchive" />
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
   <?php
