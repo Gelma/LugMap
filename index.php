@@ -9,27 +9,34 @@ lugheader ('LugMap');
   <tr>
     <td style="width: 35%;">
       <div>
-        Il progetto <b>LugMap</b> ha l'ambizione di offrire un elenco, quanto pi&ugrave; aggiornato, delle realt&agrave; che
-        ruotano attorno al perno del <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>,
-        come <a class="generalink" href="http://it.wikipedia.org/wiki/Linux_User_Group">Linux Users Group</a>,
+        Il progetto <b>LugMap</b> ha l'ambizione di offrire un elenco, quanto
+        pi&ugrave; aggiornato, delle realt&agrave; che ruotano attorno al perno del
+        <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>, come
+        <a class="generalink" href="http://it.wikipedia.org/wiki/Linux_User_Group">Linux Users Group</a>,
         <a class="generalink" href="http://it.wikipedia.org/wiki/Hacklab">Hacklab</a> et similia.
+        <br />
         Le voci, ordinate per regione e provincia, sono accessibili sia direttamente dalla cartina italiana,
         sia dall'elenco a lato.
       </div>
 
       <div>
-        Il comun denominatore dei gruppi riportati è la diffusione di <a class="generalink" href="http://it.wikipedia.org/wiki/Linux">Linux</a>
-        quale punta di diamante del <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>.
-        Questi sono quindi a disposizione di chiunque voglia avvicinarsi a dette tematiche, sia in forma telematica
-        (siti Internet, mailing list, email, ecc.), sia de visu (sedi o birrerie che siano).
+        Il comun denominatore dei gruppi riportati &egrave; la diffusione di
+        <a class="generalink" href="http://it.wikipedia.org/wiki/Linux">Linux</a>
+        quale punta di diamante del
+        <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>.
+        <br />
+        Questi sono quindi a disposizione di chiunque voglia avvicinarsi a dette tematiche, sia in forma
+        telematica (siti Internet, mailing list, email, ecc.), sia de visu (sedi o birrerie che siano).
       </div>
 
       <br />
 
       <div>
-        Sono disponibili <a class="generalink" href="/regione.php">l'elenco completo di tutti i LUG</a> ordinati per provincia,
-        una pagina dedicata alle <a class="generalink" href="/statistiche.php">statistiche</a>,
-        ed un <a class="generalink" href="lug-o-matic">widget web</a> utilizzabile su siti esterni.
+        Sono disponibili
+        <a class="generalink" href="/regione.php">l'elenco completo di tutti i LUG</a>
+        ordinati per provincia, una pagina dedicata alle
+        <a class="generalink" href="/statistiche.php">statistiche</a>, ed un
+        <a class="generalink" href="lug-o-matic">widget web</a> utilizzabile su altri siti.
       </div>
     </td>
 
@@ -49,6 +56,8 @@ lugheader ('LugMap');
 
   </tr>
 </table>
+
+<br />
 
 <map name="italia">
   <area shape="poly" coords="196,200,197,197,205,198,204,193,200,190,200,183,207,181,207,177,210,176,213,173,216,172,226,188,238,199,237,201,237,204,233,206,229,204,221,208,219,210,214,208,208,208,203,203,200,200,196,200" href="/regione/abruzzo" title="Abruzzo" alt="Abruzzo" />
