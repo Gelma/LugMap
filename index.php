@@ -16,7 +16,8 @@ lugheader ('LugMap');
         <a class="generalink" href="http://it.wikipedia.org/wiki/Hacklab">Hacklab</a> et similia.
         <br />
         Le voci, ordinate per regione e provincia, sono accessibili direttamente dalla cartina e
-        dall'elenco a lato, anche in versione <a href="http://lugmap.linux.it/">georeferenziata</a>.
+        dall'elenco a lato, anche in versione
+        <a class="generalink" href="http://lugmap.linux.it/">georeferenziata</a>.
       </div>
 
       <div>
