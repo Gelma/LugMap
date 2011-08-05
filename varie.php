@@ -28,7 +28,7 @@ $elenco_regioni = array (
 );
 
 # URL del sito di riferimento
-$main_url = 'http://localhost/lugmap';
+$main_url = 'http://lugmap.it';
 
 /***************************************************************************************************************/
 

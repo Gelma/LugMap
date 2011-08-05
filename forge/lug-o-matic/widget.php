@@ -40,7 +40,7 @@ if ($format == 'image') {
 		*/
 		$correct_width = $width - 6;
 
-		exec ("/usr/local/bin/wkhtmltoimage-i386 --width $width \"$mail_url/forge/lug-o-matic/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color&width=$correct_width\" $path");
+		exec ("/usr/local/bin/wkhtmltoimage-i386 --width $width \"$main_url/forge/lug-o-matic/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color&width=$correct_width\" $path");
 	}
 
 	header ("Content-Type: image/png");
