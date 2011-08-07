@@ -239,8 +239,9 @@ function refresh_demo () {
 	}
 	else {
 		url = build_url (false);
-		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
-		$('.code').empty ().append (htmlentities (copy_code_image.replace (/URL/, url).replace (/REGIONE/, $('select[name=region] option:selected').val ()), 'ENT_NOQUOTES'));
+		txt = copy_code_image.replace (/URL/, url).replace (/REGIONE/, $('select[name=region] option:selected').val ());
+		$('.preview').empty ().append (txt);
+		$('.code').empty ().append (htmlentities (txt, 'ENT_NOQUOTES'));
 	}
 }
 
