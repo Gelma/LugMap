@@ -65,11 +65,11 @@ Guida intergalattica alla LugMap
 \end_layout
 
 \begin_layout Author
-Andrea Gelmini
+Andrea Gelmini e Roberto Guido
 \end_layout
 
 \begin_layout Date
-25 Luglio 2011
+7 Agosto 2011
 \end_layout
 
 \begin_layout Standard
@@ -87,18 +87,8 @@ Work in progress
 
 \begin_layout Standard
 Il contenuto di queste pagine non ha alcun valore.
- Il documento deve ancora:
-\end_layout
-
-\begin_layout Itemize
-essere visionato e approvato dal direttivo di ILS (diversamente rinominarlo
- come mie note personali);
-\end_layout
-
-\begin_layout Itemize
-può essere considerato completato per la pubblicazione quando questa guida
- sia sufficiente per permettere a chiunque di prendere in mano la completa
- gestione della LugMap in qualsiasi momento.
+ Il documento deve ancora essere visionato e approvato dal direttivo di
+ ILS (diversamente rinominarlo come nostre note personali).
 \end_layout
 
 \begin_layout Standard
@@ -1643,6 +1633,40 @@ reference "sub:Spazzino"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Visionario
+\end_layout
+
+\begin_layout Standard
+Visionario, invocabile con 
+\family typewriter
+script/visionario.py
+\family default
+, è uno script in Python che si occupa di controllare il corretto funzionamento
+ del widget web di lugmap.it.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://lugmap.it/widget.php
+\end_layout
+
+\end_inset
+
+ Eventuali noie vengono segnalate ad Andrea Gelmini e Roberto Guido.
+ Necessita del package 
+\family typewriter
+python-imaging
+\family default
+ ed il file del db si chiama 
+\family typewriter
+.visionario.db
+\family default
+ (posto sempre nella home dell'utente).
 \end_layout
 
 \begin_layout Subsection
