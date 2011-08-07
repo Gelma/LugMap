@@ -19,33 +19,33 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>."""
 
 try:
-	import csv, glob, os, socket, sys, smtplib, syslog, urllib2
-	import notifiche
+    import glob, os, socket, sys, urllib2
+    import notifiche
 except:
-	import sys
-	sys.exit("Non sono disponibili tutti i moduli necessari.")
+    import sys
+    sys.exit("Non sono disponibili tutti i moduli necessari.")
 socket.setdefaulttimeout(35) # Timeout in secondi del fetching delle pagine (vedi urllib2)
 
 def email_errori(URL, filedb=''):
-	try:
-		mail = notifiche.email(mittente		= 'Bigliettaro <bigliettaro@gelma.net>',
-							   destinatario	= ['Bigliettaro <bigliettaro@gelma.net>'],
-							   oggetto 		= 'Bigliettaro: '+URL+' '+filedb,
-							   testo		= 'Discrepanza: '+URL+' '+filedb,
-							   invia_subito	= True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
-	except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
-		print 'Bigliettaro: discrepanza',URL,filedb
+    try:
+        mail = notifiche.email(mittente     = 'Bigliettaro <bigliettaro@gelma.net>',
+                               destinatario = ['Bigliettaro <bigliettaro@gelma.net>'],
+                               oggetto      = 'Bigliettaro: '+URL+' '+filedb,
+                               testo        = 'Discrepanza: '+URL+' '+filedb,
+                               invia_subito = True) # Se da Aggiornare, vedi Guida Intergalattica alla LugMap §4.1
+    except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
+        print 'Bigliettaro: discrepanza', URL, filedb
 
 if __name__ == "__main__":
-	for URL in ('http://lugmap.linux.it/db/', 'http://lugmap.it/db/'):
-		for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
-			fileURL = URL+filedb[5:]
-			richiesta_file_db = urllib2.Request(fileURL, None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
-			try:
-				contenuto_remoto = urllib2.urlopen(richiesta_file_db).read()
-			except:
-				email_errori(fileURL,': impossibile leggere il file remoto '+filedb)
-				continue
-			contenuto_locale = open(filedb, 'r').read()
-			if contenuto_locale != contenuto_remoto:
-				email_errori(fileURL, filedb)
+    for URL in ('http://lugmap.linux.it/db/', 'http://lugmap.it/db/'):
+        for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
+            fileURL = URL+filedb[5:]
+            richiesta_file_db = urllib2.Request(fileURL, None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
+            try:
+                contenuto_remoto = urllib2.urlopen(richiesta_file_db).read()
+            except:
+                email_errori(fileURL, ': impossibile leggere il file remoto '+filedb)
+                continue
+            contenuto_locale = open(filedb, 'r').read()
+            if contenuto_locale != contenuto_remoto:
+                email_errori(fileURL, filedb)
