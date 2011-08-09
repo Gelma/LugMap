@@ -1,8 +1,6 @@
 == Ricontrollare:
 
 	04 Agosto: lugbari.org non risponde (contattati via Facebook)
-	04 Agosto: http://www.lugbz.org/ down (mandata mail)
-	08 Agosto: http://hacklab.cz è down (ma funziona l'equivalente .com - mandata mail)
 	15 Agosto: controllare che OSM risolva correttamente Arcavacata
 
 == Tolti dal DB in attesa di conferma:
@@ -19,9 +17,6 @@
 		* non risulta integrato nell'estetica di ILS
 		* abbandonare la malefica gif
 		* dargli uno spirito di collaborazione (invitare i Lug a scrivere due righe, una sorta di Lug del mese?)
-		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
-		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
-		* sitemap dove escludere i file inutili da indicizzare
 		* esplicitare licenza d'uso (sia del codice del sito - AGPLv3? - che dei dati - pubblico dominio?)
 		* idea suggerita da napo: http://www.visup.it/misc/workshop/index.htm
 		* altra idea da napo: mappa delle regioni con numero dei lug presenti, si clicca e zomma sulla regione. Tipo Ushahidi
