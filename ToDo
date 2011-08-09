@@ -1,11 +1,12 @@
 == Ricontrollare:
 
-	04 Agosto: lugbari.org non risponde
-	04 Agosto: http://www.lugbz.org/ down
+	04 Agosto: lugbari.org non risponde (contattati via Facebook)
+	04 Agosto: http://www.lugbz.org/ down (mandata mail)
+	08 Agosto: http://hacklab.cz è down (ma funziona l'equivalente .com - mandata mail)
 	15 Agosto: controllare che OSM risolva correttamente Arcavacata
 
 == Tolti dal DB in attesa di conferma:
-	30 Luglio	Rieti|Lug Rieti|Rieti e provincia|http://www.lugrieti.net/|vmcleri@tiscalinet.it (dominio scaduto)
+	30 Luglio	Rieti|Lug Rieti|Rieti e provincia|http://www.lugrieti.net/|vmcleri@tiscalinet.it (dominio scaduto - mandato mail)
 
 == Liste duplicate ed obsolete:
 	http://www.spaghettilinux.org/elenco-lug
@@ -29,3 +30,4 @@
 		* creare scriptino che generi il contenuto da copiare ed incollare nella pagina Wikipedia dei LUG
 			scopiazzare il testo iniziale, che non cambia mai, e generare il resto dalla tabella a partire dal nostro DB
 			(N.d.Gelma: dovrebbe essere abbastanza agile, anche se temo che quelli di Wikipedia ci silurino alla prima modifica...)
+			Uhm... il problema è che nell'elenco non abbiamo solo i Lug... Sarebbero da discriminare in automatico...
