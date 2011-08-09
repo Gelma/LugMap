@@ -19,12 +19,10 @@
 		* non risulta integrato nell'estetica di ILS
 		* abbandonare la malefica gif
 		* dargli uno spirito di collaborazione (invitare i Lug a scrivere due righe, una sorta di Lug del mese?)
-		* navigazione: ci sono dei dead end, per esempio entrando nel widget non c'è un riferimento per tornare indietro
-		* aggiungere puntamenti diretti: http://lugmap.linux.it/regione/ (da discutere con Fabio)
-		* sitemap dove escludere i file inutili da indicizzare
 		* idea suggerita da napo: http://www.visup.it/misc/workshop/index.htm
 
 	* scripts di supporto:
 		* creare scriptino che generi il contenuto da copiare ed incollare nella pagina Wikipedia dei LUG
 			scopiazzare il testo iniziale, che non cambia mai, e generare il resto dalla tabella a partire dal nostro DB
 			(N.d.Gelma: dovrebbe essere abbastanza agile, anche se temo che quelli di Wikipedia ci silurino alla prima modifica...)
+			Uhm... il problema è che nell'elenco non abbiamo solo i Lug... Sarebbero da discriminare in automatico...
