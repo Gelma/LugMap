@@ -19,9 +19,11 @@
 		* esplicitare licenza d'uso (sia del codice del sito - AGPLv3? - che dei dati - pubblico dominio?)
 		* idea suggerita da napo: http://www.visup.it/misc/workshop/index.htm
 		* altra idea da napo: mappa delle regioni con numero dei lug presenti, si clicca e zomma sulla regione. Tipo Ushahidi
-
 	* scripts di supporto:
 		* creare scriptino che generi il contenuto da copiare ed incollare nella pagina Wikipedia dei LUG
 			scopiazzare il testo iniziale, che non cambia mai, e generare il resto dalla tabella a partire dal nostro DB
 			(N.d.Gelma: dovrebbe essere abbastanza agile, anche se temo che quelli di Wikipedia ci silurino alla prima modifica...)
 			Uhm... il problema è che nell'elenco non abbiamo solo i Lug... Sarebbero da discriminare in automatico...
+	* ILS:
+		* chiedere approvazione Guida Intergalattica
+		* chiedere licenza con cui rilasciare i DB (vedi thread http://lists.linux.it/pipermail/lugmap/2011/000422.html )
