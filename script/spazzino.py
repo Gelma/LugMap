@@ -277,6 +277,9 @@ class LUG(persistent.Persistent):
 	def controllo_title(self):
 		"""Leggo il title della pagina e controllo che non sia cambiato. True/False di ritorno"""
 
+		if self.id == "CSLug": # Saltiamo questo Lug perché ha il title che si comporta in modo buffo.
+			return True # Appare, solo a volte, un "- Home" finale nel title, e questo genera false segnalazioni
+
 		logga('Lug <'+self.id+'>: controllo title per '+self.url)
 
 		if not hasattr(self, '_v_titolo_attuale'): # se non è stato gia' settato dall'eccezione Blug (vedi sopra)
