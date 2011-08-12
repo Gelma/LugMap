@@ -63,6 +63,7 @@ if __name__ == "__main__":
 
         if img_old.size != img_new.size:
             email_errori(url, 'Dimensione diversa')
+            db[regione] = img_new # per evitare noie con il pickling, salvo subito l'immagine nel db
             continue
 
         db[regione] = img_new # per evitare noie con il pickling, salvo subito l'immagine nel db
