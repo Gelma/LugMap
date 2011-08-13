@@ -30,7 +30,7 @@ $elenco_regioni = array (
 
 $exceptions = array ();
 
-$exceptions_file = file ('eccezioni.txt');
+$exceptions_file = file ('eccezioni.txt', FILE_IGNORE_NEW_LINES);
 if ($exceptions_file != false) {
 	foreach ($exceptions_file as $ex) {
 		if ($ex [0] == '#')

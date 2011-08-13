@@ -30,3 +30,5 @@ http://genova.linux.it/Speciale%3ARecentchanges&amp;feed=rss
 http://www.riminilug.it/tiki-wiki_rss.php?ver=2
 # RSS del forum, invaso di spam bots. Ci sarebbe anche un feed delle news, ma il sito sembra essere assai poco vitale
 http://www.iglug.org/rdf-nuke.php
+# RSS delle modifiche sul wiki
+http://www.avilug.it/feed.php
