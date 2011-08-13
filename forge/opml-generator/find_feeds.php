@@ -28,6 +28,17 @@ $elenco_regioni = array (
 	"Italia"     => "Italia"
 );
 
+$exceptions = array ();
+
+$exceptions_file = file ('eccezioni.txt');
+if ($exceptions_file != false) {
+	foreach ($exceptions_file as $ex) {
+		if ($ex [0] == '#')
+			continue;
+		$exceptions [] = $ex;
+	}
+}
+
 $feeds = array ();
 
 foreach ($elenco_regioni as $region => $name) {
@@ -43,9 +54,23 @@ foreach ($elenco_regioni as $region => $name) {
 		if ($parser->error ())
 			continue;
 
+		$f = $parser->subscribe_url ();
+
+		$skip = false;
+
+		foreach ($exceptions as $exception) {
+			if ($f == $exception) {
+				$skip = true;
+				break;
+			}
+		}
+
+		if ($skip == true)
+			continue;
+
 		$obj = new stdClass ();
 		$obj->name = $name;
-		$obj->feed = $parser->subscribe_url ();
+		$obj->feed = $f;
 		$feeds [] = $obj;
 	}
 }

@@ -1,0 +1,32 @@
+# MediaWiki, modifiche sul wiki
+http://paduglug.paduli.org/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://www.conoscerelinux.net/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# MediaWiki, modifiche sul wiki
+http://lug.42019.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# MediaWiki, modifiche sul wiki
+http://relug.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://www.lifolab.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# MediaWiki, modifiche sul wiki
+http://www.valsusinux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://leonforte.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://www.messinalug.org/mediawiki/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# MediaWiki, modifiche sul wiki
+http://poetry.freaknet.org/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://faberlibertatis.org/w/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://www.verona.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+# MediaWiki, modifiche sul wiki
+http://ispralug.eu/w/index.php?title=Special:RecentChanges&amp;feed=atom
+# MediaWiki, modifiche sul wiki
+http://libreplanet.org/wiki?title=Special:RecentChanges&amp;feed=atom
+# MediaWiki, modifiche sul wiki (peraltro invaso di spam bots)
+http://genova.linux.it/Speciale%3ARecentchanges&amp;feed=rss
+# RSS delle modifiche sul wiki. Nella pagina ce ne e' uno anche per gli articoli buoni, sarebbe da spostare
+http://www.riminilug.it/tiki-wiki_rss.php?ver=2
+# RSS del forum, invaso di spam bots. Ci sarebbe anche un feed delle news, ma il sito sembra essere assai poco vitale
+http://www.iglug.org/rdf-nuke.php

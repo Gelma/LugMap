@@ -1,7 +1,23 @@
 <?php
 
-if ($_SERVER['HTTP_HOST'] != 'lugmap.it' AND $_SERVER['HTTP_HOST'] != 'www.lugmap.it') {
-	include('visualizza-regione.php');
+if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugmap.it') {
+	$domain = explode ('.', $_SERVER ['HTTP_HOST']);
+	$host = $domain [0];
+
+	switch ($host) {
+		case 'planet':
+			include ('planet.php');
+			break;
+
+		case 'widget':
+			include ('widget.php');
+			break;
+
+		default:
+			include ('visualizza-regione.php');
+			break;
+	}
+
 	exit (0);
 }
 

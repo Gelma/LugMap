@@ -84,6 +84,11 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 				$select = 5;
 				break;
 
+			case 'Notizie dai LUG Italiani':
+			case 'Informazioni su Planet LugMap':
+				$select = 7;
+				break;
+
 			default:
 				$select = 0;
 				break;
@@ -124,6 +129,12 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 				<?php if ($select == 5): ?>
 				<ul class="verticalslider_subtabs">
 					<li><a class="select" href="<?php echo $main_url ?>/widget.php">Widget Web</a>
+				</ul>
+				<?php endif; ?>
+
+				<?php if ($select == 7): ?>
+				<ul class="verticalslider_subtabs">
+					<li><a class="select" href="http://planet.lugmap.it/">Planet LugMap</a>
 				</ul>
 				<?php endif; ?>
 			</li>

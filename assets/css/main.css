@@ -99,6 +99,14 @@ img {
 	padding: 30px;
 }
 
+.description-plain {
+	margin: auto;
+	text-align: left;
+	padding: 30px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
 .verticalslider_tabs .select {
 	background-color: #F0F0F0;
 }
@@ -311,5 +319,27 @@ fieldset {
 #footer {
 	border-top: 1px solid #000;
 	padding-top: 10px;
+}
+
+.planet_entry {
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.planet_daygroup a {
+	text-decoration: none;
+}
+
+.planet_channelgroup {
+	margin-bottom: 10px;
+	border-bottom: 2px solid #000000;
+}
+
+.planet_channelgroup h3 {
+	width: 100%;
+	text-align: right;
+	font-size: 20px;
 }
 
