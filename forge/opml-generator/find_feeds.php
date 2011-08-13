@@ -1,5 +1,44 @@
 <?php
 
+/*
+	SimplePie non gestisce i redirect, dunque questa funzione viene usata
+	come filtro per identificare il vero URL di ogni pagina. Prima fa un
+	controllo sui redirect HTTP, se non ne trova prova ad identificare dei
+	tag META REFRESH nel codice HTML
+
+	Fonti:
+	http://stackoverflow.com/questions/427203/how-can-i-determine-if-a-url-redirects-in-php
+	http://www.phpclasses.org/package/6317-PHP-Check-and-retrieve-the-redirection-URL-of-a-page.html
+*/
+function check_url ($url) {
+	$ch = curl_init ($url);
+	curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_exec ($ch);
+	$code = curl_getinfo ($ch, CURLINFO_HTTP_CODE);
+
+	if (($code == 301) || ($code == 302)) {
+		$ch2 = curl_init ($url);
+		curl_setopt ($ch2, CURLOPT_FOLLOWLOCATION, true);
+		curl_setopt ($ch2, CURLOPT_RETURNTRANSFER, true);
+		curl_exec ($ch2);
+		$url = curl_getinfo ($ch2, CURLINFO_EFFECTIVE_URL);
+		curl_close ($ch2);
+	}
+	else {
+		$keys = array ();
+		$open = @file_get_contents ($url); 
+
+		if (preg_match ('/<META HTTP-EQUIV="Refresh" CONTENT="(.*);URL=(.[^"]*)">/i', $open, &$keys)) {
+			if (strncmp ('http://', $keys [2], 7) == 0 || strncmp ('https://', $keys [2], 8) == 0)
+				$url = $keys [2];
+			else
+				$url = $url . $keys [2];
+		}
+	} 
+
+	return $url;
+}
+
 // Richiede SimplePie!
 // http://simplepie.org/
 include_once ('/usr/share/php/simplepie/simplepie.inc');
@@ -46,6 +85,7 @@ foreach ($elenco_regioni as $region => $name) {
 
 	foreach ($lugs as $lug) {
 		list ($prov, $name, $zone, $site) = explode ('|', $lug);
+		$site = check_url ($site);
 
 		$parser = new SimplePie ();
 		$parser->set_feed_url ($site);

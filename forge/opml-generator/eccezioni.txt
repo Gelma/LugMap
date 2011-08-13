@@ -32,3 +32,5 @@ http://www.riminilug.it/tiki-wiki_rss.php?ver=2
 http://www.iglug.org/rdf-nuke.php
 # RSS delle modifiche sul wiki
 http://www.avilug.it/feed.php
+# MediaWiki, modifiche sul wiki
+http://www.clug.it/wiki/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
