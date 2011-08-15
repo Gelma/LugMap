@@ -225,6 +225,10 @@ function build_url (prev) {
 	if (width != 200)
 		url += '&amp;width=' + width;
 
+	border = $('input[name=border]').val ();
+	if (border != 3)
+		url += '&amp;border=' + border;
+
 	return url;
 }
 

@@ -1,6 +1,6 @@
 <?php
 
-require_once ('../../varie.php');	
+require_once ('../../varie.php');
 
 $format = 'javascript';
 $head = 'true';
@@ -8,6 +8,7 @@ $head_color = '000080';
 $head_text_color = 'FFFFFF';
 $foot = 'true';
 $width = '200';
+$border = '3';
 
 if (array_key_exists ('format', $_GET) == true)
 	$format = $_GET ['format'];
@@ -27,9 +28,12 @@ if (array_key_exists ('foot', $_GET) == true)
 if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
 	$width = $_GET ['width'];
 
+if (array_key_exists ('border', $_GET) == true && is_numeric ($_GET ['border']))
+	$border = $_GET ['border'];
+
 if ($format == 'image') {
 	$region = $_GET ['region'];
-	$path = "cache/$region-$width-$head-$head_color-$head_text_color-$foot.png";
+	$path = "cache/$region-$width-$border-$head-$head_color-$head_text_color-$foot.png";
 
 	if (file_exists ($path) == false) {
 		/*
@@ -56,7 +60,7 @@ else if ($format == 'javascript')
 	$endline = "\\";
 
 $page =<<<PAGE
-<div style="margin: 0px; border: 3px solid #000000; font-family: Helvetica; font-size: 12px; text-align: center; width: ${width}px;"> $endline
+<div style="margin: 0px; border: ${border}px solid #000000; font-family: Helvetica; font-size: 12px; text-align: center; width: ${width}px;"> $endline
 PAGE;
 
 /**

@@ -57,6 +57,11 @@ else
 	</p>
 
 	<p>
+		<label for="border">Bordo</label>
+		<input name="border" type="text" value="3" size="4" />px
+	</p>
+
+	<p>
 		<label for="head">Mostra Header</label>
 		<input name="head" type="checkbox" checked="yes" />
 	</p>
