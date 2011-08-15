@@ -30,8 +30,10 @@ do_head ('Progetti Collaterali');
 			<legend>Widget web coi LUG di una regione</legend>
 
 			<p>
-				Da <a href="widget.php">questa pagina</a> e' possibile ottenere un widget web facilmente embeddabile su un qualsiasi
-				sito, recante la lista (sempre dinamicamente aggiornata) dei LUG presenti nella regione prescelta.
+				Da <a href="<?php echo $main_url ?>/widget.php">questa pagina</a>
+				e' possibile ottenere un widget web facilmente embeddabile su un
+				qualsiasi sito, recante la lista (sempre dinamicamente aggiornata)
+				dei LUG presenti nella regione prescelta.
 			</p>
 		</fieldset>
 
@@ -65,9 +67,11 @@ do_head ('Progetti Collaterali');
 			<legend>Aggregatore di news</legend>
 
 			<p>
-				Su questo sito e' esposto <a href="http://planet.lugmap.it/">un aggregatore di news</a> ("Planet") costruito per
-				mezzo dello <a href="#OPML">script OPML</a> sopra descritto.
-				Per maggiori informazioni si consulti <a href="planet_info.php">questa pagina</a>.
+				Su questo sito e' esposto <a href="http://planet.lugmap.it/">un
+				aggregatore di news</a> ("Planet") costruito per mezzo dello
+				<a href="#OPML">script OPML</a> sopra descritto. Per maggiori
+				informazioni si consulti
+				<a href="<?php echo $main_url ?>/planet_info.php">questa pagina</a>.
 			</p>
 		</fieldset>
 

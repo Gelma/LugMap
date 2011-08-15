@@ -192,7 +192,10 @@ function get_html_translation_table (table, quote_style) {
 }
 
 function build_url (prev) {
-	url = 'http://lugmap.it/forge/lug-o-matic/widget.php?region=';
+	if (prev == true)
+		url = 'forge/lug-o-matic/widget.php?region=';
+	else
+		url = 'http://lugmap.it/forge/lug-o-matic/widget.php?region=';
 
 	region = $('select[name=region] option:selected').val ();
 	url += region;

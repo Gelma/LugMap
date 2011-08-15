@@ -7,7 +7,7 @@ do_head ('Informazioni su Planet LugMap');
 
 <div>
 	<div class="description-plain">
-		<h3>Che è questa roba?</h3>
+		<h3>Che è Planet LugMap?</h3>
 
 		<p>
 			<a href="http://planet.lugmap.it/">Planet.LugMap.it</a> è l'aggregatore di news dei Linux
@@ -18,11 +18,11 @@ do_head ('Informazioni su Planet LugMap');
 		<h3>E' disponibile un feed di questo aggregatore?</h3>
 
 		<p>
-			Più d'uno! In <a href="forge/opml-to-planet/rss10.xml">RSS 1.0</a>,
-			<a href="forge/opml-to-planet/rss20.xml">RSS 2.0<a/>, e
-			<a href="forge/opml-to-planet/atom.xml">Atom</a>. E non dimenticare <a href="lugs.opml">il
-			file OPML originale<a/>, qualora tu volessi personalizzare la lista dei feeds sul tuo
-			aggregatore.
+			Più d'uno! In <a href="<?php echo $main_url ?>/forge/opml-to-planet/rss10.xml">RSS 1.0</a>,
+			<a href="<?php echo $main_url ?>/forge/opml-to-planet/rss20.xml">RSS 2.0<a/>, e
+			<a href="<?php echo $main_url ?>/forge/opml-to-planet/atom.xml">Atom</a>. E non dimenticare
+			<a href="<?php echo $main_url ?>/lugs.opml">il file OPML originale<a/>, qualora tu volessi
+			personalizzare la lista dei feeds sul tuo aggregatore.
 		</p>
 
 		<h3>Come vengono aggregate le notizie?</h3>
@@ -34,12 +34,12 @@ do_head ('Informazioni su Planet LugMap');
 		<p>
 			Ogni notte LugMap.it viene sincronizzato automaticamente con
 			<a href="https://github.com/Gelma/LugMap">il repository dei dati raw</a>, poi
-			<a href="http://lugmap.it/forge.php#OPML">l'apposito script</a> genera un file OPML con i
-			feed RSS di ogni LUG che ne espone uno, da tale file
-			<a href="http://lugmap.it/forge.php#Planet">un altro script</a> genera la configurazione per
-			<a href="http://planetplanet.org/">Planet</a>, Planet viene eseguito su tale configurazione,
-			e genera un file index.html che viene incluso nell'index.php di questo aggregatore
-			(arricchendo la pagina con i menu accessori e quant'altro).
+			<a href="<?php echo $main_url ?>/forge.php#OPML">l'apposito script</a> genera un file OPML
+			con i feed RSS di ogni LUG che ne espone uno, da tale file
+			<a href="<?php echo $main_url ?>/forge.php#Planet">un altro script</a> genera la
+			configurazione per <a href="http://planetplanet.org/">Planet</a>, Planet viene eseguito su
+			tale configurazione, e genera un file index.html che viene incluso nell'index.php di questo
+			aggregatore (arricchendo la pagina con i menu accessori e quant'altro).
 		</p>
 
 		<p>
@@ -66,13 +66,14 @@ do_head ('Informazioni su Planet LugMap');
 
 		<p>
 			Innanzitutto, un LUG per essere preso in considerazione deve essere indicizzato nella LugMap.
-			Se non lo è, <a href="partecipa.php">segnalacelo</a> immediatamente!
+			Se non lo è, <a href="<?php echo $main_url ?>/partecipa.php">segnalacelo</a> immediatamente!
 		</p>
 
 		<p>
-			Dalla lista dei feeds sono espressamente rimossi i feeds generati dai wiki (tipo
+			Dalla lista sono espressamente rimossi i contenuti generati dai wiki (tipo
 			<a href="http://www.mediawiki.org/">MediaWiki</a>) in quanto generano un gran rumore di fondo
-			inintelligibile, e poi una lista di <a href="forge/opml-generator/eccezioni.txt">altri feeds</a>
+			inintelligibile, e poi una lista di
+			<a href="<?php echo $main_url ?>/forge/opml-generator/eccezioni.txt">altri feeds</a>
 			individuati a mano che paiono essere stati compromessi da spam bots o cose del genere.
 		</p>
 

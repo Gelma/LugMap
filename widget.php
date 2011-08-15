@@ -88,7 +88,8 @@ else
 
 <div style="width: 45%; float: right; text-align: center;">
 	<div class="preview">
-		<iframe id="lugmap" src="<?php echo $main_url ?>/forge/lug-o-matic/widget.php?region=<?php echo $region ?>&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
+		<!-- Non usare l'URL con l'host, qui, altrimenti usando widget.lugmap.it o lugmap.it non tornano i conti con la same-origin policy -->
+		<iframe id="lugmap" src="forge/lug-o-matic/widget.php?region=<?php echo $region ?>&amp;format=html" onLoad="calcSize();" width="210px" scrolling="no" frameborder="0"></iframe>
 	</div>
 
 	<br />
