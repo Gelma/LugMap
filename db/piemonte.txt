@@ -6,7 +6,7 @@ Ivrea|IvLug|Ivrea|http://www.ivlug.it/|d.lesca@solinos.it
 Novara|Gallug|Galliate|http://www.gallug.it/|info@gallug.it
 Novara|LiNOx|Novara|http://linoxnovara.wordpress.com/|linoxnovara@gmail.com
 Torino|GlugTO|Torino e provincia|http://glugto.org/|torinux@glugto.org
-Torino|Underscore_TO HackLab|Torino|http://www.autistici.org/underscore/|underscore@autistici.org
+Torino|Underscore HackLab|Torino|http://www.autistici.org/underscore/|underscore@autistici.org
 Torino|Officina Informatica Libera|Torino|http://informaticalibera.info/|officina@informaticalibera.info
 Torino|SLIP|Pinerolo|http://pinerolo.linux.it/|info@pinerolo.linux.it
 Torino|ValSusinux|Val Susa e Val Sangone|http://www.valsusinux.it/|info@valsusinux.it
