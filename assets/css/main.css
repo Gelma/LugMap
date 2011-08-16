@@ -332,14 +332,30 @@ fieldset {
 	text-decoration: none;
 }
 
+.planet_daygroup h2 {
+	margin: 5px;
+}
+
 .planet_channelgroup {
 	margin-bottom: 10px;
-	border-bottom: 2px solid #000000;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #000000;
 }
 
 .planet_channelgroup h3 {
-	width: 100%;
+	width: 98%;
 	text-align: right;
 	font-size: 20px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.planet_channelgroup h4 {
+	width: 95%;
+	text-align: right;
+	font-size: 25px;
+	margin-right: 25px;
+	margin: auto;
 }
 
