@@ -1,5 +1,5 @@
 #LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 414
+\lyxformat 415
 \begin_document
 \begin_header
 \textclass book
@@ -33,6 +33,7 @@
 \use_esint 1
 \use_mhchem 1
 \use_mathdots 1
+\use_undertilde 1
 \cite_engine basic
 \use_bibtopic false
 \use_indices false
@@ -69,7 +70,7 @@ Andrea Gelmini e Roberto Guido
 \end_layout
 
 \begin_layout Date
-7 Agosto 2011
+18 Agosto 2011
 \end_layout
 
 \begin_layout Standard
@@ -82,29 +83,57 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Chapter*
-Work in progress
+Introduzione
 \end_layout
 
 \begin_layout Standard
-Il contenuto di queste pagine non ha alcun valore.
- Il documento deve ancora essere visionato e approvato dal direttivo di
- ILS (diversamente rinominarlo come nostre note personali).
+Queste pagine raccolgono le informazioni necessarie per poter collaborare
+ al progetto LugMap,
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://lugmap.linux.it
+\end_layout
+
+\end_inset
+
+ sia per quanto concerne i dati raccolti, sia per il software steso.
+\end_layout
+
+\begin_layout Standard
+La versione aggiornata di questo documento è sempre disponibile all'indirizzo:
+ 
+\family typewriter
+http://lugmap.linux.it/guida
 \end_layout
 
 \begin_layout Standard
 Chiunque è invitato a collaborare mandando osservazioni, correzioni, integrazion
-i, obiezioni ad Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628).
+i, obiezioni ai soliti contatti.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Un grazie sentito a chiunque dia una mano.
-\end_layout
-
-\begin_layout Standard
-Attenzione: i file disponibili sono diversi, ma il sorgente di questo documento
- è il 
-\family typewriter
-.Lyx
 \end_layout
 
 \begin_layout Chapter
@@ -128,7 +157,7 @@ http://lugmap.linux.it/
 
 \end_inset
 
- è di fornire un comodo strumento per mettere in contatto persone e realtà,
+ è di fornire un comodo strumento per mettere in contatto persone e realtà
  interessate alla diffusione del sistema operativo Linux, punta di diamante
  dell'ampio ed eterogeneo panorama del Software Libero.
 \begin_inset Foot
@@ -186,6 +215,10 @@ FSUG: Free Software User Group ovvero
 Gruppi di Utenti di Software Libero
 \end_layout
 
+\begin_layout Description
+HACKLAB: laboratori di informatica autogestiti
+\end_layout
+
 \begin_layout Section
 Pubblicazione delle informazioni
 \end_layout
@@ -199,7 +232,7 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://github.com/
+https://github.com/Gelma/LugMap
 \end_layout
 
 \end_inset
@@ -294,7 +327,7 @@ andrea.gelmini@lugbs.linux.it
 \shape default
  oppure telefonando al 
 \family typewriter
-328/7296628
++39-328/7296628 (Vodafone)
 \end_layout
 
 \begin_layout Itemize
@@ -819,7 +852,7 @@ http://lugmap.linux.it/lug-o-matic/
 \end_layout
 
 \begin_layout Itemize
-controllare la documentazione.
+controllare la documentazione;
 \begin_inset Foot
 status open
 
@@ -841,6 +874,32 @@ reference "sub:La-struttura-dei-branch"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+prendersi cura delle voci presenti nel file 
+\family typewriter
+ToDo 
+\family default
+presente nel branch master
+\family typewriter
+;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://github.com/Gelma/LugMap/blob/master/ToDo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+farsi carico della riprogettazione del sito.
 \end_layout
 
 \begin_layout Chapter
