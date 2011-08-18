@@ -334,7 +334,7 @@ class LUG(persistent.Persistent):
 
 if __name__ == "__main__":
 	atexit.register(termina_thread_appesi)
-	for filedb in glob.glob( os.path.join('./db/', '*.txt') ): # piglio ogni file db
+	for filedb in glob.glob( os.path.join( sys.path[0]+'/../db/', '*.txt') ): # piglio ogni file db
 		for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni riga/Lug indicato
 			id = riga[1]
 
