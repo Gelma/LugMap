@@ -71,7 +71,7 @@ $rssfeed =<<<RSS
 <rss version="2.0">
 <channel>
 	<title>Linux Day News</title>
-	<link>http://www.linuxday.it/</link>';
+	<link>http://www.linuxday.it/</link>
 	<description>News dal web sul Linux Day</description>
 	<language>it</language>
 
@@ -82,10 +82,10 @@ for ($i = 0; $i < 20 && $i < count ($final); $i++ ) {
 
 	$rssfeed .= "	<item>\n";
 
-	$rssfeed .= "		<title>" . $t->get_title () . "</title>\n";
+	$rssfeed .= "		<title><![CDATA[" . $t->get_title () . "]]></title>\n";
 	$rssfeed .= "		<link>" . $t->get_permalink () . "</link>\n";
 	$rssfeed .= "		<pubDate>" . $t->get_date ('D, d M Y H:i:s O') . "</pubDate>\n";
-	$rssfeed .= "		<description>" . $t->get_description () . "</description>\n";
+	$rssfeed .= "		<description><![CDATA[" . $t->get_description () . "]]></description>\n";
 
 	$rssfeed .= "	</item>\n";
 }
