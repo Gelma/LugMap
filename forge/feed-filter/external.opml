@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><opml version="1.0">
+	<head>
+	</head>
+	<body>
+
+		<outline text="Linux Day Torino" type="rss" xmlUrl="http://linuxdayto.wordpress.com/feed/" />
+		<outline text="MadBob" type="rss" xmlUrl="http://madbob.wordpress.com/feed/" />
+	
+	</body>
+</opml>
