@@ -85,11 +85,19 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <tr><td width="50"></td><td align=center valign=bottom rowspan=2><img src="/immagini/ils_logo.png"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 30pt; color: white;">LugMap</div></a></td><td width="50"></td></tr>
   <tr><td width="50"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 12pt; color: white;">Italian Linux Society</div></td><td width="50"></td></tr>
   <tr><td colspan=4>&nbsp;</td></tr>
+  <tr><td colspan=4>
+	<table align="center" bgcolor=white>
+	<td><a class="generalink" href="/">LugMap | </a></td>
+	<td><a class="generalink" href="/partecipa/">Partecipa | </a></td>
+	<td><a class="generalink" href="/guida/">Guida | </a></td>
+	<td><a class="generalink" href="/contatti/">Contatti</a></td>
+	</table>
+	</tr>
+	</td>
   </table>
-
   <div id="title"><h2 class="titolino">
-      <?php if ($title != 'LugMap') {
-	        echo $title;
+<?php if ($title != 'LugMap') {
+		echo $title;
 		print '&nbsp;<g:plusone size="small"></g:plusone>';} ?> </h2></div>
 </div>
 
@@ -99,27 +107,6 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 function lugfooter () {
 ?>
 <div id="footer">
-  <table width="70%" align="center">
-	<tr><td>
-		<p class="helpMessage">Aiutaci a mantenere la LugMap aggiornata!</p>
-		<p class="helpMessage">
-		Segnalaci nuovi gruppi, cos&igrave; come errori ed omissioni, scrivendo
-		alla <a class="generalink" href="http://lists.linux.it/listinfo/lugmap">mailing list pubblica</a>,
-		oppure contattando direttamente Andrea Gelmini (telefonicamente al
-		<a class="generalink" href="tel:328-72-96-628">328-72-96-628</a>, via
-		<a class="generalink" href="mailto:andrea.gelmini@lugbs.linux.it">mail</a>, o attraverso
-		<a class="generalink" href="http://www.facebook.com/andrea.gelmini">Facebook</a>.)<br>
-		Puoi partecipare direttamente, sia alla stesura del codice che del database, sfruttando il
-		<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>.
-		Per saperne di pi&ugrave; &egrave; disponibile la
-		<a class="generalink" href="http://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">
-		Guida Intergalattica alla LugMap</a>.
-		</p>
-		<p class="helpMessage">
-		Te ne saremo eternamente grati!
-		</p>
-	  </td></tr>
-  </table>
 </div>
 <!-- Piwik -->
 <script type="text/javascript">
