@@ -881,9 +881,9 @@ prendersi cura delle voci presenti nel file
 \family typewriter
 ToDo 
 \family default
-presente nel branch master
+presente nel 
 \family typewriter
-;
+branch master;
 \begin_inset Foot
 status open
 
@@ -900,6 +900,28 @@ https://github.com/Gelma/LugMap/blob/master/ToDo
 
 \begin_layout Itemize
 farsi carico della riprogettazione del sito.
+\end_layout
+
+\begin_layout Standard
+Ti invitiamo a far presente la tua disponibilità, e le tue proposte, in
+ mailing list.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
