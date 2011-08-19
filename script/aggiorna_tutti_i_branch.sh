@@ -15,6 +15,7 @@ repo_locale=$(git rev-parse --show-cdup)
 
 for branch in $(git branch -r | /bin/grep -v 'HEAD' | /usr/bin/cut -f 2 -d '/') # per ogni branch remoto
 do
+   git branch | cut -b3- | /bin/grep -q \^$branch\$ || git checkout --track -b $branch origin/$branch # controllo che esista localmente, diversamente lo creo
    git checkout $branch && git pull origin $branch && echo "Aggiornato $branch" # checkout e pull
 done
 
