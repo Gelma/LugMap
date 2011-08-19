@@ -39,7 +39,7 @@ def email_errori(URL, filedb=''):
 if __name__ == "__main__":
     for URL in ('http://lugmap.linux.it/db/', 'http://lugmap.it/db/'):
         for filedb in glob.glob( os.path.join( sys.path[0]+'/../db/', '*.txt') ): # piglio ogni file db
-            fileURL = URL+filedb[5:]
+            fileURL = URL + filedb.split('/')[-1] # dell'intero path, prendo il solo nome file
             richiesta_file_db = urllib2.Request(fileURL, None, {"User-Agent":"Bot: http://lugmap.linux.it - lugmap@linux.it"})
             try:
                 contenuto_remoto = urllib2.urlopen(richiesta_file_db).read()
