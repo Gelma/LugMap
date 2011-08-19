@@ -167,8 +167,8 @@ class LUG(persistent.Persistent):
 			self.contatto	   = riga_csv[4]
 			self.notifica('Atten. contatto aggiornato: '+self.contatto)
 
-		if self.regione		  != filedb[5:-4]:
-			self.regione	   = filedb[5:-4]
+		if self.regione		  != filedb.split('/')[-1][:-4]:
+			self.regione	   = filedb.split('/')[-1][:-4]
 			self.notifica('Atten. regione aggiornata: '+self.regione)
 
 	def notifica(self, testo):
