@@ -94,6 +94,26 @@ img {
   text-align: center;
 }
 
+.ils_name {
+  font-family: 'Open Sans', serif;
+  color: white;
+}
+
+.ils_name_main {
+    font-size: 30pt;
+}
+
+.ils_name_sub {
+    font-size: 12pt;
+}
+
+.menu {
+  margin: auto;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
 #backLugMapLink, #csvLink {
   display: block;
   text-align: right;

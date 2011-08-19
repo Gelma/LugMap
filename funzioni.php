@@ -82,18 +82,18 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 
 <div id="header">
   <table align=center border=0 bgcolor="#00178E" style="cursor: pointer; cursor: hand;" onclick="location.href='/'">
-  <tr><td width="50"></td><td align=center valign=bottom rowspan=2><img src="/immagini/ils_logo.png"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 30pt; color: white;">LugMap</div></a></td><td width="50"></td></tr>
-  <tr><td width="50"></td><td align=center><div style="font-family: 'Open Sans', serif; font-size: 12pt; color: white;">Italian Linux Society</div></td><td width="50"></td></tr>
+  <tr><td width="50"></td><td align=center valign=bottom rowspan=2><img src="/immagini/ils_logo.png"></td><td align=center><div class="ils_name ils_name_main">LugMap</div></a></td><td width="50"></td></tr>
+  <tr><td width="50"></td><td align=center><div class="ils_name ils_name_sub">Italian Linux Society</div></td><td width="50"></td></tr>
   <tr><td colspan=4>&nbsp;</td></tr>
-  <tr><td colspan=4>
-	<table align="center" bgcolor=white>
-	<td><a class="generalink" href="/">LugMap | </a></td>
-	<td><a class="generalink" href="/partecipa/">Partecipa | </a></td>
-	<td><a class="generalink" href="/guida/">Guida | </a></td>
-	<td><a class="generalink" href="/contatti/">Contatti</a></td>
-	</table>
-	</tr>
-	</td>
+  <tr style="background-color: #FFFFFF"><td colspan=4>
+    <div class="menu">
+       <a class="generalink" href="/">LugMap</a> |
+       <a class="generalink" href="/partecipa/">Partecipa</a> |
+       <a class="generalink" href="/guida/">Guida</a> |
+      <a class="generalink" href="/contatti/">Contatti</a>
+    </div>
+  </tr>
+  </td>
   </table>
   <div id="title"><h2 class="titolino">
 <?php if ($title != 'LugMap') {
