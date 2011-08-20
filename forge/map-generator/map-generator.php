@@ -1,5 +1,67 @@
 <?php
 
+function latlon_magic ($lat, $lon) {
+	/*
+		Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
+	*/
+	$lat = (log (tan ((90 + $lat) * pi () / 360)) / (pi () / 180)) * 20037508.34 / 180;
+	$lon = $lon * 20037508.34 / 180;
+	return array ($lat, $lon);
+}
+
+function ask_nominatim ($c) {
+	$location = file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
+
+	$doc = new DOMDocument ();
+	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
+		return null;
+
+	$xpath = new DOMXPath ($doc);
+
+	/*
+		I risultati restituiti da Nominatim sono molteplici, e non sempre coerenti,
+		qui cerchiamo il riferimento esplicito alla citta' e alla peggio ci
+		accontentiamo di un riferimento ai confini amministrativi (non precisi, ma
+		meglio di niente)
+	*/
+	$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
+	if ($results->length < 1) {
+		$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
+		if ($results->length < 1)
+			return null;
+	}
+
+	$node = $results->item (0);
+	$lat = $node->getAttribute ('lat');
+	$lon = $node->getAttribute ('lon');
+
+	return latlon_magic ($lat, $lon);
+}
+
+function ask_geonames ($c) {
+	$location = file_get_contents ('http://api.geonames.org/search?username=madbob&q=' . $c . '&country=IT');
+
+	$doc = new DOMDocument ();
+	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
+		return null;
+
+	$xpath = new DOMXPath ($doc);
+
+	$results = $xpath->query ("/geonames/geoname/lat", $doc);
+	if ($results->length < 1)
+		return null;
+	$lat = $results->item (0);
+	$lat = $lat->nodeValue;
+
+	$results = $xpath->query ("/geonames/geoname/lng", $doc);
+	if ($results->length < 1)
+		return null;
+	$lon = $results->item (0);
+	$lon = $lon->nodeValue;
+
+	return latlon_magic ($lat, $lon);
+}
+
 $elenco_regioni = array (
         "abruzzo"    => "Abruzzo",
         "basilicata" => "Basilicata",
@@ -54,45 +116,20 @@ foreach ($elenco_regioni as $region => $name) {
 				/*
 					Questo e' per evitare i limiti imposti dal server OpenStreetMap
 					http://wiki.openstreetmap.org/wiki/Nominatim_usage_policy
+					Non dubito che GeoNames abbia qualcosa di analogo
 				*/
 				sleep (1);
 
-				/*
-					Specifico nella query "Italia", per evitare collisioni con comuni omonimi nel resto del mondo
-				*/
 				$c = str_replace (' ', '%20', $city);
-				$location = file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
 
-				$doc = new DOMDocument ();
-				if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
-					continue;
-
-				$xpath = new DOMXPath ($doc);
-
-				/*
-					I risultati restituiti da Nominatim sono molteplici, e non sempre coerenti,
-					qui cerchiamo il riferimento esplicito alla citta' e alla peggio ci
-					accontentiamo di un riferimento ai confini amministrativi (non precisi, ma
-					meglio di niente)
-				*/
-				$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
-				if ($results->length < 1) {
-					$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
-					if ($results->length < 1) {
-						$results = $xpath->query ("/searchresults/place[@type='administrative']", $doc);
-						if ($results->length < 1)
-							continue;
-					}
+				$result = ask_nominatim ($c);
+				if ($result == null) {
+					$result = ask_geonames ($c);
+					if ($result == null)
+						continue;
 				}
 
-				/*
-					Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
-				*/
-				$node = $results->item (0);
-				$lat = $node->getAttribute ('lat');
-				$lat = (log (tan ((90 + $lat) * pi () / 360)) / (pi () / 180)) * 20037508.34 / 180;
-				$lon = $node->getAttribute ('lon');
-				$lon = $lon * 20037508.34 / 180;
+				list ($lat, $lon) = $result;
 
 				/*
 					Questo e' per evitare che due punti si sovrappongano, quelli che vengono
@@ -107,8 +144,6 @@ foreach ($elenco_regioni as $region => $name) {
 
 				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
 				$found = true;
-
-				unset ($node);
 				break;
 			}
 		}

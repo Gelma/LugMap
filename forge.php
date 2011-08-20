@@ -88,13 +88,15 @@ do_head ('Progetti Collaterali');
 
 			<p>
 				Suddetto file viene generato eseguendo un apposito script PHP, il quale setaccia l'intero database su file dei LUG, per ognuno
-				individua la città o il paese di riferimento, ed appoggiandosi al servizio <a href="http://wiki.openstreetmap.org/wiki/Nominatim">Nominatim</a>
-				di <a href="http://openstreetmap.org/">OpenStreetMap</a> ne ricava le coordinate.
+				individua la città o il paese di riferimento, ed appoggiandosi al servizio
+				<a href="http://wiki.openstreetmap.org/wiki/Nominatim">Nominatim</a> di <a href="http://openstreetmap.org/">OpenStreetMap</a>
+				(o a <a href="http://www.geonames.org/">GeoNames</a>, come fallback) ne ricava le coordinate.
 			</p>
 
 			<p>
-				Il file completo utilizzato in questo sito è sempre reperibile all'URL <i><?php echo $main_url ?>/dati.txt</i>, ed è già pronto per essere
-				passato come parametro ad un oggetto Javascript <a href="http://dev.openlayers.org/apidocs/files/OpenLayers/Layer/Text-js.html">OpenLayers.Layer.Text</a>.
+				Il file completo utilizzato in questo sito è sempre reperibile all'URL <i><?php echo $main_url ?>/dati.txt</i>, ed è già pronto
+				per essere passato come parametro ad un oggetto Javascript
+				<a href="http://dev.openlayers.org/apidocs/files/OpenLayers/Layer/Text-js.html">OpenLayers.Layer.Text</a>.
 				Chi vuole invece generarsi autonomamente il set di dati, può reperire lo script completo
 				<a href="http://github.com/Gelma/LugMap/blob/lugmap.it/forge/map-generator/map-generator.php">qui</a>; attenzione: per tale
 				operazione sono richieste anche le liste dei comuni italiani già formattate e scaricabili da
