@@ -77,9 +77,12 @@ foreach ($elenco_regioni as $region => $name) {
 				*/
 				$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
 				if ($results->length < 1) {
-					$results = $xpath->query ("/searchresults/place[@type='administrative']", $doc);
-					if ($results->length < 1)
-						continue;
+					$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
+					if ($results->length < 1) {
+						$results = $xpath->query ("/searchresults/place[@type='administrative']", $doc);
+						if ($results->length < 1)
+							continue;
+					}
 				}
 
 				/*
