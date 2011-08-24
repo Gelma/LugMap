@@ -63,6 +63,8 @@ if __name__ == "__main__":
 			except: # se fallisce l'invio stampo la mail, contando sul delivery di cron
 				print '\n'.join(righe_della_mail)
 
+		del cronologia
+
 	db.close()
 	#¹ il metodo run() mi restituisce un elenco di tuple, con i dettagli delle modifiche, come questa:
 	## (39770501, u'2011-04-08T09:15:08Z', u'Gelma', u'/* Collegamenti esterni */ Aggiunto dominio dedicato', 13101, [])
