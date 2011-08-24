@@ -43,9 +43,10 @@ if __name__ == "__main__":
 
 		for modifica in elenco_modifiche: # controllo ogni modifica
 			id, data, autore, nota = [modifica[x] for x in range(4)]
+			id = int(id)
 			try: # provo il confronto
-				if int(id) > db[pagina_wiki]:
-					db[pagina_wiki] = int(id)
+				if id > db[pagina_wiki]:
+					db[pagina_wiki] = id
 					righe_della_mail.append('Nota: '  +nota)
 					righe_della_mail.append('Data: '  +data+'   Autore: '+autore+'   ID: '+str(id))
 					righe_della_mail.append('\n'+15*'-_'+'\n')
