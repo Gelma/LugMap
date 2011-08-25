@@ -27,6 +27,20 @@ lugheader ('Contatti');
 		</ul>
 		</p>
 	</td></tr>
+	<tr><td>
+		<div id="title"><h2 class="titolino">Ringraziamenti</h2></div>
+		<p>Il gruppo ringrazia sentitamente (davvero!) tutti coloro i quali hanno dedicato energie e tempo
+		per il miglioramento di questo progetto. In particolare un sentito grazie a:
+		<ul class="spaced-list">
+			<li><a href="mailto:alessandro.cinelli@lugbs.linux.it" class="generalink">Alessandro Cinelli</a></li>
+			<li><a href="mailto:andrea.occhi@lugbs.linux.it" class="generalink">Andrea Occhi</a></li>
+			<li><a href="mailto:luca@linux.it" class="generalink">Luca Menini</a></li>
+			<li><a href="mailto:luisa.ravelli@lugbs.linux.it" class="generalink">Luisa Ravelli</a></li>
+			<li><a href="mailto:michele@tameni.it" class="generalink">Michele Tameni</a></li>
+			<li><a href="mailto:nicolo.cristini@lugbs.linux.it" class="generalink">Nicol&ograve; Cristini</a></li>
+		</ul>
+		</p>
+	</td></tr>
 </table>
 <?php
   lugfooter ();
