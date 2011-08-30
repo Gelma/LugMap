@@ -70,7 +70,9 @@ lugheader ('LUG-o-matic', array ('generator.css'), array ('jquery.js', 'generato
 		<br />
 
 		<p>
-			<p>Questa opzione puo' essere selezionata per ottenere una immagina statica anziche' un blocco di JavaScript: utile per embeddare il widget all'interno di siti che non consentono l'inclusione di codice HTML complesso, tipo Wordpress.com</p>
+			<p>Questa opzione torna un'immagine statica anzich&eacute; del codice JavaScript: utile per poter
+			inserire il widget all'interno di siti che non consentono l'uso di codice HTML complesso,
+			come <a class="generalink" href="http://wordpress.com/">Wordpress.com</a>.</p>
 
 			<label for="image">Genera Immagine</label>
 			<input name="image" type="checkbox" />
