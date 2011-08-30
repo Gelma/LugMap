@@ -20,6 +20,7 @@ lugheader ('Propaganda');
 						<li><img src="/banners/logo_ils_e_LUG/200x200.png"></li>
 						<li><img src="/banners/logo_ils_e_LUG/200x200_bordato.png"></li>
 						<li><img src="/banners/logo_bob_e_LUG/200x200.png"></li>
+						<li><img src="/banners/vari/ricerca_mappa.png"></li>
 						<li><img src="/banners/logo_ils_e_LUG/468x60.png"></li>
 						<li><img src="/banners/logo_bob_e_LUG/468x60.png"></li>
 						<li><img src="/banners/logo_ils_e_LUG/468x60_bordato.png"></li>
