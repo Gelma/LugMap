@@ -13,9 +13,9 @@ ToDo
 	- distribuzione per regione
 	- densita' lug per popolazione regione
 	- provincie in cui non c'e' alcun lug
+	- generare mappe SVG con le posizioni dei LUG
 
 - in opml-generator inventarsi un modo per tracciare i siti che prevedono un
 	singolo iframe con all'interno la pagina vera e propria (ivi compreso il
 	link alternate con l'RSS).
 	Ci sono almeno un paio di siti in queste condizioni...
-
