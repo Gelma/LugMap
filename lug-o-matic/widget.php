@@ -30,12 +30,17 @@ if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
 
 if ($format == 'image') {
 	$region = $_GET ['region'];
+	$dir = 'tmp/lugmap_widget_cache/';
 
-	if (file_exists ('/tmp/lugmap_widget_cache/') == false)
-		mkdir ('/tmp/lugmap_widget_cache/');
+	if (file_exists ($dir) == false)
+		mkdir ($dir);
 
-	$path = "/tmp/lugmap_widget_cache/$region-$width-$head-$head_color-$head_text_color-$foot.png";
-	$attr = stat ($path);
+	$path = "${dir}/${region}-${width}-${head}-${head_color}-${head_text_color}-${foot}.png";
+
+	if (file_exists ($path) == false)
+		$attr = false;
+	else
+		$attr = stat ($path);
 
 	if ($attr === false || ($attr ['mtime'] < (time () - 86400))) {
 		/*
