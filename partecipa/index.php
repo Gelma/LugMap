@@ -11,6 +11,8 @@
 	<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>.</p>
 	<p>Puoi sapere tutto del progetto leggendo la
 	<a class="generalink" href="/guida/">Guida Intergalattica alla LugMap</a>.</p>
+	<p>Chiunque pu&ograve; risultare prezioso. In particolare, se ti diletti di grafica, ci puoi
+	aiutare nel rifacimento del sito, dei banner e delle magliette.</p>
 	<p><b>Partecipa! Te ne saremo eternamente grati!</b></p>
 	</td></tr>
 </table>
