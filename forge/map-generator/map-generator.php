@@ -20,15 +20,19 @@ function ask_nominatim ($c) {
 
 	/*
 		I risultati restituiti da Nominatim sono molteplici, e non sempre coerenti,
-		qui cerchiamo il riferimento esplicito alla citta' e alla peggio ci
-		accontentiamo di un riferimento ai confini amministrativi (non precisi, ma
-		meglio di niente)
+		qui cerchiamo il riferimento esplicito a "city" o "town" (credo che li usi
+		a seconda delle dimensioni del centro abitato) e se non si trova nulla
+		passera' all'interrogazione di GeoNames. Attenzione: non usare i nodi di tipo
+		"administrative", sono veramente troppo poco precisi
 	*/
 	$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
 	if ($results->length < 1) {
 		$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
-		if ($results->length < 1)
-			return null;
+		if ($results->length < 1) {
+			$results = $xpath->query ("/searchresults/place[@type='hamlet']", $doc);
+			if ($results->length < 1)
+				return null;
+		}
 	}
 
 	$node = $results->item (0);
