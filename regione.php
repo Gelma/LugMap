@@ -66,12 +66,11 @@ lugheader ($title);
           <th>Provincia</th>
           <th>Denominazione</th>
           <th>Zona</th>
-          <th>Sito</th>
         </tr>
      </thead>
      <tfoot>
       <tr>
-        <td colspan="4"></td>
+        <td colspan="3"></td>
         </tr>
     </tfoot>
     <tbody>
@@ -86,7 +85,6 @@ lugheader ($title);
          <td class="province"><?php echo $provincia ?></td>
          <td><a class="generalink" href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
          <td><?php echo $zona ?></td>
-         <td class="contactUrl"><a href="<?php echo $sito ?>"><?php echo $sito ?></a></td>
         </tr>
       <?php endwhile;?>
     </tbody>
