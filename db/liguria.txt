@@ -3,6 +3,6 @@ Genova|Genuense Lug|Genova e dintorni|http://genova.linux.it/|sc@linux.it
 Genova|LugGe|Genova e provincia|http://www.linux.genova.it/|roberto.foglietta@gmail.com
 Genova|Op3n_L4b|Genova Facoltà di Ingegneria|http://www.openlab-dist.org/|openlab@openlab-dist.org
 Genova|TLug-TSL|Rapallo|http://tlug.linux.it/|fabio.rampoldi@linux.it
-Imperia|SLIMP|Imperia e Provincia|http://www.slimp.it/|info@slimp.it
+Imperia|SLIMP|Imperia e provincia|http://www.slimp.it/|info@slimp.it
 Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/|info@govonis.org
 Savona|SavonaLug|Savona|http://savona.linux.it/|md@linux.it
