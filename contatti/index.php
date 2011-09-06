@@ -38,6 +38,7 @@ lugheader ('Contatti');
 			<li><a href="mailto:luisa.ravelli@lugbs.linux.it" class="generalink">Luisa Ravelli</a></li>
 			<li><a href="mailto:michele@tameni.it" class="generalink">Michele Tameni</a></li>
 			<li><a href="mailto:nicolo.cristini@lugbs.linux.it" class="generalink">Nicol&ograve; Cristini</a></li>
+			<li><a href="mailto:bus3@artesottomarina.it" class="generalink">Roberto Pasini</a></li>
 		</ul>
 		</p>
 	</td></tr>
