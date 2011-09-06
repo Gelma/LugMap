@@ -15,18 +15,15 @@ lugheader ('Propaganda');
 					sul tuo sito;
 				</li>
 				<li>
-					sfruttando i prestigiosi banner (s&igrave; sono orrendi, <a class="generalink" href="/partecipa/">aiutaci!</a>):
+					sfruttando i prestigiosi banner (frutto della creativit&agrave; di <a href="mailto:bus3@artesottomarina.it">Robero Pasini</a>, tranne l'ultimo brutto):
 					<ul class="spaced-list">
-						<li><img src="/banners/logo_ils_e_LUG/200x200.png"></li>
-						<li><img src="/banners/logo_ils_e_LUG/200x200_bordato.png"></li>
-						<li><img src="/banners/logo_bob_e_LUG/200x200.png"></li>
+						<li><img src="/banners/lugmap-728x90_giallo.png"></li>
+						<li><img src="/banners/lugmap-728x90_bianco.png"></li>
+						<li><img src="/banners/lugmap-480x60_giallo.png"></li>
+						<li><img src="/banners/lugmap-480x60_bianco.png"></li>
+						<li><img src="/banners/lugmap-200x200_giallo.png"></li>
+						<li><img src="/banners/lugmap-200x200_bianco.png"></li>
 						<li><img src="/banners/vari/ricerca_mappa.png"></li>
-						<li><img src="/banners/logo_ils_e_LUG/468x60.png"></li>
-						<li><img src="/banners/logo_bob_e_LUG/468x60.png"></li>
-						<li><img src="/banners/logo_ils_e_LUG/468x60_bordato.png"></li>
-						<li><img src="/banners/logo_ils_e_LUG/728x90.png"></li>
-						<li><img src="/banners/logo_ils_e_LUG/728x90_bordato.png"></li>
-						<li><img src="/banners/logo_bob_e_LUG/728x90.png"></li>
 					</ul>
 				</li>
 		</ul>
