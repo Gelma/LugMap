@@ -157,7 +157,11 @@ foreach ($elenco_regioni as $region => $name) {
 	}
 }
 
-if (file_put_contents ('dati.txt', join ("\n", $rows)) === false)
+/*
+	Attenzione: e' necessario mettere un newline anche al fondo dell'ultima
+	riga del file, la quale viene altrimenti ignorata da OpenLayer
+*/
+if (file_put_contents ('dati.txt', join ("\n", $rows) . "\n") === false)
 	echo "Errore nel salvataggio del file\n";
 else
 	echo "I dati sono stati scritti nel file 'dati.txt'\n";
