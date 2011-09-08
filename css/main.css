@@ -37,7 +37,7 @@ a:hover {
 #header {
 	position:relative;
 	padding:40px 50px;
-	background:url('hbkg.png') bottom center repeat-x #dbdbdb;
+	background:url('/immagini/hbkg.png') bottom center repeat-x #dbdbdb;
 	text-align:left;
 	border-bottom:10px solid #444;
 }
@@ -172,12 +172,9 @@ a:hover {
 	border:0;
 }
 
-#backLugMapLink, #csvLink {
+.fromRegionLinks {
 	display: block;
 	text-align: right;
-	color: #00f;
-	font-weight: bold;
-	text-decoration: none;
 	margin: 10px 0;
 }
 

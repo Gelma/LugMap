@@ -81,7 +81,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <body>
 
 <div id="header">
-  <img src="immagini/logo.png" width="66" height="79" alt="" />
+  <img src="/immagini/logo.png" width="66" height="79" alt="" />
 	<div id="maintitle">LugMap</div>
 	<div id="payoff">La mappa dei Linux Users Group italiani</div>
 
@@ -121,8 +121,8 @@ piwikTracker.enableLinkTracking();
 
 function ultimo_aggiornamento () {
 ?>
-   <a id="csvLink" href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo; Aggiornato al <?php print file_get_contents('../.ultimo_commit') ?></a>
-   <a id="csvLink" href="mailto:andrea.gelmini@lugbs.linux.it,bob4job@gmail.com?subject=LugMap: segnalazione aggiornamento/errore/refuso">&raquo; Segnala</a>
+   <a href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo; Aggiornato al <?php print file_get_contents('../.ultimo_commit') ?></a><br />
+   <a href="mailto:andrea.gelmini@lugbs.linux.it,bob4job@gmail.com?subject=LugMap: segnalazione aggiornamento/errore/refuso">&raquo; Segnala</a>
 
 <?php
 }

@@ -59,7 +59,10 @@ lugheader ($title);
 ?>
 
 <div id="center">
-  <a id="backLugMapLink" href="/">&raquo; torna alla LUGmap</a>
+  <p class="fromRegionLinks">
+    <a href="/">&raquo; torna alla LUGmap</a>
+  </p>
+
   <table id="lugListTable">
     <thead>
         <tr>
@@ -90,12 +93,16 @@ lugheader ($title);
     </tbody>
    </table>
 
+   <p class="fromRegionLinks">
+
    <?php if ($db_file != null) { ?>
-      <a id="csvLink" href="<?php echo $db_file ?>">&raquo; Elenco in formato CSV</a>
+      <a href="<?php echo $db_file ?>">&raquo; Elenco in formato CSV</a><br />
    <?php } else { ?>
    <br />
    <?php } ?>
    <?php ultimo_aggiornamento(); ?>
+
+   </p>
 </div>
 
 <?php
