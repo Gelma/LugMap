@@ -263,7 +263,7 @@ class LUG(persistent.Persistent):
 
 		self.Termini_Precedenti = self._v_Termini_Attuali
 
-		if valore_magico <= 0.7:
+		if valore_magico <= 0.6:
 			self.notifica('Atten.: differenze contenuto homepage ('+str(valore_magico)+')')
 		else:
 			logga('Lug <'+self.id+'>: valore_magico a', valore_magico)
