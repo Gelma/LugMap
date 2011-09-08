@@ -40,7 +40,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta name="language" content="italian" />
   <meta name="robots" content="noarchive" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
-  <link href="/css/main.css" rel="stylesheet" type="text/css" />
+  <link href="/lugmap/css/main.css" rel="stylesheet" type="text/css" />
 
   <?php
     if ($extracss != null)
@@ -81,25 +81,17 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <body>
 
 <div id="header">
-  <table align=center border=0 bgcolor="#00178E" style="cursor: pointer; cursor: hand;" onclick="location.href='/'">
-  <tr><td width="50"></td><td align=center valign=bottom rowspan=2><img src="/immagini/ils_logo.png"></td><td align=center><div class="ils_name ils_name_main">LugMap</div></a></td><td width="50"></td></tr>
-  <tr><td width="50"></td><td align=center><div class="ils_name ils_name_sub">Italian Linux Society</div></td><td width="50"></td></tr>
-  <tr><td colspan=4>&nbsp;</td></tr>
-  <tr style="background-color: #FFFFFF"><td colspan=4>
-    <div class="menu">
-       <a class="generalink" href="/">LugMap</a> |
-       <a class="generalink" href="/partecipa/">Partecipa</a> |
-       <a class="generalink" href="/propaganda/">Propaganda</a> |
-       <a class="generalink" href="/guida/">Guida</a> |
-      <a class="generalink" href="/contatti/">Contatti</a>
-    </div>
-  </tr>
-  </td>
-  </table>
-  <div id="title"><h2 class="titolino">
-<?php if ($title != 'LugMap') {
-		echo $title;
-		print '&nbsp;<g:plusone size="small"></g:plusone>';} ?> </h2></div>
+  <img src="immagini/logo.png" width="66" height="79" alt="" />
+	<div id="maintitle">LugMap</div>
+	<div id="payoff">La mappa dei Linux Users Group italiani</div>
+
+	<div class="menu">
+		<a class="generalink" href="http://lugmap.linux.it/">LugMap</a> |
+		<a class="generalink" href="http://lugmap.linux.it/partecipa/">Partecipa</a> |
+		<a class="generalink" href="http://lugmap.linux.it/propaganda/">Propaganda</a> |
+		<a class="generalink" href="http://lugmap.linux.it/guida/">Guida</a> |
+		<a class="generalink" href="http://lugmap.linux.it/contatti/">Contatti</a>
+	</div>
 </div>
 
 <?php

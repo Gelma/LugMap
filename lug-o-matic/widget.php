@@ -5,7 +5,7 @@ require_once ('../funzioni.php');
 
 $format = 'javascript';
 $head = 'true';
-$head_color = '000080';
+$head_color = 'FFA200';
 $head_text_color = 'FFFFFF';
 $foot = 'true';
 $width = '200';

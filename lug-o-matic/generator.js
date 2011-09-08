@@ -208,7 +208,7 @@ function build_url (prev) {
 	}
 	else {
 		head_color = $('input[name=head_color]').val ();
-		if (head_color != '#000080')
+		if (head_color != '#FFA200')
 			url += '&amp;head_color=' + head_color.substring (1);
 
 		head_text_color = $('input[name=head_text_color]').val ();

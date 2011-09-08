@@ -5,18 +5,12 @@ lugheader ('Guida');
 
 <div style="width: 70%; text-align: center; margin: auto">
 	<p>Vuoi apparire sul sito? Vuoi sapere come funziona il progetto? O meglio ancora, vuoi partecipare insieme a noi?</p>
-	<p>Don't panic! Consulta la…</p>
-	<div style="width: 60%; margin: auto">
-		<a href="https://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">
-			<!-- image courtesy: mattlemmon http://www.flickr.com/photos/mplemmon/231740358/ -->
-			<img src="http://farm1.static.flickr.com/85/231740358_4c2834347b.jpg" style="float: left; width: 50%">
-			<span style="width: 50%; margin-top: 45px; text-align: center; word-wrap: break-word; float: right; font-size: 25px">Guida Intergalattica alla LugMap</span>
-		</a>
-	</div>
-
-	<div class="clear_spacer"></div>
+	<p style="font-size: 200%">Don't panic! Consulta la…</p>
+	<p style="font-size: 300%"><a href="https://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">Guida Intergalattica alla LugMap</a></p>
+	<p>Tutti, ma proprio tutti, i dettagli su chi, cosa, come mantiene la LugMap, sui files raw pubblici, sugli script di automazione interna.</p>
+	<p>Bonus track: istruzioni su come rimettere in piedi l'intera struttura in caso di esplosione termonucleare che distrugga i server ed evapori gli amministratori attuali.</p>
 </div>
-<br />
+
 <?php
   lugfooter ();
 ?>

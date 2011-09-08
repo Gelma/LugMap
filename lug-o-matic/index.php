@@ -54,7 +54,7 @@ lugheader ('LUG-o-matic', array ('generator.css'), array ('jquery.js', 'generato
 
 		<p class="depends_on_header">
 			<label for="head_color">Colore Header</label>
-			<input name="head_color" type="color" value="#000080" data-text="hidden" data-hex="true" style="height: 15px; width: 20px;" />
+			<input name="head_color" type="color" value="#FFA200" data-text="hidden" data-hex="true" style="height: 15px; width: 20px;" />
 		</p>
 
 		<p class="depends_on_header">

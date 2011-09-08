@@ -3,31 +3,35 @@ require_once ('../funzioni.php');
 lugheader ('Contatti');
 ?>
 <table width="70%" align="center">
-	<tr><td>
-		<p>I manovali della LugMap possono essere raggiunti nei seguenti modi contattando:
-		<ul class="spaced-list">
-				<li>
-					la <a href="http://lists.linux.it/listinfo/lugmap" class="generalink">mailing list</a> (si badi che pubblica è la lista, così come l'archivio)
-				</li>
-				<li>
-					<img src="andrea_gelmini.png" style="float: left">
+<tr>
+	<td>
+		<p>I Manovali della LugMap sono piuttosto brutti ma non mordono, possono essere raggiunti sulla relativa <a href="http://lists.linux.it/listinfo/lugmap" class="generalink">mailing list</a> (si badi che la lista è pubblica, cosiccome l'archivio), oppure ai loro contatti diretti.</p>
+
+		<table width="100%">
+			<tr>
+				<td align="right">
+					<img src="andrea_gelmini.png" style="float: right">
 					<a href="mailto:andrea.gelmini@lugbs.linux.it" class="generalink">Andrea Gelmini</a><br>telefonicamente al
 					<a href="tel:328-72-96-628" class="generalink">328/72-96-628</a><br>via
 					<a href="mailto:andrea.gelmini@lugbs.linux.it" class="generalink">mail</a><br>o attraverso
 					<a href="http://www.facebook.com/andrea.gelmini" class="generalink">Facebook</a>
 					<div class="clear_spacer"></div>
-				</li>
-				<li>
+				</td>
+
+				<td>
 					<img style="float: left" src="roberto_guido.png">
 					<a class="generalink" href="mailto:bob4job@gmail.com">Roberto Guido</a><br>via
 					<a class="generalink" href="mailto:bob4job@gmail.com">mail</a><br>o attraverso
 					<a class="generalink" href="http://www.facebook.com/MadBob">Facebook</a>
 					<div class="clear_spacer"></div>
-				</li>
-		</ul>
-		</p>
-	</td></tr>
-	<tr><td>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td>
+		<br />
 		<div id="title"><h2 class="titolino">Ringraziamenti</h2></div>
 		<p>Il gruppo ringrazia sentitamente (davvero!) tutti coloro i quali hanno dedicato energie e tempo
 		per il miglioramento di questo progetto. In particolare un sentito grazie a:
@@ -41,7 +45,8 @@ lugheader ('Contatti');
 			<li><a href="http://www.kalamun.org/" class="generalink">Roberto Kalamun Pasini</a></li>
 		</ul>
 		</p>
-	</td></tr>
+	</td>
+</tr>
 </table>
 <?php
   lugfooter ();
