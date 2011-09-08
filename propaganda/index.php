@@ -18,16 +18,16 @@ lugheader ('Propaganda');
 
 				<ul>
 					<li><p><a href="mailto:bus3@artesottomarina.it">by Roberto Pasini</a></p>
-						<img src="/lugmap/banners/lugmap-728x90_giallo.png"><br />
-						<img src="/lugmap/banners/lugmap-728x90_bianco.png"><br />
-						<img src="/lugmap/banners/lugmap-480x60_giallo.png"><br />
-						<img src="/lugmap/banners/lugmap-480x60_bianco.png"><br />
-						<img src="/lugmap/banners/lugmap-200x200_giallo.png"><br />
-						<img src="/lugmap/banners/lugmap-200x200_bianco.png">
+						<img src="/banners/lugmap-728x90_giallo.png"><br />
+						<img src="/banners/lugmap-728x90_bianco.png"><br />
+						<img src="/banners/lugmap-480x60_giallo.png"><br />
+						<img src="/banners/lugmap-480x60_bianco.png"><br />
+						<img src="/banners/lugmap-200x200_giallo.png"><br />
+						<img src="/banners/lugmap-200x200_bianco.png">
 					</li>
 
 					<li><p><a href="mailto:andrea.gelmini@lugbs.linux.it">by Andrea Gelmini</a></p>
-						<img src="/lugmap/banners/vari/ricerca_mappa.png">
+						<img src="/banners/vari/ricerca_mappa.png">
 					</li>
 				</ul>
 			</li>

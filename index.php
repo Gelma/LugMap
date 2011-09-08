@@ -89,7 +89,6 @@ lugheader ('LugMap');
 					st.animate({fill: "#ffd800", stroke: "#fff"}, 200);
 					st.toFront();
 					R.safari();
-					// document.getElementById(state).style.display = "block";
 					current = state;
 				};
 				st[0].onmouseout = function () {
@@ -110,7 +109,7 @@ lugheader ('LugMap');
         foreach ($elenco_regioni as $file => $nome) {
           if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
           if (in_array($file, array('emilia','friuli','trentino','valle'))) {continue;}
-          echo '<a class="generalink" href="/'.$file.'/">'.$nome.'</a><br>';
+          echo '<a id="' . $file . '" class="generalink" href="/'.$file.'/">' . $nome . '</a><br>';
         }
       ?>
     </td>

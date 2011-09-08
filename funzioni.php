@@ -40,7 +40,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta name="language" content="italian" />
   <meta name="robots" content="noarchive" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
-  <link href="/lugmap/css/main.css" rel="stylesheet" type="text/css" />
+  <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
   <?php
     if ($extracss != null)
