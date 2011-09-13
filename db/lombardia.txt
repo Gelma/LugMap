@@ -17,7 +17,7 @@ Milano|Lugdico|Milano|http://lugdico.wordpress.com/|andrea.trentini@unimi.it
 Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
 Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|ViGLug|Vignate|http://viglug.org/|fraph24@gmail.com
-Monza|MoBLUG|Monza e Brianza|http://www.bubblesfactory.it/|info@bubblesfactory.it
+Monza|MoBLUG|Monza e Brianza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|info@bubblesfactory.it
 Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|fulvio.restelli@faswebnet.it
 Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|tilug@lists.linux.it
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
