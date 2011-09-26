@@ -97,7 +97,7 @@ lugheader ('LugMap');
 					R.safari();
 				};
 				st[0].onclick = function () {
-					window.location = 'http://lugmap.linux.it/' + state.replace ('_', '-');
+					window.location = 'http://lugmap.linux.it/' + state.replace (/_/g, '-');
 				};
 			})(ita[state], state);
 		}
