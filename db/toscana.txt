@@ -10,6 +10,7 @@ Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|info@gullix.org
 Lucca|Lucca Lug|Lucca|http://luccalug.it/|info@luccalug.it
 Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|segreteria@lug-acros.org
 Pisa|Gulp|Pisa|http://www.gulp.linux.it/|gulp@gulp.linux.it
+Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|info@tosslab.it
 Pistoia|PtLug|Pistoia|http://www.ptlug.org/|a.grandi@gmail.com
 Prato|Plug|Prato|http://www.prato.linux.it/|info@prato.linux.it
 Siena - Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|mrkslack@gmail.com
