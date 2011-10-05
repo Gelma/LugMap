@@ -30,8 +30,11 @@ function ask_nominatim ($c) {
 		$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
 		if ($results->length < 1) {
 			$results = $xpath->query ("/searchresults/place[@type='hamlet']", $doc);
-			if ($results->length < 1)
-				return null;
+			if ($results->length < 1) {
+				$results = $xpath->query ("/searchresults/place[@type='village']", $doc);
+				if ($results->length < 1)
+					return null;
+			}
 		}
 	}
 
