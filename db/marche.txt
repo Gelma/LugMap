@@ -3,6 +3,7 @@ Ancona|Lug-Jesi|Jesi|http://www.lugjesi.net/|cristiantava@mac.com
 Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/|info@pdp.linux.it
 Ancona|SenaLUG|Senigallia|http://www.senalug.org/|info@senalug.org
 Ascoli Piceno|Astrolabe|Grottammare|http://astrolabe.it/|
+Ascoli Piceno|FSUGSBT|San Benedetto del Tronto e dintorni|http://sites.google.com/site/fsugsbt/|henomis@gmail.com
 Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|info@linuxfm.org
 Macerata|Camelug|Camerino|http://camelug.it/|ryuw@camelug.it
 Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it/|associazione@gruppolinuxmc.it
