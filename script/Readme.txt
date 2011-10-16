@@ -16,4 +16,4 @@
 
   Tutte le indicazioni a riguardo si possono trovare nella
   Guida Intergalattica alla LugMap, disponibile all'indirizzo:
-  http://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf
+  http://lugmap.linux.it/guida
