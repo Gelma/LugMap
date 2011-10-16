@@ -100,7 +100,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <div id="header">
   <img src="/immagini/logo.png" width="66" height="79" alt="" />
 	<div id="maintitle">LugMap</div>
-	<div id="payoff">La mappa dei Linux Users Group italiani</div>
+	<div id="payoff">La mappa dei Linux Users Groups italiani</div>
 
 	<div class="menu">
 		<a class="generalink" href="http://lugmap.linux.it/">LugMap</a> |

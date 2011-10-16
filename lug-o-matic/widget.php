@@ -134,7 +134,7 @@ PAGE;
 		if ($head == 'true') {
 			$page .=<<<PAGE
 			<div style="font-weight: bold; background-color: #$head_color; color: #$head_text_color; border: 1px solid black; padding: 5px;"> $endline
-				<p>Cerchi un Linux Users Group in $regionname?</p> $endline
+				<p>Cerchi un Linux Users Groups in $regionname?</p> $endline
 			</div> $endline
 PAGE;
 		}
