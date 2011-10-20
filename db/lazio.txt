@@ -5,7 +5,7 @@ Rieti|Lug Rieti|Rieti e provincia|http://www.lugrieti.net/|vmcleri@tiscalinet.it
 Roma|Linux Club Italia|Roma|http://linux-club.org/|info@linuxclub.it
 Roma|LSLug - La Sapienza Linux User Group|Roma|http://www.ls-lug.org/|sapienzalug@gmail.com
 Roma|Lug Roma TRE|Roma|http://www.lugroma3.org/|granero@palatino.it
-Roma|Roma2LUG|Tor Vergata|http://lug.uniroma2.it/
+Roma|Roma2LUG|Tor Vergata|http://lug.uniroma2.it/|roma2lug@gmail.com
 Roma|SabaziaLug|Anguillara Sabazia e Bracciano|http://www.sabazialug.org/|er.baitch@tin.it
 Roma|Linux4Campagnano|Campagnano di Roma|http://www.linux4campagnano.net/|a.scatolini@linux4campagnano.net
 Viterbo|TuLug|Viterbo e provincia|http://www.tulug.it/|lorenzo@tulug.it
