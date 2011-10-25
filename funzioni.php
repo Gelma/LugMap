@@ -103,11 +103,11 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 	<div id="payoff">La mappa dei Linux Users Groups italiani</div>
 
 	<div class="menu">
-		<a class="generalink" href="http://lugmap.linux.it/">LugMap</a> |
-		<a class="generalink" href="http://lugmap.linux.it/partecipa/">Partecipa</a> |
-		<a class="generalink" href="http://lugmap.linux.it/propaganda/">Propaganda</a> |
-		<a class="generalink" href="http://lugmap.linux.it/guida/">Guida</a> |
-		<a class="generalink" href="http://lugmap.linux.it/contatti/">Contatti</a>
+		<a class="generalink" href="/">LugMap</a> |
+		<a class="generalink" href="/partecipa/">Partecipa</a> |
+		<a class="generalink" href="/propaganda/">Propaganda</a> |
+		<a class="generalink" href="/guida/">Guida</a> |
+		<a class="generalink" href="/contatti/">Contatti</a>
 	</div>
 </div>
 
