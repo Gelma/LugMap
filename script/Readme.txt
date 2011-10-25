@@ -11,6 +11,8 @@
 * Script di appoggio
 
   aggiorna_tutti_i_branch.sh: aggiorna tutti i branch del repository
+  portavoce.py:               pubblica i commit sull'account twitter:
+                              http://twitter.com/#!/LugMap
 
 * Nota
 
