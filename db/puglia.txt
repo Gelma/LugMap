@@ -1,4 +1,5 @@
 Bari|Linux Club Conversano|Conversano|http://lxcc.it.gg/|lxcc.it.gg@gmail.com
 Brindisi|BriLug|Brindisi e provincia|http://www.brilug.it/|dcx@brilug.it
 Brindisi|LatLug|Latiano e limitrofi|http://www.latlug.org/|giasone.82@tiscali.it
+Lecce|Salento Open Source|Lecce e provincia|http://www.softwareliberosalento.it/|info@softwareliberosalento.it
 Lecce|SaLug|Salento, province di Taranto, Lecce e Brindisi|http://salug.it/|info@salug.it
