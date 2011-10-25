@@ -27,7 +27,9 @@
 	<p>Puoi partecipare direttamente, sia alla stesura del codice che del database, sfruttando il
 	<a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>.</p>
 	<p>Puoi sapere tutto del progetto leggendo la
-	<a class="generalink" href="/guida/">Guida Intergalattica alla LugMap</a>.</p>
+	<a class="generalink" href="/guida/">Guida Intergalattica alla LugMap</a>,
+	sequendo la <a href="http://lists.linux.it/listinfo/lugmap">mailing list</a>
+	o i nostri <a href="http://twitter.com/#!/LugMap">cinguettii</a>.</p>
 	<p>Chiunque pu&ograve; risultare prezioso. In particolare, se ti diletti di grafica, ci puoi
 	aiutare nel rifacimento del sito, dei banner e delle magliette.</p>
 	<p><b>Partecipa! Te ne saremo eternamente grati!</b></p>
