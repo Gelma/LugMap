@@ -70,7 +70,7 @@ Andrea Gelmini e Roberto Guido
 \end_layout
 
 \begin_layout Date
-30 Agosto 2011
+25 Ottobre 2011
 \end_layout
 
 \begin_layout Standard
@@ -678,6 +678,22 @@ reference "sec:Contatti"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+seguire l'account Twitter del progetto;
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://twitter.com/#!/LugMap
 \end_layout
 
 \end_inset
@@ -1793,6 +1809,37 @@ python-imaging
 \end_layout
 
 \begin_layout Subsection
+Portavoce
+\end_layout
+
+\begin_layout Standard
+Portavoce, invocabile con 
+\family typewriter
+script/portavoce.py
+\family default
+, è uno script in Python che si occupa di riversare sull'account Twitter
+ del progetto i nuovi commit.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://twitter.com/#!/LugMap
+\end_layout
+
+\end_inset
+
+ Necessita del package tweepy e di un file di configurazione 
+\family typewriter
+.portavoce.conf
+\family default
+ (posto sempre nella home dell'utente).
+ In quest'ultimo file vanno indicate le chiavi per le API di Twitter, così
+ come il percorso per il database di appoggio.
+ Una configurazione di esempio viene mostrata nel caso non ne sia disponibile
+ una valida.
+\end_layout
+
+\begin_layout Subsection
 Google Alerts
 \end_layout
 
@@ -2741,6 +2788,51 @@ lugmap.linux.it
 \begin_layout Itemize
 sostituire opportunamente i riferimenti per i contatti sul sito.
  Fondamentalmente si tratta delle note presenti nel footer di ogni pagina;
+\end_layout
+
+\begin_layout Itemize
+prendere controllo dell'account Twitter.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://twitter.com/#!/LugMap
+\end_layout
+
+\end_inset
+
+ Le password necessarie (sia per l'account che per l'applicazione 
+\family typewriter
+portavoce.py)
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:I-controlli-automatici"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\family default
+sono reperibili nel file 
+\family typewriter
+password.txt.gpg
+\family default
+ presente nel 
+\family typewriter
+branch master
+\family default
+.
 \end_layout
 
 \begin_layout Itemize
