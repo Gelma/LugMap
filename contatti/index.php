@@ -22,7 +22,7 @@ lugheader ('Contatti');
 <table width="70%" align="center">
 <tr>
 	<td>
-		<p>I Manovali della LugMap sono piuttosto brutti ma non mordono, possono essere raggiunti sulla relativa <a href="http://lists.linux.it/listinfo/lugmap" class="generalink">mailing list</a> (si badi che la lista è pubblica, cosiccome l'archivio), oppure ai loro contatti diretti.</p>
+		<p>I Manovali della LugMap sono piuttosto brutti ma non mordono, possono essere raggiunti sulla relativa <a href="http://lists.linux.it/listinfo/lugmap" class="generalink">mailing list</a> (si badi che la lista è pubblica, cos&igrave; come l'archivio), oppure ai loro contatti diretti.</p>
 
 		<table width="100%">
 			<tr>
