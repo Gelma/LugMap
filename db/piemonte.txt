@@ -8,5 +8,5 @@ Novara|LiNOx|Novara|http://linoxnovara.wordpress.com/|linoxnovara@gmail.com
 Torino|GlugTO|Torino e provincia|http://glugto.org/|torinux@glugto.org
 Torino|Underscore HackLab|Torino|http://www.autistici.org/underscore/|underscore@autistici.org
 Torino|Officina Informatica Libera|Torino|http://informaticalibera.info/|officina@informaticalibera.info
-Torino|SLIP|Pinerolo|http://pinerolo.linux.it/|info@pinerolo.linux.it
+Torino|SLIP|Pinerolo|http://pinerolo.linux.it/|info@softwareliberopinerolo.org
 Torino|ValSusinux|Val Susa e Val Sangone|http://www.valsusinux.it/|info@valsusinux.it
