@@ -7,7 +7,7 @@ Treviso|MontelLug|Montebelluna|http://www.montellug.it/|info@montellug.it
 Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
 Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
 Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
-Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|sirio81@gmail.com
+Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|carlo.benini@libero.it
 Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
 Verona|MyPolis|Verona|http://www.mypolis.it/|
 Verona|Officina S3|Sommacampagna|http://www.officina-s3.org/|liver@barucca.com
