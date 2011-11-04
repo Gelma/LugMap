@@ -225,7 +225,7 @@ class LUG(persistent.Persistent):
 
 		try:
 			if self.id == 'Blug':
-				# Questo terribile hack/eccezione si è reseo necessario perché Mechanize
+				# Questo terribile hack/eccezione si è reso necessario perché Mechanize
 				# resta appesa nel tentativo di connessione al sito del Blug.
 				# Mechanize è l'unico package del genere che segue automaticamente anche
 				# i refresh nei tag (roba non standard, ma pesantemente usata da quasi tutti
