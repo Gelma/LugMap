@@ -13,9 +13,10 @@
   aggiorna_tutti_i_branch.sh: aggiorna tutti i branch del repository
   portavoce.py:               pubblica i commit sull'account twitter:
                               http://twitter.com/#!/LugMap
+  scriba.py:                  esporta i dati della LugMap nel formato tabellare di:
+                              http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
 
 * Nota
-
   Tutte le indicazioni a riguardo si possono trovare nella
   Guida Intergalattica alla LugMap, disponibile all'indirizzo:
   http://lugmap.linux.it/guida
