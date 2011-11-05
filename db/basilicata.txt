@@ -1,2 +1,2 @@
 Matera|MateraLinux|Matera|http://www.materalinux.it/|angelo.giordano@gmail.com
-Potenza-Matera|Baslug|Potenza e Matera|http://www.baslug.org/|vega@linux.it
+Potenza, Matera|Baslug|Potenza e Matera|http://www.baslug.org/|vega@linux.it

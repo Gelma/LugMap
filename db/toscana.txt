@@ -12,6 +12,6 @@ Pisa|Gulp|Pisa|http://www.gulp.linux.it/|gulp@gulp.linux.it
 Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|info@tosslab.it
 Pistoia|PtLug|Pistoia|http://www.ptlug.org/|a.grandi@gmail.com
 Prato|Plug|Prato|http://www.prato.linux.it/|info@prato.linux.it
-Siena - Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|mrkslack@gmail.com
+Siena, Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|mrkslack@gmail.com
 Siena|Progetto GNUnisi|Siena|http://www.gnu.unisi.it|gnunisistaff@unisi.it
 Siena|SLUG|Siena e provincia|http://www.siena.linux.it/|webmaster@siena.linux.it
