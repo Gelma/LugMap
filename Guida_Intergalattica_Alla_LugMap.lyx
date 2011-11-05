@@ -1809,37 +1809,6 @@ python-imaging
 \end_layout
 
 \begin_layout Subsection
-Portavoce
-\end_layout
-
-\begin_layout Standard
-Portavoce, invocabile con 
-\family typewriter
-script/portavoce.py
-\family default
-, è uno script in Python che si occupa di riversare sull'account Twitter
- del progetto i nuovi commit.
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-http://twitter.com/#!/LugMap
-\end_layout
-
-\end_inset
-
- Necessita del package tweepy e di un file di configurazione 
-\family typewriter
-.portavoce.conf
-\family default
- (posto sempre nella home dell'utente).
- In quest'ultimo file vanno indicate le chiavi per le API di Twitter, così
- come il percorso per il database di appoggio.
- Una configurazione di esempio viene mostrata nel caso non ne sia disponibile
- una valida.
-\end_layout
-
-\begin_layout Subsection
 Google Alerts
 \end_layout
 
@@ -1902,6 +1871,73 @@ Sono attivi anche due controlli, affidati a servizi gratuiti esterni, per
  Gelmini.
  Si è preferito non far inviare le notifiche alla mailing list per evitare
  di aprire un varco a messaggi indesiderati.
+\end_layout
+
+\begin_layout Section
+Script di appoggio
+\end_layout
+
+\begin_layout Subsection
+Portavoce
+\end_layout
+
+\begin_layout Standard
+Portavoce, invocabile con 
+\family typewriter
+script/portavoce.py
+\family default
+, è uno script in Python che si occupa di riversare sull'account Twitter
+ del progetto i nuovi commit.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://twitter.com/#!/LugMap
+\end_layout
+
+\end_inset
+
+ Necessita del package tweepy e di un file di configurazione 
+\family typewriter
+.portavoce.conf
+\family default
+ (posto sempre nella home dell'utente).
+ In quest'ultimo file vanno indicate le chiavi per le API di Twitter, così
+ come il percorso per il database di appoggio.
+ Una configurazione di esempio viene mostrata nel caso non ne sia disponibile
+ una valida.
+\end_layout
+
+\begin_layout Subsection
+Scriba
+\end_layout
+
+\begin_layout Standard
+Scriba, invocabile con 
+\family typewriter
+script/portavoce.py
+\family default
+, è uno script in Python che si occupa di esportare i dati nel formato tabellare
+ per la pagina di Wikipedia dei Lug Italiani.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
+\end_layout
+
+\end_inset
+
+ La modifica della stessa va comunque effettuata manualmente, per quanto
+ l'infrastruttura su cui poggia 
+\family typewriter
+WiMegera
+\family default
+, permetterebbe il totale automatismo dell'operazione.
 \end_layout
 
 \begin_layout Section
