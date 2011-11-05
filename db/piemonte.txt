@@ -1,7 +1,7 @@
 Alessandria|AlLug|Alessandria e provincia|http://www.alessandria.linux.it/|donotwalkonthegrass@gmail.com
 Asti|Progetto Radis|Asti|http://www.progettoradis.it/|info@progettoradis.it
 Biella|BiLug|Provincia di Biella|http://www.bilug.linux.it/|f.meini@bilug.linux.it
-Cuneo/Torino|ABC Lug|Alba, Bra, Carmagnola|http://abc.linux.it/|gosmardi@linux.it
+Cuneo, Torino|ABC Lug|Alba, Bra, Carmagnola|http://abc.linux.it/|gosmardi@linux.it
 Novara|Gallug|Galliate|http://www.gallug.it/|info@gallug.it
 Novara|LiNOx|Novara|http://linoxnovara.wordpress.com/|linoxnovara@gmail.com
 Torino|GlugTO|Torino e provincia|http://glugto.org/|torinux@glugto.org
