@@ -8,4 +8,4 @@ Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|info@linuxfm.org
 Macerata|Camelug|Camerino|http://camelug.it/|ryuw@camelug.it
 Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it/|associazione@gruppolinuxmc.it
 Pesaro e Urbino|Fortunae Lug|Fano e dintorni|http://www.fanolug.org/|filippo.carletti@gmail.com
-Pesaro-Urbino|Urbino-LUG|Urbino e Montefeltro|http://urbino-lug.tumblr.com/|davideriboli@gmail.com
+Pesaro e Urbino|Urbino-LUG|Urbino e Montefeltro|http://urbino-lug.tumblr.com/|davideriboli@gmail.com
