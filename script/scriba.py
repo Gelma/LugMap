@@ -43,7 +43,7 @@ def parsa():
         regioni[regione] = {}
         for riga in csv.reader(open(filedb, "r"), delimiter='|', quoting=csv.QUOTE_NONE): # e per ogni voce
             provincia, denominazione, sito = riga[0], riga[1], riga[3]
-            if 'facebook' in sito: # Wikipedia non accetta link esterni ai gruppi Facebook, così come a servizi di short URL
+            if 'facebook' in sito or sito.endswith('.tk/'): # Wikipedia non accetta link esterni ai gruppi Facebook, così come a servizi di short URL
                 sito = 'http://lugmap.linux.it/'+filedb.split('/')[-1][:-4] # quindi puntiamo alla pagina della LugMap della regione in oggetto
             try:
                 regioni[regione][provincia][denominazione]=sito
