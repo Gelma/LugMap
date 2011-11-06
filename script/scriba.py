@@ -64,7 +64,11 @@ def parsa():
 def stampa():
     print '{| border=1\n|-bgcolor="#CCCCCC"\n! Regione\n! Provincia\n! Lug\n\n|-\n'
 
-    for regione in sorted(regioni.keys()):
+    regioni_ordinate_stampa = sorted(regioni.keys()) # vogliamo 'Italia' in testa, e poi il resto delle regioni
+    regioni_ordinate_stampa.remove('Italia')
+    regioni_ordinate_stampa.insert(0,'Italia')
+
+    for regione in regioni_ordinate_stampa:
         print "| rowspan=\"%s\"|'''[[%s]]'''" % (len(regioni[regione].keys()), regione)
         print "| {",
         for provincia in sorted(regioni[regione].keys()):
