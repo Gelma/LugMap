@@ -6,7 +6,7 @@ Forl&igrave;|FoLug|Forlì-Cesena|http://www.folug.org/|folug-cons@lists.linux.it
 Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.net/|webmaster@conoscerelinux.net
 Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|g.ciotti@tirrenide.net
 Parma|SBLUG|Provincia di Parma|http://salabaganzalug.wordpress.com/|salabaganzalug@gmail.com
-Ravenna|AlfLug|Alfonsine|http://www.alflug.it/|
+Ravenna|AlfLug|Alfonsine|http://www.alflug.it/|marcoslibero@libero.it
 Ravenna|RavennaLug|Ravenna|http://www.ravennalug.org/|info@ravennalug.org
 Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lug.42019.it/|fabio.casolari@ripartodazero.it
 Reggio Emilia|RElug|Reggio nell'Emilia|http://relug.linux.it/|presidente@relug.linux.it

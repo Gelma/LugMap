@@ -10,4 +10,4 @@ Napoli|NaLug|Napoli e provincia|http://www.nalug.net/|info@nalug.net
 Salerno|LUGAgropoli|Agropoli|http://www.linux.it/~ciccios/lugagropoli.htm|ciccios@linux.it
 Salerno|GuruLug|Sapri|http://gurulug.wordpress.com/|v.celano@gmail.com
 Salerno|HCSSLUG|Salerno e provincia|http://www.hcsslug.org/|info@hcsslug.org
-Salerno|Hop Frog|Salerno|http://hopfrog.it/|
+Salerno|Hop Frog|Salerno|http://hopfrog.it/|info@hopfrog.it
