@@ -5,4 +5,4 @@ Udine|AsCI|Udine|http://asci.cc.uniud.it/|info@asci.cc.uniud.it
 Udine|CarniaLUG|Tolmezzo, Carnia|http://carnialug.net/|manuel.cacitti@gmail.com
 Udine|IGLU|Udine|http://iglu.cc.uniud.it/|direttivo@iglu.cc.uniud.it
 Udine|Lug ALP|Aquileia|http://www.alproject.org/|info@alproject.org
-Udine|Milk|Codroipo|http://www.free-milk.org/|
+Udine|Milk|Codroipo|http://www.free-milk.org/|milk_solutions@libero.it

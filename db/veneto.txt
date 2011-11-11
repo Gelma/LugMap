@@ -15,5 +15,4 @@ Verona|Officina S3|Sommacampagna|http://www.officina-s3.org/|liver@barucca.com
 Vicenza|AVi Lug|Schio, Alto Vicentino|http://www.avilug.it/|dcavedon@gmail.com
 Vicenza|GrappaFSD|Bassano del Grappa e dintorni|http://grappafsd.homelinux.org/|stefano.bonvicini@gmail.com
 Vicenza|GrappaLUG|Bassano del Grappa|http://grappalug.org/|mauro.dallacosta@gmail.com
-Vicenza|LonigoLinux|Lonigo|http://lonigo.linux.it/|
 Vicenza|Lug Vicenza|Vicenza e provincia|http://vicenza.linux.it/|info@vicenza.linux.it
