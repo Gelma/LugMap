@@ -103,7 +103,7 @@ lugheader ($title);
         # stampa dei campi ?>
         <tr class="row_<?php echo ($nriga % 2); ?>">
          <td class="province"><?php echo $provincia ?></td>
-         <td><?php echo $zona ?></td>
+         <td><a href="http://lugmap.it/?zoom=<?php echo $denominazione ?>"><?php echo $zona ?></a></td>
          <td><a class="generalink" href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
         </tr>
       <?php endwhile;?>
