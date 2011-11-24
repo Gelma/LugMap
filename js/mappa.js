@@ -9,7 +9,7 @@ OpenLayers.Feature.prototype.createPopup = function (closeBox) {
 		var id = this.id + "_popup";
 		var anchor = this.marker ? this.marker.icon : null;
 
-		this.popup = new (this.popupClass)(id, this.lonlat, this.data.popupSize, this.data.popupContentHTML, anchor, true);
+		this.popup = new OpenLayers.Popup.AnchoredBubble (id, this.lonlat, this.data.popupSize, this.data.popupContentHTML, anchor, true);
 		this.popup.autoSize = true;
 
 		if (this.data.overflow != null)
