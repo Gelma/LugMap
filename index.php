@@ -24,6 +24,28 @@ if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugm
 require_once ('varie.php');
 do_head ('Homepage', array ('http://openlayers.org/api/OpenLayers.js', 'js/mappa.js'));
 
+if (array_key_exists ('zoom', $_GET)) {
+	$found = false;
+	$contents = file ('dati.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+	foreach ($contents as $row) {
+		list ($lat, $lon, $lug, $useless) = explode (' ', $row, 4);
+		if ($lug == $_GET ['zoom']) {
+			$found = true;
+			break;
+		}
+	}
+
+	if ($found == true) {
+		?>
+
+		<input type="hidden" name="zooming_lat" value="<?php echo $lat ?>" />
+		<input type="hidden" name="zooming_lon" value="<?php echo $lon ?>" />
+
+		<?php
+	}
+}
+
 ?>
 
 <div id="map" class="smallmap"></div>

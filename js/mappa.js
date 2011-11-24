@@ -69,7 +69,20 @@ function init () {
 	var newl = new OpenLayers.Layer.Text( "LUG", {location: "./dati.txt"} );
 	map.addLayer(newl);
 
-	map.setCenter( lonLatToMercator(new OpenLayers.LonLat(12.483215,41.979911)),6);
+	if ($('input[name=zooming_lat]').length != 0) {
+		lat = $('input[name=zooming_lat]').val ();
+		lon = $('input[name=zooming_lon]').val ();
+		zoom = 12;
+		ll = new OpenLayers.LonLat(lon, lat);
+	}
+	else {
+		lon = 12.483215;
+		lat = 41.979911;
+		zoom = 6;
+		ll = lonLatToMercator(new OpenLayers.LonLat(lon, lat));
+	}
+
+	map.setCenter(ll, zoom);
 
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition (
