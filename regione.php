@@ -76,6 +76,7 @@ lugheader ($title);
 ?>
 
 <div id="center">
+  <h1 class="titoloregione"><?php echo $title; ?></h1>
   <p class="fromRegionLinks">
     <a href="/">&raquo; torna alla LUGmap</a>
   </p>

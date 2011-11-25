@@ -178,6 +178,14 @@ a:hover {
 	margin: 10px 0;
 }
 
+.titoloregione {
+	display: block;
+	text-align: center;
+	font:3em ChunkFiveRoman,Helvetica,Arial,sans-serif;
+	color: #444;
+	margin: 10px 0;
+}
+
 #footer {
 	padding-top: 10px;
 }
