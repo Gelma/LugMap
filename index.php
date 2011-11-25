@@ -29,7 +29,7 @@ if (array_key_exists ('zoom', $_GET)) {
 	$contents = file ('dati.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 	foreach ($contents as $row) {
-		list ($lat, $lon, $lug, $useless) = explode (' ', $row, 4);
+		list ($lat, $lon, $lug, $useless) = explode ("\t", $row, 4);
 		if ($lug == $_GET ['zoom']) {
 			$found = true;
 			break;
