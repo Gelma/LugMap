@@ -138,8 +138,8 @@ piwikTracker.enableLinkTracking();
 
 function ultimo_aggiornamento () {
 ?>
-   <a href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo; Aggiornato al <?php print file_get_contents('../.ultimo_commit') ?></a><br />
-   <a href="mailto:andrea.gelmini@lugbs.linux.it,bob4job@gmail.com?subject=LugMap: segnalazione aggiornamento/errore/refuso">&raquo; Segnala</a>
+   <a href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo; Aggiornato al <?php print file_get_contents('../.ultimo_commit') ?>&nbsp;</a><br />
+   <a href="mailto:andrea.gelmini@lugbs.linux.it,bob4job@gmail.com?subject=LugMap: segnalazione aggiornamento/errore/refuso">&raquo; Segnala&nbsp;</a>
 
 <?php
 }
