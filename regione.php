@@ -28,7 +28,7 @@ if (ereg('index\.php$', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php
   $regione = substr(dirname($_SERVER["SCRIPT_NAME"]), 1); # estraggo la regione dal percorso
   if (array_key_exists ($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
     $db_file = '../db/'.$regione.'.txt';
-    $db_regione = file ($db_file);
+    $db_regione = file($db_file);
     $title = 'LugMap: '. $elenco_regioni[$regione];
   } else {
             header("location: http://lugmap.linux.it/"); }
@@ -76,7 +76,7 @@ lugheader ($title);
 ?>
 
 <div id="center">
-  <h1 class="titoloregione"><?php echo $title; print '&nbsp;<g:plusone size="small"></g:plusone>'; ?></h1>
+  <h1 class="titoloregione"><?php echo substr($title, 8); print '&nbsp;<g:plusone size="small"></g:plusone>'; ?></h1>
   <p class="fromRegionLinks">
     <a href="/">&raquo; torna alla LugMap&nbsp;</a>
   </p>
