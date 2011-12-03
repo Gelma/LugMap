@@ -25,3 +25,4 @@ Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malp
 Varese|IspraLUG|Ispra|http://ispralug.eu/|azimout@gmail.com
 Varese|LIFO|Varese|http://www.lifolab.org/|info@lifolab.org
 Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|info@linuxvar.it
+Varese|LUG Saronno|Saronno|http://lugsaronno.altervista.org/|lugsaronno@gmail.com
