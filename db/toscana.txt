@@ -4,11 +4,11 @@ Empoli|GOLEM|Empoli|http://golem.linux.it/|golem@golem.linux.it
 Firenze|Flug|Firenze|http://www.firenze.linux.it/|info@firenze.linux.it
 Firenze|Hacklab Firenze|Firenze|http://www.hacklab.firenze.it/|morsetrack@gmail.com
 Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|info@liberainformatica.it
-Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|info@grolug.org
-Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|info@guruatwork.com
-Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|info@gullix.org
-Lucca|Lucca Lug|Lucca|http://luccalug.it/|info@luccalug.it
-Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|segreteria@lug-acros.org
+Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|maxmurd@linux.it
+Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|ludwig.bargagli@gmail.com
+Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|alessiomaio@gmail.com
+Lucca|Lucca Lug|Lucca|http://luccalug.it/|matteo156@gmail.com
+Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|cm@manualinux.com
 Pisa|Gulp|Pisa|http://www.gulp.linux.it/|gulp@gulp.linux.it
 Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|info@tosslab.it
 Pistoia|PtLug|Pistoia|http://www.ptlug.org/|a.grandi@gmail.com

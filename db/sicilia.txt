@@ -4,8 +4,8 @@ Catania|CataniaLUG|Catania e provincia|http://catania.linux.it/|luigi.toscano@ti
 Catania|EtnaLUG|Provincia di Catania|http://sites.google.com/site/etnalug/|gmarzioz@gmail.com
 Catania|FreakNet MediLab|Catania|http://www.freaknet.org/|medialab@freaknet.org
 Enna|EnnaLUG|Enna|http://leonforte.linux.it/|docmimmo@gmail.com
-Messina|Lug Messina|Messina e provincia|http://www.messinalug.org/|melug@messinalug.org
-Palermo|SputniX|Palermo|http://www.sputnix.it/|info@sputnix.it
+Messina|Lug Messina|Messina e provincia|http://www.messinalug.org/|giovanni.merlino@gmail.com
+Palermo|SputniX|Palermo|http://www.sputnix.it/|vincenzo.virgilio@unipa.it
 Ragusa|SoLiRa|Ragusa e provincia|http://www.solira.org/|info@solira.org
 Siracusa|Lug Siracusa|Siracusa e provincia|http://www.siracusa.linux.it/|lug@siracusa.linux.it
 Siracusa|Poetry Hacklab|Palazzolo Acreide|http://poetry.freaknet.org/|poetry@freaknet.org
