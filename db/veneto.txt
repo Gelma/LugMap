@@ -4,7 +4,7 @@ Padova|Faber Libertatis|Padova|http://faberlibertatis.org/|info@faberlibertatis.
 Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
 Padova|Blah Hacklab|Este, Monselice e dintorni|http://blah.pizzahack.eu/|djloviuz@email.it
 Rovigo|RoLug|Rovigo|http://rovigo.linux.it/|webmaster@rovigo.linux.it
-Treviso|MontelLug|Montebelluna|http://www.montellug.it/|info@montellug.it
+Treviso|MontelLug|Montebelluna|http://www.montellug.it/|stefano.fraccaro@libero.it
 Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
 Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
 Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it

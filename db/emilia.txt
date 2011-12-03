@@ -1,4 +1,4 @@
-Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|info@imolug.org
+Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|riccardodeluna@gmail.com
 Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|info@erlug.linux.it
 Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/|uielinux@gmail.com
 Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|info@ferrara.linux.it
