@@ -14,6 +14,7 @@ Mantova|LugMan|Mantova e provincia|http://www.lugman.net/|fausto.picchi@gmail.co
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
 Milano|Lug Bocconi|Milano|http://www.lugbocconi.org/|boccolinux@gmail.com
 Milano|Lugdico|Milano|http://lugdico.wordpress.com/|andrea.trentini@unimi.it
+Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
 Milano|POuL|Milano|http://www.poul.org/|info@poul.org
 Milano|ViGLug|Vignate|http://viglug.org/|fraph24@gmail.com
 Monza|MoBLUG|Monza e Brianza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|info@bubblesfactory.it
