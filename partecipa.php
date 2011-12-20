@@ -21,12 +21,18 @@ do_head ('Partecipa alla LugMap');
 		<p>
 			Segnalaci nuovi/vecchi LUG, così come eventuali correzioni ed errori,
 			mandando una mail a <a href="mailto:lugmap@linux.it">lugmap@linux.it</a>.
+		</p>
+		<p>
 			Ancor meglio, se sei interessato, puoi avere accesso allo stesso
 			<a href="https://github.com/Gelma/LugMap">repository</a> per partecipare
 			attivamente all'aggiornamento dei contenuti. Il tuo contributo ha
 			molteplici effetti: questi dati sono la stessa fonte della
 			<a href="http://www.linux.it/LUG">LugMap di ILS</a>, da cui diverse
-			riviste ricavano le informazioni da pubblicare.
+			riviste ricavano le informazioni da pubblicare. Puoi inoltre essere
+			costantemente aggiornato sugli sviluppi per mezzo della
+			<a href="http://lists.linux.it/listinfo/lugmap">mailing list</a>, del
+			<a href="https://www.facebook.com/groups/284932411527993/">gruppo Facebook</a>,
+			e dell'<a href="https://twitter.com/#!/LugMap">account Twitter</a>.
 		</p>
 	</div>
 </div>
