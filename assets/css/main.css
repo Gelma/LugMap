@@ -253,18 +253,27 @@ fieldset {
 	font-size: 12px;
 }
 
+#lugListTable td.region {
+	font-weight: bold;
+	text-align: left;
+}
+
+#lugListTable td.region a {
+	color: #000000;
+}
+
 #lugListTable td.province {
 	font-weight: bold;
 	text-align: left;
 }
 
-#lugListTable td.contactUrl a {
-	font-weight: bold;
-	color: #00f;
+#lugListTable td.zone a {
+	color: #000000;
 }
 
-#lugListTable td.contactUrl {
-	text-align: right;
+#lugListTable td.contactUrl a {
+	font-weight: bold;
+	color: #000000;
 }
 
 #lugListTable {
@@ -273,21 +282,41 @@ fieldset {
 }
 
 #lugListTable thead, #lugListTable tfoot {
-	background-color: #000080;
+	background-color: #303030;
 	color: #fff;
 }
 
-#lugListTable tr.row_0 td {
+#lugListTable tr.odd td {
 	background-color: #EEEEEE;
 }
 
-#lugListTable tr.row_1 td {
+#lugListTable tr.even td {
 	background-color: #DDDDDD;
 }
 
 #lugListTable tr.row_special td {
 	border: 0px;
 	background-color: #FFFFFF;
+}
+
+.sorting_asc {
+	background: url('/images/sort_asc.png') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('/images/sort_desc.png') no-repeat center right;
+}
+
+.sorting {
+	background: url('/images/sort_both.png') no-repeat center right;
+}
+
+.sorting_asc_disabled {
+	background: url('/images/sort_asc_disabled.png') no-repeat center right;
+}
+
+.sorting_desc_disabled {
+	background: url('/images/sort_desc_disabled.png') no-repeat center right;
 }
 
 #title {
