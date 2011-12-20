@@ -106,7 +106,7 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		<ul class="verticalslider_tabs">
 			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="<?php echo $main_url ?>/index.php">Mappa</a></li>
 
-			<li><a<?php if ($select == 2 || $select == 6) echo ' class="select"' ?> href="<?php echo $main_url ?>/lista.php">Lista Completa</a></li>
+			<li><a<?php if ($select == 2) echo ' class="select"' ?> href="<?php echo $main_url ?>/lista.php">Lista Completa</a></li>
 
 			<?php if ($select == 6): ?>
 			<li class="verticalslider_subtabs"><a class="select" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>"><?php echo $menu ?></a>
@@ -114,21 +114,9 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 
 			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="<?php echo $main_url ?>/partecipa.php">Partecipa</a></li>
 
-			<li>
-				<a<?php if ($select == 4) echo ' class="select"' ?> href="<?php echo $main_url ?>/forge.php">Progetti Collaterali</a>
-
-				<?php if ($select == 5): ?>
-				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="<?php echo $main_url ?>/widget.php">Widget Web</a>
-				</ul>
-				<?php endif; ?>
-
-				<?php if ($select == 7): ?>
-				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="http://planet.lugmap.it/">Planet LugMap</a>
-				</ul>
-				<?php endif; ?>
-			</li>
+			<li><a<?php if ($select == 4) echo ' class="select"' ?> href="<?php echo $main_url ?>/forge.php">Progetti Collaterali</a></li>
+			<li class="verticalslider_subtabs"><a<?php if ($select == 5) echo ' class="select"' ?> href="<?php echo $main_url ?>/widget.php">Widget Web</a>
+			<li class="verticalslider_subtabs"><a<?php if ($select == 7) echo ' class="select"' ?> href="http://planet.lugmap.it/">Planet LugMap</a>
 
 			<li>
 				<p class="intro">

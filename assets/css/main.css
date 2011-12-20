@@ -137,8 +137,8 @@ img {
 
 .verticalslider_tabs a:link, .verticalslider_tabs a:visited {
 	display: block;
-	height: 29px;
-	padding: 7px 10px 6px 10px;
+	height: 25px;
+	padding: 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -157,8 +157,8 @@ img {
 
 .verticalslider_subtabs a:link, .verticalslider_tabs a:visited {
 	display: block;
-	height: 29px;
-	padding: 14px 10px 6px 10px;
+	height: 15px;
+	padding: 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 15px;
 	font-weight: bold;
