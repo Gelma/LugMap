@@ -1,7 +1,7 @@
-Genova|ALID|Genova|http://www.alid.it/|presidente@alid.it
-Genova|LugGe|Genova e provincia|http://www.linux.genova.it/|roberto.foglietta@gmail.com
-Genova|Op3n_L4b|Genova Facoltà di Ingegneria|http://www.openlab-dist.org/|openlab@openlab-dist.org
-Genova|TLug-TSL|Rapallo|http://tlug.linux.it/|fabio.rampoldi@linux.it
-Imperia|SLIMP|Imperia e provincia|http://www.slimp.it/|ugorosa@gmail.com
-Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/|andreamsolari@gmail.com
-Savona|SavonaLug|Savona|http://savona.linux.it/|md@linux.it
+Genova|ALID|Genova|http://www.alid.it/|cerfvqragr@nyvq.vg
+Genova|LugGe|Genova e provincia|http://www.linux.genova.it/|eboregb.sbtyvrggn@tznvy.pbz
+Genova|Op3n_L4b|Genova Facoltà di Ingegneria|http://www.openlab-dist.org/|bcrayno@bcrayno-qvfg.bet
+Genova|TLug-TSL|Rapallo|http://tlug.linux.it/|snovb.enzcbyqv@yvahk.vg
+Imperia|SLIMP|Imperia e provincia|http://www.slimp.it/|htbebfn@tznvy.pbz
+Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/|naqernzfbynev@tznvy.pbz
+Savona|SavonaLug|Savona|http://savona.linux.it/|zq@yvahk.vg

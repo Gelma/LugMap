@@ -1,29 +1,29 @@
-Bergamo|BGLug|Bergamo e provincia|http://bglug.it/|info@bglug.it
-Bergamo|BGLug Valle Seriana|Gazzaniga, Valle Seriana|http://bglugvs.web3king.com/|angelo@web3king.com
-Bergamo|Linux Club Zogno|Zogno|http://www.linuxzogno.org/|info@linuxzogno.org
-Brescia|CiRcOLaB|Brescia|http://www.circolab.net/|circo@circolab.net
-Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|vips@lugbs.linux.it
-Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/|ken@kenparker.eu
-Brescia|Lug Ovest Bresciano|Cologne e Rovato|http://www.lugob.org/|info@lugob.org
-Como|GL-Como|Como|http://www.gl-como.it/|deprisco.davide@gmail.com
-Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/|pioniere@gmail.com
-Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/|nicola@kernel-panic.dnsdojo.net
-Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|glux@lecco.linux.it
-Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|info@lolug.net
-Mantova|LugMan|Mantova e provincia|http://www.lugman.net/|fausto.picchi@gmail.com
-Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|info@lifos.org
-Milano|Lug Bocconi|Milano|http://www.lugbocconi.org/|boccolinux@gmail.com
-Milano|Lugdico|Milano|http://lugdico.wordpress.com/|andrea.trentini@unimi.it
-Milano|OpenLabs|Milano|http://www.openlabs.it/|info@openlabs.it
-Milano|POuL|Milano|http://www.poul.org/|info@poul.org
-Milano|ViGLug|Vignate|http://viglug.org/|fraph24@gmail.com
-Monza|MoBLUG|Monza e Brianza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|info@bubblesfactory.it
-Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|fulvio.restelli@faswebnet.it
-Pavia|Ohosys.org|Verretto|http://www.ohosys.org/|wolfokatar@gmail.com
-Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|tilug@lists.linux.it
-Varese|Forseti|Varese|http://www.forseti.it/|andrea.colli@forseti.it
-Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|info@gullp.it
-Varese|IspraLUG|Ispra|http://ispralug.eu/|azimout@gmail.com
-Varese|LIFO|Varese|http://www.lifolab.org/|info@lifolab.org
-Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|info@linuxvar.it
-Varese|LUG Saronno|Saronno|http://lugsaronno.altervista.org/|lugsaronno@gmail.com
+Bergamo|BGLug|Bergamo e provincia|http://bglug.it/|vasb@otyht.vg
+Bergamo|BGLug Valle Seriana|Gazzaniga, Valle Seriana|http://bglugvs.web3king.com/|natryb@jro3xvat.pbz
+Bergamo|Linux Club Zogno|Zogno|http://www.linuxzogno.org/|vasb@yvahkmbtab.bet
+Brescia|CiRcOLaB|Brescia|http://www.circolab.net/|pvepb@pvepbyno.arg
+Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|ivcf@yhtof.yvahk.vg
+Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/|xra@xracnexre.rh
+Brescia|Lug Ovest Bresciano|Cologne e Rovato|http://www.lugob.org/|vasb@yhtbo.bet
+Como|GL-Como|Como|http://www.gl-como.it/|qrcevfpb.qnivqr@tznvy.pbz
+Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/|cvbavrer@tznvy.pbz
+Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/|avpbyn@xreary-cnavp.qafqbwb.arg
+Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|tyhk@yrppb.yvahk.vg
+Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|vasb@ybyht.arg
+Mantova|LugMan|Mantova e provincia|http://www.lugman.net/|snhfgb.cvppuv@tznvy.pbz
+Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|vasb@yvsbf.bet
+Milano|Lug Bocconi|Milano|http://www.lugbocconi.org/|obppbyvahk@tznvy.pbz
+Milano|Lugdico|Milano|http://lugdico.wordpress.com/|naqern.geragvav@havzv.vg
+Milano|OpenLabs|Milano|http://www.openlabs.it/|vasb@bcraynof.vg
+Milano|POuL|Milano|http://www.poul.org/|vasb@cbhy.bet
+Milano|ViGLug|Vignate|http://viglug.org/|sencu24@tznvy.pbz
+Monza|MoBLUG|Monza e Brianza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|vasb@ohooyrfsnpgbel.vg
+Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|shyivb.erfgryyv@snfjroarg.vg
+Pavia|Ohosys.org|Verretto|http://www.ohosys.org/|jbysbxngne@tznvy.pbz
+Pavia|TiLug|Pavia e provincia|http://pavia.linux.it/|gvyht@yvfgf.yvahk.vg
+Varese|Forseti|Varese|http://www.forseti.it/|naqern.pbyyv@sbefrgv.vg
+Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|vasb@thyyc.vg
+Varese|IspraLUG|Ispra|http://ispralug.eu/|nmvzbhg@tznvy.pbz
+Varese|LIFO|Varese|http://www.lifolab.org/|vasb@yvsbyno.bet
+Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|vasb@yvahkine.vg
+Varese|LUG Saronno|Saronno|http://lugsaronno.altervista.org/|yhtfnebaab@tznvy.pbz

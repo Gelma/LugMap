@@ -1,16 +1,16 @@
-Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|info@belluno.linux.it
-Belluno|LugAnegA|Belluno|http://www.luganega.net/|gherardo@luganega.net
-Padova|Faber Libertatis|Padova|http://faberlibertatis.org/|info@faberlibertatis.org
-Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|info@fsugpadova.org
-Padova|Blah Hacklab|Este, Monselice e dintorni|http://blah.pizzahack.eu/|djloviuz@email.it
-Rovigo|RoLug|Rovigo|http://rovigo.linux.it/|webmaster@rovigo.linux.it
-Treviso|MontelLug|Montebelluna|http://www.montellug.it/|stefano.fraccaro@libero.it
-Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|alex@tvlug.it
-Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|info@0421ug.org
-Venezia|VELug|Provincia di Venezia|http://www.velug.it/|rik@linux.it
-Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|carlo.benini@libero.it
-Verona|LugVR|Verona|http://www.verona.linux.it/|presidente@verona.linux.it
-Verona|Officina S3|Sommacampagna|http://www.officina-s3.org/|liver@barucca.com
-Vicenza|AVi Lug|Schio, Alto Vicentino|http://www.avilug.it/|dcavedon@gmail.com
-Vicenza|GrappaLUG|Bassano del Grappa|http://grappalug.org/|mauro.dallacosta@gmail.com
-Vicenza|Lug Vicenza|Vicenza e provincia|http://vicenza.linux.it/|info@vicenza.linux.it
+Belluno|Blug|Provincia di Belluno|http://belluno.linux.it/|vasb@oryyhab.yvahk.vg
+Belluno|LugAnegA|Belluno|http://www.luganega.net/|tureneqb@yhtnartn.arg
+Padova|Faber Libertatis|Padova|http://faberlibertatis.org/|vasb@snoreyvoregngvf.bet
+Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|vasb@sfhtcnqbin.bet
+Padova|Blah Hacklab|Este, Monselice e dintorni|http://blah.pizzahack.eu/|qwybivhm@rznvy.vg
+Rovigo|RoLug|Rovigo|http://rovigo.linux.it/|jroznfgre@ebivtb.yvahk.vg
+Treviso|MontelLug|Montebelluna|http://www.montellug.it/|fgrsnab.senppneb@yvoreb.vg
+Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|nyrk@giyht.vg
+Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|vasb@0421ht.bet
+Venezia|VELug|Provincia di Venezia|http://www.velug.it/|evx@yvahk.vg
+Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|pneyb.oravav@yvoreb.vg
+Verona|LugVR|Verona|http://www.verona.linux.it/|cerfvqragr@ireban.yvahk.vg
+Verona|Officina S3|Sommacampagna|http://www.officina-s3.org/|yvire@onehppn.pbz
+Vicenza|AVi Lug|Schio, Alto Vicentino|http://www.avilug.it/|qpnirqba@tznvy.pbz
+Vicenza|GrappaLUG|Bassano del Grappa|http://grappalug.org/|znheb.qnyynpbfgn@tznvy.pbz
+Vicenza|Lug Vicenza|Vicenza e provincia|http://vicenza.linux.it/|vasb@ivpramn.yvahk.vg

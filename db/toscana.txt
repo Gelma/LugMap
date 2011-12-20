@@ -1,18 +1,18 @@
-Arezzo|IPIOS|Bibbiena|http://www.ipios.org/|fabio.norcini@gmail.com
-Arezzo|Viva Linux Casentino|Bibbiena e valle del Casentino|http://www.facebook.com/group.php?gid=52271316371|enricoborghi@gmail.com
-Empoli|GOLEM|Empoli|http://golem.linux.it/|golem@golem.linux.it
-Firenze|Flug|Firenze|http://www.firenze.linux.it/|info@firenze.linux.it
-Firenze|Hacklab Firenze|Firenze|http://www.hacklab.firenze.it/|morsetrack@gmail.com
-Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|info@liberainformatica.it
-Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|maxmurd@linux.it
-Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|ludwig.bargagli@gmail.com
-Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|alessiomaio@gmail.com
-Lucca|Lucca Lug|Lucca|http://luccalug.it/|matteo156@gmail.com
-Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|cm@manualinux.com
-Pisa|Gulp|Pisa|http://www.gulp.linux.it/|gulp@gulp.linux.it
-Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|info@tosslab.it
-Pistoia|PtLug|Pistoia|http://www.ptlug.org/|a.grandi@gmail.com
-Prato|Plug|Prato|http://www.prato.linux.it/|info@prato.linux.it
-Siena, Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|mrkslack@gmail.com
-Siena|Progetto GNUnisi|Siena|http://www.gnu.unisi.it|gnunisistaff@unisi.it
-Siena|SLUG|Siena e provincia|http://www.siena.linux.it/|webmaster@siena.linux.it
+Arezzo|IPIOS|Bibbiena|http://www.ipios.org/|snovb.abepvav@tznvy.pbz
+Arezzo|Viva Linux Casentino|Bibbiena e valle del Casentino|http://www.facebook.com/group.php?gid=52271316371|raevpbobetuv@tznvy.pbz
+Empoli|GOLEM|Empoli|http://golem.linux.it/|tbyrz@tbyrz.yvahk.vg
+Firenze|Flug|Firenze|http://www.firenze.linux.it/|vasb@sveramr.yvahk.vg
+Firenze|Hacklab Firenze|Firenze|http://www.hacklab.firenze.it/|zbefrgenpx@tznvy.pbz
+Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|vasb@yvorenvasbezngvpn.vg
+Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|znkzheq@yvahk.vg
+Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|yhqjvt.onetntyv@tznvy.pbz
+Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|nyrffvbznvb@tznvy.pbz
+Lucca|Lucca Lug|Lucca|http://luccalug.it/|znggrb156@tznvy.pbz
+Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|pz@znahnyvahk.pbz
+Pisa|Gulp|Pisa|http://www.gulp.linux.it/|thyc@thyc.yvahk.vg
+Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|vasb@gbffyno.vg
+Pistoia|PtLug|Pistoia|http://www.ptlug.org/|n.tenaqv@tznvy.pbz
+Prato|Plug|Prato|http://www.prato.linux.it/|vasb@cengb.yvahk.vg
+Siena, Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|zexfynpx@tznvy.pbz
+Siena|Progetto GNUnisi|Siena|http://www.gnu.unisi.it|tahavfvfgnss@havfv.vg
+Siena|SLUG|Siena e provincia|http://www.siena.linux.it/|jroznfgre@fvran.yvahk.vg
