@@ -155,10 +155,6 @@ img {
 	height: 30px;
 }
 
-.verticalslider_subtabs {
-	margin-right: 20px;
-}
-
 .verticalslider_subtabs a:link, .verticalslider_tabs a:visited {
 	display: block;
 	height: 29px;
@@ -168,6 +164,7 @@ img {
 	font-weight: bold;
 	color: #333333;
 	text-decoration: none;
+	margin-left: 50px;
 }
 
 .verticalslider_contents {

@@ -64,10 +64,6 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 				$select = 0;
 				break;
 
-			case 'LUG divisi per Regione':
-				$select = 1;
-				break;
-
 			case 'Lista completa dei LUG':
 				$select = 2;
 				break;
@@ -110,17 +106,12 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		<ul class="verticalslider_tabs">
 			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="<?php echo $main_url ?>/index.php">Mappa</a></li>
 
-			<li>
-				<a<?php if ($select == 1) echo ' class="select"' ?> href="<?php echo $main_url ?>/regioni.php">Lista delle Regioni</a>
+			<li><a<?php if ($select == 2 || $select == 6) echo ' class="select"' ?> href="<?php echo $main_url ?>/lista.php">Lista Completa</a></li>
 
-				<?php if ($select == 6): ?>
-				<ul class="verticalslider_subtabs">
-					<li><a class="select" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>"><?php echo $menu ?></a>
-				</ul>
-				<?php endif; ?>
-			</li>
+			<?php if ($select == 6): ?>
+			<li class="verticalslider_subtabs"><a class="select" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>"><?php echo $menu ?></a>
+			<?php endif; ?>
 
-			<li><a<?php if ($select == 2) echo ' class="select"' ?> href="<?php echo $main_url ?>/lista.php">Lista Completa</a></li>
 			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="<?php echo $main_url ?>/partecipa.php">Partecipa</a></li>
 
 			<li>
