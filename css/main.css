@@ -164,6 +164,10 @@ a:hover {
 	border:0;
 }
 
+.menu img {
+	display: inline;
+}
+
 .menu a:hover {
 	background-color:#ffa200;
 	color:#fff;
