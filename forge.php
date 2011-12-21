@@ -75,6 +75,20 @@ do_head ('Progetti Collaterali');
 			</p>
 		</fieldset>
 
+		<a name="calendar" />
+
+		<fieldset>
+			<legend>Calendario eventi</legend>
+
+			<p>
+				Dalle news che transitano sul <a href="#Planet">Planet</a> vengono estratti gli annunci degli eventi
+				e delle attivita' che i LUG conducono in giro per l'Italia, e vengono esposti su
+				<a href="http://calendar.lugmap.it">una apposita sezioni</a> di questo sito. Per maggiori
+				informazioni si consulti
+				<a href="<?php echo $main_url ?>/calendar_info.php">questa pagina</a>.
+			</p>
+		</fieldset>
+
 		<a name="map-generator" />
 
 		<fieldset>

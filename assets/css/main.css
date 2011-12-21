@@ -361,12 +361,17 @@ fieldset {
 
 .planet_daygroup h2 {
 	margin: 5px;
+	font-size: 30px;
 }
 
 .planet_channelgroup {
 	margin-bottom: 10px;
 	padding-bottom: 20px;
-	border-bottom: 5px solid #000000;
+}
+
+.planet_channelgroup img {
+	display: inline;
+	margin: 0px;
 }
 
 .planet_channelgroup h3 {
@@ -384,6 +389,13 @@ fieldset {
 	font-size: 25px;
 	margin-right: 25px;
 	margin: auto;
+}
+
+.entrygroup {
+	width: 80%;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 20px;
 }
 
 .calendar_top {
@@ -426,4 +438,3 @@ fieldset {
 .day_dialog a {
 	color: #000;
 }
-
