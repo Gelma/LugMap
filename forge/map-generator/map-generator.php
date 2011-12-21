@@ -1,96 +1,6 @@
 <?php
 
-function latlon_magic ($lat, $lon) {
-	/*
-		Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
-	*/
-	$lat = (log (tan ((90 + $lat) * pi () / 360)) / (pi () / 180)) * 20037508.34 / 180;
-	$lon = $lon * 20037508.34 / 180;
-	return array ($lat, $lon);
-}
-
-function ask_nominatim ($c) {
-	$location = file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
-
-	$doc = new DOMDocument ();
-	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
-		return null;
-
-	$xpath = new DOMXPath ($doc);
-
-	/*
-		I risultati restituiti da Nominatim sono molteplici, e non sempre coerenti,
-		qui cerchiamo il riferimento esplicito a "city" o "town" (credo che li usi
-		a seconda delle dimensioni del centro abitato) e se non si trova nulla
-		passera' all'interrogazione di GeoNames. Attenzione: non usare i nodi di tipo
-		"administrative", sono veramente troppo poco precisi
-	*/
-	$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
-	if ($results->length < 1) {
-		$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
-		if ($results->length < 1) {
-			$results = $xpath->query ("/searchresults/place[@type='hamlet']", $doc);
-			if ($results->length < 1) {
-				$results = $xpath->query ("/searchresults/place[@type='village']", $doc);
-				if ($results->length < 1)
-					return null;
-			}
-		}
-	}
-
-	$node = $results->item (0);
-	$lat = $node->getAttribute ('lat');
-	$lon = $node->getAttribute ('lon');
-
-	return latlon_magic ($lat, $lon);
-}
-
-function ask_geonames ($c) {
-	$location = file_get_contents ('http://api.geonames.org/search?username=madbob&q=' . $c . '&country=IT');
-
-	$doc = new DOMDocument ();
-	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)
-		return null;
-
-	$xpath = new DOMXPath ($doc);
-
-	$results = $xpath->query ("/geonames/geoname/lat", $doc);
-	if ($results->length < 1)
-		return null;
-	$lat = $results->item (0);
-	$lat = $lat->nodeValue;
-
-	$results = $xpath->query ("/geonames/geoname/lng", $doc);
-	if ($results->length < 1)
-		return null;
-	$lon = $results->item (0);
-	$lon = $lon->nodeValue;
-
-	return latlon_magic ($lat, $lon);
-}
-
-$elenco_regioni = array (
-        "abruzzo"    => "Abruzzo",
-        "basilicata" => "Basilicata",
-        "calabria"   => "Calabria",
-        "campania"   => "Campania",
-        "emilia"     => "Emilia Romagna",
-        "friuli"     => "Friuli Venezia Giulia",
-        "lazio"      => "Lazio",
-        "liguria"    => "Liguria",
-        "lombardia"  => "Lombardia",
-        "marche"     => "Marche",
-        "molise"     => "Molise",
-        "piemonte"   => "Piemonte",
-        "puglia"     => "Puglia",
-        "sardegna"   => "Sardegna",
-        "sicilia"    => "Sicilia",
-        "toscana"    => "Toscana",
-        "trentino"   => "Trentino Alto Adige",
-        "umbria"     => "Umbria",
-        "valle"      => "Valle d'Aosta",
-        "veneto"     => "Veneto",
-);
+require_once ('../../varie.php');
 
 /*
 	Scopiazzato da http://www.phpbuilder.com/board/showthread.php?t=10287962
@@ -102,6 +12,9 @@ function howMany ($needle, $haystack) {
 
 	return 0;
 }
+
+init_geocache ();
+global $geocache;
 
 /*
 	Per dettagli sul formato del file accettato da OpenLayer.Layer.Text
@@ -120,21 +33,11 @@ foreach ($elenco_regioni as $region => $name) {
 
 		foreach ($cities as $city) {
 			if (stristr ($zone, $city) != false) {
-				/*
-					Questo e' per evitare i limiti imposti dal server OpenStreetMap
-					http://wiki.openstreetmap.org/wiki/Nominatim_usage_policy
-					Non dubito che GeoNames abbia qualcosa di analogo
-				*/
-				sleep (1);
-
 				$c = str_replace (' ', '%20', $city);
 
-				$result = ask_nominatim ($c);
-				if ($result == null) {
-					$result = ask_geonames ($c);
-					if ($result == null)
-						continue;
-				}
+				$result = ask_coordinates ($c);
+				if ($result == null)
+					continue;
 
 				list ($lat, $lon) = $result;
 
@@ -151,6 +54,7 @@ foreach ($elenco_regioni as $region => $name) {
 
 				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
 				$found = true;
+
 				break;
 			}
 		}
@@ -168,5 +72,7 @@ if (file_put_contents ('dati.txt', join ("\n", $rows) . "\n") === false)
 	echo "Errore nel salvataggio del file\n";
 else
 	echo "I dati sono stati scritti nel file 'dati.txt'\n";
+
+save_geocache ();
 
 ?>
