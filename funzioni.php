@@ -108,6 +108,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 		<a class="generalink" href="/propaganda/">Propaganda</a> |
 		<a class="generalink" href="/guida/">Guida</a> |
 		<a class="generalink" href="/contatti/">Contatti</a>
+		<a href="http://twitter.com/#!/LugMap"><img src="/immagini/twitter_bird.png"></a> <!-- borrowed from http://www.sfnblog.com/industry_trends/twitter_bird.jpg -->
 	</div>
 </div>
 
