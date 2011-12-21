@@ -85,6 +85,11 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 				$select = 7;
 				break;
 
+			case 'Eventi Linux in Italia':
+			case 'Informazioni su Calendar LugMap':
+				$select = 8;
+				break;
+
 			default:
 				$select = 0;
 				break;
@@ -115,6 +120,7 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 			<li><a<?php if ($select == 3) echo ' class="select"' ?> href="<?php echo $main_url ?>/partecipa.php">Partecipa</a></li>
 
 			<li><a<?php if ($select == 4) echo ' class="select"' ?> href="<?php echo $main_url ?>/forge.php">Progetti Collaterali</a></li>
+			<li class="verticalslider_subtabs"><a<?php if ($select == 8) echo ' class="select"' ?> href="http://calendar.lugmap.it/">Calendario Eventi</a>
 			<li class="verticalslider_subtabs"><a<?php if ($select == 5) echo ' class="select"' ?> href="<?php echo $main_url ?>/widget.php">Widget Web</a>
 			<li class="verticalslider_subtabs"><a<?php if ($select == 7) echo ' class="select"' ?> href="http://planet.lugmap.it/">Planet LugMap</a>
 

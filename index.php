@@ -13,6 +13,10 @@ if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugm
 			include ('widget.php');
 			break;
 
+		case 'calendar':
+			include ('calendar.php');
+			break;
+
 		default:
 			include ('visualizza-regione.php');
 			break;

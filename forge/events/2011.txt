@@ -1,0 +1,96 @@
+19/12||Firenze|Presentazione Gnome 3|http://www.ptlug.org/2011/12/gnome-3-sotto-il-vestito-molto/?utm_source=rss&utm_medium=rss&utm_campaign=gnome-3-sotto-il-vestito-molto
+19/12||Villafranca di Verona|Cena di Fine Anno|http://linuxludus.it/19122011-cena-di-fine-anno
+19/12||Brescia|Birrata di Natale|http://www.lugbs.linux.it/index.php#Lun._19_dicembre
+17/12|18/12|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=78:gnulinux-in-fiera&catid=4:appuntamenti&Itemid=9
+17/12||Catanzaro|Corso Web Design con l'Opensource|http://hacklab.cz/2011/11/09/corso-web-design-con-lopensource
+16/12||Tor Vergata|Roma2LUG Opening|http://lug.uniroma2.it/2011/12/13/roma2lug-opening/
+16/12||Vitorchiano|LAN Party|http://www.tulug.it/blog/2011/12/08/lan-party-di-natale-2011/
+16/12||Monte Sant’Angelo|Fotomontaggio con Gimp|http://msack.org/2011/12/05/tecniche-di-fotomontaggio/
+15/12||Novara|Open Officina: Audio & MIDI|http://linoxnovara.wordpress.com/2011/12/11/open-officina-audio-midi-con-gnulinux/
+10/12||Torino|Serata Linux/CreativeCommons|http://informaticalibera.info/index.php?option=com_content&view=article&id=109:sabato-10-dicembre-resistenze-digitali&catid=1:ultime
+10/12|11/12|Cremona|Expo' Elettronica|http://www.lugcr.it/joomla/index.php?option=com_content&view=article&id=103:expo-2011&catid=35:infolugcr
+09/12||Potenza|Incontro|http://www.baslug.org/index.php?option=com_content&view=article&id=71&Itemid=58
+07/12||Bergamo|Organizzazione Incontri a Scuola|http://bglug.it/2011/12/04/topicotd-collaborazione-con-itis-paleocapa/
+06/12||Tor Vergata|Incontro|http://lug.uniroma2.it/2011/12/05/incontro-6-dicembre-opening/
+06/12||Milano|Seminario VIM|http://www.poul.org/2011/12/seminario-sulleditor-di-testi-vim/
+06/12||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-dicembre
+03/12|04/12|Forli'|Expo Elettronica|http://www.folug.org/2011/11/23/expo-elettronica-forli-dicembre-2011/
+03/12||Cremona|Cena sociale|http://www.parma.linux.it/poll/2011/11/cena-sociale-pre-risottata-cremona-con-i-lug-confinanti
+03/12||Roma|Drupal Day|http://avezzanolug.org/content/drupalday-roma-il-3-dicembre
+02/12||Roma|LAN Party|http://www.sabazialug.org/2011/12/lan-party-openarena-e-urbanterror-fusolab-roma/?utm_source=rss&utm_medium=rss&utm_campaign=lan-party-openarena-e-urbanterror-fusolab-roma
+01/12||Trento|Serata a Tema: Zafara|http://www.linuxtrent.it/corsi-ed-incontri/serate-tema-su-migrazione-da-ms-exchange-verso-open-xchange/serata-tema-su-zarafa-
+29/11||Ivrea|"Etica informatica e Reciprocità"|http://www.ivlug.it/2011/11/etica-informatica-e-reciprocita/
+29/11||Siena|GNUnisi Day|http://www.gnu.unisi.it/2011/11/15/gnunisi-day-2011/
+27/11||Empoli|Mercatino di Natale|http://golem.linux.it/wp/2011/11/mercatino-di-natale-2011/
+27/11||Torino|Settimana Europea per la Riduzione dei Rifiuti|http://informaticalibera.info/index.php?option=com_content&view=article&id=108:settimana-della-riduzione-dei-rifiuti&catid=1:ultime
+26/11||Parma|Incontro con il comitato "Leggere tra le Ruspe"|http://www.parma.linux.it/news/2011/11/appuntamento-con-leggere-tra-le-ruspe
+26/11||Perugia|Open Source Scuola Media|http://www.perugiagnulug.org/giornata-open-source-scuola-media-bernardino-di-betto-di-perugia
+26/11||Udine|Open Source Day|http://www.opensourceday.org/2011/
+25/11||Forli'|Incontro Pubblico|http://www.folug.org/2011/11/22/incontro-25-novembre/
+24/11||Roma|Assemblea|http://lug.uniroma2.it/2011/11/23/assemblea-del-24-novembre/|
+24/11|25/11|Foggia|GFOSS Day|http://www.gfoss.it/drupal/gfossday2011
+24/11||Novara|Installazione di Linux su PC obsoleti|http://linoxnovara.wordpress.com/2011/11/08/speciale-open-officina-il-riuso-dei-pc/
+23/11||Bergamo|Serata Arduino|http://bglug.it/2011/11/22/topicotd-arduino-e-open-hardware/
+23/11||Milano|Key Signing Party|http://www.poul.org/2011/11/key-signing-party-23-novembre-2011/
+21/11||Villafranca di Verona|Serata a Tema: configurare il wireless|http://linuxludus.it/serate-tema-0
+19/11||Matera|Incontro|http://www.baslug.org/index.php?option=com_content&view=article&id=143:incontro-baslug-19-11-2011&catid=1:latest-news
+18/11||Bolzano|South Tyrol Free Software Conference|http://2011.sfscon.it/
+18/11||Orvieto|Install Party|http://www.orvietolug.it/progetti/60-install-party/138-linux-party-20114-orvieto-news-corsi
+18/11||Aosta|Incontro pubblico|http://www.slag.it/node/207
+17/11|18/11|Genova|Salone ABCD|http://alid.it/news.php?id=60
+17/11||Montefiore Conca|Incontro|http://www.vallug.net/index.php?mod=read&id=1320946608
+16/11||Bergamo|openSUSE Release Party|http://bglug.it/2011/11/14/topicotd-opensuse-12-1-release-party/
+15/11||Lodi|Fedora 16 Release Party|http://www.lolug.org/?q=node/98
+12/11||Catanzaro|OpenArena Contest|http://hacklab.cz/2011/11/02/openarena-contest-catanzaro-12112011
+10/11||Lonate Pozzolo|GULLP Night|http://www.gullp.it/gullp-night/
+09/11||Ferrara|Riciclo PC|http://www.ferrara.linux.it/notizie/105-apertura-serale-sede-del-progetto-triciclopc
+09/11||Bergamo|Incontro organizzativo ArchLinuxDay|http://bglug.it/2011/11/07/topicotd-archlinux-day/
+08/11||Firenze|Incontri sul Trashware|http://www.liberainformatica.it/newsite/index.php/attivita/eventi/2011/109-ciclo-di-incontri-allo-sportello-ecoequo
+08/11|09/11|Napoli|TechnologyBIZ|http://www.nalug.net/content/nalug-tbiz-2011
+08/11||Ivrea|"Web Semantico ed Edifici Intelligenti"|http://www.ivlug.it/2011/11/il-web-semantico-applicato-agli-edifici-intelligenti/
+07/11|01/12|Genova|Corso Base di Linux|http://alid.it/news.php?id=58
+07/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre
+29/10|31/10|Trento|Fiera "Fa La Cosa Giusta"|http://www.linuxtrent.it/fiera-fa-la-cosa-giusta-2011
+28/10|23/12|Torino|Corso di Alfabetizzazione|http://informaticalibera.info/index.php?option=com_content&view=article&id=103:nuova-sessione-dei-corsi-di-alfabetizzazione&catid=1:ultime
+22/10||Tutta Italia|Linux Day|http://www.linuxday.it/
+15/10||Asti|Mapping Party|http://www.progettoradis.it/index.php?option=com_content&view=article&id=62:ad-asti-un-mapping-party&catid=35:blog
+13/10|14/10|Ferrara|GNewArchaeology|http://www.fsugitalia.org/wp/2011/10/gnewarchaeology-software-libero-archeologia/
+13/10||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-ottobre-1
+09/10||Torino|Conferenza Trashware|http://informaticalibera.info/index.php?option=com_content&view=article&id=101:domenica-9-ottobre-trashwar&catid=1:ultime
+08/10||Pinerolo|Corso Joomla!|http://pinerolo.linux.it/index.php/eventi/3-prossimi-incontri/52-corso-joomla-a-pinerolo.html
+08/10||Castelfranco Veneto|Presentazione a Scuola|http://www.montellug.it/giovani-e-tecnologia-810-itis-barsanti/412
+07/10|28/10|Milano|Corso Introduttivo a Linux|http://www.poul.org/2011/10/introduzione-a-gnulinux/
+04/10||Ivrea|Proiezione "Quando Olivetti invento' il PC"|http://www.ivlug.it/2011/09/proiezione-del-film-quando-olivetti-invento-il-pc/
+03/10|12/10|Trento|Corso Linea di Comando|http://www.linuxtrent.it/corsi-ed-incontri/corso-gnulinux-da-linea-di-comando-2011
+02/10||Bologna|Volontassociate|http://erlug.linux.it/main/index.php?name=News&file=article&sid=404
+02/10||Cremona|Festa del Volontariato|http://www.lugcr.it/joomla/index.php?option=com_content&view=article&id=100:lugcr-alla-festa-del-volontariato-2011&catid=35:infolugcr
+02/10||Colonnata|Fiera delle Economie Solidali|http://www.liberainformatica.it/newsite/index.php/eventi/2011/103-fiera-delleconomia-solidale
+01/10||Torino|LAN party|http://informaticalibera.info/index.php?option=com_content&view=article&id=100:sabato-1-ottobre-lan-party&catid=1:ultime
+27/09||Finalborgo|Incontro sul kernel Linux|http://www.govonis.org/index.php?option=com_content&view=article&id=76:ventanni-di-concorrenza&catid=4:appuntamenti&Itemid=9
+25/09||Malagnino|Open Farm|http://www.lugcr.it/joomla/index.php?option=com_content&view=article&id=99:open-farm&catid=35:infolugcr
+24/09|25/09|Treviso|Fiera Quattro Passi|http://www.montellug.it/partecipazione-fiera-4-passi-2011/402
+24/09||Torino|Compleanno Casa del Quartiere|http://informaticalibera.info/component/content/article/1-ultime/99-un-anno-a-casa-del-quartiere.html
+23/09|28/10|Firenze|Corso di Base|http://www.liberainformatica.it/newsite/index.php/component/content/article/35-corsi-a-privati/101-corsi
+22/09||San Giorgio a Cremano|Conferenza sulla Pubblica Amministrazione|http://hopfrog.it/evento/il-risparmio-delle-risorse-comuni-il-software-libero-nella-pubblica-amministrazione
+20/09|02/10|Milano|FUDCon|http://frande.frafra.eu/2011/09/30/fudcon-2011-milano/?utm_source=rss&utm_medium=rss&utm_campaign=fudcon-2011-milano
+19/09|24/10|Firenze|Corso di Gimp|http://www.liberainformatica.it/newsite/index.php/component/content/article/35-corsi-a-privati/101-corsi
+18/09||Villafranca di Verona|LAN Party|http://linuxludus.it/gazega
+17/09|18/09|Firenze|Festa del Benessere|http://www.liberainformatica.it/newsite/index.php/eventi/2011/102-festa-del-benessere-2011
+17/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2011/Italy
+17/09||San Pietro in Valle|Risottata Nerd|http://risotto.lugbs.linux.it/2011/08/04/annunciazione-annunciazione/
+16/09|08/10|Catanzaro|Corso Linux Base|http://hacklab.cz/?q=node/369
+14/09||Aosta|Riunione LinuxDay|http://www.slag.it/node/201
+14/09||Torreano di Martignacco|Presentazione Corso Blender|http://iglu.cc.uniud.it/?p=514
+13/09||Finalborgo|Incontro sul kernel Linux|http://www.govonis.org/index.php?option=com_content&view=article&id=74:appunti-di-viaggio-intorno-al-kernel-2-&catid=3:avvenimenti&Itemid=8
+09/09|11/09|Scarlino|Convention Associazioni Software Libero|http://www.grolug.org/conassl-2011-3a-edizione-9-10-11-settembre
+08/09|09/09|Torino|Italian Perl Workshop 2011|http://www.gl-como.it/2011/05/26/italian-perl-workshop-2011/
+06/09||Ivrea|Riunione Linux Day|http://www.ivlug.it/2011/09/linux-day-2011-incontro-organizzativo-2011-09-06/
+06/09||Finalborgo|Incontro sul kernel Linux|http://www.govonis.org/index.php?option=com_content&view=article&id=73:appunti-di-viaggio-intorno-al-kernel
+03/09|04/09|Montichiari|Fiera Radiantistica|http://www.lugbs.linux.it/index.php#Sab._3_e_dom._4_Settembre
+03/09||Napoli|Riunione LinuxDay|http://www.nalug.net/content/riunione-3-settembre-2011
+02/09|04/09|Tessera|End Summer Camp 2K11|http://www.fsugitalia.org/wp/2011/08/end-summer-camp-2011/
+28/08|31/08|Palazzolo Acreide|Esposizione Computer Storici|http://siracusa.linux.it/index.php?sn=115
+25/08||Brescia|20 anni di Linux|http://www.lugbs.linux.it/index.php#Gio._25_Agosto
+24/08|27/08|Avellino|Workshop Linux|http://www.hcsslug.org/?SEC=news&id=109
+17/08|20/08|Bardineto|Festival "Balla coi Cinghiali"|http://www.govonis.org/index.php?option=com_content&view=article&id=72:il-software-libero-a-balla-coi-cinghiali&catid=4:appuntamenti&Itemid=9
+04/07|22/08|Bassano del Grappa|Ritrovo Settimanale|http://grappalug.org/content/ritrovo-estivo

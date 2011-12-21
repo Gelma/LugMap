@@ -96,7 +96,8 @@ img {
 .description {
 	margin: auto;
 	text-align: center;
-	padding: 30px;
+	padding: 10px;
+	border-bottom: 2px solid #000;
 }
 
 .description-plain {
@@ -383,5 +384,46 @@ fieldset {
 	font-size: 25px;
 	margin-right: 25px;
 	margin: auto;
+}
+
+.calendar_top {
+	width: 100%;
+}
+
+.calendar_top td {
+	vertical-align: top;
+	text-align: center;
+}
+
+.calendar_month {
+	width: 60%;
+	margin: auto;
+}
+
+.calendar_month .marked {
+	background-color: #AAA;
+}
+
+.calendar_month .markedhover {
+	background-color: #000;
+	color: #FFF;
+}
+
+.calendar_month .today {
+	border: 2px solid #000;
+}
+
+.day_dialog {
+	position:absolute;
+	display:none;
+	background-color: #FFF;
+	padding: 10px;
+	border: 2px solid #000;
+	color: #000;
+	text-align: left;
+}
+
+.day_dialog a {
+	color: #000;
 }
 
