@@ -107,11 +107,15 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 		<a class="generalink" href="/partecipa/">Partecipa</a> |
 		<a class="generalink" href="/propaganda/">Propaganda</a> |
 		<a class="generalink" href="/guida/">Guida</a> |
-		<a class="generalink" href="/contatti/">Contatti</a><br />
-		<a href="http://twitter.com/#!/LugMap"><img src="/immagini/twitter_bird.png"></a> <!-- borrowed from http://www.sfnblog.com/industry_trends/twitter_bird.jpg -->
-		<a href="https://github.com/Gelma/LugMap/commits/master.atom"><img src="/immagini/feed.png"></a> <!-- borrowed from http://www.ilsitoblu.com/wp-content/uploads/2009/01/feed.jpg -->
-		<a href="https://www.facebook.com/groups/284932411527993/"><img src="/immagini/facebook.png"></a> <!-- borrowed from http://www.gossipitaliano.it/wp-content/uploads/2010/09/facebook_non_funziona-150x150.jpg -->
-		<a href="https://github.com/Gelma/LugMap"><img src="/immagini/github.png"></a> <!-- borrowed from http://www.ninthdivision.com/wp-content/uploads/2010/12/github-logo.png -->
+		<a class="generalink" href="/contatti/">Contatti</a>
+
+		<p class="social">
+			<!-- Icone prese da http://kooc.co.uk/need-some-up-to-date-social-media-icons -->
+			<a href="http://twitter.com/#!/LugMap"><img src="/immagini/twitter.png"></a>
+			<a href="https://github.com/Gelma/LugMap/commits/master.atom"><img src="/immagini/rss.png"></a>
+			<a href="https://www.facebook.com/groups/284932411527993/"><img src="/immagini/facebook.png"></a>
+			<a href="https://github.com/Gelma/LugMap"><img src="/immagini/github.png"></a>
+		</p>
 	</div>
 </div>
 
