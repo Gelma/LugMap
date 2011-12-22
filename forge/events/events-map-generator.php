@@ -45,7 +45,7 @@ while (true) {
 		continue;
 
 	list ($lat, $lon) = $result;
-	$lon = shift_city ($city, $lon, $found_cities);
+	$lon = shift_city ($location, $lon, $found_cities);
 	$found_cities [] = $location;
 
 	if (($d > $current_day && $m == $current_month && $year == $current_year) || ($m > $current_month && $year == $current_year) || ($year > $current_year))

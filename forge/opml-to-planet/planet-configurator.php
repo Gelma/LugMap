@@ -25,7 +25,7 @@ owner_email = lugmap@lists.linux.it
 
 cache_directory = tmp/planet_cache
 new_feed_items = 2
-log_level = INFO
+log_level = WARNING
 feed_timeout = 20
 
 template_files = /var/www/lugmap/LugMap/forge/opml-to-planet/index.html.tmpl /var/www/lugmap/LugMap/forge/opml-to-planet/atom.xml.tmpl /var/www/lugmap/LugMap/forge/opml-to-planet/rss20.xml.tmpl /var/www/lugmap/LugMap/forge/opml-to-planet/rss10.xml.tmpl /var/www/lugmap/LugMap/forge/opml-to-planet/opml.xml.tmpl /var/www/lugmap/LugMap/forge/opml-to-planet/foafroll.xml.tmpl

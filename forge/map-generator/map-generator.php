@@ -12,6 +12,14 @@ global $geocache;
 $rows = array ("lat\tlon\ttitle\tdescription\ticonSize\ticonOffset\ticon");
 
 foreach ($elenco_regioni as $region => $name) {
+	/*
+		I gruppi di carattere nazionale non possono essere messi sulla
+		cartina (a meno di piazzare un grosso marker di traverso su
+		tutta la nazione, ma non mi sembra il caso...), dunque li salto
+	*/
+	if ($name == "Italia")
+		continue;
+
         $lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	$cities = file ('liste_comuni/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	$found_cities = array ();
