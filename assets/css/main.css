@@ -428,7 +428,11 @@ fieldset {
 }
 
 .calendar_map_tab {
-	height: 70%;
+	height: 65%;
+}
+
+.calendar_map_legend img {
+	display: inline;
 }
 
 .calendar_top {

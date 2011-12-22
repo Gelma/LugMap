@@ -25,6 +25,10 @@ do_head ('Eventi Linux in Italia', array ('js/calendar.js', 'http://openlayers.o
 	<input type="hidden" name="default_zoom" value="5" />
 	<input type="hidden" name="coords_file" value="forge/events/geoevents.txt" />
 	<div id="map" class="smallmap"></div>
+
+	<p class="calendar_map_legend">
+		<img alt="Evento passati" src="http://lugmap.it/images/past_events.png" />&nbsp;Evento occorso nell'ultimo mese <img alt="Prossimo evento" src="http://lugmap.it/images/icon.png" />&nbsp;Prossimo evento
+	</p>
 </div>
 
 <div class="calendar_table_tab">
@@ -57,6 +61,7 @@ do_head ('Eventi Linux in Italia', array ('js/calendar.js', 'http://openlayers.o
 	$row = $events [$events_index];
 	list ($date, $useless, $location, $what, $url) = explode ('|', $row);
 	list ($d, $m) = explode ('/', $date);
+	$events_index--;
 
 	/*
 		Data all'americana: mese/giorno/anno

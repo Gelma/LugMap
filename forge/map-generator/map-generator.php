@@ -2,17 +2,6 @@
 
 require_once ('../../varie.php');
 
-/*
-	Scopiazzato da http://www.phpbuilder.com/board/showthread.php?t=10287962
-*/
-function howMany ($needle, $haystack) {
-	$exists = array_search ($needle, $haystack);
-	if ($exists !== FALSE)
-		return 1 + howMany ($needle, array_slice ($haystack, ($exists + 1)));
-
-	return 0;
-}
-
 init_geocache ();
 global $geocache;
 

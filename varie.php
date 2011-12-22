@@ -173,6 +173,19 @@ function do_foot () {
 
 /***************************************************************************************************************/
 
+/*
+	Scopiazzato da http://www.phpbuilder.com/board/showthread.php?t=10287962
+*/
+function howMany ($needle, $haystack) {
+	$exists = array_search ($needle, $haystack);
+	if ($exists !== FALSE)
+		return 1 + howMany ($needle, array_slice ($haystack, ($exists + 1)));
+
+	return 0;
+}
+
+/***************************************************************************************************************/
+
 function latlon_magic ($lat, $lon) {
 	/*
 		Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
