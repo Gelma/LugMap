@@ -1,7 +1,7 @@
 <?php
 
 require_once ('varie.php');
-do_head ('Eventi Linux in Italia', array ('js/calendar.js'));
+do_head ('Eventi Linux in Italia', array ('js/calendar.js', 'http://openlayers.org/api/OpenLayers.js', 'js/mappa.js'));
 
 ?>
 
@@ -16,150 +16,163 @@ do_head ('Eventi Linux in Italia', array ('js/calendar.js'));
 	</div>
 </div>
 
-<?php
+<div class="calendar_toggler">
+	<p id="calendar_map_toggle" class="calendar_style_toggle calendar_style_toggle_selected">Mappa</p>
+	<p id="calendar_table_toggle" class="calendar_style_toggle">Calendario</p>
+</div>
 
-$month_names = array ('Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno',
-		'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre');
+<div class="calendar_map_tab">
+	<input type="hidden" name="default_zoom" value="5" />
+	<input type="hidden" name="coords_file" value="forge/events/geoevents.txt" />
+	<div id="map" class="smallmap"></div>
+</div>
 
-$current_month = date ('m');
-$current_day = date ('d');
-$year = date ('Y');
-$month = date ('m', strtotime ('-4 month'));
-
-if ($month > $current_month)
-	$year = $year - 1;
-
-$events = file ("forge/events/$year.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-
-for ($events_index = 0; $events_index < count ($events); $events_index++) {
-	$row = $events [$events_index];
-	list ($date, $useless) = explode ('|', $row);
-	list ($d, $m) = explode ('/', $date);
-
-	if ($m < $month) {
-		$events_index--;
-		break;
-	}
-}
-
-$row = $events [$events_index];
-list ($date, $useless, $location, $what, $url) = explode ('|', $row);
-list ($d, $m) = explode ('/', $date);
-
-/*
-	Data all'americana: mese/giorno/anno
-	Non ho voglia di gestire le locale...
-*/
-$start_day = date ('N', strtotime ("$month/1/$year"));
-
-$eof = false;
-
-?>
-
-<table class="calendar_top">
-	<tr>
-
+<div class="calendar_table_tab">
 	<?php
 
-	for ($i = 0; $i < 9; $i++) {
-		if ($i % 3 == 0) {
+	$month_names = array ('Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno',
+			'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre');
+
+	$current_month = date ('m');
+	$current_day = date ('d');
+	$year = date ('Y');
+	$month = date ('m', strtotime ('-2 month'));
+
+	if ($month > $current_month)
+		$year = $year - 1;
+
+	$events = file ("forge/events/$year.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+	for ($events_index = 0; $events_index < count ($events); $events_index++) {
+		$row = $events [$events_index];
+		list ($date, $useless) = explode ('|', $row);
+		list ($d, $m) = explode ('/', $date);
+
+		if ($m < $month) {
+			$events_index--;
+			break;
+		}
+	}
+
+	$row = $events [$events_index];
+	list ($date, $useless, $location, $what, $url) = explode ('|', $row);
+	list ($d, $m) = explode ('/', $date);
+
+	/*
+		Data all'americana: mese/giorno/anno
+		Non ho voglia di gestire le locale...
+	*/
+	$start_day = date ('N', strtotime ("$month/1/$year"));
+
+	$eof = false;
+
+	?>
+
+	<table class="calendar_top">
+		<tr>
+
+		<?php
+
+		for ($i = 0; $i < 4; $i++) {
+			if ($i % 2 == 0) {
+				?>
+
+				</tr><tr>
+
+				<?php
+			}
+
 			?>
 
-			</tr><tr>
+			<td>
+				<table class="calendar_month">
+					<caption><?php echo $month_names [$month - 1] ?></caption>
 
-			<?php
-		}
-
-		?>
-
-		<td>
-			<table class="calendar_month">
-				<caption><?php echo $month_names [$month - 1] ?></caption>
-
-				<tr>
-					<?php
-
-					for ($a = 1; $a < $start_day; $a++) {
-						?>
-						<td>&nbsp;</td>
+					<tr>
 						<?php
-					}
 
-					for ($e = 0; $e < cal_days_in_month (CAL_GREGORIAN, $month, $year); $e++, $a++) {
-						if ($a == 8) {
-							$a = 1;
-
-							?></tr><tr><?php
+						for ($a = 1; $a < $start_day; $a++) {
+							?>
+							<td>&nbsp;</td>
+							<?php
 						}
 
-						$this_day = $e + 1;
+						for ($e = 0; $e < cal_days_in_month (CAL_GREGORIAN, $month, $year); $e++, $a++) {
+							if ($a == 8) {
+								$a = 1;
 
-						$td_class = array ('day_cell');
-						$contents = '';
+								?></tr><tr><?php
+							}
 
-						if ($this_day == $current_day && $month == $current_month)
-							$td_class [] = 'today';
+							$this_day = $e + 1;
 
-						if ($eof == false && $this_day == $d && $m == $month) {
-							$day_id = "${this_day}_${month}_" . rand ();
-							$td_class [] = 'marked';
-							array_unshift ($td_class, $day_id);
-							$contents = '<div class="day_dialog" id="' . $day_id . '">';
+							$td_class = array ('day_cell');
+							$contents = '';
 
-							do {
-								$contents .= "<p>$location: <a href=\"$url\">$what</a></p>";
+							if ($this_day == $current_day && $month == $current_month)
+								$td_class [] = 'today';
 
-								if ($events_index == -1) {
-									$eof = true;
-									break;
-								}
+							if ($eof == false && $this_day == $d && $m == $month) {
+								$day_id = "${this_day}_${month}_" . rand ();
+								$td_class [] = 'marked';
+								array_unshift ($td_class, $day_id);
+								$contents = '<div class="day_dialog" id="' . $day_id . '">';
 
-								$row = $events [$events_index];
-								list ($date, $useless, $location, $what, $url) = explode ('|', $row);
-								list ($d, $m) = explode ('/', $date);
-								$events_index--;
-							} while ($this_day == $d && $m == $month);
+								do {
+									$contents .= "<p>$location: <a href=\"$url\">$what</a></p>";
 
-							$contents .= '</div>';
+									if ($events_index == -1) {
+										$eof = true;
+										break;
+									}
+
+									$row = $events [$events_index];
+									list ($date, $useless, $location, $what, $url) = explode ('|', $row);
+									list ($d, $m) = explode ('/', $date);
+									$events_index--;
+								} while ($this_day == $d && $m == $month);
+
+								$contents .= '</div>';
+							}
+
+							?>
+
+							<td class="<?php echo join (' ', $td_class) ?>"><?php echo $this_day ?><?php echo $contents ?></td>
+
+							<?php
 						}
 
 						?>
+				</table>
 
-						<td class="<?php echo join (' ', $td_class) ?>"><?php echo $this_day ?><?php echo $contents ?></td>
+				<?php
 
-						<?php
-					}
+				$month += 1;
+				$start_day = $a;
 
-					?>
-			</table>
+				if ($month == 13) {
+					$month = 1;
+					$year++;
 
-			<?php
+					unset ($events);
+					$events = file ("forge/events/$year.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+					$events_index = count ($events) - 1;
 
-			$month += 1;
-			$start_day = $a;
+					$row = $events [$events_index];
+					list ($date, $useless) = explode ('|', $row);
+					list ($d, $m) = explode ('/', $date);
 
-			if ($month == 13) {
-				$month = 1;
-				$year++;
-
-				unset ($events);
-				$events = file ("forge/events/$year.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-				$events_index = count ($events) - 1;
-
-				$row = $events [$events_index];
-				list ($date, $useless) = explode ('|', $row);
-				list ($d, $m) = explode ('/', $date);
-
-				$eof = false;
+					$eof = false;
+				}
 			}
-		}
 
-		?>
+			?>
 
-		</td>
+			</td>
 
-	</tr>
-</table>
+		</tr>
+	</table>
+</div>
 
 <?php
 do_foot ();

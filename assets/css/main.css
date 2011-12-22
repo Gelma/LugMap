@@ -408,8 +408,36 @@ fieldset {
 	border-radius: 20px;
 }
 
+.calendar_toggler {
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.calendar_style_toggle {
+	display: inline;
+	padding: 10px;
+	width: 100px;
+	font-size: 20px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.calendar_style_toggle_selected {
+	background-color: #F0F0F0;
+}
+
+.calendar_map_tab {
+	height: 70%;
+}
+
 .calendar_top {
+	margin-top: 50px;
 	width: 100%;
+}
+
+.calendar_top caption {
+	border-bottom: 1px solid #000;
 }
 
 .calendar_top td {

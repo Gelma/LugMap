@@ -66,19 +66,20 @@ function init () {
 	map.addControl(new OpenLayers.Control.Permalink());
 	map.addControl(new OpenLayers.Control.ScaleLine());
 
-	var newl = new OpenLayers.Layer.Text( "LUG", {location: "./dati.txt"} );
+	var f = $('input[name=coords_file]').val ();
+	var newl = new OpenLayers.Layer.Text( "LUG", {location: f} );
 	map.addLayer(newl);
+
+	zoom = $('input[name=default_zoom]').val ();;
 
 	if ($('input[name=zooming_lat]').length != 0) {
 		lat = $('input[name=zooming_lat]').val ();
 		lon = $('input[name=zooming_lon]').val ();
-		zoom = 12;
 		ll = new OpenLayers.LonLat(lon, lat);
 	}
 	else {
 		lon = 12.483215;
 		lat = 41.979911;
-		zoom = 6;
 		ll = lonLatToMercator(new OpenLayers.LonLat(lon, lat));
 	}
 
