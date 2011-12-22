@@ -45,16 +45,7 @@ while (true) {
 		continue;
 
 	list ($lat, $lon) = $result;
-
-	/*
-		Questo e' per evitare che due punti si sovrappongano, quelli che vengono
-		trovati nella stessa citta' (e dunque alle stesse coordinate) vengono
-		arbitrariamente shiftati
-	*/
-	$occurrences = howMany ($location, $found_cities);
-	if ($occurrences != 0)
-		$lon = $lon + (3000 * $occurrences);
-
+	$lon = shift_city ($city, $lon, $found_cities);
 	$found_cities [] = $location;
 
 	if (($d > $current_day && $m == $current_month && $year == $current_year) || ($m > $current_month && $year == $current_year) || ($year > $current_year))
@@ -76,11 +67,7 @@ while (true) {
 	}
 }
 
-if (file_put_contents ('geoevents.txt', join ("\n", $rows) . "\n") === false)
-	echo "Errore nel salvataggio del file\n";
-else
-	echo "I dati sono stati scritti nel file 'geoevents.txt'\n";
-
+write_geo_file ('geoevents.txt', $rows);
 save_geocache ();
 
 ?>

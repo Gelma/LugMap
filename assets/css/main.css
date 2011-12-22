@@ -421,6 +421,7 @@ fieldset {
 	font-size: 20px;
 	cursor: hand;
 	cursor: pointer;
+	font-family: Georgia,"Times New Roman",Times,serif;
 }
 
 .calendar_style_toggle_selected {

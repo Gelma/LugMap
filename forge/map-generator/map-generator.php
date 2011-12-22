@@ -29,16 +29,7 @@ foreach ($elenco_regioni as $region => $name) {
 					continue;
 
 				list ($lat, $lon) = $result;
-
-				/*
-					Questo e' per evitare che due punti si sovrappongano, quelli che vengono
-					trovati nella stessa citta' (e dunque alle stesse coordinate) vengono
-					arbitrariamente shiftati
-				*/
-				$occurrences = howMany ($city, $found_cities);
-				if ($occurrences != 0)
-					$lon = $lon + (3000 * $occurrences);
-
+				$lon = shift_city ($city, $lon, $found_cities);
 				$found_cities [] = $city;
 
 				$rows [] = "$lat\t$lon\t$name\t<a href=\"$site\">$site</a>\t16,19\t-8,-19\thttp://lugmap.it/images/icon.png";
@@ -53,15 +44,7 @@ foreach ($elenco_regioni as $region => $name) {
 	}
 }
 
-/*
-	Attenzione: e' necessario mettere un newline anche al fondo dell'ultima
-	riga del file, la quale viene altrimenti ignorata da OpenLayer
-*/
-if (file_put_contents ('dati.txt', join ("\n", $rows) . "\n") === false)
-	echo "Errore nel salvataggio del file\n";
-else
-	echo "I dati sono stati scritti nel file 'dati.txt'\n";
-
+write_geo_file ('dati.txt', $rows);
 save_geocache ();
 
 ?>

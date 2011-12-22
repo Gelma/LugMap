@@ -186,6 +186,19 @@ function howMany ($needle, $haystack) {
 
 /***************************************************************************************************************/
 
+function shift_city ($city, $lon, $found_cities) {
+	/*
+		Questo e' per evitare che due punti si sovrappongano, quelli che vengono
+		trovati nella stessa citta' (e dunque alle stesse coordinate) vengono
+		arbitrariamente shiftati
+	*/
+	$occurrences = howMany ($city, $found_cities);
+	if ($occurrences != 0)
+		$lon = $lon + (3000 * $occurrences);
+
+	return $lon;
+}
+
 function latlon_magic ($lat, $lon) {
 	/*
 		Formule per la conversione delle coordinate brutalmente scopiazzate da linuxday.it
@@ -319,6 +332,17 @@ function save_geocache () {
 
 	sort ($geocache);
 	file_put_contents ('../../geocache.txt', join ("\n", $geocache));
+}
+
+function write_geo_file ($name, $contents) {
+	/*
+		Attenzione: e' necessario mettere un newline anche al fondo dell'ultima
+		riga del file, la quale viene altrimenti ignorata da OpenLayer
+	*/
+	if (file_put_contents ($name, join ("\n", $contents) . "\n") === false)
+		echo "Errore nel salvataggio del file\n";
+	else
+		echo "I dati sono stati scritti nel file '$name'\n";
 }
 
 ?>
