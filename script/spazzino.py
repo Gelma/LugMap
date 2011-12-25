@@ -57,6 +57,10 @@ if True: # import dei moduli
 	except:
 		import pickle
 
+	try:
+		import dns.resolver
+	except: sys.exit("Installa http://www.dnspython.org/: 'easy_install dnspython' oppure 'apt-get install python-dnspython'")
+
 def logga(*args):
 	"""Ricevo un testo o un array e lo butto nei log di sistema"""
 
@@ -183,9 +187,9 @@ class LUG(persistent.Persistent):
 
 		logga('Lug <'+self.id+'>: controllo DNS per '+self.dominio)
 		try:
-			self._v_DNS_attuali = set([ IP[4][0] for IP in socket.getaddrinfo(self.dominio, 80, 0, 0, socket.SOL_TCP)])
+			self._v_DNS_attuali = set([str(x) for x in dns.resolver.query(self.dominio, tcp=True)])
 		except:
-			self.notifica("Errore DNS per "+self.dominio)
+			self.notifica("Errore DNS ("+str(sys.exc_info()[0])+") per "+self.dominio)
 
 			if self.dns_errore_segnalato is False:
 				self.dns_errore_segnalato = time.time()
