@@ -70,4 +70,5 @@ class email():
 			smtp.sendmail(self.mittente, self.destinatario, self.mail_completa)
 			smtp.quit()
 		except:
+			print self.mail_completa
 			raise ErroreGenerico('Invio della mail fallito')
