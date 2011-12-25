@@ -40,7 +40,7 @@ if True: # import dei moduli
 	try:
 		import ZODB, persistent, transaction
 	except:
-		sys.exit("Installa ZODB3: 'easy_install zodb3' oppyre 'apt-get install python-zodb'")
+		sys.exit("Installa ZODB3: 'easy_install zodb3' oppure 'apt-get install python-zodb'")
 
 	try:
 		import mechanize
@@ -83,15 +83,15 @@ except:
 	sys.exit('Problema sul DB')
 
 if True: # variabili globali
-	elenco_lug						= set() # usato per cancellare Lug rimossi da zodb e per controllare omonimie
-	tempo_minimo_per_i_controlli	= 120 # secondi
-	elenco_thread					= []
-	ritardo_lancio_thread			= 5 # secondi tra un thread e l'altro
-	path_coda						= '/tmp/' # posizione dei file temporanei di coda
-	report 							= [] # linee del report finale
+	elenco_lug                   = set() # usato per cancellare Lug rimossi da zodb e per controllare omonimie
+	tempo_minimo_per_i_controlli = 120 # secondi
+	elenco_thread                = []
+	ritardo_lancio_thread        = 5 # secondi tra un thread e l'altro
+	path_coda                    = '/tmp/' # posizione dei file temporanei di coda
+	report                       = [] # linee del report finale
+	pidfile                      = '/tmp/.spazzino.pid' # controllo istanze attive
+	orario_partenza              = time.time()
 	socket.setdefaulttimeout(tempo_minimo_per_i_controlli / 2) # Timeout in secondi del fetching delle pagine (onorato da urllib2, a sua volta usato da Mechanize)
-	pidfile							= '/tmp/.spazzino.pid' # controllo istanze attive
-	orario_partenza					= time.time()
 
 if True: # controllo istanze attive
 	if os.path.isfile(pidfile):
