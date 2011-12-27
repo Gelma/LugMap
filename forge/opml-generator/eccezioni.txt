@@ -36,3 +36,5 @@ http://www.avilug.it/feed.php
 http://www.clug.it/wiki/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
 # MediaWiki, modifiche sul wiki
 http://blah.pizzahack.eu/w/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# Non correlato ai temi del freesoftware
+http://hopfrog.it/rss.xml

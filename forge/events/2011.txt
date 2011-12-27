@@ -1,3 +1,4 @@
+31/12||Brescia|Progetto GNUmerica|http://www.circolab.net/prima-di-tutto-laperitivo-al-circolab/
 19/12||Firenze|Presentazione Gnome 3|http://www.ptlug.org/2011/12/gnome-3-sotto-il-vestito-molto/?utm_source=rss&utm_medium=rss&utm_campaign=gnome-3-sotto-il-vestito-molto
 19/12||Villafranca di Verona|Cena di Fine Anno|http://linuxludus.it/19122011-cena-di-fine-anno
 19/12||Brescia|Birrata di Natale|http://www.lugbs.linux.it/index.php#Lun._19_dicembre
