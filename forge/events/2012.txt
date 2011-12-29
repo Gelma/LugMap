@@ -1,2 +1,3 @@
 21/01||Pescara|Inizio Corso di Linux|http://www.pescaralug.org/2011/12/22/corsi-linux-2012/
 14/01||Pinerolo|Corso GNU/Linux|http://pinerolo.linux.it/index.php/eventi/3-prossimi-incontri/56-corso-gratuito-gnulinux-a-gennaio.html
+03/01||FinalBorgo|Ripresa Incontri Tematici|http://www.govonis.org/index.php?option=com_content&view=article&id=80:incontri-tematici-del-martedi-sera&catid=4:appuntamenti&Itemid=9
