@@ -249,23 +249,25 @@ function ask_nominatim ($c) {
 
 	/*
 		I risultati restituiti da Nominatim sono molteplici, e non sempre coerenti,
-		qui cerchiamo il riferimento esplicito a "city" o "town" (credo che li usi
+		qui cerchiamo il riferimento esplicito a diversi tipi (credo che li usi
 		a seconda delle dimensioni del centro abitato) e se non si trova nulla
 		passera' all'interrogazione di GeoNames. Attenzione: non usare i nodi di tipo
 		"administrative", sono veramente troppo poco precisi
 	*/
-	$results = $xpath->query ("/searchresults/place[@type='city']", $doc);
-	if ($results->length < 1) {
-		$results = $xpath->query ("/searchresults/place[@type='town']", $doc);
-		if ($results->length < 1) {
-			$results = $xpath->query ("/searchresults/place[@type='hamlet']", $doc);
-			if ($results->length < 1) {
-				$results = $xpath->query ("/searchresults/place[@type='village']", $doc);
-				if ($results->length < 1)
-					return null;
-			}
+
+	$found = false;
+	$accepted_nodes = array ('city', 'town', 'hamlet', 'village', 'suburb');
+
+	foreach ($accepted_nodes as $accept) {
+		$results = $xpath->query ("/searchresults/place[@type='$accept']", $doc);
+		if ($results->length > 0) {
+			$found = true;
+			break;
 		}
 	}
+
+	if ($found == false)
+		return null;
 
 	$node = $results->item (0);
 	$lat = $node->getAttribute ('lat');
