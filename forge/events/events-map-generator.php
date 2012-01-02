@@ -41,8 +41,11 @@ while (true) {
 	$c = str_replace (' ', '%20', $location);
 
 	$result = ask_coordinates ($c);
-	if ($result == null)
+	if ($result == null) {
+		echo "Impossibile recuperare coordinate per $c\n";
+		$events_index--;
 		continue;
+	}
 
 	list ($lat, $lon) = $result;
 	$lon = shift_city ($location, $lon, $found_cities);
