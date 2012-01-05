@@ -19,3 +19,13 @@ ToDo
 	singolo iframe con all'interno la pagina vera e propria (ivi compreso il
 	link alternate con l'RSS).
 	Ci sono almeno un paio di siti in queste condizioni...
+
+- feeds RSS (ultimo aggiornamento 28/12/2011)
+	http://www.3bylug.tk/ - sito incluso in un frame, ingegnarsi per aggirarlo
+	http://cslug.linux.it/ - errore PHP nell'accesso al feed, mandata mail segnalazione
+	http://www.verdebinario.org/ - il feed c'e' ed e' valido ma non e' possibile fare l'auto-discovery, mandata mail segnalazione
+	http://www.ravennalug.org/ - il feed c'e' ed e' valido, ma l'auto-discovery rimanda ad un URL sbagliato, mandata mail segnalazione
+	http://www.openlab-dist.org/ - il feed c'e' ed e' valido ma non e' possibile fare l'auto-discovery, mandata mail segnalazione
+	http://www.linuxfm.org/ - sito incluso in un frame, ingegnarsi per aggirarlo
+	http://www.tosslab.it/ - il feed c'e' ed e' valido ma non e' possibile fare l'auto-discovery, mandata mail segnalazione
+	http://www.orvietolug.it/ - manca il feed, mandata mail segnalazione
