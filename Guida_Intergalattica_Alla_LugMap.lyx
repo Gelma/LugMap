@@ -1,5 +1,5 @@
 #LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 421
+\lyxformat 422
 \begin_document
 \begin_header
 \textclass book
@@ -29,11 +29,11 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
-\use_undertilde 1
+\use_package amsmath 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mhchem 1
+\use_package undertilde 1
 \cite_engine basic
 \biblio_style plain
 \use_bibtopic false
@@ -72,7 +72,7 @@ Andrea Gelmini e Roberto Guido
 \end_layout
 
 \begin_layout Date
-20 Dicembre 2011
+5 Gennaio 2012
 \end_layout
 
 \begin_layout Standard
@@ -1317,8 +1317,7 @@ docs area di stesura della documentazione.
 \end_layout
 
 \begin_layout Standard
-Per poter accedere a questi è necessario, solamente la prima volta, dare
- i seguenti comandi:
+Per poter accedere a questi è necessario dare il seguente comando:
 \end_layout
 
 \begin_layout Standard
@@ -1328,27 +1327,17 @@ status open
 
 \begin_layout Plain Layout
 
-git checkout -t -b lugmap.it origin/lugmap.it
-\end_layout
-
-\begin_layout Plain Layout
-
-git checkout -t -b lugmap.linux.it origin/lugmap.linux.it
-\end_layout
-
-\begin_layout Plain Layout
-
-git checkout -t -b docs origin/docs
-\end_layout
-
-\begin_layout Plain Layout
-
-git checkout master
+git checkout master script/aggiorna_tutti_i_branch.sh
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Lo stesso comando può essere utilizzato, in un secondo tempo, per l'aggiornament
+o completo dei branch.
 \end_layout
 
 \begin_layout Standard
@@ -1896,6 +1885,57 @@ Sono attivi anche due controlli, affidati a servizi gratuiti esterni, per
  di aprire un varco a messaggi indesiderati.
 \end_layout
 
+\begin_layout Standard
+DMOZ
+\end_layout
+
+\begin_layout Standard
+La pagina di DMOZ relativa ai LUG
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+http://www.dmoz.org/World/Italiano/Computer/Software/Sistemi_Operativi/Linux/User_
+Group/
+\end_layout
+
+\end_inset
+
+ viene tenuta sotto osservazione attraverso il servizio offerto da ChangeDetecti
+on.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+https://www.changedetection.com/
+\end_layout
+
+\end_inset
+
+ Le notifiche vengono inviate ad Andrea Gelmini.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi §
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Script di appoggio
 \end_layout
@@ -1905,7 +1945,11 @@ Portavoce
 \end_layout
 
 \begin_layout Standard
-Portavoce, invocabile con 
+
+\family typewriter
+Portavoce
+\family default
+, invocabile con 
 \family typewriter
 script/portavoce.py
 \family default
@@ -1938,7 +1982,11 @@ Scriba
 \end_layout
 
 \begin_layout Standard
-Scriba, invocabile con 
+
+\family typewriter
+Scriba
+\family default
+, invocabile con 
 \family typewriter
 script/portavoce.py
 \family default
@@ -1961,6 +2009,39 @@ http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
 WiMegera
 \family default
 , permetterebbe il totale automatismo dell'operazione.
+\end_layout
+
+\begin_layout Subsection
+Aggiornamento automatico di tutti i branch
+\end_layout
+
+\begin_layout Standard
+Invocando 
+\family typewriter
+script/aggiorna_tutti_i_branch.sh 
+\family default
+si forza l'aggiornamento di tutti i branch, o la creazione degli stessi,
+ in caso non fossero presenti (come nel caso del primo clone del repository).
+ Prima dell'esecuzione viene, comunque, effettuata una copia del tutto in
+\family typewriter
+ /tmp/lugmap_bk/
+\family default
+.
+\end_layout
+
+\begin_layout Subsection
+Aggiornamento dell'anno del copyright
+\end_layout
+
+\begin_layout Standard
+Invocando 
+\family typewriter
+script/incrementa_anno_copyright.sh
+\family default
+ viene innescato l'aggiornamento dell'anno del periodo di copyright in tutti
+ i file sorgenti.
+ Il sistema non è automatico, pertanto l'anno all'interno dello stesso script
+ deve essere opportunamente modificato a mano prima dell'esecuzione.
 \end_layout
 
 \begin_layout Section
