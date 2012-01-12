@@ -5,4 +5,5 @@
 18/01||Como|Assemblea Soci e Volontari|http://www.gl-como.it/2012/01/10/assemblea-2012/
 14/01||Pinerolo|Corso GNU/Linux|http://pinerolo.linux.it/index.php/eventi/3-prossimi-incontri/56-corso-gratuito-gnulinux-a-gennaio.html
 12/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio-0
+11/01||Ferrara|Apertura Serale tRicicloPC|http://www.ferrara.linux.it/notizie/108-apertura-serale-sede-del-progetto-triciclopc
 03/01||FinalBorgo|Ripresa Incontri Tematici|http://www.govonis.org/index.php?option=com_content&view=article&id=80:incontri-tematici-del-martedi-sera&catid=4:appuntamenti&Itemid=9
