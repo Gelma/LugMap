@@ -38,3 +38,5 @@ http://www.clug.it/wiki/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
 http://blah.pizzahack.eu/w/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # Non correlato ai temi del freesoftware
 http://hopfrog.it/rss.xml
+# DokuWiki, modifiche sul wiki
+http://hacklab-42.dark-lab.net/feed.php
