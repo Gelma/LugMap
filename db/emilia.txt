@@ -1,8 +1,8 @@
 Bologna e Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|evppneqbqryhan@tznvy.pbz
 Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|yhtznc@zvznagr.arg
-Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/|hvryvahk@tznvy.pbz
 Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|znvy@znggrbobaben.vg
-Forl&igrave;|FoLug|Forlì-Cesena|http://www.folug.org/|sbyht-pbaf@yvfgf.yvahk.vg
+Forl&igrave;-Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/|hvryvahk@tznvy.pbz
+Forl&igrave;-Cesena|FoLug|Forlì-Cesena|http://www.folug.org/|sbyht-pbaf@yvfgf.yvahk.vg
 Modena|ConoscereLinux|Modena e provincia|http://www.conoscerelinux.net/|jroznfgre@pbabfpreryvahk.arg
 Parma|ParmaLug|Provincia di Parma|http://www.parma.linux.it/|t.pvbggv@gveeravqr.arg
 Parma|SBLUG|Provincia di Parma|http://salabaganzalug.wordpress.com/|fnynontnamnyht@tznvy.pbz
