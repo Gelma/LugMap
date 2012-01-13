@@ -1,5 +1,6 @@
 31/01||Trento|Inizio corso SysAdmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2012
 27/01|28/01|Firenze|Qt Day 2012|http://iglu.cc.uniud.it/?p=560
+23/01||Perugia|Perugia|"Open Source per i Professionisti"|http://www.perugiagnulug.org/open-source-i-professionisti-ed-i-tecnici-del-territorio-23-gennaio-2012-foligno
 21/01||Pescara|Inizio Corso di Linux|http://www.pescaralug.org/2011/12/22/corsi-linux-2012/
 20/01||Como|Cena Linuxiana Paninsubrica|http://www.gl-como.it/2012/01/08/cena-linuxiana-paninsubrica/
 18/01||Monte Sant'Angelo|Laboratorio di Grafica|http://msack.org/2012/01/12/ms4ck-gimplab/
