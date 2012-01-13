@@ -15,23 +15,17 @@ if ($regione_richiesta == 'italia') {
 	$db_file = 'Italia.txt';
 	$db_regione = file ("./db/$db_file");
 	$title = 'Tutti i LUG di livello nazionale';
-} elseif (array_key_exists ($regione_richiesta, $elenco_regioni)) {
+}
+elseif (array_key_exists ($regione_richiesta, $elenco_regioni)) {
 	$regione = $elenco_regioni[$regione_richiesta];
 	$db_file = "$regione_richiesta.txt";
 	$db_regione = file ("./db/$db_file");
 	$title = 'Tutti i LUG presenti nella regione ' . $regione;
-} elseif ($regione_richiesta == "elenco") {
-	$db_regione = array ();
-
-	foreach (glob ('./db/*.txt') as $db_file)
-		$db_regione = array_merge ($db_regione, file ($db_file));
-
-	sort ($db_regione);
-
-	$db_file = null;
-	$regione = 'Italia';
-	$title = 'Tutti i LUG presenti in Italia';
-} else {
+}
+elseif ($regione_richiesta == "elenco") {
+	header("location: " . $main_url . "/lista.php");
+}
+else {
 	header("location: " . $main_url);
 }
 
