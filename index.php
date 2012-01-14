@@ -36,6 +36,8 @@ if (array_key_exists ('zoom', $_GET)) {
 
 	foreach ($contents as $row) {
 		list ($lat, $lon, $lug, $useless) = explode ("\t", $row, 4);
+		$lug = str_replace (' ', '_', $lug);
+
 		if ($lug == $_GET ['zoom']) {
 			$found = true;
 			break;
