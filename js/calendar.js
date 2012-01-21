@@ -1,5 +1,23 @@
+function switch_tab_view (selected) {
+	var calendar_tabs_names = ['calendar_map', 'calendar_table', 'calendar_widget'];
+
+	for (i = 0; i < calendar_tabs_names.length; i++) {
+		n = calendar_tabs_names [i];
+
+		if (n == selected) {
+			$('#' + n + '_toggle').addClass ('calendar_style_toggle_selected');
+			$('.' + n + '_tab').show ();
+		}
+		else {
+			$('#' + n + '_toggle').removeClass ('calendar_style_toggle_selected');
+			$('.' + n + '_tab').hide ();
+		}
+	}
+}
+
 $(document).ready (function () {
 	$('.calendar_table_tab').hide ();
+	$('.calendar_widget_tab').hide ();
 
 	$('.marked').mouseenter (function () {
 		var c = $(this).attr ('class').split (' ');
@@ -21,17 +39,15 @@ $(document).ready (function () {
 	});
 
 	$('#calendar_table_toggle').click (function () {
-		$('#calendar_map_toggle').removeClass ('calendar_style_toggle_selected');
-		$('.calendar_map_tab').hide ();
-		$('#calendar_table_toggle').addClass ('calendar_style_toggle_selected');
-		$('.calendar_table_tab').show ();
+		switch_tab_view ('calendar_table');
 	});
 
 	$('#calendar_map_toggle').click (function () {
-		$('#calendar_table_toggle').removeClass ('calendar_style_toggle_selected');
-		$('.calendar_table_tab').hide ();
-		$('#calendar_map_toggle').addClass ('calendar_style_toggle_selected');
-		$('.calendar_map_tab').show ();
+		switch_tab_view ('calendar_map');
+	});
+
+	$('#calendar_widget_toggle').click (function () {
+		switch_tab_view ('calendar_widget');
 	});
 });
 
