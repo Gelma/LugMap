@@ -67,7 +67,7 @@ if (ereg('index\.php$', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php
 
     $db_file = null;
     $regione = 'Italia';
-    $title = 'I LUG italiani';
+    $title = 'LugMap: I LUG italiani';
   }
 }
 
