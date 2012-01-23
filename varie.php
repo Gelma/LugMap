@@ -256,7 +256,7 @@ function ask_nominatim ($c) {
 	*/
 
 	$found = false;
-	$accepted_nodes = array ('city', 'town', 'hamlet', 'village', 'suburb');
+	$accepted_nodes = array ('city', 'town', 'village', 'hamlet', 'suburb');
 
 	foreach ($accepted_nodes as $accept) {
 		$results = $xpath->query ("/searchresults/place[@type='$accept']", $doc);
