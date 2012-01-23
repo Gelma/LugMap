@@ -33,8 +33,13 @@ foreach ($elenco_regioni as $region => $name) {
 				$c = str_replace (' ', '%20', $city) . ',' . str_replace (' ', '%20', $prov);
 
 				$result = ask_coordinates ($c);
-				if ($result == null)
-					continue;
+				if ($result == null) {
+					$c = str_replace (' ', '%20', $city);
+
+					$result = ask_coordinates ($c);
+					if ($result == null)
+						continue;
+				}
 
 				list ($lat, $lon) = $result;
 				$lon = shift_city ($city, $lon, $found_cities);
