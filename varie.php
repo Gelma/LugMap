@@ -313,10 +313,10 @@ function ask_coordinates ($c) {
 		*/
 		sleep (1);
 
-		$result = ask_nominatim ($c);
+		$result = ask_geonames ($c);
 
 		if ($result == null) {
-			$result = ask_geonames ($c);
+			$result = ask_nominatim ($c);
 			if ($result == null)
 				return null;
 		}

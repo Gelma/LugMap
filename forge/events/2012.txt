@@ -1,5 +1,6 @@
 31/01||Trento|Inizio corso SysAdmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2012
 27/01|28/01|Firenze|Qt Day 2012|http://iglu.cc.uniud.it/?p=560
+24/01||Finalborgo|Lezione Pratica Bash|http://www.govonis.org/index.php?option=com_content&view=article&id=81:passeggiata-attorno-alla-programmazione&catid=3:avvenimenti&Itemid=8
 23/01||Pescara|Corso Android|http://www.pescaralug.org/2012/01/23/corso-android/
 23/01||Foligno|"Open Source per i Professionisti"|http://www.perugiagnulug.org/open-source-i-professionisti-ed-i-tecnici-del-territorio-23-gennaio-2012-foligno
 21/01||Pescara|Inizio Corso di Linux|http://www.pescaralug.org/2011/12/22/corsi-linux-2012/
