@@ -89,29 +89,33 @@ foreach ($elenco_regioni as $region => $name) {
 
 		$parser = new SimplePie ();
 		$parser->set_feed_url ($site);
+		$parser->set_autodiscovery_level (SIMPLEPIE_LOCATOR_AUTODISCOVERY);
 		$parser->init ();
 		$parser->handle_content_type ();
 		if ($parser->error ())
 			continue;
 
-		$f = $parser->subscribe_url ();
+		$discovered = $parser->get_all_discovered_feeds ();
 
-		$skip = false;
+		foreach ($discovered as $f) {
+			$skip = false;
 
-		foreach ($exceptions as $exception) {
-			if ($f == $exception) {
-				$skip = true;
-				break;
+			foreach ($exceptions as $exception) {
+				if ($f == $exception) {
+					$skip = true;
+					break;
+				}
 			}
+
+			if ($skip == true)
+				continue;
+
+			$obj = new stdClass ();
+			$obj->name = $name;
+			$obj->feed = $f;
+			$feeds [] = $obj;
+			break;
 		}
-
-		if ($skip == true)
-			continue;
-
-		$obj = new stdClass ();
-		$obj->name = $name;
-		$obj->feed = $f;
-		$feeds [] = $obj;
 	}
 }
 
