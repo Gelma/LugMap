@@ -29,6 +29,9 @@ for ($events_index = 0; $events_index < count ($events); $events_index++) {
 	}
 }
 
+if ($events_index >= count ($events))
+	$events_index--;
+
 $found_cities = array ();
 $icon = "past_events.png";
 $rows = array ("lat\tlon\ttitle\tdescription\ticonSize\ticonOffset\ticon");
