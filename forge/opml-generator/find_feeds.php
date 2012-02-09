@@ -112,7 +112,7 @@ foreach ($elenco_regioni as $region => $name) {
 
 			$obj = new stdClass ();
 			$obj->name = $name;
-			$obj->feed = $f;
+			$obj->feed = str_replace ('&', '&amp;', str_replace ('&amp;', '&', $f->url));
 			$feeds [] = $obj;
 			break;
 		}

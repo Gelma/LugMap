@@ -1,9 +1,13 @@
 # MediaWiki, modifiche sul wiki
 http://paduglug.paduli.org/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+http://paduglug.paduli.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+http://paduglug.paduli.org/index.php?title=Wikipedia&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://www.conoscerelinux.net/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+http://www.conoscerelinux.net/index.php?title=Conoscerelinux_Main_Page&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://lug.42019.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+http://lug.42019.it/index.php?title=Pagina_principale&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://relug.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
 # MediaWiki, modifiche sul wiki
@@ -16,14 +20,20 @@ http://leonforte.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
 http://www.messinalug.org/mediawiki/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # MediaWiki, modifiche sul wiki
 http://poetry.freaknet.org/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+http://poetry.freaknet.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+http://poetry.freaknet.org/index.php?title=Pagina_principale&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://faberlibertatis.org/w/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+http://faberlibertatis.org/w/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # MediaWiki, modifiche sul wiki
 http://www.verona.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+http://www.verona.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # MediaWiki, modifiche sul wiki
 http://ispralug.eu/w/index.php?title=Special:RecentChanges&amp;feed=atom
 # MediaWiki, modifiche sul wiki
 http://libreplanet.org/wiki?title=Special:RecentChanges&amp;feed=atom
+http://libreplanet.org/wiki?title=Special:ExportRDF/Main_Page&amp;xmlmime=rdf
+http://libreplanet.org/wiki?title=Main_Page&amp;printable=yes
 # MediaWiki, modifiche sul wiki (peraltro invaso di spam bots)
 http://genova.linux.it/Speciale%3ARecentchanges&amp;feed=rss
 # RSS delle modifiche sul wiki. Nella pagina ce ne e' uno anche per gli articoli buoni, sarebbe da spostare
