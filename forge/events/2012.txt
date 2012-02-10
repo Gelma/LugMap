@@ -1,5 +1,6 @@
 25/02||Pomarico|Incontro pubblico|http://www.baslug.org/?q=node/82
 21/02||Milano|openSUSE Night|http://www.fsugitalia.org/wp/2012/02/21-febbraio-opensuse-night-a-milano/
+17/02||Torino|Inizio Corso PHP|http://informaticalibera.info/index.php?option=com_content&view=article&id=111:corso-di-php&catid=1:ultime
 11/02|18/02|Schio|Corso Base Python|http://www.avilug.it/doku.php/news/20120211_mini_corso_base_python
 09/02||Genova|Corso Avanzato di Linux|http://alid.it/news.php?id=64
 09/02||Trieste|"Fare Musica con GNU/Linux"|http://trieste.linux.it/?p=537
