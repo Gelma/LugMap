@@ -26,7 +26,7 @@ function check_url ($url) {
 	}
 	else {
 		$keys = array ();
-		$open = @file_get_contents ($url); 
+		$open = @file_get_contents ($url);
 
 		if (preg_match ('/<META HTTP-EQUIV="Refresh" CONTENT="(.*);URL=(.[^"]*)">/i', $open, &$keys)) {
 			if (strncmp ('http://', $keys [2], 7) == 0 || strncmp ('https://', $keys [2], 8) == 0)
@@ -99,9 +99,10 @@ foreach ($elenco_regioni as $region => $name) {
 
 		foreach ($discovered as $f) {
 			$skip = false;
+			$f->url = str_replace ('&', '&amp;', str_replace ('&amp;', '&', $f->url));
 
 			foreach ($exceptions as $exception) {
-				if ($f == $exception) {
+				if ($f->url == $exception) {
 					$skip = true;
 					break;
 				}
@@ -112,7 +113,7 @@ foreach ($elenco_regioni as $region => $name) {
 
 			$obj = new stdClass ();
 			$obj->name = $name;
-			$obj->feed = str_replace ('&', '&amp;', str_replace ('&amp;', '&', $f->url));
+			$obj->feed = $f->url;
 			$feeds [] = $obj;
 			break;
 		}
