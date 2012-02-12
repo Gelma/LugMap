@@ -10,6 +10,8 @@ http://lug.42019.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 http://lug.42019.it/index.php?title=Pagina_principale&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://relug.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+http://relug.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+http://relug.linux.it/index.php?title=Pagina_principale&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://www.lifolab.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # MediaWiki, modifiche sul wiki
