@@ -1,6 +1,9 @@
 25/02||Pomarico|Incontro pubblico|http://www.baslug.org/?q=node/82
 24/02||Levico Terme|Inaugurazione Sportello Linux|http://www.linuxtrent.it/nuovo-sportello-linux-levico-terme
+23/02||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=550
 22/02||Verona|Corso "Smonta e Rimonta"|http://www.officina-s3.org/?p=2413
+21/02||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=290
+21/02||Finalborgo|Lezione su MySQL 3|http://www.govonis.org/index.php?option=com_content&view=article&id=85:-passeggiata-attorno-alla-programmazione-mysql-3&catid=3:avvenimenti&Itemid=8
 21/02||Milano|openSUSE Night|http://www.fsugitalia.org/wp/2012/02/21-febbraio-opensuse-night-a-milano/
 20/02||Lucca|Serata Blender|http://luccalug.it/content/pillole-di-free-software-serate-tema-dedicate-al-mondo-dellinformatica-libera
 17/02||Torino|Inizio Corso PHP|http://informaticalibera.info/index.php?option=com_content&view=article&id=111:corso-di-php&catid=1:ultime
