@@ -1,5 +1,6 @@
 25/02||Pomarico|Incontro pubblico|http://www.baslug.org/?q=node/82
 24/02||Levico Terme|Inaugurazione Sportello Linux|http://www.linuxtrent.it/nuovo-sportello-linux-levico-terme
+23/02||Livorno|Corso di Informatica Libera di Base|http://www.gullix.org/index.php?option=com_content&view=article&id=82:corso-di-informatica-libera-di-base&catid=6:notizie-generali&Itemid=10
 23/02||Cosenza|Workshop Reti Mesh|http://hacklab.cosenzainrete.it/pg/blog/Stefanauss/read/288463/ninux-calabria-workshop-sulle-reti-mesh-gioved-23-febbraio
 23/02||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=550
 22/02||Verona|Corso "Smonta e Rimonta"|http://www.officina-s3.org/?p=2413
