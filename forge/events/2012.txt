@@ -2,6 +2,8 @@
 05/03||Napoli|Colazione con il Pinguino|http://www.nalug.net/content/pit2012-colazione-con-il-pinguino
 03/03||Bergamo|Bergamo Code Jam|http://bglug.it/2012/02/23/bglug-partecipa-allubuntu-global-jam/
 01/03||Roma|Open Source Conference|http://www.perugiagnulug.org/open-source-conference-2012-roma
+29/02||Trieste|Serata a Tema|http://trieste.linux.it/?p=554
+28/02||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=291
 25/02||Pomarico|Incontro pubblico|http://www.baslug.org/?q=node/82
 24/02||Levico Terme|Inaugurazione Sportello Linux|http://www.linuxtrent.it/nuovo-sportello-linux-levico-terme
 23/02||Livorno|Corso di Informatica Libera di Base|http://www.gullix.org/index.php?option=com_content&view=article&id=82:corso-di-informatica-libera-di-base&catid=6:notizie-generali&Itemid=10
