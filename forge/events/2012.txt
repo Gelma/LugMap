@@ -3,6 +3,7 @@
 05/03||Napoli|Colazione con il Pinguino|http://www.nalug.net/content/pit2012-colazione-con-il-pinguino
 03/03||Bergamo|Bergamo Code Jam|http://bglug.it/2012/02/23/bglug-partecipa-allubuntu-global-jam/
 01/03||Roma|Open Source Conference|http://www.perugiagnulug.org/open-source-conference-2012-roma
+29/02||Thiene|Linux per l'Educazione|http://www.avilug.it/doku.php/news/20120215_serate_linux_alla_biblioteca_di_thiene
 29/02||Trieste|Serata a Tema|http://trieste.linux.it/?p=554
 28/02||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=291
 25/02||Pomarico|Incontro pubblico|http://www.baslug.org/?q=node/82
@@ -10,6 +11,7 @@
 23/02||Livorno|Corso di Informatica Libera di Base|http://www.gullix.org/index.php?option=com_content&view=article&id=82:corso-di-informatica-libera-di-base&catid=6:notizie-generali&Itemid=10
 23/02||Cosenza|Workshop Reti Mesh|http://hacklab.cosenzainrete.it/pg/blog/Stefanauss/read/288463/ninux-calabria-workshop-sulle-reti-mesh-gioved-23-febbraio
 23/02||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=550
+22/02||Thiene|Serata Ubuntu|http://www.avilug.it/doku.php/news/20120215_serate_linux_alla_biblioteca_di_thiene
 22/02||Verona|Corso "Smonta e Rimonta"|http://www.officina-s3.org/?p=2413
 21/02||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=290
 21/02||Finalborgo|Lezione su MySQL 3|http://www.govonis.org/index.php?option=com_content&view=article&id=85:-passeggiata-attorno-alla-programmazione-mysql-3&catid=3:avvenimenti&Itemid=8
@@ -18,6 +20,7 @@
 17/02||Torino|Inizio Corso PHP|http://informaticalibera.info/index.php?option=com_content&view=article&id=111:corso-di-php&catid=1:ultime
 16/02||Trieste|Serata sulle localizzazioni|http://trieste.linux.it/?p=547
 16/02||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-febbraio-0
+15/02||Thiene|Introduzione a Linux|http://www.avilug.it/doku.php/news/20120215_serate_linux_alla_biblioteca_di_thiene
 14/02||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=289
 11/02|18/02|Schio|Corso Base Python|http://www.avilug.it/doku.php/news/20120211_mini_corso_base_python
 09/02||Genova|Corso Avanzato di Linux|http://alid.it/news.php?id=64
