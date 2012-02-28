@@ -40,7 +40,7 @@ http://libreplanet.org/wiki?title=Main_Page&amp;printable=yes
 http://genova.linux.it/Speciale%3ARecentchanges&amp;feed=rss
 # RSS delle modifiche sul wiki. Nella pagina ce ne e' uno anche per gli articoli buoni, sarebbe da spostare
 http://www.riminilug.it/tiki-wiki_rss.php?ver=2
-# RSS del forum, invaso di spam bots. Ci sarebbe anche un feed delle news, ma il sito sembra essere assai poco vitale
+# RSS del forum, invaso di spam bots
 http://www.iglug.org/rdf-nuke.php
 # RSS delle modifiche sul wiki
 http://www.avilug.it/feed.php
@@ -52,3 +52,6 @@ http://blah.pizzahack.eu/w/index.php?title=Speciale:UltimeModifiche&amp;feed=ato
 http://hopfrog.it/rss.xml
 # DokuWiki, modifiche sul wiki
 http://hacklab-42.dark-lab.net/feed.php
+# RSS del forum
+http://smalug.org/syndication.php
+http://smalug.org/syndication.php?type=atom1.0
