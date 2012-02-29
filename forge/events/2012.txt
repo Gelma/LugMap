@@ -4,6 +4,7 @@
 09/03||Orvieto|Installation Party|http://www.perugiagnulug.org/orvieto-linux-installation-party-1
 06/03||Napoli|Compleanno HackLab e LAN Party|http://msack.org/2012/02/22/happy-nerd-birthday-2-0/
 05/03||Napoli|Colazione con il Pinguino|http://www.nalug.net/content/pit2012-colazione-con-il-pinguino
+03/03||Bonelle|Ubuntu Global Jam|http://www.ptlug.org/2012/02/ubuntu-global-jam-sabato-3-marzo-ore-1500-al-circolo-arci-di-bonelle/?utm_source=rss&utm_medium=rss&utm_campaign=ubuntu-global-jam-sabato-3-marzo-ore-1500-al-circolo-arci-di-bonelle
 03/03||Bergamo|Bergamo Code Jam|http://bglug.it/2012/02/23/bglug-partecipa-allubuntu-global-jam/
 01/03||Roma|Open Source Conference|http://www.perugiagnulug.org/open-source-conference-2012-roma
 29/02||Perugia|Riunione per Expo Elettronica|http://www.perugiagnulug.org/riunione-expo-elettronica-marzo-2012
