@@ -4,6 +4,7 @@
 12/03||Capannori|Serata Inkscape|http://luccalug.it/content/12-marzo-2012-pillole-di-free-software-inkscape-software-di-disegno-vettoriale
 10/03|11/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugbs-lugcr-e-lugman-fiera
 09/03||Orvieto|Installation Party|http://www.perugiagnulug.org/orvieto-linux-installation-party-1
+08/03||Milano|Corso Python|http://www.poul.org/2012/02/corso-python/
 06/03||Napoli|Compleanno HackLab e LAN Party|http://msack.org/2012/02/22/happy-nerd-birthday-2-0/
 05/03||Napoli|Colazione con il Pinguino|http://www.nalug.net/content/pit2012-colazione-con-il-pinguino
 03/03||Bonelle|Ubuntu Global Jam|http://www.ptlug.org/2012/02/ubuntu-global-jam-sabato-3-marzo-ore-1500-al-circolo-arci-di-bonelle/?utm_source=rss&utm_medium=rss&utm_campaign=ubuntu-global-jam-sabato-3-marzo-ore-1500-al-circolo-arci-di-bonelle
