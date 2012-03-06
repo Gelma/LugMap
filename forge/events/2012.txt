@@ -1,6 +1,7 @@
 12/04||Novara|Presentazione Corsi 2012|http://linoxnovara.wordpress.com/2012/03/05/presentazione-corsi-base-ed-attivita-anno-2012/
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
 17/03||Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-2012-03-0
+15/03||Udine|Incontro "Processi Aziendali con Soluzioni Open Source"|http://iglu.cc.uniud.it/?p=576
 15/03||Cremona|Corso OpenVZ|http://www.lugcr.it/lugcr/corso-openvz-server-virtuali
 13/03||Arcavacata|Corso Linux Base|http://www.verdebinario.org/index.php?option=com_content&task=view&id=142&Itemid=0
 12/03||Sommacampagna|Corso Wordpress|http://www.officina-s3.org/?p=2480
