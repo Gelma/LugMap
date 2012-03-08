@@ -59,6 +59,9 @@ do_head ('Eventi Linux in Italia', array ('js/calendar.js', 'http://openlayers.o
 		}
 	}
 
+	if ($events_index == count ($events))
+		$events_index = count ($events) - 1;
+
 	$row = $events [$events_index];
 	list ($date, $useless, $location, $what, $url) = explode ('|', $row);
 	list ($d, $m) = explode ('/', $date);
