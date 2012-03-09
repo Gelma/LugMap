@@ -2,6 +2,7 @@
 31/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2012/03/document-freedom-day-2012-arezzo-31-marzo/
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
+24/03||Catanzaro|Festa Compleanno HackLab|http://hacklab.cz/2012/03/09/lo-lab-spegne-la-prima-candelina-24032012
 18/03||Sommacampagna|"Passeggia Caselle"|http://www.officina-s3.org/?p=2494
 17/03||Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-2012-03-0
 15/03||Udine|Incontro "Processi Aziendali con Soluzioni Open Source"|http://iglu.cc.uniud.it/?p=576
