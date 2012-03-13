@@ -5,6 +5,7 @@
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 24/03||Catanzaro|Festa Compleanno HackLab|http://hacklab.cz/2012/03/09/lo-lab-spegne-la-prima-candelina-24032012
 18/03||Sommacampagna|"Passeggia Caselle"|http://www.officina-s3.org/?p=2494
+17/03||Napoli|Compleanno NaLUG|http://www.nalug.net/content/happy-lug-day-riunione-sabato-17-marzo
 17/03||Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-2012-03-0
 16/03||Genova|"M(')appare Genova"|http://alid.it/news.php?nws=nws_4f5e163e3b276
 15/03||Empoli|"Il Riuso a Grande Scala"|http://golem.linux.it/wp/2012/03/empoli-15-marzo-2012/
