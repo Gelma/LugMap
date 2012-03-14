@@ -4,6 +4,7 @@
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 24/03||Catanzaro|Festa Compleanno HackLab|http://hacklab.cz/2012/03/09/lo-lab-spegne-la-prima-candelina-24032012
+19/03||Milano|Corso Qt|http://www.poul.org/2012/03/corso-programmazione-qt-e-kde/
 18/03||Sommacampagna|"Passeggia Caselle"|http://www.officina-s3.org/?p=2494
 17/03||Napoli|Compleanno NaLUG|http://www.nalug.net/content/happy-lug-day-riunione-sabato-17-marzo
 17/03||Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-2012-03-0
