@@ -4,15 +4,18 @@
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 24/03||Catanzaro|Festa Compleanno HackLab|http://hacklab.cz/2012/03/09/lo-lab-spegne-la-prima-candelina-24032012
+21/03||Roma|Riunione|http://lug.uniroma2.it/2012/03/14/riunione-mercoledi-21-marzo/
 19/03||Milano|Corso Qt|http://www.poul.org/2012/03/corso-programmazione-qt-e-kde/
 18/03||Sommacampagna|"Passeggia Caselle"|http://www.officina-s3.org/?p=2494
 17/03||Napoli|Compleanno NaLUG|http://www.nalug.net/content/happy-lug-day-riunione-sabato-17-marzo
 17/03||Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-2012-03-0
 16/03||Genova|"M(')appare Genova"|http://alid.it/news.php?nws=nws_4f5e163e3b276
+15/03||Ivrea|Corso Linux Base|http://www.ivlug.it/2012/03/corso-linux-desktop-base/
 15/03||Empoli|"Il Riuso a Grande Scala"|http://golem.linux.it/wp/2012/03/empoli-15-marzo-2012/
 15/03||Udine|Incontro "Processi Aziendali con Soluzioni Open Source"|http://iglu.cc.uniud.it/?p=576
 15/03||Cremona|Corso OpenVZ|http://www.lugcr.it/lugcr/corso-openvz-server-virtuali
 14/03|19/03|Cosenza|Fiera InMensa|http://www.verdebinario.org/index.php?option=com_content&task=view&id=144&Itemid=0
+13/03||Ivrea|"Informatica e Ambiente"|http://www.ivlug.it/2012/03/informatica-e-ambiente-impatto-e-sostenibilita/
 13/03||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=293
 13/03||Arcavacata|Corso Linux Base|http://www.verdebinario.org/index.php?option=com_content&task=view&id=142&Itemid=0
 12/03||Sommacampagna|Corso Wordpress|http://www.officina-s3.org/?p=2480
