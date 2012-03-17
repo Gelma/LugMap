@@ -4,6 +4,7 @@
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 24/03||Catanzaro|Festa Compleanno HackLab|http://hacklab.cz/2012/03/09/lo-lab-spegne-la-prima-candelina-24032012
+21/03||Trieste|Serata a Tema|http://trieste.linux.it/?p=562
 21/03||Reggio Calabria|Open Source Day|http://rclug.linux.it/eventi/open-source-day-2012
 21/03||Roma|Riunione|http://lug.uniroma2.it/2012/03/14/riunione-mercoledi-21-marzo/
 20/03||Finalborgo|"Pillole di Software Libero"|http://www.govonis.org/index.php?option=com_content&view=article&id=87:pillole-di-software-libero&catid=3:avvenimenti&Itemid=8
