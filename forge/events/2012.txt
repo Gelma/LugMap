@@ -8,6 +8,7 @@
 21/03||Trieste|Serata a Tema|http://trieste.linux.it/?p=562
 21/03||Reggio Calabria|Open Source Day|http://rclug.linux.it/eventi/open-source-day-2012
 21/03||Roma|Riunione|http://lug.uniroma2.it/2012/03/14/riunione-mercoledi-21-marzo/
+20/03||Pinerolo|Incontro su Arduino|http://pinerolo.linux.it/index.php/eventi/1-resoconti-attivita/84-martedi-20-marzo-alle-21-incontro-su-arduino.html
 20/03||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=294
 20/03||Finalborgo|"Pillole di Software Libero"|http://www.govonis.org/index.php?option=com_content&view=article&id=87:pillole-di-software-libero&catid=3:avvenimenti&Itemid=8
 19/03||Milano|Corso Qt|http://www.poul.org/2012/03/corso-programmazione-qt-e-kde/
