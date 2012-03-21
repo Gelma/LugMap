@@ -1,3 +1,4 @@
+22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 13/04||Catanzaro|Corso GNU/Linux Base|http://hacklab.cz/2012/03/20/corso-gnulinux-di-base-aprile-2012
 12/04||Novara|Presentazione Corsi 2012|http://linoxnovara.wordpress.com/2012/03/05/presentazione-corsi-base-ed-attivita-anno-2012/
 31/03||Pompei|"Pinguino in Tour"|http://www.nalug.net/content/pit2012-nalug-pompeilab
