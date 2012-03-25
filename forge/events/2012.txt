@@ -11,8 +11,10 @@
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
 30/03||Bologna|Serata Arduino|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMbgtRe%3DB4TaBWB8XCPa-bYBdCkqOadjDS6cfzBAqCM-g%40mail.gmail.com
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
+29/03||Trieste|Serata a Tema|http://trieste.linux.it/?p=564
 28/03||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-0
 27/03||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=295
+24/03|25/03|Rende|Fiera dell'Elettronica|http://www.verdebinario.org/index.php?option=com_content&task=view&id=145&Itemid=0
 24/03||Catanzaro|Festa Compleanno HackLab|http://hacklab.cz/2012/03/09/lo-lab-spegne-la-prima-candelina-24032012
 21/03||Trieste|Serata a Tema|http://trieste.linux.it/?p=562
 21/03||Reggio Calabria|Open Source Day|http://rclug.linux.it/eventi/open-source-day-2012
