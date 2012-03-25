@@ -5,10 +5,11 @@
 12/04||Novara|Presentazione Corsi 2012|http://linoxnovara.wordpress.com/2012/03/05/presentazione-corsi-base-ed-attivita-anno-2012/
 04/04||Empoli|Corso Arduino|http://golem.linux.it/wp/2012/03/corso-arduino/
 03/04||Ivrea|Dibattito su Agenda Digitale|http://www.ivlug.it/2012/03/agenda-digitale-italiana-dove-il-software-libero/
+31/03||Valleggia|Inaugurazione Laboratorio|http://www.govonis.org/index.php?option=com_content&view=article&id=88:inaugurazione-laboratorio&catid=4:appuntamenti&Itemid=9
 31/03||Pompei|"Pinguino in Tour"|http://www.nalug.net/content/pit2012-nalug-pompeilab
 31/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2012/03/document-freedom-day-2012-arezzo-31-marzo/
 31/03||Villafranca di Verona|Install Party|http://linuxludus.it/installation-party-marzo-2012
-30/03||Bologna|ERLUG: serata Arduino!|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMbgtRe%3DB4TaBWB8XCPa-bYBdCkqOadjDS6cfzBAqCM-g%40mail.gmail.com
+30/03||Bologna|Serata Arduino|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMbgtRe%3DB4TaBWB8XCPa-bYBdCkqOadjDS6cfzBAqCM-g%40mail.gmail.com
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 28/03||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-0
 27/03||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=295
