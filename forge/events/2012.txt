@@ -4,6 +4,7 @@
 13/04||Catanzaro|Corso GNU/Linux Base|http://hacklab.cz/2012/03/20/corso-gnulinux-di-base-aprile-2012
 12/04||Novara|Presentazione Corsi 2012|http://linoxnovara.wordpress.com/2012/03/05/presentazione-corsi-base-ed-attivita-anno-2012/
 04/04||Empoli|Corso Arduino|http://golem.linux.it/wp/2012/03/corso-arduino/
+03/04||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=296
 03/04||Ivrea|Dibattito su Agenda Digitale|http://www.ivlug.it/2012/03/agenda-digitale-italiana-dove-il-software-libero/
 31/03||Valleggia|Inaugurazione Laboratorio|http://www.govonis.org/index.php?option=com_content&view=article&id=88:inaugurazione-laboratorio&catid=4:appuntamenti&Itemid=9
 31/03||Pompei|"Pinguino in Tour"|http://www.nalug.net/content/pit2012-nalug-pompeilab
@@ -12,6 +13,7 @@
 30/03||Bologna|Serata Arduino|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMbgtRe%3DB4TaBWB8XCPa-bYBdCkqOadjDS6cfzBAqCM-g%40mail.gmail.com
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 29/03||Trieste|Serata a Tema|http://trieste.linux.it/?p=564
+28/03||Sommacampagna|Corso di Introduzione a Ubuntu|http://www.officina-s3.org/?p=2518
 28/03||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-0
 27/03||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=295
 24/03|25/03|Rende|Fiera dell'Elettronica|http://www.verdebinario.org/index.php?option=com_content&task=view&id=145&Itemid=0
