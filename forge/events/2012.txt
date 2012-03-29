@@ -6,6 +6,7 @@
 04/04||Empoli|Corso Arduino|http://golem.linux.it/wp/2012/03/corso-arduino/
 03/04||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=296
 03/04||Ivrea|Dibattito su Agenda Digitale|http://www.ivlug.it/2012/03/agenda-digitale-italiana-dove-il-software-libero/
+02/04||Capannori|Ubuntu Install Party|http://luccalug.it/content/ubuntu-install-party-luned%C3%AC-2-aprile
 31/03||Valleggia|Inaugurazione Laboratorio|http://www.govonis.org/index.php?option=com_content&view=article&id=88:inaugurazione-laboratorio&catid=4:appuntamenti&Itemid=9
 31/03||Pompei|"Pinguino in Tour"|http://www.nalug.net/content/pit2012-nalug-pompeilab
 31/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2012/03/document-freedom-day-2012-arezzo-31-marzo/
