@@ -14,6 +14,7 @@
 30/03||Bologna|Serata Arduino|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMbgtRe%3DB4TaBWB8XCPa-bYBdCkqOadjDS6cfzBAqCM-g%40mail.gmail.com
 30/03||Montebelluna|Corso di Informatica Libera|http://www.montellug.it/corso-di-informatica-libera-date-provvisorie/481
 29/03||Trieste|Serata a Tema|http://trieste.linux.it/?p=564
+28/03||Piatto|Corso di Informatica|http://www.bilug.it/html/index.php?pag=news.php&news=166
 28/03||Sommacampagna|Corso di Introduzione a Ubuntu|http://www.officina-s3.org/?p=2518
 28/03||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-0
 27/03||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=295
