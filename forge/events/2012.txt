@@ -4,6 +4,8 @@
 13/04||Milano|Laboratorio Microcontrollori|http://www.poul.org/2012/04/corso-microcontrollori/
 13/04||Catanzaro|Corso GNU/Linux Base|http://hacklab.cz/2012/03/20/corso-gnulinux-di-base-aprile-2012
 12/04||Novara|Presentazione Corsi 2012|http://linoxnovara.wordpress.com/2012/03/05/presentazione-corsi-base-ed-attivita-anno-2012/
+11/04||Trieste|Serata Rhythmbox|http://trieste.linux.it/?p=566
+11/04||Quiliano|Inizio Incontri sul Software Libero|http://www.govonis.org/index.php?option=com_content&view=article&id=89:incontri-sul-software-libero&catid=4:appuntamenti&Itemid=9
 04/04||Empoli|Corso Arduino|http://golem.linux.it/wp/2012/03/corso-arduino/
 03/04||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=296
 03/04||Ivrea|Dibattito su Agenda Digitale|http://www.ivlug.it/2012/03/agenda-digitale-italiana-dove-il-software-libero/
