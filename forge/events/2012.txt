@@ -1,7 +1,10 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
+14/05||Napoli|Seminario Perl|http://www.nalug.net/content/pit-2012-workshops-unina
+03/05||Napoli|Seminario su Arduino|http://www.nalug.net/content/pit-2012-workshops-unina
 29/04||Modica|Presentazione Progetto OpenSun|http://www.solira.org/2012/03/progetto-opensun/
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
 20/04||Roma|Riunione|http://lug.uniroma2.it/2012/04/09/riunione-venerdi-20-aprile/
+17/04||Napoli|Seminario sulla Compilazione del Kernel|http://www.nalug.net/content/pit-2012-workshops-unina
 16/04||Trento|Serata GLPI|http://www.linuxtrent.it/serata-glpi-ocs-ng-inventario-di-una-infrastruttura-ict
 14/04||Napoli|Presentazione Metasploit|http://www.nalug.net/news-nalug/riunione-didattico-associativa-sabato-14-aprile-2012
 14/04||Gazzo Veronese|Risotto 3.0|http://www.lugcr.it/lugcr/risotto-30
