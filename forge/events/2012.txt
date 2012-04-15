@@ -5,6 +5,7 @@
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
 27/04||Camaiore|Corso Programmazione Android|http://lug-acros.org/?q=node/331
 20/04||Roma|Riunione|http://lug.uniroma2.it/2012/04/09/riunione-venerdi-20-aprile/
+19/04||Trieste|Serata Virtualizzazione|http://trieste.linux.it/?p=578
 18/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-0
 18/04||Perugia|La Scuola Umbra per l'OpenSource|http://www.perugiagnulug.org/la-scuola-umbra-l-open-source-2012
 17/04||Napoli|Seminario sulla Compilazione del Kernel|http://www.nalug.net/content/pit-2012-workshops-unina
