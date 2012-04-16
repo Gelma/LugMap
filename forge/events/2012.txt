@@ -1,5 +1,6 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 14/05||Napoli|Seminario Perl|http://www.nalug.net/content/pit-2012-workshops-unina
+04/05||Matera|Convegno "Sicurezza e GIS OpenSource"|http://www.materalinux.it/?p=613
 03/05||Napoli|Seminario su Arduino|http://www.nalug.net/content/pit-2012-workshops-unina
 29/04||Modica|Presentazione Progetto OpenSun|http://www.solira.org/2012/03/progetto-opensun/
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
