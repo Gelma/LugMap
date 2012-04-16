@@ -6,8 +6,10 @@
 27/04||Camaiore|Corso Programmazione Android|http://lug-acros.org/?q=node/331
 20/04||Roma|Riunione|http://lug.uniroma2.it/2012/04/09/riunione-venerdi-20-aprile/
 19/04||Trieste|Serata Virtualizzazione|http://trieste.linux.it/?p=578
+18/04||Bergamo|Presentazione Ubuntu 12.04|http://bglug.it/2012/04/16/topicotd-from-bare-metal-to-ubuntu-12-04/
 18/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-0
 18/04||Perugia|La Scuola Umbra per l'OpenSource|http://www.perugiagnulug.org/la-scuola-umbra-l-open-source-2012
+17/04||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=298
 17/04||Napoli|Seminario sulla Compilazione del Kernel|http://www.nalug.net/content/pit-2012-workshops-unina
 16/04||Trento|Serata GLPI|http://www.linuxtrent.it/serata-glpi-ocs-ng-inventario-di-una-infrastruttura-ict
 14/04||Pescara|Presentazione Ubuntu 12.04|http://www.pescaralug.org/2012/04/11/ultima-lezione-anteprima-ubuntu-12-04/
