@@ -34,6 +34,11 @@ do_head ('Partecipa alla LugMap');
 			<a href="https://www.facebook.com/groups/284932411527993/">gruppo Facebook</a>,
 			e dell'<a href="https://twitter.com/#!/LugMap">account Twitter</a>.
 		</p>
+		<p>
+			In ogni caso <b>Don't panic</b>, leggi la
+			<a href="https://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">
+			Guida Intergalattica Alla LugMap</a> e tutto sar&agrave; pi&ugrave; chiaro :-)
+		</p>
 	</div>
 </div>
 
