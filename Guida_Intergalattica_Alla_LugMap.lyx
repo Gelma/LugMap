@@ -36,6 +36,7 @@
 \pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=blue"
 \papersize default
 \use_geometry false
 \use_amsmath 1
