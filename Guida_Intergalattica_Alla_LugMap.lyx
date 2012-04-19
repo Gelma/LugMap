@@ -1,5 +1,5 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 422
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass book
@@ -9,9 +9,9 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman palatino
+\font_sans lmss
+\font_typewriter lmtt
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
@@ -26,21 +26,27 @@
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry false
-\use_package amsmath 1
-\use_package esint 1
-\use_package mathdots 1
-\use_package mhchem 1
-\use_package undertilde 1
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
-\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -97,7 +103,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugmap.linux.it
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.linux.it"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -109,7 +121,14 @@ http://lugmap.linux.it
 La versione aggiornata di questo documento è sempre disponibile all'indirizzo:
  
 \family typewriter
-http://lugmap.linux.it/guida
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.linux.it/guida"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -154,7 +173,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugmap.linux.it/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.linux.it/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -168,7 +193,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.gnu.org/philosophy/free-sw.it.html
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.gnu.org/philosophy/free-sw.it.html"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -234,7 +265,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://github.com/Gelma/LugMap
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -245,7 +282,13 @@ https://github.com/Gelma/LugMap
 \begin_layout Itemize
 
 \family typewriter
-https://github.com/Gelma/LugMap
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -255,13 +298,25 @@ Essi sono comodamente visualizzabili presso questi indirizzi web:
 \begin_layout Itemize
 
 \family typewriter
-http://lugmap.linux.it/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.linux.it/"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \family typewriter
-http://lugmap.it/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.it/"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -291,7 +346,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lists.linux.it/listinfo/lugmap
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lists.linux.it/listinfo/lugmap"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -312,7 +373,15 @@ pubblica
 mandando una mail a: 
 \family typewriter
 \shape smallcaps
-lugmap@linux.it
+
+\begin_inset CommandInset href
+LatexCommand href
+target "lugmap@linux.it"
+type "mailto:"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -324,7 +393,15 @@ contattare personalmente:
 Andrea Gelmini: scrivendo a 
 \family typewriter
 \shape smallcaps
-andrea.gelmini@lugbs.linux.it
+
+\begin_inset CommandInset href
+LatexCommand href
+target "andrea.gelmini@lugbs.linux.it"
+type "mailto:"
+
+\end_inset
+
+
 \family default
 \shape default
  oppure telefonando al 
@@ -343,7 +420,15 @@ name "Roberto-Guido"
  scrivendo a 
 \family typewriter
 \shape smallcaps
-bob4job@gmail.com
+
+\begin_inset CommandInset href
+LatexCommand href
+target "bob4job@gmail.com"
+type "mailto:"
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -365,13 +450,29 @@ lugmap.linux.it
 \shape default
 è seguito da Fabio Invernizzi, raggiungibile all'indirizzo 
 \family typewriter
-fabulus@linux.it
+
+\begin_inset CommandInset href
+LatexCommand href
+target "fabulus@linux.it"
+type "mailto:"
+
+\end_inset
+
+
 \family default
 .
  Non solo si occupa del dominio, ma anche dello script di sincronizzazione
  In seconda battuta ci si può rivolgere a Marco d'Itri 
 \family typewriter
-<md@linux.it>
+
+\begin_inset CommandInset href
+LatexCommand href
+target "md@linux.it"
+type "mailto:"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -528,7 +629,14 @@ status open
 \begin_layout Plain Layout
 Italian Linux Society: 
 \family typewriter
-http://www.linux.it
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.linux.it"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -551,7 +659,14 @@ status open
 \begin_layout Plain Layout
 Estratto dall'art.3 dello statuto: 
 \family typewriter
-http://www.linux.it/Statuto
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.linux.it/Statuto"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -601,7 +716,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.linux.it/Elenco_dei_soci
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.linux.it/Elenco_dei_soci"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -632,7 +753,14 @@ status open
 Giusto per fare un esempio concreto, questo è stato il caso del Lug di Tolmezzo.
  Vedi 
 \family typewriter
-https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap/commit/18cd0fc73b056bf0c66cf58eb425fa650ced110c"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -649,7 +777,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lists.linux.it/listinfo/lug
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lists.linux.it/listinfo/lug"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -697,7 +831,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://twitter.com/#!/LugMap
+\begin_inset CommandInset href
+LatexCommand href
+target "http://twitter.com/#!/LugMap"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -718,7 +858,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://github.com/Gelma/LugMap/commits/master
+\begin_inset CommandInset href
+LatexCommand href
+target "http://github.com/Gelma/LugMap/commits/master"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -734,7 +880,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://github.com/Gelma/LugMap/commits/master.atom
+\begin_inset CommandInset href
+LatexCommand href
+target "http://github.com/Gelma/LugMap/commits/master.atom"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -782,7 +934,14 @@ status open
 \begin_layout Plain Layout
 Vedi 
 \family typewriter
-https://github.com/Gelma/LugMap/commit/08208b1933cc31c77b2879cde73f279896f40a04
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap/commit/08208b1933cc31c77b2879cde73f279896f40a04"
+
+\end_inset
+
+
 \family default
  
 \end_layout
@@ -811,7 +970,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
+\begin_inset CommandInset href
+LatexCommand href
+target "http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -863,7 +1028,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugmap.linux.it/lug-o-matic/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.linux.it/lug-o-matic/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -910,7 +1081,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://github.com/Gelma/LugMap/blob/master/ToDo
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap/blob/master/ToDo"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -961,7 +1138,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.gnu.org/licenses/gpl.txt
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.gnu.org/licenses/gpl.txt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -977,7 +1160,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.gnu.org/licenses/agpl.txt
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.gnu.org/licenses/agpl.txt"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1106,17 +1295,13 @@ http://raw.github.com/Gelma/LugMap/master/db/REGIONE.txt
  ad esempio
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 
 \family typewriter
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-http://raw.github.com/Gelma/LugMap/master/db/abruzzo.txt
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+target "http://raw.github.com/Gelma/LugMap/master/db/abruzzo.txt"
 
 \end_inset
 
@@ -1227,7 +1412,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://github.com/Gelma/LugMap/tree/master/db
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap/tree/master/db"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1526,7 +1717,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugbs.linux.it/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugbs.linux.it/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1691,7 +1888,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://secure.wikimedia.org/wikipedia/it/wiki/Lista_dei_LUG_italiani
+\begin_inset CommandInset href
+LatexCommand href
+target "https://secure.wikimedia.org/wikipedia/it/wiki/Lista_dei_LUG_italiani"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1703,7 +1906,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://secure.wikimedia.org/wikipedia/it/wiki/Hacklab
+\begin_inset CommandInset href
+LatexCommand href
+target "https://secure.wikimedia.org/wikipedia/it/wiki/Hacklab"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1803,7 +2012,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugmap.it/widget.php
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.it/widget.php"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1897,8 +2112,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.dmoz.org/World/Italiano/Computer/Software/Sistemi_Operativi/Linux/User_
-Group/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.dmoz.org/World/Italiano/Computer/Software/Sistemi_Operativi/Linux/User_Group/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1911,7 +2131,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://www.changedetection.com/
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.changedetection.com/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1961,7 +2187,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://twitter.com/#!/LugMap
+\begin_inset CommandInset href
+LatexCommand href
+target "http://twitter.com/#!/LugMap"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1988,7 +2220,7 @@ Scriba
 \family default
 , invocabile con 
 \family typewriter
-script/portavoce.py
+script/scriba.py
 \family default
 , è uno script in Python che si occupa di esportare i dati nel formato tabellare
  per la pagina di Wikipedia dei Lug Italiani.
@@ -1998,7 +2230,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
+\begin_inset CommandInset href
+LatexCommand href
+target "http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2109,7 +2347,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.registroitalianobici.it/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.registroitalianobici.it/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2667,7 +2911,14 @@ Si veda, per esempio, quanto accaduto con il TLD
 \family default
  di quello che ora è il sito dell'OrvietoLug: 
 \family typewriter
-http://www.orvietolug.it
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.orvietolug.it"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2687,7 +2938,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://www.linuxday.it
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.linuxday.it"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2753,7 +3010,14 @@ status open
 \begin_layout Plain Layout
 Ad esempio:
 \family typewriter
- https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350d9562f11163
+ 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/Gelma/LugMap/commit/9f25be5df7b44a004dc1db86cd350d9562f11163"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2936,7 +3200,13 @@ prendere controllo dell'account Twitter.
 status open
 
 \begin_layout Plain Layout
-http://twitter.com/#!/LugMap
+\begin_inset CommandInset href
+LatexCommand href
+target "http://twitter.com/#!/LugMap"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2983,7 +3253,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://piwik.org/
+\begin_inset CommandInset href
+LatexCommand href
+target "http://piwik.org/"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3029,7 +3305,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-https://www.google.com/webmasters/tools
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.google.com/webmasters/tools"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3050,7 +3332,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://lugmap.linux.it/css/contact.php
+\begin_inset CommandInset href
+LatexCommand href
+target "http://lugmap.linux.it/css/contact.php"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3066,7 +3354,13 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
-http://projecthoneypot.org
+\begin_inset CommandInset href
+LatexCommand href
+target "http://projecthoneypot.org"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
