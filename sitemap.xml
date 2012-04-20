@@ -22,4 +22,9 @@
    <url><loc>http://lugmap.linux.it/umbria/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
    <url><loc>http://lugmap.linux.it/valle-daosta/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
    <url><loc>http://lugmap.linux.it/veneto/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/partecipa/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/propaganda/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/guida/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/contatti/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/lug-o-matic/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
