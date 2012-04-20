@@ -54,7 +54,7 @@ lugheader ('LugMap');
         <a class="generalink" href="/regione.php">l'elenco completo di tutti i LUG</a>
         ordinati per provincia, una pagina dedicata alle
         <a class="generalink" href="/statistiche.php">statistiche</a>, ed un
-        <a class="generalink" href="/lug-o-matic/">widget web</a> utilizzabile su altri siti.
+        <a class="generalink" href="/lug-o-matic/">widget web</a> utilizzabile su siti esterni.
       </div>
     </td>
 
