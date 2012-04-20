@@ -5,6 +5,7 @@
 29/04||Modica|Presentazione Progetto OpenSun|http://www.solira.org/2012/03/progetto-opensun/
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
 27/04||Camaiore|Corso Programmazione Android|http://lug-acros.org/?q=node/331
+23/04||Bergamo|Pizzata|http://bglug.it/2012/04/19/pizzata-pre-ponte-1-maggio-dove-quando-e-perche/
 20/04||Roma|Riunione|http://lug.uniroma2.it/2012/04/09/riunione-venerdi-20-aprile/
 19/04||Cremona|Workshop SpamAssassin|http://www.lugcr.it/lugcr/workshop-installiamo-spamassassin
 19/04||Trieste|Serata Virtualizzazione|http://trieste.linux.it/?p=578
