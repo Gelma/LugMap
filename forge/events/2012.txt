@@ -1,10 +1,13 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 14/05||Napoli|Seminario Perl|http://www.nalug.net/content/pit-2012-workshops-unina
+04/05||Orvieto|Ubuntu Party 12.04|http://www.perugiagnulug.org/orvieto-linux-ubuntu-party-1204
 04/05||Matera|Convegno "Sicurezza e GIS OpenSource"|http://www.materalinux.it/?p=613
 03/05||Napoli|Seminario su Arduino|http://www.nalug.net/content/pit-2012-workshops-unina
 29/04||Modica|Presentazione Progetto OpenSun|http://www.solira.org/2012/03/progetto-opensun/
+28/04||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-associativa-sabato-28-aprile-2012-help-desk-installazione-gnulinux
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
 27/04||Camaiore|Corso Programmazione Android|http://lug-acros.org/?q=node/331
+26/04||Quiliano|Precise Pangolin Release Party|http://www.govonis.org/index.php?option=com_content&view=article&id=91:precise-pangolin-release-party&catid=3:avvenimenti&Itemid=8
 23/04||Bergamo|Pizzata|http://bglug.it/2012/04/19/pizzata-pre-ponte-1-maggio-dove-quando-e-perche/
 20/04||Roma|Riunione|http://lug.uniroma2.it/2012/04/09/riunione-venerdi-20-aprile/
 19/04||Cremona|Workshop SpamAssassin|http://www.lugcr.it/lugcr/workshop-installiamo-spamassassin
