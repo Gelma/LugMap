@@ -1,5 +1,6 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 14/05||Napoli|Seminario Perl|http://www.nalug.net/content/pit-2012-workshops-unina
+04/05||Acqualagna|Ubuntu Install Fest|http://urbino-lug.tumblr.com/post/21644662569/ubuntu-precise-pangolin-install-fest
 04/05||Orvieto|Ubuntu Party 12.04|http://www.perugiagnulug.org/orvieto-linux-ubuntu-party-1204
 04/05||Matera|Convegno "Sicurezza e GIS OpenSource"|http://www.materalinux.it/?p=613
 03/05||Napoli|Seminario su Arduino|http://www.nalug.net/content/pit-2012-workshops-unina
