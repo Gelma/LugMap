@@ -8,6 +8,8 @@
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
 27/04||Camaiore|Corso Programmazione Android|http://lug-acros.org/?q=node/331
 26/04||Quiliano|Precise Pangolin Release Party|http://www.govonis.org/index.php?option=com_content&view=article&id=91:precise-pangolin-release-party&catid=3:avvenimenti&Itemid=8
+24/04||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=302
+23/04||Vigevano|Assemblea|http://www.lugducale.it/index.php/notizie/14-assemblea-lugducale
 23/04||Bergamo|Pizzata|http://bglug.it/2012/04/19/pizzata-pre-ponte-1-maggio-dove-quando-e-perche/
 20/04||Roma|Riunione|http://lug.uniroma2.it/2012/04/09/riunione-venerdi-20-aprile/
 19/04||Cremona|Workshop SpamAssassin|http://www.lugcr.it/lugcr/workshop-installiamo-spamassassin
