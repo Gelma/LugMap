@@ -7,6 +7,7 @@
 29/04||Modica|Presentazione Progetto OpenSun|http://www.solira.org/2012/03/progetto-opensun/
 28/04||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-associativa-sabato-28-aprile-2012-help-desk-installazione-gnulinux
 28/04|29/04|Pordenone|Linux Arena|http://www.0421ug.org/?p=253
+27/04||Napoli|Light Help Desk|http://www.nalug.net/news-nalug/light-help-desk-dubbi-e-curiosit%C3%A0
 27/04||Camaiore|Corso Programmazione Android|http://lug-acros.org/?q=node/331
 26/04||Quiliano|Precise Pangolin Release Party|http://www.govonis.org/index.php?option=com_content&view=article&id=91:precise-pangolin-release-party&catid=3:avvenimenti&Itemid=8
 24/04||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=302
