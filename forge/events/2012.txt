@@ -5,6 +5,7 @@
 04/05||Acqualagna|Ubuntu Install Fest|http://urbino-lug.tumblr.com/post/21644662569/ubuntu-precise-pangolin-install-fest
 04/05||Orvieto|Ubuntu Party 12.04|http://www.perugiagnulug.org/orvieto-linux-ubuntu-party-1204
 04/05||Matera|Convegno "Sicurezza e GIS OpenSource"|http://www.materalinux.it/?p=613
+03/05||Trieste|Serata OpenNebula|http://trieste.linux.it/?p=580
 03/05||Napoli|Seminario su Arduino|http://www.nalug.net/content/pit-2012-workshops-unina
 29/04||Modica|Presentazione Progetto OpenSun|http://www.solira.org/2012/03/progetto-opensun/
 28/04||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-associativa-sabato-28-aprile-2012-help-desk-installazione-gnulinux
