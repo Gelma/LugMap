@@ -2,6 +2,8 @@
 25/05|27/05|Firenze|Terra Futura|http://www.liberainformatica.it/newsite/
 14/05||Napoli|Seminario Perl|http://www.nalug.net/content/pit-2012-workshops-unina
 12/05||Capannori|Conferenza Arduino|http://luccalug.it/content/12-maggio-%E2%80%93-arduino-l%E2%80%99elettronica-diventa-facile
+07/05||Milano|Corso Amministrazione di Sistema Linux|http://www.poul.org/2012/04/corsi-avanzati-2012/
+04/05||Torino|Corso Migrazione a Linux|http://informaticalibera.info/index.php?option=com_content&view=article&id=115:mini-corso-di-migrazione-a-linux&catid=1:ultime
 04/05||Acqualagna|Ubuntu Install Fest|http://urbino-lug.tumblr.com/post/21644662569/ubuntu-precise-pangolin-install-fest
 04/05||Orvieto|Ubuntu Party 12.04|http://www.perugiagnulug.org/orvieto-linux-ubuntu-party-1204
 04/05||Matera|Convegno "Sicurezza e GIS OpenSource"|http://www.materalinux.it/?p=613
