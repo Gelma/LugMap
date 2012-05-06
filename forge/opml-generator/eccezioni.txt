@@ -59,3 +59,5 @@ http://smalug.org/syndication.php?type=atom1.0
 http://www.gulp.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # MediaWiki, modifiche sul wiki
 http://lugscandiano.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# MediaWiki, modifiche sul wiki
+http://www.slacky.eu/wikislack/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
