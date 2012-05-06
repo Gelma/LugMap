@@ -2,6 +2,7 @@
 25/05|27/05|Firenze|Terra Futura|http://www.liberainformatica.it/newsite/
 23/05||Ivrea|Corso Navigazione Internet Sicura|http://www.ivlug.it/2012/05/navigare-sicuri-valori-opportunita-e-insidie-nella-rete-prima-serata/
 18/05||Forlì|Corso Linux|http://www.folug.org/2012/05/06/corso-linux-da-venerdi-18-maggio/
+16/05||Trento|Incontro su Disegno di Legge Provinciale|http://www.linuxtrent.it/incontro-sulla-proposta-di-disegno-di-legge-provinciale-n-249xiv-su-sw-libero-e-dati-aperti
 15/05||Riva del Garda|Serata Asterisk|http://www.linuxtrent.it/serata-tema-su-asterisk
 15/05||Ivrea|"Il Software Libero per l'Africa"|http://www.ivlug.it/2012/05/il-software-libero-per-lafrica-informatici-senza-frontiere/
 14/05||Napoli|Seminario Perl|http://www.nalug.net/content/pit-2012-workshops-unina
