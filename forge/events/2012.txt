@@ -7,6 +7,7 @@
 18/05||Forlì|Corso Linux|http://www.folug.org/2012/05/06/corso-linux-da-venerdi-18-maggio/
 16/05||Milano|Conferenza Drupal|http://www.poul.org/2012/05/3433/
 16/05||Trento|Incontro su Disegno di Legge Provinciale|http://www.linuxtrent.it/incontro-sulla-proposta-di-disegno-di-legge-provinciale-n-249xiv-su-sw-libero-e-dati-aperti
+15/05||Rende|Corso Avanzato GNU/Linux|http://www.verdebinario.org/index.php?option=com_content&task=view&id=147&Itemid=0
 15/05||Riva del Garda|Serata Asterisk|http://www.linuxtrent.it/serata-tema-su-asterisk
 15/05||Ivrea|"Il Software Libero per l'Africa"|http://www.ivlug.it/2012/05/il-software-libero-per-lafrica-informatici-senza-frontiere/
 14/05||Cosenza|Serata Benefit|http://www.verdebinario.org/index.php?option=com_content&task=view&id=146&Itemid=0
