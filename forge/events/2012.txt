@@ -6,6 +6,7 @@
 20/05||Magione|FuMenti 2012|http://www.perugiagnulug.org/fumenti-2012
 19/05||Livorno|Seminario Ubuntu Studio|http://www.gullix.org/index.php?option=com_content&view=article&id=90:i-3-seminari-di-maggio-e-lhelp-desk
 18/05||Forlì|Corso Linux|http://www.folug.org/2012/05/06/corso-linux-da-venerdi-18-maggio/
+17/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=587
 16/05||Milano|Conferenza Drupal|http://www.poul.org/2012/05/3433/
 16/05||Trento|Incontro su Disegno di Legge Provinciale|http://www.linuxtrent.it/incontro-sulla-proposta-di-disegno-di-legge-provinciale-n-249xiv-su-sw-libero-e-dati-aperti
 15/05||Rende|Corso Avanzato GNU/Linux|http://www.verdebinario.org/index.php?option=com_content&task=view&id=147&Itemid=0
@@ -19,7 +20,9 @@
 12/05||Rovereto|Presentazione Unita' Mobile Telecomunicazioni|http://www.linuxtrent.it/collaborazione-tra-linuxtrent-e-cri-trentino-lunit%C3%A0-mobile-telecomunicazioni
 12/05|13/05|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=92:gnulinux-al-marc-di-primavera-2012-&catid=3:avvenimenti&Itemid=8
 12/05||Capannori|Conferenza Arduino|http://luccalug.it/content/12-maggio-%E2%80%93-arduino-l%E2%80%99elettronica-diventa-facile
+11/05||Grosseto|Corso Linux Base|http://www.guruatwork.com/2012/corsi-gratuiti-di-gw-corso-linux-base/
 10/05||Trieste|Serata Log Aggregator|http://trieste.linux.it/?p=584
+09/05||Empoli|Corso Web Design|http://golem.linux.it/wp/2012/05/corso-web-design/
 07/05||Milano|Corso Amministrazione di Sistema Linux|http://www.poul.org/2012/04/corsi-avanzati-2012/
 05/05|06/05|Forlì|Fiera Elettronica di Primavera|http://www.folug.org/2012/05/01/fiera-elettronica-di-primavera/
 04/05||Milano|Giornata Internazionale contro il DRM|http://www.pcofficina.org/?p=614&utm_source=rss&utm_medium=rss&utm_campaign=giornata-internazionale-contro-il-drm
