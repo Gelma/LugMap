@@ -13,6 +13,7 @@
 17/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=587
 16/05||Milano|Conferenza Drupal|http://www.poul.org/2012/05/3433/
 16/05||Trento|Incontro su Disegno di Legge Provinciale|http://www.linuxtrent.it/incontro-sulla-proposta-di-disegno-di-legge-provinciale-n-249xiv-su-sw-libero-e-dati-aperti
+15/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=303
 15/05||Rende|Corso Avanzato GNU/Linux|http://www.verdebinario.org/index.php?option=com_content&task=view&id=147&Itemid=0
 15/05||Riva del Garda|Serata Asterisk|http://www.linuxtrent.it/serata-tema-su-asterisk
 15/05||Ivrea|"Il Software Libero per l'Africa"|http://www.ivlug.it/2012/05/il-software-libero-per-lafrica-informatici-senza-frontiere/
