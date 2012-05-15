@@ -34,5 +34,5 @@ Per ogni critica, una proposta propositiva. Astenersi perditempo.
 == Licenze ==
 Il codice relativo al servizio WEB viene rilasciato con licenza AGPL,
 mentre gli script e tutto l'apparato di backend gode della licenza GPL.
-I dati raw esposti nella cartella db/ vengono rilasciati in licenza CC0.
+I dati raw esposti nella cartella db/ vengono rilasciati con licenza CC0.
 Tranne dove diversamente indicato, ovviamente.
