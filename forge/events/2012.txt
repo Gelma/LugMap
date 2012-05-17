@@ -1,4 +1,5 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
+17/06||Biadene|Montegames 2012|http://www.montellug.it/montegames-2012/510
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 07/06||Bibbiena|Corso Montaggio Video|http://www.ipios.org/eventi/corso-montaggio-video-a-bibbiena-il-giugno-2012/
 04/06||Matera|Corso GIS|http://www.materalinux.it/?p=625
