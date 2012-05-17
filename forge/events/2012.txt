@@ -1,6 +1,7 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 04/06||Montecchio Maggiore|GNU/Linux Night: Esperienze Linux|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
+03/06||Montebelluna|"L'Alternativa Esiste"|http://www.montellug.it/lalternativa-esiste-2012/506
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
 28/05||Montecchio Maggiore|GNU/Linux Night: Interfacce Grafiche|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 26/05||Torino|Workshop Arduino|http://www.openlabto.org/opendays
