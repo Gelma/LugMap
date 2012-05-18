@@ -6,6 +6,7 @@
 04/06||Montecchio Maggiore|GNU/Linux Night: Esperienze Linux|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 03/06||Montebelluna|"L'Alternativa Esiste"|http://www.montellug.it/lalternativa-esiste-2012/506
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
+28/05||Capannori|Mini Corso di Blender|http://luccalug.it/content/blender-mini-corso-di-modellazione-3d-open-source
 28/05||Montecchio Maggiore|GNU/Linux Night: Interfacce Grafiche|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 26/05||Torino|Workshop Arduino|http://www.openlabto.org/opendays
 25/05||Parma|Towel Day|http://www.parma.linux.it/news/2012/05/towel-day-2012-parma
@@ -15,6 +16,7 @@
 22/05||Milano|Cena Decennale POuL|http://www.poul.org/2012/05/cena-per-i-10-anni-del-poul/
 21/05||Montecchio Maggiore|GNU/Linux Night: Ubuntu 12.04|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 20/05||Magione|FuMenti 2012|http://www.perugiagnulug.org/fumenti-2012
+19/05||Grosseto|Seminario a Scuola|http://www.guruatwork.com/2012/seminari-in-collaborazione-con-il-polo-bianciardi/
 19/05||Torino|Prometeo OpenDays 2012|http://www.openlabto.org/opendays
 19/05||Livorno|Seminario Ubuntu Studio|http://www.gullix.org/index.php?option=com_content&view=article&id=90:i-3-seminari-di-maggio-e-lhelp-desk
 18/05||Forlì|Corso Linux|http://www.folug.org/2012/05/06/corso-linux-da-venerdi-18-maggio/
