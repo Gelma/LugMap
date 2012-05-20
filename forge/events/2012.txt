@@ -14,6 +14,7 @@
 25/05|27/05|Firenze|Terra Futura|http://www.liberainformatica.it/newsite/
 24/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-0
 23/05||Ivrea|Corso Navigazione Internet Sicura|http://www.ivlug.it/2012/05/navigare-sicuri-valori-opportunita-e-insidie-nella-rete-prima-serata/
+22/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=304
 22/05||Milano|Cena Decennale POuL|http://www.poul.org/2012/05/cena-per-i-10-anni-del-poul/
 21/05||Montecchio Maggiore|GNU/Linux Night: Ubuntu 12.04|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 20/05||Magione|FuMenti 2012|http://www.perugiagnulug.org/fumenti-2012
