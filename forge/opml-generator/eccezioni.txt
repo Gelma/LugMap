@@ -5,6 +5,7 @@ http://paduglug.paduli.org/index.php?title=Wikipedia&amp;printable=yes
 # MediaWiki, modifiche sul wiki
 http://www.conoscerelinux.net/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 http://www.conoscerelinux.net/index.php?title=Conoscerelinux_Main_Page&amp;printable=yes
+http://www.conoscerelinux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # MediaWiki, modifiche sul wiki
 http://lug.42019.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 http://lug.42019.it/index.php?title=Pagina_principale&amp;printable=yes
