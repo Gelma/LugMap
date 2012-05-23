@@ -1,6 +1,7 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 17/06||Biadene|Montegames 2012|http://www.montellug.it/montegames-2012/510
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
+09/06||Torino|Workshop Arduino|http://www.openlabto.org/workshop-base-su-arduino
 07/06||Bibbiena|Corso Montaggio Video|http://www.ipios.org/eventi/corso-montaggio-video-a-bibbiena-il-giugno-2012/
 04/06||Matera|Corso GIS|http://www.materalinux.it/?p=625
 04/06||Montecchio Maggiore|GNU/Linux Night: Esperienze Linux|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
@@ -10,7 +11,6 @@
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
 28/05||Capannori|Mini Corso di Blender|http://luccalug.it/content/blender-mini-corso-di-modellazione-3d-open-source
 28/05||Montecchio Maggiore|GNU/Linux Night: Interfacce Grafiche|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
-26/05||Torino|Workshop Arduino|http://www.openlabto.org/opendays
 25/05||Parma|Towel Day|http://www.parma.linux.it/news/2012/05/towel-day-2012-parma
 25/05|27/05|Firenze|Terra Futura|http://www.liberainformatica.it/newsite/
 24/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-0
