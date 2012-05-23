@@ -1,5 +1,6 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
+05/06||Bologna|Arduino: seconda serata|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMkHtE0P1AD6NX4B5Gi_UNcpUgLfvhuAtGn%2BH1nH0%3DXoA%40mail.gmail.com
 04/06||Montecchio Maggiore|GNU/Linux Night: Esperienze Linux|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
 29/05||Bologna|Getting Things Done For Hackers|http://erlug.linux.it/forum/viewtopic.php?t=1643
