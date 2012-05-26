@@ -3,12 +3,14 @@
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 09/06||Torino|Workshop Arduino|http://www.openlabto.org/workshop-base-su-arduino
 07/06||Bibbiena|Corso Montaggio Video|http://www.ipios.org/eventi/corso-montaggio-video-a-bibbiena-il-giugno-2012/
+05/06||Bologna|Arduino: seconda serata|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMkHtE0P1AD6NX4B5Gi_UNcpUgLfvhuAtGn%2BH1nH0%3DXoA%40mail.gmail.com
 04/06||Matera|Corso GIS|http://www.materalinux.it/?p=625
 04/06||Montecchio Maggiore|GNU/Linux Night: Esperienze Linux|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 03/06||Montebelluna|"L'Alternativa Esiste"|http://www.montellug.it/lalternativa-esiste-2012/506
 30/05||Sover|Serata Informativa|http://www.linuxtrent.it/software-libero-dati-liberi-uomini-liberi
 30/05||Bergamo|Linux Embedded|http://bglug.it/2012/05/19/linux-embedded/
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
+29/05||Bologna|Getting Things Done For Hackers|http://erlug.linux.it/forum/viewtopic.php?t=1643
 28/05||Capannori|Mini Corso di Blender|http://luccalug.it/content/blender-mini-corso-di-modellazione-3d-open-source
 28/05||Montecchio Maggiore|GNU/Linux Night: Interfacce Grafiche|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 25/05||Parma|Towel Day|http://www.parma.linux.it/news/2012/05/towel-day-2012-parma
