@@ -15,6 +15,7 @@
 28/05||Montecchio Maggiore|GNU/Linux Night: Interfacce Grafiche|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 25/05||Parma|Towel Day|http://www.parma.linux.it/news/2012/05/towel-day-2012-parma
 25/05|27/05|Firenze|Terra Futura|http://www.liberainformatica.it/newsite/
+24/05||Quiliano|Incontro sulle Reti|http://www.govonis.org/index.php?option=com_content&view=article&id=95:incontri-sul-software-libero-parte-6&catid=3:avvenimenti
 24/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-0
 23/05||Ivrea|Corso Navigazione Internet Sicura|http://www.ivlug.it/2012/05/navigare-sicuri-valori-opportunita-e-insidie-nella-rete-prima-serata/
 22/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=304
@@ -24,6 +25,7 @@
 19/05||Grosseto|Seminario a Scuola|http://www.guruatwork.com/2012/seminari-in-collaborazione-con-il-polo-bianciardi/
 19/05||Torino|Prometeo OpenDays 2012|http://www.openlabto.org/opendays
 19/05||Livorno|Seminario Ubuntu Studio|http://www.gullix.org/index.php?option=com_content&view=article&id=90:i-3-seminari-di-maggio-e-lhelp-desk
+18/05||Aosta|Conferenza sulla Sicurezza|http://www.slag.it/node/214
 18/05||Forlì|Corso Linux|http://www.folug.org/2012/05/06/corso-linux-da-venerdi-18-maggio/
 17/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=587
 16/05||Milano|Conferenza Drupal|http://www.poul.org/2012/05/3433/
