@@ -10,6 +10,7 @@
 30/05||Sover|Serata Informativa|http://www.linuxtrent.it/software-libero-dati-liberi-uomini-liberi
 30/05||Bergamo|Linux Embedded|http://bglug.it/2012/05/19/linux-embedded/
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
+29/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=305
 29/05||Bologna|Getting Things Done For Hackers|http://erlug.linux.it/forum/viewtopic.php?t=1643
 28/05||Capannori|Mini Corso di Blender|http://luccalug.it/content/blender-mini-corso-di-modellazione-3d-open-source
 28/05||Montecchio Maggiore|GNU/Linux Night: Interfacce Grafiche|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
