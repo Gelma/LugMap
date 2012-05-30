@@ -10,6 +10,7 @@
 02/06||Verona|Roboval|http://www.lugverona.it/?p=358
 02/06||Verona|Ri-Creo|http://www.officina-s3.org/?p=2531
 31/05||Ivrea|Lezione su Installazione Linux|http://www.ivlug.it/2012/05/laboratorio-linux-prove-pratiche-di-installazione/
+30/05||Quiliano|Incontro sulla Documentazione|http://www.govonis.org/index.php?option=com_content&view=article&id=96:incontri-sul-software-libero-parte-7&catid=3:avvenimenti
 30/05||Sover|Serata Informativa|http://www.linuxtrent.it/software-libero-dati-liberi-uomini-liberi
 30/05||Bergamo|Linux Embedded|http://bglug.it/2012/05/19/linux-embedded/
 30/05||Orvieto|Esame Gratuito Certificazione LPI|http://www.perugiagnulug.org/certificazione-professional-institute-esame-gratuito
