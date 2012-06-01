@@ -7,6 +7,7 @@
 04/06||Matera|Corso GIS|http://www.materalinux.it/?p=625
 04/06||Montecchio Maggiore|GNU/Linux Night: Esperienze Linux|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 03/06||Montebelluna|"L'Alternativa Esiste"|http://www.montellug.it/lalternativa-esiste-2012/506
+02/06||Milano|Festa Popolare|http://www.pcofficina.org/festa-popolare-2012-pcofficina-al-parco/?utm_source=rss&utm_medium=rss&utm_campaign=festa-popolare-2012-pcofficina-al-parco
 02/06||Verona|Roboval|http://www.lugverona.it/?p=358
 02/06||Verona|Ri-Creo|http://www.officina-s3.org/?p=2531
 31/05||Ivrea|Lezione su Installazione Linux|http://www.ivlug.it/2012/05/laboratorio-linux-prove-pratiche-di-installazione/
