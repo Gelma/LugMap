@@ -1,5 +1,10 @@
+25/07||Bassano del Grappa|Incontro sui Repository Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
+11/07||Bassano del Grappa|Incontro su Gnome3|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
+27/06||Bassano del Grappa|"Personalizzare Ubuntu"|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 17/06||Biadene|Montegames 2012|http://www.montellug.it/montegames-2012/510
+13/06||Bassano del Grappa|Incontro su Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
+12/06||Lodi|Fedora 17 Release Party|http://www.lolug.org/?q=node/101
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
 09/06||Torino|Workshop Arduino|http://www.openlabto.org/workshop-base-su-arduino
 07/06||Bibbiena|Corso Montaggio Video|http://www.ipios.org/eventi/corso-montaggio-video-a-bibbiena-il-giugno-2012/
