@@ -9,6 +9,7 @@
 09/06||Torino|Workshop Arduino|http://www.openlabto.org/workshop-base-su-arduino
 08/06||Brescia|Aperitivo GNUmerica|http://www.circolab.net/aperitivo-benefit-per-gnumerica/
 08/06||Viareggio|Incontro Arduino|http://luccalug.it/content/viareggio-8-giugno-%E2%80%93-arduino-l%E2%80%99elettronica-diventa-facile
+07/06||Quiliano|Incontro sulla Community|http://www.govonis.org/index.php?option=com_content&view=article&id=97:incontri-sul-software-libero-parte-8&catid=3:avvenimenti
 07/06||Bibbiena|Corso Montaggio Video|http://www.ipios.org/eventi/corso-montaggio-video-a-bibbiena-il-giugno-2012/
 05/06||Bologna|Arduino: seconda serata|http://erlug.linux.it/mlarc/cgi-bin/mesg.cgi?a=erlug&i=CAHmiXyMkHtE0P1AD6NX4B5Gi_UNcpUgLfvhuAtGn%2BH1nH0%3DXoA%40mail.gmail.com
 04/06||Matera|Corso GIS|http://www.materalinux.it/?p=625
