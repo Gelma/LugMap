@@ -10,6 +10,7 @@
 12/06||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=306
 12/06||Lodi|Fedora 17 Release Party|http://www.lolug.org/?q=node/101
 11/06||Montecchio Maggiore|GNU/Linux Night: Linux Media Center|http://www.avilug.it/doku.php/news/20120514_gnu/linux_nights_a_montecchio_maggiore
+10/06||San Vito di Leguzzano|No Skey Day|http://www.avilug.it/doku.php/news/20120610_no_skei_day_2012
 09/06||Milano|ZAC!|http://www.pcofficina.org/zac-mercato-contadino-dei-gas-di-zona-9/?utm_source=rss&utm_medium=rss&utm_campaign=zac-mercato-contadino-dei-gas-di-zona-9
 09/06||Torino|Workshop Arduino|http://www.openlabto.org/workshop-base-su-arduino
 08/06||Brescia|Aperitivo GNUmerica|http://www.circolab.net/aperitivo-benefit-per-gnumerica/
