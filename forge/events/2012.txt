@@ -5,6 +5,7 @@
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 17/06||Biadene|Montegames 2012|http://www.montellug.it/montegames-2012/510
 16/06||Trieste|Install Party|http://trieste.linux.it/?p=593
+13/06||Quiliano|Incontro sulle Distribuzioni|http://www.govonis.org/index.php?option=com_content&view=article&id=98:incontri-sul-software-libero-parte-9&catid=3:avvenimenti
 13/06||Bassano del Grappa|Incontro su Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 12/06||Torino|Incontro su Inkscape|http://www.openlabto.org/inkscape-1
 12/06||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=306
