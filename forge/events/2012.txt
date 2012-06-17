@@ -1,5 +1,6 @@
 24/08|26/08|Pescara|Metro Olografix Camp 2012|http://www.fsugitalia.org/wp/2012/06/pescara-moca2012/
 25/07||Bassano del Grappa|Incontro sui Repository Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
+23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
 11/07||Bassano del Grappa|Incontro su Gnome3|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 27/06||Bassano del Grappa|"Personalizzare Ubuntu"|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 22/06||Vitorchiano|LAN Party|http://www.tulug.it/blog/2012/06/08/lan-party-giugno-2012/
