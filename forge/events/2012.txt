@@ -5,6 +5,7 @@
 27/06||Bassano del Grappa|"Personalizzare Ubuntu"|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 22/06||Vitorchiano|LAN Party|http://www.tulug.it/blog/2012/06/08/lan-party-giugno-2012/
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
+21/06||Quiliano|Conclusione Ciclo di Incontro|http://www.govonis.org/index.php?option=com_content&view=article&id=100:incontri-sul-software-libero-parte-10&catid=3:avvenimenti
 20/06||Cosenza|Warm Up HackIt 2012|http://www.verdebinario.org/index.php?option=com_content&task=view&id=148&Itemid=0
 17/06||Biadene|Montegames 2012|http://www.montellug.it/montegames-2012/510
 16/06||Tavarnelle Val di Pesa|The Walking Nerd|http://www.elsaglug.org/component/content/article/40-software/88-partecipazione-a-qthe-walking-merd-iiq
