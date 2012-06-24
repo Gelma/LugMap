@@ -3,6 +3,8 @@
 23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
 11/07||Bassano del Grappa|Incontro su Gnome3|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 27/06||Bassano del Grappa|"Personalizzare Ubuntu"|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
+25/06||Matera|Convegno su Software Libero e Open Data|http://www.baslug.org/?q=node/88
+22/06|24/06|Ritmi e Danze dal Mondo|Giavera del Montello|http://www.montellug.it/22-23-24-giugno-montellug-e-ritmi-e-danze-dal-mondo/517
 22/06||Vitorchiano|LAN Party|http://www.tulug.it/blog/2012/06/08/lan-party-giugno-2012/
 22/06|23/06|Ancona|ConfSL|http://www.confsl.org/confsl12/
 21/06||Quiliano|Conclusione Ciclo di Incontro|http://www.govonis.org/index.php?option=com_content&view=article&id=100:incontri-sul-software-libero-parte-10&catid=3:avvenimenti
