@@ -1,3 +1,5 @@
+27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
+15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 24/08|26/08|Pescara|Metro Olografix Camp 2012|http://www.fsugitalia.org/wp/2012/06/pescara-moca2012/
 25/07||Bassano del Grappa|Incontro sui Repository Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
