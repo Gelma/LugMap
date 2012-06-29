@@ -5,6 +5,7 @@
 23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
 13/07||Aosta|Incontro Informativo|http://www.slag.it/node/225
 11/07||Bassano del Grappa|Incontro su Gnome3|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
+03/07||Bologna|Serata dedicata a IPv6|http://erlug.linux.it/forum/viewtopic.php?t=1667
 27/06||Bassano del Grappa|"Personalizzare Ubuntu"|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 25/06||Matera|Convegno su Software Libero e Open Data|http://www.baslug.org/?q=node/88
 22/06|24/06|Ritmi e Danze dal Mondo|Giavera del Montello|http://www.montellug.it/22-23-24-giugno-montellug-e-ritmi-e-danze-dal-mondo/517
