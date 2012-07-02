@@ -61,7 +61,7 @@ while (true) {
 
 	$events_index--;
 
-	if ($events_index == -1) {
+	if ($events_index < 0) {
 		$year++;
 
 		if (file_exists ("$year.txt"))
@@ -77,4 +77,3 @@ write_geo_file ('geoevents.txt', $rows);
 save_geocache ();
 
 ?>
-
