@@ -5,6 +5,7 @@
 23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
 20/07|22/07|Arco|Festival dell'Informazione Indipendente|http://www.linuxtrent.it/festival-dellinformazione-indipendente-arco-20-22-luglio-2012
 19/07||Sesto San Giovanni|Assemblea|http://www.lifos.org/2012/07/convocazione-assemblea-19-luglio-2012/
+18/07||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-luglio-1
 17/07||Finalborgo|Serata Tematica|http://www.govonis.org/index.php?option=com_content&view=article&id=104:linux-e-dintorni-parte-ii&catid=3:avvenimenti
 13/07||Aosta|Incontro Informativo|http://www.slag.it/node/225
 11/07||Bassano del Grappa|Incontro su Gnome3|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
