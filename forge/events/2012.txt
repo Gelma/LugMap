@@ -2,6 +2,7 @@
 15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 13/09||Novara|Presentazione Attivita'|http://linoxnovara.wordpress.com/2012/07/20/arrivederci-a-settembre/
 24/08|26/08|Pescara|Metro Olografix Camp 2012|http://www.fsugitalia.org/wp/2012/06/pescara-moca2012/
+06/08||Pergine Valsugana|Serata CakePHP|http://www.linuxtrent.it/corsi-ed-incontri/serata-tema-creazione-applicativi-php-tramite-il-framework-cakephp
 25/07||Bassano del Grappa|Incontro sui Repository Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
 20/07|22/07|Arco|Festival dell'Informazione Indipendente|http://www.linuxtrent.it/festival-dellinformazione-indipendente-arco-20-22-luglio-2012
