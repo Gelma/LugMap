@@ -1,6 +1,7 @@
 27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
 15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 13/09||Novara|Presentazione Attivita'|http://linoxnovara.wordpress.com/2012/07/20/arrivederci-a-settembre/
+01/09|02/09|Montichiari|Radiantistica Expo'|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari
 24/08|26/08|Pescara|Metro Olografix Camp 2012|http://www.fsugitalia.org/wp/2012/06/pescara-moca2012/
 06/08||Pergine Valsugana|Serata CakePHP|http://www.linuxtrent.it/corsi-ed-incontri/serata-tema-creazione-applicativi-php-tramite-il-framework-cakephp
 27/07||Avola|Migrazione Centro Culturale|http://linuxavola.blogspot.it/2012/07/migrazione-macchine-del-centro.html
