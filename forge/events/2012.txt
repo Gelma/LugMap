@@ -4,6 +4,7 @@
 01/09|02/09|Montichiari|Radiantistica Expo'|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari
 24/08|26/08|Pescara|Metro Olografix Camp 2012|http://www.fsugitalia.org/wp/2012/06/pescara-moca2012/
 06/08||Pergine Valsugana|Serata CakePHP|http://www.linuxtrent.it/corsi-ed-incontri/serata-tema-creazione-applicativi-php-tramite-il-framework-cakephp
+03/08||Tito|Inizio Incontri Settimanali|http://www.baslug.org/?q=node/91
 27/07||Avola|Migrazione Centro Culturale|http://linuxavola.blogspot.it/2012/07/migrazione-macchine-del-centro.html
 25/07||Bassano del Grappa|Incontro sui Repository Ubuntu|http://grappalug.org/content/%EF%BB%BFserie-di-talk-pre-estivi-presso-la-sede-del-grappalug-di-bassano-del-grappa
 23/07||Catanzaro|Corso di Informatica|http://hacklab.cz/2012/06/16/corso-di-informatica-generale
