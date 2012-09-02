@@ -2,6 +2,7 @@
 29/09||Torino|Joomla Day|http://www.pcofficina.org/joomladay-2012-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=joomladay-2012-a-torino
 15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 13/09||Novara|Presentazione Attivita'|http://linoxnovara.wordpress.com/2012/07/20/arrivederci-a-settembre/
+04/09||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=307
 01/09|02/09|Montichiari|Radiantistica Expo'|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari
 31/08|02/09|Venezia Tessera|End Summer Camp|http://www.pcofficina.org/appuntamenti-di-fine-estate/?utm_source=rss&utm_medium=rss&utm_campaign=appuntamenti-di-fine-estate
 24/08||Levico Terme|Serata digiKam|http://www.linuxtrent.it/venerd%C3%AC-24082012-ore-2030-concetti-di-fotografia-digitale-e-fotoritocco-amatoriale-con-digikam
