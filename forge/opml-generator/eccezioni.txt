@@ -64,3 +64,6 @@ http://lugscandiano.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 http://www.slacky.eu/wikislack/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # Drupal invaso da spambot
 http://www.frhacklab.org/rss.xml
+# Mediawiki, modifiche sul wiki
+http://www.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
+http://www.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
