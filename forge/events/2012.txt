@@ -1,7 +1,9 @@
 27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
+11/10|12/10|Bologna|Italian Perl Workshop|http://www.parma.linux.it/news/2012/09/italian-perl-workshop-2012
 06/10||Montebelluna|Festa del Volontariato|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
 29/09||Torino|Joomla Day|http://www.pcofficina.org/joomladay-2012-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=joomladay-2012-a-torino
 22/09|23/09|Montebelluna|Incontro con Associazioni|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
+15/09||Parma|Aperitivo col Bosone Higgs|http://www.parma.linux.it/news/2012/09/aperitivo-con-il-bosone-di-higgs
 15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 13/09||Novara|Presentazione Attivita'|http://linoxnovara.wordpress.com/2012/07/20/arrivederci-a-settembre/
 06/09||Ferrara|Riapertura Progetto tRicicloPC|http://www.ferrara.linux.it/notizie/115-apertura-serale-sede-del-progetto-triciclopc
