@@ -4,6 +4,7 @@
 29/09||Torino|Joomla Day|http://www.pcofficina.org/joomladay-2012-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=joomladay-2012-a-torino
 25/09||Bologna|Serata VIM|http://erlug7.francescoboschetti.net/notizie/serata-dedicata-vim-marted%C3%AC-25-settembre-2012
 22/09|23/09|Montebelluna|Incontro con Associazioni|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
+18/09||Torino|Corso Fotografia e Software Libero|http://www.openlabto.org/fotografia-e-software-libero
 15/09||Parma|Aperitivo col Bosone Higgs|http://www.parma.linux.it/news/2012/09/aperitivo-con-il-bosone-di-higgs
 15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 13/09||Novara|Presentazione Attivita'|http://linoxnovara.wordpress.com/2012/07/20/arrivederci-a-settembre/
