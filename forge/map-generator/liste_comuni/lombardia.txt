@@ -1,3 +1,4 @@
+Vignate
 Agra
 Albizzate
 Angera
@@ -506,7 +507,6 @@ Vanzago
 Vaprio d'Adda
 Vermezzo
 Vernate
-Vignate
 Villa Cortese
 Vimodrone
 Vittuone
