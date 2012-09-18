@@ -4,13 +4,16 @@
 29/09||Torino|Joomla Day|http://www.pcofficina.org/joomladay-2012-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=joomladay-2012-a-torino
 28/09||Levico Terme|Serata LibreOffice Impress|http://www.linuxtrent.it/28092012-libreoffice-impress-facile-new-users-levico-terme-ore-2030
 25/09||Bologna|Serata VIM|http://erlug7.francescoboschetti.net/notizie/serata-dedicata-vim-marted%C3%AC-25-settembre-2012
+24/09||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-1
 22/09|23/09|Montebelluna|Incontro con Associazioni|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
 20/09||Novara|Corso Informatica|http://linoxnovara.wordpress.com/2012/09/15/corso-informatico-livello-intermedio/
+19/09||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=601
 18/09||Torino|Corso Fotografia e Software Libero|http://www.openlabto.org/fotografia-e-software-libero
 15/09|16/09|Abbiategrasso|"Disimballati"|http://www.pcofficina.org/disimballati-15-16-settembre-2012/?utm_source=rss&utm_medium=rss&utm_campaign=disimballati-15-16-settembre-2012
 15/09||Parma|Aperitivo col Bosone Higgs|http://www.parma.linux.it/news/2012/09/aperitivo-con-il-bosone-di-higgs
 15/09||Tutta Italia|Software Freedom Day|http://wiki.softwarefreedomday.org/2012/Italy
 13/09||Novara|Presentazione Attivita'|http://linoxnovara.wordpress.com/2012/07/20/arrivederci-a-settembre/
+10/09|11/09|Asti|Corso Jclic|http://www.progettoradis.it/index.php?option=com_content&view=article&id=69:settembre-2012-corso-jclic&catid=16:progetti-realizzati&Itemid=25
 06/09||Ferrara|Riapertura Progetto tRicicloPC|http://www.ferrara.linux.it/notizie/115-apertura-serale-sede-del-progetto-triciclopc
 04/09||Rimini|Incontro Pubblico|http://www.riminilug.it/tiki-read_article.php?articleId=307
 01/09|02/09|Montichiari|Radiantistica Expo'|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari
