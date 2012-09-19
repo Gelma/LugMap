@@ -1,10 +1,12 @@
 27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
 11/10|12/10|Bologna|Italian Perl Workshop|http://www.parma.linux.it/news/2012/09/italian-perl-workshop-2012
 06/10||Montebelluna|Festa del Volontariato|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
+30/09||Cremona|Festa del Volontariato|http://www.lugcr.it/lugcr/festa-del-volontariato-2012
 29/09||Torino|Joomla Day|http://www.pcofficina.org/joomladay-2012-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=joomladay-2012-a-torino
 28/09||Levico Terme|Serata LibreOffice Impress|http://www.linuxtrent.it/28092012-libreoffice-impress-facile-new-users-levico-terme-ore-2030
 25/09||Bologna|Serata VIM|http://erlug7.francescoboschetti.net/notizie/serata-dedicata-vim-marted%C3%AC-25-settembre-2012
 24/09||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-1
+22/09|23/09|Villa Guardia|L'Isola che C'e'|http://www.gl-como.it/2012/09/19/fiera-lisola-che-ce-2012/
 22/09|23/09|Montebelluna|Incontro con Associazioni|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
 20/09||Novara|Corso Informatica|http://linoxnovara.wordpress.com/2012/09/15/corso-informatico-livello-intermedio/
 19/09||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=601
