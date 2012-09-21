@@ -7,7 +7,7 @@
 25/09||Bologna|Serata VIM|http://erlug7.francescoboschetti.net/notizie/serata-dedicata-vim-marted%C3%AC-25-settembre-2012
 24/09||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-1
 23/09||Bologna|Volontassociate|http://erlug7.francescoboschetti.net/notizie/erlug-volontassociate-domenica-23-settembre
-23/09||Olimpiadi Internazionali di Informatica|Montichiari|http://www.lugbs.linux.it/index.php#Dom._23_Settembre
+23/09||Montichiari|Olimpiadi Internazionali di Informatica|http://www.lugbs.linux.it/index.php#Dom._23_Settembre
 22/09||Bassano del Grappa|Inaugurazione Aula Multimediale|http://grappalug.org/content/pubblica-inaugurazione-della-nuova-aula-multimediale
 22/09|23/09|Villa Guardia|L'Isola che C'e'|http://www.gl-como.it/2012/09/19/fiera-lisola-che-ce-2012/
 22/09|23/09|Montebelluna|Incontro con Associazioni|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
