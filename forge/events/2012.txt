@@ -1,7 +1,9 @@
 27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
+13/10||San Pietro in Valle|Risotto 3.1|http://www.lugcr.it/lugcr/risotto-31
 11/10||Roma|Corso Linux Essentials|http://www.sabazialug.org/2012/09/il-sabazialug-partner-formativo-per-i-prossimi-corsi-linux-essentials-organizzati-da-ithum/?utm_source=rss&utm_medium=rss&utm_campaign=il-sabazialug-partner-formativo-per-i-prossimi-corsi-linux-essentials-organizzati-da-ithum#&panel1-9
 11/10|12/10|Bologna|Italian Perl Workshop|http://www.parma.linux.it/news/2012/09/italian-perl-workshop-2012
 06/10||Montebelluna|Festa del Volontariato|http://www.montellug.it/prossimi-appuntamenti-del-montellug/535
+03/10||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=608
 02/10||Trento|Serata Ninux|http://www.linuxtrent.it/serata-ninux-e-reti-wireless-comunitarie
 30/09||Cremona|Festa del Volontariato|http://www.lugcr.it/lugcr/festa-del-volontariato-2012
 29/09||Torino|Joomla Day|http://www.pcofficina.org/joomladay-2012-a-torino/?utm_source=rss&utm_medium=rss&utm_campaign=joomladay-2012-a-torino
