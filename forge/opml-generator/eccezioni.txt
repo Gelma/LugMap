@@ -67,3 +67,7 @@ http://www.frhacklab.org/rss.xml
 # Mediawiki, modifiche sul wiki
 http://www.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=rss
 http://www.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# Feed non corretto, ad ogni aggiornamento riaggiona le date di tutti gli elementi
+http://www.bilug.linux.it/custom/rss.xml
+# DocuWiki, modifiche sul wiki
+http://www.autistici.org/underscore/feed.php
