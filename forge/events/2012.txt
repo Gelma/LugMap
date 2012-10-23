@@ -1,8 +1,11 @@
-8/11||Santa Croce sull'Arno|Inizio Corso Linux|http://golem.linux.it/wp/2012/10/corso-base-2012/
+08/11||Santa Croce sull'Arno|Inizio Corso Linux|http://golem.linux.it/wp/2012/10/corso-base-2012/
 27/10|28/10|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-ottobre-2012
 27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
 27/10||Grosseto|Corso Joomla|http://www.guruatwork.com/2012/corso-gratuito-per-ralizzare-siti-web-con-joomla-al-linux-day-2012-a-grosseto/
+26/10||Mantova|Didattica Aperta|http://www.lugducale.it/index.php/notizie/25-didattica-aperta
+25/10||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=663
 25/10||Bologna|Serata Centri di Calcolo|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-25-ottobre-2012-serata-dedicata-allopen-source-nelle-grandi-realt%C3%A0
+23/10||Grosseto|Conferenza Stampa Linux Day|http://www.guruatwork.com/2012/linux-day-2012-conferenza-stampa/
 23/10||Feletto Umberto|"Modelli Open Source di Successo"|http://iglu.cc.uniud.it/?p=696
 20/10||Napoli|Riunione Pubblica|http://www.nalug.net/news-nalug/riunione-sabato-2010-ore-1100
 20/10|21/10|Faenza|ExpoElettronica 2012|http://www.imolug.org/eventi/ExpoElettronica_Faenza_2012
