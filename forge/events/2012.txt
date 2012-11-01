@@ -1,4 +1,5 @@
 09/11||Milano|Corso Ruby|http://www.poul.org/2012/10/corso-ruby/
+08/11||Sesto San Giovanni|Introduzione a Linux|http://www.lifos.org/2012/10/2-giorni-col-pinguino/
 08/11||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-0
 08/11||Santa Croce sull'Arno|Inizio Corso Linux|http://golem.linux.it/wp/2012/10/corso-base-2012/
 27/10|28/10|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-ottobre-2012
