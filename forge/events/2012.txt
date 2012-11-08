@@ -1,10 +1,12 @@
 12/11||Lucca|Serata Git|http://luccalug.it/content/serata-tema-dedicata-git
+10/11||Torino|"Senza Nuvole negli Occhi"|http://informaticalibera.info/index.php?option=com_content&view=article&id=121:sabato-10-novembre-ipercoop&catid=1:ultime
 09/11||Milano|Corso Ruby|http://www.poul.org/2012/10/corso-ruby/
 08/11||Vado Ligure|Corso di Informatica|http://www.govonis.org/index.php?option=com_content&view=article&id=110:corso-di-informatica-unisabazia&catid=4:appuntamenti&Itemid=9
 08/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=704
 08/11||Sesto San Giovanni|Introduzione a Linux|http://www.lifos.org/2012/10/2-giorni-col-pinguino/
 08/11||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-0
 08/11||Santa Croce sull'Arno|Inizio Corso Linux|http://golem.linux.it/wp/2012/10/corso-base-2012/
+07/11||Bergamo|Cena/Pizzata|http://bglug.it/2012/11/06/cena10anni/
 27/10|28/10|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-ottobre-2012
 27/10||Tutta Italia|Linux Day 2012|http://www.linuxday.it/
 27/10||Grosseto|Corso Joomla|http://www.guruatwork.com/2012/corso-gratuito-per-ralizzare-siti-web-con-joomla-al-linux-day-2012-a-grosseto/
