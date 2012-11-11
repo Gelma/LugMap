@@ -1,3 +1,4 @@
+16/11||Grosseto|Corso Joomla|http://www.guruatwork.com/2012/nuovo-corso-gratuito-per-realizzare-siti-web-con-joomla/
 12/11||Lucca|Serata Git|http://luccalug.it/content/serata-tema-dedicata-git
 10/11||Torino|"Senza Nuvole negli Occhi"|http://informaticalibera.info/index.php?option=com_content&view=article&id=121:sabato-10-novembre-ipercoop&catid=1:ultime
 09/11||Milano|Corso Ruby|http://www.poul.org/2012/10/corso-ruby/
