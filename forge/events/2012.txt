@@ -1,4 +1,8 @@
+30/11||Perugia|FLOSS In Festa 2012|http://www.perugiagnulug.org/floss-festa-2012
+27/11||Levico Terme|Serata Kattive|http://www.linuxtrent.it/corsi-ed-incontri/serata-tema-kattive-52-come-amministrare-un-firewall-con-poche-regole
+24/11||Udine|Open Source Day 2012|http://iglu.cc.uniud.it/?p=722
 22/11||Grosseto|Convegno Agenda Digitale|http://www.guruatwork.com/2012/convegno-il-decreto-legge-crescita-2-0-applicazione-dellagenda-digitale-adempimenti-e-scadenze-per-gli-enti-locali/
+19/11||Varese|Serata GIT|http://identi.ca/notice/97919863
 19/11||Udine|Digital Forensic|http://iglu.cc.uniud.it/?p=715
 16/11||Grosseto|Corso Joomla|http://www.guruatwork.com/2012/nuovo-corso-gratuito-per-realizzare-siti-web-con-joomla/
 15/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=718
