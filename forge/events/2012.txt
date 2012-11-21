@@ -1,4 +1,5 @@
 30/11||Perugia|FLOSS In Festa 2012|http://www.perugiagnulug.org/floss-festa-2012
+29/11||Bologna|Serata Arduino|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-29-novembre-2012-terza-serata-su-arduino
 27/11||Levico Terme|Serata Kattive|http://www.linuxtrent.it/corsi-ed-incontri/serata-tema-kattive-52-come-amministrare-un-firewall-con-poche-regole
 24/11||Udine|Open Source Day 2012|http://iglu.cc.uniud.it/?p=722
 22/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=729
