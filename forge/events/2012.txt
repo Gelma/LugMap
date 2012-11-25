@@ -4,6 +4,7 @@
 27/11||Taranto|Sessione d'Esame LPI|http://www.sabazialug.org/2012/11/sessioni-desame-straordinarie-a-roma-e-taranto-in-occasione-del-grow-net-2012/?utm_source=rss&utm_medium=rss&utm_campaign=sessioni-desame-straordinarie-a-roma-e-taranto-in-occasione-del-grow-net-2012#&panel1-2
 27/11||Roma|Sessione d'Esame LPI|http://www.sabazialug.org/2012/11/sessioni-desame-straordinarie-a-roma-e-taranto-in-occasione-del-grow-net-2012/?utm_source=rss&utm_medium=rss&utm_campaign=sessioni-desame-straordinarie-a-roma-e-taranto-in-occasione-del-grow-net-2012#&panel1-2
 27/11||Levico Terme|Serata Kattive|http://www.linuxtrent.it/corsi-ed-incontri/serata-tema-kattive-52-come-amministrare-un-firewall-con-poche-regole
+25/11||Torino|Settimana Europea Riduzione Rifiuti|http://informaticalibera.info/index.php?option=com_content&view=article&id=122:settimana-europea-per-la-riduzione-dei-rifiuti-2012&catid=1:ultime
 24/11||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-associativa-24-novembre-2012
 24/11||Udine|Open Source Day 2012|http://iglu.cc.uniud.it/?p=722
 22/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=729
