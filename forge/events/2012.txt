@@ -1,4 +1,6 @@
 10/12||Lucca|Serata OpenSCAD|http://luccalug.it/content/serata-tema-openscad-disegnare-3d-programmando
+02/12||Forli'|Pizzata|http://www.folug.org/2012/11/25/pizzata-sociale-domenica-02-dic-ore-20-30/
+01/12|02/12|Forli'|Fiera dell'Elettronica|http://www.folug.org/2012/11/25/folug-alla-fiera-dellelettronica-1-e-2-dicembre-2012/
 30/11||Perugia|FLOSS In Festa 2012|http://www.perugiagnulug.org/floss-festa-2012
 29/11||Bologna|Serata Arduino|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-29-novembre-2012-terza-serata-su-arduino
 27/11||Taranto|Sessione d'Esame LPI|http://www.sabazialug.org/2012/11/sessioni-desame-straordinarie-a-roma-e-taranto-in-occasione-del-grow-net-2012/?utm_source=rss&utm_medium=rss&utm_campaign=sessioni-desame-straordinarie-a-roma-e-taranto-in-occasione-del-grow-net-2012#&panel1-2
