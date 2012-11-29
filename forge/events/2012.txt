@@ -1,3 +1,4 @@
+13/12||Imola|Cena di Fine Anno|http://www.imolug.org/cenafineanno2012
 12/12||Roma|Inizio Corso Linux|http://www.lugroma3.org/content/corso-linux-20122013
 12/12||Roma|Install Fest|http://www.lugroma3.org/content/install-fest-dicembre-2012
 10/12||Lucca|Serata OpenSCAD|http://luccalug.it/content/serata-tema-openscad-disegnare-3d-programmando
