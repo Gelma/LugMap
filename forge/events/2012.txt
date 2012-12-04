@@ -1,7 +1,9 @@
 13/12||Imola|Cena di Fine Anno|http://www.imolug.org/cenafineanno2012
 12/12||Roma|Inizio Corso Linux|http://www.lugroma3.org/content/corso-linux-20122013
 12/12||Roma|Install Fest|http://www.lugroma3.org/content/install-fest-dicembre-2012
+10/12||Pescara|Corso di Programmazione Web|http://www.pescaralug.org/2012/12/03/corso-di-programmazione-web-10-dicembre-2012.html
 10/12||Lucca|Serata OpenSCAD|http://luccalug.it/content/serata-tema-openscad-disegnare-3d-programmando
+05/12||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=737
 02/12||Forli'|Pizzata|http://www.folug.org/2012/11/25/pizzata-sociale-domenica-02-dic-ore-20-30/
 01/12|02/12|Forli'|Fiera dell'Elettronica|http://www.folug.org/2012/11/25/folug-alla-fiera-dellelettronica-1-e-2-dicembre-2012/
 30/11||Vignate|Pizzata|http://viglug.org/incontro-del-30-novembre/
