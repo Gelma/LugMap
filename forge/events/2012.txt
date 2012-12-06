@@ -3,6 +3,8 @@
 12/12||Roma|Install Fest|http://www.lugroma3.org/content/install-fest-dicembre-2012
 10/12||Pescara|Corso di Programmazione Web|http://www.pescaralug.org/2012/12/03/corso-di-programmazione-web-10-dicembre-2012.html
 10/12||Lucca|Serata OpenSCAD|http://luccalug.it/content/serata-tema-openscad-disegnare-3d-programmando
+07/12||Varese|Cena Paninsubrica|http://identi.ca/notice/98257030
+06/12||Riva del Garda|Serata CMake|http://www.linuxtrent.it/serata-cmake-riva-del-garda
 05/12||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=737
 02/12||Forli'|Pizzata|http://www.folug.org/2012/11/25/pizzata-sociale-domenica-02-dic-ore-20-30/
 01/12|02/12|Forli'|Fiera dell'Elettronica|http://www.folug.org/2012/11/25/folug-alla-fiera-dellelettronica-1-e-2-dicembre-2012/
