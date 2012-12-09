@@ -1,8 +1,10 @@
 18/12||Cremona|Serata Natalizia|http://www.lugcr.it/lugcr/festivita-natalizie
+14/12||Forli'|Corso Sicurezza Informatica|http://www.folug.org/2012/12/08/corso-sulla-sicurezza-informatica/
 13/12||Imola|Cena di Fine Anno|http://www.imolug.org/cenafineanno2012
 12/12||Como|LAN Party|http://www.gl-como.it/lan-party-12-12-2012/
 12/12||Roma|Inizio Corso Linux|http://www.lugroma3.org/content/corso-linux-20122013
 12/12||Roma|Install Fest|http://www.lugroma3.org/content/install-fest-dicembre-2012
+11/12||Torri di Quartesolo|Serata Open Data|http://grappalug.org/content/11-dicembre-2012-talk-su-open-data-e-gis-torri-di-quartesolo
 11/12||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-dicembre-0
 10/12||Pescara|Corso di Programmazione Web|http://www.pescaralug.org/2012/12/03/corso-di-programmazione-web-10-dicembre-2012.html
 10/12||Lucca|Serata OpenSCAD|http://luccalug.it/content/serata-tema-openscad-disegnare-3d-programmando
