@@ -12,7 +12,7 @@ Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|tyhk@yrppb.yvahk.vg
 Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|vasb@ybyht.arg
 Mantova|LugMan|Cavriana, Mantova e provincia|http://www.lugman.org/|snhfgb.cvppuv@tznvy.pbz
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|fnirevb.infncbyyb@tznvy.pbz
-Milano|Lug Bocconi|Milano|http://www.lugbocconi.org/|obppbyvahk@tznvy.pbz
+Milano|Lug Bocconi|Milano|http://community.lugbocconi.org/|obppbyvahk@tznvy.pbz
 Milano|Lugdico|Milano|http://lugdico.wordpress.com/|naqern.geragvav@havzv.vg
 Milano|OpenLabs|Milano|http://www.openlabs.it/|nyoregb.pnzcvtyvb@tznvy.pbz
 Milano|PCOfficina|Milano|http://www.pcofficina.org/|oynpxqbbz.jvsv@tznvy.pbz
