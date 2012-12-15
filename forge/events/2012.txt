@@ -1,7 +1,10 @@
+21/12||Tito|Incontro|http://www.baslug.org/?q=node/95
 21/12||Viterbo|LAN Party|http://www.tulug.it/news/lan-party-di-natale-2012/
 20/12||Milano|Cena Natalizia|http://www.lifos.org/2012/12/117/
 20/12||Bologna|Laboratorio di Elettronica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-20-dicembre-2012-corsolaboratorio-di-elettronica-ed-informatica-libera-con-renzo
+18/12||Miramare|Serata Tematica|http://www.riminilug.it/tiki-read_article.php?articleId=310
 18/12||Cremona|Serata Natalizia|http://www.lugcr.it/lugcr/festivita-natalizie
+15/12|16/12|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=111:gnulinux-in-fiera&catid=4:appuntamenti&Itemid=9
 14/12||Forli'|Corso Sicurezza Informatica|http://www.folug.org/2012/12/08/corso-sulla-sicurezza-informatica/
 13/12||Trieste|Serata a Tema|http://trieste.linux.it/?p=740
 13/12||Imola|Cena di Fine Anno|http://www.imolug.org/cenafineanno2012
