@@ -1,5 +1,6 @@
 21/12||Tito|Incontro|http://www.baslug.org/?q=node/95
 21/12||Viterbo|LAN Party|http://www.tulug.it/news/lan-party-di-natale-2012/
+20/12||Cosenza|Festa Compleanno|http://www.verdebinario.org/index.php?option=com_content&task=view&id=152&Itemid=0
 20/12||Milano|Cena Natalizia|http://www.lifos.org/2012/12/117/
 20/12||Bologna|Laboratorio di Elettronica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-20-dicembre-2012-corsolaboratorio-di-elettronica-ed-informatica-libera-con-renzo
 18/12||Miramare|Serata Tematica|http://www.riminilug.it/tiki-read_article.php?articleId=310
