@@ -238,6 +238,25 @@ function ask_geocache ($c) {
 	return null;
 }
 
+function ask_openstreetmap ($node) {
+	$osm = file_get_contents ('http://www.openstreetmap.org/api/0.6/node/' . $node);
+
+	$doc = new DOMDocument ();
+	if ($doc->loadXML ($osm, LIBXML_NOWARNING) == false)
+		return null;
+
+	$xpath = new DOMXPath ($doc);
+
+	$results = $xpath->query ("/osm/node", $doc);
+	if ($results->length <= 0)
+		return null;
+
+	$node = $results->item (0);
+	$lat = $node->getAttribute ('lat');
+	$lon = $node->getAttribute ('lon');
+	return latlon_magic ($lat, $lon);
+}
+
 function ask_nominatim ($c) {
 	$location = file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
 
