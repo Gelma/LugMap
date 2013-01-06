@@ -8,7 +8,7 @@ Brescia|Lug Ovest Bresciano|Cologne e Rovato|http://www.lugob.org/|vasb@yhtbo.be
 Como|GL-Como|Como|http://www.gl-como.it/|qrcevfpb.qnivqr@tznvy.pbz|2098656754
 Crema|Lug Crema|Crema|http://filibusta.crema.unimi.it/|phob@svyvohfgn.perzn.havzv.vg
 Cremona|LugCR|Cremona e provincia|http://www.lugcr.it/|avpbyn@xreary-cnavp.qafqbwb.arg|2098656813
-Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|tyhk@yrppb.yvahk.vg
+Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|tyhk@yrppb.yvahk.vg|1645668357
 Lodi|LoLug|Lodi e provincia|http://www.lolug.org/|vasb@ybyht.arg|2098656810
 Mantova|LugMan|Cavriana, Mantova e provincia|http://lugman.org/|snhfgb.cvppuv@tznvy.pbz|2098740838
 Milano|LIFOS|Cinisello Balsamo|http://www.lifos.org/|fnirevb.infncbyyb@tznvy.pbz|2098656766
