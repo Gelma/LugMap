@@ -79,7 +79,7 @@ Andrea Gelmini e Roberto Guido
 \end_layout
 
 \begin_layout Date
-5 Gennaio 2012
+6 Gennaio 2013
 \end_layout
 
 \begin_layout Standard
@@ -595,7 +595,45 @@ un indirizzo email:
  su cui poter contare nel caso in cui vi sia la necessità di segnalare malfunzio
 namenti o di richiedere informazioni da parte dei manovali della LugMap.
  L'indirizzo viene archiviato con una debole cifratura per evitare il ripetersi
- di casi di spam verso gli iscritti.
+ di casi di spam verso gli iscritti;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+nodo OpenStreetMap:
+\series default
+ non indispensabile ma consigliato; l'identificativo numerico di un nodo
+ OpenStreetMap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Un esempio: 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.openstreetmap.org/browse/node/2098656819"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ che descrive la posizione geografica del gruppo, sia essa la sede ufficiale
+ o il luogo di incontro abituale.
+ Se presente viene usato per la generazione della mappa georeferenziata,
+ altrimenti il gruppo viene rappresentato da una icona collocata in modo
+ semi-arbitrario sulla zona di riferimento.
+ Per dettagli, vedi § 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Integrazione-con-OpenStreetMap"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1176,6 +1214,93 @@ target "http://www.gnu.org/licenses/agpl.txt"
  
 \end_layout
 
+\begin_layout Section
+Integrazione con OpenStreetMap
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Integrazione-con-OpenStreetMap"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La versione georeferenziata della LugMap è sommariamente integrata con OpenStree
+tMap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.openstreetmap.org/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, nella misura in cui ogni gruppo indicizzato può avere assegnato un nodo
+ OpenStreetMap da cui vengono tratte le esatte coordinate geografiche da
+ usare nella fase di generazione della mappa.
+ Questo permette non solo di rappresentare informazioni esatte al pubblico,
+ ma anche di apparire sul popolare servizio di mapping.
+\end_layout
+
+\begin_layout Standard
+Il nodo di un LUG o di una analoga associazione deve avere, oltre i comuni
+ attributi 
+\family typewriter
+name
+\family default
+ (che ne evidenzia il nome), 
+\family typewriter
+addr:city
+\family default
+, 
+\family typewriter
+addr:street
+\family default
+ e 
+\family typewriter
+addr:housenumber
+\family default
+ (che specificano l'indirizzo in forma estesa), anche gli attributi 
+\family typewriter
+leisure = club
+\family default
+ e 
+\family typewriter
+club = linux
+\family default
+ .
+\end_layout
+
+\begin_layout Standard
+Per creare un nuovo nodo su OpenStreetMap è necessario avere un account
+ registrato; in caso di dubbi, contatta i Manovali della LugMap
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Vedi § 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Contatti"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Chapter
 Indicazioni per i gestori dei contenuti
 \end_layout
@@ -1639,6 +1764,10 @@ password.txt.asc
 \end_inset
 
 
+\end_layout
+
+\begin_layout Enumerate
+Identificativo OpenStreetMap
 \end_layout
 
 \begin_layout Section
