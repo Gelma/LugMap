@@ -71,5 +71,6 @@ http://www.linux.it/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 http://www.bilug.linux.it/custom/rss.xml
 # DocuWiki, modifiche sul wiki
 http://www.autistici.org/underscore/feed.php
+http://www.autistici.org/underscore/feed.php?mode=list&amp;ns=it
 # MediaWiki, modifiche sul wiki
 http://lugman.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
