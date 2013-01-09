@@ -1,10 +1,10 @@
 Ancona|FreeGLOO|Ancona|http://freegloo.wordpress.com/|qnav.fnivav@yvoreb.vg
-Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/|cqc@gncvba.vg
+Ancona|PDP FSUG|Fabriano e dintorni|http://pdp.linux.it/|cqc@gncvba.vg|2098656823
 Ancona|SenaLUG|Senigallia|http://www.senalug.org/|yberamb.senaprfpuvav3@tznvy.pbz
-Ascoli Piceno|FSUGSBT|San Benedetto del Tronto e dintorni|http://www.fsugsbt.info/|urabzvf@tznvy.pbz
+Ascoli Piceno|FSUGSBT|San Benedetto del Tronto e dintorni|http://www.fsugsbt.info/|urabzvf@tznvy.pbz|2098656730
 Ascoli Piceno|LUG/FSUG Ascoli|Ascoli Piceno e provincia|http://lugascoli.kairosmedia.it|yvaqb.arcv@tznvy.pbz
-Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|cnbyb.fvyramv@tznvy.pbz
+Fermo|Fermo Lug|Fermo e dintorni|http://www.linuxfm.org/|cnbyb.fvyramv@tznvy.pbz|2098656742
 Macerata|Gruppo Linux Macerata|Macerata e provincia|http://www.gruppolinuxmc.it/|wbuagnyibygn@tznvy.pbz
-Pesaro e Urbino|Fortunae Lug|Fano e dintorni|http://www.fanolug.org/|svyvccb.pneyrggv@tznvy.pbz
+Pesaro e Urbino|Fortunae Lug|Fano e dintorni|http://www.fanolug.org/|svyvccb.pneyrggv@tznvy.pbz|2098656753
 Pesaro e Urbino|Hacklab-42|Urbino|http://hacklab-42.dark-lab.net/|r.qvtvnpvagb@tznvy.pbz
 Pesaro e Urbino|Urbino-LUG|Urbino e Montefeltro|http://urbino-lug.tumblr.com/|qnivqrevobyv@tznvy.pbz

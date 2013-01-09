@@ -1,19 +1,19 @@
 Arezzo|IPIOS|Bibbiena|http://www.ipios.org/|snovb.abepvav@tznvy.pbz
-Arezzo|Viva Linux Casentino|Bibbiena e valle del Casentino|http://www.facebook.com/group.php?gid=52271316371|raevpbobetuv@tznvy.pbz
+Arezzo|Viva Linux Casentino|Bibbiena e valle del Casentino|http://www.facebook.com/group.php?gid=52271316371|raevpbobetuv@tznvy.pbz|2098656834
 Empoli|GOLEM|Empoli|http://golem.linux.it/|uny@yvahk.vg
 Firenze|Flug|Firenze|http://www.firenze.linux.it/|crgrechax@unpxoybp.vg
 Firenze|Hacklab Firenze|Firenze|http://www.autistici.org/hacklab_fi/|zbefrgenpx@tznvy.pbz
-Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|tvnaancncv@ubgznvy.pbz
+Firenze|Libera Informatica|Firenze|http://www.liberainformatica.it/|tvnaancncv@ubgznvy.pbz|2098656777
 Firenze|LiLik|Firenze|http://www.lilik.it/|pvzonyb@tznvy.pbz
 Grosseto|GroLug|Grosseto e provincia|http://www.grolug.org/|znkzheq@yvahk.vg
 Grosseto|GuruAtWork|Grosseto e provincia|http://www.guruatwork.com/|yhqjvt.onetntyv@tznvy.pbz
-Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|nyrffvbznvb@tznvy.pbz
+Livorno|Gulli|Livorno e provincia|http://www.gullix.org/|nyrffvbznvb@tznvy.pbz|2098656759
 Lucca|Lucca Lug|Lucca|http://luccalug.it/|znggrb156@tznvy.pbz
-Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|pz@znahnyvahk.pbz
-Pisa|Gulp|Pisa|http://www.gulp.linux.it/|thyc@thyc.yvahk.vg
-Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|vasb@gbffyno.vg
+Lucca - Massa Carrara|ACROS|Versilia, Lucca, Massa Carrara|http://lug-acros.org/|pz@znahnyvahk.pbz|2098656669
+Pisa|Gulp|Pisa|http://www.gulp.linux.it/|thyc@thyc.yvahk.vg|2098656760
+Pisa|T-OSSLab|Navacchio|http://www.tosslab.it/|vasb@gbffyno.vg|2098656831
 Pistoia|PtLug|Pistoia|http://www.ptlug.org/|n.tenaqv@tznvy.pbz
-Prato|Plug|Prato|http://www.prato.linux.it/|rat.znggrb.ahamvngv@tznvy.pbz
-Siena, Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|zexfynpx@tznvy.pbz
+Prato|Plug|Prato|http://www.prato.linux.it/|rat.znggrb.ahamvngv@tznvy.pbz|2098656824
+Siena, Firenze|ElsaGLUG|Poggibonsi, Valdelsa|http://www.elsaglug.org/|zexfynpx@tznvy.pbz|2098656723
 Siena|Progetto GNUnisi|Siena|http://www.gnu.unisi.it|fvyivbchppv1966@tznvy.pbz
 Siena|SLUG|Siena e provincia|http://www.siena.linux.it/|kqngnc1@hohagh.pbz
