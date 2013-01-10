@@ -9,6 +9,7 @@
 15/01||Cosenza|Inizio Corso Linux|http://hlcs.it/2013/01/02/presentazione-del-1-corso-migrare-a-linux/
 15/01||Torri di Quartesolo|Serata Wireless|http://vicenza.linux.it/node/112
 12/01||Milano|WiildOS Meeting|http://www.lugducale.it/index.php/notizie/29-wiildos-meeting-12-gennaio
+11/01||Tito|Incontro|http://www.baslug.org/?q=node/97
 11/01||Vignate|Incontro|http://viglug.org/incontro-gennaio-2013/
 10/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=743
 10/01||Vado Ligure|Lezione Posta Elettronica|http://www.govonis.org/index.php?option=com_content&view=article&id=110:corso-di-informatica-unisabazia&catid=4:appuntamenti&Itemid=9
