@@ -1,9 +1,11 @@
 18/03||Varese|Serata Flask|http://lifolab.org/corsi/2013-seminari.html#marzo-flask
+23/02||Appiano|Barcamp|http://www.lugbz.org/news-categories/events/babscamp2013announcement
 18/02||Varese|Serata QUCS|http://lifolab.org/corsi/2013-seminari.html#febbraio-qucs
 06/02||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/16-corsi-linux.html
 26/01||Pescara|Inizio Corso Linux|http://www.pescaralug.org/2013/01/03/corso-base-di-linux-13.html
 24/01||Dueville|Presentazione 2viLUG|https://plus.google.com/u/0/events/coq281eno0hr1sbm80pd4dr00qs
 23/01||Pisa|Linux, eBook e eBook reder|http://www.gulp.linux.it/2013/01/07/23-gennaio-2013-linux-ebook-e-ebook-reder/
+22/01||Miramare di Rimini|Serata Arduino|http://www.riminilug.it/tiki-read_article.php?articleId=312
 21/01||Varese|Serata Calcolatori Quantistici|http://lifolab.org/corsi/2013-seminari.html#gennaio-calcolatori-quantistici
 16/01|17/01|Trento|"Verso una Scuola Open"|http://www.linuxtrent.it/verso-una-scuola-open-trento-17-18-gennaio-2013
 15/01||Cosenza|Inizio Corso Linux|http://hlcs.it/2013/01/02/presentazione-del-1-corso-migrare-a-linux/
@@ -11,6 +13,7 @@
 12/01||Milano|WiildOS Meeting|http://www.lugducale.it/index.php/notizie/29-wiildos-meeting-12-gennaio
 11/01||Tito|Incontro|http://www.baslug.org/?q=node/97
 11/01||Vignate|Incontro|http://viglug.org/incontro-gennaio-2013/
+10/01||Ferrara|Incontro|http://www.ferrara.linux.it/notizie/115-apertura-serale-sede-del-progetto-triciclopc
 10/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=743
 10/01||Vado Ligure|Lezione Posta Elettronica|http://www.govonis.org/index.php?option=com_content&view=article&id=110:corso-di-informatica-unisabazia&catid=4:appuntamenti&Itemid=9
 08/01||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=311
