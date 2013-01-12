@@ -7,7 +7,7 @@
 23/01||Pisa|Linux, eBook e eBook reder|http://www.gulp.linux.it/2013/01/07/23-gennaio-2013-linux-ebook-e-ebook-reder/
 22/01||Miramare di Rimini|Serata Arduino|http://www.riminilug.it/tiki-read_article.php?articleId=312
 21/01||Varese|Serata Calcolatori Quantistici|http://lifolab.org/corsi/2013-seminari.html#gennaio-calcolatori-quantistici
-16/01|17/01|Trento|"Verso una Scuola Open"|http://www.linuxtrent.it/verso-una-scuola-open-trento-17-18-gennaio-2013
+17/01|18/01|Trento|"Verso una Scuola Open"|http://www.linuxtrent.it/verso-una-scuola-open-trento-17-18-gennaio-2013
 15/01||Cosenza|Inizio Corso Linux|http://hlcs.it/2013/01/02/presentazione-del-1-corso-migrare-a-linux/
 15/01||Torri di Quartesolo|Serata Wireless|http://vicenza.linux.it/node/112
 12/01||Milano|WiildOS Meeting|http://www.lugducale.it/index.php/notizie/29-wiildos-meeting-12-gennaio
