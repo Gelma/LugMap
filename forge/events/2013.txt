@@ -2,11 +2,13 @@
 23/02||Appiano|Barcamp|http://www.lugbz.org/news-categories/events/babscamp2013announcement
 18/02||Varese|Serata QUCS|http://lifolab.org/corsi/2013-seminari.html#febbraio-qucs
 06/02||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/16-corsi-linux.html
+29/01||Torino|Serata BitCoin|http://www.openlabto.org/bitcoin-il-futuro-della-moneta
 26/01||Pescara|Inizio Corso Linux|http://www.pescaralug.org/2013/01/03/corso-base-di-linux-13.html
 24/01||Dueville|Presentazione 2viLUG|https://plus.google.com/u/0/events/coq281eno0hr1sbm80pd4dr00qs
 23/01||Pisa|Linux, eBook e eBook reder|http://www.gulp.linux.it/2013/01/07/23-gennaio-2013-linux-ebook-e-ebook-reder/
 22/01||Miramare di Rimini|Serata Arduino|http://www.riminilug.it/tiki-read_article.php?articleId=312
 21/01||Varese|Serata Calcolatori Quantistici|http://lifolab.org/corsi/2013-seminari.html#gennaio-calcolatori-quantistici
+17/01||Trieste|Serata Video su Linux|http://trieste.linux.it/?p=746
 17/01|18/01|Trento|"Verso una Scuola Open"|http://www.linuxtrent.it/verso-una-scuola-open-trento-17-18-gennaio-2013
 15/01||Cosenza|Inizio Corso Linux|http://hlcs.it/2013/01/02/presentazione-del-1-corso-migrare-a-linux/
 15/01||Torri di Quartesolo|Serata Wireless|http://vicenza.linux.it/node/112
