@@ -4,7 +4,7 @@
 """Riporto i commit sull'account twetter della LugMap:
    http://twitter.com/#!/LugMap
 
-   Copyright 2010-2012 - Andrea Gelmini (andrea.gelmini@gelma.net)
+   Copyright 2010-2013 - Andrea Gelmini (andrea.gelmini@gelma.net)
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
