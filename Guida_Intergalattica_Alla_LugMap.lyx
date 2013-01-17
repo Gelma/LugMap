@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 459
 \begin_document
 \begin_header
 \textclass book
@@ -12,13 +12,13 @@
 \font_roman palatino
 \font_sans lmss
 \font_typewriter lmtt
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -39,15 +39,23 @@
 \pdf_quoted_options "urlcolor=blue"
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type numerical
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -79,7 +87,7 @@ Andrea Gelmini e Roberto Guido
 \end_layout
 
 \begin_layout Date
-6 Gennaio 2013
+17 Gennaio 2013
 \end_layout
 
 \begin_layout Standard
@@ -1227,7 +1235,7 @@ name "sec:Integrazione-con-OpenStreetMap"
 
 \begin_layout Standard
 La versione georeferenziata della LugMap è sommariamente integrata con OpenStree
-tMap
+tMap,
 \begin_inset Foot
 status open
 
@@ -1243,7 +1251,7 @@ target "http://www.openstreetmap.org/"
 
 \end_inset
 
-, nella misura in cui ogni gruppo indicizzato può avere assegnato un nodo
+ nella misura in cui ogni gruppo indicizzato può avere assegnato un nodo
  OpenStreetMap da cui vengono tratte le esatte coordinate geografiche da
  usare nella fase di generazione della mappa.
  Questo permette non solo di rappresentare informazioni esatte al pubblico,
@@ -1251,7 +1259,7 @@ target "http://www.openstreetmap.org/"
 \end_layout
 
 \begin_layout Standard
-Il nodo di un LUG o di una analoga associazione deve avere, oltre i comuni
+Il nodo di un LUG o di un'analoga associazione deve avere, oltre i comuni
  attributi 
 \family typewriter
 name
@@ -1268,7 +1276,7 @@ addr:street
 \family typewriter
 addr:housenumber
 \family default
- (che specificano l'indirizzo in forma estesa), anche gli attributi 
+ (che ne specificano l'indirizzo in forma estesa), anche gli attributi 
 \family typewriter
 leisure = club
 \family default
@@ -1281,7 +1289,7 @@ club = linux
 
 \begin_layout Standard
 Per creare un nuovo nodo su OpenStreetMap è necessario avere un account
- registrato; in caso di dubbi, contatta i Manovali della LugMap
+ registrato; in caso di dubbi, contatta i Manovali della LugMap.
 \begin_inset Foot
 status open
 
@@ -1298,7 +1306,7 @@ reference "sec:Contatti"
 
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Chapter
