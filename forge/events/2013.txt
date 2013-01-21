@@ -5,6 +5,7 @@
 06/02||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/16-corsi-linux.html
 29/01||Torino|Serata BitCoin|http://www.openlabto.org/bitcoin-il-futuro-della-moneta
 26/01||Pescara|Inizio Corso Linux|http://www.pescaralug.org/2013/01/03/corso-base-di-linux-13.html
+24/01||Trieste|Serata PostgreSQL|http://trieste.linux.it/?p=749
 24/01||Dueville|Presentazione 2viLUG|https://plus.google.com/u/0/events/coq281eno0hr1sbm80pd4dr00qs
 23/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio
 23/01||Onigo di Pederobba|Incontro Pubblico|http://www.montellug.it/prossimi-appuntamenti-gennaiofebbraio-2013/580
