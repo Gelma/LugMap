@@ -2,6 +2,7 @@
 23/02||Appiano|Barcamp|http://www.lugbz.org/news-categories/events/babscamp2013announcement
 19/02||Arcade|Incontro Pubblico|http://www.montellug.it/prossimi-appuntamenti-2013-biblioteca-arcade/586
 18/02||Varese|Serata QUCS|http://lifolab.org/corsi/2013-seminari.html#febbraio-qucs
+07/02||Casalecchio di Reno|Non-Corso Elettronica e Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-7-febbraio-non-corso-di-elettronica-ed-informatica-libera
 06/02||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/16-corsi-linux.html
 29/01||Torino|Serata BitCoin|http://www.openlabto.org/bitcoin-il-futuro-della-moneta
 26/01||Pescara|Inizio Corso Linux|http://www.pescaralug.org/2013/01/03/corso-base-di-linux-13.html
