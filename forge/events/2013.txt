@@ -5,6 +5,7 @@
 14/02||Santa Croce sull'Arno|Corso Avanzato Linux|http://golem.linux.it/wp/2013/01/corso-avanzato-2013/
 07/02||Casalecchio di Reno|Non-Corso Elettronica e Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-7-febbraio-non-corso-di-elettronica-ed-informatica-libera
 06/02||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/16-corsi-linux.html
+31/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=757
 31/01||Bologna|Serata Zabbix|http://erlug7.francescoboschetti.net/notizie/talk-di-sera-gioved%C3%AC-31-gennaio-2013-bologna-zabbix
 29/01||Miramare di Rimini|Serata Gimp|http://www.riminilug.it/tiki-read_article.php?articleId=313
 29/01||Torino|Serata BitCoin|http://www.openlabto.org/bitcoin-il-futuro-della-moneta
