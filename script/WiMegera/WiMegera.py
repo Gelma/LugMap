@@ -1,8 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""Leggo la cronologia di questa pagina Wikipedia:
+"""Leggo la cronologia di queste pagine di Wikipedia:
 	http://it.wikipedia.org/wiki/Lista_dei_LUG_italiani
-	e notifico eventuali variazioni alla LugMap
+	https://it.wikipedia.org/wiki/Hacklab#Hacklab
+	e notifico eventuali variazioni alla LugMap.
+	Notasi che a gennaio 2013 le pagine in oggetto non sono più usabili.
 
 	Copyright 2010-2013 - Andrea Gelmini (andrea.gelmini@gelma.net)
 
@@ -20,7 +22,7 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>."""
 
 try:
-	import editarticle, notifiche, os, pickle, shelve
+	import editarticle, notifiche, os, pickle, shelve, sys
 except:
 	import sys
 	sys.exit('Errore: non sono disponibili tutti i moduli necessari')
@@ -30,6 +32,8 @@ class AccessoCronologia(editarticle.ArticleEditor):
 		return self.page.getVersionHistory(self)
 
 if __name__ == "__main__":
+	print "Nota che le pagine monitorate di Wikipedia non sono più usabili."
+	sys.exit()
 	db = shelve.open(os.path.join(os.environ["HOME"], '.wimegera.db'), writeback=True) # Apro DB
 
 	# Variabili globali
