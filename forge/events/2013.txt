@@ -1,13 +1,18 @@
+26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
 18/03||Varese|Serata Flask|http://lifolab.org/corsi/2013-seminari.html#marzo-flask
+27/02||Pergine Valsugana|Inizio Corso Sistemista Linux|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2013
 27/02||Avola|Inizio Corso Linux|http://linuxavola.blogspot.it/2013/01/corso-di-alfabetizzazione-linux.html
 23/02||Appiano|Barcamp|http://www.lugbz.org/news-categories/events/babscamp2013announcement
 20/02||Verona|Inizio Corso Linux|http://www.officina-s3.org/?p=2680
 19/02||Arcade|Incontro Pubblico|http://www.montellug.it/prossimi-appuntamenti-2013-biblioteca-arcade/586
 18/02||Varese|Serata QUCS|http://lifolab.org/corsi/2013-seminari.html#febbraio-qucs
 14/02||Santa Croce sull'Arno|Corso Avanzato Linux|http://golem.linux.it/wp/2013/01/corso-avanzato-2013/
+08/02||Forli'|Inizio Corso Linux|http://www.folug.org/2013/02/01/corso-linux-in-corso-diaz-84-forli/
 07/02||Casalecchio di Reno|Non-Corso Elettronica e Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-7-febbraio-non-corso-di-elettronica-ed-informatica-libera
+06/02||Roma|"Cittadini Digitali"|http://linux-club.org/node/3206
 06/02||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/16-corsi-linux.html
 05/02||Miramare di Rimini|Serata Inkscape|http://www.riminilug.it/tiki-read_article.php?articleId=314
+02/02||Ivrea|Incontro Pubblico|http://www.ivlug.it/2013/02/libera-conoscenza-etica-e-sostenibilita/
 31/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=757
 31/01||Bologna|Serata Zabbix|http://erlug7.francescoboschetti.net/notizie/talk-di-sera-gioved%C3%AC-31-gennaio-2013-bologna-zabbix
 29/01||Miramare di Rimini|Serata Gimp|http://www.riminilug.it/tiki-read_article.php?articleId=313
