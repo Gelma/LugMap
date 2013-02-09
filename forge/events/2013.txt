@@ -3,11 +3,13 @@
 27/02||Pergine Valsugana|Inizio Corso Sistemista Linux|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2013
 27/02||Avola|Inizio Corso Linux|http://linuxavola.blogspot.it/2013/01/corso-di-alfabetizzazione-linux.html
 23/02||Appiano|Barcamp|http://www.lugbz.org/news-categories/events/babscamp2013announcement
+22/02||Milano|openSUSE Night|http://www.fsugitalia.org/wp/2013/02/opensuse-night-2013/
 20/02||Verona|Inizio Corso Linux|http://www.officina-s3.org/?p=2680
 19/02||Arcade|Incontro Pubblico|http://www.montellug.it/prossimi-appuntamenti-2013-biblioteca-arcade/586
 18/02||Varese|Serata QUCS|http://lifolab.org/corsi/2013-seminari.html#febbraio-qucs
 16/02||Pinerolo|Inizio Corso Arduino|http://www.softwareliberopinerolo.org/eventi/104-aperte-le-iscrizioni-al-corso-di-arduino-da-zero
 14/02||Santa Croce sull'Arno|Corso Avanzato Linux|http://golem.linux.it/wp/2013/01/corso-avanzato-2013/
+08/02||Vignate|Incontro|http://viglug.org/incontro-venerdi-8-febbraio/
 08/02||Forli'|Inizio Corso Linux|http://www.folug.org/2013/02/01/corso-linux-in-corso-diaz-84-forli/
 07/02||Casalecchio di Reno|Non-Corso Elettronica e Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-7-febbraio-non-corso-di-elettronica-ed-informatica-libera
 06/02||Roma|"Cittadini Digitali"|http://linux-club.org/node/3206
