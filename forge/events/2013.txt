@@ -1,10 +1,13 @@
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
 18/03||Varese|Serata Flask|http://lifolab.org/corsi/2013-seminari.html#marzo-flask
+06/03||Pisa|Serata Ubuntu Phone|http://www.gulp.linux.it/2013/02/11/6-marzo-2013-ubuntu-phone/
+02/03|03/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2013
 27/02||Pergine Valsugana|Inizio Corso Sistemista Linux|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2013
 27/02||Avola|Inizio Corso Linux|http://linuxavola.blogspot.it/2013/01/corso-di-alfabetizzazione-linux.html
 23/02||Roma|International Open Data Day|http://www.gulch.it/node/39
 23/02||Appiano|Barcamp|http://www.lugbz.org/news-categories/events/babscamp2013announcement
 22/02||Milano|openSUSE Night|http://www.fsugitalia.org/wp/2013/02/opensuse-night-2013/
+20/02||Castelfranco|Workshop Scribus|http://www.montellug.it/workshop-scribus/602
 20/02||Verona|Inizio Corso Linux|http://www.officina-s3.org/?p=2680
 19/02||Arcade|Incontro Pubblico|http://www.montellug.it/prossimi-appuntamenti-2013-biblioteca-arcade/586
 18/02||Varese|Serata QUCS|http://lifolab.org/corsi/2013-seminari.html#febbraio-qucs
