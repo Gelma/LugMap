@@ -6,6 +6,8 @@
 07/03||Cremona|Serata Android|http://www.lugcr.it/lugcr/ma-gli-androidi-sognano-pinguini-elettrici
 06/03||Pisa|Serata Ubuntu Phone|http://www.gulp.linux.it/2013/02/11/6-marzo-2013-ubuntu-phone/
 02/03|03/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2013
+01/03||Varese|Cena Paninsubrica|http://identi.ca/notice/99798244
+28/02||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=764
 27/02||Pergine Valsugana|Inizio Corso Sistemista Linux|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2013
 27/02||Avola|Inizio Corso Linux|http://linuxavola.blogspot.it/2013/01/corso-di-alfabetizzazione-linux.html
 26/02||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=317
