@@ -1,10 +1,12 @@
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
+20/03||Bassano del Grappa|Inizio Corso Linux|http://grappalug.org/content/corso-gnulinux-di-secondo-livello-anno-2013
 18/03||Varese|Serata Flask|http://lifolab.org/corsi/2013-seminari.html#marzo-flask
 16/03|17/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/notizie/expo-elettronica-marzo-2013
 09/03|10/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-0
 07/03||Cremona|Serata Android|http://www.lugcr.it/lugcr/ma-gli-androidi-sognano-pinguini-elettrici
 06/03||Pisa|Serata Ubuntu Phone|http://www.gulp.linux.it/2013/02/11/6-marzo-2013-ubuntu-phone/
+05/03||Napoli|Fedora 18 Release Party|http://www.nalug.net/news-nalug/fedora-18-release-party-2013
 02/03|03/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2013
 01/03||Varese|Cena Paninsubrica|http://identi.ca/notice/99798244
 28/02||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=764
