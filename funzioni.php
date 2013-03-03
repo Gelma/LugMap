@@ -123,8 +123,31 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 
 function lugfooter () {
 ?>
-<div id="footer">
+
+<div id="ils_footer">
+	<div class="contents">
+		<div class="block">
+			<span style="text-align: center; display: block">
+				<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
+					<img src="/immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
+				</a>
+
+				<br />
+
+				<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
+					<img src="http://i.creativecommons.org/l/zero/1.0/80x15.png" style="border-width:0" alt="Creative Commons License">
+				</a>
+			</span>
+		</div>
+
+		<div class="unusedblock">&nbsp;</div>
+		<div class="unusedblock">&nbsp;</div>
+		<div class="unusedblock">&nbsp;</div>
+	</div>
+
+	<div style="clear: both"></div>
 </div>
+
 <!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ? "https://pergamena.lugbs.linux.it/" : "http://pergamena.lugbs.linux.it/");

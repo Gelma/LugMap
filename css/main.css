@@ -194,8 +194,58 @@ a:hover {
 	margin: 10px 0;
 }
 
-#footer {
-	padding-top: 10px;
+#ils_footer {
+	background: none repeat scroll 0 0 #292929;
+	color: rgba(255, 255, 255, 0.65);
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 0.857em;
+	line-height: 1.5;
+	padding: 35px 5px 30px;
+}
+
+#ils_footer .contents {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+#ils_footer .contents .unusedblock {
+	display: inline;
+	float: left;
+	margin: 20px 0;
+	padding: 10px;
+	position: relative;
+	width: 210px;
+}
+
+#ils_footer .contents .block {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	display: inline;
+	float: left;
+	margin: 20px 0;
+	padding: 10px;
+	position: relative;
+	width: 210px;
+}
+
+#ils_footer .contents .block h2 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	border-color: rgba(255, 255, 255, 0.15);
+	font-size: 1em;
+	margin: 1em 0 0.5em;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+#ils_footer .contents img {
+	display: inline-block;
+}
+
+#ils_footer .contents .block a {
+	color: #FFFFFF;
+	border: 0;
 }
 
 .helpMessage {
