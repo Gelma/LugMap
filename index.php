@@ -24,10 +24,9 @@ lugheader ('LugMap');
 
 <table id="introTabel" cellspacing="0" cellpadding="0">
   <tr>
-    <td style="width: 35%;">
+    <td style="width: 25%">
       <div>
-        Il progetto <b>LugMap</b> ha l'ambizione di offrire un elenco, quanto
-        pi&ugrave; aggiornato, delle realt&agrave; che ruotano attorno al perno del
+        La <b>LugMap</b> offre un elenco delle realt&agrave; che ruotano attorno al perno del
         <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>, come
         <a class="generalink" href="http://it.wikipedia.org/wiki/Linux_User_Group">Linux Users Group</a>,
         <a class="generalink" href="http://it.wikipedia.org/wiki/Hacklab">Hacklab</a> et similia.
@@ -35,16 +34,6 @@ lugheader ('LugMap');
         Le voci, ordinate per regione e provincia, sono accessibili direttamente dalla cartina e
         dall'elenco a lato, anche in versione
         <a class="generalink" href="http://lugmap.it/">georeferenziata</a>.
-      </div>
-
-      <div>
-        Il comun denominatore dei gruppi riportati &egrave; la diffusione di
-        <a class="generalink" href="http://it.wikipedia.org/wiki/Linux">Linux</a>
-        quale punta di diamante del
-        <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>.
-        <br />
-        Questi sono quindi a disposizione di chiunque voglia avvicinarsi a dette tematiche, sia in forma
-        telematica (siti Internet, mailing list, email, ecc.), sia de visu (sedi o birrerie che siano).
       </div>
 
       <br />
@@ -124,7 +113,7 @@ lugheader ('LugMap');
 	<div id="paper"></div>
     </td>
 
-    <td style="width: 15%;" class="regioni">
+    <td style="width: 25%;" class="regioni">
       <?php
         foreach ($elenco_regioni as $file => $nome) {
           if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
