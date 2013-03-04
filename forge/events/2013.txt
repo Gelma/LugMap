@@ -6,6 +6,7 @@
 09/03|10/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-0
 07/03||Cremona|Serata Android|http://www.lugcr.it/lugcr/ma-gli-androidi-sognano-pinguini-elettrici
 06/03||Pisa|Serata Ubuntu Phone|http://www.gulp.linux.it/2013/02/11/6-marzo-2013-ubuntu-phone/
+05/03||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=318
 05/03||Napoli|Fedora 18 Release Party|http://www.nalug.net/news-nalug/fedora-18-release-party-2013
 02/03|03/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2013
 01/03||Varese|Cena Paninsubrica|http://identi.ca/notice/99798244
