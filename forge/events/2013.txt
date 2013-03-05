@@ -4,6 +4,8 @@
 18/03||Varese|Serata Flask|http://lifolab.org/corsi/2013-seminari.html#marzo-flask
 16/03|17/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/notizie/expo-elettronica-marzo-2013
 09/03|10/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-0
+07/03||Casalecchio di Reno|Elettronica ed Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-7-marzo-non-corso-di-elettronica-ed-informatica-libera
+07/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=766
 07/03||Cremona|Serata Android|http://www.lugcr.it/lugcr/ma-gli-androidi-sognano-pinguini-elettrici
 06/03||Pisa|Serata Ubuntu Phone|http://www.gulp.linux.it/2013/02/11/6-marzo-2013-ubuntu-phone/
 05/03||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=318
