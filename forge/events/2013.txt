@@ -1,9 +1,12 @@
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
+20/03||Milano|Inizio Corso Linux Avanzato|http://www.poul.org/2013/03/corsi-linux-2013/
 20/03||Bassano del Grappa|Inizio Corso Linux|http://grappalug.org/content/corso-gnulinux-di-secondo-livello-anno-2013
 18/03||Varese|Serata Flask|http://lifolab.org/corsi/2013-seminari.html#marzo-flask
 16/03|17/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/notizie/expo-elettronica-marzo-2013
+12/03||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=319
 09/03|10/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-0
+07/03||Ragusa|Giornata dell'Informatica|http://www.solira.org/2013/03/3a-giornata-dellinformatica-edizione-2013/
 07/03||Casalecchio di Reno|Elettronica ed Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-7-marzo-non-corso-di-elettronica-ed-informatica-libera
 07/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=766
 07/03||Cremona|Serata Android|http://www.lugcr.it/lugcr/ma-gli-androidi-sognano-pinguini-elettrici
