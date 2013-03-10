@@ -1,3 +1,4 @@
+06/04||Viterbo|BracioLUG|http://www.tulug.it/eventi/braciolug-cena-con-il-tulug/
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
 20/03||Milano|Inizio Corso Linux Avanzato|http://www.poul.org/2013/03/corsi-linux-2013/
