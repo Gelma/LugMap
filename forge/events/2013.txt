@@ -3,7 +3,12 @@
 30/03||Catanzaro|Document Freedom Day|http://hacklab.cz/2013/03/13/document-freedom-day-2013-catanzaro
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
+25/03||Lucca|Serata Blender|http://luccalug.it/content/serata-tema-blender-e-i-nodi
+24/03||Milano|Restart Party|http://www.pcofficina.org/24-marzo-milano-pcofficina-porta-a-la-stecca-linformatica-che-sfida-la-crisi-economica/
 23/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2013/03/document-freedom-day-2013-arezzo-23-marzo/
+21/03||Casalecchio di Reno|Elettronica ed Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-21-marzo-non-corso-di-elettronica-ed-informatica-libera
+21/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=770
+20/03||Montebelluna|Workshop Scribus|http://www.montellug.it/worshop-scribus-2-parte-20-marzo-2013/609
 20/03||Milano|Inizio Corso Linux Avanzato|http://www.poul.org/2013/03/corsi-linux-2013/
 20/03||Bassano del Grappa|Inizio Corso Linux|http://grappalug.org/content/corso-gnulinux-di-secondo-livello-anno-2013
 19/03||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=320
