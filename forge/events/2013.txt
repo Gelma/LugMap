@@ -1,6 +1,10 @@
+17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+15/04||Varese|Serata Smartcard|http://lifolab.org/corsi/2013-seminari.html#aprile-smartcard-su-linux-programmazione-ed-uso
 06/04||Gazzo Veronese|Risotto 3.14|http://www.lugcr.it/lugcr/risotto-314-pi
 06/04||Viterbo|BracioLUG|http://www.tulug.it/eventi/braciolug-cena-con-il-tulug/
 30/03||Catanzaro|Document Freedom Day|http://hacklab.cz/2013/03/13/document-freedom-day-2013-catanzaro
+28/03||Ivrea|Corso Linux Desktop|http://www.ivlug.it/2013/03/corso-linux-base-per-uso-desktop/
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
 25/03||Lucca|Serata Blender|http://luccalug.it/content/serata-tema-blender-e-i-nodi
