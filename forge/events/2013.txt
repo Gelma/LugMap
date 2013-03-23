@@ -4,6 +4,7 @@
 06/04||Gazzo Veronese|Risotto 3.14|http://www.lugcr.it/lugcr/risotto-314-pi
 06/04||Viterbo|BracioLUG|http://www.tulug.it/eventi/braciolug-cena-con-il-tulug/
 30/03||Catanzaro|Document Freedom Day|http://hacklab.cz/2013/03/13/document-freedom-day-2013-catanzaro
+28/03||Valleggia|Document Freedom Day|http://www.govonis.org/index.php?option=com_content&view=article&id=119:document-freedom-day-2013
 28/03||Ivrea|Corso Linux Desktop|http://www.ivlug.it/2013/03/corso-linux-base-per-uso-desktop/
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
 26/03||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android
