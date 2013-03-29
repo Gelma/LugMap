@@ -1,10 +1,13 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+24/04||Montebelluna|"Storia di un Programma Opensource"|http://www.montellug.it/raffaello-storia-e-funzionamento-di-un-programma-opensource/615
 15/04||Varese|Serata Smartcard|http://lifolab.org/corsi/2013-seminari.html#aprile-smartcard-su-linux-programmazione-ed-uso
 09/04||Trento|Sportello Open Hardware|http://www.linuxtrent.it/sportello-open-hardware-vigolo-vattaro-9-aprile-2013
+06/04|07/04|Morciano|Expo Elettronica|http://www.riminilug.it/tiki-read_article.php?articleId=321
 06/04||Gazzo Veronese|Risotto 3.14|http://www.lugcr.it/lugcr/risotto-314-pi
 06/04||Viterbo|BracioLUG|http://www.tulug.it/eventi/braciolug-cena-con-il-tulug/
 30/03||Catanzaro|Document Freedom Day|http://hacklab.cz/2013/03/13/document-freedom-day-2013-catanzaro
+29/03||Levico Terme|Serata OpenStreetMap|http://www.linuxtrent.it/serata-tema-openstreetmap-e-josm-editor-openstreetmap-presso-lo-sportello-linux-di-levico-terme-0
 28/03||Valleggia|Document Freedom Day|http://www.govonis.org/index.php?option=com_content&view=article&id=119:document-freedom-day-2013
 28/03||Ivrea|Corso Linux Desktop|http://www.ivlug.it/2013/03/corso-linux-base-per-uso-desktop/
 28/03||Cremona|Inizio Corso Linux|http://www.lugcr.it/lugcr/alla-scoperta-di-ubuntu
