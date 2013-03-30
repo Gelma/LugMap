@@ -79,6 +79,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
     {lang: 'it'}
   </script>
 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+
   <title><?php echo $title; ?></title>
 <script type="text/javascript">
 
@@ -142,7 +144,14 @@ function lugfooter () {
 
 		<div class="unusedblock">&nbsp;</div>
 		<div class="unusedblock">&nbsp;</div>
-		<div class="unusedblock">&nbsp;</div>
+
+		<div class="block">
+			<h2>Network</h2>
+			<div class="content">
+				<script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=lugmap"></script>
+				<div id="widgetils"></div>
+			</div>
+		</div>
 	</div>
 
 	<div style="clear: both"></div>

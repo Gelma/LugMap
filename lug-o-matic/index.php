@@ -25,7 +25,7 @@ if (isset ($_GET ['region'])) {
   exit (0);
 }
 
-lugheader ('LUG-o-matic', array ('generator.css'), array ('https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js', 'generator.js', 'http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js'));
+lugheader ('LUG-o-matic', array ('generator.css'), array ('generator.js', 'http://meta100.github.com/mColorPicker/javascripts/mColorPicker_min.js'));
 
 ?>
 
