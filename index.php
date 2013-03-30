@@ -14,7 +14,8 @@ if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugm
 			break;
 
 		case 'calendar':
-			include ('calendar.php');
+			header ('Location: http://www.linux.it/eventi');
+			die ();
 			break;
 
 		default:
