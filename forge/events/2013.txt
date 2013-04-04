@@ -1,6 +1,7 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 24/04||Montebelluna|"Storia di un Programma Opensource"|http://www.montellug.it/raffaello-storia-e-funzionamento-di-un-programma-opensource/615
+20/04||Pompei|"Pinguino in Tour"|http://www.nalug.net/news-nalug/pit2013-nalugpompeilab
 15/04||Varese|Serata Smartcard|http://lifolab.org/corsi/2013-seminari.html#aprile-smartcard-su-linux-programmazione-ed-uso
 09/04||Trento|Sportello Open Hardware|http://www.linuxtrent.it/sportello-open-hardware-vigolo-vattaro-9-aprile-2013
 06/04|07/04|Morciano|Expo Elettronica|http://www.riminilug.it/tiki-read_article.php?articleId=321
