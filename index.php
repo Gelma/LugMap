@@ -101,6 +101,7 @@ lugheader ('LugMap');
 					st.animate({fill: "#ffa200", stroke: "#fff"}, 500);
 					st.toFront();
 					R.safari();
+					current = null;
 				};
 				st[0].onclick = function () {
 					window.location = 'http://lugmap.linux.it/' + state.replace (/_/g, '-');
