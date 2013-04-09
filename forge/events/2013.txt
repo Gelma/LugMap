@@ -1,8 +1,15 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+07/05||Grosseto|Inizio Corso Software Libero|http://www.velug.it/2-uncategorised/38-talk.html
+02/05||Zelarino|Talk Joomla|http://www.velug.it/2-uncategorised/38-talk.html
 24/04||Montebelluna|"Storia di un Programma Opensource"|http://www.montellug.it/raffaello-storia-e-funzionamento-di-un-programma-opensource/615
 20/04||Pompei|"Pinguino in Tour"|http://www.nalug.net/news-nalug/pit2013-nalugpompeilab
+15/04||Sommacampagna|Inizio Corso Wordpress|http://www.officina-s3.org/?p=2757
 15/04||Varese|Serata Smartcard|http://lifolab.org/corsi/2013-seminari.html#aprile-smartcard-su-linux-programmazione-ed-uso
+12/04||Benevento|Seminario Sicurezza|http://www.lilis.it/notizie/seminario-web-security-2-0/
+11/04||Valleggia|Serata Arduino|http://www.govonis.org/index.php?option=com_content&view=article&id=121:serata-arduino&catid=4:appuntamenti&Itemid=9
+11/04||Milano|Inizio Wokshop Tecnici|http://www.poul.org/2013/04/workshops-tecnici-2013/
+11/04||Trieste|Incontro Settimanale|http://trieste.linux.it/?p=778
 09/04||Trento|Sportello Open Hardware|http://www.linuxtrent.it/sportello-open-hardware-vigolo-vattaro-9-aprile-2013
 06/04|07/04|Morciano|Expo Elettronica|http://www.riminilug.it/tiki-read_article.php?articleId=321
 06/04||Gazzo Veronese|Risotto 3.14|http://www.lugcr.it/lugcr/risotto-314-pi
