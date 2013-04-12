@@ -74,3 +74,5 @@ http://www.autistici.org/underscore/feed.php
 http://www.autistici.org/underscore/feed.php?mode=list&amp;ns=it
 # MediaWiki, modifiche sul wiki
 http://lugman.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
+# Non correlato ai temi del freesoftware
+http://feeds.dyne.org/planet_dyne
