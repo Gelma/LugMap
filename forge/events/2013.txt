@@ -6,10 +6,12 @@
 20/04||Pompei|"Pinguino in Tour"|http://www.nalug.net/news-nalug/pit2013-nalugpompeilab
 15/04||Sommacampagna|Inizio Corso Wordpress|http://www.officina-s3.org/?p=2757
 15/04||Varese|Serata Smartcard|http://lifolab.org/corsi/2013-seminari.html#aprile-smartcard-su-linux-programmazione-ed-uso
+14/04||Fabriano|Inaugurazione Aula Informatica|http://pdp.linux.it/news/350/presentazione-della-nuova-aula-di-computer-con-software-libero-nella-scuola-carlo-collodi/
 12/04||Benevento|Seminario Sicurezza|http://www.lilis.it/notizie/seminario-web-security-2-0/
 11/04||Valleggia|Serata Arduino|http://www.govonis.org/index.php?option=com_content&view=article&id=121:serata-arduino&catid=4:appuntamenti&Itemid=9
 11/04||Milano|Inizio Wokshop Tecnici|http://www.poul.org/2013/04/workshops-tecnici-2013/
 11/04||Trieste|Incontro Settimanale|http://trieste.linux.it/?p=778
+09/04||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=322
 09/04||Trento|Sportello Open Hardware|http://www.linuxtrent.it/sportello-open-hardware-vigolo-vattaro-9-aprile-2013
 06/04|07/04|Morciano|Expo Elettronica|http://www.riminilug.it/tiki-read_article.php?articleId=321
 06/04||Gazzo Veronese|Risotto 3.14|http://www.lugcr.it/lugcr/risotto-314-pi
