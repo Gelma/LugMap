@@ -4,7 +4,7 @@ Padova|Blah Hacklab|Este, Monselice e dintorni|http://blah.pizzahack.eu/|qwybivh
 Padova|Faber Libertatis|Padova|http://faberlibertatis.org/|znavpura@tznvy.pbz|2098656736
 Padova|FSUG Padova|Padova|http://www.fsugpadova.org/|vasb@sfhtcnqbin.bet
 Treviso|MontelLug|Montebelluna|http://www.montellug.it/|fgrsnab.senppneb@yvoreb.vg|2098656818
-Treviso|TVLug|Treviso e provincia|http://www.tvlug.it/|nyrk@giyht.vg
+Treviso|TVLug|Treviso e provincia|http://tvlug.it/|nyrk@giyht.vg
 Venezia|0421ug|Provincia di Venezia e Veneto orientale|http://www.0421ug.org/|vasb@0421ht.bet
 Venezia|VELug|Provincia di Venezia|http://www.velug.it/|evx@yvahk.vg
 Verona|LinuxLudus|Villafranca di Verona|http://www.linuxludus.it/|pneyb.oravav@yvoreb.vg|2098656806
