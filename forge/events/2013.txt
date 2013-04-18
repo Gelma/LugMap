@@ -1,11 +1,16 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+07/05||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/corsi-ed-incontri/serate-tema-sportello-rovereto-maggio-2013
 07/05||Grosseto|Inizio Corso Software Libero|http://www.velug.it/2-uncategorised/38-talk.html
 04/05||Catanzaro|Corso GNU/Linux Avanzato|http://hacklab.cz/2013/04/14/corso-gnulinux-avanzato-4-maggio-2013
 02/05||Zelarino|Talk Joomla|http://www.velug.it/2-uncategorised/38-talk.html
 24/04||Montebelluna|"Storia di un Programma Opensource"|http://www.montellug.it/raffaello-storia-e-funzionamento-di-un-programma-opensource/615
+23/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-2013
+21/04||Novara|Banchetto Informativo|http://linoxnovara.wordpress.com/2013/04/16/banchetto-informativo/
 20/04||Bologna|Hardware Freedom Day|http://erlug7.francescoboschetti.net/notizie/sabato-20-aprile-hardware-freedom-day
 20/04||Pompei|"Pinguino in Tour"|http://www.nalug.net/news-nalug/pit2013-nalugpompeilab
+18/04||Valleggia|Inizio Corso Avvicinamento al Software Libero|http://www.govonis.org/index.php?option=com_content&view=article&id=122:gnulinux-livello-0-&catid=3:avvenimenti
+18/04||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=780
 18/04||Casalecchio di Reno|Elettronica ed Informatica Libera|http://erlug7.francescoboschetti.net/notizie/gioved%C3%AC-18-aprile-non-corso-di-elettronica-ed-informatica-libera
 15/04||Sommacampagna|Inizio Corso Wordpress|http://www.officina-s3.org/?p=2757
 15/04||Varese|Serata Smartcard|http://lifolab.org/corsi/2013-seminari.html#aprile-smartcard-su-linux-programmazione-ed-uso
