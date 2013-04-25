@@ -1,5 +1,6 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+16/05||Pergine Valsugana|"Ha Senso Linux?"|http://www.linuxtrent.it/ha-ancora-senso-linux-incontriamoci-gioved%C3%AC-16-maggio-discuterne-assieme
 08/05||Benevento|Seminario Richard Stallman|http://www.lilis.it/notizie/richard-stallman-a-benevento/
 07/05||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/corsi-ed-incontri/serate-tema-sportello-rovereto-maggio-2013
 07/05||Grosseto|Inizio Corso Software Libero|http://www.velug.it/2-uncategorised/38-talk.html
