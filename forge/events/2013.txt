@@ -7,6 +7,7 @@
 04/05||Catanzaro|Corso GNU/Linux Avanzato|http://hacklab.cz/2013/04/14/corso-gnulinux-avanzato-4-maggio-2013
 02/05||Zelarino|Talk Joomla|http://www.velug.it/2-uncategorised/38-talk.html
 29/04||Rende|Inizio Corso Python|http://www.verdebinario.org/index.php?option=com_content&task=view&id=155&Itemid=0
+27/04|28/04|Pordenone|Linux Arena 2013|http://www.0421ug.org/?p=261
 24/04||Montebelluna|"Storia di un Programma Opensource"|http://www.montellug.it/raffaello-storia-e-funzionamento-di-un-programma-opensource/615
 23/04||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=323
 23/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-2013
