@@ -1,10 +1,13 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 16/05||Pergine Valsugana|"Ha Senso Linux?"|http://www.linuxtrent.it/ha-ancora-senso-linux-incontriamoci-gioved%C3%AC-16-maggio-discuterne-assieme
+08/05||Zelarino|Inizio Corso GNU/Linux Avanzato|http://www.velug.it/corsi/39-parte-il-corso-linux-avanzato.html
 08/05||Benevento|Seminario Richard Stallman|http://www.lilis.it/notizie/richard-stallman-a-benevento/
 07/05||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/corsi-ed-incontri/serate-tema-sportello-rovereto-maggio-2013
 07/05||Grosseto|Inizio Corso Software Libero|http://www.velug.it/2-uncategorised/38-talk.html
+05/05||Zelarino|Inizio Corso Inkscape|http://www.velug.it/corsi/40-nuove-date-per-il-corso-inkscape.html
 04/05||Catanzaro|Corso GNU/Linux Avanzato|http://hacklab.cz/2013/04/14/corso-gnulinux-avanzato-4-maggio-2013
+02/05||Biella|Seminario Richard Stallman|http://www.ivlug.it/2013/04/seminario-dalla-conoscenza-libera-al-software-libero/
 02/05||Zelarino|Talk Joomla|http://www.velug.it/2-uncategorised/38-talk.html
 29/04||Rende|Inizio Corso Python|http://www.verdebinario.org/index.php?option=com_content&task=view&id=155&Itemid=0
 27/04|28/04|Pordenone|Linux Arena 2013|http://www.0421ug.org/?p=261
