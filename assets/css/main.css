@@ -358,49 +358,6 @@ fieldset {
 	padding-top: 10px;
 }
 
-.planet_entry {
-	padding-left: 150px;
-	padding-right: 150px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
-
-.planet_daygroup a {
-	text-decoration: none;
-}
-
-.planet_daygroup h2 {
-	margin: 5px;
-	font-size: 30px;
-}
-
-.planet_channelgroup {
-	margin-bottom: 10px;
-	padding-bottom: 20px;
-}
-
-.planet_channelgroup img {
-	display: inline;
-	margin: 0px;
-}
-
-.planet_channelgroup h3 {
-	width: 98%;
-	text-align: right;
-	font-size: 20px;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.planet_channelgroup h4 {
-	width: 95%;
-	text-align: right;
-	font-size: 25px;
-	margin-right: 25px;
-	margin: auto;
-}
-
 .entrygroup {
 	width: 80%;
 	margin: auto;

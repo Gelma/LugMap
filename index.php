@@ -5,16 +5,17 @@ if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugm
 	$host = $domain [0];
 
 	switch ($host) {
-		case 'planet':
-			include ('planet.php');
-			break;
-
 		case 'widget':
 			include ('widget.php');
 			break;
 
 		case 'calendar':
 			header ('Location: http://www.linux.it/eventi');
+			die ();
+			break;
+
+		case 'planet':
+			header ('Location: http://planet.linux.it/');
 			die ();
 			break;
 

@@ -61,34 +61,6 @@ do_head ('Progetti Collaterali');
 			</p>
 		</fieldset>
 
-		<a name="Planet" />
-
-		<fieldset>
-			<legend>Aggregatore di news</legend>
-
-			<p>
-				Su questo sito e' esposto <a href="http://planet.lugmap.it/">un
-				aggregatore di news</a> ("Planet") costruito per mezzo dello
-				<a href="#OPML">script OPML</a> sopra descritto. Per maggiori
-				informazioni si consulti
-				<a href="<?php echo $main_url ?>/planet_info.php">questa pagina</a>.
-			</p>
-		</fieldset>
-
-		<a name="calendar" />
-
-		<fieldset>
-			<legend>Calendario eventi</legend>
-
-			<p>
-				Dalle news che transitano sul <a href="#Planet">Planet</a> vengono estratti gli annunci degli eventi
-				e delle attivita' che i LUG conducono in giro per l'Italia, e vengono esposti su
-				<a href="http://calendar.lugmap.it">una apposita sezioni</a> di questo sito. Per maggiori
-				informazioni si consulti
-				<a href="<?php echo $main_url ?>/calendar_info.php">questa pagina</a>.
-			</p>
-		</fieldset>
-
 		<a name="map-generator" />
 
 		<fieldset>
