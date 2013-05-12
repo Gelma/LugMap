@@ -1,14 +1,20 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+18/05||Vigevano|Workshop Blender|http://www.lugducale.it/index.php/2-non-categorizzato/38-giovani-e-crossmedialita-introduzione-al-mondo-del-3d-con-blender
+17/05||Pederobba|Cena LUG Veneti|http://www.montellug.it/cena-dei-lug-veneti-17-maggio/625
 16/05||Pergine Valsugana|"Ha Senso Linux?"|http://www.linuxtrent.it/ha-ancora-senso-linux-incontriamoci-gioved%C3%AC-16-maggio-discuterne-assieme
 14/05||Padova|Open Source Conference|http://www.carnialug.net/2013/05/open-source-converence-a-padova/
 14/05||Pisa|Seminario BioBlender|http://www.gulp.linux.it/2013/04/30/seminario-su-bioblender-tenuto-da-scivis-14-maggio-2013/
+08/05||Serata Arduino|Quiliano|http://www.govonis.org/index.php?option=com_content&view=article&id=126:seconda-serata-incontro-dedicata-ad-arduino&catid=3:avvenimenti
 08/05||Venezia|Inizio Corso GNU/Linux Avanzato|http://www.velug.it/corsi/39-parte-il-corso-linux-avanzato.html
 08/05||Benevento|Seminario Richard Stallman|http://www.lilis.it/notizie/richard-stallman-a-benevento/
+07/05||Modica|Workshop TOR Project|http://www.solira.org/2013/05/workshop-per-progetto-fysic-fair-young-sustainable-inclusive-and-cooperative/
 07/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=325
 07/05||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/corsi-ed-incontri/serate-tema-sportello-rovereto-maggio-2013
 07/05||Grosseto|Inizio Corso Software Libero|http://www.velug.it/2-uncategorised/38-talk.html
+05/05||Forlì|Pizzata|http://www.folug.org/2013/05/05/pizzata-stasera-5-maggio/
 05/05||Venezia|Inizio Corso Inkscape|http://www.velug.it/corsi/40-nuove-date-per-il-corso-inkscape.html
+04/05|05/05|Forlì|Expo Elettronica|http://www.folug.org/2013/05/04/folug-in-fiera-expo-elettronica-maggio-2013/
 04/05||Catanzaro|Giornata Internazionale contro i DRM|http://hacklab.cz/2013/05/02/international-day-against-drm-2013
 04/05||Catanzaro|Corso GNU/Linux Avanzato|http://hacklab.cz/2013/04/14/corso-gnulinux-avanzato-4-maggio-2013
 03/05||Tito|Incontro HackLab|http://www.baslug.org/?q=node/102
