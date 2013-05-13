@@ -1,5 +1,6 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+18/05|19/05|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=129:govonis-a-marc-di-primavera&catid=3:avvenimenti
 18/05||Vigevano|Workshop Blender|http://www.lugducale.it/index.php/2-non-categorizzato/38-giovani-e-crossmedialita-introduzione-al-mondo-del-3d-con-blender
 17/05||Pederobba|Cena LUG Veneti|http://www.montellug.it/cena-dei-lug-veneti-17-maggio/625
 16/05||Pergine Valsugana|"Ha Senso Linux?"|http://www.linuxtrent.it/ha-ancora-senso-linux-incontriamoci-gioved%C3%AC-16-maggio-discuterne-assieme
