@@ -2,8 +2,11 @@
 20/05||Varese|Serata Circuiti Elettronici|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 18/05|19/05|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=129:govonis-a-marc-di-primavera&catid=3:avvenimenti
 18/05||Vigevano|Workshop Blender|http://www.lugducale.it/index.php/2-non-categorizzato/38-giovani-e-crossmedialita-introduzione-al-mondo-del-3d-con-blender
+17/05|18/05|Forlì|Notte Verde|http://www.folug.org/2013/05/17/notte-verde-tra-seminari-e-trashware/
 17/05||Pederobba|Cena LUG Veneti|http://www.montellug.it/cena-dei-lug-veneti-17-maggio/625
 16/05||Pergine Valsugana|"Ha Senso Linux?"|http://www.linuxtrent.it/ha-ancora-senso-linux-incontriamoci-gioved%C3%AC-16-maggio-discuterne-assieme
+15/05||Valleggia|Serata Arduino|http://www.govonis.org/index.php?option=com_content&view=article&id=130:terza-serata-incontro-dedicata-ad-arduino&catid=3:avvenimenti
+15/05||Rende|Benefit Verde Binario|http://www.verdebinario.org/index.php?option=com_content&task=view&id=156&Itemid=0
 14/05||Padova|Open Source Conference|http://www.carnialug.net/2013/05/open-source-converence-a-padova/
 14/05||Pisa|Seminario BioBlender|http://www.gulp.linux.it/2013/04/30/seminario-su-bioblender-tenuto-da-scivis-14-maggio-2013/
 08/05||Serata Arduino|Quiliano|http://www.govonis.org/index.php?option=com_content&view=article&id=126:seconda-serata-incontro-dedicata-ad-arduino&catid=3:avvenimenti
