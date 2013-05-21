@@ -1,5 +1,6 @@
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
 01/06||Catanzaro|HackMeeting 2013 Warm-Up|http://hacklab.cz/2013/05/20/hackmeeting-2013-warm-cryptolage
+24/05||Montebelluna|Spostamento Riunione Settimanale|http://www.montellug.it/il-montellug-si-riunisce-al-venerdi/631
 23/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=791
 22/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-2013
 20/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=327
