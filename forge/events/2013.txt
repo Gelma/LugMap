@@ -2,6 +2,7 @@
 13/06||Udine|Business on Open 2013|http://iglu.cc.uniud.it/?p=760
 07/06||Montebelluna|Inizio Corso Command Line|http://www.montellug.it/corso-di-command-line/641
 05/06|06/06|Milano|Conferenza Sicurezza e Privacy|http://www.poul.org/2013/05/conferenza-sicurezza-e-privacy/
+04/06||Cosenza|Seminario Progetto Centauro|http://hlcs.it/2013/05/29/seminario-progetto-centauro-il-robot-fai-da-te-con-arduino/
 01/06||Pistoia|Incontro|http://www.ptlug.org/2013/05/incontri-nella-nuova-sede-del-ptlug-al-nonnonline-del-01-giugno-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontri-nella-nuova-sede-del-ptlug-al-nonnonline-del-01-giugno-2013
 01/06|02/06|Fermo|DUCC IT 2013|http://www.lilis.it/notizie/lassociazione-lilis-al-ducc/
 01/06||Catanzaro|HackMeeting 2013 Warm-Up|http://hacklab.cz/2013/05/20/hackmeeting-2013-warm-cryptolage
