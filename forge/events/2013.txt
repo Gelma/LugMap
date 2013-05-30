@@ -6,6 +6,7 @@
 01/06||Pistoia|Incontro|http://www.ptlug.org/2013/05/incontri-nella-nuova-sede-del-ptlug-al-nonnonline-del-01-giugno-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontri-nella-nuova-sede-del-ptlug-al-nonnonline-del-01-giugno-2013
 01/06|02/06|Fermo|DUCC IT 2013|http://www.lilis.it/notizie/lassociazione-lilis-al-ducc/
 01/06||Catanzaro|HackMeeting 2013 Warm-Up|http://hacklab.cz/2013/05/20/hackmeeting-2013-warm-cryptolage
+30/05||Valleggia|Corso Software Libero|http://www.govonis.org/index.php?option=com_content&view=article&id=134:gnulinux-livello0-5&catid=3:avvenimenti
 30/05||Trieste|Serata a Tema|http://trieste.linux.it/?p=793
 29/05||Sommacampagna|"Smonta e Rimonta 2013"|http://www.officina-s3.org/?p=2790
 28/05||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=328
