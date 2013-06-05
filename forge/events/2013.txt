@@ -2,7 +2,10 @@
 13/06||Udine|Business on Open 2013|http://iglu.cc.uniud.it/?p=760
 08/06||Pistoia|Incontro|http://www.ptlug.org/2013/06/incontro-nella-nuova-sede-del-ptlug-al-nonnonline-del-08-giugno-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-nuova-sede-del-ptlug-al-nonnonline-del-08-giugno-2013
 07/06||Montebelluna|Inizio Corso Command Line|http://www.montellug.it/corso-di-command-line/641
+06/06||Imola|Gruppo di Lavoro pfSense|http://www.imolug.org/node/121
+05/06||Valleggia|Serata Arduino|http://www.govonis.org/index.php?option=com_content&view=article&id=135:sesta-serata-incontro-dedicata-ad-arduino&catid=3:avvenimenti
 05/06|06/06|Milano|Conferenza Sicurezza e Privacy|http://www.poul.org/2013/05/conferenza-sicurezza-e-privacy/
+04/06||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=329
 04/06||Torri di Quartesolo|Joomla|http://vicenza.linux.it/node/129
 04/06||Cosenza|Seminario Progetto Centauro|http://hlcs.it/2013/05/29/seminario-progetto-centauro-il-robot-fai-da-te-con-arduino/
 03/06||Saronno|Incontro Linux Day|http://identi.ca/notice/101180388
