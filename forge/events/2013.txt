@@ -1,5 +1,6 @@
 18/06||Torri di Quartesolo|Lezione Gimp|http://vicenza.linux.it/node/130
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
+15/06||Valleggia|Incontro OpenStreetMap|http://www.govonis.org/index.php?option=com_content&view=article&id=136:incontro-con-openstreetmap&catid=4:appuntamenti&Itemid=9
 13/06||Udine|Business on Open 2013|http://iglu.cc.uniud.it/?p=760
 08/06||Pistoia|Incontro|http://www.ptlug.org/2013/06/incontro-nella-nuova-sede-del-ptlug-al-nonnonline-del-08-giugno-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-nuova-sede-del-ptlug-al-nonnonline-del-08-giugno-2013
 07/06||Montebelluna|Inizio Corso Command Line|http://www.montellug.it/corso-di-command-line/641
