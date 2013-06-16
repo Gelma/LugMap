@@ -1,3 +1,5 @@
+21/06||Asti|Incontro JClick e Software Libero|http://www.progettoradis.it/index.php?option=com_content&view=article&id=96:jclic-e-software-libero&catid=17:progetti-in-corso&Itemid=25
+20/06||Trieste|Serata a Tema|http://trieste.linux.it/?p=811
 19/06||Imola|Serata Bash|http://www.imolug.org/eventi/serate-2013-06-19-bash1
 18/06||Torri di Quartesolo|Lezione Gimp|http://vicenza.linux.it/node/130
 17/06||Varese|Serata GPG|http://lifolab.org/corsi/2013-seminari.html#maggio-storia-di-un-circuito-dall-idea-al-prototipo-finito
@@ -10,6 +12,7 @@
 06/06||Imola|Gruppo di Lavoro pfSense|http://www.imolug.org/node/121
 05/06||Valleggia|Serata Arduino|http://www.govonis.org/index.php?option=com_content&view=article&id=135:sesta-serata-incontro-dedicata-ad-arduino&catid=3:avvenimenti
 05/06|06/06|Milano|Conferenza Sicurezza e Privacy|http://www.poul.org/2013/05/conferenza-sicurezza-e-privacy/
+04/06||Grosseto|Cerimonia Fine Corso|http://www.guruatwork.com/2013/cerimonia-consegna-attestati-guruatwork-e-comune-di-grosseto/
 04/06||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=329
 04/06||Torri di Quartesolo|Joomla|http://vicenza.linux.it/node/129
 04/06||Cosenza|Seminario Progetto Centauro|http://hlcs.it/2013/05/29/seminario-progetto-centauro-il-robot-fai-da-te-con-arduino/
