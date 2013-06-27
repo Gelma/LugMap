@@ -1,6 +1,7 @@
 03/07||Imola|Serata Bash|http://www.imolug.org/eventi/serate-2013-06-19-bash2
 01/07||Lucca|Montaggio Stampante 3D|http://www.luccalug.it/?p=54
 29/06|30/06|Torino|"Torino Can Jump"|http://informaticalibera.info/index.php?option=com_content&view=article&id=125:29-30-giugno-torino-can-jump&catid=1:ultime
+29/06||Pistoia|Incontro|http://www.ptlug.org/2013/06/incontro-nella-sede-del-ptlug-al-nonnonline-del-29-giugno-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-29-giugno-2013
 28/06||Levico Terme|Serata Grafica|http://www.linuxtrent.it/venerd%C3%AC-24-giugno-prepariamo-una-bozza-del-linuxday-2013-usando-insieme-gimp-scribus-e-libreoffice
 27/06||Trieste|Serata a Tema|http://trieste.linux.it/?p=814
 25/06||Ivrea|Consegna diplomi Corso Linux|http://www.ivlug.it/2013/06/consegna-diplomi-corso-linux-base-2013/
