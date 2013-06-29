@@ -32,7 +32,7 @@ if True: # import dei moduli
 	try:
 		import tweepy # http://talkfast.org/2010/05/31/twitter-from-the-command-line-in-python-using-oauth
 	except:
-		sys.exit("Manca il modulo Tweepy: easy_install tweepy")
+		sys.exit("Manca il modulo Tweepy: easy_install tweepy non funziona per via dell'aggiornamento delle API di Twitter. Installalo da GitHub: https://github.com/tweepy/tweepy")
 
 if True: # leggo configurazione
 	configdiesempio="""
