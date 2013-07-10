@@ -1,6 +1,8 @@
 13/07||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/131-arduino-al-nino
 13/07||Zelarino|Summer Fest 2013|http://www.velug.it/10-associazione-velug/41-velug-summer-fest-2013.html
+11/07||Melegnano|Cena Estiva|http://www.lifos.org/2013/07/cena-estiva-11-luglio-2013/
 11/07||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=820
+10/07||Bologna|Panoramica Stampa 3D|http://erlug7.francescoboschetti.net/notizie/10-luglio-2013-stampa-3d-una-panoramica
 08/07||Lucca|Montaggio Stampante 3D|http://www.luccalug.it/?p=70
 06/07||Pistoia|Incontro|http://www.ptlug.org/2013/07/incontro-nella-sede-del-ptlug-al-nonnonline-del-6-luglio-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-6-luglio-2013
 04/07||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=818
