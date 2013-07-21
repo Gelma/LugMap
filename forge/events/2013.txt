@@ -1,4 +1,8 @@
+28/07||Trento|Inaugurazione MUSE|http://www.linuxtrent.it/openhardware-allopening-muse-28-luglio-2013
 26/07||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-luglio-2
+25/07||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=824
+20/07||Quiliano|"Diffusa"|http://www.govonis.org/index.php?option=com_content&view=article&id=137:diffusa-liberta-govonis-lab-&catid=3:avvenimenti
+20/07||Pistoia|Incontro|http://www.ptlug.org/2013/07/incontro-nella-sede-del-ptlug-al-nonnonline-del-20-luglio-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-20-luglio-2013
 20/07|21/07|Villafranca|RiCreazione 2013|http://www.officina-s3.org/?p=2825
 20/07||Montebelluna|Arch Install Party|http://www.montellug.it/arch-install-party/673
 19/07||Lucca|Workshop Stampa 3D|http://www.luccalug.it/?p=89
