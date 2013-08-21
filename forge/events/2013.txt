@@ -1,4 +1,5 @@
 24/08||Pistoia|Incontro|http://www.ptlug.org/2013/08/incontro-nella-sede-del-ptlug-al-nonnonline-del-24-agosto-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-24-agosto-2013
+21/08||Ferrara|Progetto tRicicloPC|http://www.ferrara.linux.it/index.php/le-attivita/14-calendario-appuntamenti/29-apertura-serale-sede-progetto-triciclopc-21-agosto-13
 17/08||Pistoia|Incontro|http://www.ptlug.org/2013/08/incontro-nella-sede-del-ptlug-al-nonnonline-del-17-agosto-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-17-agosto-2013
 16/08||Brescia|Compleanno Debian|http://www.lugbs.linux.it/attivita/eventi_locali/debian_ventesimo_compleanno/
 09/08||Catanzaro|Seminario Crittografia|http://hacklab.cz/2013/07/24/seminario-crittografia-e-posta-elettronica-9-agosto-2013
