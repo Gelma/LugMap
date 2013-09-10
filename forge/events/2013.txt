@@ -1,4 +1,9 @@
+16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
+08/10||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android-2013
+14/09||Pistoia|Incontro|http://www.ptlug.org/2013/09/incontro-nella-sede-del-ptlug-al-nonnonline-14-settembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-14-settembre-2013
 13/09||Palazzolo Acreide|Presentazione Apple I|http://museo.freaknet.org/it/presentazione-progetto-apple-1/
+13/09||Tito|Incontro|http://www.baslug.org/?q=node/107
+10/09||Rimini|Riunione Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=330
 05/09||Ferrara|Progetto tRiciclo|http://www.ferrara.linux.it/index.php/le-attivita/14-calendario-appuntamenti/35-apertura-serale-sede-progetto-triciclopc-5-settembre-13
 05/09||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=829
 03/09||Firenze|Riattivazione Sportello|http://www.liberainformatica.it/calendario-autunnale-dello-sportello-informativo-in-via-dellagnolo-1d/
