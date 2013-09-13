@@ -1,5 +1,8 @@
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
 08/10||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android-2013
+22/09||Cremona|Festa del Volontariato|http://www.lugcr.it/lugcr/festa-del-volontariato-2013-cremona
+21/09||Asti|Convegno Didattica|http://www.progettoradis.it/index.php?option=com_content&view=article&id=101:parliamo-di-nuove-indicazioni&catid=35:blog&Itemid=28
+20/09||Catanzaro|Inizio Corso Linux Base|http://hacklab.cz/2013/09/13/corso-gnulinux-di-base-settembreottobre-2013
 20/09|22/09|Finale Ligure|Expo Riviera|http://www.govonis.org/index.php?option=com_content&view=article&id=140:il-software-libero-allexpo-della-riviera&catid=4:appuntamenti&Itemid=9
 14/09||Firenze|Incontro Richard Stallman|http://www.liberainformatica.it/incontro-con-richard-stallman-sabato-14-settembre/
 14/09|15/09|Abbiategrasso|"Disimballati"|http://www.pcofficina.org/questo-week-end-pcofficina-disimballati-2013/?utm_source=rss&utm_medium=rss&utm_campaign=questo-week-end-pcofficina-disimballati-2013
