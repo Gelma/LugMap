@@ -1,6 +1,9 @@
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
+05/11||Roma|OpenSource Day|http://www.tulug.it/eventi/opensource-day-roma-5-novembre-2013/
 08/10||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android-2013
+04/10|06/10|Rovereto|OSMIT 2013|http://conf.openstreetmap.it/
 02/10||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/44-inizia-il-corso-linux-base.html
+25/09|27/09|Milano|LibreOffice Conference|http://www.libreitalia.it/conferenza/
 24/09||Torri di Quartesolo|Incontro Gimp|http://vicenza.linux.it/node/137
 22/09||Cremona|Festa del Volontariato|http://www.lugcr.it/lugcr/festa-del-volontariato-2013-cremona
 21/09||Pistoia|Incontro|http://www.ptlug.org/2013/09/ncontro-nella-sede-del-ptlug-al-nonnonline-21-settembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=ncontro-nella-sede-del-ptlug-al-nonnonline-21-settembre-2013
