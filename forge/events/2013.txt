@@ -4,8 +4,10 @@
 06/10||Sesto Fiorentino|"Fiera delle Economie Solidali"|http://www.liberainformatica.it/sesta-fiera-delle-economie-solidali-e-del-consumo-critico-4-5-6-ottobre-2013/
 04/10|06/10|Rovereto|OSMIT 2013|http://conf.openstreetmap.it/
 02/10||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/44-inizia-il-corso-linux-base.html
+27/09||Levico Terme|Serata JOSM|http://www.linuxtrent.it/mappare-con-josm-serata-levico-terme-venerd%C3%AC-27-settembre
 26/09||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=848
 25/09|27/09|Milano|LibreOffice Conference|http://www.libreitalia.it/conferenza/
+24/09||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=331
 24/09||Torri di Quartesolo|Incontro Gimp|http://vicenza.linux.it/node/137
 22/09||Cremona|Festa del Volontariato|http://www.lugcr.it/lugcr/festa-del-volontariato-2013-cremona
 21/09||Pistoia|Incontro|http://www.ptlug.org/2013/09/ncontro-nella-sede-del-ptlug-al-nonnonline-21-settembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=ncontro-nella-sede-del-ptlug-al-nonnonline-21-settembre-2013
