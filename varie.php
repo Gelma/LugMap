@@ -43,18 +43,12 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 
 		<title>Mappa dei Linux Users Groups Italiani<?php if ($title != null) echo ": $title"; ?></title>
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<?php foreach ($javascript as $js): ?>
 		<script type="text/javascript" src="<?php echo $js; ?>"></script>
 		<?php endforeach; ?>
+
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
-		<!-- Leaflet CSS -->
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
-		<!--[if lte IE 8]>
-			<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
-		<![endif]-->
-		
 	</head>
 
 	<body>
@@ -199,15 +193,6 @@ function latlon_magic ($lat, $lon) {
 	*/
 	$lat = (log (tan ((90 + $lat) * pi () / 360)) / (pi () / 180)) * 20037508.34 / 180;
 	$lon = $lon * 20037508.34 / 180;
-	return array ($lat, $lon);
-}
-
-function inverseMercator($lat,$lon) {
-  $lon = ($lon / 20037508.34) * 180;
-  $lat =  ($lat / 20037508.34) * 180;
-
-  $lat = 180/pi() * (2 * atan(exp($lat * pi() / 180)) - pi() / 2);
-
 	return array ($lat, $lon);
 }
 

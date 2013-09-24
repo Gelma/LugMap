@@ -3,67 +3,88 @@
 */
 
 var map, layer;
-	var layerurl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
-	var	attr = 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-	
-	var MapIcon = L.Icon.extend({
-	options:{
-	    iconSize: [20, 24],
-	    popupAnchor: [0, -24],
-		iconAnchor:   [10, 12],
-		iconUrl: 'images/icon.png'
-		}
-	});
 
+OpenLayers.Feature.prototype.createPopup = function (closeBox) {
+	if (this.lonlat != null) {
+		var id = this.id + "_popup";
+		var anchor = this.marker ? this.marker.icon : null;
 
-//https://code.google.com/p/microajax/
-function microAjax(B,A){this.bindFunction=function(E,D){return function(){return E.apply(D,[D])}};this.stateChange=function(D){if(this.request.readyState==4){this.callbackFunction(this.request.responseText)}};this.getRequest=function(){if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}else{if(window.XMLHttpRequest){return new XMLHttpRequest()}}return false};this.postBody=(arguments[2]||"");this.callbackFunction=A;this.url=B;this.request=this.getRequest();if(this.request){var C=this.request;C.onreadystatechange=this.bindFunction(this.stateChange,this);if(this.postBody!==""){C.open("POST",B,true);C.setRequestHeader("X-Requested-With","XMLHttpRequest"); C.setRequestHeader("Content-type","application/x-www-form-urlencoded");C.setRequestHeader("Connection","close")}else{C.open("GET",B,true)}C.send(this.postBody)}};
+		this.popup = new OpenLayers.Popup.AnchoredBubble (id, this.lonlat, this.data.popupSize, this.data.popupContentHTML, anchor, true);
+		this.popup.autoSize = true;
+
+		if (this.data.overflow != null)
+			this.popup.contentDiv.style.overflow = 'auto';
+
+		this.popup.feature = this;
+	}
+
+	return this.popup;
+}
+
+function lonLatToMercator(ll) {
+	var lon = ll.lon * 20037508.34 / 180;
+	var lat = Math.log (Math.tan ((90 + ll.lat) * Math.PI / 360)) / (Math.PI / 180);
+	lat = lat * 20037508.34 / 180;
+	return new OpenLayers.LonLat(lon, lat);
+}
+
+function osm_getTileURL(bounds) {
+	var res = this.map.getResolution();
+	var x = Math.round((bounds.left - this.maxExtent.left) / (res * this.tileSize.w));
+	var y = Math.round((this.maxExtent.top - bounds.top) / (res * this.tileSize.h));
+	var z = this.map.getZoom();
+	var limit = Math.pow(2, z);
+
+	if (y < 0 || y >= limit) {
+		return OpenLayers.Util.getImagesLocation() + "404.png";
+	} else {
+		x = ((x % limit) + limit) % limit;
+		return this.url + z + "/" + x + "/" + y + "." + this.type;
+	}
+}
 
 function init () {
+	var options = {
+  		projection: new OpenLayers.Projection("EPSG:900913"),
+  		displayProjection: new OpenLayers.Projection("EPSG:4326"),
+  		units: "m",
+  		maxResolution: 156543.0339,
+  		controls:[], numZoomLevels:20,
+  		maxExtent: new OpenLayers.Bounds(-20037508, -20037508, 20037508, 20037508.34)
+	}
 
+	map = new OpenLayers.Map('map', options);
 
-	var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
+	var mapnik = new OpenLayers.Layer.TMS( "OSM Mapnik", "http://tile.openstreetmap.org/",
+		{ type: 'png', getURL: osm_getTileURL, displayOutsideMaxExtent: true, attribution: '<a href="http://www.openstreetmap.org/">OpenStreetMap - slippy map</a>',
+		isBaseLayer: true, visibility: true, numZoomLevels:20 } );
 
-	map = new L.Map('map');
-	
+	map.addLayers([mapnik]);
 
-	zoom = $('input[name=default_zoom]').val ();;	
+	map.addControl(new OpenLayers.Control.Navigation());
+	map.addControl(new OpenLayers.Control.PanZoomBar() );
+	map.addControl(new OpenLayers.Control.Permalink());
+	map.addControl(new OpenLayers.Control.ScaleLine());
+
+	var f = $('input[name=coords_file]').val ();
+	var newl = new OpenLayers.Layer.Text( "LUG", {location: f} );
+	map.addLayer(newl);
+
+	zoom = $('input[name=default_zoom]').val ();;
+
 	if ($('input[name=zooming_lat]').length != 0) {
 		lat = $('input[name=zooming_lat]').val ();
 		lon = $('input[name=zooming_lon]').val ();
+		ll = new OpenLayers.LonLat(lon, lat);
 	}
 	else {
 		lon = 12.483215;
 		lat = 41.979911;
-	}	
-	
-	map.setView(new L.LatLng(lat, lon), zoom);
-	map.addLayer(tile);
-
-	
-	var f = $('input[name=coords_file]').val ();
-	
-
-	microAjax(f,function (res) { 
-	var feat=JSON.parse(res);
-	loadLayer(feat);
-	 } );
-}
-
-	function loadLayer(url)
-	{
-	var myLayer = L.geoJson(url,{
-		onEachFeature:function onEachFeature(feature, layer) {
-			if (feature.properties && feature.properties.name) {
-				layer.bindPopup(feature.properties.name+"<br/><a href='"+feature.properties.website+"'>Sito web</a>");
-			}
-		},
-		pointToLayer: function (feature, latlng) {		
-			var marker=L.marker(latlng, {icon:new MapIcon()});
-			return marker;
-		}
-	}).addTo(map);
+		ll = lonLatToMercator(new OpenLayers.LonLat(lon, lat));
 	}
+
+	map.setCenter(ll, zoom);
+}
 
 $(document).ready(function(){
 	init ();
