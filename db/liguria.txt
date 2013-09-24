@@ -1,4 +1,3 @@
-Provincia|Nome|Località|Sito|Email|OSM id|lat|lon
 Genova|Associazione per le Libertà Informatiche e Digitali|Genova|http://www.alid.it/|cerfvqragr@nyvq.vg|1836229845|44.4069081|8.9641328
 Genova|Op3n_L4b|Facoltà di Ingegneria, Genova|http://www.openlab-dist.org/|bcrayno@bcrayno-qvfg.bet|2470188958|44.4034554|8.9583701
 Genova|TLug-TSL|Rapallo|http://tlug.linux.it/|snovb.enzcbyqv@yvahk.vg
