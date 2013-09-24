@@ -18,7 +18,9 @@ L'ambizione della LugMap è di fornire un comodo strumento per mettere
 in contatto persone, e realtà, interessate alla diffusione del sistema
 operativo Linux, quale punta di diamante del Software Libero.
 
-== Dove si può consultare? ==
+Dove si può consultare?
+-----------------------
+
 La LugMap è storicamente presente a questo indirizzo:
 http://www.linux.it/LUG
 Ma la stessa base dati viene utilizzata anche per aggiornare:
