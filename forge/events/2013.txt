@@ -1,9 +1,11 @@
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
 05/11||Roma|OpenSource Day|http://www.tulug.it/eventi/opensource-day-roma-5-novembre-2013/
+12/10||Pisa|Internet Festival 2013|http://www.gulp.linux.it/2013/09/26/internet-festival-2013-gulp-12-ottobre-2013/
 08/10||Villafranca di Verona|Inizio Corso Android|http://linuxludus.it/corso-programmazione-android-2013
 06/10||Sesto Fiorentino|"Fiera delle Economie Solidali"|http://www.liberainformatica.it/sesta-fiera-delle-economie-solidali-e-del-consumo-critico-4-5-6-ottobre-2013/
 04/10|06/10|Rovereto|OSMIT 2013|http://conf.openstreetmap.it/
 02/10||Venezia|Inizio Corso Linux|http://www.velug.it/corsi/44-inizia-il-corso-linux-base.html
+28/09||Milano|"ZAC!"|http://www.pcofficina.org/questo-sabato-tutti-a-zac/?utm_source=rss&utm_medium=rss&utm_campaign=questo-sabato-tutti-a-zac
 28/09||Pistoia|Incontro|http://www.ptlug.org/2013/09/incontro-nella-sede-del-ptlug-al-nonnonline-28-settembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-28-settembre-2013
 27/09||Milano|CloudParty|http://www.tulug.it/eventi/cloudparty-milano-27-settembre-2013/
 27/09||Levico Terme|Serata JOSM|http://www.linuxtrent.it/mappare-con-josm-serata-levico-terme-venerd%C3%AC-27-settembre
