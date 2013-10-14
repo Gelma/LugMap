@@ -1,5 +1,4 @@
 <?php
-
 if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugmap.it') {
 	$domain = explode ('.', $_SERVER ['HTTP_HOST']);
 	$host = $domain [0];
@@ -28,20 +27,25 @@ if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugm
 }
 
 require_once ('varie.php');
-do_head ('Homepage', array ('http://openlayers.org/api/OpenLayers.js', 'js/mappa.js'));
+do_head ('Homepage', array ('http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js', 'js/mappa.js'));
 
 $transformed = false;
 
 if (array_key_exists ('zoom', $_GET)) {
 	$found = false;
-	$contents = file ('dati.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	
 
-	foreach ($contents as $row) {
-		list ($lat, $lon, $lug, $useless) = explode ("\t", $row, 4);
-		$lug = str_replace (' ', '_', $lug);
-
-		if ($lug == $_GET ['zoom']) {
+	$string = file_get_contents("lug.geojson");
+	$contents=json_decode($string,true);
+	
+	$lat=0;
+	$lon=0;
+	foreach ($contents['features'] as $row) {
+	
+		if($row['properties']['name']== $_GET ['zoom']) {
 			$found = true;
+			$lat=$row['geometry']['coordinates'][1];
+			$lon=$row['geometry']['coordinates'][0];
 			break;
 		}
 	}
@@ -67,7 +71,7 @@ if ($transformed == false) {
 
 ?>
 
-<input type="hidden" name="coords_file" value="dati.txt" />
+<input type="hidden" name="coords_file" value="lug.geojson" />
 <div id="map" class="smallmap"></div>
 
 <?php do_foot (); ?>
