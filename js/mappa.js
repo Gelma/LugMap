@@ -8,9 +8,9 @@ var map, layer;
 
 	var MapIcon = L.Icon.extend({
 		options:{
-			iconSize: [20, 24],
-			popupAnchor: [0, -24],
-			iconAnchor: [10, 12],
+			iconSize: [16, 19],
+			popupAnchor: [-8, 0],
+			iconAnchor: [16, 19],
 			iconUrl: 'images/icon.png'
 		}
 	});

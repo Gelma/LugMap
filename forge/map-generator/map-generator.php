@@ -92,6 +92,7 @@ foreach ($elenco_regioni as $region => $name) {
 			$point->properties->name = $name;
 			$point->properties->website = $site;
 			$point->geometry = new stdClass ();
+			$point->geometry->type = "Point";
 			$point->geometry->coordinates = array ($lon, $lat);
 
 			array_push ($output->features, $point);
