@@ -43,12 +43,17 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 
 		<title>Mappa dei Linux Users Groups Italiani<?php if ($title != null) echo ": $title"; ?></title>
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<?php foreach ($javascript as $js): ?>
 		<script type="text/javascript" src="<?php echo $js; ?>"></script>
 		<?php endforeach; ?>
 
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+		<![endif]-->
 	</head>
 
 	<body>
@@ -242,7 +247,7 @@ function ask_openstreetmap ($node) {
 	$node = $results->item (0);
 	$lat = $node->getAttribute ('lat');
 	$lon = $node->getAttribute ('lon');
-	return latlon_magic ($lat, $lon);
+	return array ($lat, $lon);
 }
 
 function ask_nominatim ($c) {
@@ -280,7 +285,7 @@ function ask_nominatim ($c) {
 	$lat = $node->getAttribute ('lat');
 	$lon = $node->getAttribute ('lon');
 
-	return latlon_magic ($lat, $lon);
+	return array ($lat, $lon);
 }
 
 function ask_geonames ($c) {
@@ -304,7 +309,7 @@ function ask_geonames ($c) {
 	$lon = $results->item (0);
 	$lon = $lon->nodeValue;
 
-	return latlon_magic ($lat, $lon);
+	return array ($lat, $lon);
 }
 
 function ask_coordinates ($c) {
@@ -344,11 +349,7 @@ function save_geocache () {
 }
 
 function write_geo_file ($name, $contents) {
-	/*
-		Attenzione: e' necessario mettere un newline anche al fondo dell'ultima
-		riga del file, la quale viene altrimenti ignorata da OpenLayer
-	*/
-	if (file_put_contents ($name, join ("\n", $contents) . "\n") === false)
+	if (file_put_contents ($name, $contents) === false)
 		echo "Errore nel salvataggio del file\n";
 	else
 		echo "I dati sono stati scritti nel file '$name'\n";
