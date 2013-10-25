@@ -2,10 +2,12 @@
 05/11||Roma|OpenSource Day|http://www.tulug.it/eventi/opensource-day-roma-5-novembre-2013/
 01/11|02/11|Roma|Ninux Day|http://www.tulug.it/eventi/ninux-day-2013-roma-1-3-novembre/
 27/10||Terni|Open Terni Festival|http://www.ternignulug.org/eventi-manifestazioni/otf/open-terni-festival-2013-questanno-presso-la-bct/
+27/10||Firenze|Bibliohackaton|http://www.liberainformatica.it/sabato-26-ottobre-bibliohackaton-alla-biblioteca-nazionale-di-firenze/
 24/10||Trieste|Riunione|http://trieste.linux.it/?p=960
 23/10||Verona|Convegno Open Access|http://www.lugverona.it/convegno-2310-i-dieci-anni-dellopen-access-univr/
 23/10||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-ottobre-13
 22/10||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=334
+19/10||Vergiano di Rimini|Cena|http://www.riminilug.it/tiki-read_article.php?articleId=335
 19/10|20/10|Faenza|Expo Elettronica|http://www.imolug.org/http://www.imolug.org/eventi/ExpoElettronicaFaenzaOttobre2013
 17/10||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=955
 15/10||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=333
