@@ -59,6 +59,12 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+    {lang: 'it'}
+  </script>
+
   <?php
     if ($extracss != null)
       foreach ($extracss as $e) {
@@ -74,12 +80,6 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
         <?php
       }
   ?>
-
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-    {lang: 'it'}
-  </script>
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
 
   <title><?php echo $title; ?></title>
 <script type="text/javascript">
@@ -105,9 +105,11 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 	<div id="payoff">La mappa dei Linux Users Groups italiani</div>
 
 	<div class="menu">
-		<a class="generalink" href="/">LugMap</a>
+		<a class="generalink" href="/">Home</a>
+		<?php if (file_exists ('data/geo.txt') == true || file_exists ('../data/geo.txt')): ?>
+		<a class="generalink" href="/mappa/">Mappa</a>
+		<?php endif; ?>
 		<a class="generalink" href="/partecipa/">Partecipa</a>
-		<a class="generalink" href="/guida/">Guida</a>
 		<a class="generalink" href="/contatti/">Contatti</a>
 
 		<p class="social">

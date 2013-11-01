@@ -19,11 +19,6 @@ body {
 	color:#444;
 }
 
-img {
-	display:block;
-	border:0;
-}
-
 a {
 	color:#000;
 	text-decoration:none;
@@ -83,6 +78,14 @@ a:hover {
 
 #italymap {
 	border: 0px;
+}
+
+#map {
+	position: absolute;
+	bottom: 0px;
+	top: 169px;
+	display: block;
+	width: 100%;
 }
 
 #center {

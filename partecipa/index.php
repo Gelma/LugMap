@@ -24,8 +24,11 @@
 		<td>
 			<p><b>Aiutaci a mantenere la LugMap aggiornata!</b></p>
 			<p>Segnalaci nuovi gruppi, cos&igrave; come errori ed omissioni, grazie alla pagina dei <a class="generalink" href="/contatti">contatti</a>.</p>
+			<p>&nbsp;</p>
 			<p>Puoi partecipare direttamente, sia alla stesura del codice che del database, sfruttando il <a class="generalink" href="http://github.com/Gelma/LugMap">repository GitHub</a>. Il codice sorgente del sito &egrave; distribuito con licenza <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, mentre i dati sono pubblicati in licenza <a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode">CC0</a>.</p>
-			<p>Puoi sapere tutto del progetto leggendo la <a class="generalink" href="/guida/">Guida Intergalattica alla LugMap</a>, sequendo la <a href="http://lists.linux.it/listinfo/lugmap">mailing list</a> o i nostri <a href="http://twitter.com/#!/LugMap">cinguettii</a>.</p>
+			<p>Puoi sapere tutti, ma proprio tutti, i dettagli su chi, cosa, come mantiene la LugMap, dai file pubblici agli script di automazione interna, leggendo la <a class="generalink" href="https://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">Guida Intergalattica alla LugMap</a>.</p>
+			<p>Oppure seguendo la <a href="http://lists.linux.it/listinfo/lugmap">mailing list</a> e i nostri <a href="http://twitter.com/#!/LugMap">cinguettii</a>.</p>
+			<p>&nbsp;</p>
 			<p>Infine puoi contribuire semplicemente promuovendo la LugMap, includendo sul tuo sito il <a href="/lug-o-matic/" class="generalink">widget web dinamico</a> o uno dei seguenti banners:</p>
 
 			<ul>

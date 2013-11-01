@@ -15,19 +15,8 @@
   You should have received a copy of the GNU Affero General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 ?>
-<?php
-require_once ('../funzioni.php');
-lugheader ('Guida');
-?>
-
-<div style="width: 70%; text-align: center; margin: auto">
-	<p>Vuoi apparire sul sito? Vuoi sapere come funziona il progetto? O meglio ancora, vuoi partecipare insieme a noi?</p>
-	<p style="font-size: 200%">Don't panic! Consulta la…</p>
-	<p style="font-size: 300%"><a href="https://github.com/Gelma/LugMap/raw/docs/Guida_Intergalattica_Alla_LugMap.pdf">Guida Intergalattica alla LugMap</a></p>
-	<p>Tutti, ma proprio tutti, i dettagli su chi, cosa, come mantiene la LugMap, dai file pubblici agli script di automazione interna.</p>
-	<p>Bonus track: le istruzioni su come rimettere in piedi l'intera struttura in caso di esplosione termonucleare che distrugga i server e vaporizzi gli amministratori attuali.</p>
-</div>
 
 <?php
-  lugfooter ();
-?>
+
+header ("HTTP/1.1 301 Moved Permanently");
+header ("Location: http://lugmap.linux.it/partecipa/");
