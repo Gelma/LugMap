@@ -3,7 +3,9 @@
 07/11||Milano|Workshop "Basta Matlab"|http://www.poul.org/2013/10/workshop-basta-matlab/
 07/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=972
 06/11||Cremona|Inizio Corso Scribus|http://www.lugcr.it/lugcr/corso-di-scribus-presso-il-cisvol
+05/11||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=336
 05/11||Roma|OpenSource Day|http://www.tulug.it/eventi/opensource-day-roma-5-novembre-2013/
+02/11||Pistoia|Incontro|http://www.ptlug.org/2013/11/incontro-nella-sede-del-ptlug-al-nonnonline-del-2-novembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-2-novembre-2013
 01/11|02/11|Roma|Ninux Day|http://www.tulug.it/eventi/ninux-day-2013-roma-1-3-novembre/
 27/10||Terni|Open Terni Festival|http://www.ternignulug.org/eventi-manifestazioni/otf/open-terni-festival-2013-questanno-presso-la-bct/
 27/10||Firenze|Bibliohackaton|http://www.liberainformatica.it/sabato-26-ottobre-bibliohackaton-alla-biblioteca-nazionale-di-firenze/
