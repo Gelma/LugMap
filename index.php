@@ -33,7 +33,7 @@ lugheader ('LugMap');
         <br />
         Le voci, ordinate per regione e provincia, sono accessibili direttamente dalla cartina e
         dall'elenco a lato, anche in versione
-        <a class="generalink" href="http://lugmap.linux.it/mappa/">georeferenziata</a>.
+        <a class="generalink" href="http://lugmap.it/">georeferenziata</a>.
       </div>
 
       <br />
