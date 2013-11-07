@@ -1,5 +1,8 @@
+25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
+13/11||Rovereto|Workshop OpenStreetMap|http://www.linuxtrent.it/workshop-openstreetmap-accademy-rovereto-mercoled%C3%AC-13-novembre-dalle-ore-1800-alle-ore-2100
 13/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-13
+09/11||Pistoia|Incontro|http://www.ptlug.org/2013/11/incontro-nella-sede-del-ptlug-al-nonnonline-del-9-novembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-9-novembre-2013
 09/11||Cesena|"We're Open"|http://www.weareopen.info/
 07/11||Milano|Workshop "Basta Matlab"|http://www.poul.org/2013/10/workshop-basta-matlab/
 07/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=972
