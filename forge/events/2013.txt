@@ -1,4 +1,5 @@
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
+16/11||Pinerolo|Inizio Corso Base|http://www.softwareliberopinerolo.org/eventi/6-eventi-futuri/140-corso-gratuito-gnulinux-a-novembre
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
 13/11||Rovereto|Workshop OpenStreetMap|http://www.linuxtrent.it/workshop-openstreetmap-accademy-rovereto-mercoled%C3%AC-13-novembre-dalle-ore-1800-alle-ore-2100
 13/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-13
