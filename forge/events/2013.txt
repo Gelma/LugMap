@@ -1,11 +1,15 @@
+30/11||Udine|Open Source Day|http://iglu.cc.uniud.it/open-source-day-2013/
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
+19/11||Firenze|Incontro|http://www.liberainformatica.it/vieni-a-conoscere-il-software-libero-il-19-novembre-in-via-dellagnolo-1d/
 16/11||Pinerolo|Inizio Corso Base|http://www.softwareliberopinerolo.org/eventi/6-eventi-futuri/140-corso-gratuito-gnulinux-a-novembre
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
+14/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=998
 13/11||Rovereto|Workshop OpenStreetMap|http://www.linuxtrent.it/workshop-openstreetmap-accademy-rovereto-mercoled%C3%AC-13-novembre-dalle-ore-1800-alle-ore-2100
 13/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-13
 12/11||Campobasso|Open Culture|http://www.lilis.it/notizie/open-culture-campobasso/
 09/11||Pistoia|Incontro|http://www.ptlug.org/2013/11/incontro-nella-sede-del-ptlug-al-nonnonline-del-9-novembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-9-novembre-2013
 09/11||Cesena|"We're Open"|http://www.weareopen.info/
+08/11||Genova|Serata OpenGL|http://web.openlab-dist.org/events/opengl/
 07/11||Milano|Workshop "Basta Matlab"|http://www.poul.org/2013/10/workshop-basta-matlab/
 07/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=972
 06/11||Cremona|Inizio Corso Scribus|http://www.lugcr.it/lugcr/corso-di-scribus-presso-il-cisvol
