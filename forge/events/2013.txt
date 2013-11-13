@@ -2,6 +2,7 @@
 26/11||Fano|GNU/Linux Night|http://www.fanolug.org/index.php/gnulinux-night
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
 19/11||Firenze|Incontro|http://www.liberainformatica.it/vieni-a-conoscere-il-software-libero-il-19-novembre-in-via-dellagnolo-1d/
+16/11||Pistoia|Incontro|http://www.ptlug.org/2013/11/incontro-nella-sede-del-ptlug-al-nonnonline-del-16-novembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-16-novembre-2013
 16/11||Pinerolo|Inizio Corso Base|http://www.softwareliberopinerolo.org/eventi/6-eventi-futuri/140-corso-gratuito-gnulinux-a-novembre
 16/11||Ivrea|Didattica Aperta|http://www.didatticaaperta.it/
 14/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=998
