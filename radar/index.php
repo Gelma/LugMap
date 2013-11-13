@@ -83,14 +83,14 @@ Questa e' una mail di verifica, per testare la validita' del tuo
 indirizzo mail: per cortesia clicca il link seguente per completare la
 procedura:
 
-http://lugmap.linux.it/mappa/confirm.php?id=$uuid
+http://lugmap.linux.it/radar/confirm.php?id=$uuid
 
 
 Per qualsiasi dubbio o domanda, contatta l'indirizzo webmaster@linux.it
 
 TEXT;
 
-				mail ($to, 'Conferma iscrizione LugRadar', $message, $headers);
+				mail ($mail, 'Conferma iscrizione LugRadar', $message, $headers);
 			}
 
 			header ('Location: http://lugmap.linux.it/radar/confirm.php');
