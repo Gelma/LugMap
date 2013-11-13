@@ -27,7 +27,7 @@ $transformed = false;
 if (array_key_exists ('zoom', $_GET)) {
 	$found = false;
 	$lat = $lon = 0;
-	$contents = file_get_contents ('data/geo.txt');
+	$contents = file_get_contents ('../data/geo.txt');
 	$contents = json_decode ($contents, true);
 
 	foreach ($contents ['features'] as $row) {
