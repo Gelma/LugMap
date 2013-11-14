@@ -31,16 +31,25 @@
 				$mail = null;
 				$prov = null;
 
+				$now = time ();
+				$pending = array ();
 				$data = file ('../data/radar_pending.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 				foreach ($data as $d) {
-					list ($m, $p, $u) = explode ('|', $d);
+					list ($m, $p, $u, $d) = explode ('|', $d);
 
 					if ($u == $_GET ['id']) {
 						$mail = $m;
 						$prov = $p;
 						$valid_row = $d;
-						break;
+					}
+					else {
+						/*
+							Le registrazioni piu' vecchie di (circa...)
+							10 giorni vengono eliminate
+						*/
+						if ($now - strtotime ($d) < 864000)
+							$pending [] = $d;
 					}
 
 					unset ($m);
@@ -48,7 +57,9 @@
 					unset ($u);
 				}
 
+				file_put_contents ('../data/radar_pending.txt', join ("\n", $pending));
 				unset ($data);
+				unset ($pending);
 
 				if ($mail != null) {
 					$valid = array ();
