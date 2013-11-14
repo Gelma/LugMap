@@ -1,3 +1,4 @@
+18/12||Castelfranco Veneto|"Mappare Castelfranco Veneto"|http://www.montellug.it/mappare-castelfranco-venero-18-dicembre/704
 30/11||Udine|Open Source Day|http://iglu.cc.uniud.it/open-source-day-2013/
 26/11||Fano|GNU/Linux Night|http://www.fanolug.org/index.php/gnulinux-night
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
