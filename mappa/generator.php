@@ -20,6 +20,10 @@
 
 require_once ('../funzioni.php');
 
+function notify_mail ($message) {
+	mail ('webmaster@linux.it', 'notifica script mappa LugMap', $message . "\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
+}
+
 /*
 	Scopiazzato da http://www.phpbuilder.com/board/showthread.php?t=10287962
 */
@@ -195,7 +199,7 @@ function save_geocache () {
 
 function write_geo_file ($name, $contents) {
 	if (file_put_contents ($name, $contents) === false)
-		echo "Errore nel salvataggio del file geografico per la LugMap\n";
+		notify_mail ("Errore nel salvataggio del file geografico per la LugMap");
 }
 
 init_geocache ();
@@ -301,7 +305,7 @@ foreach ($elenco_regioni as $region => $name) {
 			array_push ($output->features, $point);
 		}
 		else {
-			echo "Impossibile gestire la zona '$zone', si consiglia l'analisi manuale\n";
+			notify_mail ("Impossibile gestire la zona '$zone', si consiglia l'analisi manuale");
 		}
 	}
 }
