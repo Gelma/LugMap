@@ -1,5 +1,7 @@
 18/12||Castelfranco Veneto|"Mappare Castelfranco Veneto"|http://www.montellug.it/mappare-castelfranco-venero-18-dicembre/704
+03/12||Firenze|Install Fest|http://www.liberainformatica.it/cose-un-install-fest-vieni-il-3-dicembre-in-via-dellagnolo1d/
 30/11||Udine|Open Source Day|http://iglu.cc.uniud.it/open-source-day-2013/
+27/11||Milano|Inizio Corso Ruby|http://www.poul.org/2013/11/corso-ruby-2013/
 26/11||Fano|GNU/Linux Night|http://www.fanolug.org/index.php/gnulinux-night
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
 19/11||Firenze|Incontro|http://www.liberainformatica.it/vieni-a-conoscere-il-software-libero-il-19-novembre-in-via-dellagnolo-1d/
