@@ -63,6 +63,7 @@
 
 				if ($mail != null) {
 					$valid = array ();
+					$data = file ('../data/radar.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 					$f = fopen ('../data/radar.txt', 'a');
 					fwrite ($f, "$valid_row\n");
