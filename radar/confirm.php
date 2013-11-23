@@ -110,7 +110,7 @@ Persone cui e' stata inviata questa mail: $count
 
 TEXT;
 
-						mail ($to, 'LugRadar: individuati linuxari nella tua zona!', $message, $headers);
+						mail ('webmaster@linux.it', 'LugRadar: individuati linuxari nella tua zona!', $message, $headers);
 					}
 
 					?>
