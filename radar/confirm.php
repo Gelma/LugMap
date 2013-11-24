@@ -36,7 +36,7 @@
 				$data = file ('../data/radar_pending.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 				foreach ($data as $d) {
-					list ($m, $p, $u, $d) = explode ('|', $d);
+					list ($m, $p, $u, $e) = explode ('|', $d);
 
 					if ($u == $_GET ['id']) {
 						$mail = $m;
