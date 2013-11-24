@@ -109,7 +109,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 		<?php if (file_exists ('data/geo.txt') == true || file_exists ('../data/geo.txt')): ?>
 		<a class="generalink" href="/mappa/">Mappa</a>
 		<?php endif; ?>
-		<?php if (/* is_writable ('data') == true || is_writable ('../data') */ false): ?>
+		<?php if (is_writable ('data') == true || is_writable ('../data')): ?>
 		<a class="generalink" href="/radar/">Radar</a>
 		<?php endif; ?>
 		<a class="generalink" href="/partecipa/">Partecipa</a>
