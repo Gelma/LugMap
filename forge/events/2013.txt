@@ -3,6 +3,7 @@
 03/12||Firenze|Install Fest|http://www.liberainformatica.it/cose-un-install-fest-vieni-il-3-dicembre-in-via-dellagnolo1d/
 30/11||Pinerolo|Sabato con Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/141-sabato-con-arduino-calendario
 30/11||Udine|Open Source Day|http://iglu.cc.uniud.it/open-source-day-2013/
+28/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=1005
 27/11||Milano|Inizio Corso Ruby|http://www.poul.org/2013/11/corso-ruby-2013/
 26/11||Fano|GNU/Linux Night|http://www.fanolug.org/index.php/gnulinux-night
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
