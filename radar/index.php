@@ -74,7 +74,6 @@
 
 				$to = join (', ', $valid);
 				$headers = "From: webmaster@linux.it\r\n";
-				$headers .= "To: $mail\r\n";
 
 				$message =<<<TEXT
 Grazie per esserti registrato sul LugRadar!
