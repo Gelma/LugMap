@@ -5,6 +5,7 @@
 30/11||Udine|Open Source Day|http://iglu.cc.uniud.it/open-source-day-2013/
 28/11||Trieste|Serata a Tema|http://trieste.linux.it/?p=1005
 27/11||Milano|Inizio Corso Ruby|http://www.poul.org/2013/11/corso-ruby-2013/
+26/11||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=338
 26/11||Fano|GNU/Linux Night|http://www.fanolug.org/index.php/gnulinux-night
 25/11|26/11|Trento|Bibliohackaton|http://www.linuxtrent.it/bibliohackathon-trento-25-e-26-novembre-2013
 24/11||Milano|"La Stecca"|http://www.pcofficina.org/domenica-24-pcofficina-tra-pc-linux-bici-legno-e-restarters-la-stecca/?utm_source=rss&utm_medium=rss&utm_campaign=domenica-24-pcofficina-tra-pc-linux-bici-legno-e-restarters-la-stecca
