@@ -1,5 +1,6 @@
 20/12||Viterbo|LAN Party|http://www.tulug.it/news/lan-party-di-natale-2013/
 18/12||Castelfranco Veneto|"Mappare Castelfranco Veneto"|http://www.montellug.it/mappare-castelfranco-venero-18-dicembre/704
+10/12||Milano|Conferenza Joomla|http://www.poul.org/2013/12/conferenza-su-joomla/
 07/12|08/12|Forlì|Expoelettronica|http://www.folug.org/2013/11/21/expoelettronica-dicembre-13/
 07/12||Genova|Serata Programmazione Android|http://web.openlab-dist.org/secondo-talk-del-ciclo-smartphone-hours-dellanno-201314-programmazione-java/
 07/12||Gazzo Veronese|Risotto 6.28|http://www.lugcr.it/lugcr/risotto-628
