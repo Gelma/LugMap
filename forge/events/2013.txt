@@ -2,9 +2,11 @@
 18/12||Castelfranco Veneto|"Mappare Castelfranco Veneto"|http://www.montellug.it/mappare-castelfranco-venero-18-dicembre/704
 10/12||Milano|Conferenza Joomla|http://www.poul.org/2013/12/conferenza-su-joomla/
 07/12|08/12|Forlì|Expoelettronica|http://www.folug.org/2013/11/21/expoelettronica-dicembre-13/
+07/12||Pistoia|Incontro|http://www.ptlug.org/2013/12/incontro-nella-sede-del-ptlug-al-nonnonline-del-7-dicembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-7-dicembre-2013
 07/12||Genova|Serata Programmazione Android|http://web.openlab-dist.org/secondo-talk-del-ciclo-smartphone-hours-dellanno-201314-programmazione-java/
 07/12||Gazzo Veronese|Risotto 6.28|http://www.lugcr.it/lugcr/risotto-628
 05/12||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1009
+04/12||Terni|Inizio Corso Gambas|http://www.ternignulug.org/open-news/inizio-corso-di-programmazione-gambas3-livello-base/
 03/12||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=339
 03/12||Firenze|Install Fest|http://www.liberainformatica.it/cose-un-install-fest-vieni-il-3-dicembre-in-via-dellagnolo1d/
 02/12||Cernusco sul Naviglio|Incontro|http://viglug.org/incontro-di-dicembre/
