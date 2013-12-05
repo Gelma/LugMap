@@ -37,26 +37,29 @@
 		if (array_key_exists ('mail', $_POST) == false ||
 				$_POST ['mail'] == '' ||
 				array_key_exists ('prov', $_POST) == false ||
-				$_POST ['prov'] == '-1' ||
+				array_key_exists ('university', $_POST) == false ||
+				($_POST ['prov'] == '-1' && $_POST ['university'] == '-1') ||
 				filter_var ($_POST ['mail'], FILTER_VALIDATE_EMAIL) == false) {
 
 			$msg = "Dati non validi! Riscrivi il tuo indirizzo mail e seleziona una provincia!";
 		}
 		else {
 			$mail = $_POST ['mail'];
-			$prov = $_POST ['prov'];
+
+			if ($_POST ['prov'] != '-1')
+				$prov = $_POST ['prov'];
+			else
+				$prov = $_POST ['university'];
+
 			$date = date ('d-m-Y');
 			$uuid = gen_uuid ();
 
 			$data = file ('../data/radar.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-			$valid = array ();
 			$counter = 0;
 
 			foreach ($data as $d) {
 				list ($m, $p, $u) = explode ('|', $d);
 
-				if ($p == $prov)
-					$valid [] = $m;
 				if ($m == $mail)
 					$counter++;
 
@@ -67,12 +70,16 @@
 
 			unset ($data);
 
+			/*
+				Controllo per evitare che qualcuno abusi del
+				servizio: ci si puo' registrare al massimo tre
+				volte con lo stesso indirizzo
+			*/
 			if ($counter < 3) {
 				$f = fopen ('../data/radar_pending.txt', 'a');
 				fwrite ($f, "$mail|$prov|$uuid|$date\n");
 				fclose ($f);
 
-				$to = join (', ', $valid);
 				$headers = "From: webmaster@linux.it\r\n";
 
 				$message =<<<TEXT
@@ -98,7 +105,7 @@ TEXT;
 	}
 
 	require_once ('../funzioni.php');
-	lugheader ('Radar');
+	lugheader ('Radar', array (), array ('radar.js'));
 
 	if ($msg != '') {
 		?>
@@ -125,7 +132,14 @@ TEXT;
 
 			<form action="?subscribe=1" method="POST">
 				<p>
-					<input type="text" name="mail" placeholder="Indirizzo Mail" /> <?php prov_select ('') ?> <input type="submit" value="Invia" />
+					<input type="text" name="mail" placeholder="Indirizzo Mail" />
+				</p>
+				<p>
+					<?php prov_select ('') ?> o, se sei studente universitario,<br />
+					<select name="university" id="university"><option value="-1">Seleziona una Università</option></select>
+				</p>
+				<p>
+					<input type="submit" value="Invia" />
 				</p>
 				<p style="display: none">
 					<input type="text" name="name" />

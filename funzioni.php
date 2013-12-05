@@ -209,7 +209,7 @@ function prov_select ($class) {
 	?>
 
 	<select class="<?php echo $class ?>" name="prov">
-		<option value="-1" selected="selected">Provincia</option>
+		<option value="-1" selected="selected">Seleziona una Provincia</option>
 		<option value="AG">Agrigento</option>
 		<option value="AL">Alessandria</option>
 		<option value="AN">Ancona</option>
