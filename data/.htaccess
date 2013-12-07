@@ -1,18 +1,10 @@
+AuthUserFile /var/www/lugmap/data/.htpasswd
+AuthName "Authorization Required"
+AuthType Basic
+require valid-user
+
 <Files radar.txt>
-	Order deny,allow
-	Deny from all
-	Allow from 127.0.0.1
-	Allow from 2001:1418:10:5::2
-</Files>
-
-<Files radar_pending.txt>
-	Order deny,allow
-	Deny from all
-	Allow from 127.0.0.1
-	Allow from 2001:1418:10:5::2
-</Files>
-
-<Files remove_radar.php>
+	Satisfy Any
 	Order deny,allow
 	Deny from all
 	Allow from 127.0.0.1

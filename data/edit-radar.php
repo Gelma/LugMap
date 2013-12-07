@@ -18,7 +18,7 @@
 
 <?php
 
-if ($_POST ['save'] == 1) {
+if ($_GET ['save'] == 1) {
 	file_put_contents ('radar.txt', $_POST ['contents']);
 }
 
@@ -26,19 +26,10 @@ if ($_POST ['save'] == 1) {
 
 <html>
 	<body>
-		<?php echo realpath (dirname (__FILE__)) ?>
-
-		<br />
-
 		<form method="POST" action="?save=1">
-			<textarea name="contents">
-				<?php echo file_get_contents ('radar.txt') ?>
-			</textarea>
-
+			<textarea name="contents"><?php echo file_get_contents ('radar.txt') ?></textarea>
 			<br />
-
 			<input value="Salva" type="submit" />
 		</form>
 	</body>
 </html>
-
