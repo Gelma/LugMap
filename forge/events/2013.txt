@@ -2,7 +2,10 @@
 19/12||Venezia|Cena di Natale|http://www.velug.it/17-eventi/46-cena-di-natale.html
 19/12||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-dicembre-13
 18/12||Castelfranco Veneto|"Mappare Castelfranco Veneto"|http://www.montellug.it/mappare-castelfranco-venero-18-dicembre/704
+13/12||Grosseto|Convegno Tecnologie in Classe|http://www.grolug.org/convegno-sulle-tecnologie-in-classe
 13/12||Catania|GNU/Linux Day|http://catania.linux.it/index.php?option=com_content&task=view&id=44&Itemid=38
+12/12||Trieste|Serata a Tema|http://trieste.linux.it/?p=1014
+10/12||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=340
 10/12||Milano|Conferenza Joomla|http://www.poul.org/2013/12/conferenza-su-joomla/
 07/12|08/12|Forlì|Expoelettronica|http://www.folug.org/2013/11/21/expoelettronica-dicembre-13/
 07/12||Pistoia|Incontro|http://www.ptlug.org/2013/12/incontro-nella-sede-del-ptlug-al-nonnonline-del-7-dicembre-2013/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-7-dicembre-2013
