@@ -41,7 +41,7 @@
 				($_POST ['prov'] == '-1' && $_POST ['university'] == '-1') ||
 				filter_var ($_POST ['mail'], FILTER_VALIDATE_EMAIL) == false) {
 
-			$msg = "Dati non validi! Riscrivi il tuo indirizzo mail e seleziona una provincia!";
+			$msg = "Dati non validi! Riscrivi il tuo indirizzo mail e seleziona una provincia o una università!";
 		}
 		else {
 			$mail = $_POST ['mail'];
@@ -105,7 +105,7 @@ TEXT;
 	}
 
 	require_once ('../funzioni.php');
-	lugheader ('Radar', array (), array ('radar.js'));
+	lugheader ('Radar', array ('http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css'), array ('http://code.jquery.com/ui/1.10.3/jquery-ui.js', 'radar.js'));
 
 	if ($msg != '') {
 		?>
@@ -136,7 +136,8 @@ TEXT;
 				</p>
 				<p>
 					<?php prov_select ('') ?> o, se sei studente universitario,<br />
-					<select name="university" id="university"><option value="-1">Seleziona una Università</option></select>
+					<input type="text" name="universitytext" id="universitytext" size="50" placeholder="Scrivi e seleziona qui il nome della tua università" />
+					<input type="hidden" name="university" id="university" value="-1" />
 				</p>
 				<p>
 					<input type="submit" value="Invia" />

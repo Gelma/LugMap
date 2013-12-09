@@ -18,994 +18,335 @@ function hashCode (string) {
 }
 
 var universities = [
-    {
-	"title": "Università degli Studi \"Gabriele D'Annunzio\"",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE DELL'EDUCAZIONE MOTORIA",
-	    "FACOLTÀ DI SCIENZE MANAGERIALI",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE SOCIALI"
-	]
-    },
-    {
-	"title": "Università degli Studi di L'Aquila",
-	"faculty": [
-	    "DIPARTIMENTO DI INGEGNERIA CIVILE, EDILE-ARCHITETTURA, AMBIENTALE",
-	    "DIPARTIMENTO DI INGEGNERIA E SCIENZE DELL'INFORMAZIONE E MATEMATICA",
-	    "DIPARTIMENTO DI INGEGNERIA INDUSTRIALE E DELL'INFORMAZIONE E DI ECONOMIA",
-	    "DIPARTAMENTO DI MEDICINA CLINICA, SANITÀ PUBBLICA, SCIENZE DELLA VITA E DELL'AMBIENTE",
-	    "DIPARTIMENTO DI SCIENZE CLINICHE APPLICATE E BIOTECNOLOGICHE",
-	    "DIPARTIMENTO DI SCIENZE FISICHE E CHIMICHE",
-	    " ",
-	    "DIPARTIMENTO DI SCIENZE UMANE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Teramo",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE DELLA COMUNICAZIONE",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi della Basilicata",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi \"Magna Graecia\" di Catanzaro",
-	"faculty": [
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi Mediterranea di Reggio Calabria",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA"
-	]
-    },
-    {
-	"title": "Università della Calabria",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA E SCIENZE DELLA NUTRIZIONE E DELLA SALUTE",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Istituto Universitario \"Suor Orsola Benincasa\"",
-	"faculty": [
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE"
-	]
-    },
-    {
-	"title": "Seconda Università degli Studi di Napoli",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DEL FARMACO PER L'AMBIENTE E LA SALUTE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI STUDI POLITICI E PER L'ALTA FORMAZIONE EUROPEA E MEDITERRANEA \"JEAN MONNET\"",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi del Sannio",
-	"faculty": [
-	    "FACOLTÀ DI SCIENZE ECONOMICHE E AZIENDALI",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI"
-	]
-    },
-    {
-	"title": "Università degli Studi di Napoli \"Federico II\"",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE BIOTECNOLOGICHE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "FACOLTÀ DI SOCIOLOGIA",
-	    "INTERFACOLTÀ/INTERATENEO "
-	]
-    },
-    {
-	"title": "Università degli Studi di Napoli \"L'Orientale\"",
-	"faculty": [
-	    "DIPARTIMENTO ASIA AFRICA MEDITERRANEO",
-	    "DIPARTIMENTO SCIENZE UMANE E SOCIALI",
-	    "DIPARTIMENTO DI STUDI LETTERARI, LINGUISTICI E COMPARATI"
-	]
-    },
-    {
-	"title": "Università degli Studi di Napoli \"Partenophe\"",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI SCIENZE E TECNOLOGIE",
-	    "FACOLTÀ DI SCIENZE MOTORIE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Salerno",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Bologna",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA - BOLOGNA",
-	    "FACOLTÀ DI AGRARIA - CESENA",
-	    "FACOLTÀ DI ARCHITETTURA - CESENA",
-	    "FACOLTÀ DI CHIMICA INDUSTRIALE",
-	    "FACOLTÀ DI CONSERVAZIONE DEI BENI CULTURALI",
-	    "FACOLTÀ DI ECONOMIA - BOLOGNA",
-	    "FACOLTÀ DI ECONOMIA - FORLÌ",
-	    "FACOLTÀ DI ECONOMIA - RIMINI",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "II FACOLTÀ DI INGEGNERIA - CESENA",
-	    "II FACOLTÀ DI INGEGNERIA - FORLÌ",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE MOTORIE",
-	    "FACOLTÀ DI SCIENZE POLITICHE - BOLOGNA",
-	    "FACOLTÀ DI SCIENZE POLITICHE - FORLÌ",
-	    "FACOLTÀ DI SCIENZE STATISTICHE",
-	    "SCUOLA SUPERIORE DI LINGUE MODERNE PER INTERPRETI E TRADUTTORI",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Ferrara",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Modena e Reggio Emilia",
-	"faculty": [
-	    "DIPARTIMENTO DI SCIENZE DELLA VITA",
-	    "DIPARTIMENTO DI ECONOMIA MARCO BIAGI",
-	    "DIPARTIMENTO DI GIURISPRUDENZA",
-	    "DIPARTIMENTO DI INGEGNERIA ENZO FERRARI",
-	    "DIPARTIMENTO DI SCIENZE E METODI DELL'INGEGNERIA",
-	    "DIPARTIMENTO DI STUDI LINGUISTICI E CULTURALI",
-	    "DIPARTIMENTO DI MEDICINA DIAGNOSTICA, CLINICA E DI SANITÀ PUBBLICA",
-	    "DIPARTIMENTO DI SCIENZE BIOMEDICHE, METABOLICHE E NEUROSCIENZE",
-	    "DIPARTIMENTO DI SCIENZE MEDICHE E CHIRURGICHE MATERNO-INFANTILI E DELL'ADULTO",
-	    "DIPARTIMENTO CHIRURGICO, MEDICO, ODONTOIATRICO E DI SCIENZE MORFOLOGICHE",
-	    "DIPARTIMENTO DI COMUNICAZIONE ED ECONOMIA",
-	    "DIPARTIMENTO DI EDUCAZIONE E SCIENZE UMANE",
-	    "DIPARTIMENTO DI SCIENZE FISICHE, INFORMATICHE E MATEMATICHE",
-	    "DIPARTIMENTO DI SCIENZE CHIMICHE E GEOLOGICHE",
-	    "INTERDIPARTIMENTO/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Parma",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDINA VETERINARIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "SISSA - Scuola Internazionale Superiore di Studi Avanzati",
-	"faculty": []
-    },
-    {
-	"title": "Università degli Studi di Trieste",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "SCUOLA SUPERIORE DI LINGUE MODERNE PER INTERPRETI E TRADUTTORI POLITICHE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Udine",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA E ARCHITETTURA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ VETERINARIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI MATEMATICA, INFORMATICA E MULTIMEDIALITÀ",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "IUSM - Università degli Studi di Roma \"Foro Italico\" ",
-	"faculty": [
-	    "FACOLTÀ DI SCIENZE MOTORIE"
-	]
-    },
-    {
-	"title": "Libera Università degli Studi \"San Pio V\"",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI INTERPRETARIATO E TRADUZIONE",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "LUISS - Libera Università Internazionale degli Studi Sociali Guido Carli",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "LUMSA - Libera Università \"Maria Ss. Assunta\"",
-	"faculty": [
-	    "DIPARTIMENTO DI GIURISPRUDENZA",
-	    "DIPARTIMENTO DI SCIENZE ECONOMICHE, POLITICHE E DELLE LINGUE MODERNE",
-	    "DIPARTIMENTO DI SCIENZE UMANE"
-	]
-    },
-    {
-	"title": "Università \"Campus Bio-Medico\" di Roma",
-	"faculty": [
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA"
-	]
-    },
-    {
-	"title": "Università degli Studi della Tuscia",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI CONSERVAZIONE DEI BENI CULTURALI",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE MODERNE",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Cassino",
-	"faculty": [
-	    "DIPARTIMENTO DI ECONOMIA E GIURISPRUDENZA",
-	    "DIPARTIMENTO CIVILE E MECCANICA",
-	    "DIPARTIMENTO DI LETTERE E FILOSOFIA",
-	    "DIPARTIMENTO DI SCIENZE UMANE, SOCIALI E DELLA SALUTE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Roma \"La Sapienza\"",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA E MEDICINA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA CIVILE E INDUSTRIALE",
-	    "FACOLTÀ DI INGEGNERIA DELL'INFORMAZIONE, INFORMATICA E STATISTICA",
-	    "FACOLTÀ DI FILOSOFIA, LETTERE, SCIENZE UMANISTICHE E STUDI ORIENTALI ",
-	    " FACOLTÀ DI MEDICINA E ODONTOIATRIA",
-	    "FACOLTÀ DI MEDICINA E PSICOLOGIA ",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE, SOCIOLOGIA, COMUNICAZIONE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Roma \"Tor Vergata\"",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI"
-	]
-    },
-    {
-	"title": "Università degli Studi Europea di Roma",
-	"faculty": [
-	    "L'ATENEO NON È SUDDIVISO IN FACOLTÀ"
-	]
-    },
-    {
-	"title": "Università degli Studi \"Roma Tre\"",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA \"FEDERICO CAFFÈ\"",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Genova",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "IULM - Libera Università di Lingue e Comunicazione",
-	"faculty": [
-	    "FACOLTÀ DI ARTI, MERCATI E PATRIMONI DELLA CULTURA ",
-	    "FACOLTÀ DI COMUNICAZIONE, RELAZIONI PUBBLICHE E PUBBLICITÀ ",
-	    "FACOLTÀ DI INTERPRETARIATO, TRADUZIONE E STUDI LINGUISTICI E CULTURALI",
-	    "FACOLTÀ DI TURISMO EVENTI E TERRITORIO",
-	    ""
-	]
-    },
-    {
-	"title": "Politecnico di Milano",
-	"faculty": [
-	    " FACOLTÀ DI ARCHITETTURA E SOCIETÀ",
-	    "FACOLTÀ DI ARCHITETTURA CIVILE",
-	    "FACOLTÀ DEL DESIGN",
-	    "FACOLTÀ DI INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE ",
-	    "FACOLTÀ DI INGEGNERIA DEI SISTEMI",
-	    "FACOLTÀ DI INGEGNERIA DEI PROCESSI INDUSTRIALI",
-	    "FACOLTÀ DI INGEGNERIA INDUSTRIALE",
-	    "FACOLTÀ DI INGEGNERIA DELL'INFORMAZIONE",
-	    "FACOLTÀ DI INGEGNERIA EDILE/ARCHITETTURA"
-	]
-    },
-    {
-	"title": "Università Carlo Cattaneo - LIUC",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA AZIENDALE",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA GESTIONALE"
-	]
-    },
-    {
-	"title": "Università Cattolica del Sacro Cuore",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA - SEDE DI PIACENZA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI SCIENZE LINGUISTICHE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA \"A. GEMELLI\"",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE BANCARIE, FINANZIARIE E ASSICURATIVE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE E SOCIALI",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università Commerciale Luigi Bocconi",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA"
-	]
-    },
-    {
-	"title": "Università degli Studi dell'Insubria Varese-Como",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI - COMO",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE, FISICHE E NATURALI - VARESE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Bergamo",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE UMANISTICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Brescia",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA"
-	]
-    },
-    {
-	"title": "Università degli Studi di Milano",
-	"faculty": [
-	    "FACOLTÀ DI SCIENZE AGRARIE E ALIMENTARI",
-	    "FACOLTÀ DI SCIENZE DEL FARMACO",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI STUDI UMANISTICI",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE E TECNOLOGIE",
-	    "FACOLTÀ DI MEDIAZIONE LINGUISTICA E CULTURALE",
-	    "FACOLTÀ DI SCIENZE MOTORIE",
-	    "FACOLTÀ DI SCIENZE POLITICHE, ECONOMICHE E SOCIALI ",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Milano-Bicocca",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE STATISTICHE",
-	    "FACOLTÀ DI SOCIOLOGIA",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Pavia",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MUSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università Vita-Salute San Raffaele",
-	"faculty": [
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI FILOSOFIA",
-	    "FACOLTÀ DI PSICOLOGIA"
-	]
-    },
-    {
-	"title": "Università Politecnica delle Marche",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI"
-	]
-    },
-    {
-	"title": "Università degli Studi di Camerino",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE E TECNOLOGIE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Macerata",
-	"faculty": [
-	    "FACOLTÀ DI BENI CULTURALI",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI SCIENZE DELLA COMUNICAZIONE ",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Urbino Carlo Bo",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "ACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE E TECNOLOGIE",
-	    "FACOLTÀ DI SCIENZE MOTORIE",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "FACOLTÀ DI SOCIOLOGIA",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi del Molise",
-	"faculty": [
-	    "DIPARTIMENTO DI AGRICOLTURA, AMBIENTE E ALIMENTI",
-	    "DIPARTIMENTO DI BIOSCIENZE E TERRITORIO",
-	    "DIPARTIMENTO DI ECONOMIA, GESTIONE, SOCIETÀ E ISTITUZIONI",
-	    "DIPARTIMENTO GIURIDICO",
-	    "DIPARTIMENTO DI MEDICINA E DI SCIENZE DELLA SALUTE",
-	    "DIPARTIMENTO DI SCIENZE UMANISTICHE, SOCIALI E DELLA FORMAZIONE",
-	    "INTERDIPARTIMENTO/INTERATENEO"
-	]
-    },
-    {
-	"title": "Politecnico di Torino",
-	"faculty": [
-	    "I FACOLTÀ DI ARCHITETTURA",
-	    "II FACOLTÀ DI ARCHITETTURA",
-	    "I FACOLTÀ DI INGEGNERIA",
-	    "III FACOLTÀ DI INGEGNERIA DELL'INFORMAZIONE",
-	    "IV FACOLTÀ DI INGEGNERIA - ORGANIZZAZIONE D'IMPRESA E INGEGNERIA GESTIONALE ",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi del Piemonte Orientale \"Amedeo Avogadro\"",
-	"faculty": [
-	    "DIPARTIMENTO DI STUDI PER L'ECONOMIA E L'IMPRESA",
-	    "DIPARTIMENTO DI SCIENZE DEL FARMACO",
-	    "DIPARTIMENTO DI GIURISPRUDENZA E SCIENZE POLITICHE, ECONOMICHE E SOCIALI",
-	    "DIPARTIMENTO DI STUDI UMANISTICI",
-	    "DIPARTIMENTO DI SCIENZE E INNOVAZIONE TECNOLOGICA",
-	    "SCUOLA DI MEDICINA"
-	]
-    },
-    {
-	"title": "Università degli Studi di Torino",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università di Scienze Gastronomiche",
-	"faculty": [
-	    " FACOLTÀ DI SCIENZE GASTRONOMICHE"
-	]
-    },
-    {
-	"title": "LUM - Libera Università Mediterranea \"Jean Monnet\"",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA"
-	]
-    },
-    {
-	"title": "Politecnico di Bari",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "I FACOLTÀ DI INGEGNERIA",
-	    "II FACOLTÀ DI INGEGNERIA"
-	]
-    },
-    {
-	"title": "Università degli Studi di Bari",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "II FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE BIOTECNOLOGICHE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "II FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Foggia",
-	"faculty": [
-	    "DIPARTIMENTO DI ECONOMIA",
-	    "DIPARTIMENTO DI GIURISPRUDENZA",
-	    "DIPARTIMENTO DI MEDICINA CLINICA E SPERIMENTALE",
-	    "DIPARTIMENTO DI SCIENZE AGRARIE, DEGLI ALIMENTI E DELL'AMBIENTE ",
-	    "DIPARTIMENTO DI SCIENZE MEDICHE E CHIRURGICHE",
-	    "DIPARTIMENTO DI STUDI UMANISTICI. LETTERE, BENI CULTURALI, SCIENZE DELLA FORMAZIONE",
-	    "INTERDIPARTIMENTO/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi del Salento",
-	"faculty": [
-	    "FACOLTÀ DI LETTERE E FILOSOFIA, LINGUE E BENI CULTURALI",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI INGEGNERIA INDUSTRIALE",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE, SCIENZE POLITICHE E SOCIALI",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI"
-	]
-    },
-    {
-	"title": "Università degli Studi di Cagliari",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "Università degli Studi di Sassari",
-	"faculty": [
-	    "DIPARTIMENTO DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "DIPARTIMENTO DI SCIENZE ECONOMICHE E AZIENDALI",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA E VETERINARIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Catania",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Messina",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Palermo",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE MOTORIE",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Scuola Normale Superiore - Pisa",
-	"faculty": [
-	    "CLASSE DI LETTERE E FILOSOFIA",
-	    "CLASSE DI SCIENZE MATEMATICHE, FISICHE E NATURALI"
-	]
-    },
-    {
-	"title": "Scuola Superiore di Studi Universitari e di Perfezionamento \"Sant'Anna\" - Pisa",
-	"faculty": [
-	    "CLASSE DI SCIENZE SOCIALI",
-	    "CLASSE DI SCIENZE SPERIMENTALI"
-	]
-    },
-    {
-	"title": "Università degli Studi di Firenze",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE \"CESARE ALFIERI\"",
-	    "INTERFACOLTA'/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Pisa",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Siena",
-	"faculty": [
-	    " FACOLTÀ DI ECONOMIA \"RICHARD M. GOODWIN\"",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA - AREZZO",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA - SIENA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "Università per Stranieri di Siena",
-	"faculty": [
-	    "FACOLTÀ DI LINGUA E CULTURA ITALIANA"
-	]
-    },
-    {
-	"title": "Libera Università di Bolzano",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE E TECNOLOGIE ",
-	    "FACOLTÀ DI SCIENZE E TECNOLOGIE INFORMATICHE",
-	    "FACOLTÀ DI DESIGN E ARTI"
-	]
-    },
-    {
-	"title": "Università degli Studi di Trento",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SOCIOLOGIA",
-	    "FACOLTÀ DI SCIENZE COGNITIVE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Perugia",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE"
-	]
-    },
-    {
-	"title": "Università per Stranieri di Perugia",
-	"faculty": [
-	    "FACOLTÀ DI LINGUA E CULTURA ITALIANA"
-	]
-    },
-    {
-	"title": "Università della Valle d'Aosta - Université de la Vallée D'Aoste",
-	"faculty": [
-	    "FACOLTÀ DI LINGUE E COMUNICAZIONE",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELL'ECONOMIA E DELLA GESTIONE AZIENDALE",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE POLITICHE E DELLA RELAZIONI INTERNAZIONALI "
-	]
-    },
-    {
-	"title": "Università Iuav di Venezia",
-	"faculty": [
-	    "FACOLTÀ DI ARCHITETTURA",
-	    "FACOLTÀ DI DESIGN E ARTI",
-	    "FACOLTÀ DI PIANIFICAZIONE DEL TERRITORIO"
-	]
-    },
-    {
-	"title": "Università \"Ca' Foscari\" di Venezia",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Padova",
-	"faculty": [
-	    "FACOLTÀ DI AGRARIA",
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI FARMACIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI INGEGNERIA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI MEDICINA VETERINARIA",
-	    "FACOLTÀ DI PSICOLOGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE POLITICHE",
-	    "FACOLTÀ DI SCIENZE STATISTICHE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
-    {
-	"title": "Università degli Studi di Verona",
-	"faculty": [
-	    "FACOLTÀ DI ECONOMIA",
-	    "FACOLTÀ DI GIURISPRUDENZA",
-	    "FACOLTÀ DI LETTERE E FILOSOFIA",
-	    "FACOLTÀ DI LINGUE E LETTERATURE STRANIERE",
-	    "FACOLTÀ DI MEDICINA E CHIRURGIA",
-	    "FACOLTÀ DI SCIENZE DELLA FORMAZIONE",
-	    "FACOLTÀ DI SCIENZE MATEMATICHE FISICHE E NATURALI",
-	    "FACOLTÀ DI SCIENZE MOTORIE",
-	    "INTERFACOLTÀ/INTERATENEO"
-	]
-    },
+	{
+		"label": "Università degli Studi \"Gabriele D'Annunzio\"",
+		"value": "uni:gdannunzio"
+	},
+	{
+		"label": "Università degli Studi di L'Aquila",
+		"value": "uni:aquila"
+	},
+	{
+		"label": "Università degli Studi di Teramo",
+		"value": "uni:teramo"
+	},
+	{
+		"label": "Università degli Studi della Basilicata",
+		"value": "uni:basilicata"
+	},
+	{
+		"label": "Università degli Studi \"Magna Graecia\" di Catanzaro",
+		"value": "uni:catanzaro"
+	},
+	{
+		"label": "Università degli Studi Mediterranea di Reggio Calabria",
+		"value": "uni:rcalabria"
+	},
+	{
+		"label": "Università della Calabria",
+		"value": "uni:calabria"
+	},
+	{
+		"label": "Istituto Universitario \"Suor Orsola Benincasa\"",
+		"value": "uni:benincasa"
+	},
+	{
+		"label": "Seconda Università degli Studi di Napoli",
+		"value": "uni:napoli2"
+	},
+	{
+		"label": "Università degli Studi del Sannio",
+		"value": "uni:sannio"
+	},
+	{
+		"label": "Università degli Studi di Napoli \"Federico II\"",
+		"value": "uni:napoli"
+	},
+	{
+		"label": "Università degli Studi di Napoli \"L'Orientale\"",
+		"value": "uni:napoli3"
+	},
+	{
+		"label": "Università degli Studi di Napoli \"Partenophe\"",
+		"value": "uni:napoli4"
+	},
+	{
+		"label": "Università degli Studi di Salerno",
+		"value": "uni:salerno"
+	},
+	{
+		"label": "Università degli Studi di Bologna",
+		"value": "uni:bologna"
+	},
+	{
+		"label": "Università degli Studi di Ferrara",
+		"value": "uni:ferrara"
+	},
+	{
+		"label": "Università degli Studi di Modena e Reggio Emilia",
+		"value": "uni:remilia"
+	},
+	{
+		"label": "Università degli Studi di Parma",
+		"value": "uni:parma"
+	},
+	{
+		"label": "SISSA - Scuola Internazionale Superiore di Studi Avanzati",
+		"value": "uni:sissa"
+	},
+	{
+		"label": "Università degli Studi di Trieste",
+		"value": "uni:trieste"
+	},
+	{
+		"label": "Università degli Studi di Udine",
+		"value": "uni:udine"
+	},
+	{
+		"label": "IUSM - Università degli Studi di Roma \"Foro Italico\" ",
+		"value": "uni:iusm"
+	},
+	{
+		"label": "Libera Università degli Studi \"San Pio V\"",
+		"value": "uni:sanpio"
+	},
+	{
+		"label": "LUISS - Libera Università Internazionale degli Studi Sociali Guido Carli",
+		"value": "uni:luiss"
+	},
+	{
+		"label": "LUMSA - Libera Università \"Maria Ss. Assunta\"",
+		"value": "uni:lumsa"
+	},
+	{
+		"label": "Università \"Campus Bio-Medico\" di Roma",
+		"value": "uni:biomedico"
+	},
+	{
+		"label": "Università degli Studi della Tuscia",
+		"value": "uni:tuscia"
+	},
+	{
+		"label": "Università degli Studi di Cassino",
+		"value": "uni:cassino"
+	},
+	{
+		"label": "Università degli Studi di Roma \"La Sapienza\"",
+		"value": "uni:sapienza"
+	},
+	{
+		"label": "Università degli Studi di Roma \"Tor Vergata\"",
+		"value": "uni:torvergata"
+	},
+	{
+		"label": "Università degli Studi Europea di Roma",
+		"value": "uni:europea"
+	},
+	{
+		"label": "Università degli Studi \"Roma Tre\"",
+		"value": "uni:roma3"
+	},
+	{
+		"label": "Università degli Studi di Genova",
+		"value": "uni:genova"
+	},
+	{
+		"label": "IULM - Libera Università di Lingue e Comunicazione",
+		"value": "uni:iulm"
+	},
+	{
+		"label": "Politecnico di Milano",
+		"value": "uni:milano"
+	},
+	{
+		"label": "Università Carlo Cattaneo - LIUC",
+		"value": "uni:liuc"
+	},
+	{
+		"label": "Università Cattolica del Sacro Cuore",
+		"value": "uni:sacrocuore"
+	},
+	{
+		"label": "Università Commerciale Luigi Bocconi",
+		"value": "uni:bocconi"
+	},
+	{
+		"label": "Università degli Studi dell'Insubria Varese-Como",
+		"value": "uni:insubria"
+	},
+	{
+		"label": "Università degli Studi di Bergamo",
+		"value": "uni:bergamo"
+	},
+	{
+		"label": "Università degli Studi di Brescia",
+		"value": "uni:brescia"
+	},
+	{
+		"label": "Università degli Studi di Milano",
+		"value": "uni:milano"
+	},
+	{
+		"label": "Università degli Studi di Milano-Bicocca",
+		"value": "uni:bicocca"
+	},
+	{
+		"label": "Università degli Studi di Pavia",
+		"value": "uni:pavia"
+	},
+	{
+		"label": "Università Vita-Salute San Raffaele",
+		"value": "uni:sanraffaele"
+	},
+	{
+		"label": "Università Politecnica delle Marche",
+		"value": "uni:marche"
+	},
+	{
+		"label": "Università degli Studi di Camerino",
+		"value": "uni:camerino"
+	},
+	{
+		"label": "Università degli Studi di Macerata",
+		"value": "uni:macerata"
+	},
+	{
+		"label": "Università degli Studi di Urbino Carlo Bo",
+		"value": "uni:urbino"
+	},
+	{
+		"label": "Università degli Studi del Molise",
+		"value": "uni:molise"
+	},
+	{
+		"label": "Politecnico di Torino",
+		"value": "uni:politorino"
+	},
+	{
+		"label": "Università degli Studi del Piemonte Orientale \"Amedeo Avogadro\"",
+		"value": "uni:avogadro"
+	},
+	{
+		"label": "Università degli Studi di Torino",
+		"value": "uni:torino"
+	},
+	{
+		"label": "Università di Scienze Gastronomiche",
+		"value": "uni:gastronomiche"
+	},
+	{
+		"label": "LUM - Libera Università Mediterranea \"Jean Monnet\"",
+		"value": "uni:lum"
+	},
+	{
+		"label": "Politecnico di Bari",
+		"value": "uni:polibari"
+	},
+	{
+		"label": "Università degli Studi di Bari",
+		"value": "uni:bari"
+	},
+	{
+		"label": "Università degli Studi di Foggia",
+		"value": "uni:foggia"
+	},
+	{
+		"label": "Università degli Studi del Salento",
+		"value": "uni:salento"
+	},
+	{
+		"label": "Università degli Studi di Cagliari",
+		"value": "uni:cagliari"
+	},
+	{
+		"label": "Università degli Studi di Sassari",
+		"value": "uni:sassari"
+	},
+	{
+		"label": "Università degli Studi di Catania",
+		"value": "uni:catania"
+	},
+	{
+		"label": "Università degli Studi di Messina",
+		"value": "uni:messina"
+	},
+	{
+		"label": "Università degli Studi di Palermo",
+		"value": "uni:palermo"
+	},
+	{
+		"label": "Scuola Normale Superiore - Pisa",
+		"value": "uni:normale"
+	},
+	{
+		"label": "Scuola Superiore di Studi Universitari e di Perfezionamento \"Sant'Anna\" - Pisa",
+		"value": "uni:santanna"
+	},
+	{
+		"label": "Università degli Studi di Firenze",
+		"value": "uni:firenze"
+	},
+	{
+		"label": "Università degli Studi di Pisa",
+		"value": "uni:pisa"
+	},
+	{
+		"label": "Università degli Studi di Siena",
+		"value": "uni:siena"
+	},
+	{
+		"label": "Università per Stranieri di Siena",
+		"value": "uni:stranierisiena"
+	},
+	{
+		"label": "Libera Università di Bolzano",
+		"value": "uni:bolzano"
+	},
+	{
+		"label": "Università degli Studi di Trento",
+		"value": "uni:trento"
+	},
+	{
+		"label": "Università degli Studi di Perugia",
+		"value": "uni:perugia"
+	},
+	{
+		"label": "Università per Stranieri di Perugia",
+		"value": "uni:stranieriperugia"
+	},
+	{
+		"label": "Università della Valle d'Aosta - Université de la Vallée D'Aoste",
+		"value": "uni:aosta"
+	},
+	{
+		"label": "Università Iuav di Venezia",
+		"value": "uni:venezia"
+	},
+	{
+		"label": "Università \"Ca' Foscari\" di Venezia",
+		"value": "uni:foscari"
+	},
+	{
+		"label": "Università degli Studi di Padova",
+		"value": "uni:padova"
+	},
+	{
+		"label": "Università degli Studi di Verona",
+		"value": "uni:verona"
+	},
 ];
 
 $(document).ready (function () {
-	var index = 0;
+	$('#universitytext').autocomplete ({
+		minLength: 2,
+		source: universities,
 
-	for (var a in universities) {
-		$('#university').append ('<option value="' + hashCode (universities [a].title) + '">' + universities [a].title + '</option>');
-		index++;
-	}
+		select: function (event, ui) {
+			$('#universitytext').val (ui.item.label).attr ('disabled', 'disabled');
+			$('#university').val (ui.item.value);
+			return false;
+		}
+	});
 
 	/*
 
