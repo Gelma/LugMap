@@ -251,7 +251,7 @@ var universities = [
 		"value": "uni:foggia"
 	},
 	{
-		"label": "Università degli Studi del Salento",
+		"label": "Università del Salento - Lecce",
 		"value": "uni:salento"
 	},
 	{
