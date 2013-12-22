@@ -147,8 +147,6 @@ function lugfooter () {
 			</span>
 		</div>
 
-		<div class="unusedblock">&nbsp;</div>
-
 		<div class="block">
 			<h2>RESTA AGGIORNATO!</h2>
 			<div class="content">
@@ -172,6 +170,18 @@ function lugfooter () {
 						<input type="submit" class="form-submit" value="Iscriviti" />
 					</form>
 				</div>
+			</div>
+		</div>
+
+		<div class="block">
+			<h2>Amici</h2>
+			<div class="content">
+				<p style="text-align: center">
+					<a href="http://www.ils.org/info#aderenti">
+						<img src="http://www.ils.org/sites/ils.org/files/associazioni/getrand.php" border="0" /><br />
+						Scopri tutte le associazioni che hanno aderito a ILS.
+					</a>
+				</p>
 			</div>
 		</div>
 
