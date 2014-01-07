@@ -1,3 +1,4 @@
 17/01||Cuneo|Workshop Circuiti Stampati|http://cuneo.linux.it/index.php/2013/workshop-il-metodo-stira-e-ammira-per-la-stampa-di-circuiti/
 11/01||Pinerolo|Incontro|http://www.softwareliberopinerolo.org/arduino/155-pianificazione-attivita-2014-arduino
+09/01||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1019
 04/01||Pistoia|Incontro|http://www.ptlug.org/2014/01/incontro-nella-sede-del-ptlug-al-nonnonline-del-4-gennaio-2014/?utm_source=rss&utm_medium=rss&utm_campaign=incontro-nella-sede-del-ptlug-al-nonnonline-del-4-gennaio-2014
