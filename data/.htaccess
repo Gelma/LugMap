@@ -1,8 +1,3 @@
-AuthUserFile /var/www/lugmap/data/.htpasswd
-AuthName "Authorization Required"
-AuthType Basic
-require valid-user
-
 <Files radar.txt>
 	Satisfy Any
 	Order deny,allow
