@@ -1,5 +1,8 @@
+28/01||Firenze|Serata Grafica|http://www.liberainformatica.it/il-software-libero-per-la-grafica-2d-e-3d-gimp-blender-e-inkscape/
 23/01||Sommacampagna|Corso Wordpress|http://www.officina-s3.org/?p=2904
+21/01||Cosenza|Seminario Lubit|http://hlcs.it/2014/01/14/seminario-lubit-linux-la-distro-gnulinux-made-in-cosenza/
 20/01||Sommacampagna|Corso Ubuntu|http://www.officina-s3.org/?p=2906
+18/01||Pisa|RoboFesta|http://www.gulp.linux.it/2014/01/13/robofesta-2014-18-gennaio-2014/
 17/01||Cuneo|Workshop Circuiti Stampati|http://cuneo.linux.it/index.php/2013/workshop-il-metodo-stira-e-ammira-per-la-stampa-di-circuiti/
 15/01||Cernusco sul Naviglio|Incontro|http://viglug.org/
 14/01||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=341
