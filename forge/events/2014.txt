@@ -1,7 +1,10 @@
+30/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio-14
 28/01||Firenze|Serata Grafica|http://www.liberainformatica.it/il-software-libero-per-la-grafica-2d-e-3d-gimp-blender-e-inkscape/
+25/01||Pescara|Inizio Corso Base|http://www.pescaralug.org/2014/01/16/corsi-base-gnulinux-2014.html
 23/01||Sommacampagna|Corso Wordpress|http://www.officina-s3.org/?p=2904
 21/01||Cosenza|Seminario Lubit|http://hlcs.it/2014/01/14/seminario-lubit-linux-la-distro-gnulinux-made-in-cosenza/
 20/01||Sommacampagna|Corso Ubuntu|http://www.officina-s3.org/?p=2906
+18/01||Pistoia|Incontro|http://www.ptlug.org/2014/01/18-gennaio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=18-gennaio-2014-nella-sede-del-ptlug
 18/01||Pisa|RoboFesta|http://www.gulp.linux.it/2014/01/13/robofesta-2014-18-gennaio-2014/
 17/01||Paderno Del Grappa|Cena|http://www.montellug.it/cena-dei-lug-veneti-venerdi-17-gennaio-2014/719
 17/01||Cuneo|Workshop Circuiti Stampati|http://cuneo.linux.it/index.php/2013/workshop-il-metodo-stira-e-ammira-per-la-stampa-di-circuiti/
