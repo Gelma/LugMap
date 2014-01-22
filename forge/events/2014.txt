@@ -1,4 +1,5 @@
 06/02||Ivrea|Inizio Corso Linux Base|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=115:corso-linux&lang=it
+01/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/158-incontro-arduino-sabato-1-febbraio-2014
 30/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio-14
 28/01||Firenze|Serata Grafica|http://www.liberainformatica.it/il-software-libero-per-la-grafica-2d-e-3d-gimp-blender-e-inkscape/
 25/01||Pescara|Inizio Corso Base|http://www.pescaralug.org/2014/01/16/corsi-base-gnulinux-2014.html
