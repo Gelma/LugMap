@@ -71,9 +71,22 @@ a:hover {
 	border: 0px;
 }
 
-#introTabel td {
-	width: 400px;
+#introTabel .column {
 	vertical-align: middle;
+	float: left;
+	margin: 10px;
+}
+
+#introTabel .descrizione {
+	width: 25%;
+}
+
+#introTabel .mappa {
+	width: 40%;
+}
+
+#introTabel .regioni {
+	width: 25%;
 }
 
 #italymap {
@@ -294,4 +307,60 @@ a:hover {
 	height: 400px;
 	width: 400px;
 	overflow:hidden;
+}
+
+@media only screen and (max-width: 767px) {
+	#header {
+		padding: 20px;
+	}
+
+	#header #maintitle {
+		top: 20px;
+		left: 90px;
+	}
+
+	#header #payoff {
+		left: 90px;
+		top: 80px;
+	}
+
+	.menu {
+		position: static;
+		margin-top: 16px;
+	}
+
+	#introTabel {
+		width: 100%;
+	}
+
+	#introTabel .descrizione, #introTabel .regioni {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#introTabel .mappa {
+		display: none;
+	}
+
+	#lugListTable {
+		margin-bottom: 20px;
+	}
+
+	.fromRegionLinks {
+		display: none;
+	}
+
+	#ils_footer .contents {
+		width: auto;
+	}
+
+	#ils_footer .contents .block:nth-child(even) {
+		width: 90%;
+	}
+
+	#ils_footer .contents .block:nth-child(odd) {
+		display: none;
+	}
 }

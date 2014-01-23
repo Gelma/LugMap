@@ -22,9 +22,8 @@ lugheader ('LugMap');
 
 ?>
 
-<table id="introTabel" cellspacing="0" cellpadding="0">
-  <tr>
-    <td style="width: 25%">
+<div id="introTabel">
+    <div class="column descrizione">
       <div>
         La <b>LugMap</b> offre un elenco delle realt&agrave; che ruotano attorno al perno del
         <a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>, come
@@ -45,9 +44,9 @@ lugheader ('LugMap');
         <a class="generalink" href="/statistiche.php">statistiche</a>, ed un
         <a class="generalink" href="/lug-o-matic/">widget web</a> utilizzabile su siti esterni.
       </div>
-    </td>
+    </div>
 
-    <td style="width: 50%;" align="center">
+    <div class="column mappa">
 	<script src="js/raphael-min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" charset="utf-8">
 
@@ -112,9 +111,9 @@ lugheader ('LugMap');
 	</script>
 
 	<div id="paper"></div>
-    </td>
+    </div>
 
-    <td style="width: 25%;" class="regioni">
+    <div class="column regioni">
       <?php
         foreach ($elenco_regioni as $file => $nome) {
           if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
@@ -122,10 +121,11 @@ lugheader ('LugMap');
           echo '<a id="' . $file . '" class="generalink" href="/'.$file.'/">' . $nome . '</a><br>';
         }
       ?>
-    </td>
+    </div>
 
-  </tr>
-</table>
+</div>
+
+<div style="clear: both; margin-bottom: 20px"></div>
 
 <?php
   lugfooter ();
