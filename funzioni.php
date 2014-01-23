@@ -56,6 +56,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="language" content="italian" />
   <meta name="robots" content="noarchive" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
@@ -93,7 +95,6 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
 </head>
 <!-- <a href="http://lugmap.linux.it/css/contact.php">select</a> -->
