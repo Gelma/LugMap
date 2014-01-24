@@ -2,7 +2,9 @@
 01/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/158-incontro-arduino-sabato-1-febbraio-2014
 30/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio-14
 28/01||Firenze|Serata Grafica|http://www.liberainformatica.it/il-software-libero-per-la-grafica-2d-e-3d-gimp-blender-e-inkscape/
+25/01||Pistoia|Incontro|http://www.ptlug.org/2014/01/25-gennaio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=25-gennaio-2014-nella-sede-del-ptlug
 25/01||Pescara|Inizio Corso Base|http://www.pescaralug.org/2014/01/16/corsi-base-gnulinux-2014.html
+24/01||Forli'|Serata Trashware|http://www.folug.org/2014/01/24/1-serata-trashware-2014/
 23/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=1023
 23/01||Sommacampagna|Corso Wordpress|http://www.officina-s3.org/?p=2904
 21/01||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=342
