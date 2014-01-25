@@ -120,7 +120,7 @@ TEXT;
 <table width="70%" align="center">
 	<tr>
 		<td>
-			<img src="/immagini/radar.png" style="float: right" />
+			<img src="/immagini/radar.png" style="float: right" class="radar" />
 
 			<p>I Linux Users Groups sono tantissimi, ma mai abbastanza!</p>
 			<br />

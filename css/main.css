@@ -334,7 +334,7 @@ a:hover {
 	}
 
 	#introTabel .descrizione, #introTabel .regioni {
-		width: 100%;
+		width: auto;
 		float: none;
 		text-align: center;
 		margin-bottom: 20px;
@@ -361,6 +361,10 @@ a:hover {
 	}
 
 	#ils_footer .contents .block:nth-child(odd) {
+		display: none;
+	}
+
+	img.radar {
 		display: none;
 	}
 }
