@@ -2,6 +2,7 @@
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
 06/02||Ivrea|Inizio Corso Linux Base|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=115:corso-linux&lang=it
 01/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/158-incontro-arduino-sabato-1-febbraio-2014
+30/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=1026
 30/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio-14
 28/01||Firenze|Serata Grafica|http://www.liberainformatica.it/il-software-libero-per-la-grafica-2d-e-3d-gimp-blender-e-inkscape/
 25/01||Pistoia|Incontro|http://www.ptlug.org/2014/01/25-gennaio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=25-gennaio-2014-nella-sede-del-ptlug
