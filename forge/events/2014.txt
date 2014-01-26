@@ -1,3 +1,5 @@
+17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
+17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
 06/02||Ivrea|Inizio Corso Linux Base|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=115:corso-linux&lang=it
 01/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/158-incontro-arduino-sabato-1-febbraio-2014
 30/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-gennaio-14
@@ -7,6 +9,7 @@
 24/01||Forli'|Serata Trashware|http://www.folug.org/2014/01/24/1-serata-trashware-2014/
 23/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=1023
 23/01||Sommacampagna|Corso Wordpress|http://www.officina-s3.org/?p=2904
+21/01||Varese|Inizio Corso|http://social.gl-como.it/display/lifo/1900
 21/01||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=342
 21/01||Cosenza|Seminario Lubit|http://hlcs.it/2014/01/14/seminario-lubit-linux-la-distro-gnulinux-made-in-cosenza/
 20/01||Sommacampagna|Corso Ubuntu|http://www.officina-s3.org/?p=2906
