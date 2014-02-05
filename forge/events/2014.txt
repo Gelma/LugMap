@@ -1,6 +1,17 @@
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
+10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
+27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
+26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
+22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
+10/02||Imola|Inizio Serate Java|http://www.imolug.org/node/163
+07/02||Cuneo|Workshop Android|http://cuneo.linux.it/index.php/2014/workshop-innovazione-e-programmazione-lopen-source-mobile-con-android/
+07/02||Tito|Incontro|http://www.baslug.org/?q=node/114
+06/02||Trieste|Incontro|http://trieste.linux.it/?p=1029
+06/02||Grosseto|Seminario|http://www.guruatwork.com/2014/nuovo-incontro-del-ciclo-di-seminari-i-nuovi-mestieri-del-web-con-il-software-libero/
 06/02||Ivrea|Inizio Corso Linux Base|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=115:corso-linux&lang=it
+04/02||Grosseto|Apertura Sportellinux|http://www.grolug.org/apre-lo-sportellinux-del-grolug-isis-lorena
+01/02||Pistoia|Incontro|http://www.ptlug.org/2014/01/01-febbraio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=01-febbraio-2014-nella-sede-del-ptlug
 01/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/158-incontro-arduino-sabato-1-febbraio-2014
 31/01||Tito|Incontro|http://www.baslug.org/?q=node/111
 30/01||Trieste|Serata a Tema|http://trieste.linux.it/?p=1026
