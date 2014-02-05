@@ -4,7 +4,12 @@
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
 22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
+15/02||Pinerolo|Incontro Open Hardware|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/102-sabato-elettronico-al-nino
+13/02||Grosseto|Presentazione Libro|http://www.guruatwork.com/2014/i-nuovi-mestieri-del-web-con-il-software-libero-working-on-web/
+11/02||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/viewtopic.php?f=4&t=2050
+11/02||Cremona|Incontro Reti|http://www.lugcr.it/lugcr/introduzione-alle-reti
 10/02||Imola|Inizio Serate Java|http://www.imolug.org/node/163
+07/02||Firenze|Inizio Corso Blender|http://www.liberainformatica.it/linews-numero-2-febbraio-2014/
 07/02||Cuneo|Workshop Android|http://cuneo.linux.it/index.php/2014/workshop-innovazione-e-programmazione-lopen-source-mobile-con-android/
 07/02||Tito|Incontro|http://www.baslug.org/?q=node/114
 06/02||Trieste|Incontro|http://trieste.linux.it/?p=1029
