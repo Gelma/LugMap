@@ -11,6 +11,7 @@
 15/02||Pinerolo|Incontro Open Hardware|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/102-sabato-elettronico-al-nino
 13/02||Trieste|Serata a Tema|http://trieste.linux.it/?p=1034
 13/02||Grosseto|Presentazione Libro|http://www.guruatwork.com/2014/i-nuovi-mestieri-del-web-con-il-software-libero-working-on-web/
+11/02||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=343
 11/02||Casalecchio di Reno|Festa RaspiBO|http://erlug.segnoweb.net/notizie/raspibo-festeggia-un-anno-11-febbraio-incontro-con-festa
 11/02||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/viewtopic.php?f=4&t=2050
 11/02||Cremona|Incontro Reti|http://www.lugcr.it/lugcr/introduzione-alle-reti
