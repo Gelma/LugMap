@@ -2,13 +2,17 @@
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
+03/03||Pergine Valsugana|Inizio Corso Sysadmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2014
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
 22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
 20/02||Vicenza|Inizio Corso Base|http://vicenza.linux.it/node/151
+18/02||Cremona|Workshop Reti|http://www.lugcr.it/lugcr/workshop-la-rete-domestica
 18/02||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=117:incontro&lang=it
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
 15/02||Pinerolo|Incontro Open Hardware|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/102-sabato-elettronico-al-nino
+14/02||Tito|Incontro|http://www.baslug.org/?q=node/120
+14/02||Montebelluna|Inizio Corso Blender|http://www.montellug.it/corsoblender-2014/728
 13/02||Trieste|Serata a Tema|http://trieste.linux.it/?p=1034
 13/02||Grosseto|Presentazione Libro|http://www.guruatwork.com/2014/i-nuovi-mestieri-del-web-con-il-software-libero-working-on-web/
 11/02||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=343
