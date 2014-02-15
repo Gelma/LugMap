@@ -10,6 +10,7 @@
 18/02||Cremona|Workshop Reti|http://www.lugcr.it/lugcr/workshop-la-rete-domestica
 18/02||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=117:incontro&lang=it
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
+15/02||Pistoia|Incontro|http://www.ptlug.org/2014/02/15-febbraio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=15-febbraio-2014-nella-sede-del-ptlug
 15/02||Pinerolo|Incontro Open Hardware|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/102-sabato-elettronico-al-nino
 14/02||Tito|Incontro|http://www.baslug.org/?q=node/120
 14/02||Montebelluna|Inizio Corso Blender|http://www.montellug.it/corsoblender-2014/728
