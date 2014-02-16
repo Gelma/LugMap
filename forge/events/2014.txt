@@ -7,6 +7,7 @@
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
 22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
 20/02||Vicenza|Inizio Corso Base|http://vicenza.linux.it/node/151
+19/02||Trieste|Serata a Tema|http://trieste.linux.it/?p=1037
 18/02||Cremona|Workshop Reti|http://www.lugcr.it/lugcr/workshop-la-rete-domestica
 18/02||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=117:incontro&lang=it
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
