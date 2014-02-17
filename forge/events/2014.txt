@@ -6,8 +6,11 @@
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
 22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
+20/02||Verona|Incontro|http://www.lugverona.it/incontro-20214/
+20/02||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-febbraio-14
 20/02||Vicenza|Inizio Corso Base|http://vicenza.linux.it/node/151
 19/02||Trieste|Serata a Tema|http://trieste.linux.it/?p=1037
+18/02||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=344
 18/02||Cremona|Workshop Reti|http://www.lugcr.it/lugcr/workshop-la-rete-domestica
 18/02||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=117:incontro&lang=it
 17/02||Varese|Serata OpenSCAD|http://social.gl-como.it/display/lifo/1893
