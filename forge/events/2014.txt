@@ -3,6 +3,7 @@
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
 03/03||Pergine Valsugana|Inizio Corso Sysadmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2014
+01/03|02/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2014
 27/02||Laveno|Serata Software Libero|http://www.lifolab.org/eventi/2014-02-27-ostello_laveno.html
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
