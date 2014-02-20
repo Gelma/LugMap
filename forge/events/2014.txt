@@ -2,12 +2,14 @@
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
+04/03||Rovereto|Inzio Serate a Tema|http://www.linuxtrent.it/primavera-2014-con-gnulinux
 03/03||Pergine Valsugana|Inizio Corso Sysadmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2014
 01/03|02/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2014
 27/02||Laveno|Serata Software Libero|http://www.lifolab.org/eventi/2014-02-27-ostello_laveno.html
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
 22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
+20/02||Como|Arduino Night|http://www.gl-como.it/arduino-night/
 20/02||Verona|Incontro|http://www.lugverona.it/incontro-20214/
 20/02||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-febbraio-14
 20/02||Vicenza|Inizio Corso Base|http://vicenza.linux.it/node/151
