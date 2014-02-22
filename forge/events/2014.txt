@@ -8,6 +8,7 @@
 27/02||Laveno|Serata Software Libero|http://www.lifolab.org/eventi/2014-02-27-ostello_laveno.html
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
+23/02||Torino|Restart Party|http://informaticalibera.info/index.php?option=com_content&view=article&id=128:restart-party&catid=1:ultime
 22/02||Cagliari|Open Data Day|http://www.gulch.it/node/51
 22/02||Pistoia|Incontro|http://www.ptlug.org/2014/02/22-febbraio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=22-febbraio-2014-nella-sede-del-ptlug
 22/02||Napoli|OpenDataDay|http://www.nalug.net/news-nalug/opendataday-napoli-2014-22-febbraio
