@@ -10,6 +10,7 @@
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
 26/02||Roma|Convegno Sicurezza|http://www.paneepc.org/313/
 25/02||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=345
+24/02||Sommacampagna|Inizio Corso Wordpress|http://www.officina-s3.org/?p=2920
 23/02||Torino|Restart Party|http://informaticalibera.info/index.php?option=com_content&view=article&id=128:restart-party&catid=1:ultime
 22/02||Cagliari|Open Data Day|http://www.gulch.it/node/51
 22/02||Pistoia|Incontro|http://www.ptlug.org/2014/02/22-febbraio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=22-febbraio-2014-nella-sede-del-ptlug
