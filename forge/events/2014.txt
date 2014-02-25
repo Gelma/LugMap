@@ -1,7 +1,10 @@
+29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
+29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
+04/03||Vicenza|Incontro|http://vicenza.linux.it/node/134
 04/03||Rovereto|Inzio Serate a Tema|http://www.linuxtrent.it/primavera-2014-con-gnulinux
 03/03||Pergine Valsugana|Inizio Corso Sysadmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2014
 01/03|02/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2014
