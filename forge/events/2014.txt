@@ -2,12 +2,15 @@
 29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
+12/03||Roma|Inizio Corso Base|http://www.lugroma3.org/content/corso-linux-2014-0
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
 04/03||Vicenza|Incontro|http://vicenza.linux.it/node/134
 04/03||Rovereto|Inzio Serate a Tema|http://www.linuxtrent.it/primavera-2014-con-gnulinux
 03/03||Pergine Valsugana|Inizio Corso Sysadmin|http://www.linuxtrent.it/corsi-ed-incontri/corso-sysadmin-2014
+01/03||Cosenza|Incontro Trashware|http://www.verdebinario.org/index.php?option=com_content&task=view&id=162&Itemid=0
 01/03|02/03|Faenza|ExpoElettronica|http://www.imolug.org/eventi/ExpoElettronicaFaenzaMarzo2014
+27/02||Cosenza|Seminario Joomla|http://hlcs.it/2014/02/26/seminario-come-realizzare-in-pochi-passi-un-sito-con-joomla/
 27/02||Grosseto|Seminario Comunicazione|http://www.guruatwork.com/2014/seminario-gratuito-comunicare-per-costruire/
 27/02||Laveno|Serata Software Libero|http://www.lifolab.org/eventi/2014-02-27-ostello_laveno.html
 27/02||Empoli|Inizio Corso Arduino|http://golem.linux.it/wp/2014/01/corso-arduino-2014/
