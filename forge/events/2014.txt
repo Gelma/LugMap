@@ -7,6 +7,7 @@
 08/03|09/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-1
 08/03||Pescara|Lezione Programmazione Creativa|http://www.pescaralug.org/2014/02/27/lezione-dell8-marzo-open-source-e-programmazione-creativa.html
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
+04/03||Cremona|Incontro|http://www.lugcr.it/lugcr/condivisioni-su-ubuntu
 04/03||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=346
 04/03||Vicenza|Incontro|http://vicenza.linux.it/node/134
 04/03||Rovereto|Inzio Serate a Tema|http://www.linuxtrent.it/primavera-2014-con-gnulinux
