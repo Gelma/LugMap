@@ -7,6 +7,7 @@
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 08/03|09/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-1
 08/03||Pescara|Lezione Programmazione Creativa|http://www.pescaralug.org/2014/02/27/lezione-dell8-marzo-open-source-e-programmazione-creativa.html
+07/03||Grosseto|Incontro Open Data|http://www.guruatwork.com/2014/incontro-open-data-risorsa-per-la-pa-e-le-imprese/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
 04/03||Cremona|Incontro|http://www.lugcr.it/lugcr/condivisioni-su-ubuntu
 04/03||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=346
