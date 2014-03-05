@@ -1,5 +1,7 @@
 29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
+29/03||Milano|Arduino Day|http://blogsiam1838.blogspot.it/2014/03/arduino-day.html
 29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
+20/03||Pergine Valsugana|Serata Openvswitch|http://www.linuxtrent.it/serata-tema-openvswitch-proxmox-e-trucchetti-iptables-vivere-tranquilli
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
 13/03||Milano|Inizio Corso Avanzato|http://www.poul.org/2014/02/corsi-linux-avanzati/
@@ -9,6 +11,7 @@
 08/03|09/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-1
 08/03||Pescara|Lezione Programmazione Creativa|http://www.pescaralug.org/2014/02/27/lezione-dell8-marzo-open-source-e-programmazione-creativa.html
 07/03||Grosseto|Incontro Open Data|http://www.guruatwork.com/2014/incontro-open-data-risorsa-per-la-pa-e-le-imprese/
+06/03||Cosenza|Seminario Virtuemart|http://hlcs.it/2014/03/05/seminario-realizzare-siti-di-commercio-online-con-virtuemart/
 06/03||Novara|Inizio Corso Base|http://linoxnovara.wordpress.com/2014/02/05/corsi-informatici/
 04/03||Cremona|Incontro|http://www.lugcr.it/lugcr/condivisioni-su-ubuntu
 04/03||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=346
