@@ -8,6 +8,7 @@
 12/03||Roma|Inizio Corso Base|http://www.lugroma3.org/content/corso-linux-2014-0
 10/03||Imola|Serata RaspberryPI|http://www.imolug.org/node/167
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
+08/03||Pistoia|Incontro|http://www.ptlug.org/2014/03/08-marzo-2014-nelle-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=08-marzo-2014-nelle-sede-del-ptlug
 08/03||Cosenza|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=165&Itemid=0
 08/03|09/03|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-1
 08/03||Pescara|Lezione Programmazione Creativa|http://www.pescaralug.org/2014/02/27/lezione-dell8-marzo-open-source-e-programmazione-creativa.html
