@@ -1,3 +1,4 @@
+05/04||Bassano del Grappa|XPocalypse, Addio XP|http://grappalug.org/2014/03/08/xpocalypse-laddio-a-windows-xp/
 29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
 29/03||Milano|Arduino Day|http://blogsiam1838.blogspot.it/2014/03/arduino-day.html
 29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
@@ -6,6 +7,7 @@
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
 13/03||Milano|Inizio Corso Avanzato|http://www.poul.org/2014/02/corsi-linux-avanzati/
 12/03||Roma|Inizio Corso Base|http://www.lugroma3.org/content/corso-linux-2014-0
+10/03||Lucca|Serata Creative Commons|http://www.luccalug.it/le-licenze-creative-commons-pillole-di-free-software/
 10/03||Imola|Serata RaspberryPI|http://www.imolug.org/node/167
 10/03||Lucca|Inizio Serate a Tema|http://www.luccalug.it/tornano-le-pillole-di-free-software/
 08/03||Pistoia|Incontro|http://www.ptlug.org/2014/03/08-marzo-2014-nelle-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=08-marzo-2014-nelle-sede-del-ptlug
