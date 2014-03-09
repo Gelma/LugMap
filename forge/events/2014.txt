@@ -5,6 +5,7 @@
 20/03||Pergine Valsugana|Serata Openvswitch|http://www.linuxtrent.it/serata-tema-openvswitch-proxmox-e-trucchetti-iptables-vivere-tranquilli
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
+13/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1043
 13/03||Milano|Inizio Corso Avanzato|http://www.poul.org/2014/02/corsi-linux-avanzati/
 12/03||Roma|Inizio Corso Base|http://www.lugroma3.org/content/corso-linux-2014-0
 10/03||Lucca|Serata Creative Commons|http://www.luccalug.it/le-licenze-creative-commons-pillole-di-free-software/
