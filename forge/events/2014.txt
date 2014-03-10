@@ -2,9 +2,11 @@
 29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
 29/03||Milano|Arduino Day|http://blogsiam1838.blogspot.it/2014/03/arduino-day.html
 29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
+20/03||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-14
 20/03||Pergine Valsugana|Serata Openvswitch|http://www.linuxtrent.it/serata-tema-openvswitch-proxmox-e-trucchetti-iptables-vivere-tranquilli
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
+13/03||Grosseto|Seminario Saperi Condivisi|http://www.guruatwork.com/2014/nuovo-incontro-accesso-al-sapere-condiviso/
 13/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1043
 13/03||Milano|Inizio Corso Avanzato|http://www.poul.org/2014/02/corsi-linux-avanzati/
 12/03||Roma|Inizio Corso Base|http://www.lugroma3.org/content/corso-linux-2014-0
