@@ -4,6 +4,7 @@
 29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
 29/03||Milano|Arduino Day|http://blogsiam1838.blogspot.it/2014/03/arduino-day.html
 29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
+25/03||Rende|Inizio Corso Blender|http://www.verdebinario.org/index.php?option=com_content&task=view&id=166&Itemid=0
 21/03||Montebelluna|Inizio Corso C#|http://www.montellug.it/corso-c-su-linux/746
 20/03||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-14
 20/03||Pergine Valsugana|Serata Openvswitch|http://www.linuxtrent.it/serata-tema-openvswitch-proxmox-e-trucchetti-iptables-vivere-tranquilli
