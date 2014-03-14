@@ -9,6 +9,7 @@
 20/03||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-14
 20/03||Pergine Valsugana|Serata Openvswitch|http://www.linuxtrent.it/serata-tema-openvswitch-proxmox-e-trucchetti-iptables-vivere-tranquilli
 17/03||Varese|Serata arscons|http://social.gl-como.it/display/lifo/1895
+15/03||Pistoia|Incontro|http://www.ptlug.org/2014/03/15-marzo-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=15-marzo-2014-nella-sede-del-ptlug
 15/03|16/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2014
 14/03||Montebelluna|Serata Programmazione|http://www.montellug.it/serata-dedicata-ai-linguaggi-programmazione/741
 13/03||Senigallia|Inizio Corso Linux|http://www.senalug.org/en/node/32
