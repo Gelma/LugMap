@@ -9,6 +9,7 @@
 25/03||Rende|Inizio Corso Blender|http://www.verdebinario.org/index.php?option=com_content&task=view&id=166&Itemid=0
 24/03||Lucca|Serata GPG|http://www.luccalug.it/gpg-gnu-privacy-guard-pillole-di-free-software/
 24/03||Milano|Conferenza Privacy|http://www.poul.org/2014/03/conferenza-privacy-sicurezza-2014/
+22/03|23/03|Rende|Fiera dell'Elettronica|http://www.verdebinario.org/index.php?option=com_content&task=view&id=167&Itemid=0
 21/03||Montebelluna|Inizio Corso C#|http://www.montellug.it/corso-c-su-linux/746
 20/03||Biadene|Incontro WiiLDOS|http://www.montellug.it/incontro-su-wiildos-con-matteo-ruffoni/752
 20/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1045
