@@ -226,7 +226,17 @@ foreach ($elenco_regioni as $region => $name) {
 		continue;
 
         $lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+	if ($lugs == false) {
+		notify_mail ("Impossibile scaricare file per la regione $region");
+		continue;
+	}
+
 	$cities = file ('liste_comuni/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+	if ($cities == false) {
+		notify_mail ("Impossibile aprire file delle citta' per $region");
+		continue;
+	}
+
 	$found_cities = array ();
 
         foreach ($lugs as $lug) {
