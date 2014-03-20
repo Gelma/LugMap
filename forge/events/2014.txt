@@ -1,5 +1,6 @@
 05/04||Bassano del Grappa|XPocalypse, Addio XP|http://grappalug.org/2014/03/08/xpocalypse-laddio-a-windows-xp/
 05/04||Perugia|"Ti Presento il Software Libero"|http://www.perugiagnulug.org/ti-presento-il-software-libero-sabato-5-aprile
+29/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2014/03/document-freedom-day-2014-arezzo-sabato-29-marzo/
 29/03||Settimo Torinese|Arduino Day|http://www.openlabto.org/arduino-day-2014
 29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
 29/03||Milano|Arduino Day|http://blogsiam1838.blogspot.it/2014/03/arduino-day.html
