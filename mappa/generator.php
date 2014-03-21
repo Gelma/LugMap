@@ -21,7 +21,6 @@
 require_once ('../funzioni.php');
 
 function notify_mail ($message) {
-	echo $message . "\n";
 	mail ('webmaster@linux.it', 'notifica script mappa LugMap', $message . "\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
 }
 
@@ -210,8 +209,6 @@ $output = new stdClass ();
 $output->type = "FeatureCollection";
 $output->features = array ();
 
-print_r ($region);
-
 foreach ($elenco_regioni as $region => $name) {
 	/*
 		I gruppi di carattere nazionale non possono essere messi sulla
@@ -228,13 +225,23 @@ foreach ($elenco_regioni as $region => $name) {
 	if (strpos ($region, '-') !== false)
 		continue;
 
-	echo "scarico http://github.com/Gelma/LugMap/raw/master/db/${region}.txt\n";
-
-        $lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+	/*
+	$lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	if ($lugs == false) {
 		notify_mail ("Impossibile scaricare file per la regione $region");
 		continue;
 	}
+	*/
+	$ch = curl_init ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt');
+	curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
+	$data = curl_exec ($ch);
+	curl_close ($ch);
+	if ($data == false) {
+		notify_mail ("Impossibile scaricare file per la regione $region");
+		continue;
+	}
+
+	$lugs = explode ("\n", $data);
 
 	$cities = file ('liste_comuni/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	if ($cities == false) {
@@ -243,8 +250,6 @@ foreach ($elenco_regioni as $region => $name) {
 	}
 
 	$found_cities = array ();
-
-	print_r ($lugs);
 
         foreach ($lugs as $lug) {
 		$result = null;
