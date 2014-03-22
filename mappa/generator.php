@@ -225,23 +225,11 @@ foreach ($elenco_regioni as $region => $name) {
 	if (strpos ($region, '-') !== false)
 		continue;
 
-	/*
-	$lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+	$lugs = file ('../db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	if ($lugs == false) {
-		notify_mail ("Impossibile scaricare file per la regione $region");
+		notify_mail ("Impossibile aprire file per la regione $region");
 		continue;
 	}
-	*/
-	$ch = curl_init ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt');
-	curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-	$data = curl_exec ($ch);
-	curl_close ($ch);
-	if ($data == false) {
-		notify_mail ("Impossibile scaricare file per la regione $region");
-		continue;
-	}
-
-	$lugs = explode ("\n", $data);
 
 	$cities = file ('liste_comuni/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	if ($cities == false) {
