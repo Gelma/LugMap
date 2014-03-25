@@ -31,8 +31,8 @@ if ($transformed == false) {
 }
 
 ?>
-xz
-<input type="hidden" name="coords_file" value="http://www.linux.it/data/geoevents.txt" />
+
+<input type="hidden" name="coords_file" value="geoeventswrap.php" />
 
 <div class="mapoverlay" style="left: 10px; padding: 10px;">
 	<p>
