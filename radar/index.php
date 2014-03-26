@@ -96,6 +96,11 @@ Per qualsiasi dubbio o domanda, contatta l'indirizzo webmaster@linux.it
 
 TEXT;
 
+				/*
+					Questo e' per iniettare il nuovo utente nella newsletter ILS
+				*/
+				file ("http://www.linux.it/subscribe.php?name=$mail&prov=" . $_POST ['prov'] . "&auto=1");
+
 				mail ($mail, 'Conferma iscrizione LugRadar', $message, $headers);
 			}
 
