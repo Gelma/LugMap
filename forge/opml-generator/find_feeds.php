@@ -81,7 +81,7 @@ if ($exceptions_file != false) {
 $feeds = array ();
 
 foreach ($elenco_regioni as $region => $name) {
-	$lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+	$lugs = file ('https://raw.github.com/Gelma/LugMap/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 
 	foreach ($lugs as $lug) {
 		list ($prov, $name, $zone, $site) = explode ('|', $lug);

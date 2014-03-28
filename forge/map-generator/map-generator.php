@@ -18,7 +18,7 @@ foreach ($elenco_regioni as $region => $name) {
 	if ($name == "Italia")
 		continue;
 
-        $lugs = file ('http://github.com/Gelma/LugMap/raw/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
+        $lugs = file ('https://raw.github.com/Gelma/LugMap/master/db/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	$cities = file ('liste_comuni/' . $region . '.txt', FILE_IGNORE_NEW_LINES);
 	$found_cities = array ();
 
