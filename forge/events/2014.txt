@@ -1,10 +1,22 @@
+16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
+19/05||Varese|Serata git-annex|http://social.gl-como.it/display/lifo/3772
+21/04||Varese|Incontro Saldature|http://social.gl-como.it/display/lifo/3770
+17/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-14
+08/04||Roma|XPocalypse|http://lug.uniroma2.it/2014/03/27/8-aprile-2014-xpocalipse/
+05/04||Cosenza|Lovelace Saturdays|http://www.verdebinario.org/index.php?option=com_content&task=view&id=168&Itemid=0
 05/04||Bassano del Grappa|XPocalypse, Addio XP|http://grappalug.org/2014/03/08/xpocalypse-laddio-a-windows-xp/
 05/04||Perugia|"Ti Presento il Software Libero"|http://www.perugiagnulug.org/ti-presento-il-software-libero-sabato-5-aprile
+01/04||Cremona|Serata Sicurezza|http://www.lugcr.it/lugcr/reti-sicurezza
+01/04||Vicenza|Serata OpenStreetMap|http://vicenza.linux.it/node/155
+31/03||Latina Scalo|Inizio Corso Base|http://www.llg.it/wp/?p=120
+31/03||Imola|Inizio Serate Java|http://www.imolug.org/node/168
+29/03||Pistoia|Incontro|http://www.ptlug.org/2014/03/29-marzo-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=29-marzo-2014-nella-sede-del-ptlug
 29/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2014/03/document-freedom-day-2014-arezzo-sabato-29-marzo/
 29/03||Settimo Torinese|Arduino Day|http://www.openlabto.org/arduino-day-2014
 29/03||Firenze|Restart Party|http://www.liberainformatica.it/il-primo-restart-party-a-firenze/
 29/03||Milano|Arduino Day|http://blogsiam1838.blogspot.it/2014/03/arduino-day.html
 29/03||Biella|Arduino Day|http://www.bilug.it/argo/eventi-iniziative-12/news/arduino-day-2014-209/
+28/03||Laveno|Serata Arduino|http://social.gl-como.it/display/lifo/3803
 28/03||Bologna|Serata Ninux|http://erlug.segnoweb.net/notizie/talk-di-sera-ninux-la-rete-wireless-e-la-community-28-marzo-2014
 27/03||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1049
 26/03||Crema|Incontro|http://filibusta.crema.unimi.it/2014/03/primo-incontro-di-filibusta/
