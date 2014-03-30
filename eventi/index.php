@@ -22,16 +22,9 @@ lugheader ('Eventi',
 		array ('http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css'),
 		array ('http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js', 'mappa.js'));
 
-$transformed = false;
-
-if ($transformed == false) {
-	?>
-	<input type="hidden" name="default_zoom" value="5" />
-	<?php
-}
-
 ?>
 
+<input type="hidden" name="default_zoom" value="5" />
 <input type="hidden" name="coords_file" value="geoeventswrap.php" />
 
 <div class="mapoverlay" style="left: 10px; padding: 10px;">
@@ -43,12 +36,23 @@ if ($transformed == false) {
 	</p>
 
 	<div class="events_subscribe">
+		<?php if (isset ($_GET ['subscribed']) == false): ?>
 		<form style="webform-client-form" action="http://www.linux.it/subscribe.php" method="GET">
+			<input type="text" name="mail" class="trap" placeholder="Indirizzo Mail" /><br/>
 			<input type="email" name="name" class="form-text" placeholder="Indirizzo Mail" /><br/>
-			<?php echo prov_select ('') ?><br/>
+			<?php echo prov_select ('form-select') ?><br/>
 			<input type="submit" class="form-submit" value="Iscriviti" />
 		</form>
+		<?php else: ?>
+		<p class="alert alert-success">Sei stato iscritto alle notifiche</p>
+		<?php endif; ?>
 	</div>
+
+	<br />
+
+	<p style="text-align: center">
+		<a style="font-size: small" href="segnala.php">Segnala eventi.</a>
+	</p>
 </div>
 
 <div class="mapoverlay" style="bottom: 20px; right: 10px;">
