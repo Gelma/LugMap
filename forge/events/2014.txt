@@ -4,6 +4,7 @@
 17/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-14
 12/04||Mozzecane|Mapping Party|http://linuxludus.it/mapping-party-2014
 08/04||Roma|XPocalypse|http://lug.uniroma2.it/2014/03/27/8-aprile-2014-xpocalipse/
+05/04||Pescara|XP Apocalypse|http://www.pescaralug.org/2014/03/30/arriva-lxp-apocalypse.html
 05/04||Funo di Argelato|Coder Dojo|http://erlug.segnoweb.net/notizie/5-aprile-2014-funo-di-argelato-un-coder-dojo-della-bassa
 05/04||Cosenza|Lovelace Saturdays|http://www.verdebinario.org/index.php?option=com_content&task=view&id=168&Itemid=0
 05/04||Bassano del Grappa|XPocalypse, Addio XP|http://grappalug.org/2014/03/08/xpocalypse-laddio-a-windows-xp/
