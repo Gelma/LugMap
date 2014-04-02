@@ -6,6 +6,9 @@
 08/04||Firenze|XPocalypse Now|http://www.liberainformatica.it/xpocalypse-now/
 08/04||Roma|XPocalypse|http://lug.uniroma2.it/2014/03/27/8-aprile-2014-xpocalipse/
 07/04||Sommacampagna|Inizio Corso Wordpress|http://www.officina-s3.org/?p=2932
+06/04||Pergine Valsugana|Serata a Tema|http://www.linuxtrent.it/serata-tema-isolazione-dei-processi-contesti-di-rete-separati-comprese-le-ultime-novit%C3%A0-su-proxmox
+05/04||Cernusco sul Naviglio|Hackaton|http://viglug.org/
+05/04|06/04|Morciano|Expo Elettronica|http://www.riminilug.it/tiki-read_article.php?articleId=349
 05/04||Pistoia|Incontro|http://www.ptlug.org/2014/04/5-aprile-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=5-aprile-2014-nella-sede-del-ptlug
 05/04||Dueville|XPocalypse|http://dueville.linux.it/xpocalypse2014/
 05/04||Pescara|XP Apocalypse|http://www.pescaralug.org/2014/03/30/arriva-lxp-apocalypse.html
