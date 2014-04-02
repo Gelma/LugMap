@@ -43,7 +43,7 @@ function shift_city ($city, $lon, $found_cities) {
 	*/
 	$occurrences = howMany ($city, $found_cities);
 	if ($occurrences != 0)
-		$lon = $lon + (3000 * $occurrences);
+		$lon = $lon + (0.001 * $occurrences);
 
 	return $lon;
 }
