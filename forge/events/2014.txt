@@ -4,6 +4,7 @@
 17/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-14
 12/04||Mozzecane|Mapping Party|http://linuxludus.it/mapping-party-2014
 10/04||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1053
+08/04||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=350
 08/04||Vicenza|Incontro|http://vicenza.linux.it/node/134
 08/04||Firenze|XPocalypse Now|http://www.liberainformatica.it/xpocalypse-now/
 08/04||Roma|XPocalypse|http://lug.uniroma2.it/2014/03/27/8-aprile-2014-xpocalipse/
@@ -29,6 +30,7 @@
 01/04||Vicenza|Serata OpenStreetMap|http://vicenza.linux.it/node/155
 31/03||Latina Scalo|Inizio Corso Base|http://www.llg.it/wp/?p=120
 31/03||Imola|Inizio Serate Java|http://www.imolug.org/node/168
+29/03||Palmanova|Arduino Day|http://www.carnialug.net/2014/03/arduino-day-a-palmanova/
 29/03||Pistoia|Incontro|http://www.ptlug.org/2014/03/29-marzo-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=29-marzo-2014-nella-sede-del-ptlug
 29/03||Arezzo|Document Freedom Day|http://www.fsugitalia.org/wp/2014/03/document-freedom-day-2014-arezzo-sabato-29-marzo/
 29/03||Settimo Torinese|Arduino Day|http://www.openlabto.org/arduino-day-2014
