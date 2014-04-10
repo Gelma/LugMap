@@ -3,6 +3,7 @@
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
 17/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-14
 14/04||Lucca|Serata Node.JS|http://www.luccalug.it/node-js-pillole-di-free-software/
+12/04||Erba|Fiera dell'Elettronica|http://social.gl-como.it/display/lifo/4238
 12/04||Pistoia|Incontro|http://www.ptlug.org/2014/04/12-aprile-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=12-aprile-2014-nella-sede-del-ptlug
 12/04||Mozzecane|Mapping Party|http://linuxludus.it/mapping-party-2014
 10/04||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1053
