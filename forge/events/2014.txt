@@ -4,7 +4,9 @@
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
 26/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/163-incontro-arduino-sabato-26-aprile-2014
 18/04|19/04|Spotorno|Addio XP|http://www.govonis.org/index.php?option=com_content&view=article&id=146:addio-xp
+17/04||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1055
 17/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-14
+15/04||Rimini|Incontro Settimanale|http://www.riminilug.it/tiki-read_article.php?articleId=351
 14/04||Lucca|Serata Node.JS|http://www.luccalug.it/node-js-pillole-di-free-software/
 13/04||Firenze|"Etica in Festa"|http://www.liberainformatica.it/partecipiamo-a-etica-in-festa-domenica-13-aprile-alle-1445/
 12/04||Erba|Fiera dell'Elettronica|http://social.gl-como.it/display/lifo/4238
