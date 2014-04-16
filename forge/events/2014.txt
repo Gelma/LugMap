@@ -3,6 +3,7 @@
 07/05||Ivrea|Inaugurazione FabLab|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=122:invito-&lang=it
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
 26/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/163-incontro-arduino-sabato-26-aprile-2014
+18/04||Forlì|Serata Java|http://www.folug.org/2014/04/15/3-serata-su-java/
 18/04|19/04|Spotorno|Addio XP|http://www.govonis.org/index.php?option=com_content&view=article&id=146:addio-xp
 17/04||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1055
 17/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-14
