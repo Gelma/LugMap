@@ -2,9 +2,11 @@
 19/05||Varese|Serata git-annex|http://social.gl-como.it/display/lifo/3772
 07/05||Ivrea|Inaugurazione FabLab|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=122:invito-&lang=it
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
+03/05|04/05|Forlì|Expo Elettronica|http://www.folug.org/2014/04/17/expo-elettronica-maggio-2014/
 26/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/163-incontro-arduino-sabato-26-aprile-2014
 23/04||Imola|Serata VirtualBox|http://www.imolug.org/node/171
 22/04||Torri di Quartesolo|Passare a GNU/Linux|http://vicenza.linux.it/node/158
+19/04||Pistoia|Incontro|http://www.ptlug.org/2014/04/19-aprile-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=19-aprile-2014-nella-sede-del-ptlug
 18/04||Forlì|Serata Java|http://www.folug.org/2014/04/15/3-serata-su-java/
 18/04|19/04|Spotorno|Addio XP|http://www.govonis.org/index.php?option=com_content&view=article&id=146:addio-xp
 17/04||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1055
