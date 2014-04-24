@@ -1,7 +1,10 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
 19/05||Varese|Serata git-annex|http://social.gl-como.it/display/lifo/3772
+15/05||Milano|Conferenza FPGA|http://www.poul.org/2014/04/conferenza-fpga-e-open-source/
 08/05||Cosenza|Inizio Corso Giornalismo|http://www.verdebinario.org/index.php?option=com_content&task=view&id=169&Itemid=0
+07/05||Ala|Serata a Tema|http://www.linuxtrent.it/serata-tema-come-paghiamo-i-servizi-online-gratuiti
 07/05||Ivrea|Inaugurazione FabLab|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=122:invito-&lang=it
+05/05||Udine|Conferenze Sviluppo Software|http://iglu.cc.uniud.it/lo-sviluppo-software-go-on-fvg/
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
 03/05|04/05|Forlì|Expo Elettronica|http://www.folug.org/2014/04/17/expo-elettronica-maggio-2014/
 26/04||Pistoia|Incontro|http://www.ptlug.org/2014/04/26-aprile-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=26-aprile-2014-nella-sede-del-ptlug
