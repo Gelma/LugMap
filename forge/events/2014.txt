@@ -1,10 +1,12 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
 19/05||Varese|Serata git-annex|http://social.gl-como.it/display/lifo/3772
 15/05||Milano|Conferenza FPGA|http://www.poul.org/2014/04/conferenza-fpga-e-open-source/
+10/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/167-incontro-arduino-sabato-10-maggio-2014
 10/05||Firenze|Restart Party|http://www.liberainformatica.it/il-secondo-restart-party-sabato-10-maggio-alle-murate-per-la-notte-blu/
 08/05||Cosenza|Inizio Corso Giornalismo|http://www.verdebinario.org/index.php?option=com_content&task=view&id=169&Itemid=0
 07/05||Ala|Serata a Tema|http://www.linuxtrent.it/serata-tema-come-paghiamo-i-servizi-online-gratuiti
 07/05||Ivrea|Inaugurazione FabLab|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=122:invito-&lang=it
+06/05||Vigevano|Inizio Corsi|http://www.lugducale.it/index.php/notizie/46-mini-corsi-di-informatizzazione
 06/05||Rimini|Inizio Corso GNU/Linux|http://www.riminilug.it/tiki-read_article.php?articleId=352
 05/05||Udine|Conferenze Sviluppo Software|http://iglu.cc.uniud.it/lo-sviluppo-software-go-on-fvg/
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
