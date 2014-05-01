@@ -1,4 +1,5 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
+20/05||Torri di Quartesolo|Serata a Tema|http://vicenza.linux.it/node/167
 19/05||Varese|Serata git-annex|http://social.gl-como.it/display/lifo/3772
 15/05||Milano|Conferenza FPGA|http://www.poul.org/2014/04/conferenza-fpga-e-open-source/
 10/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/167-incontro-arduino-sabato-10-maggio-2014
