@@ -11,6 +11,7 @@
 06/05||Rimini|Inizio Corso GNU/Linux|http://www.riminilug.it/tiki-read_article.php?articleId=352
 05/05||Udine|Conferenze Sviluppo Software|http://iglu.cc.uniud.it/lo-sviluppo-software-go-on-fvg/
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
+03/05||Corigliano Calabro|Costituzione Gruppo HackLab|http://hlcs.it/2014/05/01/nasce-un-hacklab-a-corigliano/
 03/05||Savona|"Conosciamo il Software Libero"|http://www.govonis.org/index.php?option=com_content&view=article&id=147:conosciamo-il-software-liberoq&catid=4:appuntamenti&Itemid=9
 03/05|04/05|Forlì|Expo Elettronica|http://www.folug.org/2014/04/17/expo-elettronica-maggio-2014/
 26/04||Pistoia|Incontro|http://www.ptlug.org/2014/04/26-aprile-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=26-aprile-2014-nella-sede-del-ptlug
