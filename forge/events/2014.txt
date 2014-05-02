@@ -7,10 +7,13 @@
 08/05||Cosenza|Inizio Corso Giornalismo|http://www.verdebinario.org/index.php?option=com_content&task=view&id=169&Itemid=0
 07/05||Ala|Serata a Tema|http://www.linuxtrent.it/serata-tema-come-paghiamo-i-servizi-online-gratuiti
 07/05||Ivrea|Inaugurazione FabLab|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=122:invito-&lang=it
+06/05||Ancona|Inizio Corso Manutenzione Debian|http://pdp.linux.it/appuntamenti-nazionali/428/dal-6-maggio-allunivpm-corso-gratuito-per-manutentori-pacchetti-debian-gnulinux/
 06/05||Vigevano|Inizio Corsi|http://www.lugducale.it/index.php/notizie/46-mini-corsi-di-informatizzazione
 06/05||Rimini|Inizio Corso GNU/Linux|http://www.riminilug.it/tiki-read_article.php?articleId=352
 05/05||Udine|Conferenze Sviluppo Software|http://iglu.cc.uniud.it/lo-sviluppo-software-go-on-fvg/
 05/05||Napoli|Inizio Workshop Open Software e Hardware|http://www.nalug.net/news-nalug/workshop-unina-2014
+03/05||Pistoia|Incontro|http://www.ptlug.org/2014/05/03-maggio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=03-maggio-2014-nella-sede-del-ptlug
+03/05||Cosenza|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=170&Itemid=0
 03/05||Corigliano Calabro|Costituzione Gruppo HackLab|http://hlcs.it/2014/05/01/nasce-un-hacklab-a-corigliano/
 03/05||Savona|"Conosciamo il Software Libero"|http://www.govonis.org/index.php?option=com_content&view=article&id=147:conosciamo-il-software-liberoq&catid=4:appuntamenti&Itemid=9
 03/05|04/05|Forlì|Expo Elettronica|http://www.folug.org/2014/04/17/expo-elettronica-maggio-2014/
