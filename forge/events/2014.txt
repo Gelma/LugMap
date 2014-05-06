@@ -4,6 +4,7 @@
 17/05||Pinerolo|CoderDojo|http://www.softwareliberopinerolo.org/eventi/166-l-associazione-slip-organizza-il-primo-coderdojo-del-pinerolese
 15/05||Dueville|Inizio Corso Informatica|http://dueville.linux.it/corso-informatica-base-2014/
 15/05||Milano|Conferenza FPGA|http://www.poul.org/2014/04/conferenza-fpga-e-open-source/
+10/05|11/05|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=148:gnulinux-al-prossimo-marc&catid=3:avvenimenti
 10/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/167-incontro-arduino-sabato-10-maggio-2014
 10/05||Firenze|Restart Party|http://www.liberainformatica.it/il-secondo-restart-party-sabato-10-maggio-alle-murate-per-la-notte-blu/
 08/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1067
