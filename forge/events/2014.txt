@@ -1,9 +1,11 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
+05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
 20/05||Torri di Quartesolo|Serata a Tema|http://vicenza.linux.it/node/167
 19/05||Varese|Serata git-annex|http://social.gl-como.it/display/lifo/3772
 17/05||Pinerolo|CoderDojo|http://www.softwareliberopinerolo.org/eventi/166-l-associazione-slip-organizza-il-primo-coderdojo-del-pinerolese
 15/05||Dueville|Inizio Corso Informatica|http://dueville.linux.it/corso-informatica-base-2014/
 15/05||Milano|Conferenza FPGA|http://www.poul.org/2014/04/conferenza-fpga-e-open-source/
+12/05||Napoli|Seminario Crittografia|http://www.nalug.net/news-nalug/crittografia-da-cesare-ai-quanti
 10/05||Pistoia|Incontro|http://www.ptlug.org/2014/05/10-maggio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=10-maggio-2014-nella-sede-del-ptlug
 10/05|11/05|Genova|MARC|http://www.govonis.org/index.php?option=com_content&view=article&id=148:gnulinux-al-prossimo-marc&catid=3:avvenimenti
 10/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/167-incontro-arduino-sabato-10-maggio-2014
