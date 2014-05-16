@@ -1,6 +1,7 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
 07/06||Milano|Corso Robotica|http://www.siam1838.it/robotica-con-arduino/
 05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
+24/05||Montebelluna|CoderDojo|http://www.montellug.it/coderdojo-montebelluna-sabato-24-maggio-2014/770
 24/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/169-incontro-arduino-sabato-24-maggio-2014
 22/05||Milano|Inizio Corso Lyx|http://www.poul.org/2014/05/corso-lyx-2014/
 21/05||Milano|Inizio Incontri Arduino|http://www.poul.org/2014/05/corso-arduino-2014/
@@ -11,6 +12,7 @@
 17/05||Pistoia|Incontro|http://www.ptlug.org/2014/05/17-maggio-2014-presso-la-cattedrale-via-sandro-pertini-pistoia/?utm_source=rss&utm_medium=rss&utm_campaign=17-maggio-2014-presso-la-cattedrale-via-sandro-pertini-pistoia
 17/05||Cesena|DUCC-IT|http://www.folug.org/2014/05/11/debianubuntu-community-conference/
 17/05||Pinerolo|CoderDojo|http://www.softwareliberopinerolo.org/eventi/166-l-associazione-slip-organizza-il-primo-coderdojo-del-pinerolese
+16/05||Forlì|Serata Java|http://www.folug.org/2014/05/15/5-serata-java/
 15/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1071
 15/05||Dueville|Inizio Corso Informatica|http://dueville.linux.it/corso-informatica-base-2014/
 15/05||Milano|Conferenza FPGA|http://www.poul.org/2014/04/conferenza-fpga-e-open-source/
