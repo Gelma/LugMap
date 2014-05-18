@@ -4,6 +4,7 @@
 24/05||Montebelluna|CoderDojo|http://www.montellug.it/coderdojo-montebelluna-sabato-24-maggio-2014/770
 24/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/169-incontro-arduino-sabato-24-maggio-2014
 22/05||Milano|Inizio Corso Lyx|http://www.poul.org/2014/05/corso-lyx-2014/
+21/05||Crema|Sicurezza Social Networking|http://filibusta.crema.unimi.it/2014/05/sicurezza-nel-social-networking/
 21/05||Milano|Inizio Incontri Arduino|http://www.poul.org/2014/05/corso-arduino-2014/
 20/05||Torri di Quartesolo|Serata a Tema|http://vicenza.linux.it/node/167
 19/05||Napoli|Seminario|http://www.nalug.net/news-nalug/la-complessit%C3%A0-del-malware-analisi-struttrale-ed-ambienti-di-sviluppo
