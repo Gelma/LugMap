@@ -3,6 +3,8 @@
 05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
 24/05||Montebelluna|CoderDojo|http://www.montellug.it/coderdojo-montebelluna-sabato-24-maggio-2014/770
 24/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/169-incontro-arduino-sabato-24-maggio-2014
+22/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1074
+22/05||Cosenza|Inizio incontri Joomla|http://hlcs.it/2014/05/19/appuntamenti-jooma-calabria-hlcs-di-maggio-e-giugno/
 22/05||Milano|Inizio Corso Lyx|http://www.poul.org/2014/05/corso-lyx-2014/
 21/05||Crema|Sicurezza Social Networking|http://filibusta.crema.unimi.it/2014/05/sicurezza-nel-social-networking/
 21/05||Milano|Inizio Incontri Arduino|http://www.poul.org/2014/05/corso-arduino-2014/
