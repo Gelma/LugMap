@@ -1,8 +1,10 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
+10/06||Pergine Valsugana|Serata a Tema|http://www.linuxtrent.it/serata-tema-proxmox-uso-di-glusterfs-e-iscsi-locale-isolazione-dei-processi-contesti-di-rete
 07/06||Milano|Corso Robotica|http://www.siam1838.it/robotica-con-arduino/
 05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
 24/05||Montebelluna|CoderDojo|http://www.montellug.it/coderdojo-montebelluna-sabato-24-maggio-2014/770
 24/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/169-incontro-arduino-sabato-24-maggio-2014
+22/05||Forlì|Serata Raspberry PI|http://www.folug.org/2014/05/21/serata-raspberry-pi/
 22/05||Cosenza|Settimana Senza Frontiere|http://hlcs.it/2014/05/20/settimana-senza-frontiere-2014-di-isf-cosenza-open-source-open-mind-il-22-maggio/
 22/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1074
 22/05||Cosenza|Inizio incontri Joomla|http://hlcs.it/2014/05/19/appuntamenti-jooma-calabria-hlcs-di-maggio-e-giugno/
