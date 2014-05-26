@@ -1,5 +1,6 @@
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
 10/06||Pergine Valsugana|Serata a Tema|http://www.linuxtrent.it/serata-tema-proxmox-uso-di-glusterfs-e-iscsi-locale-isolazione-dei-processi-contesti-di-rete
+07/06||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/170-incontro-arduino-sabato-7-giugno-2014
 07/06||Milano|Corso Robotica|http://www.siam1838.it/robotica-con-arduino/
 05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
 01/06||Tolmezzo|CjargnaLIVE 2014|http://www.carnialug.net/2014/05/carnialug-al-cjargnalive-2014-2/
