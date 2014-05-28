@@ -4,6 +4,10 @@
 07/06||Milano|Corso Robotica|http://www.siam1838.it/robotica-con-arduino/
 05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
 01/06||Tolmezzo|CjargnaLIVE 2014|http://www.carnialug.net/2014/05/carnialug-al-cjargnalive-2014-2/
+31/05||Pistoia|Incontro|http://www.ptlug.org/2014/05/31-maggio-2014-presso-la-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=31-maggio-2014-presso-la-sede-del-ptlug
+31/05||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-didattico-associativa-sabato-31-maggio-2014
+29/05||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-14
+29/05||Como|Serata Git|http://www.gl-como.it/serata-git-teniamo-sotto-controllo-i-nostri-progetti/
 29/05||Forlì|Serata Raspberry PI|http://www.folug.org/2014/05/25/2-serata-raspberry/
 29/05||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1076
 26/05||Milano|Giornata Aperta sul Web|http://blogsiam1838.blogspot.it/2014/05/porte-aperte-sul-web.html
@@ -12,6 +16,7 @@
 24/05||Empoli|Nick Day 2014|http://golem.linux.it/wp/2014/05/nick-day-2014/
 24/05||Montebelluna|CoderDojo|http://www.montellug.it/coderdojo-montebelluna-sabato-24-maggio-2014/770
 24/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/169-incontro-arduino-sabato-24-maggio-2014
+23/05||Asti|Incontro|http://www.progettoradis.it/index.php?option=com_content&view=article&id=106:informetica--informatica-ed-etica-finalmente-assieme&catid=16:progetti-realizzati&Itemid=25
 23/05||Forlì|Seeara Java|http://www.folug.org/2014/05/23/6-serata-su-java/
 22/05||Forlì|Serata Raspberry PI|http://www.folug.org/2014/05/21/serata-raspberry-pi/
 22/05||Cosenza|Settimana Senza Frontiere|http://hlcs.it/2014/05/20/settimana-senza-frontiere-2014-di-isf-cosenza-open-source-open-mind-il-22-maggio/
