@@ -4,6 +4,7 @@
 07/06||Palazzolo Acreide|Storia dei Processori|http://www.verdebinario.org/index.php?option=com_content&task=view&id=171&Itemid=0
 07/06||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/170-incontro-arduino-sabato-7-giugno-2014
 07/06||Milano|Corso Robotica|http://www.siam1838.it/robotica-con-arduino/
+06/06||Firenze|Le Innovazioni nel Consumo Critico|http://www.liberainformatica.it/linews-numero-6-giugno-2014/
 05/06||Ivrea|Consegna Attestati|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=124:consegna-attestati-&lang=it
 05/06||Novara|Introduzione a RaspBerryPI|http://linoxnovara.wordpress.com/2014/05/08/open-talk-introduzione-al-raspberry-pi/
 04/06||Aosta|Da XP a Linux|http://www.slag.it/node/414
