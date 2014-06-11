@@ -1,6 +1,8 @@
 18/06||Pergine Valsugana|Serata a Tema|http://www.linuxtrent.it/serata-tema-zentyal-34-come-server-di-dominio-alternativo-o-quasi-ad-active-directory
+17/06||Cosenza|Inizio Ciclo Seminari|http://hlcs.it/2014/06/11/ciclo-di-seminari-con-il-centro-di-calcolo-ad-alte-prestazioni-dellunical/
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
 14/06||Terni|XP Addio|http://www.ternignulug.org/eventi-manifestazioni/xp-addio/
+12/06||Forlì|Serata Raspberry|http://www.folug.org/2014/06/11/serata-raspberry/
 12/06||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1080
 11/06||Imola|Serata Virtualizzazione|http://www.imolug.org/eventi/serate-2014-06-11-virtualizzazione
 10/06||Rimini|Serata Installazione|http://www.riminilug.it/tiki-read_article.php?articleId=354
