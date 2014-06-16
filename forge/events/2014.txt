@@ -1,7 +1,15 @@
+04/07||Montebelluna|Cena|http://www.montellug.it/779/779
+25/06||Trieste|Conferenza|http://trieste.linux.it/?p=1084
+22/06||Montebelluna|Montegames 2014|http://www.montellug.it/montegames-2014/786
+20/06||Asti|Xpocalypse Now|http://www.progettoradis.it/index.php?option=com_content&view=article&id=107:xpocalypse-now&catid=17:progetti-in-corso&Itemid=25
+20/06||Levico Terme|Serata a Tema|http://www.linuxtrent.it/serata-tema-firewall-confronto-installazione-e-uso-di-pfsense-come-gateway-hotspot	
+19/06||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1082
 18/06||Pergine Valsugana|Serata a Tema|http://www.linuxtrent.it/serata-tema-zentyal-34-come-server-di-dominio-alternativo-o-quasi-ad-active-directory
 17/06||Cosenza|Inizio Ciclo Seminari|http://hlcs.it/2014/06/11/ciclo-di-seminari-con-il-centro-di-calcolo-ad-alte-prestazioni-dellunical/
 16/06||Varese|Serata Espruino|http://social.gl-como.it/display/lifo/3774
+14/06||Pistoia|Incontro|http://www.ptlug.org/2014/06/14-giugno-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=14-giugno-2014-nella-sede-del-ptlug
 14/06||Terni|XP Addio|http://www.ternignulug.org/eventi-manifestazioni/xp-addio/
+13/06||Forlì|Serata Java|http://www.folug.org/2014/06/13/ultima-serata-su-java-prima-dellestate/
 12/06||Forlì|Serata Raspberry|http://www.folug.org/2014/06/11/serata-raspberry/
 12/06||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1080
 11/06||Imola|Serata Virtualizzazione|http://www.imolug.org/eventi/serate-2014-06-11-virtualizzazione
