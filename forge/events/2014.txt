@@ -1,5 +1,8 @@
+05/07||Villafranca di Verona|Cena|http://linuxludus.it/cena-di-chiusura-estiva-2014
 05/07||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/171-incontro-arduino
 04/07||Montebelluna|Cena|http://www.montellug.it/779/779
+28/06||Pistoia|Incontro|http://www.ptlug.org/2014/06/28-giugno-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=28-giugno-2014-nella-sede-del-ptlug
+27/06|29/06|Bologna|HackMeeting|http://www.pcofficina.org/hackmeeting-0x11/?utm_source=rss&utm_medium=rss&utm_campaign=hackmeeting-0x11
 26/06||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-giugno-2014
 25/06|26/06|Camerino|Manifestazione|http://camelug.unicam.it/?p=124
 25/06||Pergine Valsugana|Serata a Tema|http://www.linuxtrent.it/serata-tema-softether-25-giugno-2014-ore-2045
