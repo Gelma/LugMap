@@ -1,4 +1,7 @@
+11/07|13/07|Levico Terme|Festival Benessere Sostenibile|http://www.linuxtrent.it/linuxtrent-al-festival-del-benessere-sostenibile
 10/07||Magione|Inizio Incontri|http://www.perugiagnulug.org/linux-summer/linux-summer-2014
+08/07||Cosenza|Incontro|http://www.govonis.org/index.php?option=com_content&view=article&id=149:govonis-destate&catid=4:appuntamenti&Itemid=9
+05/07||Palazzolo Acreide|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=173&Itemid=0
 05/07||Milano|Restart Party|http://www.pcofficina.org/pcofficina-sabato-5-luglio-ospite-a-yatta-restart-party/
 05/07||Villafranca di Verona|Cena|http://linuxludus.it/cena-di-chiusura-estiva-2014
 05/07||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/171-incontro-arduino
