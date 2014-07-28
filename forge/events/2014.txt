@@ -1,5 +1,8 @@
+02/08||Zevio|Goose Festival|http://www.lugverona.it/lugvr-e-fablab-verona-al-goose-festival/
 02/08||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/172-incontro-arduino-2
+31/07||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-luglio-14
 28/07||Viterbo|LAN Party|http://www.tulug.it/eventi/lan-party-2014/
+26/07||Pistoia|Incontro|http://www.ptlug.org/2014/07/26-luglio-2014-presso-la-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=26-luglio-2014-presso-la-sede-del-ptlug
 24/07||Trieste|Riunione Settimanale|http://trieste.linux.it/?p=1098
 19/07||Pistoia|Incontro|http://www.ptlug.org/2014/07/19-luglio-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=19-luglio-2014-nella-sede-del-ptlug
 11/07|13/07|Levico Terme|Festival Benessere Sostenibile|http://www.linuxtrent.it/linuxtrent-al-festival-del-benessere-sostenibile
