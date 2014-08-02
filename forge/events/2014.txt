@@ -1,4 +1,5 @@
 05/08||Rende|Incontro|http://hlcs.it/2014/07/31/incontro-con-stefano-vinto-ingegnere-meccanico-open-source/
+02/08||Pistoia|Incontro|http://www.ptlug.org/2014/08/2-agosto-2014-presso-la-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=2-agosto-2014-presso-la-sede-del-ptlug
 02/08||Zevio|Goose Festival|http://www.lugverona.it/lugvr-e-fablab-verona-al-goose-festival/
 02/08||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/172-incontro-arduino-2
 01/08|03/08|Polia|M.A.G.M.A.|http://hlcs.it/2014/07/31/partecipiamo-al-m-a-g-m-a/
