@@ -2,6 +2,7 @@
 04/09||Valleggia|Inizio Corso HTML|http://www.govonis.org/index.php?option=com_content&view=article&id=150:corso-di-html-e-php&catid=4:appuntamenti&Itemid=9
 28/08||Pergine|Presentazione Sportello Linux|http://www.linuxtrent.it/nuovo-sportello-linux-pergine
 24/08|31/08|Camigliatello Silano|Settimana della Cultura Calabrese|http://www.verdebinario.org/index.php?option=com_content&task=view&id=174&Itemid=0
+23/08||Pistoia|Incontro|http://www.ptlug.org/2014/08/23-agosto-2014-presso-la-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=23-agosto-2014-presso-la-sede-del-ptlug
 23/08|21/09|Siracusa|Mostra Videogame|http://museo.freaknet.org/it/insert-coin-reject-coin-mostra-sui-videogame-a-siracusa/
 16/08||Pistoia|Incontro|http://www.ptlug.org/2014/08/16-agosto-2014-presso-la-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=16-agosto-2014-presso-la-sede-del-ptlug
 13/08||Romano D'Ezzelino|Riunione|http://grappalug.org/2014/08/10/riunione-organizzativa-linux-day-2014-mercoledi-13-agosto-2014/
