@@ -1,7 +1,13 @@
 02/10||Dueville|Inizio Corso Base|http://dueville.linux.it/corso-computer-programmi-base-2014/
+19/09||Montebelluna|Inizio Corso|http://www.montellug.it/corso-sqlite-e-gambas/798
+14/09||Torino|Cyberia|http://informaticalibera.info/index.php?option=com_content&view=article&id=130:torino-migra&catid=1:ultime
+13/09||Bologna|Apertura Laboratori|http://erlug.segnoweb.net/notizie/biblioteca-salaborsa-laboratorio-di-autodifesa-digitale-tutti
+09/09||Torri di Quartesolo|Serata Scribus|http://vicenza.linux.it/node/175
 07/09||Sommacampagna|Festival Stili di Vita|http://www.officina-s3.org/?p=3128
+06/09||Pistoia|Incontro|http://www.ptlug.org/2014/09/06-settembre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=06-settembre-2014-nella-sede-del-ptlug
 06/09|07/09|Montichiari|Radiantistica Expo|http://www.lugcr.it/lugcr/lugcr-radiantistica-exp-montichiari-5
 06/09||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/173-incontro-arduino-3
+05/09||Montebelluna|Riapertura Incontri Settimanali|http://www.montellug.it/05-settembre-2014-riprendono-gli-incontri-settimanali/796
 04/09||Valleggia|Inizio Corso HTML|http://www.govonis.org/index.php?option=com_content&view=article&id=150:corso-di-html-e-php&catid=4:appuntamenti&Itemid=9
 03/09||Torino|Riapertura Sportello Assistenza|http://informaticalibera.info/index.php?option=com_content&view=article&id=129:stagione-oil-20142015&catid=1:ultime
 02/09||Rimini|Ripresa Incontri Settimanali|http://www.riminilug.it/tiki-read_article.php?articleId=356
