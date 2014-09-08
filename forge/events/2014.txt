@@ -2,6 +2,7 @@
 19/09||Montebelluna|Inizio Corso|http://www.montellug.it/corso-sqlite-e-gambas/798
 14/09||Torino|Cyberia|http://informaticalibera.info/index.php?option=com_content&view=article&id=130:torino-migra&catid=1:ultime
 13/09||Bologna|Apertura Laboratori|http://erlug.segnoweb.net/notizie/biblioteca-salaborsa-laboratorio-di-autodifesa-digitale-tutti
+11/09||Imola|Serata|http://www.imolug.org/content/seratebirra-settembre-2014
 09/09||Torri di Quartesolo|Serata Scribus|http://vicenza.linux.it/node/175
 07/09||Sommacampagna|Festival Stili di Vita|http://www.officina-s3.org/?p=3128
 06/09||Pistoia|Incontro|http://www.ptlug.org/2014/09/06-settembre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=06-settembre-2014-nella-sede-del-ptlug
