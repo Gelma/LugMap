@@ -1,6 +1,8 @@
 02/10||Dueville|Inizio Corso Base|http://dueville.linux.it/corso-computer-programmi-base-2014/
+25/09|26/09|Firenze|"Job Revolution"|http://www.liberainformatica.it/partecipiamo-a-job-revolution-il-25-26-settembre-alle-murate/
 19/09||Montebelluna|Inizio Corso|http://www.montellug.it/corso-sqlite-e-gambas/798
 14/09||Torino|Cyberia|http://informaticalibera.info/index.php?option=com_content&view=article&id=130:torino-migra&catid=1:ultime
+13/09||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-associativa-sabato-13-settembre
 13/09||Bologna|Apertura Laboratori|http://erlug.segnoweb.net/notizie/biblioteca-salaborsa-laboratorio-di-autodifesa-digitale-tutti
 11/09||Imola|Serata|http://www.imolug.org/content/seratebirra-settembre-2014
 09/09||Torri di Quartesolo|Serata Scribus|http://vicenza.linux.it/node/175
