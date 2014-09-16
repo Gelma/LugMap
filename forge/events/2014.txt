@@ -1,5 +1,6 @@
 07/10||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/serate-tema-rovereto-ottobre-2014
 02/10||Dueville|Inizio Corso Base|http://dueville.linux.it/corso-computer-programmi-base-2014/
+25/09||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-14
 25/09|26/09|Firenze|"Job Revolution"|http://www.liberainformatica.it/partecipiamo-a-job-revolution-il-25-26-settembre-alle-murate/
 19/09||Montebelluna|Inizio Corso|http://www.montellug.it/corso-sqlite-e-gambas/798
 16/09||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=357
