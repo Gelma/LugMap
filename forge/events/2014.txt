@@ -1,9 +1,12 @@
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
+14/10||Cosenza|Presentazione Corso Networking|http://hlcs.it/2014/09/22/corso-di-advanced-networking-20142015-aperte-le-iscrizioni/
 09/10||Pergine Valsugana|Incontro VPN|http://www.linuxtrent.it/softether-vpn-project-il-futuro-delle-vpn
 07/10||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/serate-tema-rovereto-ottobre-2014
 05/10||Colonnata|Restart Party|http://www.liberainformatica.it/domenica-5-ottobre-3-restart-party-a-colonnata/
+03/10||Chions|Inizio Corso Linux Base|http://www.pnlug.it/2014/09/07/presentazione-corso-base-linux-0/
 02/10||Dueville|Inizio Corso Base|http://dueville.linux.it/corso-computer-programmi-base-2014/
 02/10||Milano|Riapertura Sportello|http://www.pcofficina.org/si-riparte-pcofficina-ritorna-il-2-ottobre/
+26/09||Firenze|Laboratorio Software Libero|http://www.liberainformatica.it/linews-numero-7-settembre-2014/
 25/09||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-14
 25/09|26/09|Firenze|"Job Revolution"|http://www.liberainformatica.it/partecipiamo-a-job-revolution-il-25-26-settembre-alle-murate/
 23/09||Torri di Quartesolo|Serata Blender|http://vicenza.linux.it/node/179
