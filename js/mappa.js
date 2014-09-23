@@ -9,8 +9,8 @@ var attr = 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>
 var MapIcon = L.Icon.extend({
 	options:{
 		iconSize: [16, 19],
-		popupAnchor: [-8, 0],
-		iconAnchor: [16, 19],
+		popupAnchor: [1, -19],
+		iconAnchor: [8, 19],
 		iconUrl: 'images/icon.png'
 	}
 });
