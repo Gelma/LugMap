@@ -44,11 +44,11 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		<title>Mappa dei Linux Users Groups Italiani<?php if ($title != null) echo ": $title"; ?></title>
 
 		<?php foreach ($stylesheet as $css): ?>
-        <link rel="stylesheet" href="<?php echo $css; ?>" />
+		<link rel="stylesheet" href="<?php echo $css; ?>" />
 		<?php endforeach; ?>
 		<link rel="stylesheet" href="assets/css/main.css" />
-        
-   		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<?php foreach ($javascript as $js): ?>
 		<script type="text/javascript" src="<?php echo $js; ?>"></script>
 		<?php endforeach; ?>
