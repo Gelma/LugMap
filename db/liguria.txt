@@ -1,6 +1,7 @@
-Genova|ALID|Genova|http://www.alid.it/|cerfvqragr@nyvq.vg|1836229845
-Genova|Op3n_L4b|Genova Facoltà di Ingegneria|http://www.openlab-dist.org/|bcrayno@bcrayno-qvfg.bet
+Genova|Associazione per le Libertà Informatiche e Digitali|Genova|http://www.alid.it/|cerfvqragr@nyvq.vg|1836229845|44.4069081|8.9641328
+Genova|Op3n_L4b|Facoltà di Ingegneria, Genova|http://www.openlab-dist.org/|bcrayno@bcrayno-qvfg.bet|2470188958|44.4034554|8.9583701
 Genova|TLug-TSL|Rapallo|http://tlug.linux.it/|snovb.enzcbyqv@yvahk.vg
 Imperia|SLIMP|Imperia e provincia|http://www.slimp.it/|htbebfn@tznvy.pbz
-Savona|Govonis GNU/LUG|Provincia di Savona|http://www.govonis.org/|naqernzfbynev@tznvy.pbz|1749724867
+Savona|Govonis GNU/LUG|Valleggia|http://www.govonis.org/|naqernzfbynev@tznvy.pbz|1749724867|44.2842763|8.4242546
+Savona|Govonis GNU/LUG|Finalborgo|http://www.govonis.org/|naqernzfbynev@tznvy.pbz|2335318120|44.1759376|8.3265562
 Savona|SavonaLug|Savona|http://savona.linux.it/|zq@yvahk.vg

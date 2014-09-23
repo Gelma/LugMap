@@ -1,19 +1,33 @@
-== LugMap de che? ==
+LugMap Italiana
+===============
+
+LugMap de che?
+---------------
+
 L'ambizione della LugMap è di fornire un comodo strumento per mettere
 in contatto persone, e realtà, interessate alla diffusione del sistema
 operativo Linux, quale punta di diamante del Software Libero.
 
-== Dove si può consultare? ==
+Dove si può consultare?
+----------------------
+
 La LugMap è storicamente presente a questo indirizzo:
 http://www.linux.it/LUG
 Ma la stessa base dati viene utilizzata anche per aggiornare:
 http://lugmap.it
 
-== E 'sto elenco su GitHub che è? ==
+E 'sto elenco su GitHub che è?
+------------------------------
+
 Si tratta di un modo rozzo, ma efficace, per mantenere aggiornata
 la lista dei LUG italiani di cui sopra.
 
-== Come posso collaborare? ==
+Nella branch docs si trova il sorgente della Guida Galattica alla LugMap.
+
+
+Come posso collaborare?
+-----------------------
+
 Chiunque è invitato a:
 a) scrivere alla mailing list pubblica lugmap@linux.it, oppure
    contattare Andrea Gelmini (andrea.gelmini@lugbs.linux.it - 328/7296628),
@@ -23,15 +37,21 @@ b) iscriversi alla mailing list relativa:
 c) accedere al repository github del progetto:
    https://github.com/Gelma/LugMap
 
-== Vorrei maggiori informazioni ==
+Vorrei maggiori informazioni
+----------------------------
+
 Tutti i dettagli (o quasi) si possono trovare consultando la
 "Guida Intergalattica alla LugMap", disponibile all'indirizzo:
 	http://lugmap.linux.it/guida
 
-== Modus operandi ==
+Modus operandi
+--------------
+
 Per ogni critica, una proposta propositiva. Astenersi perditempo.
 
-== Licenze ==
+Licenze
+-------
+
 Il codice relativo al servizio WEB viene rilasciato con licenza AGPL,
 mentre gli script e tutto l'apparato di backend gode della licenza GPL.
 I dati raw esposti nella cartella db/ vengono rilasciati con licenza CC0.
