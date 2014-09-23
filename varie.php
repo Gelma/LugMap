@@ -32,7 +32,7 @@ $main_url = 'http://lugmap.it';
 
 /***************************************************************************************************************/
 
-function do_head ($title = null, $javascript = array ()) {
+function do_head ($title = null, $javascript = array (), $stylesheet = array ()) {
 global $main_url;
 
 echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n";
@@ -43,17 +43,15 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 
 		<title>Mappa dei Linux Users Groups Italiani<?php if ($title != null) echo ": $title"; ?></title>
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<?php foreach ($stylesheet as $css): ?>
+        <link rel="stylesheet" href="<?php echo $css; ?>" />
+		<?php endforeach; ?>
+		<link rel="stylesheet" href="assets/css/main.css" />
+        
+   		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<?php foreach ($javascript as $js): ?>
 		<script type="text/javascript" src="<?php echo $js; ?>"></script>
 		<?php endforeach; ?>
-
-		<link rel="stylesheet" href="assets/css/main.css" />
-
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
-		<!--[if lte IE 8]>
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
-		<![endif]-->
 	</head>
 
 	<body>

@@ -28,7 +28,7 @@ if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugm
 }
 
 require_once ('varie.php');
-do_head ('Homepage', array ('http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js', 'js/mappa.js'));
+do_head ('Homepage', array ('http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js', 'js/mappa.js'),array('http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css'));
 
 $transformed = false;
 
