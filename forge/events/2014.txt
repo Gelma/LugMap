@@ -7,7 +7,11 @@
 03/10||Chions|Inizio Corso Linux Base|http://www.pnlug.it/2014/09/07/presentazione-corso-base-linux-0/
 02/10||Dueville|Inizio Corso Base|http://dueville.linux.it/corso-computer-programmi-base-2014/
 02/10||Milano|Riapertura Sportello|http://www.pcofficina.org/si-riparte-pcofficina-ritorna-il-2-ottobre/
+29/09||Cernusco sul Naviglio|Incontro|http://us3.campaign-archive2.com/?u=a651cf8dbecc05a4fe16f9001&id=c93388f2fd
+27/09||Pistoia|Incontro|http://www.ptlug.org/2014/09/27-settembre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=27-settembre-2014-nella-sede-del-ptlug
+27/09||Milano|Restart Party|http://www.pcofficina.org/sabato-27-pcofficina-a-milano-per-il-primo-restart-party-in-chiesa/
 26/09||Firenze|Laboratorio Software Libero|http://www.liberainformatica.it/linews-numero-7-settembre-2014/
+26/09||Arcavacata|La Notte dei Ricercatori|http://hlcs.it/2014/09/24/hacklab-open-night-notte-dei-ricercatori-unical-2014/
 25/09||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-14
 25/09|26/09|Firenze|"Job Revolution"|http://www.liberainformatica.it/partecipiamo-a-job-revolution-il-25-26-settembre-alle-murate/
 23/09||Torri di Quartesolo|Serata Blender|http://vicenza.linux.it/node/179
