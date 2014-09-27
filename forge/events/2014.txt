@@ -1,4 +1,5 @@
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
+16/10||Milano|Inizio Corso|http://www.poul.org/2014/09/corsi-linux-base-2014/
 14/10||Cosenza|Presentazione Corso Networking|http://hlcs.it/2014/09/22/corso-di-advanced-networking-20142015-aperte-le-iscrizioni/
 09/10||Pergine Valsugana|Incontro VPN|http://www.linuxtrent.it/softether-vpn-project-il-futuro-delle-vpn
 07/10||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/serate-tema-rovereto-ottobre-2014
@@ -7,6 +8,7 @@
 03/10||Chions|Inizio Corso Linux Base|http://www.pnlug.it/2014/09/07/presentazione-corso-base-linux-0/
 02/10||Dueville|Inizio Corso Base|http://dueville.linux.it/corso-computer-programmi-base-2014/
 02/10||Milano|Riapertura Sportello|http://www.pcofficina.org/si-riparte-pcofficina-ritorna-il-2-ottobre/
+30/09||Torri di Quartesolo|Incontro Gruppo Makers|http://vicenza.linux.it/node/181
 29/09||Cernusco sul Naviglio|Incontro|http://us3.campaign-archive2.com/?u=a651cf8dbecc05a4fe16f9001&id=c93388f2fd
 27/09||Pistoia|Incontro|http://www.ptlug.org/2014/09/27-settembre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=27-settembre-2014-nella-sede-del-ptlug
 27/09||Milano|Restart Party|http://www.pcofficina.org/sabato-27-pcofficina-a-milano-per-il-primo-restart-party-in-chiesa/
