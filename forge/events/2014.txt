@@ -1,7 +1,10 @@
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
 16/10||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-16-ottobre-2014
 16/10||Milano|Inizio Corso|http://www.poul.org/2014/09/corsi-linux-base-2014/
+14/10||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=361
+14/10||Torri di Quartesolo|Test Server|http://vicenza.linux.it/node/183
 14/10||Cosenza|Presentazione Corso Networking|http://hlcs.it/2014/09/22/corso-di-advanced-networking-20142015-aperte-le-iscrizioni/
+11/10||Pistoia|Incontro|http://www.ptlug.org/2014/10/11-ottobre-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=11-ottobre-nella-sede-del-ptlug
 09/10||Pergine Valsugana|Incontro VPN|http://www.linuxtrent.it/softether-vpn-project-il-futuro-delle-vpn
 07/10||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=360
 07/10||Rovereto|Inizio Serate a Tema|http://www.linuxtrent.it/serate-tema-rovereto-ottobre-2014
