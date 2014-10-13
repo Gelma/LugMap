@@ -1,4 +1,5 @@
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
+22/10||Milano|Incontro GIT|https://www.poul.org/2014/10/introduzione-a-git/
 16/10||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-16-ottobre-2014
 16/10||Milano|Inizio Corso|http://www.poul.org/2014/09/corsi-linux-base-2014/
 14/10||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=361
