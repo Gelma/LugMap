@@ -100,7 +100,7 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 		}
 
 		?>
-
+<div class="divMenu">
 		<ul class="verticalslider_tabs">
 			<li><a<?php if ($select == 0) echo ' class="select"' ?> href="<?php echo $main_url ?>/index.php">Mappa</a></li>
 
@@ -114,16 +114,12 @@ echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://
 
 			<li><a<?php if ($select == 4) echo ' class="select"' ?> href="<?php echo $main_url ?>/forge.php">Progetti Collaterali</a></li>
 			<li class="verticalslider_subtabs"><a<?php if ($select == 5) echo ' class="select"' ?> href="<?php echo $main_url ?>/widget.php">Widget Web</a>
-
-			<li>
-				<p class="intro">
-					<img src="images/logo.png" alt="lugmap.it" />
-				</p>
-			</li>
 		</ul>
-
-		<div class="verticalslider_contents">
-
+		<div class="divLogo">
+			<img src="images/logo.png" alt="lugmap.it" class="introLogo"/>
+		</div>
+</div>
+			<div class="verticalslider_contents">
 	<?php
 }
 
