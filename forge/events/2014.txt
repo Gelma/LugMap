@@ -1,5 +1,10 @@
+06/11||Assago|Festival ICT|http://www.paneepc.org/pane-e-pc-al-festival-ict-2014/
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
+24/10||Forlì|Serata Bitcoin|http://www.folug.org/2014/10/16/serata_bitcoin/
 22/10||Milano|Incontro GIT|https://www.poul.org/2014/10/introduzione-a-git/
+18/10||Pistoia|Incontro|http://www.ptlug.org/2014/10/18-ottobre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=18-ottobre-2014-nella-sede-del-ptlug
+17/10||Tito|Incontro|http://www.baslug.org/?q=node/121
+17/10||Castelfranco Veneto|Cena LUG Veneti|http://www.montellug.it/questa-sera-cena-dei-lug-veneti/820
 16/10||Ponte San Giovanni|Linux Night|http://www.perugiagnulug.org/linux-night-16-ottobre-2014
 16/10||Milano|Inizio Corso|http://www.poul.org/2014/09/corsi-linux-base-2014/
 14/10||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=361
