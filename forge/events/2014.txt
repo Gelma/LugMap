@@ -1,5 +1,7 @@
 06/11||Assago|Festival ICT|http://www.paneepc.org/pane-e-pc-al-festival-ict-2014/
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
+05/11||Grosseto|Riapertura Sportellinux|http://www.grolug.org/riapre-sportellinux-a-grosseto
+01/11|02/11|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-novembre-2014-0
 24/10||Forlì|Serata Bitcoin|http://www.folug.org/2014/10/16/serata_bitcoin/
 22/10||Milano|Incontro GIT|https://www.poul.org/2014/10/introduzione-a-git/
 18/10||Pistoia|Incontro|http://www.ptlug.org/2014/10/18-ottobre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=18-ottobre-2014-nella-sede-del-ptlug
