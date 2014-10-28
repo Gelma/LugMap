@@ -61,6 +61,26 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
+  <meta name="dcterms.creator" content="Italian Linux Society" />
+  <meta name="dcterms.type" content="Text" />
+  <link rel="publisher" href="http://www.ils.org/" />
+
+  <meta name="twitter:title" content="LugMap" />
+  <meta name="twitter:creator" content="@ItaLinuxSociety" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="http://lugmap.linux.it/" />
+  <meta name="twitter:image" content="http://lugmap.linux.it/immagini/tw.png" />
+
+  <meta property="og:site_name" content="LugMap" />
+  <meta property="og:title" content="LugMap" />
+  <meta property="og:url" content="http://lugmap.linux.it/" />
+  <meta property="og:image" content="http://lugmap.linux.it/immagini/fb.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:country-name" content="Italy" />
+  <meta property="og:email" content="webmaster@linux.it" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:description" content="La mappa dei Linux Users Groups italiani" />
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
 
   <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
