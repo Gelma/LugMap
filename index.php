@@ -1,5 +1,4 @@
 <?php
-
 if ($_SERVER ['HTTP_HOST'] != 'lugmap.it' && $_SERVER ['HTTP_HOST'] != 'www.lugmap.it') {
 	$domain = explode ('.', $_SERVER ['HTTP_HOST']);
 	$host = $domain [0];
