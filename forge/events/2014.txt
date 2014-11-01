@@ -1,6 +1,8 @@
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
 15/11||Ivrea|Giornata Formativa|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=127:convegno-15&lang=it
+13/11||Milano|Corso LaTeX|https://www.poul.org/2014/10/corso-latex-2014/
 10/11||Bassano del Grappa|Inizio Corso Reti|http://grappalug.org/2014/10/31/corso-base-sulle-reti/
+08/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/180-incontro-arduino-4
 06/11||Trieste|Inizio Serate a Tema|http://trieste.linux.it/serate-a-tema-lugtrieste-2014-2015/
 06/11||Assago|Festival ICT|http://www.paneepc.org/pane-e-pc-al-festival-ict-2014/
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
