@@ -1,11 +1,16 @@
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
+26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
 15/11||Ivrea|Giornata Formativa|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=127:convegno-15&lang=it
+13/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-2014
 13/11||Milano|Corso LaTeX|https://www.poul.org/2014/10/corso-latex-2014/
 10/11||Bassano del Grappa|Inizio Corso Reti|http://grappalug.org/2014/10/31/corso-base-sulle-reti/
+08/11||Palazzolo Acreide|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=177&Itemid=0
 08/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/180-incontro-arduino-4
+06/11||Trieste|Serata a Tema|http://trieste.linux.it/serata-a-tema-michele-mase-installazione-ubunt-linux-corporate/
 06/11||Trieste|Inizio Serate a Tema|http://trieste.linux.it/serate-a-tema-lugtrieste-2014-2015/
 06/11||Assago|Festival ICT|http://www.paneepc.org/pane-e-pc-al-festival-ict-2014/
 06/11||Novara|Inizio Corso Gimp|http://linoxnovara.wordpress.com/2014/09/21/corso-grafica-e-fotoritocco-con-gimp/
+05/11||Laveno|Stampanti 3D|http://social.gl-como.it/display/lifo/9728
 05/11||Grosseto|Riapertura Sportellinux|http://www.grolug.org/riapre-sportellinux-a-grosseto
 01/11||Pistoia|Incontro|http://www.ptlug.org/2014/10/01-novembre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=01-novembre-2014-nella-sede-del-ptlug
 01/11|02/11|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-novembre-2014-0
