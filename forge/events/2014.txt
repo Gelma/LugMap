@@ -1,9 +1,12 @@
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
 26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
+22/11||Bassano del Grappa|Notte Centro Giovanile|http://grappalug.org/2014/11/06/22-23-novembre-2014-notte-in-centro-giovanile/
+15/11|16/11|Pordenone|Linux Arena|http://www.pnlug.it/2014/11/07/linuxarena2-fiera-radioamatore2-pordenone/
 15/11||Ivrea|Giornata Formativa|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=127:convegno-15&lang=it
 13/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-2014
 13/11||Milano|Corso LaTeX|https://www.poul.org/2014/10/corso-latex-2014/
 10/11||Bassano del Grappa|Inizio Corso Reti|http://grappalug.org/2014/10/31/corso-base-sulle-reti/
+08/11||Pistoia|Incontro|http://www.ptlug.org/2014/11/08-novembre-2014-nella-sede-del-ptlug/?utm_source=rss&utm_medium=rss&utm_campaign=08-novembre-2014-nella-sede-del-ptlug
 08/11||Palazzolo Acreide|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=177&Itemid=0
 08/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/arduino/180-incontro-arduino-4
 06/11||Trieste|Serata a Tema|http://trieste.linux.it/serata-a-tema-michele-mase-installazione-ubunt-linux-corporate/
