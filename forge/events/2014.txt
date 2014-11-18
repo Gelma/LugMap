@@ -1,6 +1,7 @@
 13/12||Settimo Torinese|openSUSE Meeting|http://www.fsugitalia.org/wp/2014/11/opensuse-meeting-italia-2014/
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
+29/11||Udine|OpenSourceDay|http://opensourceday.org/2014/
 26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
 22/11||Bologna|Incontro|http://erlug.segnoweb.net/notizie/talk-22-novembre-2014-licenze-libere-il-software-ma-non-solo
 22/11||Bassano del Grappa|Notte Centro Giovanile|http://grappalug.org/2014/11/06/22-23-novembre-2014-notte-in-centro-giovanile/
