@@ -3,6 +3,7 @@
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
 29/11||Udine|OpenSourceDay|http://opensourceday.org/2014/
 26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
+22/11||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-didattico-associativa-sabato-22-novembre
 22/11||Bologna|Incontro|http://erlug.segnoweb.net/notizie/talk-22-novembre-2014-licenze-libere-il-software-ma-non-solo
 22/11||Bassano del Grappa|Notte Centro Giovanile|http://grappalug.org/2014/11/06/22-23-novembre-2014-notte-in-centro-giovanile/
 22/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/182-incontro-arduino-22-11-2014
