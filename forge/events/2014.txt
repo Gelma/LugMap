@@ -1,6 +1,7 @@
 13/12||Settimo Torinese|openSUSE Meeting|http://www.fsugitalia.org/wp/2014/11/opensuse-meeting-italia-2014/
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
+30/11||Parma|Fiera Elettronica|http://www.parma.linux.it/news/2014/11/fiera-dellelettronica-di-parma
 29/11||Udine|OpenSourceDay|http://opensourceday.org/2014/
 26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
 22/11||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-didattico-associativa-sabato-22-novembre
@@ -8,6 +9,7 @@
 22/11||Bassano del Grappa|Notte Centro Giovanile|http://grappalug.org/2014/11/06/22-23-novembre-2014-notte-in-centro-giovanile/
 22/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/182-incontro-arduino-22-11-2014
 21/11||Biella|Inizio Incontri|http://bilug.it/argo/corsi-4/news/tre-serate-scoprire-linux-software-libero-220/
+20/11||Ala|Inizio Incontri|http://www.linuxtrent.it/ciclo-di-serate-tema-conoscere-il-mondo-del-software-libero-e-dell-informatica-consapevole
 19/11||Vimercate|Workshop Stampa3D|http://www.admt.org/lug/evento-del-19-11-2014
 19/11||Cadine|Serata|http://www.linuxtrent.it/serata-su-linux-i-gruppi-di-acquisto-solidale-gas
 18/11||Camerino|Incontro|http://camelug.unicam.it/why-linux-sucks/
