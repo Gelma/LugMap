@@ -3,6 +3,7 @@
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
 30/11||Parma|Fiera Elettronica|http://www.parma.linux.it/news/2014/11/fiera-dellelettronica-di-parma
+29/11||Firenze|Restart Party|http://www.liberainformatica.it/linews-numero-9-novembre-2014/
 29/11||Udine|OpenSourceDay|http://opensourceday.org/2014/
 26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
 22/11||Napoli|Riunione|http://www.nalug.net/news-nalug/riunione-didattico-associativa-sabato-22-novembre
