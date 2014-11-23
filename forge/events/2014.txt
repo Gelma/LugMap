@@ -1,3 +1,4 @@
+20/12||Cagliari|Convegno|http://www.gulch.it/node/59
 13/12||Settimo Torinese|openSUSE Meeting|http://www.fsugitalia.org/wp/2014/11/opensuse-meeting-italia-2014/
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
