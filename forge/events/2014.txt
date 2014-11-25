@@ -2,7 +2,9 @@
 13/12||Settimo Torinese|openSUSE Meeting|http://www.fsugitalia.org/wp/2014/11/opensuse-meeting-italia-2014/
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
+02/12||Cosenza|Seminario BitCoin|http://hlcs.it/2014/11/25/economia-e-tecnologia-del-bitcoin-seminario-al-tag-cosenza/
 30/11||Parma|Fiera Elettronica|http://www.parma.linux.it/news/2014/11/fiera-dellelettronica-di-parma
+29/11||Torino|Didattica Aperta|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=129:didattica-aperta&lang=it
 29/11||Firenze|Restart Party|http://www.liberainformatica.it/linews-numero-9-novembre-2014/
 29/11||Udine|OpenSourceDay|http://opensourceday.org/2014/
 26/11||Pergine Valsugana|Serata Ganeti|http://www.linuxtrent.it/serata-su-ganeti
