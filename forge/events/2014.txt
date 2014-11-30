@@ -1,8 +1,13 @@
 20/12||Cagliari|Convegno|http://www.gulch.it/node/59
 13/12||Settimo Torinese|openSUSE Meeting|http://www.fsugitalia.org/wp/2014/11/opensuse-meeting-italia-2014/
+12/12||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-12-dicembre-2014
+08/12||Musile di Piave|Evento Natalizio|http://crunchlab.org/lofficina-degli-elfi/
+06/12||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/183-incontro-arduino-06-12-2014
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
+02/12||Casalecchio di Reno|Proiezione Film|http://www.raspibo.org/wiki/index.php/The_Internet%27s_Own_Boy
 02/12||Cosenza|Seminario BitCoin|http://hlcs.it/2014/11/25/economia-e-tecnologia-del-bitcoin-seminario-al-tag-cosenza/
+01/12||Cernusco sul Naviglio|Incontro|http://viglug.org/2014/11/28/primo-incontro-di-dicembre/
 30/11||Parma|Fiera Elettronica|http://www.parma.linux.it/news/2014/11/fiera-dellelettronica-di-parma
 29/11||Torino|Didattica Aperta|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=129:didattica-aperta&lang=it
 29/11||Firenze|Restart Party|http://www.liberainformatica.it/linews-numero-9-novembre-2014/
