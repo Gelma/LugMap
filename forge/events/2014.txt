@@ -8,6 +8,7 @@
 06/12||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/183-incontro-arduino-06-12-2014
 05/12||Cosenza|Presentazione Libro|http://www.verdebinario.org/index.php?option=com_content&task=view&id=178&Itemid=0
 05/12||Taranto|Rassegna del Volontariato|http://www.paneepc.org/anche-quest-anno-e-rassegna-del-volontariato/
+04/12||Como|Serata Ninux|http://www.gl-como.it/serata-ninux/
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
 02/12||Grosseto|MaremmaLocal|http://www.guruatwork.com/2014/maremmalocal/
