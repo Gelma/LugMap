@@ -1,10 +1,16 @@
 20/12||Cagliari|Convegno|http://www.gulch.it/node/59
+17/12||Milano|Workshop Calcolo Numerico|https://www.poul.org/2014/11/workshop-calcolo-numerico/
 13/12||Settimo Torinese|openSUSE Meeting|http://www.fsugitalia.org/wp/2014/11/opensuse-meeting-italia-2014/
 12/12||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-12-dicembre-2014
+09/12||Taranto|Inizio Corso Alfabetizzazione|http://www.paneepc.org/aperte-le-iscrizioni-al-corso-autunno-2014/
 08/12||Musile di Piave|Evento Natalizio|http://crunchlab.org/lofficina-degli-elfi/
+06/12||Cosenza|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=179&Itemid=0
 06/12||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/183-incontro-arduino-06-12-2014
+05/12||Cosenza|Presentazione Libro|http://www.verdebinario.org/index.php?option=com_content&task=view&id=178&Itemid=0
+05/12||Taranto|Rassegna del Volontariato|http://www.paneepc.org/anche-quest-anno-e-rassegna-del-volontariato/
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
+02/12||Grosseto|MaremmaLocal|http://www.guruatwork.com/2014/maremmalocal/
 02/12||Casalecchio di Reno|Proiezione Film|http://www.raspibo.org/wiki/index.php/The_Internet%27s_Own_Boy
 02/12||Cosenza|Seminario BitCoin|http://hlcs.it/2014/11/25/economia-e-tecnologia-del-bitcoin-seminario-al-tag-cosenza/
 01/12||Cernusco sul Naviglio|Incontro|http://viglug.org/2014/11/28/primo-incontro-di-dicembre/
