@@ -4,11 +4,14 @@
 12/12||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-12-dicembre-2014
 09/12||Taranto|Inizio Corso Alfabetizzazione|http://www.paneepc.org/aperte-le-iscrizioni-al-corso-autunno-2014/
 08/12||Musile di Piave|Evento Natalizio|http://crunchlab.org/lofficina-degli-elfi/
+07/12||Matera|Passeggiata Digitale|http://www.baslug.org/?q=node/122
 06/12||Cosenza|Lovelace Saturday|http://www.verdebinario.org/index.php?option=com_content&task=view&id=179&Itemid=0
 06/12||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/183-incontro-arduino-06-12-2014
+05/12||Mongrassano|Incontro Ninux|http://hlcs.it/2014/12/04/w-hlcs-reti-comunitarie-e-ninux-mongrassano/
 05/12||Cosenza|Presentazione Libro|http://www.verdebinario.org/index.php?option=com_content&task=view&id=178&Itemid=0
 05/12||Taranto|Rassegna del Volontariato|http://www.paneepc.org/anche-quest-anno-e-rassegna-del-volontariato/
 04/12||Como|Serata Ninux|http://www.gl-como.it/serata-ninux/
+03/12||Grosseto|Sportellinux|http://www.grolug.org/giorno-sportellinux-dicembre-2014
 03/12||Bassano del Grappa|Serata PostgreSQL|http://grappalug.org/2014/11/12/serata-di-presentazione-su-postgresql/
 03/12||Predazzo|Serata Informativa|http://www.linuxtrent.it/il-software-libero-come-mezzo-consolidare-luguaglianza-e-il-rispetto-delle-persone
 02/12||Grosseto|MaremmaLocal|http://www.guruatwork.com/2014/maremmalocal/
