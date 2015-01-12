@@ -1,6 +1,8 @@
 31/01||Trevignano|Coder Dojo|http://www.montellug.it/coderdojo-trevignano-31-gennaio-2015/843
+26/01||Milano|Conferenza Sicurezza|https://www.poul.org/2014/12/conferenza-privacy-sicurezza-2015/
 24/01||Firenze|Restart Party|http://www.liberainformatica.it/sabato-24-gennaio-restart-party-allisolotto/
 19/01||Sommacampagna|Inizio Corso Ubuntu|http://www.officina-s3.org/?p=3230
+13/01||Arcavacata|Blender Day|http://www.verdebinario.org/index.php?option=com_content&task=view&id=182&Itemid=0
 10/01||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/186-incontro-arduino-10-01-2015
 08/01||Vado Ligure|Inizio Corso|http://www.govonis.org/index.php?option=com_content&view=article&id=152:corsi-informatica&catid=4:appuntamenti&Itemid=9
 05/01||Cernusco sul Naviglio|Inizio Incontri|http://viglug.org/2015/01/04/incontri-2015/
