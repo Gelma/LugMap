@@ -1,5 +1,10 @@
 21/02||Vigevano|TeacherDojo|http://www.lugducale.it/index.php/notizie/52-coderdojo-anche-a-vigevano
+14/02|15/02|Ferrara|Stand Mondo Elettronica|http://www.ferrara.linux.it/2-in-evidenza/45-ferrara-lug-a-mondo-elettronica-e-ferrara-colleziona
+10/02||Torri di Quartesolo|Inizio Corso Joomla|http://vicenza.linux.it/node/187
 10/02||Laveno|Serata Raspberry|http://social.gl-como.it/display/lifo/11969
+07/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/190-incontro-arduino-07-02-2015
+03/02||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=363
+31/01||Cisterna d'Asti|Incontro|http://www.progettoradis.it/index.php?option=com_content&view=article&id=114:xpocalypse-now-lab&catid=17:progetti-in-corso&Itemid=25
 31/01||Trevignano|Coder Dojo|http://www.montellug.it/coderdojo-trevignano-31-gennaio-2015/843
 29/01||Forlì|Inizio Corso Reti|http://www.folug.org/2015/01/26/serate_reti-corso-di-approfondimento/
 29/01||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-29-gennaio-2015
