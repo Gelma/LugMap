@@ -47,12 +47,6 @@ lugheader ('Eventi',
 		<p class="alert alert-success">Sei stato iscritto alle notifiche</p>
 		<?php endif; ?>
 	</div>
-
-	<br />
-
-	<p style="text-align: center">
-		<a style="font-size: small" href="segnala.php">Segnala eventi.</a>
-	</p>
 </div>
 
 <div class="mapoverlay" style="bottom: 20px; right: 10px;">
