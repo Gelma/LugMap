@@ -1,4 +1,5 @@
 25/02||Firenze|Incontro|http://www.liberainformatica.it/mercoledi-25-febbraio-i-come-informatica-libera/
+21/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/191-incontro-arduino-21-02-2016
 21/02||Ferrara|Dismissione Materiale|http://www.ferrara.linux.it/2-in-evidenza/46-dismiss-day
 21/02||Bassano del Grappa|Inizio Corso|http://grappalug.org/2015/02/08/corso-di-alfabetizzazione-informatica-con-linux-presso-la-biblioteca-di-bassano-del-grappa/
 21/02||Vigevano|TeacherDojo|http://www.lugducale.it/index.php/notizie/52-coderdojo-anche-a-vigevano
