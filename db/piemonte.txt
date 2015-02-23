@@ -1,7 +1,6 @@
 Alessandria|AlLug|Alessandria e provincia|http://www.alessandria.linux.it/|qbabgjnyxbagurtenff@tznvy.pbz
 Asti|Progetto Radis|Asti|http://www.progettoradis.it/|bfpne.cnfgebar@gva.vg|2098656825
 Biella|BiLug|Provincia di Biella|http://bilug.it/|znaserqb@tnohoov.vg|2098656691
-Cuneo, Torino|ABC Lug|Alba, Bra, Carmagnola|http://abc.linux.it/|tbfzneqv@yvahk.vg
 Novara|Gallug|Galliate|http://www.gallug.it/|snovb.zz@tznvy.pbz|2098656756
 Novara|LiNOx|Novara|http://linoxnovara.wordpress.com/|yvabkabinen@tznvy.pbz|2098656771
 Torino|Accademia Hardware e Software Libero "Adriano Olivetti"|Ivrea|http://accademialibera.altervista.org/|nppnqrzvnyvoren@tznvy.pbz
@@ -11,4 +10,3 @@ Torino|Officina Informatica Libera|Torino|http://informaticalibera.info/|obo4wbo
 Torino|Prometeo Libero|Torino|http://www.openlabto.org/|senapvbanj@tznvy.pbz|2098656826
 Torino|SLIP|Pinerolo|http://www.softwareliberopinerolo.org/|vasb@fbsgjneryvorebcvarebyb.bet
 Torino|Underscore HackLab|Torino|http://www.autistici.org/underscore/|haqrefpber@nhgvfgvpv.bet
-Torino|ValSusinux|Avigliana, Val Susa e Val Sangone|http://www.valsusinux.it/|f.fnegber@svaqrearg.pbz
