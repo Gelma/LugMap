@@ -1,5 +1,7 @@
 26/03||Pergine Valsugana|Serata IPv6|http://www.linuxtrent.it/serata-ipv6
 17/03||Milano|Inizio Corso Linux Avanzato|https://www.poul.org/2015/02/corsi-linux-avanzati-2015/
+10/03||Vigevano|Inizio Corso Writer|http://www.lugducale.it/index.php/eventi/16-corsi/54-corsi-di-informatizzazione-2015-write
+07/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/192-incontro-arduino-07-03-2015
 04/03||Bassano del Grappa|Corso PostgreSQL|http://grappalug.org/2015/02/23/the-worlds-most-advanced-class-on-postgresql-o-quasi/
 01/03||Firenze|Restart Party|http://www.liberainformatica.it/domenica-1-marzo-restart-parry-straordinario/
 28/02||Firenze|Incontro Divulgativo|http://www.liberainformatica.it/sabato-28-febbraio-incontro-sul-software-libero/
