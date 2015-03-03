@@ -1,5 +1,6 @@
 26/03||Pergine Valsugana|Serata IPv6|http://www.linuxtrent.it/serata-ipv6
 25/03||Pisa|Introduzione a BitCoin|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
+23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
 17/03||Milano|Inizio Corso Linux Avanzato|https://www.poul.org/2015/02/corsi-linux-avanzati-2015/
 11/03||Pisa|Introduzione a GO|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 10/03||Vigevano|Inizio Corso Writer|http://www.lugducale.it/index.php/eventi/16-corsi/54-corsi-di-informatizzazione-2015-write
