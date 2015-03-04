@@ -5,6 +5,8 @@
 11/03||Pisa|Introduzione a GO|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 10/03||Vigevano|Inizio Corso Writer|http://www.lugducale.it/index.php/eventi/16-corsi/54-corsi-di-informatizzazione-2015-write
 07/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/192-incontro-arduino-07-03-2015
+06/03||Cosenza|Serata Retrogaming|http://hlcs.it/2015/03/04/insert-coin-serata-retrogaming-cafe-librairie-cosenza/
+05/03||Forlì|Serata Preparazione Corso|http://www.folug.org/2015/03/04/serata-in-preparazione-del-corso-di-programmazione-app-per-android/
 04/03||Quiliano|Inizio Corso Informatica Base|http://www.govonis.org/index.php?option=com_content&view=article&id=153:-corso-di-informatica-base&catid=4:appuntamenti&Itemid=9
 04/03||Bassano del Grappa|Corso PostgreSQL|http://grappalug.org/2015/02/23/the-worlds-most-advanced-class-on-postgresql-o-quasi/
 01/03||Firenze|Restart Party|http://www.liberainformatica.it/domenica-1-marzo-restart-parry-straordinario/
