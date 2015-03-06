@@ -1,8 +1,11 @@
 26/03||Pergine Valsugana|Serata IPv6|http://www.linuxtrent.it/serata-ipv6
 25/03||Pisa|Introduzione a BitCoin|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
+22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
 17/03||Milano|Inizio Corso Linux Avanzato|https://www.poul.org/2015/02/corsi-linux-avanzati-2015/
+14/03||Francavilla Fontana|Open Data|http://www.farezero.it/2015/03/il-14-marzo-palazzo-imperiali-in.html
 11/03||Pisa|Introduzione a GO|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
+10/03||Torri di Quartesolo|Amministrare GNU/Linux|http://vicenza.linux.it/node/167
 10/03||Vigevano|Inizio Corso Writer|http://www.lugducale.it/index.php/eventi/16-corsi/54-corsi-di-informatizzazione-2015-write
 07/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/192-incontro-arduino-07-03-2015
 06/03||Cosenza|Serata Retrogaming|http://hlcs.it/2015/03/04/insert-coin-serata-retrogaming-cafe-librairie-cosenza/
