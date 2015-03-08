@@ -2,7 +2,9 @@
 25/03||Pisa|Introduzione a BitCoin|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
 22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
+20/03||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2171.0
 17/03||Milano|Inizio Corso Linux Avanzato|https://www.poul.org/2015/02/corsi-linux-avanzati-2015/
+16/02||Cernusco sul Naviglio|Mappare su OSM|http://forum.viglug.org/index.php?topic=2177.0
 14/03||Francavilla Fontana|Open Data|http://www.farezero.it/2015/03/il-14-marzo-palazzo-imperiali-in.html
 11/03||Pisa|Introduzione a GO|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 10/03||Torri di Quartesolo|Amministrare GNU/Linux|http://vicenza.linux.it/node/167
@@ -12,6 +14,7 @@
 05/03||Forlì|Serata Preparazione Corso|http://www.folug.org/2015/03/04/serata-in-preparazione-del-corso-di-programmazione-app-per-android/
 04/03||Quiliano|Inizio Corso Informatica Base|http://www.govonis.org/index.php?option=com_content&view=article&id=153:-corso-di-informatica-base&catid=4:appuntamenti&Itemid=9
 04/03||Bassano del Grappa|Corso PostgreSQL|http://grappalug.org/2015/02/23/the-worlds-most-advanced-class-on-postgresql-o-quasi/
+02/03||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2165.0
 01/03||Firenze|Restart Party|http://www.liberainformatica.it/domenica-1-marzo-restart-parry-straordinario/
 28/02||Firenze|Incontro Divulgativo|http://www.liberainformatica.it/sabato-28-febbraio-incontro-sul-software-libero/
 28/02||Milano|Restart Party|http://www.pcofficina.org/pcofficina-sara-a-yatta-sabato-28-per-un-grande-restart-party/
@@ -22,6 +25,7 @@
 21/02||Ferrara|Dismissione Materiale|http://www.ferrara.linux.it/2-in-evidenza/46-dismiss-day
 21/02||Bassano del Grappa|Inizio Corso|http://grappalug.org/2015/02/08/corso-di-alfabetizzazione-informatica-con-linux-presso-la-biblioteca-di-bassano-del-grappa/
 21/02||Vigevano|TeacherDojo|http://www.lugducale.it/index.php/notizie/52-coderdojo-anche-a-vigevano
+20/02||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2150.0
 20/02||Pero|Cena Ninux|http://social.gl-como.it/display/lifo/13304
 18/02||Pisa|Incontro|http://www.gulp.linux.it/2015/02/12/gulp-incontro-18-febbraio-2015/
 17/02||Vicenza|App Inventor|http://vicenza.linux.it/node/188
@@ -30,7 +34,9 @@
 10/02||Torri di Quartesolo|Inizio Corso Joomla|http://vicenza.linux.it/node/187
 10/02||Laveno|Serata Raspberry|http://social.gl-como.it/display/lifo/11969
 07/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/190-incontro-arduino-07-02-2015
+06/02||Cernusco sul Naviglio|Fedora Release Party|http://fedoraproject.org/wiki/Release_Party_F21_Milan/it
 03/02||Rimini|Incontro|http://www.riminilug.it/tiki-read_article.php?articleId=363
+02/02||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2146.0
 31/01||Cisterna d'Asti|Incontro|http://www.progettoradis.it/index.php?option=com_content&view=article&id=114:xpocalypse-now-lab&catid=17:progetti-in-corso&Itemid=25
 31/01||Trevignano|Coder Dojo|http://www.montellug.it/coderdojo-trevignano-31-gennaio-2015/843
 29/01||Forlì|Inizio Corso Reti|http://www.folug.org/2015/01/26/serate_reti-corso-di-approfondimento/
@@ -38,10 +44,11 @@
 26/01||Milano|Conferenza Sicurezza|https://www.poul.org/2014/12/conferenza-privacy-sicurezza-2015/
 24/01||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/188-incontro-arduino-24-01-2015
 24/01||Firenze|Restart Party|http://www.liberainformatica.it/sabato-24-gennaio-restart-party-allisolotto/
+23/01||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2139.0
 19/01||Ivrea|Incontro Organizzazione|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=131:incontro&lang=it
 19/01||Sommacampagna|Inizio Corso Ubuntu|http://www.officina-s3.org/?p=3230
 17/01||Bologna|Dibattito|http://erlug.segnoweb.net/notizie/sabato-17-gennaio-2015-femminile-tecnologico-questioni-di-genere-dallinformatica-internet
 13/01||Arcavacata|Blender Day|http://www.verdebinario.org/index.php?option=com_content&task=view&id=182&Itemid=0
 10/01||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/186-incontro-arduino-10-01-2015
 08/01||Vado Ligure|Inizio Corso|http://www.govonis.org/index.php?option=com_content&view=article&id=152:corsi-informatica&catid=4:appuntamenti&Itemid=9
-05/01||Cernusco sul Naviglio|Inizio Incontri|http://viglug.org/2015/01/04/incontri-2015/
+05/01||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2132.0
