@@ -75,7 +75,7 @@ class tweta:
 		self.twitter         = tweepy.API(self.auth)
 
 	def tweta(self, testo):
-		self.twitter.update_status(testo)
+		self.twitter.update_status(status=testo)
 
 if __name__ == "__main__":
 	commit_nuovi = []
