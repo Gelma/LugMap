@@ -1,3 +1,4 @@
+28/03||Avellino|Arduino Day|http://arduino.irlug.it/
 28/03||Napoli|Open Hardware Day|http://www.nalug.net/news-nalug/open-hardware-day-2015
 26/03||Pergine Valsugana|Serata IPv6|http://www.linuxtrent.it/serata-ipv6
 26/03||Ivrea|Corso Linux Avanzato|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=133:linux-avanzato-&lang=it
