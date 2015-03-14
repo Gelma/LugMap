@@ -122,6 +122,20 @@ a:hover {
 	margin: 0 auto;
 }
 
+#infographs {
+	margin-top: 30px;
+	width: 100%;
+}
+
+#infographs div {
+	display: inline-block;
+	width: 49%;
+}
+
+#infographs img {
+	max-width: 100%;
+}
+
 #lugListTable th, #lugListTable td {
 	border: 1px solid black;
 	font-size: 12px;
@@ -150,7 +164,6 @@ a:hover {
 #lugListTable {
 	border-collapse:collapse;
 	width:100%;
-
 }
 
 #lugListTable thead, #lugListTable tfoot {

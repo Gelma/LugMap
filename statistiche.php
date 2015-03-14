@@ -39,6 +39,19 @@ lugheader ('Statistiche dei LUG italiani');
 
 <div id="center">
   <a id="backLugMapLink" href="/">&raquo; torna alla LUGmap</a>
+  
+  <div id="infographs">
+    <p>
+      Distribuzione geografica degli iscritti alla <a href="http://www.ils.org/newsletter">newsletter ILS</a> (a sinistra) e dei LUG (a destra), divisi per provincia.
+    </p>
+    <div>
+      <img src="../immagini/newsletter.svg" />
+    </div>
+    <div>
+      <img src="../immagini/lugs.svg" />
+    </div>
+  </div>
+  
   <table id="lugListTable">
     <thead>
         <tr>
