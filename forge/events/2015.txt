@@ -8,6 +8,7 @@
 22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
 21/03||Settala|Elettronica Libera|http://viglug.org/2015/03/10/elettronica-libera/
 20/03||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2171.0
+18/03|22/03|Cosenza|InMensaMente|http://www.verdebinario.org/index.php?option=com_content&task=view&id=183&Itemid=0
 17/03||Milano|Inizio Corso Linux Avanzato|https://www.poul.org/2015/02/corsi-linux-avanzati-2015/
 16/03||Cernusco sul Naviglio|Mappare su OSM|http://forum.viglug.org/index.php?topic=2177.0
 14/03|16/03|Erba|Fiera Elettronica|http://social.gl-como.it/display/lifo/14678
