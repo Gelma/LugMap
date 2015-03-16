@@ -1,3 +1,4 @@
+06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 28/03||Avellino|Arduino Day|http://arduino.irlug.it/
 28/03||Napoli|Open Hardware Day|http://www.nalug.net/news-nalug/open-hardware-day-2015
 26/03||Pergine Valsugana|Serata IPv6|http://www.linuxtrent.it/serata-ipv6
@@ -6,6 +7,7 @@
 25/03||Pisa|Introduzione a BitCoin|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
 22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
+21/03|22/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2015
 21/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/193-incontro-arduino-21-03-2016
 21/03||Settala|Elettronica Libera|http://viglug.org/2015/03/10/elettronica-libera/
 20/03||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2171.0
