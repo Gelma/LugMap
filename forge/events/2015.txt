@@ -11,10 +11,12 @@
 24/03||Rimini|Presentazione Linux|http://www.riminilug.it/tiki-read_article.php?articleId=364
 23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
 22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
+21/03|22/03|Rende|Fiera Elettronica|http://hlcs.it/2015/03/18/hlcs-fiera-elettronica-2015/
 21/03|22/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2015
 21/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/193-incontro-arduino-21-03-2016
 21/03||Settala|Elettronica Libera|http://viglug.org/2015/03/10/elettronica-libera/
 20/03||Cernusco sul Naviglio|Incontro|http://forum.viglug.org/index.php?topic=2171.0
+19/03||Como|Serata Raspberry|http://www.gl-como.it/19-marzo-serata-sui-computer-su-scheda/
 18/03||Torino|Debian on Android|http://informaticalibera.info/index.php?option=com_content&view=article&id=135:debian-on-android&catid=1:ultime
 18/03|22/03|Cosenza|InMensaMente|http://www.verdebinario.org/index.php?option=com_content&task=view&id=183&Itemid=0
 17/03||Milano|Inizio Corso Linux Avanzato|https://www.poul.org/2015/02/corsi-linux-avanzati-2015/
