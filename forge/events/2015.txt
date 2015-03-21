@@ -8,6 +8,7 @@
 25/03||Caserta|Document Freedom Day|http://www.lugcaserta.it/benvenuti-a-scuola-odf/
 25/03||Perugia|Document Freedom Day|http://www.perugiagnulug.org/document-freedom-day-del-25-marzo-2015-perugia
 25/03||Pisa|Introduzione a BitCoin|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
+24/03||Vicenza|Serata Shell|http://vicenza.linux.it/node/192
 24/03||Rimini|Presentazione Linux|http://www.riminilug.it/tiki-read_article.php?articleId=364
 23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
 22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
