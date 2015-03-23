@@ -1,4 +1,7 @@
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
+04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
+09/04||Ivrea|Serata LibreOffice|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=134:libreoffice&lang=it
+28/03||Scandicci|Restart Party|http://www.liberainformatica.it/sabato-28-marzo-restart-party-alla-biblioteca-di-scandicci/
 28/03||Francavilla al Mare|Arduino Day|http://www.pescaralug.org/2015/03/17/arduino-day.html
 28/03||Avellino|Arduino Day|http://arduino.irlug.it/
 28/03||Napoli|Open Hardware Day|http://www.nalug.net/news-nalug/open-hardware-day-2015
@@ -10,6 +13,7 @@
 25/03||Pisa|Introduzione a BitCoin|http://www.gulp.linux.it/2015/03/03/gulp-seminari-2015-mese-marzo-2015/
 24/03||Vicenza|Serata Shell|http://vicenza.linux.it/node/192
 24/03||Rimini|Presentazione Linux|http://www.riminilug.it/tiki-read_article.php?articleId=364
+23/03||Mozzecane|Serata Privacy|http://linuxludus.it/internet-e-privacy/
 23/03|27/03|Salerno|Mostra Storia Informatica|http://www.hcsslug.org/wp/2015/03/mostra-sulla-storia-dellinformatica-3/
 22/03||Martina Franca|Territorio Zero|http://www.farezero.it/2015/02/ecco-il-nostro-nuovo-slogan.html
 21/03|22/03|Rende|Fiera Elettronica|http://hlcs.it/2015/03/18/hlcs-fiera-elettronica-2015/
