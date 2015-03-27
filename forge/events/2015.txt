@@ -1,6 +1,7 @@
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
 09/04||Ivrea|Serata LibreOffice|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=134:libreoffice&lang=it
+31/03||Cosenza|Arduino Day|http://hlcs.it/2015/03/26/arduino-day-2015-unical-31-marzo/
 30/03||Ivrea|Incontro ConfSL|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=135:incontro&lang=it
 29/03|30/03|Ferrara|Ferrara Drone Show|http://www.ferrara.linux.it/2-in-evidenza/47-fiera-dei-droni
 28/03||Scandicci|Restart Party|http://www.liberainformatica.it/sabato-28-marzo-restart-party-alla-biblioteca-di-scandicci/
