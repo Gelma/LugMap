@@ -3,6 +3,7 @@
 11/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/194-incontro-arduino-11-04-2015
 09/04||Ivrea|Serata LibreOffice|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=134:libreoffice&lang=it
 01/04||Pisa|Programmazione Go|http://www.gulp.linux.it/2015/03/28/programmazione-go-1-aprile-2015/
+31/03||Cagliari|Seminari|http://www.gulch.it/node/64
 31/03||Cosenza|Arduino Day|http://hlcs.it/2015/03/26/arduino-day-2015-unical-31-marzo/
 30/03||Ivrea|Incontro ConfSL|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=135:incontro&lang=it
 29/03|30/03|Ferrara|Ferrara Drone Show|http://www.ferrara.linux.it/2-in-evidenza/47-fiera-dei-droni
