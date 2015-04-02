@@ -1,9 +1,11 @@
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
 25/04|26/04|Pordenone|Makers|http://crunchlab.org/makers-radioamatore-pordenone/
+17/04||Misano Adriatico|Introduzione al Software Libero|http://www.riminilug.it/tiki-read_article.php?articleId=365
 11/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/194-incontro-arduino-11-04-2015
 11/04||Tradate|Incontro|http://social.gl-como.it/display/lifo/15539
 09/04||Ivrea|Serata LibreOffice|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=134:libreoffice&lang=it
+07/04||Vicenza|Serata LVM|http://vicenza.linux.it/node/193
 07/04||Vigevano|Inizio Corso Inkscape|http://www.lugducale.it/index.php/eventi/16-corsi/56-corsi-di-informatizzazione-2015-inkscape
 01/04||Pisa|Programmazione Go|http://www.gulp.linux.it/2015/03/28/programmazione-go-1-aprile-2015/
 31/03||Cagliari|Seminari|http://www.gulch.it/node/64
