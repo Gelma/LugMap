@@ -2,6 +2,7 @@
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
 25/04|26/04|Pordenone|Makers|http://crunchlab.org/makers-radioamatore-pordenone/
 17/04||Misano Adriatico|Introduzione al Software Libero|http://www.riminilug.it/tiki-read_article.php?articleId=365
+11/04||Bologna|Femminile Tecnologico|http://erlug.segnoweb.net/notizie/sabato-11-aprile-femminile-tecnologico-2
 11/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/194-incontro-arduino-11-04-2015
 11/04||Tradate|Incontro|http://social.gl-como.it/display/lifo/15539
 09/04||Ivrea|Serata LibreOffice|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=134:libreoffice&lang=it
