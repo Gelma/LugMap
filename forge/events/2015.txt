@@ -4,6 +4,7 @@
 21/04||Rimini|Virtualizzazione|http://www.riminilug.it/tiki-read_article.php?articleId=366
 18/04||Capannori|Presentazione Progetto|http://www.luccalug.it/book-scanner-riunione-pubblica-per-la-presentazione-del-progetto/
 17/04||Misano Adriatico|Introduzione al Software Libero|http://www.riminilug.it/tiki-read_article.php?articleId=365
+11/04||Tradate|Incontro|http://social.gl-como.it/display/lifo/17167
 11/04||Bologna|Femminile Tecnologico|http://erlug.segnoweb.net/notizie/sabato-11-aprile-femminile-tecnologico-2
 11/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/194-incontro-arduino-11-04-2015
 11/04||Tradate|Incontro|http://social.gl-como.it/display/lifo/15539
