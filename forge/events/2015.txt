@@ -1,6 +1,8 @@
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
 25/04|26/04|Pordenone|Makers|http://crunchlab.org/makers-radioamatore-pordenone/
+21/04||Rimini|Virtualizzazione|http://www.riminilug.it/tiki-read_article.php?articleId=366
+18/04||Capannori|Presentazione Progetto|http://www.luccalug.it/book-scanner-riunione-pubblica-per-la-presentazione-del-progetto/
 17/04||Misano Adriatico|Introduzione al Software Libero|http://www.riminilug.it/tiki-read_article.php?articleId=365
 11/04||Bologna|Femminile Tecnologico|http://erlug.segnoweb.net/notizie/sabato-11-aprile-femminile-tecnologico-2
 11/04||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/194-incontro-arduino-11-04-2015
