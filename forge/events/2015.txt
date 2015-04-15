@@ -1,6 +1,7 @@
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
 25/04|26/04|Pordenone|Makers|http://crunchlab.org/makers-radioamatore-pordenone/
+22/04||Ferrara|Inaugurazione Sede|http://www.ferrara.linux.it/2-in-evidenza/48-ferraralug-2-0-inaugurazione-nuova-sede
 21/04||Cosenza|Corso Stampa 3D|http://hlcs.it/2015/04/13/corso-di-stampa-3d-reprap/
 21/04||Rimini|Virtualizzazione|http://www.riminilug.it/tiki-read_article.php?articleId=366
 18/04||Capannori|Presentazione Progetto|http://www.luccalug.it/book-scanner-riunione-pubblica-per-la-presentazione-del-progetto/
