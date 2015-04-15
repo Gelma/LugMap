@@ -18,6 +18,7 @@ Milano|PCOfficina|Milano|http://www.pcofficina.org/|oynpxqbbz.jvsv@tznvy.pbz|209
 Milano|POuL|Milano|http://www.poul.org/|qnavryrvnznegvab@tznvy.pbz
 Milano|Scuola Open Source "Ludovico Radice Fossati"|Milano e provincia|http://blogsiam1838.blogspot.it/|y.fpvnthen@fvnz1838.vg
 Milano|ViGLug|Vignate, Milano Est - Adda Martesana|http://viglug.org/|sencu24@tznvy.pbz
+Monza e Brianza|ADMT|Vimercate|http://www.admt.org/lug/|tvhfrccr.vamntuv@tznvy.pbz|
 Monza|MoBLUG|Monza e Brianza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|vasb@ohooyrfsnpgbel.vg|2098656817
 Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|shyivb.erfgryyv@snfgjroarg.vg|2098656769
 Pavia|Ohosys.org|Verretto|http://www.ohosys.org/|jbysbxngne@tznvy.pbz
@@ -26,4 +27,3 @@ Varese|IspraLUG|Ispra|http://ispralug.eu/|nmvzbhg@tznvy.pbz
 Varese|LIFO|Varese|http://www.lifolab.org/|fvzb@rffrrzzr.bet
 Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|tvnayhpn@cvcrk.anzr|2098656809
 Varese|LUG Saronno|Saronno|http://lugsaronno.altervista.org/|yhtfnebaab@tznvy.pbz
-Monza e Brianza|ADMT|Vimercate|http://www.admt.org/lug/|tvhfrccr.vamntuv@tznvy.pbz|
