@@ -5,6 +5,7 @@
 21/04||Rimini|Virtualizzazione|http://www.riminilug.it/tiki-read_article.php?articleId=366
 18/04||Capannori|Presentazione Progetto|http://www.luccalug.it/book-scanner-riunione-pubblica-per-la-presentazione-del-progetto/
 17/04||Misano Adriatico|Introduzione al Software Libero|http://www.riminilug.it/tiki-read_article.php?articleId=365
+16/04||Fabriano|Sviluppo DEB|http://pdp.linux.it/news/549/sviluppo-file-deb/
 14/04||Cosenza|Seminario|http://hlcs.it/2015/04/13/seminario-geometria-arte-e-programmazione-mobile/
 11/04||Tradate|Incontro|http://social.gl-como.it/display/lifo/17167
 11/04||Bologna|Femminile Tecnologico|http://erlug.segnoweb.net/notizie/sabato-11-aprile-femminile-tecnologico-2
