@@ -1,6 +1,7 @@
 23/05||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-seconda-edizione/
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
+28/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-2015
 25/04|26/04|Pordenone|Makers|http://crunchlab.org/makers-radioamatore-pordenone/
 22/04||Pisa|Serata Go|http://www.gulp.linux.it/2015/04/19/22-aprile-2015-serata-con-go/
 22/04||Ferrara|Inaugurazione Sede|http://www.ferrara.linux.it/2-in-evidenza/48-ferraralug-2-0-inaugurazione-nuova-sede
