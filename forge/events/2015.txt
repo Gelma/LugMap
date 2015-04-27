@@ -1,4 +1,5 @@
 23/05||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-seconda-edizione/
+15/05||Milano|Inizio Workshop Arduino|https://www.poul.org/2015/04/corso-arduino-2015/
 09/05||Firenze|Restart Party|http://www.liberainformatica.it/sabato-9-maggio-restart-party-alla-notte-blu-delleuropa-alle-murate/
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
