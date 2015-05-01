@@ -1,8 +1,11 @@
 23/05||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-seconda-edizione/
+15/05||Firenze|Aperitivo Rust|http://www.lilik.it/aperitivo-di-lancio-per-rust-1-0/
 15/05||Milano|Inizio Workshop Arduino|https://www.poul.org/2015/04/corso-arduino-2015/
 09/05||Firenze|Restart Party|http://www.liberainformatica.it/sabato-9-maggio-restart-party-alla-notte-blu-delleuropa-alle-murate/
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
+02/05|03/05|Forlì|Expo Elettronica|http://www.folug.org/2015/04/28/folug-alla-expo-elettronica-di-maggio-15/
+30/04||Forlì|Incontro|http://www.folug.org/2015/04/28/giovedi-30-aprile/
 28/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-2015
 26/04||Torino|Restart Party|http://informaticalibera.info/index.php?option=com_content&view=article&id=136:26-aprile-restart-party&catid=1:ultime
 25/04|26/04|Pordenone|Makers|http://crunchlab.org/makers-radioamatore-pordenone/
