@@ -1,11 +1,16 @@
+26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
 23/05||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-seconda-edizione/
+20/05||Pisa|Serata LISP|http://www.gulp.linux.it/2015/04/30/introduzione-a-lisp-20-maggio-2015/
 16/05||Rimini|Incontro Mozilla|http://www.riminilug.it/tiki-read_article.php?articleId=367
 15/05||Firenze|Aperitivo Rust|http://www.lilik.it/aperitivo-di-lancio-per-rust-1-0/
 15/05||Milano|Inizio Workshop Arduino|https://www.poul.org/2015/04/corso-arduino-2015/
+12/05||Magione|Corso Linux Base|http://www.perugiagnulug.org/parte-il-primo-corso-linux-base-6-lezioni-dal-12-al-28-maggio
+09/05||Vigevano|CoderDojo|http://www.lugducale.it/index.php/eventicoderdojo/59-quando-programmare-e-un-gioco-da-ragazzi
 09/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/196-incontro-arduino-7-05-2015
 09/05||Firenze|Restart Party|http://www.liberainformatica.it/sabato-9-maggio-restart-party-alla-notte-blu-delleuropa-alle-murate/
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
+02/05||Napoli|Riunione Didattica|http://www.nalug.net/news-nalug/riunione-didattica-sabato-2-maggio
 02/05|03/05|Forlì|Expo Elettronica|http://www.folug.org/2015/04/28/folug-alla-expo-elettronica-di-maggio-15/
 30/04||Forlì|Incontro|http://www.folug.org/2015/04/28/giovedi-30-aprile/
 28/04||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-aprile-2015
