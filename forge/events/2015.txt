@@ -9,6 +9,7 @@
 09/05||Vigevano|CoderDojo|http://www.lugducale.it/index.php/eventicoderdojo/59-quando-programmare-e-un-gioco-da-ragazzi
 09/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/196-incontro-arduino-7-05-2015
 09/05||Firenze|Restart Party|http://www.liberainformatica.it/sabato-9-maggio-restart-party-alla-notte-blu-delleuropa-alle-murate/
+07/05||Pergine Valsugana|Serata Ubuntu Phone|http://www.linuxtrent.it/gioved%C3%AC-7-maggio-serata-ubuntu-phone
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 05/05||Vigevano|Lezione Calc|http://www.lugducale.it/index.php/eventi/16-corsi/60-corsi-di-informatizzazione-2015-calc
 04/05||Pordenone|Inizio Corso LPIC-1|http://wiki.pnlug.it/index.php?title=CorsoLPIC1
