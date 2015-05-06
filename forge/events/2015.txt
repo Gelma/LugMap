@@ -4,6 +4,7 @@
 16/05||Rimini|Incontro Mozilla|http://www.riminilug.it/tiki-read_article.php?articleId=367
 15/05||Firenze|Aperitivo Rust|http://www.lilik.it/aperitivo-di-lancio-per-rust-1-0/
 15/05||Milano|Inizio Workshop Arduino|https://www.poul.org/2015/04/corso-arduino-2015/
+12/05||Vicenza|Serata Autogestita|http://vicenza.linux.it/node/197
 12/05||Magione|Corso Linux Base|http://www.perugiagnulug.org/parte-il-primo-corso-linux-base-6-lezioni-dal-12-al-28-maggio
 09/05|10/05|Trieste|Mini Maker Faire|http://www.pnlug.it/2015/05/04/pnlug-presente-alla-mini-maker-faire-di-trieste-2015/
 09/05||Vigevano|CoderDojo|http://www.lugducale.it/index.php/eventicoderdojo/59-quando-programmare-e-un-gioco-da-ragazzi
