@@ -6,10 +6,13 @@
 15/05||Milano|Inizio Workshop Arduino|https://www.poul.org/2015/04/corso-arduino-2015/
 12/05||Vicenza|Serata Autogestita|http://vicenza.linux.it/node/197
 12/05||Magione|Corso Linux Base|http://www.perugiagnulug.org/parte-il-primo-corso-linux-base-6-lezioni-dal-12-al-28-maggio
+09/05||Napoli|Riunione Didattica|http://www.nalug.net/news-nalug/riunione-didattica-sabato-9-maggio
+09/05|10/05|Empoli|Fiera Radiantistica|http://golem.linux.it/wp/2015/05/fiera-della-radiantistica-e-dellelettronica-2015/
 09/05|10/05|Trieste|Mini Maker Faire|http://www.pnlug.it/2015/05/04/pnlug-presente-alla-mini-maker-faire-di-trieste-2015/
 09/05||Vigevano|CoderDojo|http://www.lugducale.it/index.php/eventicoderdojo/59-quando-programmare-e-un-gioco-da-ragazzi
 09/05||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/196-incontro-arduino-7-05-2015
 09/05||Firenze|Restart Party|http://www.liberainformatica.it/sabato-9-maggio-restart-party-alla-notte-blu-delleuropa-alle-murate/
+08/05||Roma|Forum Industria Software Libero|http://hlcs.it/2015/05/07/primo-forum-dellindustria-italiana-del-software-libero/
 07/05||Pergine Valsugana|Serata Ubuntu Phone|http://www.linuxtrent.it/gioved%C3%AC-7-maggio-serata-ubuntu-phone
 06/05||Pisa|Inizio Corso Python|http://www.gulp.linux.it/2015/03/16/gulp-corsi-maggio-e-giugno/
 05/05||Vigevano|Lezione Calc|http://www.lugducale.it/index.php/eventi/16-corsi/60-corsi-di-informatizzazione-2015-calc
