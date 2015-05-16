@@ -1,5 +1,7 @@
 26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
+27/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-2015
 23/05||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-seconda-edizione/
+20/05||Zelarino|Incontro PA|www.velug.it/17-eventi/58-incontro-pubblico-su-pa-aperta-e-libera.html
 20/05||Pisa|Serata LISP|http://www.gulp.linux.it/2015/04/30/introduzione-a-lisp-20-maggio-2015/
 19/05||Rovereto|Panoramica Distribuzioni|http://www.linuxtrent.it/panoramica-distribuzioni-linux
 18/05||Firenze|Serata systemd|http://www.firenze.linux.it/2015/05/systemd/
