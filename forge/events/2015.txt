@@ -1,6 +1,8 @@
 26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
 10/06||Torino|Serata MicroTik|http://www.openlabto.org/mikrotik-e-routeros-apparati-evoluti-2
+28/05||Firenze|Incontro Tematico|http://www.liberainformatica.it/giovedi-28-maggio-lhardware-questo-sconosciuto/
 27/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-2015
+23/05||Napoli|Riunione Didattica|http://www.nalug.net/news-nalug/riunione-didattica-sabato-23-maggio
 23/05||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-seconda-edizione/
 20/05||Bassano del Grappa|Lezione LibreOffice|http://grappalug.org/2015/05/18/tabelle-pivot-le-informazioni-al-vostro-comando/
 20/05||Zelarino|Incontro PA|www.velug.it/17-eventi/58-incontro-pubblico-su-pa-aperta-e-libera.html
