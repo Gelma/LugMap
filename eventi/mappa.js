@@ -2,7 +2,7 @@
 	Buona parte del codice qui presente e' stato copiato da linuxday.it
 */
 
-var map, layer;
+var map;
 var layerurl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
 var attr = 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 
@@ -85,20 +85,20 @@ function init () {
 	map.addLayer (tile);
 
 	var f = $('input[name=coords_file]').val ();
-	microAjax (f, function (res) { 
+	microAjax (f, function (res) {
 		var feat = JSON.parse (res);
 		loadLayer (feat);
-	});
-	
-	var f = $('input[name=support_file]').val ();
-	microAjax (f, function (res) { 
-		var feat = JSON.parse (res);
-		loadSupportLayer (feat);
+
+		var e = $('input[name=support_file]').val ();
+		microAjax (e, function (res) {
+			var feat = JSON.parse (res);
+			loadSupportLayer (feat);
+		});
 	});
 }
 
 function loadLayer(url) {
-	var myLayer = L.geoJson(url,{
+	L.geoJson(url, {
 		onEachFeature: function onEachFeature(feature, layer) {
 			if (feature.properties && feature.properties.name) {
 				layer.bindPopup (feature.properties.name + "<br/><a href='" + feature.properties.website + "'>Sito web</a>");
@@ -112,7 +112,7 @@ function loadLayer(url) {
 }
 
 function loadSupportLayer(url) {
-	var myLayer = L.geoJson(url,{
+	L.geoJson(url, {
 		onEachFeature: function onEachFeature(feature, layer) {
 			if (feature.properties) {
 				layer.bindPopup (feature.properties.details + "<br/>" + feature.properties.location + "<br/><a href='" + feature.properties.website + "'>Maggiori Dettagli</a>");
