@@ -15,6 +15,15 @@ var MapIcon = L.Icon.extend({
 	}
 });
 
+var MapSupportIcon = L.Icon.extend({
+	options:{
+		iconSize: [16, 19],
+		popupAnchor: [-8, 0],
+		iconAnchor: [16, 19],
+		iconUrl: '/immagini/icon2.png'
+	}
+});
+
 //https://code.google.com/p/microajax/
 function microAjax (B, A) {
 	this.bindFunction = function (E,D) {
@@ -76,10 +85,15 @@ function init () {
 	map.addLayer (tile);
 
 	var f = $('input[name=coords_file]').val ();
-
 	microAjax (f, function (res) { 
 		var feat = JSON.parse (res);
 		loadLayer (feat);
+	});
+	
+	var f = $('input[name=support_file]').val ();
+	microAjax (f, function (res) { 
+		var feat = JSON.parse (res);
+		loadSupportLayer (feat);
 	});
 }
 
@@ -92,6 +106,20 @@ function loadLayer(url) {
 		},
 		pointToLayer: function (feature, latlng) {
 			var marker = L.marker (latlng, {icon: new MapIcon()});
+			return marker;
+		}
+	}).addTo(map);
+}
+
+function loadSupportLayer(url) {
+	var myLayer = L.geoJson(url,{
+		onEachFeature: function onEachFeature(feature, layer) {
+			if (feature.properties) {
+				layer.bindPopup (feature.properties.details + "<br/>" + feature.properties.location + "<br/><a href='" + feature.properties.website + "'>Maggiori Dettagli</a>");
+			}
+		},
+		pointToLayer: function (feature, latlng) {
+			var marker = L.marker (latlng, {icon: new MapSupportIcon()});
 			return marker;
 		}
 	}).addTo(map);

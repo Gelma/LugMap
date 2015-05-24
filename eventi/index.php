@@ -26,13 +26,14 @@ lugheader ('Eventi',
 
 <input type="hidden" name="default_zoom" value="5" />
 <input type="hidden" name="coords_file" value="geoeventswrap.php" />
+<input type="hidden" name="support_file" value="support.json" />
 
 <div class="mapoverlay" style="left: 10px; padding: 10px;">
 	<p>
 		Quasi ogni giorno da qualche parte in Italia si svolge un incontro tra appassionati Linux: tutte occasioni per approfondire il tema, incontrare utenti esperti cui porre qualche domanda, e condividere il proprio interesse con altri.
 	</p>
 	<p>
-		In questa mappa sono indicizzati gli eventi per il prossimo futuro: dai una occhiata alla tua zona per sapere se è previsto un appuntamento, oppure immetti qui il tuo indirizzo mail e la provincia di residenza per essere notificato in occasione dei prossimi.
+		In questa mappa sono indicizzati gli eventi per il prossimo futuro (in nero) e gli sportelli di assistenza periodici (in verde): dai una occhiata alla tua zona per sapere se è previsto un appuntamento, oppure immetti qui il tuo indirizzo mail e la provincia di residenza per essere notificato in occasione dei prossimi.
 	</p>
 
 	<div class="events_subscribe">

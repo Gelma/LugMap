@@ -1,0 +1,125 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://informaticalibera.info/",
+				"location": "Casa del Quartiere, via Oddino Morgari 14, Torino",
+				"details": "Tutti i mercoledi, dalle 18:00 alle 20:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.67819,
+					45.05412
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.hcsslug.org/",
+				"location": "Università di Salerno, via Giovanni Paolo II 132, Fisciano",
+				"details": "Tutti i lunedi, dalle 10:00 alle 17:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.78969,
+					40.77446
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.gl-como.it/",
+				"location": "Circoscrizione 6, via Achille Grandi 21, Como",
+				"details": "Tutti i giovedi, dalle 21:30 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.08575,
+					45.80010
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.conoscerelinux.it/",
+				"location": "Strada Barchetta 77, Modena",
+				"details": "Tutti i martedi, dalle 21:00 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.89454,
+					44.65953
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.fsugpadova.org/associazione/turni-apertura/",
+				"location": "Comunità per le Libere Attività Culturali, Via Alvise Cornaro 1B, Padova",
+				"details": "Tutti i sabati, dalle 17:30 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.89365,
+					45.40409
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.govonis.org/index.php?option=com_content&view=article&id=94&Itemid=29",
+				"location": "Scuole Medie Valleggia, via Valletta di Vadone, Quiliano",
+				"details": "Tutti i giovedi, dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.42490,
+					44.28428
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://presence.hlcs.it/",
+				"location": "Università della Calabria, Cubo 22B, Rende",
+				"details": "Tutti i martedi, dalle 18:00 alle 00:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					16.22637,
+					39.36137
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.progettoradis.it/",
+				"location": "Centro Culturale San Secondo, Via Carducci 24, Asti",
+				"details": "Lunedi, mercoledi o venerdi dalle 10:00 alle 17:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.20320,
+					44.90044
+				]
+			}
+		}
+	]
+}
