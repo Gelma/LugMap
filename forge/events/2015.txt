@@ -1,6 +1,8 @@
 26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
+18/06||Perugia|Inizio Corso LibreOffice|http://www.perugiagnulug.org/corso-libreoffice-writer-giugno-2015
 11/06||Como|Serata systemd|http://www.gl-como.it/serata-su-systemd/
 10/06||Torino|Serata MicroTik|http://www.openlabto.org/mikrotik-e-routeros-apparati-evoluti-2
+30/05||Macomer|Seminario|http://www.gulmh.org/seminario-licenze
 28/05||Firenze|Incontro Tematico|http://www.liberainformatica.it/giovedi-28-maggio-lhardware-questo-sconosciuto/
 27/05||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-maggio-2015
 23/05||Napoli|Riunione Didattica|http://www.nalug.net/news-nalug/riunione-didattica-sabato-23-maggio
