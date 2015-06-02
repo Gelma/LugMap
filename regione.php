@@ -76,7 +76,7 @@ lugheader ($title);
 ?>
 
 <div id="center">
-  <h1 class="titoloregione"><?php echo substr($title, 8); print '&nbsp;<g:plusone size="small"></g:plusone>'; ?></h1>
+  <h1 class="titoloregione"><?php echo substr($title, 8) ?></h1>
   <p class="fromRegionLinks">
     <a href="/">&raquo; torna alla LugMap&nbsp;</a>
   </p>

@@ -83,10 +83,6 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
 
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-    {lang: 'it'}
-  </script>
-
   <?php
     if ($extracss != null)
       foreach ($extracss as $e) {
