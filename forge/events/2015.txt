@@ -2,6 +2,7 @@
 18/06||Perugia|Inizio Corso LibreOffice|http://www.perugiagnulug.org/corso-libreoffice-writer-giugno-2015
 11/06||Como|Serata systemd|http://www.gl-como.it/serata-su-systemd/
 10/06||Torino|Serata MicroTik|http://www.openlabto.org/mikrotik-e-routeros-apparati-evoluti-2
+04/06||Verona|Installazione SoDiLinux|http://www.lugverona.it/installazione-sodilinux-per-insegnanti/
 02/06||Bergamo|Incontro|http://bglug.it/2015/05/24/diciotto/
 30/05||Macomer|Seminario|http://www.gulmh.org/seminario-licenze
 28/05||Firenze|Incontro Tematico|http://www.liberainformatica.it/giovedi-28-maggio-lhardware-questo-sconosciuto/
