@@ -120,6 +120,36 @@
 					44.90044
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.raspibo.org/",
+				"location": "Makerspace, Via Canonica 18, Casalecchio di Reno",
+				"details": "Ogni secondo e quarto martedi del mese dalle 20:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.2876612,
+					44.4852623
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://ofpcina.net/",
+				"location": "RaccattaRAEE, Via Solferino 41, Bologna",
+				"details": "Ogni primo martedi e terzo lunedi del mese dalle 18:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.342198,
+					44.4878073
+				]
+			}
 		}
 	]
 }
