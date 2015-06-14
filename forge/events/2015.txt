@@ -1,5 +1,9 @@
 26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
+20/06||Pinerolo|Serata Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/199-incontro-arduino-7-05-2016
 18/06||Perugia|Inizio Corso LibreOffice|http://www.perugiagnulug.org/corso-libreoffice-writer-giugno-2015
+16/06||Vicenza|Serata VIM|http://vicenza.linux.it/node/199
+15/06||Cosenza|Kanban Pizza Game|http://hlcs.it/2015/06/14/kanban-pizza-game-leanagile-per-tutti/
+15/06||Catanzaro|Seminario Stampa 3D|http://hacklab.cz/2015/06/13/seminario-stampante-3d-tecnologia-e-prospettive-15-giugno
 14/06||Malnate|Fiera DES|http://social.gl-como.it/display/lifo/20167
 13/06|14/06|Godega|Fiera Elettronica|http://www.pnlug.it/2015/06/12/pn-lug-presente-alla-fiera-dellelettronica-e-del-radioamatore-di-godega/
 11/06||Como|Serata systemd|http://www.gl-como.it/serata-su-systemd/
