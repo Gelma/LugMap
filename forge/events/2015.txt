@@ -1,3 +1,4 @@
+30/06||Firenze|Incontro Bambini|http://www.liberainformatica.it/linews-n-15-giugno-2015/
 30/06||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-giugno-2015
 26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
 23/06||Cosenza|Introduzione Docker|http://hlcs.it/2015/06/18/introduzione-a-docker-tag-cs/
