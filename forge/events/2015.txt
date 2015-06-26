@@ -1,5 +1,7 @@
+30/06||Vicenza|Presentazione Fedora|http://vicenza.linux.it/node/200
 30/06||Firenze|Incontro Bambini|http://www.liberainformatica.it/linews-n-15-giugno-2015/
 30/06||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-giugno-2015
+27/06||Napoli|Incontro LinuxDay|http://www.nalug.net/news-nalug/riunione-associativa-sabato-27-giugno
 26/06|27/06|Ivrea|ConfSL|http://confsl.org/confsl15/
 23/06||Cosenza|Introduzione Docker|http://hlcs.it/2015/06/18/introduzione-a-docker-tag-cs/
 20/06||Pinerolo|Serata Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/199-incontro-arduino-7-05-2016
