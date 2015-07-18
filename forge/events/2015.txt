@@ -1,3 +1,4 @@
+18/07||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/201-incontro-arduino-7-05-2018
 18/07||Chions|Install Party|http://www.pnlug.it/2015/07/14/install-party-a-chions/
 12/07||Torino|Restart Party|http://informaticalibera.info/index.php?option=com_content&view=article&id=138:12-luglio-restart-party&catid=1:ultime
 09/07||Magione|Inizio Linux Summer|http://www.perugiagnulug.org/torna-la-linux-summer-4-serate-parlare-di-argomenti-interessanti-tema-floss
