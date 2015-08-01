@@ -1,4 +1,5 @@
 02/09|06/09|Venezia|ESC 2k15|http://www.carnialug.net/2015/07/esc-2k15/
+01/08|02/08|Bordano|Festa dell'Emigrante|http://www.carnialug.net/2015/08/1151/
 24/07||Cassano d'Adda|Serata ViGLug pre-pausa estiva|http://viglug.org/2015/07/23/due-eventi-speciali-per-salutarci-prima-della-pausa-estiva/
 18/07||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/201-incontro-arduino-7-05-2018
 18/07||Chions|Install Party|http://www.pnlug.it/2015/07/14/install-party-a-chions/
