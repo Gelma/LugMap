@@ -1,6 +1,8 @@
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
 19/09|20/09|Como|L'Isola Che C'è|http://www.gl-como.it/v2015/prossimi-eventi/
 12/09||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-terza-edizione-2015-openstreetmap/
+09/09||Pescara|Nuova Sede|http://www.pescaralug.org/2015/09/04/nuova-sede.html
+09/09||Pisa|Seminario Go|http://www.gulp.linux.it/2015/09/03/seminari-liberi-del-gulp-2015-16-23-settembre/
 08/09||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-settembre-2015
 05/09||Chions|Install Party|http://www.pnlug.it/2015/09/02/un-install-party-per-aiutare-la-scuola-primaria-di-villotta-di-chions/
 05/09||Firenze|Restart Party|http://www.liberainformatica.it/linews-numero-16-settembre-2015/
