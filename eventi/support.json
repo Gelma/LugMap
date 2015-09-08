@@ -150,6 +150,21 @@
 					44.4878073
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.montellug.it/",
+				"location": "Casa del Volontariato, via Dante Alighieri, Montebelluna",
+				"details": "Ogni secondo mercoledi e quarto venerdi del mese dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0457911,
+					45.7746106
+				]
+			}
 		}
 	]
 }
