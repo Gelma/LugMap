@@ -165,6 +165,21 @@
 					45.7746106
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.pescaralug.org/",
+				"location": "Spazio Più, via del Santuario 156, Pescara",
+				"details": "Tutti i mercoledi, dalle 21:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					14.1949459,
+					42.4717593
+				]
+			}
 		}
 	]
 }
