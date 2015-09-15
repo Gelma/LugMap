@@ -1,6 +1,8 @@
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
 06/10||Cosenza|Corso Advanced Networking|http://hlcs.it/2015/09/09/corso-di-advanced-networking-2016-aperte-le-iscrizioni/
+26/09||Fabriano|Workshop|http://pdp.linux.it/news/658/la-comunita-mozilla-a-fabriano-per-un-workshop-su-firefox-os-e-arduino/
 19/09|20/09|Como|L'Isola Che C'è|http://www.gl-como.it/v2015/prossimi-eventi/
+15/09||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=141:incontro-&lang=it
 13/09||Montesilvano|Adriatic Model Show|http://www.pescaralug.org/2015/09/09/adriatic-model-show.html
 12/09||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-terza-edizione-2015-openstreetmap/
 09/09||Pescara|Nuova Sede|http://www.pescaralug.org/2015/09/04/nuova-sede.html
