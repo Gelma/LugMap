@@ -180,6 +180,21 @@
 					42.4717593
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.perugiagnulug.org/",
+				"location": "Società Operaia di Mutuo Soccorso, Piazza Matteotti Giacomo 14, Magione",
+				"details": "Giovedi dalle 21:00, sabato dalle 15:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.204124,
+					43.142542
+				]
+			}
 		}
 	]
 }
