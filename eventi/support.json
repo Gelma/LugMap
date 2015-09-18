@@ -195,6 +195,21 @@
 					43.142542
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.avilug.it/doku.php/officina_linux",
+				"location": "Palazzo Fogazzaro, via Pasini 46, Schio",
+				"details": "Tutti i martedi dalle 20:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.35650,
+					45.71307
+				]
+			}
 		}
 	]
 }
