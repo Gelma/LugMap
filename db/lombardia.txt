@@ -18,7 +18,8 @@ Milano|POuL|Milano|http://www.poul.org/|qnavryrvnznegvab@tznvy.pbz
 Milano|Scuola Open Source "Ludovico Radice Fossati"|Milano e provincia|http://blogsiam1838.blogspot.it/|y.fpvnthen@fvnz1838.vg
 Milano|ViGLug|Vignate, Milano Est - Adda Martesana|http://viglug.org/|sencu24@tznvy.pbz
 Monza e Brianza|ADMT|Vimercate|http://admt.org/lug/|tvhfrccr.vamntuv@tznvy.pbz|
-Monza|MoBLUG|Monza e Brianza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|vasb@ohooyrfsnpgbel.vg|2098656817
+Monza e Brianza|BrigX|Bernareggio|http://brigx.it/|vasb@oevtk.vg
+Monza e Brianza|MoBLUG|Monza|http://it-it.facebook.com/pages/MoBLUG-Monza-e-Brianza-Linux-Group/195366463068?sk=info|vasb@ohooyrfsnpgbel.vg|2098656817
 Pavia|LUGDucale|Vigevano|http://www.lugducale.it/|sherfgr@tznvy.pbz|2098656769
 Pavia|Ohosys.org|Verretto|http://www.ohosys.org/|jbysbxngne@tznvy.pbz
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|yhpn.crerapva@tznvy.pbz
