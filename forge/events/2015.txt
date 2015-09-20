@@ -2,9 +2,11 @@
 06/10||Cosenza|Corso Advanced Networking|http://hlcs.it/2015/09/09/corso-di-advanced-networking-2016-aperte-le-iscrizioni/
 28/09||Cagliari|Seminario Big Data|http://www.gulch.it/node/108
 26/09||Fabriano|Workshop|http://pdp.linux.it/news/658/la-comunita-mozilla-a-fabriano-per-un-workshop-su-firefox-os-e-arduino/
+25/09||Catanzaro|Corso Stampa 3D|http://hacklab.cz/2015/09/20/corso-stampante-3d-costruiscila-insieme-noi
 25/09||Montebelluna|Corso Python|http://www.montellug.it/corso-python-3/864
 19/09||Magione|Software Freedom Day|http://www.perugiagnulug.org/software-freedom-day-2015
 19/09|20/09|Como|L'Isola Che C'è|http://www.gl-como.it/v2015/prossimi-eventi/
+17/10|18/10|Somma Lombardo|Corso Droni|http://www.gullp.it/2015/09/17/corso-droni-sabato-17-e-domenica-18-ottobre-2015/
 15/09||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=141:incontro-&lang=it
 13/09||Montesilvano|Adriatic Model Show|http://www.pescaralug.org/2015/09/09/adriatic-model-show.html
 12/09||Mozzecane|Mapping Party|http://linuxludus.it/mappiamo-mozzecane-terza-edizione-2015-openstreetmap/
