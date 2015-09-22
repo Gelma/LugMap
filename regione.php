@@ -61,7 +61,9 @@ if (ereg('index\.php$', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php
     $db_regione = array ();
 
     foreach (glob ('./db/*.txt') as $db_file)
+      if (!is_link($db_file)) {
       $db_regione = array_merge ($db_regione, file ($db_file));
+      }
 
     sort ($db_regione);
 
