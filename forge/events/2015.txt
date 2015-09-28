@@ -1,6 +1,7 @@
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
 11/10||Firenze|Restart Party|http://www.liberainformatica.it/domenica-11-ottobrerestart-party-alla-polveriera-a-santapollonia/
 06/10||Cosenza|Corso Advanced Networking|http://hlcs.it/2015/09/09/corso-di-advanced-networking-2016-aperte-le-iscrizioni/
+02/10|04/10|Bastia Umbra|"Fa La Cose Giusta"|http://www.perugiagnulug.org/fa-la-cosa-giusta-umbria-2015
 28/09||Cagliari|Seminario Big Data|http://www.gulch.it/node/108
 26/09||Fabriano|Workshop|http://pdp.linux.it/news/658/la-comunita-mozilla-a-fabriano-per-un-workshop-su-firefox-os-e-arduino/
 25/09||Cosenza|Notte dei Ricercatori|http://hlcs.it/2015/09/24/hlcs-open-night-notte-dei-ricercatori-2015/
