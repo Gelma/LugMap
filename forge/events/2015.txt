@@ -4,6 +4,7 @@
 10/10||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/207-incontro-arduino-12-09-2017
 06/10||Cosenza|Corso Advanced Networking|http://hlcs.it/2015/09/09/corso-di-advanced-networking-2016-aperte-le-iscrizioni/
 03/10||Firenze|"Campus Innovazione"|http://www.liberainformatica.it/sabato-3-ottobre-ospiti-del-campus-innovazione/
+02/10||Crema|Devuan Q/A|http://filibusta.crema.unimi.it/2015/09/filibusta-lug-20152016-devuan-qa/
 02/10|04/10|Bastia Umbra|"Fa La Cose Giusta"|http://www.perugiagnulug.org/fa-la-cosa-giusta-umbria-2015
 28/09||Cagliari|Seminario Big Data|http://www.gulch.it/node/108
 26/09||Fabriano|Workshop|http://pdp.linux.it/news/658/la-comunita-mozilla-a-fabriano-per-un-workshop-su-firefox-os-e-arduino/
