@@ -1,5 +1,9 @@
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
+23/10|25/10|Trento|"Fa la Cosa Giusta"|http://www.linuxtrent.it/f%C3%A0-la-cosa-giusta-e-linuxday-2015
+17/10||Vigevano|CoderDojo|http://www.lugducale.it/index.php?option=com_content&view=article&id=65:coderdojo-si-riparte&catid=25&Itemid=154
 15/10||Milano|Inizio Corso Linux Base|https://www.poul.org/2015/09/corsi-linux-base-2015/
+14/10||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-ottobre-15
+13/10||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=143:incontro-&lang=it
 11/10||Firenze|Restart Party|http://www.liberainformatica.it/domenica-11-ottobrerestart-party-alla-polveriera-a-santapollonia/
 10/10||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/207-incontro-arduino-12-09-2017
 06/10||Cosenza|Corso Advanced Networking|http://hlcs.it/2015/09/09/corso-di-advanced-networking-2016-aperte-le-iscrizioni/
