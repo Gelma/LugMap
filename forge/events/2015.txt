@@ -2,6 +2,8 @@
 23/10|25/10|Trento|"Fa la Cosa Giusta"|http://www.linuxtrent.it/f%C3%A0-la-cosa-giusta-e-linuxday-2015
 17/10||Vigevano|CoderDojo|http://www.lugducale.it/index.php?option=com_content&view=article&id=65:coderdojo-si-riparte&catid=25&Itemid=154
 15/10||Milano|Inizio Corso Linux Base|https://www.poul.org/2015/09/corsi-linux-base-2015/
+14/10||Venezia|Serata Zabbix|http://www.velug.it/index.php/17-eventi/62-talk-su-zabbix.html
+14/10||Pisa|Seminario Sicurezza|http://www.gulp.linux.it/2015/10/12/seminari-liberi-del-gulp-14-10-2015-sicurezza/
 14/10||Magione|Linux Night|http://www.perugiagnulug.org/linux-night-ottobre-15
 13/10||Ivrea|Incontro|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=143:incontro-&lang=it
 11/10||Firenze|Restart Party|http://www.liberainformatica.it/domenica-11-ottobrerestart-party-alla-polveriera-a-santapollonia/
