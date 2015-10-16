@@ -1,6 +1,11 @@
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
+31/10||Milano|Restart Party|http://www.pcofficina.org/unassemblea-ricostitutiva-e-un-restart-party-novita-in-pcofficina/
+30/10||Volta Mantovana|Mapping Party|http://linuxludus.it/mapping-party-volta-mantovana-openstreetmap/
 23/10|25/10|Trento|"Fa la Cosa Giusta"|http://www.linuxtrent.it/f%C3%A0-la-cosa-giusta-e-linuxday-2015
 17/10||Vigevano|CoderDojo|http://www.lugducale.it/index.php?option=com_content&view=article&id=65:coderdojo-si-riparte&catid=25&Itemid=154
+16/10|18/10|Roma|Maker Faire Europe|http://crunchlab.org/maker-faire-europe-2/
+16/10||Caserta|Campus di Informatica|http://www.lugcaserta.it/16-ottobre-italo-vignoli-e-fausto-napolitano-al-liceo-manzoni/
+15/10||Cosenza|Aperinetwork|http://hlcs.it/2015/10/14/ibm-day-aperinetwork-tag-cs/
 15/10||Milano|Inizio Corso Linux Base|https://www.poul.org/2015/09/corsi-linux-base-2015/
 14/10||Venezia|Serata Zabbix|http://www.velug.it/index.php/17-eventi/62-talk-su-zabbix.html
 14/10||Pisa|Seminario Sicurezza|http://www.gulp.linux.it/2015/10/12/seminari-liberi-del-gulp-14-10-2015-sicurezza/
