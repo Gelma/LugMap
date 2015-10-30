@@ -1,6 +1,9 @@
 18/11||Venezia|Talk Samba 4|http://www.velug.it/index.php/13-presentazione/65-talk-su-samba-4.html
+14/11|15/11|Rimini|Rimini Mini Maker Faire|http://www.riminilug.it/tiki-read_article.php?articleId=368
 12/11||Milano|Workshop Stampa 3D|https://www.poul.org/2015/10/3d-printing-workshop/
+11/11||Pisa|Seminario Terminale|http://www.gulp.linux.it/2015/10/28/seminario-introduzione-alluso-del-terminale/
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
+03/11||Rovereto|Serata NAS|http://www.linuxtrent.it/serate-tema-su-rasberry-sportello-linux-di-rovereto
 31/10||Milano|Restart Party|http://www.pcofficina.org/unassemblea-ricostitutiva-e-un-restart-party-novita-in-pcofficina/
 30/10||Volta Mantovana|Mapping Party|http://linuxludus.it/mapping-party-volta-mantovana-openstreetmap/
 23/10|25/10|Trento|"Fa la Cosa Giusta"|http://www.linuxtrent.it/f%C3%A0-la-cosa-giusta-e-linuxday-2015
