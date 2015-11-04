@@ -1,9 +1,12 @@
 18/11||Venezia|Talk Samba 4|http://www.velug.it/index.php/13-presentazione/65-talk-su-samba-4.html
 14/11|15/11|Rimini|Rimini Mini Maker Faire|http://www.riminilug.it/tiki-read_article.php?articleId=368
+12/11||Gualdo di Voghiera|Introduzione Arduino|http://www.ferrara.linux.it/2-in-evidenza/49-introduzione-ad-arduino-c
 12/11||Milano|Workshop Stampa 3D|https://www.poul.org/2015/10/3d-printing-workshop/
 11/11||Bassano del Grappa|Presentazione Nvidia Jetson|http://grappalug.org/2015/10/31/serata-conoscitiva-su-nvidia-jetson-tk1/
 11/11||Pisa|Seminario Terminale|http://www.gulp.linux.it/2015/10/28/seminario-introduzione-alluso-del-terminale/
 11/11||Milano|Festival ICT|http://www.sabazialug.org/2015/08/festival-ict-2015-il-sabazialug-partecipera-allarena/
+10/11||Rimini|Corso Fotografia|http://www.riminilug.it/tiki-read_article.php?articleId=369
+10/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-2015
 07/11||Empoli|CoderDojo|http://golem.linux.it/wp/2015/11/coderdojo-empoli/
 07/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/210-incontro-arduino-12-09-2019
 03/11||Rovereto|Serata NAS|http://www.linuxtrent.it/serate-tema-su-rasberry-sportello-linux-di-rovereto
