@@ -9,6 +9,7 @@
 10/11||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-novembre-2015
 07/11||Empoli|CoderDojo|http://golem.linux.it/wp/2015/11/coderdojo-empoli/
 07/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/210-incontro-arduino-12-09-2019
+06/11||Forlì|Incontro|http://www.folug.org/2015/11/05/incontro-venerdi-6-novembre-15/
 03/11||Rovereto|Serata NAS|http://www.linuxtrent.it/serate-tema-su-rasberry-sportello-linux-di-rovereto
 02/11||Vicenza|Presentazione Volumio|http://vicenza.linux.it/node/219
 31/10||Milano|Restart Party|http://www.pcofficina.org/unassemblea-ricostitutiva-e-un-restart-party-novita-in-pcofficina/
