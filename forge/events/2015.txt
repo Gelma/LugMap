@@ -1,6 +1,8 @@
+09/12||Ivrea|Introduzione all'Etica Informatica|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=145:presentazione-di-norberto-patrignani-&lang=it
 03/12||Pergine|Corso Docker|http://www.linuxtrent.it/corso-docker
 21/11||Sommacampagna|Seminario Resistenza Digitale|http://www.officina-s3.org/?p=3348
 18/11||Venezia|Talk Samba 4|http://www.velug.it/index.php/13-presentazione/65-talk-su-samba-4.html
+14/11||Padova|Seminario Python|http://www.fsugpadova.org/corsoseminario-su-python3/
 14/11||Trevignano|CoderDojo|http://www.montellug.it/coderdojo-14-novembre-2015-biblioteca-di-trevignano/885
 14/11|15/11|Rimini|Rimini Mini Maker Faire|http://www.riminilug.it/tiki-read_article.php?articleId=368
 12/11||Gualdo di Voghiera|Introduzione Arduino|http://www.ferrara.linux.it/2-in-evidenza/49-introduzione-ad-arduino-c
