@@ -1,6 +1,8 @@
 09/12||Ivrea|Introduzione all'Etica Informatica|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=145:presentazione-di-norberto-patrignani-&lang=it
 03/12||Pergine|Corso Docker|http://www.linuxtrent.it/corso-docker
+28/11|29/11|Pescara|Fiera Elettronica|http://www.pescaralug.org/2015/11/16/fiera_ibisco_novembre.html
 24/11||Cosenza|Inizio Corso Architettura|http://www.verdebinario.org/index.php?option=com_content&task=view&id=190&Itemid=0
+23/11||Cosenza|Corso Musica 8bit|http://hlcs.it/2015/11/16/corso-chiptune-lsdj-componi-musica-8-bit/
 21/11||Abbiategrasso|CoderDojo|http://www.lugducale.it/index.php?option=com_content&view=article&id=69:coderdojovigevano-coding-school&catid=25&Itemid=154
 21/11||Sommacampagna|Seminario Resistenza Digitale|http://www.officina-s3.org/?p=3348
 19/11||Mori|Incontro|http://www.linuxtrent.it/informatica-sostenibile-software-libero-e-diritti-digitali
