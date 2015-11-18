@@ -1,11 +1,14 @@
 09/12||Ivrea|Introduzione all'Etica Informatica|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=145:presentazione-di-norberto-patrignani-&lang=it
 03/12||Pergine|Corso Docker|http://www.linuxtrent.it/corso-docker
+28/11||Pordenone|OpenSourceDay|http://www.pnlug.it/2015/11/18/open-source-day-2015/
 28/11|29/11|Pescara|Fiera Elettronica|http://www.pescaralug.org/2015/11/16/fiera_ibisco_novembre.html
 24/11||Cosenza|Inizio Corso Architettura|http://www.verdebinario.org/index.php?option=com_content&task=view&id=190&Itemid=0
 23/11||Cosenza|Corso Musica 8bit|http://hlcs.it/2015/11/16/corso-chiptune-lsdj-componi-musica-8-bit/
+21/11|22/11|Pordenone|Radioamatore2|http://crunchlab.org/radioamatore2-2015/
 21/11||Abbiategrasso|CoderDojo|http://www.lugducale.it/index.php?option=com_content&view=article&id=69:coderdojovigevano-coding-school&catid=25&Itemid=154
 21/11||Sommacampagna|Seminario Resistenza Digitale|http://www.officina-s3.org/?p=3348
 19/11||Mori|Incontro|http://www.linuxtrent.it/informatica-sostenibile-software-libero-e-diritti-digitali
+18/11||Pordenone|Inizio Corso Networking|http://www.pnlug.it/2015/11/18/corso-introduttivo-di-networking/
 18/11||Venezia|Talk Samba 4|http://www.velug.it/index.php/13-presentazione/65-talk-su-samba-4.html
 14/11||Padova|Seminario Python|http://www.fsugpadova.org/corsoseminario-su-python3/
 14/11||Trevignano|CoderDojo|http://www.montellug.it/coderdojo-14-novembre-2015-biblioteca-di-trevignano/885
