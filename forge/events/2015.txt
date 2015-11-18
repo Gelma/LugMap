@@ -7,6 +7,7 @@
 21/11|22/11|Pordenone|Radioamatore2|http://crunchlab.org/radioamatore2-2015/
 21/11||Abbiategrasso|CoderDojo|http://www.lugducale.it/index.php?option=com_content&view=article&id=69:coderdojovigevano-coding-school&catid=25&Itemid=154
 21/11||Sommacampagna|Seminario Resistenza Digitale|http://www.officina-s3.org/?p=3348
+20/11||Vecchiazzano|Corso Installazione Mint|http://www.folug.org/2015/11/17/corso-installazione-distribuzione-mint/
 19/11||Mori|Incontro|http://www.linuxtrent.it/informatica-sostenibile-software-libero-e-diritti-digitali
 18/11||Pordenone|Inizio Corso Networking|http://www.pnlug.it/2015/11/18/corso-introduttivo-di-networking/
 18/11||Venezia|Talk Samba 4|http://www.velug.it/index.php/13-presentazione/65-talk-su-samba-4.html
