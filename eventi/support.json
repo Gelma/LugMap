@@ -210,6 +210,51 @@
 					45.71307
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.linuxtrent.it/iniziative/sportello-linux/trento",
+				"location": "Biblioteca Centrale, via Roma 55, Trento",
+				"details": "Tutti i martedi dalle 17:45 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.12089,
+					46.06976
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.linuxtrent.it/iniziative/sportello-linux/rovereto",
+				"location": "Biblioteca Civica, Corso Angelo Bettini 43, Rovereto",
+				"details": "Ogni primo martedi del mese dalle 18:00 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.04369,
+					45.89405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.linuxtrent.it/iniziative/sportello-linux/ala",
+				"location": "Biblioteca, via Roma 40, Ala",
+				"details": "Ogni primo giovedi del mese dalle 17:00 alle 18:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.00565,
+					45.75658
+				]
+			}
 		}
 	]
 }
