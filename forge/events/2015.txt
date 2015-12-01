@@ -3,8 +3,11 @@
 11/12|12/12|Milano|Arduino Hackaton|https://www.poul.org/2015/11/arduino-hackaton/
 11/12||Quiliano|Serata OpenStreetMap|http://www.govonis.org/index.php?option=com_content&view=article&id=159:serata-openstreetmap-11-dicembre&catid=4:appuntamenti&Itemid=9
 09/12||Ivrea|Introduzione all'Etica Informatica|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=145:presentazione-di-norberto-patrignani-&lang=it
+05/12|06/12|Forlì|Expo Elettronica|http://www.folug.org/2015/12/01/folug-allexpo-elettronica-forli-il-5-6-dicembre/
 05/12||Merano|Workshop BSD|http://www.lugbz.org/news-categories/events/The_BSD_Workshop_2015
 03/12||Pergine|Corso Docker|http://www.linuxtrent.it/corso-docker
+01/12||Vicenza|Presentazione BeagleBoard|http://vicenza.linux.it/node/223
+30/11||Mozzecane|Serata Kernel|http://linuxludus.it/magic-keys-linux/
 28/11||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/211-incontro-arduino-12-09-2020
 28/11||Pordenone|OpenSourceDay|http://www.pnlug.it/2015/11/18/open-source-day-2015/
 28/11|29/11|Milano|Giacimenti Urbani|http://www.pcofficina.org/sabato-28-e-domeni-29-pcofficina-sara-a-giacimenti-urbani-2015/
