@@ -6,6 +6,7 @@
 12/12||San Marco dei Cavoti|CoderDojo|http://www.lilis.it/comunicati/coderdojo-a-san-marco-dei-cavoti/
 12/12||Caserta|Install Party|http://www.lugmanzoni.it/?p=497
 12/12||Trevignano|CoderDojo|http://www.montellug.it/coderdojo-12-dicembre-biblioteca-di-trevignano/890
+11/12||Forlì|Serata Pen Test|http://www.folug.org/2015/12/06/serate-l-folug-il-pen-test-con-backbox-linux/
 11/12||Bolzano|Workshop Cyber Security|http://www.lugbz.org/news-categories/events/Cyber_Security_e_sicurezza_delle_informazioni_per_PMI_e_professionisti
 11/12|12/12|Milano|Arduino Hackaton|https://www.poul.org/2015/11/arduino-hackaton/
 11/12||Quiliano|Serata OpenStreetMap|http://www.govonis.org/index.php?option=com_content&view=article&id=159:serata-openstreetmap-11-dicembre&catid=4:appuntamenti&Itemid=9
