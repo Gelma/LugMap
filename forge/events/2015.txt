@@ -1,4 +1,6 @@
+22/12||Torri di Quartesolo|Auguri Natalizi|http://vicenza.linux.it/node/224
 20/12||Pescara|Festa Fine Anno|http://www.pescaralug.org/2015/12/04/facciamo-festa/
+19/12||Empoli|CoderDojo|http://golem.linux.it/wp/2015/12/coderdojo-empoli-2/
 19/12|20/12|Venezia|Fiera Elettronica|http://www.velug.it/index.php/fiera-elettronica-venezia.html
 19/12|20/12|Santa Lucia di Piave|Fiera Elettronica|http://www.pnlug.it/2015/11/24/fiera-elettronica-e-radioamatore-di-s-lucia-di-piave/
 17/12||Bassano del Grappa|Riunione Fine Anno|http://grappalug.org/2015/12/15/spostamento-del-giorno-per-le-riunioni-settimanali-e-festa-di-fine-anno/
