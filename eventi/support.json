@@ -255,6 +255,21 @@
 					45.75658
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://grappalug.org/dove-siamo/",
+				"location": "Centro Giovanile, Piazzale Cadorna 34/A, Bassano del Grappa",
+				"details": "Tutti i giovedi dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.73438,
+					45.76285
+				]
+			}
 		}
 	]
 }
