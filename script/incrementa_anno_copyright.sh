@@ -13,4 +13,4 @@ repo_locale=$(git rev-parse --show-cdup)
 [ "$repo_locale" = "" ] && repo_locale="." # sono nella root del repo
 /bin/cp -af "$repo_locale" "$dir_backup_prima_di_aggiornamento"
 
-/usr/bin/find -type f | /bin/egrep '(.py|.html|.txt|.php)$' | /usr/bin/xargs /bin/grep -il 'Copyright 2010-2014' | /usr/bin/xargs /bin/sed -i 's/Copyright 2010-2014/Copyright 2010-2015/g'
+/usr/bin/find -type f | /bin/egrep '(.py|.html|.txt|.php)$' | /usr/bin/xargs /bin/grep -il 'Copyright 2010-2015' | /usr/bin/xargs /bin/sed -i 's/Copyright 2010-2015/Copyright 2010-2016/g'
