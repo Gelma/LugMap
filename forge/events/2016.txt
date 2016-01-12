@@ -1,6 +1,9 @@
+26/01||Rimini|Corso Fotografia Linux|http://www.riminilug.it/tiki-read_article.php?articleId=369
 20/01||Sommacampagna|Corso Smonta e Rimonta|http://www.officina-s3.org/?p=3410
+19/01||Firenze|Incontro Android|http://www.liberainformatica.it/martedi-19-gennaio-il-primo-bit-2016-su-android/
 19/01||Lamezia Terme|Ninux Bootstrap|http://hlcs.it/2016/01/11/ninux-lamezia-bootstrap/
 18/01||Grezzano|Festa Wikipedia|http://linuxludus.it/wikipedia-compie-15-anni/
+16/01||Trevignano|CoderDojo|http://www.montellug.it/coderdojo-16-gennaio-bibliotecatrevignano/894
 15/01||Trento|Festa Wikipedia|http://www.lugbz.org/news-categories/events/Wikipedia_compie_15_anni
 15/01||Pergine|Serata OpenStreetMap|http://www.linuxtrent.it/serata-openstreetmap
 12/01||Trento|IoT Workshop|http://www.lugbz.org/news-categories/events/Internet_of_Things_e_OSS_Workshop
