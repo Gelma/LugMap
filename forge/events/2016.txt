@@ -1,5 +1,7 @@
 19/03||Cagliari|Convegno|http://www.gulch.it/node/112
+27/02||Chions|Inizio Corso Amministratore Debian|http://www.pnlug.it/2016/01/22/corso-base-amministratori-sistema/
 24/02||Empoli|Inizio Corso Amministratore Linux|http://golem.linux.it/wp/2016/01/corso-amministratore-linux-2016/
+13/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/217-incontro-arduino-12-09-2022
 30/01||Borgomanero|Incontro|http://www.jetlug.it/2016/01/14/nuovo-evento-fissato-per-il-30-gennaio/
 26/01||Rimini|Corso Fotografia Linux|http://www.riminilug.it/tiki-read_article.php?articleId=369
 23/01||Vercelli|Convegno|http://panissalug.org/content/convegno-sul-software-libero-nella-pa
