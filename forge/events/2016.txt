@@ -4,7 +4,7 @@
 24/02||Empoli|Inizio Corso Amministratore Linux|http://golem.linux.it/wp/2016/01/corso-amministratore-linux-2016/
 20/02||Pordenone|Open Design Conference|http://wiki.pnlug.it/index.php?title=Open_Design_Conference
 13/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/217-incontro-arduino-12-09-2022
-11/02||Workshop Arduino|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=148:workshop-arduino&lang=it
+11/02||Ivrea|Workshop Arduino|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=148:workshop-arduino&lang=it
 03/02||Pisa|Inizio Seminari|http://www.gulp.linux.it/2016/01/26/seminario-liberi-del-gulp-2016/
 02/02||Vicenza|Seminario OpenStreetMap|http://vicenza.linux.it/node/228
 02/02||Rovereto|Seminario ePub|http://www.linuxtrent.it/seminario-base-epub-rovereto
