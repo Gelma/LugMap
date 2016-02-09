@@ -1,5 +1,6 @@
 19/03||Cagliari|Convegno|http://www.gulch.it/node/112
 09/03||Roma|Forum Industria Software Libero|http://www.industriasoftwarelibero.it/secondo-forum-dellindustria-italiana-del-software-libero/
+03/03||Pisa|Inizio Corso Sicurezza|http://www.gulp.linux.it/2016/02/09/corso-di-monitoraggio-traffico-e-sicurezza-di-rete/
 03/03||Venezia|Inizio Corso Base|http://www.velug.it/index.php/corsi/68-inizia-il-corso-base-di-linux-2016.html
 27/02||Chions|Inizio Corso Amministratore Debian|http://www.pnlug.it/2016/01/22/corso-base-amministratori-sistema/
 24/02||Firenze|Incontro Privacy|http://www.liberainformatica.it/i-prossimi-bit-brevi-incontri-tematici/
@@ -7,6 +8,7 @@
 20/02||Pordenone|Open Design Conference|http://wiki.pnlug.it/index.php?title=Open_Design_Conference
 17/02||Vimercate|Presentazione Corsi|http://admt.org/vimelug/index.php/81-eventi/90-presentazione-corsi-2016
 13/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/217-incontro-arduino-12-09-2022
+11/02||Quiliano|Incontro|http://www.govonis.org/index.php?option=com_content&view=article&id=160:incontri-del-giovedi-sera&catid=4:appuntamenti&Itemid=9
 11/02||Ivrea|Workshop Arduino|http://accademialibera.altervista.org/index.php?option=com_content&view=article&id=148:workshop-arduino&lang=it
 05/02||Forlì|Serata Bash|http://www.folug.org/2016/02/04/terza-e-ultima-serata-sulla-bash/
 03/02||Pisa|Inizio Seminari|http://www.gulp.linux.it/2016/01/26/seminario-liberi-del-gulp-2016/
