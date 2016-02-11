@@ -6,6 +6,8 @@
 24/02||Firenze|Incontro Privacy|http://www.liberainformatica.it/i-prossimi-bit-brevi-incontri-tematici/
 24/02||Empoli|Inizio Corso Amministratore Linux|http://golem.linux.it/wp/2016/01/corso-amministratore-linux-2016/
 20/02||Pordenone|Open Design Conference|http://wiki.pnlug.it/index.php?title=Open_Design_Conference
+19/02||Lazise|Incontro Trashware|http://www.officina-s3.org/?p=3483
+18/02||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-febbraio-16
 17/02||Vimercate|Presentazione Corsi|http://admt.org/vimelug/index.php/81-eventi/90-presentazione-corsi-2016
 13/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/217-incontro-arduino-12-09-2022
 11/02||Quiliano|Incontro|http://www.govonis.org/index.php?option=com_content&view=article&id=160:incontri-del-giovedi-sera&catid=4:appuntamenti&Itemid=9
