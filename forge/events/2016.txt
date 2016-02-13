@@ -1,5 +1,6 @@
 19/03||Cagliari|Convegno|http://www.gulch.it/node/112
 09/03||Roma|Forum Industria Software Libero|http://www.industriasoftwarelibero.it/secondo-forum-dellindustria-italiana-del-software-libero/
+08/03||Magione|Corso Terminale|http://www.perugiagnulug.org/aperte-le-iscrizioni-al-corso-sull-utilizzo-del-terminale
 03/03||Pisa|Inizio Corso Sicurezza|http://www.gulp.linux.it/2016/02/09/corso-di-monitoraggio-traffico-e-sicurezza-di-rete/
 03/03||Venezia|Inizio Corso Base|http://www.velug.it/index.php/corsi/68-inizia-il-corso-base-di-linux-2016.html
 27/02||Chions|Inizio Corso Amministratore Debian|http://www.pnlug.it/2016/01/22/corso-base-amministratori-sistema/
@@ -9,6 +10,8 @@
 19/02||Lazise|Incontro Trashware|http://www.officina-s3.org/?p=3483
 18/02||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-febbraio-16
 17/02||Vimercate|Presentazione Corsi|http://admt.org/vimelug/index.php/81-eventi/90-presentazione-corsi-2016
+16/02||Torri di Quartesolo|http://vicenza.linux.it/node/233
+15/02||Ala|Inizio Corso|http://www.linuxtrent.it/corso-di-5-serate-su-linux-e-i-software-liberi-presso-lo-sportello-linux-di-ala
 13/02||Todi|Innovazione Digitale|http://www.perugiagnulug.org/innovazione-digitale-e-agri-food-appuntamento-todi-il-13-febbraio
 13/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/217-incontro-arduino-12-09-2022
 11/02||Castelfranco Veneto|Inizio Corso Python|http://www.montellug.it/corso-python-fablab-castelfranco-veneto/899
