@@ -3,6 +3,7 @@
 08/03||Magione|Corso Terminale|http://www.perugiagnulug.org/aperte-le-iscrizioni-al-corso-sull-utilizzo-del-terminale
 03/03||Pisa|Inizio Corso Sicurezza|http://www.gulp.linux.it/2016/02/09/corso-di-monitoraggio-traffico-e-sicurezza-di-rete/
 03/03||Venezia|Inizio Corso Base|http://www.velug.it/index.php/corsi/68-inizia-il-corso-base-di-linux-2016.html
+27/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/218-incontro-arduino-12-09-2023
 27/02||Chions|Inizio Corso Amministratore Debian|http://www.pnlug.it/2016/01/22/corso-base-amministratori-sistema/
 24/02||Firenze|Incontro Privacy|http://www.liberainformatica.it/i-prossimi-bit-brevi-incontri-tematici/
 24/02||Empoli|Inizio Corso Amministratore Linux|http://golem.linux.it/wp/2016/01/corso-amministratore-linux-2016/
