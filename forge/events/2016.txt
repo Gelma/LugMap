@@ -1,7 +1,10 @@
+09/04||Pinerolo|Corso IoT|http://www.softwareliberopinerolo.org/arduino/219-corso-arduino-esp-internet-of-things-fai-da-te
 20/03||Milano|Fa' La Cosa Giusta|http://www.pcofficina.org/pcofficina-sbarca-a-fa-la-cosa-giusta-il-20-marzo-2016/
 19/03||Cagliari|Convegno|http://www.gulch.it/node/112
+10/03|11/03|Milano|Sicurezza e Privacy|https://www.poul.org/2016/02/conferenza-sicurezza-e-privacy-2016/
 09/03||Roma|Forum Industria Software Libero|http://www.industriasoftwarelibero.it/secondo-forum-dellindustria-italiana-del-software-libero/
 08/03||Magione|Corso Terminale|http://www.perugiagnulug.org/aperte-le-iscrizioni-al-corso-sull-utilizzo-del-terminale
+05/03|06/03|Somma Lombardo|Corso Droni|http://www.gullp.it/2016/02/24/corso-droni-marzo-2016/
 03/03||Pisa|Inizio Corso Sicurezza|http://www.gulp.linux.it/2016/02/09/corso-di-monitoraggio-traffico-e-sicurezza-di-rete/
 03/03||Venezia|Inizio Corso Base|http://www.velug.it/index.php/corsi/68-inizia-il-corso-base-di-linux-2016.html
 27/02||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/218-incontro-arduino-12-09-2023
