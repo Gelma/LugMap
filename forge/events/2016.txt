@@ -1,8 +1,13 @@
 09/04||Pinerolo|Corso IoT|http://www.softwareliberopinerolo.org/arduino/219-corso-arduino-esp-internet-of-things-fai-da-te
 20/03||Milano|Fa' La Cosa Giusta|http://www.pcofficina.org/pcofficina-sbarca-a-fa-la-cosa-giusta-il-20-marzo-2016/
+19/03||Catanzaro|Corso Elettrotecnica|http://hacklab.cz/2016/03/07/corso-di-elettrotecnica
 19/03||Cagliari|Convegno|http://www.gulch.it/node/112
 13/03||Pescara|PinkTech|http://www.pescaralug.org/2016/03/03/pinktech/
+12/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/221-incontro-arduino-12-09-2024
+10/03|11/03|Padova|Smau|http://crunchlab.org/smau-padova-2016/
+10/03||Forlì|Corso Gimp|http://www.folug.org/2016/03/08/corso-base-gimp-1-serata/
 10/03|11/03|Milano|Sicurezza e Privacy|https://www.poul.org/2016/02/conferenza-sicurezza-e-privacy-2016/
+09/03||Perugia|Convegno|http://www.perugiagnulug.org/professioni-digitali-al-convengo-futuro-digitale-ma-le-donne-no
 09/03||Roma|Forum Industria Software Libero|http://www.industriasoftwarelibero.it/secondo-forum-dellindustria-italiana-del-software-libero/
 08/03||Magione|Corso Terminale|http://www.perugiagnulug.org/aperte-le-iscrizioni-al-corso-sull-utilizzo-del-terminale
 05/03||Cagliari|Open Data Day|http://www.gulch.it/node/115
