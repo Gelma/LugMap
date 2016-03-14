@@ -1,8 +1,12 @@
 09/04||Pinerolo|Corso IoT|http://www.softwareliberopinerolo.org/arduino/219-corso-arduino-esp-internet-of-things-fai-da-te
+02/04||Cava de Tirreni|Arduino Day|http://arduino.hcsslug.org/
 20/03||Milano|Fa' La Cosa Giusta|http://www.pcofficina.org/pcofficina-sbarca-a-fa-la-cosa-giusta-il-20-marzo-2016/
+19/03|20/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2016
 19/03||Catanzaro|Corso Elettrotecnica|http://hacklab.cz/2016/03/07/corso-di-elettrotecnica
 19/03||Cagliari|Convegno|http://www.gulch.it/node/112
+15/03||Torri di Quartesolo|Talk VPN|http://vicenza.linux.it/node/235
 13/03||Pescara|PinkTech|http://www.pescaralug.org/2016/03/03/pinktech/
+12/03||Empoli|CoderDojo|http://golem.linux.it/wp/2016/03/coderdojo-empoli-3/
 12/03||Pinerolo|Incontro Arduino|http://www.softwareliberopinerolo.org/eventi/3-prossimi-incontri/221-incontro-arduino-12-09-2024
 10/03|11/03|Padova|Smau|http://crunchlab.org/smau-padova-2016/
 10/03||Forlì|Corso Gimp|http://www.folug.org/2016/03/08/corso-base-gimp-1-serata/
