@@ -1,5 +1,6 @@
 09/04||Pinerolo|Corso IoT|http://www.softwareliberopinerolo.org/arduino/219-corso-arduino-esp-internet-of-things-fai-da-te
 02/04||Cava de Tirreni|Arduino Day|http://arduino.hcsslug.org/
+25/03||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-16
 20/03||Milano|Fa' La Cosa Giusta|http://www.pcofficina.org/pcofficina-sbarca-a-fa-la-cosa-giusta-il-20-marzo-2016/
 19/03|20/03|Bastia Umbra|Expo Elettronica|http://www.perugiagnulug.org/expo-elettronica-marzo-2016
 19/03||Catanzaro|Corso Elettrotecnica|http://hacklab.cz/2016/03/07/corso-di-elettrotecnica
