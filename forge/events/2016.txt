@@ -1,4 +1,7 @@
+12/04||Cosenza|Corso Stampa 3D|http://hlcs.it/2016/03/23/corso-di-stampa-3d-reprap-2/
 09/04||Pinerolo|Corso IoT|http://www.softwareliberopinerolo.org/arduino/219-corso-arduino-esp-internet-of-things-fai-da-te
+05/04||Rimini|Corso Linux|http://www.riminilug.it/tiki-read_article.php?articleId=370
+03/04||Taranto|OpenDay|http://www.paneepc.org/il-3-aprile-2016-e-open-day/
 02/04||Cava de Tirreni|Arduino Day|http://arduino.hcsslug.org/
 25/03||Perugia|Linux Night|http://www.perugiagnulug.org/linux-night-marzo-16
 23/03||Firenze|Incontro Tematico|http://www.liberainformatica.it/libera-informatica-linews-mercoledi-23-marzo-le-distribuzioni-di-gnulinux/
