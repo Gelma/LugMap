@@ -77,3 +77,5 @@ http://www.autistici.org/underscore/feed.php?mode=list&amp;ns=it
 http://lugman.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 # Non correlato ai temi del freesoftware
 http://feeds.dyne.org/planet_dyne
+# RSS dell'istanza Wordpress, invasa di spam bots
+http://pignolalug.org/?feed=rss2
