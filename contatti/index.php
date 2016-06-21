@@ -28,7 +28,8 @@ lugheader ('Contatti');
 			<tr>
 				<td align="right">
 					<img src="andrea_gelmini.png" style="float: right">
-					<a href="mailto:andrea.gelmini@lugbs.linux.it" class="generalink">Andrea Gelmini</a><br>telefonicamente al
+					<a href="mailto:andrea.gelmini@lugbs.linux.it" class="generalink">Andrea Gelmini</a><br>
+						(residente a Brescia)<br>telefonicamente al
 					<a href="tel:328-72-96-628" class="generalink">328/72-96-628</a><br>via
 					<a href="mailto:andrea.gelmini@lugbs.linux.it" class="generalink">mail</a><br>o attraverso
 					<a href="http://www.facebook.com/andrea.gelmini" class="generalink">Facebook</a>
