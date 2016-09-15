@@ -347,7 +347,7 @@ function prov_select ($class) {
 function ultimo_aggiornamento () {
 ?>
    <a href="http://github.com/Gelma/LugMap/commits/lugmap.linux.it">&raquo; Aggiornato al <?php print file_get_contents('../.ultimo_commit') ?>&nbsp;</a><br />
-   <a href="mailto:andrea.gelmini@lugbs.linux.it,bob4job@gmail.com?subject=LugMap: segnalazione aggiornamento/errore/refuso">&raquo; Segnala&nbsp;</a>
+   <a href="mailto:andrea.gelmini@lugbs.linux.it,bob@linux.it?subject=LugMap: segnalazione aggiornamento/errore/refuso">&raquo; Segnala&nbsp;</a>
 
 <?php
 }
