@@ -38,9 +38,9 @@ lugheader ('Contatti');
 
 				<td>
 					<img style="float: left" src="roberto_guido.png">
-					<a class="generalink" href="mailto:bob4job@gmail.com">Roberto Guido</a><br>via
-					<a class="generalink" href="mailto:bob4job@gmail.com">mail</a><br>o attraverso
-					<a class="generalink" href="http://www.facebook.com/MadBob">Facebook</a>
+					<a class="generalink" href="mailto:bob@linux.it">Roberto Guido</a><br>via
+					<a class="generalink" href="mailto:bob@linux.it">mail</a><br>o attraverso
+					<a class="generalink" href="http://twitter.com/madbob">Twitter</a>
 					<div class="clear_spacer"></div>
 				</td>
 			</tr>
