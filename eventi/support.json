@@ -270,6 +270,21 @@
 					45.76285
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://brigx.it/chi-siamo/",
+				"location": "Palazzo Solera Mantegazza, via Dante 1, Bernareggio",
+				"details": "Al martedi ogni due settimane dalle 21:30 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.40832,
+					45.64539
+				]
+			}
 		}
 	]
 }
