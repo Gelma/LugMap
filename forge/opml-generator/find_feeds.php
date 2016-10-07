@@ -28,13 +28,13 @@ function check_url ($url) {
 		$keys = array ();
 		$open = @file_get_contents ($url);
 
-		if (preg_match ('/<META HTTP-EQUIV="Refresh" CONTENT="(.*);URL=(.[^"]*)">/i', $open, &$keys)) {
+		if (preg_match ('/<META HTTP-EQUIV="Refresh" CONTENT="(.*); ?URL=(.[^"]*)">/i', $open, $keys)) {
 			if (strncmp ('http://', $keys [2], 7) == 0 || strncmp ('https://', $keys [2], 8) == 0)
 				$url = $keys [2];
 			else
 				$url = $url . $keys [2];
 		}
-	} 
+	}
 
 	return $url;
 }
