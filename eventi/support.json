@@ -285,6 +285,21 @@
 					45.64539
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://luglegnano.wordpress.com/calendario/",
+				"location": "Osteria La Tela, via Provinciale Saronnese 31, Rescaldina",
+				"details": "Ogni giovedi dalle 21:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.9528,
+					45.6123
+				]
+			}
 		}
 	]
 }
