@@ -1,3 +1,11 @@
+13/12||Roma|Corso PHP e DB admin|http://www.linuxshell.it/modules.php?name=News&file=article&sid=180
+12/12||Roma|Corso sviluppatore WordPress|http://www.linuxshell.it/modules.php?name=News&file=article&sid=179
+12/12||Roma|Corso Java|http://www.linuxshell.it/modules.php?name=News&file=article&sid=181
+12/12||Roma|Corso Linux|http://www.linuxshell.it/modules.php?name=News&file=article&sid=182
+03/12||Caselle di Sommacampagna|Presentazione corsi 2017|http://www.officina-s3.org/?p=3612
+29/11||Milano|Corso GIT 2016|https://www.poul.org/2016/11/corso-git-2016/
+14/11||Modena|Corso Arduino base|http://piffa.net/corsi/1
+14/11||Saronno|Presentazione software Raspberry|http://lugsaronno.altervista.org/incontro-bruno-software-raspberry/
 12/04||Cosenza|Corso Stampa 3D|http://hlcs.it/2016/03/23/corso-di-stampa-3d-reprap-2/
 09/04||Pinerolo|Corso IoT|http://www.softwareliberopinerolo.org/arduino/219-corso-arduino-esp-internet-of-things-fai-da-te
 05/04||Rimini|Corso Linux|http://www.riminilug.it/tiki-read_article.php?articleId=370
