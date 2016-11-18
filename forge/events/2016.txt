@@ -7,6 +7,7 @@
 29/11||Empoli|Corso Arduino|http://golem.linux.it/wp/2016/11/corso-arduino-base/
 29/11||Milano|Corso GIT 2016|https://www.poul.org/2016/11/corso-git-2016/
 24/11||Torino|Corso Linux base|http://informaticalibera.info/component/content/article/1-ultime/146-corso-linux-base-a-la-cadrega-il-ritorno.html
+22/11||Milano|Proiezione Film|http://www.pcofficina.org/22-novembre-a-pcofficina-si-proietta-the-repairman/
 14/11||Modena|Corso Arduino base|http://piffa.net/corsi/1
 14/11||Saronno|Presentazione software Raspberry|http://lugsaronno.altervista.org/incontro-bruno-software-raspberry/
 12/04||Cosenza|Corso Stampa 3D|http://hlcs.it/2016/03/23/corso-di-stampa-3d-reprap-2/
