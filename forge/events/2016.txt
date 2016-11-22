@@ -4,6 +4,7 @@
 12/12||Roma|Corso Linux|http://www.linuxshell.it/modules.php?name=News&file=article&sid=182
 03/12||Caselle di Sommacampagna|Presentazione corsi 2017|http://www.officina-s3.org/?p=3612
 30/11||Modena|Coding Puzzle|http://conoscerelinux.org/2016/11/16/coding-puzzle-7/
+29/11||Torino|Pubblico Dominio Festival|http://www.pubblicodominiopenfestival.unito.it/
 29/11||Empoli|Corso Arduino|http://golem.linux.it/wp/2016/11/corso-arduino-base/
 29/11||Milano|Corso GIT 2016|https://www.poul.org/2016/11/corso-git-2016/
 24/11||Torino|Corso Linux base|http://informaticalibera.info/component/content/article/1-ultime/146-corso-linux-base-a-la-cadrega-il-ritorno.html
