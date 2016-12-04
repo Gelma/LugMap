@@ -3,6 +3,7 @@
 12/12||Roma|Corso Java|http://www.linuxshell.it/modules.php?name=News&file=article&sid=181
 12/12||Roma|Corso Linux|http://www.linuxshell.it/modules.php?name=News&file=article&sid=182
 10/12||Schio|SuperCoderdojo|http://www.avilug.it/wp_0/supercoderdojo2016/
+06/12||Modena|Corso Stampa 3D|http://conoscerelinux.org/2016/11/30/stampa-3d/
 03/12||Caselle di Sommacampagna|Presentazione corsi 2017|http://www.officina-s3.org/?p=3612
 30/11||Modena|Coding Puzzle|http://conoscerelinux.org/2016/11/16/coding-puzzle-7/
 29/11||Torino|Pubblico Dominio Festival|http://www.pubblicodominiopenfestival.unito.it/
