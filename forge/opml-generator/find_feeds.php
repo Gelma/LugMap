@@ -39,9 +39,7 @@ function check_url ($url) {
 	return $url;
 }
 
-// Richiede SimplePie!
-// http://simplepie.org/
-include_once ('/usr/share/php/simplepie/simplepie.inc');
+libxml_use_internal_errors(true);
 
 $elenco_regioni = array (
 	"abruzzo"    => "Abruzzo",
@@ -87,22 +85,33 @@ foreach ($elenco_regioni as $region => $name) {
 		list ($prov, $name, $zone, $site) = explode ('|', $lug);
 		$site = check_url ($site);
 
-		$parser = new SimplePie ();
-		$parser->set_feed_url ($site);
-		$parser->set_autodiscovery_level (SIMPLEPIE_LOCATOR_AUTODISCOVERY);
-		$parser->init ();
-		$parser->handle_content_type ();
-		if ($parser->error ())
+		$doc = new DOMDocument();
+		$doc->loadHTMLFile($site);
+
+		$xpath = new DOMXpath($doc);
+		if ($xpath == null)
 			continue;
 
-		$discovered = $parser->get_all_discovered_feeds ();
+		$discovered = $xpath->query("//link[@rel='alternate']");
+		foreach($discovered as $f) {
+			$type = $f->getAttribute('type');
+			if ($type == null || (strpos($type, 'rss') === false && strpos($type, 'atom') === false))
+				continue;
 
-		foreach ($discovered as $f) {
+			$url = $f->getAttribute('href');
+
+			if (strncmp($url, 'http', 4) != 0) {
+				if (substr($url, 0, 1) == '/') {
+					$parts = parse_url($site);
+					$url = sprintf('%s://%s%s', $parts['scheme'], $parts['host'], $url);
+				}
+			}
+
 			$skip = false;
-			$f->url = str_replace ('&', '&amp;', str_replace ('&amp;', '&', $f->url));
+			$url = str_replace ('&', '&amp;', str_replace ('&amp;', '&', $url));
 
 			foreach ($exceptions as $exception) {
-				if ($f->url == $exception) {
+				if ($url == $exception) {
 					$skip = true;
 					break;
 				}
@@ -113,7 +122,7 @@ foreach ($elenco_regioni as $region => $name) {
 
 			$obj = new stdClass ();
 			$obj->name = $name;
-			$obj->feed = $f->url;
+			$obj->feed = $url;
 			$feeds [] = $obj;
 			break;
 		}
