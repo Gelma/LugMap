@@ -39,6 +39,24 @@ function check_url ($url) {
 	return $url;
 }
 
+/**
+ * Download a web page using curl. Some pages return 403 forbidden using loadHTMLFile,
+ * whereas they are loaded with no trouble using cURL (probably the matter is related 
+ * with HTTP headers in the post request.
+ * 
+ * @return the page as string, FALSE if some error occurred
+ * @author Cristiano Longo
+ */
+function downloadPage($url){
+	$s = curl_init();
+	
+	curl_setopt($s,CURLOPT_URL,$url);
+	curl_setopt($s,CURLOPT_RETURNTRANSFER,true);
+	$page=curl_exec($s);
+	curl_close($s);	
+	return $page;
+}
+
 libxml_use_internal_errors(true);
 
 $elenco_regioni = array (
@@ -84,10 +102,13 @@ foreach ($elenco_regioni as $region => $name) {
 	foreach ($lugs as $lug) {
 		list ($prov, $name, $zone, $site) = explode ('|', $lug);
 		$site = check_url ($site);
-
+		$page = downloadPage($site);
+		if (!$page)
+			continue;
+		
 		$doc = new DOMDocument();
-		$doc->loadHTMLFile($site);
-
+		$doc->loadHTML($page);
+		
 		$xpath = new DOMXpath($doc);
 		if ($xpath == null)
 			continue;
