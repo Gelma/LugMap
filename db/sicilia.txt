@@ -6,8 +6,9 @@ Catania|FreakNet MediLab|Catania|http://www.dyne.org/|nforfgb@sernxarg.bet
 Catania|Hackspace Catania|Catania|http://hackspacecatania.it/
 Enna|EnnaLUG|Enna|http://enna.linux.it/|abpf@yvahk.vg
 Messina|Lug Messina|Messina e provincia|http://www.messinalug.org/|tvbinaav.zreyvab@tznvy.pbz
-Palermo|SputniX|Palermo|http://www.sputnix.it/|ivapramb.ivetvyvb@havcn.vg
 Palermo|Free Circle|Palermo|https://www.thefreecircle.org/|vasb@gurserrpvepyr.bet
+Palermo|SputniX|Palermo|http://www.sputnix.it/|ivapramb.ivetvyvb@havcn.vg
 Ragusa|SoLiRa|Ragusa e provincia|http://www.solira.org/|znevb.qvenvzbaqb@tznvy.pbz|2098656830
 Siracusa|ALug|Avola|http://linuxavola.blogspot.it/|pbeely80@tznvy.pbz
+Siracusa|LUG Siracusa|Siracusa|http://lugsiracusa.altervista.org/lug/|evppneqb.vafbyvn@tznvy.pbz
 Siracusa|Poetry Hacklab|Palazzolo Acreide|http://museo.freaknet.org/poetry-hacklab/|cbrgel@sernxarg.bet
