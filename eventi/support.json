@@ -300,6 +300,21 @@
 					45.6123
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://golem.linux.it/wp/chi-siamo/",
+				"location": "La Vela, via Magolo 32, Empoli",
+				"details": "Ogni martedi dalle 21:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.9251,
+					43.7264
+				]
+			}
 		}
 	]
 }
