@@ -200,8 +200,6 @@ function build_url (prev) {
 
 	if (prev == true)
 		url += '&amp;format=html';
-	else if ($('input[name=image]').is (':checked') == true)
-		url += '&amp;format=image';
 
 	if ($('input[name=head]').is (':checked') == false) {
 		url += '&amp;head=false';
@@ -229,20 +227,12 @@ function build_url (prev) {
 function refresh_demo () {
 	var preview_code = '<iframe id="lugmap" src="URL" onLoad="calcSize();" width="WIDTHpx" scrolling="no" frameborder="0"></iframe>';
 	var copy_code = '<script type="text/javascript" src="URL"></script><img id="lugmap" src="http://lugmap.linux.it/lug-o-matic/placeholder.png" onload="renderLugMap();" />';
-	var copy_code_image = '<a href="http://lugmap.linux.it/regione/REGIONE"><img src="URL" border="0" /></a>';
 
-	if ($('input[name=image]').is (':checked') == false) {
-		url = build_url (true);
-		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
+	url = build_url (true);
+	$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
 
-		url = build_url (false);
-		$('.code').empty ().append (htmlentities (copy_code.replace (/URL/, url), 'ENT_NOQUOTES'));
-	}
-	else {
-		url = build_url (false);
-		$('.preview').empty ().append (preview_code.replace (/URL/, url).replace (/WIDTH/, parseInt ($('input[name=width]').val ()) + 10));
-		$('.code').empty ().append (htmlentities (copy_code_image.replace (/URL/, url).replace (/REGIONE/, $('select[name=region] option:selected').val ()), 'ENT_NOQUOTES'));
-	}
+	url = build_url (false);
+	$('.code').empty ().append (htmlentities (copy_code.replace (/URL/, url), 'ENT_NOQUOTES'));
 }
 
 $(document).ready (function () {

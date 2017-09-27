@@ -45,39 +45,6 @@ if (array_key_exists ('foot', $_GET) == true)
 if (array_key_exists ('width', $_GET) == true && is_numeric ($_GET ['width']))
 	$width = $_GET ['width'];
 
-if ($format == 'image') {
-	$region = $_GET ['region'];
-	$dir = 'tmp/lugmap_widget_cache/';
-
-	if (file_exists ($dir) == false)
-		mkdir ($dir);
-
-	$path = "${dir}/${region}-${width}-${head}-${head_color}-${head_text_color}-${foot}.png";
-
-	if (file_exists ($path) == false)
-		$attr = false;
-	else
-		$attr = stat ($path);
-
-	if ($attr === false || ($attr ['mtime'] < (time () - 86400))) {
-		/*
-			Dalla larghezza dichiarata sottraggo 6 pixel, che e' la
-			larghezza del bordo scuro incluso nell'immagine finale.
-			Alla fine, l'immagine sara' larga esattamente quanto
-			richiesto
-		*/
-		$correct_width = $width - 6;
-
-		exec ("/usr/local/bin/wkhtmltoimage-i386 --width $width \"$app_url/widget.php?region=$region&format=html&head=$head&foot=$foot&head_color=$head_color&head_text_color=$head_text_color&width=$correct_width\" $path");
-	}
-
-	header ("Content-Type: image/png");
-	$im = imagecreatefrompng ($path);
-	imagepng ($im);
-	imagedestroy ($im);
-	exit ();
-}
-
 if ($format == 'html')
 	$endline = '';
 else if ($format == 'javascript')

@@ -83,17 +83,6 @@ lugheader ('LUG-o-matic', array ('generator.css'), array ('generator.js', 'http:
 			<label for="foot">Mostra Footer</label>
 			<input name="foot" type="checkbox" checked="yes" />
 		</p>
-
-		<br />
-
-		<p>
-			<p>Questa opzione torna un'immagine statica anzich&eacute; del codice JavaScript: utile per poter
-			inserire il widget all'interno di siti che non consentono l'uso di codice HTML complesso,
-			come <a class="generalink" href="http://wordpress.com/">Wordpress.com</a>.</p>
-
-			<label for="image">Genera Immagine</label>
-			<input name="image" type="checkbox" />
-		</p>
 	</fieldset>
 
 	<div style="width: 45%; float: right; text-align: center;">
