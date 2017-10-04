@@ -1,7 +1,7 @@
 Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|yhtznc@zvznagr.arg
 Bologna|HackLabBO|Bologna|http://www.ecn.org/xm24/hacklabbo/|
 Bologna|RaspiBO|Casalecchio di Reno|http://www.raspibo.org/|vasb@enfcvob.bet|2541180101
-Bologna, Ravenna|ImoLug|Imola e Faenza|http://www.imolug.org/|evppneqbqryhan@tznvy.pbz
+Bologna, Ravenna|ImoLug|Imola e Faenza|http://imolug.org/|evppneqbqryhan@tznvy.pbz
 Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|znvy@znggrbobaben.vg
 Forl&igrave;-Cesena|FoLug|Forlì-Cesena|http://www.folug.org/|sbyht-pbaf@yvfgf.yvahk.vg|2098656749
 Forl&igrave;-Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/|hvryvahk@tznvy.pbz|2098656832
