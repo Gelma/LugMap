@@ -79,3 +79,6 @@ http://lugman.org/index.php?title=Speciale:UltimeModifiche&amp;feed=atom
 http://feeds.dyne.org/planet_dyne
 # RSS dell'istanza Wordpress, invasa di spam bots
 http://pignolalug.org/?feed=rss2
+# Contenuti segnalati come non rilevanti
+http://www.accademialiberaivrea.eu/?feed=rss2
+http://www.accademialiberaivrea.eu/?feed=comments-rss2
