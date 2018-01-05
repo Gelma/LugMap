@@ -7,7 +7,7 @@
    problemi di thread appesi, procedure bloccate, ecc. Qualsiasi modifica/miglioria
    ti venga in mente di fare, ti preghiamo di testarla a fondo con tutto l'archivio.
 
-   Copyright 2010-2016 - Andrea Gelmini (andrea.gelmini@gelma.net)
+   Copyright 2010-2018 - Andrea Gelmini (andrea.gelmini@gelma.net)
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by

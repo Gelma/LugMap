@@ -5,7 +5,7 @@
    Con un banale copia/incolla è possibile quindi aggiornare il
    contenuto della stessa.
 
-   Copyright 2010-2016 - Andrea Gelmini (andrea.gelmini@gelma.net)
+   Copyright 2010-2018 - Andrea Gelmini (andrea.gelmini@gelma.net)
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
