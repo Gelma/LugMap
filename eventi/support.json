@@ -315,6 +315,21 @@
 					43.7264
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://gitlab.com/HackLabCormano/hacklabcormano.it/wikis/home#dove-e-quando",
+				"location": "Biblioteca Comunale, via Edison 8, Cormano",
+				"details": "Ogni mercoledi dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.1663,
+					45.5474
+				]
+			}
 		}
 	]
 }
