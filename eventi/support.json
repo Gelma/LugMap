@@ -330,6 +330,36 @@
 					45.5474
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://www.pnlug.it/dove-siamo/",
+				"location": "Polo Tecnologico 'Andrea Galvani'",
+				"details": "Ogni martedi dalle 19:30 alle 22:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.6357,
+					45.9918
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://fuss.bz.it/page/desk/",
+				"location": "Sala Guido Sforza",
+				"details": "Ogni primo e terzo mercoledi del mese dalle 17:30 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.3363,
+					46.4918
+				]
+			}
 		}
 	]
 }
