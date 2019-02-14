@@ -6,7 +6,7 @@
 	e notifico eventuali variazioni alla LugMap.
 	Notasi che a gennaio 2013 le pagine in oggetto non sono più usabili.
 
-	Copyright 2010-2018 - Andrea Gelmini (andrea.gelmini@gelma.net)
+	Copyright 2010-2019 - Andrea Gelmini (andrea.gelmini@gelma.net)
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
