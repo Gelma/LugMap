@@ -2,7 +2,7 @@
 
 /*
   Codice della mappa dei LUG italiani
-  Copyright (C) 2010-2018  Italian Linux Society - http://www.linux.it/
+  Copyright (C) 2010-2019  Italian Linux Society - http://www.linux.it/
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
