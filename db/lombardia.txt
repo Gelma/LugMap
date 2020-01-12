@@ -8,7 +8,7 @@ Brescia|Lug Ovest Bresciano|Cologne e Rovato|http://www.lugob.org/|vasb@yhtbo.be
 Como|GL-Como|Como|http://www.gl-como.it/|qrcevfpb.qnivqr@tznvy.pbz|2098656754
 Lecco|GLUX|Lecco e provincia|http://www.lecco.linux.it/|tyhk@yrppb.yvahk.vg|1645668357
 Mantova|LugMan|Cavriana, Mantova e provincia|http://lugman.org/|snhfgb.cvppuv@tznvy.pbz|2098740838
-Milano|HackLab Cormano|Cormano|http://hacklabcormano.it/|naqern.geragvav@havzv.vg
+Milano|HackLab Cormano|Cormano|https://gitlab.com/HackLabCormano/hacklabcormano.it/-/wikis/home/|naqern.geragvav@havzv.vg
 Milano|LUG Legnano|Legnano|http://luglegnano.wordpress.com/|gnevav83@tznvy.pbz
 Milano|PCOfficina|Milano|http://www.pcofficina.org/|oynpxqbbz.jvsv@tznvy.pbz|2098656822
 Milano|POuL|Milano|http://www.poul.org/|qnavryrvnznegvab@tznvy.pbz
