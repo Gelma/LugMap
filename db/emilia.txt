@@ -1,12 +1,12 @@
-Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|yhtznc@zvznagr.arg
-Bologna|HackLabBO|Bologna|http://www.ecn.org/xm24/hacklabbo/|
+Bologna|ErLug|Bologna e Modena|http://erlug.linux.it/|yhtznc@zvznagr.arg|
+Bologna|HackLabBO|Bologna|http://www.ecn.org/xm24/hacklabbo/|||
 Bologna|RaspiBO|Casalecchio di Reno|http://www.raspibo.org/|vasb@enfcvob.bet|2541180101
-Bologna, Ravenna|ImoLug|Imola e Faenza|http://imolug.org/|evppneqbqryhan@tznvy.pbz
-Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|znvy@znggrbobaben.vg
+Bologna, Ravenna|ImoLug|Imola e Faenza|http://imolug.org/|evppneqbqryhan@tznvy.pbz|
+Ferrara|Ferrara Lug|Provincia di Ferrara|http://www.ferrara.linux.it/|znvy@znggrbobaben.vg|
 Forl&igrave;-Cesena|FoLug|Forlì-Cesena|http://www.folug.org/|sbyht-pbaf@yvfgf.yvahk.vg|2098656749
 Forl&igrave;-Cesena|UIELinux|Savignano sul Rubicone|http://www.uielinux.org/|hvryvahk@tznvy.pbz|2098656832
-Modena|ConoscereLinux|Modena e provincia|https://conoscerelinux.org/|pbabfpreryvahk@tznvy.pbz
-Parma|SBLUG|Provincia di Parma|http://salabaganzalug.wordpress.com/|fnynontnamnyht@tznvy.pbz
-Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lugscandiano.org/|snovb.pnfbynev@evcnegbqnmreb.vg
-Reggio Emilia|RElug|Reggio nell'Emilia|http://www.relug.it/|zvepb.oretnzvav@lnubb.vg
+Modena|ConoscereLinux|Modena e provincia|https://conoscerelinux.org/|pbabfpreryvahk@tznvy.pbz|
+Parma|SBLUG|Provincia di Parma|http://salabaganzalug.wordpress.com/|fnynontnamnyht@tznvy.pbz|
+Reggio Emilia|Lug Scandiano|Scandiano e comuni limitrofi|http://lugscandiano.org/|snovb.pnfbynev@evcnegbqnmreb.vg|
+Reggio Emilia|RElug|Reggio nell'Emilia|http://www.relug.it/|zvepb.oretnzvav@lnubb.vg|
 Rimini|RiminiLug|Rimini|http://www.riminilug.it/|vasb@evzvavyht.vg|2098656828
