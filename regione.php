@@ -23,7 +23,7 @@
 # /regione/nome-regione - formato di transizione (idem)
 # /nome-regione/        - definitivo
 
-if (ereg('index\.php$', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php, allora sono stato invocato da /nome-regione/
+if (preg_match('/index\.php$/', $_SERVER["SCRIPT_NAME"])) { # se sono nel file index.php, allora sono stato invocato da /nome-regione/
   require_once ('../funzioni.php');
   $regione = substr(dirname($_SERVER["SCRIPT_NAME"]), 1); # estraggo la regione dal percorso
   if (array_key_exists ($regione, $elenco_regioni)) { # lasciamo il controllo, ma in ogni caso dovremmo ottenere un 404
