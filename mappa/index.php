@@ -19,8 +19,8 @@
 
 require_once ('../funzioni.php');
 lugheader ('Mappa',
-		array ('https://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css'),
-		array ('https://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js', 'mappa.js'));
+		array ('https://unpkg.com/leaflet@0.6.4/dist/leaflet.css'),
+		array ('https://unpkg.com/leaflet@0.6.4/dist/leaflet.js', 'mappa.js'));
 
 $transformed = false;
 
