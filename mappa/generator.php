@@ -19,6 +19,7 @@
 */
 
 require_once ('../funzioni.php');
+ini_set('user_agent', 'LugMap');
 
 function notify_mail ($message) {
 	mail ('webmaster@linux.it', 'notifica script mappa LugMap', $message . "\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
@@ -79,7 +80,7 @@ function ask_geocache ($c) {
 }
 
 function ask_openstreetmap ($node) {
-	$osm = @file_get_contents ('http://www.openstreetmap.org/api/0.6/node/' . $node);
+	$osm = @file_get_contents ('https://www.openstreetmap.org/api/0.6/node/' . $node);
 	if ($osm === false)
 		return null;
 
@@ -100,7 +101,7 @@ function ask_openstreetmap ($node) {
 }
 
 function ask_nominatim ($c) {
-	$location = file_get_contents ('http://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
+	$location = file_get_contents ('https://nominatim.openstreetmap.org/search?format=xml&q=' . $c . ',Italia');
 
 	$doc = new DOMDocument ();
 	if ($doc->loadXML ($location, LIBXML_NOWARNING) == false)

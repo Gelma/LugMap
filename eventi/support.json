@@ -360,6 +360,21 @@
 					46.4918
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://www.vimelug.org/dove-siamo/",
+				"location": "Via Cadorna 24/G",
+				"details": "Ogni giovedi dalle 21:30 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.3770,
+					45.6180
+				]
+			}
 		}
 	]
 }

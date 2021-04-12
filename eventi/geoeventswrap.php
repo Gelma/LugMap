@@ -1,5 +1,12 @@
 <?php
 
+/*
+	Il fetch degli eventi esterni è sospeso
+*/
+header ("Content-Type: application/json");
+echo "[]";
+return;
+
 $path = '../data/geoevents.txt';
 
 if (file_exists ($path) == false || filemtime ($path) < (time() - (60 * 30))) {

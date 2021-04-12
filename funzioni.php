@@ -58,7 +58,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta name="robots" content="noarchive" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
   <meta name="dcterms.creator" content="Italian Linux Society" />
@@ -69,12 +69,12 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta name="twitter:creator" content="@ItaLinuxSociety" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:url" content="http://lugmap.linux.it/" />
-  <meta name="twitter:image" content="http://lugmap.linux.it/immagini/tw.png" />
+  <meta name="twitter:image" content="https://lugmap.linux.it/immagini/tw.png" />
 
   <meta property="og:site_name" content="LugMap" />
   <meta property="og:title" content="LugMap" />
   <meta property="og:url" content="http://lugmap.linux.it/" />
-  <meta property="og:image" content="http://lugmap.linux.it/immagini/fb.png" />
+  <meta property="og:image" content="https://lugmap.linux.it/immagini/fb.png" />
   <meta property="og:type" content="website" />
   <meta property="og:country-name" content="Italy" />
   <meta property="og:email" content="webmaster@linux.it" />
@@ -153,36 +153,16 @@ function lugfooter () {
 
 		<div class="block">
 			<h2>RESTA AGGIORNATO!</h2>
-			<div class="content">
-				<div class="newsletter_subscribe">
-					<p>
-						Iscriviti alla newsletter per aggiornamenti periodici sul software libero in Italia!
-					</p>
-
-					<p>
-						Specificando la tua provincia di residenza riceverai anche gli annunci sulle <a href="http://www.linux.it/eventi">attività svolte dai LUG e dai gruppi amici</a> nella tua zona.
-					</p>
-
-					<form class="webform-client-form" action="http://www.linux.it/subscribe.php" method="get">
-						<input type="email" class="form-text" name="name" placeholder="Indirizzo Mail" />
-						<p style="display: none">
-							<input type="text" name="mail" />
-						</p>
-
-						<?php prov_select ('form-select'); ?>
-
-						<input type="submit" class="form-submit" value="Iscriviti" />
-					</form>
-				</div>
-			</div>
+			<script type="text/javascript" src="https://www.linux.it/external/widgetnewsletter.js"></script>
+			<div id="widgetnewsletter"></div>
 		</div>
 
 		<div class="block">
 			<h2>Amici</h2>
 			<div class="content">
 				<p style="text-align: center">
-					<a href="http://www.ils.org/info#aderenti">
-						<img src="http://www.ils.org/sites/ils.org/files/associazioni/getrand.php" border="0" /><br />
+					<a href="https://www.ils.org/info#aderenti">
+						<img src="https://www.ils.org/sites/ils.org/files/associazioni/getrand.php" border="0" /><br />
 						Scopri tutte le associazioni che hanno aderito a ILS.
 					</a>
 				</p>
@@ -192,7 +172,7 @@ function lugfooter () {
 		<div class="block">
 			<h2>Network</h2>
 			<div class="content">
-				<script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=lugmap"></script>
+				<script type="text/javaScript" src="https://www.linux.it/external/widgetils.php?referrer=lugmap"></script>
 				<div id="widgetils"></div>
 			</div>
 		</div>

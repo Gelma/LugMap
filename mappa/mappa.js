@@ -3,8 +3,8 @@
 */
 
 var map, layer;
-var layerurl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png';
-var attr = 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+var layerurl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
+var attr = 'Map Data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
 
 var MapIcon = L.Icon.extend({
 	options:{
