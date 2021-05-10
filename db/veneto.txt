@@ -4,6 +4,6 @@ Treviso|MontelLug|Montebelluna|http://www.montellug.it/|fgrsnab.senppneb@yvoreb.
 Venezia|Crunchlab|San Donà di Piave|http://crunchlab.org/|f.zrfger@tznvy.pbz
 Venezia|VELug|Provincia di Venezia|http://www.velug.it/|evx@yvahk.vg
 Verona|LinuxLudus|Villafranca di Verona|http://linuxludus.it/|pneyb.oravav@yvoreb.vg|2098656806
-Vicenza|GrappaLUG|Bassano del Grappa|http://grappalug.org/|znheb.qnyynpbfgn@tznvy.pbz|2098656758
 Vicenza|GrappaFSD|Bassano del Grappa|http://grappafsd.altervista.org/|zvxr.orarggv@tznvy.pbz
+Vicenza|GrappaLUG|Bassano del Grappa|http://grappalug.org/|znheb.qnyynpbfgn@tznvy.pbz|2098656758
 Vicenza|Lug Vicenza|Vicenza e provincia|https://lugvi.it|vasb@ivpramn.yvahk.vg
