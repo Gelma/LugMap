@@ -1,2 +1,15 @@
-Italia|Associazione Software Libero|Italia|http://softwarelibero.it/|eramb@pf.havob.vg
-Italia|ILS: Italian Linux Society|Italia|http://www.ils.org/|zq@yvahk.vg
+Italia|Associazione Software Libero|Italia|https://softwarelibero.it/|eramb@pf.havob.vg
+Italia|ILS: Italian Linux Society|Italia|https://www.ils.org/|zq@yvahk.vg
+Italia|Lavagna Libera|Italia|https://www.wiildos.it
+Italia|OpenStreetMap Italia|Italia|https://wiki.openstreetmap.org/wiki/Italy
+Italia|Rust Italia|Italia|https://community.mozilla.org/es/groups/rust-italia/
+Italia|LibreItalia|Italia|https://www.libreitalia.org/
+Italia|Mozilla Italia|Italia|https://www.mozillaitalia.org/
+Italia|onData|Italia|https://ondata.it/
+Italia|Scala Italy|Italia|https://scala-italy.it/
+Italia|Python Italia|Italia|https://associazione.python.it/
+Italia|Free Software Foundation Europe|Europa|https://fsfe.org/
+Italia|Informatici Senza Frontiere|Italia|https://www.informaticisenzafrontiere.org/
+Italia|Wikimedia Italia|Italia|https://www.wikimedia.it/
+Italia|GFOSS.it|Italia|https://gfoss.it/
+Italia|Developers Italia|Italia|https://developers.italia.it/
