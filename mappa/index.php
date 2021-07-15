@@ -31,7 +31,7 @@ if (array_key_exists ('zoom', $_GET)) {
 	$contents = json_decode ($contents, true);
 
 	foreach ($contents ['features'] as $row) {
-		if ($row ['properties']['name']== $_GET ['zoom']) {
+		if ($row ['properties']['name']== str_replace('_',' ', $_GET ['zoom'])) {
 			$found = true;
 			$lat = $row ['geometry']['coordinates'][1];
 			$lon = $row ['geometry']['coordinates'][0];
