@@ -1,3 +1,4 @@
+Milano|ILS Novate Milanese|Novate Milanese|https://www.ils.org/sezionilocali/novatemilanese/
 Bergamo|BgLUG|Bergamo e provincia|https://bglug.it/|erqfgneynof@tznvy.pbz
 Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|ivcf@yhtof.yvahk.vg
 Brescia|Lug Castegnato|Castegnato|http://www.kenparker.eu/LugCastegnato/|xra@xracnexre.rh|2098656811
@@ -9,7 +10,6 @@ Milano|LUG Legnano|Legnano|http://luglegnano.wordpress.com/|gnevav83@tznvy.pbz
 Milano|PCOfficina|Milano|http://www.pcofficina.org/|oynpxqbbz.jvsv@tznvy.pbz|2098656822
 Milano|POuL|Milano|http://www.poul.org/|qnavryrvnznegvab@tznvy.pbz
 Milano|unixMiB|Milano, Universit&agrave; Bicocca|https://unixmib.org/|havkzvo@tznvy.pbz
-Milano|WLOG|Novate Milanese|http://novatelug.altervista.org/|jybt.abingr@tznvy.pbz
 Monza e Brianza|VimeLUG|Vimercate|http://www.vimelug.org/|nqzg@ivzryht.bet
 Pavia|NutriaLUG|Pavia|https://www.facebook.com/groups/nutria.lug/|ahgevn.yht@tznvy.pbz
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|yhpn.crerapva@tznvy.pbz
