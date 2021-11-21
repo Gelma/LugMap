@@ -37,7 +37,7 @@ lugheader ('Statistiche dei LUG italiani');
 
 ?>
 
-<div id="center">
+<div id="center" class="mt-3">
   <a id="backLugMapLink" href="/">&raquo; torna alla LUGmap</a>
   
   <div id="infographs">

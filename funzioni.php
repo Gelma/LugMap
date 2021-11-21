@@ -59,7 +59,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
-  <link href="/css/main.css" rel="stylesheet" type="text/css" />
+  <link href="https://www.linux.it/shared/?f=bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="https://www.linux.it/shared/?f=main.css" rel="stylesheet" type="text/css" />
 
   <meta name="dcterms.creator" content="Italian Linux Society" />
   <meta name="dcterms.type" content="Text" />
@@ -81,7 +82,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta property="og:locale" content="it_IT" />
   <meta property="og:description" content="La mappa dei Linux Users Groups italiani" />
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.linux.it/shared/index.php?f=jquery.js"></script>
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script> -->
 
   <?php
     if ($extracss != null)
@@ -105,26 +107,32 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 <body>
 
 <div id="header">
-  <img src="/immagini/logo.png" width="66" height="79" alt="" />
+	<img src="/immagini/logo.png" alt="Logo LugMap">
 	<div id="maintitle">LugMap</div>
 	<div id="payoff">La mappa dei Linux Users Groups italiani</div>
 
 	<div class="menu">
-		<a class="generalink" href="/">Home</a>
-		<?php if (file_exists ('data/geo.txt') == true || file_exists ('../data/geo.txt')): ?>
-		<a class="generalink" href="/mappa/">Mappa</a>
-		<?php endif; ?>
-		<a class="generalink" href="/assistenza/">Assistenza</a>
-		<a class="generalink" href="/radar/">Radar</a>
-		<a class="generalink" href="/partecipa/">Partecipa</a>
-		<a class="generalink" href="/contatti/">Contatti</a>
+		<nav class="navbar navbar-expand-md navbar-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<p class="social">
-			<!-- Icone prese da http://kooc.co.uk/need-some-up-to-date-social-media-icons -->
-			<a href="http://twitter.com/#!/LugMap"><img src="/immagini/twitter.png"></a>
-			<a href="https://github.com/Gelma/LugMap/commits/master.atom"><img src="/immagini/rss.png"></a>
-			<a href="https://www.facebook.com/groups/284932411527993/"><img src="/immagini/facebook.png"></a>
-			<a href="https://github.com/Gelma/LugMap"><img src="/immagini/github.png"></a>
+			<div class="collapse navbar-collapse" id="main-menu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/mappa/">Mappa</a></li>
+					<li class="nav-item"><a class="nav-link" href="/assistenza/">Assistenza</a></li>
+					<li class="nav-item"><a class="nav-link" href="/contatti">Contatti</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<p class="social mt-2">
+			<a href="https://twitter.com/ItaLinuxSociety"><img src="https://www.linux.it/shared/?f=immagini/twitter.svg" alt="ILS su Twitter"></a>
+			<a href="https://www.facebook.com/ItaLinuxSociety/"><img src="https://www.linux.it/shared/?f=immagini/facebook.svg" alt="ILS su Facebook"></a>
+			<a href="https://www.instagram.com/ItaLinuxSociety"><img src="https://www.linux.it/shared/?f=immagini/instagram.svg" alt="ILS su Instagram"></a>
+			<a href="https://mastodon.uno/@ItaLinuxSociety/"><img src="https://www.linux.it/shared/?f=immagini/mastodon.svg" alt="ILS su Mastodon"></a>
+			<a href="https://github.com/Gelma/LugMap"><img src="https://www.linux.it/shared/?f=immagini/github.svg" alt="La LugMap su GitLab"></a>
 		</p>
 	</div>
 </div>
@@ -135,45 +143,52 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 function lugfooter () {
 ?>
 
-<div id="ils_footer">
-	<div class="contents">
-		<div class="block">
-			<span style="text-align: center; display: block">
-				<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
-					<img src="/immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
-				</a>
+<div id="ils_footer" class="mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="cell">
+					<span style="text-align: center; display: block">
+						<a rel="nofollow" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html">
+							<img src="https://www.linux.it/shared/index.php?f=immagini/agpl3.svg" style="border-width:0" loading="lazy" alt="AGPLv3 License">
+						</a>
 
-				<br />
+						<a rel="nofollow" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en_US">
+							<img src="https://www.linux.it/shared/index.php?f=immagini/cczero.png" style="border-width:0" loading="lazy" alt="Creative Commons License">
+						</a>
+					</span>
+				</div>
 
-				<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
-					<img src="/immagini/cczero.png" style="border-width:0" alt="Creative Commons License">
-				</a>
-			</span>
-		</div>
-
-		<div class="block">
-			<h2>RESTA AGGIORNATO!</h2>
-			<script type="text/javascript" src="https://www.linux.it/external/widgetnewsletter.js"></script>
-			<div id="widgetnewsletter"></div>
-		</div>
-
-		<div class="block">
-			<h2>Amici</h2>
-			<div class="content">
-				<p style="text-align: center">
-					<a href="https://www.ils.org/info#aderenti">
-						<img src="https://www.ils.org/sites/ils.org/files/associazioni/getrand.php" border="0" /><br />
-						Scopri tutte le associazioni che hanno aderito a ILS.
-					</a>
-				</p>
+				<div class="cell mt-3 text-center">
+					<a href="https://www.ils.org/privacy">Informativa Privacy</a>
+				</div>
 			</div>
-		</div>
 
-		<div class="block">
-			<h2>Network</h2>
-			<div class="content">
-				<script type="text/javaScript" src="https://www.linux.it/external/widgetils.php?referrer=lugmap"></script>
-				<div id="widgetils"></div>
+			<div class="col-md-3">
+				<div class="cell">
+					<h2>RESTA AGGIORNATO!</h2>
+					<iframe title="Newsletter ILS" src="https://crm.linux.it/form/1" width="100%" height="420" frameborder="0"><p>Your browser does not support iframes.</p></iframe>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="cell">
+					<h2>Amici</h2>
+					<p style="text-align: center">
+						<a href="https://www.ils.org/info#aderenti">
+							<img src="https://www.ils.org/external/getrandlogo.php" border="0" loading="lazy" alt="Aderenti a Italian Linux Society"><br>
+							Scopri tutte le associazioni e le aziende che hanno aderito a Italian Linux Society.
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="cell">
+					<h2>Network</h2>
+					<script type="text/javascript" src="https://www.ils.org/external/widgetils.js" defer=""></script>
+					<div id="widgetils"></div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -77,8 +77,8 @@ lugheader ($title);
 
 ?>
 
-<div id="center">
-  <h1 class="titoloregione"><?php echo substr($title, 8) ?></h1>
+<div id="center" class="mt-3">
+  <h1><?php echo substr($title, 8) ?></h1>
   <p class="fromRegionLinks">
     <a href="/">&raquo; torna alla LugMap&nbsp;</a>
   </p>
@@ -118,7 +118,7 @@ lugheader ($title);
     </tbody>
    </table>
 
-   <p class="fromRegionLinks">
+   <p class="fromRegionLinks mt-2">
 
    <?php if ($db_file != null) { ?>
       <a href="<?php echo $db_file ?>">&raquo; Elenco in formato CSV&nbsp;</a><br />
