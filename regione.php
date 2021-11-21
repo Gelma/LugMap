@@ -107,7 +107,12 @@ lugheader ($title);
         <tr class="row_<?php echo ($nriga % 2); ?>">
          <td class="province"><?php echo $provincia ?></td>
          <td><a href="http://lugmap.linux.it/mappa/?zoom=<?php echo str_replace (' ', '_', $denominazione) ?>"><?php echo $zona ?></a></td>
-         <td><a class="generalink" href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
+
+         <?php if (strncmp($denominazione, 'ILS ', 4) == 0): ?>
+          <td><a class="generalink" style="display: inline-grid" href="<?php echo $sito ?>"><?php echo $denominazione ?> <img src="https://www.ils.org/assets/images/logo.png" alt="Sezione Locale ILS" style="height: 30px; margin: auto; padding-bottom: 6px"></a></td>
+         <?php else: ?>
+          <td><a class="generalink" href="<?php echo $sito ?>"><?php echo $denominazione ?></a></td>
+         <?php endif ?>
         </tr>
       <?php endwhile;?>
     </tbody>
