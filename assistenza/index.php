@@ -18,33 +18,19 @@
 */
 
 require_once ('../funzioni.php');
-lugheader ('Eventi',
+lugheader ('Assistenza',
 		array ('https://unpkg.com/leaflet@0.6.4/dist/leaflet.css'),
 		array ('https://unpkg.com/leaflet@0.6.4/dist/leaflet.js', 'mappa.js'));
 
 ?>
 
-<input type="hidden" name="default_zoom" value="5" />
 <input type="hidden" name="coords_file" value="geoeventswrap.php" />
 <input type="hidden" name="support_file" value="support.json" />
 
 <div class="mapoverlay" style="left: 10px; padding: 10px;">
 	<p>
-		In questa mappa sono indicizzati gli incontri periodici di assistenza su Linux: dai una occhiata alla tua zona per sapere se è previsto un appuntamento, oppure immetti qui il tuo indirizzo mail e la provincia di residenza per essere notificato in occasione dei prossimi.
+		In questa mappa sono indicizzati gli incontri periodici di assistenza su Linux: dai una occhiata alla tua zona per sapere se è previsto un appuntamento!
 	</p>
-
-	<div class="events_subscribe">
-		<?php if (isset ($_GET ['subscribed']) == false): ?>
-		<form style="webform-client-form" action="http://www.linux.it/subscribe.php" method="GET">
-			<input type="text" name="mail" class="trap" placeholder="Indirizzo Mail" /><br/>
-			<input type="email" name="name" class="form-text" placeholder="Indirizzo Mail" /><br/>
-			<?php echo prov_select ('form-select') ?><br/>
-			<input type="submit" class="form-submit" value="Iscriviti" />
-		</form>
-		<?php else: ?>
-		<p class="alert alert-success">Sei stato iscritto alle notifiche</p>
-		<?php endif; ?>
-	</div>
 </div>
 
 <div id="map"></div>

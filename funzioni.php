@@ -114,7 +114,7 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
 		<?php if (file_exists ('data/geo.txt') == true || file_exists ('../data/geo.txt')): ?>
 		<a class="generalink" href="/mappa/">Mappa</a>
 		<?php endif; ?>
-		<a class="generalink" href="/eventi/">Eventi</a>
+		<a class="generalink" href="/assistenza/">Assistenza</a>
 		<a class="generalink" href="/radar/">Radar</a>
 		<a class="generalink" href="/partecipa/">Partecipa</a>
 		<a class="generalink" href="/contatti/">Contatti</a>

@@ -81,7 +81,7 @@ function init () {
 	lon = 12.483215;
 	lat = 41.979911;
 
-	map.setView (new L.LatLng (lat, lon), 5);
+	map.setView (new L.LatLng (lat, lon), 6);
 	map.addLayer (tile);
 
 	var f = $('input[name=coords_file]').val ();
