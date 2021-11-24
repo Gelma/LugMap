@@ -1,3 +1,5 @@
+Torino|ILS Torino|Torino|https://torino.ils.org/||
+Alessandria|ILS Alessandria|Alessandria|https://alessandria.ils.org/|
 Asti|Progetto Radis|Asti|http://www.openlabasti.it|bfpne.cnfgebar@gva.vg|2098656825
 Biella|BiLug|Provincia di Biella|http://bilug.it/|vasb@ovyht.vg|2098656691
 Novara|JetLUG|Arona|http://www.jetlug.it/|terra.evbg@tznvy.pbz
@@ -5,6 +7,5 @@ Novara|LiNOx|Novara|http://www.linoxnovara.org/|yvabkabinen@tznvy.pbz|2098656771
 Torino|Accademia Hardware e Software Libero "Adriano Olivetti"|Ivrea|http://www.accademialiberaivrea.eu/|nppnqrzvnyvoren@tznvy.pbz
 Torino|GlugTO|Torino|http://www.glugto.org/|pnagnaan@tznvy.pbz
 Torino|IvLug|Ivrea|http://www.ivlug.it/|q.yrfpn@fbyvabf.vg|2098656765
-Torino|Officina Informatica Libera|Torino|http://informaticalibera.info/|obo4wbo@tznvy.pbz|2098656819
 Torino|SLIP|Pinerolo|http://www.softwareliberopinerolo.org/|vasb@fbsgjneryvorebcvarebyb.bet
 Torino|Underscore HackLab|Torino|http://www.autistici.org/underscore/|haqrefpber@nhgvfgvpv.bet
