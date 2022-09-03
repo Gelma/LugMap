@@ -4,7 +4,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "http://informaticalibera.info/",
+				"website": "https://torino.ils.org/",
 				"location": "Casa del Quartiere, via Oddino Morgari 14, Torino",
 				"details": "Tutti i mercoledi, dalle 18:00 alle 20:00"
 			},
@@ -19,22 +19,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "http://www.hcsslug.org/",
-				"location": "Università di Salerno, via Giovanni Paolo II 132, Fisciano",
-				"details": "Tutti i lunedi, dalle 10:00 alle 17:00"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					14.78969,
-					40.77446
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "http://www.gl-como.it/",
+				"website": "https://www.gl-como.it/",
 				"location": "Circoscrizione 6, via Achille Grandi 21, Como",
 				"details": "Tutti i giovedi, dalle 21:30 alle 23:30"
 			},
@@ -49,7 +34,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "http://www.conoscerelinux.it/",
+				"website": "http://www.conoscerelinux.org/",
 				"location": "Strada Barchetta 77, Modena",
 				"details": "Tutti i martedi, dalle 21:00 alle 23:30"
 			},
@@ -64,22 +49,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "http://www.fsugpadova.org/associazione/turni-apertura/",
-				"location": "Comunità per le Libere Attività Culturali, Via Alvise Cornaro 1B, Padova",
-				"details": "Tutti i sabati, dalle 17:30 alle 19:30"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					11.89365,
-					45.40409
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "http://www.govonis.org/index.php?option=com_content&view=article&id=94&Itemid=29",
+				"website": "https://www.govonis.org/",
 				"location": "Scuole Medie Valleggia, via Valletta di Vadone, Quiliano",
 				"details": "Tutti i giovedi, dalle 21:00 alle 23:00"
 			},
@@ -88,36 +58,6 @@
 				"coordinates": [
 					8.42490,
 					44.28428
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "http://presence.hlcs.it/",
-				"location": "Università della Calabria, Cubo 22B, Rende",
-				"details": "Tutti i martedi, dalle 18:00 alle 00:00"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					16.22637,
-					39.36137
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "http://www.progettoradis.it/",
-				"location": "Centro Culturale San Secondo, Via Carducci 24, Asti",
-				"details": "Lunedi, mercoledi o venerdi dalle 10:00 alle 17:00"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.20320,
-					44.90044
 				]
 			}
 		},
@@ -140,14 +80,14 @@
 			"type": "Feature",
 			"properties": {
 				"website": "http://ofpcina.net/",
-				"location": "RaccattaRAEE, Via Solferino 41, Bologna",
-				"details": "Ogni primo martedi e terzo lunedi del mese dalle 18:00"
+				"location": "Centro Civico Bortolani, Valsamoggia",
+				"details": "Ogni ultimo lunedi del mese dalle 18:30"
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.342198,
-					44.4878073
+					11.07967,
+					44.34360
 				]
 			}
 		},
@@ -163,21 +103,6 @@
 				"coordinates": [
 					12.0457911,
 					45.7746106
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "http://www.pescaralug.org/",
-				"location": "Spazio Più, via del Santuario 156, Pescara",
-				"details": "Tutti i mercoledi, dalle 21:30"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					14.1949459,
-					42.4717593
 				]
 			}
 		},
@@ -259,45 +184,15 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "http://grappalug.org/dove-siamo/",
-				"location": "Centro Giovanile, Piazzale Cadorna 34/A, Bassano del Grappa",
-				"details": "Tutti i giovedi dalle 21:00 alle 23:00"
+				"website": "https://grappalug.org/",
+				"location": "Bar Pio X, Bassano del Grappa",
+				"details": "Tutti i giovedi dalle 21:30 alle 23:00"
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					11.73438,
-					45.76285
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "http://brigx.it/chi-siamo/",
-				"location": "Palazzo Solera Mantegazza, via Dante 1, Bernareggio",
-				"details": "Al martedi ogni due settimane dalle 21:30 alle 23:30"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					9.40832,
-					45.64539
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"website": "https://luglegnano.wordpress.com/calendario/",
-				"location": "Osteria La Tela, via Provinciale Saronnese 31, Rescaldina",
-				"details": "Ogni giovedi dalle 21:30"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8.9528,
-					45.6123
+					11.76184,
+					45.77171
 				]
 			}
 		},
@@ -319,8 +214,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "https://gitlab.com/HackLabCormano/hacklabcormano.it/wikis/home#dove-e-quando",
-				"location": "Biblioteca Comunale, via Edison 8, Cormano",
+				"website": "https://hacklabcormano.it/",
+				"location": "Biblioteca Comunale, Cormano",
 				"details": "Ogni mercoledi dalle 21:00 alle 23:00"
 			},
 			"geometry": {
@@ -334,7 +229,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "https://www.pnlug.it/dove-siamo/",
+				"website": "https://www.pnlug.it/",
 				"location": "Polo Tecnologico 'Andrea Galvani'",
 				"details": "Ogni martedi dalle 19:30 alle 22:30"
 			},
@@ -364,7 +259,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"website": "https://www.vimelug.org/dove-siamo/",
+				"website": "https://www.vimelug.org/",
 				"location": "Via Cadorna 24/G",
 				"details": "Ogni giovedi dalle 21:30 alle 23:30"
 			},
