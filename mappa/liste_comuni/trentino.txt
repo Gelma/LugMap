@@ -1,0 +1,333 @@
+Aldino
+Andriano
+Anterivo
+Appiano sulla strada del vino
+Avelengo
+Badia
+Barbiano
+Bolzano
+Braies
+Brennero
+Bressanone
+Bronzolo
+Brunico
+Caines
+Caldaro sulla strada del vino
+Campo di Trens
+Campo Tures
+Castelbello-Ciardes
+Castelrotto
+Cermes
+Chienes
+Chiusa
+Cornedo all'Isarco
+Cortaccia sulla strada del vino
+Cortina sulla strada del vino
+Corvara in Badia
+Curon Venosta
+Dobbiaco
+Egna
+Falzes
+Fiè allo Sciliar
+Fortezza
+Funes
+Gais
+Gargazzone
+Glorenza
+La Valle
+Laces
+Lagundo
+Laion
+Laives
+Lana
+Lasa
+Lauregno
+Luson
+Magrè sulla strada del vino
+Malles Venosta
+Marebbe
+Marlengo
+Martello
+Meltina
+Merano
+Monguelfo-Tesido
+Montagna
+Moso in Passiria
+Nalles
+Naturno
+Naz-Sciaves
+Nova Levante
+Nova Ponente
+Ora
+Ortisei
+Parcines
+Perca
+Plaus
+Ponte Gardena
+Postal
+Prato allo Stelvio
+Predoi
+Proves
+Racines
+Rasun Anterselva
+Renon
+Rifiano
+Rio di Pusteria
+Rodengo
+Salorno
+San Candido
+San Genesio Atesino
+San Leonardo in Passiria
+San Lorenzo di Sebato
+San Martino in Badia
+San Martino in Passiria
+San Pancrazio
+Santa Cristina Valgardena
+Sarentino
+Scena
+Selva dei Molini
+Selva di Val Gardena
+Senales
+Senale-San Felice
+Sesto
+Silandro
+Sluderno
+Stelvio
+Terento
+Terlano
+Termeno sulla strada del vino
+Tesimo
+Tires
+Tirolo
+Trodena nel parco naturale
+Tubre
+Ultimo
+Vadena
+Val di Vizze
+Valdaora
+Valle Aurina
+Valle di Casies
+Vandoies
+Varna
+Velturno
+Verano
+Villabassa
+Villandro
+Vipiteno
+Ala
+Albiano
+Aldeno
+Amblar
+Andalo
+Arco
+Avio
+Baselga di Pinè
+Bedollo
+Bersone
+Besenello
+Bieno
+Bleggio Superiore
+Bocenago
+Bolbeno
+Bondo
+Bondone
+Borgo Valsugana
+Bosentino
+Breguzzo
+Brentonico
+Bresimo
+Brez
+Brione
+Caderzone Terme
+Cagnò
+Calavino
+Calceranica al Lago
+Caldes
+Caldonazzo
+Calliano
+Campitello di Fassa
+Campodenno
+Canal San Bovo
+Canazei
+Capriana
+Carano
+Carisolo
+Carzano
+Castel Condino
+Castelfondo
+Castello Tesino
+Castello-Molina di Fiemme
+Castelnuovo
+Cavalese
+Cavareno
+Cavedago
+Cavedine
+Cavizzana
+Cembra
+Centa San Nicolò
+Cimego
+Cimone
+Cinte Tesino
+Cis
+Civezzano
+Cles
+Cloz
+Comano Terme
+Commezzadura
+Condino
+Coredo
+Croviana
+Cunevo
+Daiano
+Dambel
+Daone
+Darè
+Denno
+Dimaro
+Don
+Dorsino
+Drena
+Dro
+Faedo
+Fai della Paganella
+Faver
+Fiavè
+Fiera di Primiero
+Fierozzo
+Flavon
+Folgaria
+Fondo
+Fornace
+Frassilongo
+Garniga Terme
+Giovo
+Giustino
+Grauno
+Grigno
+Grumes
+Imer
+Isera
+Ivano-Fracena
+Lardaro
+Lasino
+Lavarone
+Lavis
+Ledro
+Levico Terme
+Lisignago
+Livo
+Lona-Lases
+Luserna
+Malè
+Malosco
+Massimeno
+Mazzin
+Mezzana
+Mezzano
+Mezzocorona
+Mezzolombardo
+Moena
+Molveno
+Monclassico
+Montagne
+Mori
+Nago-Torbole
+Nanno
+Nave San Rocco
+Nogaredo
+Nomi
+Novaledo
+Ospedaletto
+Ossana
+Padergnone
+Palù del Fersina
+Panchià
+Peio
+Pellizzano
+Pelugo
+Pergine Valsugana
+Pieve di Bono
+Pieve Tesino
+Pinzolo
+Pomarolo
+Pozza di Fassa
+Praso
+Predazzo
+Preore
+Prezzo
+Rabbi
+Ragoli
+Revò
+Riva del Garda
+Romallo
+Romeno
+Roncegno Terme
+Ronchi Valsugana
+Roncone
+Ronzo-Chienis
+Ronzone
+Roverè della Luna
+Rovereto
+Ruffrè-Mendola
+Rumo
+Sagron Mis
+Samone
+San Lorenzo in Banale
+San Michele all'Adige
+Sant'Orsola Terme
+Sanzeno
+Sarnonico
+Scurelle
+Segonzano
+Sfruz
+Siror
+Smarano
+Soraga
+Sover
+Spera
+Spiazzo
+Spormaggiore
+Sporminore
+Stenico
+Storo
+Strembo
+Strigno
+Taio
+Tassullo
+Telve
+Telve di Sopra
+Tenna
+Tenno
+Terlago
+Terragnolo
+Terres
+Terzolas
+Tesero
+Tione di Trento
+Ton
+Tonadico
+Torcegno
+Trambileno
+Transacqua
+Trento
+Tres
+Tuenno
+Valda
+Valfloriana
+Vallarsa
+Varena
+Vattaro
+Vermiglio
+Vervò
+Vezzano
+Vignola-Falesina
+Vigo di Fassa
+Vigo Rendena
+Vigolo Vattaro
+Villa Agnedo
+Villa Lagarina
+Villa Rendena
+Volano
+Zambana
+Ziano di Fiemme
+Zuclo

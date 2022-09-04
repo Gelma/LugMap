@@ -1,0 +1,275 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://torino.ils.org/",
+				"location": "Casa del Quartiere, via Oddino Morgari 14, Torino",
+				"details": "Tutti i mercoledi, dalle 18:00 alle 20:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.67819,
+					45.05412
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://www.gl-como.it/",
+				"location": "Circoscrizione 6, via Achille Grandi 21, Como",
+				"details": "Tutti i giovedi, dalle 21:30 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.08575,
+					45.80010
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.conoscerelinux.org/",
+				"location": "Strada Barchetta 77, Modena",
+				"details": "Tutti i martedi, dalle 21:00 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.89454,
+					44.65953
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://www.govonis.org/",
+				"location": "Scuole Medie Valleggia, via Valletta di Vadone, Quiliano",
+				"details": "Tutti i giovedi, dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					8.42490,
+					44.28428
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.raspibo.org/",
+				"location": "Makerspace, Via Canonica 18, Casalecchio di Reno",
+				"details": "Ogni secondo e quarto martedi del mese dalle 20:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.2876612,
+					44.4852623
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://ofpcina.net/",
+				"location": "Centro Civico Bortolani, Valsamoggia",
+				"details": "Ogni ultimo lunedi del mese dalle 18:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.07967,
+					44.34360
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.montellug.it/",
+				"location": "Casa del Volontariato, via Dante Alighieri, Montebelluna",
+				"details": "Ogni secondo mercoledi e quarto venerdi del mese dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.0457911,
+					45.7746106
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.perugiagnulug.org/",
+				"location": "Società Operaia di Mutuo Soccorso, Piazza Matteotti Giacomo 14, Magione",
+				"details": "Giovedi dalle 21:00, sabato dalle 15:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.204124,
+					43.142542
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.avilug.it/doku.php/officina_linux",
+				"location": "Palazzo Fogazzaro, via Pasini 46, Schio",
+				"details": "Tutti i martedi dalle 20:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.35650,
+					45.71307
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.linuxtrent.it/iniziative/sportello-linux/trento",
+				"location": "Biblioteca Centrale, via Roma 55, Trento",
+				"details": "Tutti i martedi dalle 17:45 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.12089,
+					46.06976
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.linuxtrent.it/iniziative/sportello-linux/rovereto",
+				"location": "Biblioteca Civica, Corso Angelo Bettini 43, Rovereto",
+				"details": "Ogni primo martedi del mese dalle 18:00 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.04369,
+					45.89405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://www.linuxtrent.it/iniziative/sportello-linux/ala",
+				"location": "Biblioteca, via Roma 40, Ala",
+				"details": "Ogni primo giovedi del mese dalle 17:00 alle 18:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.00565,
+					45.75658
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://grappalug.org/",
+				"location": "Bar Pio X, Bassano del Grappa",
+				"details": "Tutti i giovedi dalle 21:30 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.76184,
+					45.77171
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "http://golem.linux.it/wp/chi-siamo/",
+				"location": "La Vela, via Magolo 32, Empoli",
+				"details": "Ogni martedi dalle 21:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					10.9251,
+					43.7264
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://hacklabcormano.it/",
+				"location": "Biblioteca Comunale, Cormano",
+				"details": "Ogni mercoledi dalle 21:00 alle 23:00"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.1663,
+					45.5474
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://www.pnlug.it/",
+				"location": "Polo Tecnologico 'Andrea Galvani'",
+				"details": "Ogni martedi dalle 19:30 alle 22:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					12.6357,
+					45.9918
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://fuss.bz.it/page/desk/",
+				"location": "Sala Guido Sforza",
+				"details": "Ogni primo e terzo mercoledi del mese dalle 17:30 alle 19:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					11.3363,
+					46.4918
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"website": "https://www.vimelug.org/",
+				"location": "Via Cadorna 24/G",
+				"details": "Ogni giovedi dalle 21:30 alle 23:30"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					9.3770,
+					45.6180
+				]
+			}
+		}
+	]
+}

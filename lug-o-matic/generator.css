@@ -1,0 +1,14 @@
+.edit_box {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.code {
+  width: 100%;
+  height: 150px;
+}
+
+.preview {
+  width: 100%;
+}

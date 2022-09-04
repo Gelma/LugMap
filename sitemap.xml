@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url><loc>http://lugmap.linux.it/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+   <url><loc>http://lugmap.linux.it/abruzzo/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/basilicata/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/calabria/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/campania/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/emilia-romagna/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/friuli-venezia-giulia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/Italia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/lazio/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/liguria/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/lombardia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/marche/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/molise/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/piemonte/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/puglia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/sardegna/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/sicilia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/toscana/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/trentino-alto-adige/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/umbria/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/valle-daosta/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/veneto/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+   <url><loc>http://lugmap.linux.it/partecipa/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/guida/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/contatti/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+   <url><loc>http://lugmap.linux.it/lug-o-matic/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

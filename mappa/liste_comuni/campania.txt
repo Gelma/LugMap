@@ -1,0 +1,551 @@
+Ailano
+Alife
+Alvignano
+Arienzo
+Aversa
+Baia e Latina
+Bellona
+Caianello
+Caiazzo
+Calvi Risorta
+Camigliano
+Cancello ed Arnone
+Capodrise
+Capriati a Volturno
+Capua
+Carinaro
+Carinola
+Casagiove
+Casal di Principe
+Casaluce
+Casapesenna
+Casapulla
+Caserta
+Castel Campagnano
+Castel di Sasso
+Castel Morrone
+Castel Volturno
+Castello del Matese
+Cellole
+Cervino
+Cesa
+Ciorlano
+Conca della Campania
+Curti
+Dragoni
+Falciano del Massico
+Fontegreca
+Formicola
+Francolise
+Frignano
+Gallo Matese
+Galluccio
+Giano Vetusto
+Gioia Sannitica
+Grazzanise
+Gricignano di Aversa
+Letino
+Liberi
+Lusciano
+Macerata Campania
+Maddaloni
+Marcianise
+Marzano Appio
+Mignano Monte Lungo
+Mondragone
+Orta di Atella
+Parete
+Pastorano
+Piana di Monte Verna
+Piedimonte Matese
+Pietramelara
+Pietravairano
+Pignataro Maggiore
+Pontelatone
+Portico di Caserta
+Prata Sannita
+Pratella
+Presenzano
+Raviscanina
+Recale
+Riardo
+Rocca d'Evandro
+Roccamonfina
+Roccaromana
+Rocchetta e Croce
+Ruviano
+San Cipriano d'Aversa
+San Felice a Cancello
+San Gregorio Matese
+San Marcellino
+San Marco Evangelista
+San Nicola la Strada
+San Pietro Infine
+San Potito Sannitico
+San Prisco
+San Tammaro
+Santa Maria a Vico
+Santa Maria Capua Vetere
+Santa Maria la Fossa
+Sant'Angelo d'Alife
+Sant'Arpino
+Sessa Aurunca
+Sparanise
+Succivo
+Teano
+Teverola
+Tora e Piccilli
+Trentola-Ducenta
+Vairano Patenora
+Valle Agricola
+Valle di Maddaloni
+Villa di Briano
+Villa Literno
+Vitulazio
+Airola
+Amorosi
+Apice
+Apollosa
+Arpaia
+Arpaise
+Baselice
+Benevento
+Bonea
+Bucciano
+Buonalbergo
+Calvi
+Campolattaro
+Campoli del Monte Taburno
+Casalduni
+Castelfranco in Miscano
+Castelpagano
+Castelpoto
+Castelvenere
+Castelvetere in Val Fortore
+Cautano
+Ceppaloni
+Cerreto Sannita
+Circello
+Colle Sannita
+Cusano Mutri
+Dugenta
+Durazzano
+Faicchio
+Foglianise
+Foiano di Val Fortore
+Forchia
+Fragneto l'Abate
+Fragneto Monforte
+Frasso Telesino
+Ginestra degli Schiavoni
+Guardia Sanframondi
+Limatola
+Melizzano
+Moiano
+Molinara
+Montefalcone di Val Fortore
+Montesarchio
+Morcone
+Paduli
+Pago Veiano
+Pannarano
+Paolisi
+Paupisi
+Pesco Sannita
+Pietraroja
+Pietrelcina
+Ponte
+Pontelandolfo
+Puglianello
+Reino
+San Bartolomeo in Galdo
+San Giorgio del Sannio
+San Giorgio La Molara
+San Leucio del Sannio
+San Lorenzello
+San Lorenzo Maggiore
+San Lupo
+San Marco dei Cavoti
+San Martino Sannita
+San Nazzaro
+San Nicola Manfredi
+San Salvatore Telesino
+Santa Croce del Sannio
+Sant'Agata de' Goti
+Sant'Angelo a Cupolo
+Sant'Arcangelo Trimonte
+Sassinoro
+Solopaca
+Telese Terme
+Tocco Caudio
+Torrecuso
+Vitulano
+Acerra
+Afragola
+Agerola
+Anacapri
+Arzano
+Bacoli
+Barano d'Ischia
+Boscoreale
+Boscotrecase
+Brusciano
+Caivano
+Calvizzano
+Camposano
+Capri
+Carbonara di Nola
+Cardito
+Casalnuovo di Napoli
+Casamarciano
+Casamicciola Terme
+Casandrino
+Casavatore
+Casola di Napoli
+Casoria
+Castellammare di Stabia
+Castello di Cisterna
+Cercola
+Cicciano
+Cimitile
+Comiziano
+Crispano
+Ercolano
+Forio
+Frattamaggiore
+Frattaminore
+Giugliano in Campania
+Gragnano
+Grumo Nevano
+Ischia
+Lacco Ameno
+Lettere
+Liveri
+Marano di Napoli
+Mariglianella
+Marigliano
+Massa di Somma
+Massa Lubrense
+Melito di Napoli
+Meta
+Monte di Procida
+Mugnano di Napoli
+Napoli
+Nola
+Ottaviano
+Palma Campania
+Piano di Sorrento
+Pimonte
+Poggiomarino
+Pollena Trocchia
+Pomigliano d'Arco
+Pompei
+Portici
+Pozzuoli
+Procida
+Qualiano
+Quarto
+Roccarainola
+San Gennaro Vesuviano
+San Giorgio a Cremano
+San Giuseppe Vesuviano
+San Paolo Bel Sito
+San Sebastiano al Vesuvio
+San Vitaliano
+Santa Maria la Carità
+Sant'Agnello
+Sant'Anastasia
+Sant'Antimo
+Sant'Antonio Abate
+Saviano
+Scisciano
+Serrara Fontana
+Somma Vesuviana
+Sorrento
+Striano
+Terzigno
+Torre Annunziata
+Torre del Greco
+Trecase
+Tufino
+Vico Equense
+Villaricca
+Visciano
+Volla
+Aiello del Sabato
+Altavilla Irpina
+Andretta
+Aquilonia
+Ariano Irpino
+Atripalda
+Avella
+Avellino
+Bagnoli Irpino
+Baiano
+Bisaccia
+Bonito
+Cairano
+Calabritto
+Calitri
+Candida
+Caposele
+Capriglia Irpina
+Carife
+Casalbore
+Cassano Irpino
+Castel Baronia
+Castelfranci
+Castelvetere sul Calore
+Cervinara
+Cesinali
+Chianche
+Chiusano di San Domenico
+Contrada
+Conza della Campania
+Domicella
+Flumeri
+Fontanarosa
+Forino
+Frigento
+Gesualdo
+Greci
+Grottaminarda
+Grottolella
+Guardia Lombardi
+Lacedonia
+Lapio
+Lauro
+Lioni
+Luogosano
+Manocalzati
+Marzano di Nola
+Melito Irpino
+Mercogliano
+Mirabella Eclano
+Montaguto
+Montecalvo Irpino
+Montefalcione
+Monteforte Irpino
+Montefredane
+Montefusco
+Montella
+Montemarano
+Montemiletto
+Monteverde
+Montoro Inferiore
+Montoro Superiore
+Morra De Sanctis
+Moschiano
+Mugnano del Cardinale
+Nusco
+Ospedaletto d'Alpinolo
+Pago del Vallo di Lauro
+Parolise
+Paternopoli
+Petruro Irpino
+Pietradefusi
+Pietrastornina
+Prata di Principato Ultra
+Pratola Serra
+Quadrelle
+Quindici
+Rocca San Felice
+Roccabascerana
+Rotondi
+Salza Irpina
+San Mango sul Calore
+San Martino Valle Caudina
+San Michele di Serino
+San Nicola Baronia
+San Potito Ultra
+San Sossio Baronia
+Santa Lucia di Serino
+Santa Paolina
+Sant'Andrea di Conza
+Sant'Angelo a Scala
+Sant'Angelo all'Esca
+Sant'Angelo dei Lombardi
+Santo Stefano del Sole
+Savignano Irpino
+Scampitella
+Senerchia
+Serino
+Sirignano
+Solofra
+Sorbo Serpico
+Sperone
+Sturno
+Summonte
+Taurano
+Taurasi
+Teora
+Torella dei Lombardi
+Torre Le Nocelle
+Torrioni
+Trevico
+Tufo
+Vallata
+Vallesaccarda
+Venticano
+Villamaina
+Villanova del Battista
+Volturara Irpina
+Zungoli
+Acerno
+Agropoli
+Albanella
+Alfano
+Altavilla Silentina
+Amalfi
+Angri
+Aquara
+Ascea
+Atena Lucana
+Atrani
+Auletta
+Baronissi
+Battipaglia
+Bellizzi
+Bellosguardo
+Bracigliano
+Buccino
+Buonabitacolo
+Caggiano
+Calvanico
+Camerota
+Campagna
+Campora
+Cannalonga
+Capaccio
+Casal Velino
+Casalbuono
+Casaletto Spartano
+Caselle in Pittari
+Castel San Giorgio
+Castel San Lorenzo
+Castelcivita
+Castellabate
+Castelnuovo Cilento
+Castelnuovo di Conza
+Castiglione del Genovesi
+Cava de' Tirreni
+Celle di Bulgheria
+Centola
+Ceraso
+Cetara
+Cicerale
+Colliano
+Conca dei Marini
+Controne
+Contursi Terme
+Corbara
+Corleto Monforte
+Cuccaro Vetere
+Eboli
+Felitto
+Fisciano
+Furore
+Futani
+Giffoni Sei Casali
+Giffoni Valle Piana
+Gioi
+Giungano
+Ispani
+Laureana Cilento
+Laurino
+Laurito
+Laviano
+Lustra
+Magliano Vetere
+Maiori
+Mercato San Severino
+Minori
+Moio della Civitella
+Montano Antilia
+Monte San Giacomo
+Montecorice
+Montecorvino Pugliano
+Montecorvino Rovella
+Monteforte Cilento
+Montesano sulla Marcellana
+Morigerati
+Nocera Inferiore
+Nocera Superiore
+Novi Velia
+Ogliastro Cilento
+Olevano sul Tusciano
+Oliveto Citra
+Omignano
+Orria
+Ottati
+Padula
+Pagani
+Palomonte
+Pellezzano
+Perdifumo
+Perito
+Pertosa
+Petina
+Piaggine
+Pisciotta
+Polla
+Pollica
+Pontecagnano Faiano
+Positano
+Postiglione
+Praiano
+Prignano Cilento
+Ravello
+Ricigliano
+Roccadaspide
+Roccagloriosa
+Roccapiemonte
+Rofrano
+Romagnano al Monte
+Roscigno
+Rutino
+Sacco
+Sala Consilina
+Salento
+Salerno
+Salvitelle
+San Cipriano Picentino
+San Giovanni a Piro
+San Gregorio Magno
+San Mango Piemonte
+San Marzano sul Sarno
+San Mauro Cilento
+San Mauro la Bruca
+San Pietro al Tanagro
+San Rufo
+San Valentino Torio
+Santa Marina
+Sant'Angelo a Fasanella
+Sant'Arsenio
+Sant'Egidio del Monte Albino
+Santomenna
+Sanza
+Sapri
+Sarno
+Sassano
+Scafati
+Scala
+Serramezzana
+Serre
+Sessa Cilento
+Siano
+Sicignano degli Alburni
+Stella Cilento
+Stio
+Teggiano
+Torchiara
+Torraca
+Torre Orsaia
+Tortorella
+Tramonti
+Trentinara
+Valle dell'Angelo
+Vallo della Lucania
+Valva
+Vibonati
+Vietri sul Mare
