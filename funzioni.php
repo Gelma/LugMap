@@ -59,6 +59,11 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
+
+
+  <script type="text/javascript" src="https://www.linux.it/shared/index.php?f=jquery.js"></script>
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script> -->
+  <script type="text/javascript" src="https://www.linux.it/shared/index.php?f=bootstrap.js"></script>
   <link href="https://www.linux.it/shared/?f=bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="https://www.linux.it/shared/?f=main.css" rel="stylesheet" type="text/css" />
 
@@ -82,8 +87,8 @@ function lugheader ($title, $extracss = null, $extrajs = null) {
   <meta property="og:locale" content="it_IT" />
   <meta property="og:description" content="La mappa dei Linux Users Groups italiani" />
 
-  <script type="text/javascript" src="https://www.linux.it/shared/index.php?f=jquery.js"></script>
-  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script> -->
+  
+
 
   <?php
     if ($extracss != null)
