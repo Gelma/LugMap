@@ -22,37 +22,37 @@ lugheader ('LugMap');
 
 ?>
 
-<div id="introTabel">
-	<div class="row">
-		<div class="col-sm descrizione">
-		<div>
-			La <b>LugMap</b> offre un elenco delle realt&agrave; che ruotano attorno al perno del
-			<a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>, come
-			<a class="generalink" href="http://it.wikipedia.org/wiki/Linux_User_Group">Linux Users Group</a>,
-			<a class="generalink" href="http://it.wikipedia.org/wiki/Hacklab">Hacklab</a> et similia.
+<div id="introTabel" class="container">
+	<div class="row align-items-center justify-content-center">
+		<div class="col-md">
+			<div>
+				La <b>LugMap</b> offre un elenco delle realt&agrave; che ruotano attorno al perno del
+				<a class="generalink" href="http://www.gnu.org/philosophy/free-sw.it.html">Software Libero</a>, come
+				<a class="generalink" href="http://it.wikipedia.org/wiki/Linux_User_Group">Linux Users Group</a>,
+				<a class="generalink" href="http://it.wikipedia.org/wiki/Hacklab">Hacklab</a> et similia.
+				<br />
+				Le voci, ordinate per regione e provincia, sono accessibili direttamente dalla cartina e
+				dall'elenco a lato, anche in versione
+				<a class="generalink" href="http://lugmap.linux.it/mappa/">georeferenziata</a>.
+			</div>
+
 			<br />
-			Le voci, ordinate per regione e provincia, sono accessibili direttamente dalla cartina e
-			dall'elenco a lato, anche in versione
-			<a class="generalink" href="http://lugmap.linux.it/mappa/">georeferenziata</a>.
+
+			<div>
+				Sono disponibili
+				<a class="generalink" href="/regione.php">l'elenco completo di tutti i LUG</a>
+				ordinati per provincia, una pagina dedicata alle
+				<a class="generalink" href="/statistiche.php">statistiche</a>, ed un
+				<a class="generalink" href="/lug-o-matic/">widget web</a> utilizzabile su siti esterni.
+			</div>
 		</div>
 
-		<br />
-
-		<div>
-			Sono disponibili
-			<a class="generalink" href="/regione.php">l'elenco completo di tutti i LUG</a>
-			ordinati per provincia, una pagina dedicata alle
-			<a class="generalink" href="/statistiche.php">statistiche</a>, ed un
-			<a class="generalink" href="/lug-o-matic/">widget web</a> utilizzabile su siti esterni.
-		</div>
-		</div>
-
-		<div class="col-sm mappa">
+		<div class="col-md text-center">
 			<script src="js/raphael-min.js" type="text/javascript" charset="utf-8"></script>
 			<script type="text/javascript" charset="utf-8">
 
 			window.onload = function () {
-				var R = Raphael("paper", 350, 400);
+				var R = Raphael("paper-map", '100%', 400);
 				var attr = {
 					fill: "#ffa200",
 					stroke: "#fff",
@@ -109,17 +109,17 @@ lugheader ('LugMap');
 			};
 			</script>
 
-			<div id="paper"></div>
+			<div id="paper-map"></div>
 		</div>
 
-		<div class="col-sm regioni w-100">
-		<?php
-			foreach ($elenco_regioni as $file => $nome) {
-			if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
-			if (in_array($file, array('emilia','friuli','trentino','valle'))) {continue;}
-			echo '<a id="' . $file . '" class="generalink" href="/'.$file.'/">' . $nome . '</a><br>';
-			}
-		?>
+		<div class="col-sm regioni">
+			<?php
+				foreach ($elenco_regioni as $file => $nome) {
+				if ($file == 'Italia') {$nome = 'Gruppi Nazionali';}
+				if (in_array($file, array('emilia','friuli','trentino','valle'))) {continue;}
+				echo '<a id="' . $file . '" class="generalink" href="/'.$file.'/">' . $nome . '</a><br>';
+				}
+			?>
 		</div>
 	</div>
 </div>
