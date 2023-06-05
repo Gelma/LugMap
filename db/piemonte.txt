@@ -1,8 +1,6 @@
 Alessandria|ILS Alessandria|Alessandria|https://alessandria.ils.org/|
 Asti|Progetto Radis|Asti|http://www.openlabasti.it|bfpne.cnfgebar@gva.vg|2098656825
 Biella|BiLug|Provincia di Biella|http://bilug.it/|vasb@ovyht.vg|2098656691
-Novara|LiNOx|Novara|http://www.linoxnovara.org/|yvabkabinen@tznvy.pbz|2098656771
-Novara|JetLUG|Arona|http://www.jetlug.it/|terra.evbg@tznvy.pbz
 Torino|ILS Torino|Torino|https://torino.ils.org/||
 Torino|GlugTO|Torino|http://www.glugto.org/|pnagnaan@tznvy.pbz
 Torino|Underscore HackLab|Torino|http://www.autistici.org/underscore/|haqrefpber@nhgvfgvpv.bet

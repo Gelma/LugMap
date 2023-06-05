@@ -1,5 +1,4 @@
 Bergamo|BgLUG|Bergamo e provincia|https://bglug.it/|erqfgneynof@tznvy.pbz
-Brescia|LugBS|Brescia e provincia|http://lugbs.linux.it/|ivcf@yhtof.yvahk.vg
 Brescia|Lugotto|Gottolengo|http://lugotto.linux.it/|fvzbar.ovtarggv@tznvy.pbz
 Como|GL-Como|Como|http://www.gl-como.it/|qrcevfpb.qnivqr@tznvy.pbz|2098656754
 Mantova|LugMan|Mantova e provincia|http://lugman.org/|snhfgb.cvppuv@tznvy.pbz|2098740838
@@ -14,4 +13,3 @@ Pavia|NutriaLUG|Pavia|https://www.facebook.com/groups/nutria.lug/|ahgevn.yht@tzn
 Varese|GULLP - Gruppo Utenti Linux Lonate Pozzolo|Provincia di Varese sud / Malpensa|http://www.gullp.it/|yhpn.crerapva@tznvy.pbz
 Varese|LIFO|Varese|http://www.lifolab.org/|fvzb@rffrrzzr.bet
 Varese|LinuxVar|Provincia di Varese|http://www.linuxvar.it/|tvnayhpn@cvcrk.anzr|2098656809
-Varese|LUG Saronno|Saronno|http://lugsaronno.altervista.org/|yhtfnebaab@tznvy.pbz
